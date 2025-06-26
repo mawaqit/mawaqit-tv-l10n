@@ -1,0 +1,8 @@
+arb-dir: l10n
+template-arb-file: intl_en.arb
+output-localization-file: mawaqit_tv_localizations.dart
+output-class: MawaqitTvLocalizations
+output-dir: lib/src/generated
+nullable-getter: false
+synthetic-package: false
+preferred-supported-locales: [ en, ar, fr ] 
