@@ -59,11 +59,6 @@ class MawaqitTvExtendedLocalizations {
       }
     }
 
-    // Special handling for Kurdish variants
-    if (locale.languageCode == 'ku') {
-      return const Locale('ku');
-    }
-
     // Default fallback
     return const Locale('en');
   }
