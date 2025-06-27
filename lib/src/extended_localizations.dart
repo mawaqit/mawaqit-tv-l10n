@@ -64,11 +64,6 @@ class MawaqitTvExtendedLocalizations {
       return const Locale('ku');
     }
 
-    // Special handling for Montenegrin
-    if (locale.languageCode == 'cnr' || locale.languageCode == 'me') {
-      return const Locale('cnr');
-    }
-
     // Default fallback
     return const Locale('en');
   }
