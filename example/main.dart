@@ -16,19 +16,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Mawaqit TV L10n Example',
       
-      // Add localization delegates
-      localizationsDelegates: MawaqitTvLocalizations.localizationsDelegates,
+      // Add localization delegates (includes Kurdish and Montenegrin support)
+      localizationsDelegates: MawaqitTvExtendedLocalizations.localizationsDelegates,
       
       // Specify supported locales
-      supportedLocales: MawaqitTvLocalizations.supportedLocales,
+      supportedLocales: MawaqitTvExtendedLocalizations.supportedLocales,
       
-      // Set locale resolution callback
-      localeResolutionCallback: (locale, supportedLocales) {
-        if (locale != null) {
-          return MawaqitTvLocaleUtils.getBestMatchingLocale(locale);
-        }
-        return MawaqitTvLocaleConstants.defaultLocale;
-      },
+      // Set locale resolution callback with extended support
+      localeResolutionCallback: MawaqitTvExtendedLocalizations.localeResolutionCallback,
       
       theme: ThemeData(
         primarySwatch: Colors.green,

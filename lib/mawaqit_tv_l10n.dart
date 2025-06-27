@@ -22,4 +22,5 @@ library mawaqit_tv_l10n;
 
 export 'src/generated/mawaqit_tv_localizations.dart';
 export 'src/locale_utils.dart';
-export 'src/constants.dart'; 
+export 'src/constants.dart';
+export 'src/extended_localizations.dart'; 

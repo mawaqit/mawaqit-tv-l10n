@@ -64,7 +64,7 @@ class MawaqitTvLocaleConstants {
     'bn': 'বাংলা',
     'bs': 'Bosanski',
     'ca': 'Català',
-    'cnr': 'Crnogorski',
+    'cnr': 'Crnogorski', // Montenegrin
     'cs': 'Čeština',
     'da': 'Dansk',
     'de': 'Deutsch',
@@ -84,7 +84,7 @@ class MawaqitTvLocaleConstants {
     'it': 'Italiano',
     'ja': '日本語',
     'ko': '한국어',
-    'ku': 'Kurdî',
+    'ku': 'کوردی', // Kurdish in Kurdish script
     'lt': 'Lietuvių',
     'lv': 'Latviešu',
     'ms': 'Bahasa Melayu',
@@ -127,5 +127,12 @@ class MawaqitTvLocaleConstants {
     'id', // Indonesian
     'ms', // Malay
     'bn', // Bengali
+    'ku', // Kurdish (significant Muslim population)
+  };
+
+  /// Languages that have extended localization support (beyond standard Flutter)
+  static const Set<String> extendedSupportLanguages = {
+    'ku', // Kurdish
+    'cnr', // Montenegrin
   };
 } 

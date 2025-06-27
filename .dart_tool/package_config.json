@@ -39,9 +39,15 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///opt/homebrew/Caskroom/flutter/3.13.4/flutter/packages/flutter",
+      "rootUri": "file:///Users/ds/fvm/versions/3.27.3/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.3"
+    },
+    {
+      "name": "flutter_kurdish_localization",
+      "rootUri": "file:///Users/ds/.pub-cache/git/flutter_kurdish_localization-1697571a15384954da04b6f37384bf8b9dcb6e31/",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
     },
     {
       "name": "flutter_lints",
@@ -51,15 +57,21 @@
     },
     {
       "name": "flutter_localizations",
-      "rootUri": "file:///opt/homebrew/Caskroom/flutter/3.13.4/flutter/packages/flutter_localizations",
+      "rootUri": "file:///Users/ds/fvm/versions/3.27.3/packages/flutter_localizations",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///opt/homebrew/Caskroom/flutter/3.13.4/flutter/packages/flutter_test",
+      "rootUri": "file:///Users/ds/fvm/versions/3.27.3/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.3"
+    },
+    {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///Users/ds/fvm/versions/3.27.3/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "3.2"
     },
     {
       "name": "intl",
@@ -110,14 +122,26 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "montenegrin_localization",
+      "rootUri": "file:///Users/ds/.pub-cache/hosted/pub.dev/montenegrin_localization-0.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "path",
       "rootUri": "file:///Users/ds/.pub-cache/hosted/pub.dev/path-1.9.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///Users/ds/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.8",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "sky_engine",
-      "rootUri": "file:///opt/homebrew/Caskroom/flutter/3.13.4/flutter/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///Users/ds/fvm/versions/3.27.3/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -174,17 +198,12 @@
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.17"
-    },
-    {
-      "name": "flutter_gen",
-      "rootUri": "flutter_gen",
-      "languageVersion": "2.12"
     }
   ],
-  "generated": "2025-06-26T20:36:23.325994Z",
+  "generated": "2025-06-27T06:11:42.729711Z",
   "generator": "pub",
   "generatorVersion": "3.6.1",
-  "flutterRoot": "file:///opt/homebrew/Caskroom/flutter/3.13.4/flutter",
+  "flutterRoot": "file:///Users/ds/fvm/versions/3.27.3",
   "flutterVersion": "3.27.3",
   "pubCache": "file:///Users/ds/.pub-cache"
 }

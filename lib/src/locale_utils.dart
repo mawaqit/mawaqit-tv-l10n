@@ -72,6 +72,11 @@ class MawaqitTvLocaleUtils {
     return '$languageName (${locale.languageCode})';
   }
 
+  /// Checks if a language has extended localization support (Kurdish/Montenegrin)
+  static bool hasExtendedSupport(String languageCode) {
+    return MawaqitTvLocaleConstants.extendedSupportLanguages.contains(languageCode);
+  }
+
   /// Groups locales by script/region for UI organization
   static Map<String, List<Locale>> groupLocalesByRegion() {
     return {
@@ -79,14 +84,14 @@ class MawaqitTvLocaleUtils {
           .where((locale) => isIslamicLanguage(locale.languageCode))
           .toList(),
       'European': MawaqitTvLocaleConstants.supportedLocales
-          .where((locale) => ['en', 'fr', 'de', 'es', 'it', 'pt', 'nl', 'da', 'sv', 'no', 'fi', 'pl', 'cs', 'hu', 'ro', 'bg', 'hr', 'sl', 'et', 'lv', 'lt'].contains(locale.languageCode))
+          .where((locale) => ['en', 'fr', 'de', 'es', 'it', 'pt', 'nl', 'da', 'sv', 'no', 'fi', 'pl', 'cs', 'hu', 'ro', 'bg', 'hr', 'sl', 'et', 'lv', 'lt', 'cnr'].contains(locale.languageCode))
           .toList(),
       'Asian': MawaqitTvLocaleConstants.supportedLocales
           .where((locale) => ['zh', 'ja', 'ko', 'th', 'vi', 'hi', 'bn', 'ta'].contains(locale.languageCode))
           .toList(),
       'Other': MawaqitTvLocaleConstants.supportedLocales
           .where((locale) => !isIslamicLanguage(locale.languageCode) && 
-                            !['en', 'fr', 'de', 'es', 'it', 'pt', 'nl', 'da', 'sv', 'no', 'fi', 'pl', 'cs', 'hu', 'ro', 'bg', 'hr', 'sl', 'et', 'lv', 'lt', 'zh', 'ja', 'ko', 'th', 'vi', 'hi', 'bn', 'ta'].contains(locale.languageCode))
+                            !['en', 'fr', 'de', 'es', 'it', 'pt', 'nl', 'da', 'sv', 'no', 'fi', 'pl', 'cs', 'hu', 'ro', 'bg', 'hr', 'sl', 'et', 'lv', 'lt', 'cnr', 'zh', 'ja', 'ko', 'th', 'vi', 'hi', 'bn', 'ta'].contains(locale.languageCode))
           .toList(),
     };
   }

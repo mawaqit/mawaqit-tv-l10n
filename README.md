@@ -15,7 +15,7 @@ A comprehensive internationalization (i18n) package for the Mawaqit TV Android a
 
 The package includes translations for the following languages:
 
-| Language | Code | Native Name | RTL |
+| Language | Code | Native Name | RTL/Extended |
 |----------|------|-------------|-----|
 | Arabic | `ar` | العربية | ✓ |
 | English | `en` | English | |
@@ -37,6 +37,7 @@ The package includes translations for the following languages:
 | Italian | `it` | Italiano | |
 | Dutch | `nl` | Nederlands | |
 | Polish | `pl` | Polski | |
+| Montenegrin | `cnr` | Crnogorski | Extended |
 | ... and 25+ more languages |
 
 ## Installation
@@ -73,18 +74,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Mawaqit TV',
       
-      // Add localization delegates
-      localizationsDelegates: MawaqitTvLocalizations.localizationsDelegates,
+      // Add localization delegates (includes Kurdish and Montenegrin support)
+      localizationsDelegates: MawaqitTvExtendedLocalizations.localizationsDelegates,
       
       // Specify supported locales
-      supportedLocales: MawaqitTvLocalizations.supportedLocales,
+      supportedLocales: MawaqitTvExtendedLocalizations.supportedLocales,
       
-      // Optional: Set locale resolution callback
-      localeResolutionCallback: (locale, supportedLocales) {
-        return MawaqitTvLocaleUtils.getBestMatchingLocale(
-          locale ?? const Locale('en')
-        );
-      },
+      // Set locale resolution callback with extended support
+      localeResolutionCallback: MawaqitTvExtendedLocalizations.localeResolutionCallback,
       
       home: HomeScreen(),
     );
