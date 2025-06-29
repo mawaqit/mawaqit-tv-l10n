@@ -24,6 +24,7 @@ class MawaqitTvExtendedLocalizations {
     
     // Kurdish localization
     KurdishMaterialLocalizations.delegate,
+    KurdishWidgetLocalizations.delegate,
     KurdishCupertinoLocalizations.delegate,
     
     // Montenegrin localization
