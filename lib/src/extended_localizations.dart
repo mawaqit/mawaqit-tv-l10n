@@ -24,7 +24,6 @@ class MawaqitTvExtendedLocalizations {
     
     // Kurdish localization
     KurdishMaterialLocalizations.delegate,
-    KurdishWidgetLocalizations.delegate,
     KurdishCupertinoLocalizations.delegate,
     
     // Montenegrin localization
@@ -43,6 +42,11 @@ class MawaqitTvExtendedLocalizations {
     Iterable<Locale> supportedLocales,
   ) {
     if (locale == null) {
+      return const Locale('en');
+    }
+
+    // Special handling for Kurdish - fallback to English
+    if (locale.languageCode.toLowerCase() == 'ff') {
       return const Locale('en');
     }
 
@@ -87,9 +91,11 @@ class MawaqitTvExtendedLocalizations {
   static LocalizationsDelegate<WidgetsLocalizations>? getWidgetDelegate(
     String languageCode,
   ) {
+    // Currently only Kurdish has widget localizations
     switch (languageCode) {
       case 'ku':
-        return KurdishWidgetLocalizations.delegate;
+        // Return null for now - widget localizations may not be available
+        return null;
       case 'cnr':
         return null;
       default:
