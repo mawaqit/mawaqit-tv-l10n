@@ -24,6 +24,7 @@ class MawaqitTvExtendedLocalizations {
     
     // Kurdish localization
     KurdishMaterialLocalizations.delegate,
+    KurdishWidgetLocalizations.delegate,
     KurdishCupertinoLocalizations.delegate,
     
     // Montenegrin localization
@@ -86,11 +87,9 @@ class MawaqitTvExtendedLocalizations {
   static LocalizationsDelegate<WidgetsLocalizations>? getWidgetDelegate(
     String languageCode,
   ) {
-    // Currently only Kurdish has widget localizations
     switch (languageCode) {
       case 'ku':
-        // Return null for now - widget localizations may not be available
-        return null;
+        return KurdishWidgetLocalizations.delegate;
       case 'cnr':
         return null;
       default:
