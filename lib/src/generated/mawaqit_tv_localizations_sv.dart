@@ -928,4 +928,25 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
 
   @override
   String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
+
+  @override
+  String get mosqueDefault => 'From your online configuration';
+
+  @override
+  String get processingRequest => 'Processing request...';
+
+  @override
+  String get replaceWorkflowWithStream => 'Automatically display the camera stream';
+
+  @override
+  String get replaceAppWorkflowWithCameraStream => 'The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display';
+
+  @override
+  String get streamError => 'An error occurred while streaming';
+
+  @override
+  String get alarmsSucessSchedule => 'On/Off triggers scheduled successfully';
+
+  @override
+  String get alarmsScheduleFailure => 'Failed to schedule On/Off triggers';
 }

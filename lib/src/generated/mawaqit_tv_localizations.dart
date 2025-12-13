@@ -1996,6 +1996,42 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'From your online configuration'**
   String get mosqueDefault;
+
+  /// No description provided for @processingRequest.
+  ///
+  /// In en, this message translates to:
+  /// **'Processing request...'**
+  String get processingRequest;
+
+  /// No description provided for @replaceWorkflowWithStream.
+  ///
+  /// In en, this message translates to:
+  /// **'Automatically display the camera stream'**
+  String get replaceWorkflowWithStream;
+
+  /// No description provided for @replaceAppWorkflowWithCameraStream.
+  ///
+  /// In en, this message translates to:
+  /// **'The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display'**
+  String get replaceAppWorkflowWithCameraStream;
+
+  /// No description provided for @streamError.
+  ///
+  /// In en, this message translates to:
+  /// **'An error occurred while streaming'**
+  String get streamError;
+
+  /// No description provided for @alarmsSucessSchedule.
+  ///
+  /// In en, this message translates to:
+  /// **'On/Off triggers scheduled successfully'**
+  String get alarmsSucessSchedule;
+
+  /// No description provided for @alarmsScheduleFailure.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to schedule On/Off triggers'**
+  String get alarmsScheduleFailure;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {
