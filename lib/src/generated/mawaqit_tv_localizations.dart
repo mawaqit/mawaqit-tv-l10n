@@ -169,6 +169,8 @@ abstract class MawaqitTvLocalizations {
     Locale('no'),
     Locale('pl'),
     Locale('pt'),
+    Locale('pt', 'BR'),
+    Locale('pt', 'PT'),
     Locale('ro'),
     Locale('ru'),
     Locale('sl'),
@@ -2007,6 +2009,16 @@ class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLoc
 
 MawaqitTvLocalizations lookupMawaqitTvLocalizations(Locale locale) {
 
+  // Lookup logic when language+country codes are specified.
+  switch (locale.languageCode) {
+    case 'pt': {
+  switch (locale.countryCode) {
+    case 'BR': return MawaqitTvLocalizationsPtBr();
+case 'PT': return MawaqitTvLocalizationsPtPt();
+   }
+  break;
+   }
+  }
 
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
