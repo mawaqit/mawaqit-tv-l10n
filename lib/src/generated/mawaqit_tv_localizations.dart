@@ -1990,6 +1990,12 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.'**
   String get duaBetweenAdhanIqamah;
+
+  /// No description provided for @mosqueDefault.
+  ///
+  /// In en, this message translates to:
+  /// **'From your online configuration'**
+  String get mosqueDefault;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {
