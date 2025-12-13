@@ -1,43 +1,32 @@
 /// Extended localizations for Mawaqit TV
-/// 
-/// This file provides additional localization delegates for Kurdish and Montenegrin
-/// languages to complement the standard Flutter localizations
+///
+/// This file provides localization delegates for all supported languages
+/// Note: Kurdish and Montenegrin language support is included via standard Flutter locales
 
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:montenegrin_localization/montenegrin_localization.dart';
-import 'package:flutter_kurdish_localization/flutter_kurdish_localization.dart';
 import 'generated/mawaqit_tv_localizations.dart';
 
-/// Extended localization delegates that include Kurdish and Montenegrin support
+/// Extended localization delegates for all supported languages
 class MawaqitTvExtendedLocalizations {
-  /// Complete list of localization delegates including Kurdish and Montenegrin
+  /// Complete list of localization delegates
   static List<LocalizationsDelegate<dynamic>> get localizationsDelegates => [
     // Mawaqit TV localizations
     MawaqitTvLocalizations.delegate,
-    
+
     // Standard Flutter localizations
     GlobalMaterialLocalizations.delegate,
     GlobalWidgetsLocalizations.delegate,
     GlobalCupertinoLocalizations.delegate,
-    
-    // Kurdish localization
-    KurdishMaterialLocalizations.delegate,
-    KurdishWidgetLocalizations.delegate,
-    KurdishCupertinoLocalizations.delegate,
-    
-    // Montenegrin localization
-    MontenegrinMaterialLocalizations.delegate,
   ];
 
-  /// All supported locales including Kurdish and Montenegrin
+  /// All supported locales
   static const List<Locale> supportedLocales = [
-    // Standard locales from our package
     ...MawaqitTvLocalizations.supportedLocales,
   ];
 
-  /// Locale resolution callback that handles Kurdish and Montenegrin properly
+  /// Locale resolution callback with special handling for certain locales
   static Locale? localeResolutionCallback(
     Locale? locale,
     Iterable<Locale> supportedLocales,
@@ -46,8 +35,9 @@ class MawaqitTvExtendedLocalizations {
       return const Locale('en');
     }
 
-    // Special handling for Kurdish - fallback to English
-    if (locale.languageCode.toLowerCase() == 'ff') {
+    // Special handling for Fulah (ff) and Bashkir (ba) - fallback to English
+    if (locale.languageCode.toLowerCase() == 'ff' ||
+        locale.languageCode.toLowerCase() == 'ba') {
       return const Locale('en');
     }
 
@@ -67,54 +57,5 @@ class MawaqitTvExtendedLocalizations {
 
     // Default fallback
     return const Locale('en');
-  }
-
-  /// Check if a locale has extended localization support
-  static bool hasExtendedSupport(Locale locale) {
-    return locale.languageCode == 'ku' || locale.languageCode == 'cnr';
-  }
-
-  /// Get the appropriate material localizations for Kurdish and Montenegrin
-  static LocalizationsDelegate<MaterialLocalizations>? getMaterialDelegate(
-    String languageCode,
-  ) {
-    switch (languageCode) {
-      case 'ku':
-        return KurdishMaterialLocalizations.delegate;
-      case 'cnr':
-        return MontenegrinMaterialLocalizations.delegate;
-      default:
-        return null;
-    }
-  }
-
-  /// Get the appropriate widget localizations for Kurdish and Montenegrin
-  static LocalizationsDelegate<WidgetsLocalizations>? getWidgetDelegate(
-    String languageCode,
-  ) {
-    // Currently only Kurdish has widget localizations
-    switch (languageCode) {
-      case 'ku':
-        // Return null for now - widget localizations may not be available
-        return null;
-      case 'cnr':
-        return null;
-      default:
-        return null;
-    }
-  }
-
-  /// Get the appropriate Cupertino localizations for Kurdish and Montenegrin
-  static LocalizationsDelegate<CupertinoLocalizations>? getCupertinoDelegate(
-    String languageCode,
-  ) {
-    switch (languageCode) {
-      case 'ku':
-        return KurdishCupertinoLocalizations.delegate;
-      case 'cnr':
-        return null; // Montenegrin may not have Cupertino localizations
-      default:
-        return null;
-    }
   }
 } 
