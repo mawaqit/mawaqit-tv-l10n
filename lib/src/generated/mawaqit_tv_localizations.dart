@@ -148,6 +148,7 @@ abstract class MawaqitTvLocalizations {
     Locale('da'),
     Locale('de'),
     Locale('el'),
+    Locale.fromSubtags(languageCode: 'en', scriptCode: 'backup'),
     Locale('es'),
     Locale('et'),
     Locale('fa'),
@@ -316,6 +317,12 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'in'**
   String get in1;
+
+  /// No description provided for @azanIn.
+  ///
+  /// In en, this message translates to:
+  /// **'Azan in'**
+  String get azanIn;
 
   /// No description provided for @sec.
   ///
@@ -1097,6 +1104,12 @@ abstract class MawaqitTvLocalizations {
   /// **'Random hadith language'**
   String get randomHadithLanguage;
 
+  /// No description provided for @mosqueDefault.
+  ///
+  /// In en, this message translates to:
+  /// **'From your online configuration'**
+  String get mosqueDefault;
+
   /// No description provided for @en.
   ///
   /// In en, this message translates to:
@@ -1204,6 +1217,36 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Retry'**
   String get retry;
+
+  /// No description provided for @reciterLoadError.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to load reciters'**
+  String get reciterLoadError;
+
+  /// No description provided for @reciterNetworkError.
+  ///
+  /// In en, this message translates to:
+  /// **'Please check your internet connection and try again'**
+  String get reciterNetworkError;
+
+  /// No description provided for @reciterServerError.
+  ///
+  /// In en, this message translates to:
+  /// **'Server is temporarily unavailable. Please try again later'**
+  String get reciterServerError;
+
+  /// No description provided for @reciterTimeoutError.
+  ///
+  /// In en, this message translates to:
+  /// **'Request timed out. Please try again'**
+  String get reciterTimeoutError;
+
+  /// No description provided for @surahLoadError.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to load surahs'**
+  String get surahLoadError;
 
   /// No description provided for @timeSetting.
   ///
@@ -1991,17 +2034,23 @@ abstract class MawaqitTvLocalizations {
   /// **'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.'**
   String get duaBetweenAdhanIqamah;
 
-  /// No description provided for @mosqueDefault.
-  ///
-  /// In en, this message translates to:
-  /// **'From your online configuration'**
-  String get mosqueDefault;
-
   /// No description provided for @processingRequest.
   ///
   /// In en, this message translates to:
   /// **'Processing request...'**
   String get processingRequest;
+
+  /// No description provided for @loadingStream.
+  ///
+  /// In en, this message translates to:
+  /// **'Loading stream...'**
+  String get loadingStream;
+
+  /// No description provided for @rtspUrlHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter RTSP URL or YouTube link'**
+  String get rtspUrlHint;
 
   /// No description provided for @replaceWorkflowWithStream.
   ///
@@ -2021,6 +2070,18 @@ abstract class MawaqitTvLocalizations {
   /// **'An error occurred while streaming'**
   String get streamError;
 
+  /// No description provided for @finish.
+  ///
+  /// In en, this message translates to:
+  /// **'Finish'**
+  String get finish;
+
+  /// No description provided for @schedulingAlarms.
+  ///
+  /// In en, this message translates to:
+  /// **'Scheduling on/off times...'**
+  String get schedulingAlarms;
+
   /// No description provided for @alarmsSucessSchedule.
   ///
   /// In en, this message translates to:
@@ -2032,6 +2093,30 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Failed to schedule On/Off triggers'**
   String get alarmsScheduleFailure;
+
+  /// No description provided for @prayerTimeNotificationTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Prayer Time Notifications'**
+  String get prayerTimeNotificationTitle;
+
+  /// No description provided for @prayerTimeNotificationDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Get the adhan at prayer times, even when the app is closed'**
+  String get prayerTimeNotificationDesc;
+
+  /// No description provided for @enablePrayerReminders.
+  ///
+  /// In en, this message translates to:
+  /// **'Enable Prayer Reminders'**
+  String get enablePrayerReminders;
+
+  /// No description provided for @enablePrayerRemindersDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Works automatically in the background'**
+  String get enablePrayerRemindersDesc;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {
@@ -2050,6 +2135,16 @@ class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLoc
 }
 
 MawaqitTvLocalizations lookupMawaqitTvLocalizations(Locale locale) {
+
+  // Lookup logic when language+script codes are specified.
+  switch (locale.languageCode) {
+    case 'en': {
+  switch (locale.scriptCode) {
+    case 'backup': return MawaqitTvLocalizationsEnBackup();
+   }
+  break;
+   }
+  }
 
   // Lookup logic when language+country codes are specified.
   switch (locale.languageCode) {

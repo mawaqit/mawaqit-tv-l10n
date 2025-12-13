@@ -73,6 +73,9 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get in1 => 'em';
 
   @override
+  String get azanIn => 'Azan in';
+
+  @override
   String get sec => 'Seg';
 
   @override
@@ -465,6 +468,9 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get randomHadithLanguage => 'Idioma hadith aleatório';
 
   @override
+  String get mosqueDefault => 'From your online configuration';
+
+  @override
   String get en => 'Inglês';
 
   @override
@@ -517,6 +523,21 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
 
   @override
   String get retry => 'Repetir';
+
+  @override
+  String get reciterLoadError => 'Unable to load reciters';
+
+  @override
+  String get reciterNetworkError => 'Please check your internet connection and try again';
+
+  @override
+  String get reciterServerError => 'Server is temporarily unavailable. Please try again later';
+
+  @override
+  String get reciterTimeoutError => 'Request timed out. Please try again';
+
+  @override
+  String get surahLoadError => 'Unable to load surahs';
 
   @override
   String get timeSetting => 'Configurando hora';
@@ -930,10 +951,13 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
 
   @override
-  String get mosqueDefault => 'From your online configuration';
+  String get processingRequest => 'Processing request...';
 
   @override
-  String get processingRequest => 'Processing request...';
+  String get loadingStream => 'Loading stream...';
+
+  @override
+  String get rtspUrlHint => 'Enter RTSP URL or YouTube link';
 
   @override
   String get replaceWorkflowWithStream => 'Automatically display the camera stream';
@@ -945,10 +969,28 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get streamError => 'An error occurred while streaming';
 
   @override
+  String get finish => 'Finish';
+
+  @override
+  String get schedulingAlarms => 'Scheduling on/off times...';
+
+  @override
   String get alarmsSucessSchedule => 'On/Off triggers scheduled successfully';
 
   @override
   String get alarmsScheduleFailure => 'Failed to schedule On/Off triggers';
+
+  @override
+  String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
+
+  @override
+  String get prayerTimeNotificationDesc => 'Get the adhan at prayer times, even when the app is closed';
+
+  @override
+  String get enablePrayerReminders => 'Enable Prayer Reminders';
+
+  @override
+  String get enablePrayerRemindersDesc => 'Works automatically in the background';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -1020,6 +1062,9 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
 
   @override
   String get in1 => 'em';
+
+  @override
+  String get azanIn => 'Azán em';
 
   @override
   String get sec => 'Seg';
@@ -1945,6 +1990,9 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
 
   @override
   String get in1 => 'em';
+
+  @override
+  String get azanIn => 'Azán em';
 
   @override
   String get sec => 'Seg';
