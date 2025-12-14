@@ -73,6 +73,9 @@ class MawaqitTvLocalizationsEt extends MawaqitTvLocalizations {
   String get in1 => 'aadressil';
 
   @override
+  String get azanIn => 'Azan in';
+
+  @override
   String get sec => 'Sek';
 
   @override
@@ -465,6 +468,9 @@ class MawaqitTvLocalizationsEt extends MawaqitTvLocalizations {
   String get randomHadithLanguage => 'Random hadith language';
 
   @override
+  String get mosqueDefault => 'From your online configuration';
+
+  @override
   String get en => 'English';
 
   @override
@@ -517,6 +523,21 @@ class MawaqitTvLocalizationsEt extends MawaqitTvLocalizations {
 
   @override
   String get retry => 'Retry';
+
+  @override
+  String get reciterLoadError => 'Unable to load reciters';
+
+  @override
+  String get reciterNetworkError => 'Please check your internet connection and try again';
+
+  @override
+  String get reciterServerError => 'Server is temporarily unavailable. Please try again later';
+
+  @override
+  String get reciterTimeoutError => 'Request timed out. Please try again';
+
+  @override
+  String get surahLoadError => 'Unable to load surahs';
 
   @override
   String get timeSetting => 'Configuring the time';
@@ -928,4 +949,46 @@ class MawaqitTvLocalizationsEt extends MawaqitTvLocalizations {
 
   @override
   String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
+
+  @override
+  String get processingRequest => 'Processing request...';
+
+  @override
+  String get loadingStream => 'Loading stream...';
+
+  @override
+  String get rtspUrlHint => 'Enter RTSP URL or YouTube link';
+
+  @override
+  String get replaceWorkflowWithStream => 'Automatically display the camera stream';
+
+  @override
+  String get replaceAppWorkflowWithCameraStream => 'The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display';
+
+  @override
+  String get streamError => 'An error occurred while streaming';
+
+  @override
+  String get finish => 'Finish';
+
+  @override
+  String get schedulingAlarms => 'Scheduling on/off times...';
+
+  @override
+  String get alarmsSucessSchedule => 'On/Off triggers scheduled successfully';
+
+  @override
+  String get alarmsScheduleFailure => 'Failed to schedule On/Off triggers';
+
+  @override
+  String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
+
+  @override
+  String get prayerTimeNotificationDesc => 'Get the adhan at prayer times, even when the app is closed';
+
+  @override
+  String get enablePrayerReminders => 'Enable Prayer Reminders';
+
+  @override
+  String get enablePrayerRemindersDesc => 'Works automatically in the background';
 }
