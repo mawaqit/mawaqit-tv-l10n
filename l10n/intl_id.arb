@@ -21,6 +21,7 @@
   "lightMode": "Mode terang",
   "changeMosque": "Ubah Masjid",
   "in1": "dalam",
+  "azanIn": "Azan dalam",
   "sec": "Detik",
   "online": "Online",
   "missingMosqueId": "Hilang MAWAQIT #ID atau MOSQUE #ID",
@@ -53,7 +54,7 @@
   "asr": "Ashar",
   "maghrib": "Maghrib",
   "isha": "Isya'",
-  "afterAdhanHadithTitle": "Setelah adzan Du`aa",
+  "afterAdhanHadithTitle": "Doa Setelah Adzan",
   "afterSalahHadith": "Allahumma Rabba haadzihid-da’watit-taammah, wash-sholaatil-qaa’imah, aati sayyidanaa Muhammadanil-washiilata wal-fadhilah wash-syarafa wad-darajatal-‘aliyatar-rafii’ah, wab’atshu maqaamam-mahmudanil-ladzi wa’adtah, innaka laa tukhliful-mii’aad, yaa Arhamar-Raahimiin. (\"Ya Allah, Tuhan yang mempunyai seruan yang sempurna, dan sholat yang akan didirikan, karuniakanlah junjungan kami nabi Muhammad tempat yang luhur, kelebihan, kemuliaan, dan derajat yang tinggi. Dan tempatkanlah ia pada kedudukan yang terpuji seperti yang telah Engkau janjikan. Sesungguhnya Engkau tiada menyalahi janji. Wahai dzat yang Maha Penyayang”)",
   "alIqama": "Iqomah",
   "alAdhan": "Azan",
@@ -98,7 +99,7 @@
   },
   "azkarList9": "",
   "@azkarList9": {
-    "description": ".| اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات"
+    "description": "اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات|. [ وإذا أمسى قال: اللَّهم إني أمسيت...]"
   },
   "azkarList10": "",
   "@azkarList10": {
@@ -149,7 +150,7 @@
   "prayerTimes": "Waktu Sholat",
   "alerts": "Waspada",
   "iqamaaCountDown": "Iqamaa Hitung Mundur",
-  "afterAdhanHadith": "Setelah Adzan Hadis",
+  "afterAdhanHadith": "Hadist Setelah Adzan",
   "afterSalahAzkar": "Setelah Salah Azkar",
   "iqama": "Iqama",
   "randomHadith": "Hadis Acak",
@@ -199,6 +200,7 @@
   "recommended": "Direkomendasikan",
   "sabah": "Sabah",
   "randomHadithLanguage": "Bahasa hadis random/acak",
+  "mosqueDefault": "Dari konfigurasi online Anda",
   "en": "Bahasa Inggris",
   "fr": "Bahasa Prancis",
   "ar": "Bahasa Arab",
@@ -217,6 +219,11 @@
   "nl_ar": "Bahasa Belanda & Arab",
   "connectToChangeHadith": "Harap hubungkan ke internet untuk mengubah bahasa hadis.",
   "retry": "Coba lagi.",
+  "reciterLoadError": "Gagal memuat qari",
+  "reciterNetworkError": "Silakan periksa koneksi internet Anda dan coba lagi",
+  "reciterServerError": "Server sementara tidak tersedia. Silakan coba lagi nanti",
+  "reciterTimeoutError": "Permintaan melebihi batas waktu. Silakan coba lagi",
+  "surahLoadError": "Gagal memuat surah",
   "timeSetting": "Konfigurasi waktu",
   "timeSettingDesc": "Setel waktu sesuai keinginan (custom)",
   "selectedTime": "Waktu yang dipilih saat ini",
@@ -294,6 +301,171 @@
       }
     }
   },
+  "quranReadingPagePortrait": "Halaman {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
   "chooseQuranPage": "Pilih halaman",
-  "checkingForUpdates": "Memeriksa pembaruan"
+  "checkingForUpdates": "Memeriksa pembaruan",
+  "chooseQuranType": "Pilih Jenis quran",
+  "hafs": "Hafis",
+  "warsh": "Warsh",
+  "favorites": "Favorit",
+  "allReciters": "Semua qori",
+  "reciterAddedToFavorites": "Qori di hapus dari favorite",
+  "@reciterAddedToFavorites": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "reciterRemovedFromFavorites": "Qori {name} dihapus dari daftar favorit",
+  "@reciterRemovedFromFavorites": {
+    "description": "Message shown when a reciter is removed from favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "noFavoriteReciters": "Belum ada favorit qori. Silahkan ditambahkan ke dalam daftar",
+  "@noFavoriteReciters": {
+    "description": "Message shown when there are no favorite reciters"
+  },
+  "noReciterSearchResult": "Tidak ada hasil ditemukan dari pencarian anda",
+  "searchForReciter": "Cari berdasarnakan nama Qori",
+  "downloadAllSuwarSuccessfully": "Seluruh Al Quran telah berhasil di download",
+  "noSuwarDownload": "Tidak ada surah baru untuk diunduh",
+  "connectDownloadQuran": "Silahkan terhubung ke internet untuk melakukan download",
+  "playInOnlineModeQuran": "Silahkan terhubung ke internet untuk memulai",
+  "downloaded": "Diunduh",
+  "switchQuranType": "Buka {name}",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "Pilih Surat",
+  "checkForUpdates": "Periksa pembaruan/update",
+  "checkForNewVersion": "Cek jika versi terbaru telah tersedia",
+  "wouldYouLikeToUpdate": "Apakah anda ingin melakukan pembaharuan/update pada aplikasi?",
+  "updateCompleted": "Update/pembaharuan berhasil!",
+  "noUpdates": "Tidak ada update/pembaharuan",
+  "usingLatestVersion": "Kamu telah menggunakan versi terbaru.",
+  "updateCancelled": "Update dibatalkan",
+  "checkingUpdates": "Memeriksa update/pembaruan...",
+  "downloadingUpdate": "Mengunduh update/pembaruan...",
+  "installingUpdate": "Menginstal update/pembaruan...",
+  "updateCompletedSuccessfully": "Update/pembaharuan berhasil",
+  "updateFailed": "Update/pembaharuan gagal",
+  "save": "simpan",
+  "enterRtspUrl": "Masukan RSTP atau link Youtube Live",
+  "addRtspUrl": "Tambahkan link kamera stream anda dibawah ini",
+  "enableRtspCamera": "Aktifkan kamera streaming",
+  "rtspCameraSettings": "Pengaturan kamera",
+  "invalidRtspUrl": "URL/Link tidak valid. Harap periksa URL/Link dan coba lagi.",
+  "validRtspUrl": "URL/Link tervalidasi dan berhasil disimpan.",
+  "rtspCameraSettingTitle": "Koneksi Live kamera",
+  "rtspCameraSettingDesc": "Hubungkan ke kamera lokal Anda dan tampilkan siaran shalat Jumat di layar TV.",
+  "rtspCameraSettingScreenDesc": "Jika Anda memasukkan URL/Link di sini, layar Anda akan secara otomatis beralih ke streaming video saat waktu Jumat tiba",
+  "validatingStream": "Memvalidasi stream...",
+  "checkInternetLiveCamera": "Anda harus terhubung ke internet untuk mengatur live kamera",
+  "somethingWentWrong": "Terjadi kesalahan, silakan coba lagi",
+  "somethingWrong": "Ada yang tidak beres",
+  "tryAgainLater": "Silakan coba lagi nanti",
+  "hintTextRtspUrl": "rtsp://... atau https://youtube.com/live/...",
+  "checkInternetUpdate": "Anda harus terhubung ke internet untuk memeriksa pembaruan baru",
+  "appUpdateAvailable": "Aplikasi Anda menjalankan versi {currentVersion}. Pembaruan baru (versi {updatedVersion}) tersedia dengan fitur dan penyempurnaan terkini.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "Pembaruan baru untuk Al-Quran {moshafName} (versi {version}) telah tersedia.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "Hanya sholat Subuh dan Isya",
+  "minutesBeforeFajrPrayer": "menit sebelum waktu sholat subuh",
+  "minutesAfterIshaPrayer": "menit setelah waktu sholat isya",
+  "scheduleSaved": "Jadwal Anda telah disimpan.",
+  "completeAllFields": "Harap lengkapi semua kolom sebelum menyimpan.",
+  "endTimeAfter": "Waktu akhir harus setelah waktu mulai.",
+  "scheduleListening": "Jadwal mendengarkan",
+  "enableScheduling": "Aktifkan Penjadwalan",
+  "scheduleDesc": "Aktifkan fitur ini untuk memutar Surah secara otomatis pada waktu yang dijadwalkan.",
+  "startTime": "Waktu Mulai",
+  "endTime": "Waktu berakhir",
+  "selectReciter": "Pilih Qori",
+  "selectMoshaf": "Pilih Mushaf",
+  "randomSurahSelection": "Pemilihan surah secara acak",
+  "selectSurah": "Pilih surah",
+  "initializingAutoReading": "Inisialisasi sedang berlangsung...",
+  "prayerTimeNotification": "Pemberitahuan waktu {salahName} ({prayerTime})",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Silakan terhubung ke internet untuk menjadwalkan mendengarkan Al-Quran",
+  "duaaBetweenAdhanAndIqamaaTitle": "Doa tidak tertolak antara adzan dan iqamah",
+  "duaBetweenAdhanIqamah": "Doa tidak tertolak antara adzan dan iqamah.",
+  "processingRequest": "Memproses permintaan...",
+  "loadingStream": "Memuat stream...",
+  "rtspUrlHint": "Masukkan URL RTSP atau tautan YouTube",
+  "replaceWorkflowWithStream": "Tampilkan streaming kamera secara otomatis",
+  "replaceAppWorkflowWithCameraStream": "Layar akan otomatis menampilkan streaming kamera saat kamera mulai merekam; jika berhenti, layar akan kembali ke tampilan jadwal shalat",
+  "streamError": "Terjadi kesalahan saat melakukan streaming",
+  "finish": "Selesai",
+  "schedulingAlarms": "Menjadwalkan waktu hidup/mati...",
+  "alarmsSucessSchedule": "Pemicu hidup/mati berhasil dijadwalkan",
+  "alarmsScheduleFailure": "Gagal menjadwalkan pemicu hidup/mati",
+  "prayerTimeNotificationTitle": "Notifikasi Waktu Shalat",
+  "prayerTimeNotificationDesc": "Dapatkan adzan pada waktu shalat, bahkan saat aplikasi ditutup",
+  "enablePrayerReminders": "Aktifkan Pengingat Shalat",
+  "enablePrayerRemindersDesc": "Berjalan otomatis di latar belakang"
 }

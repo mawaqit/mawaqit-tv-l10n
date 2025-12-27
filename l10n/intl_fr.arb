@@ -21,6 +21,7 @@
   "lightMode": "Mode clair",
   "changeMosque": "Changer de Mosquée",
   "in1": "dans",
+  "azanIn": "Azan en",
   "sec": "Sec",
   "online": "Connecté",
   "missingMosqueId": "Numéro d'identification MAWAQIT #ID ou MOSQUE #ID manquant",
@@ -300,6 +301,20 @@
       }
     }
   },
+  "quranReadingPagePortrait": "Page {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
   "chooseQuranPage": "Choisir une page",
   "checkingForUpdates": "Vérification des mises à jour...",
   "chooseQuranType": "Choisir quran",
@@ -307,7 +322,6 @@
   "warsh": "Warch",
   "favorites": "Favoris",
   "allReciters": "Tous les Réciteurs",
-  "noFavoriteReciters": "Pas de réciteur favori. Essayez d'en ajouter un à la liste",
   "reciterAddedToFavorites": "Le réciteur {name} a été ajouté aux favoris",
   "@reciterAddedToFavorites": {
     "description": "Message shown when a reciter is added to favorites",
@@ -332,11 +346,11 @@
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"
   },
-    "noReciterSearchResult": "Aucun résultat trouvé pour votre recherche.",
-    "searchForReciter": "Chercher un réciteur",
+  "noReciterSearchResult": "Aucun résultat trouvé pour votre recherche.",
+  "searchForReciter": "Chercher un réciteur",
   "downloadAllSuwarSuccessfully": "Tout le Coran est téléchargé",
   "noSuwarDownload": "Aucune nouvelle sourate à télécharger",
-  "connectDownloadQuran":"Veuillez vous connecter à Internet pour télécharger",
+  "connectDownloadQuran": "Veuillez vous connecter à Internet pour télécharger",
   "playInOnlineModeQuran": "Veuillez vous connecter à Internet pour jouer",
   "downloaded": "Téléchargé",
   "switchQuranType": "Aller à {name}",
@@ -349,33 +363,19 @@
       }
     }
   },
-  "surahSelector":"Sélectionner une sourat",
-  "quranReadingPagePortrait": "Page {currentPage} / {totalPages}",
-  "@quranReadingPagePortrait": {
-    "description": "Placeholder text for displaying Quran reading page portrait numbers",
-    "placeholders": {
-      "currentPage": {
-        "type": "int",
-        "example": "1"
-      },
-      "totalPages": {
-        "type": "int",
-        "example": "604"
-      }
-    }
-  },
-  "scheduleSaved": "Votre planification a été enregistré.",
-  "completeAllFields": "Veuillez remplir tous les champs avant de sauvegarder.",
-  "endTimeAfter": "L'heure de fin doit être postérieure à l'heure de début.",
-  "scheduleListening": "Écoute planifiée",
-  "enableScheduling": "Activer la planification",
-  "scheduleDesc": "Activez cette fonctionnalité pour lire automatiquement une Sourate aux heures planifiées.",
-  "startTime": "Heure de Début",
-  "endTime": "Heure de Fin",
-  "selectReciter": "Choisissez un Récitateur",
-  "selectMoshaf": "Choisissez un Moushaf",
-  "randomSurahSelection": "Sélection Aléatoire de Sourate",
-  "selectSurah": "Choisissez une Sourate",
+  "surahSelector": "Sélectionner une sourat",
+  "checkForUpdates": "Vérifier les mises à jour",
+  "checkForNewVersion": "Vérifiez si une nouvelle version est disponible",
+  "wouldYouLikeToUpdate": "Souhaitez-vous mettre à jour l'application ?",
+  "updateCompleted": "Mise à jour terminée avec succès !",
+  "noUpdates": "Aucune mise à jour",
+  "usingLatestVersion": "Vous utilisez la dernière version.",
+  "updateCancelled": "Mise à jour annulée",
+  "checkingUpdates": "Vérification des mises à jour...",
+  "downloadingUpdate": "Téléchargement de la mise à jour...",
+  "installingUpdate": "Installation de la mise à jour...",
+  "updateCompletedSuccessfully": "Mise à jour terminée avec succès",
+  "updateFailed": "Échec de la mise à jour",
   "save": "Sauvegarder",
   "enterRtspUrl": "Entrez l'URL RTSP ou YouTube Live",
   "addRtspUrl": "Ajoutez l'URL de votre flux de caméra ci-dessous",
@@ -391,23 +391,11 @@
   "somethingWentWrong": "Quelque chose s'est mal passé ! Veuillez réessayer",
   "somethingWrong": "Quelque chose s'est mal passé",
   "tryAgainLater": "Veuillez réessayer plus tard",
-  "checkForUpdates": "Vérifier les mises à jour",
-  "checkForNewVersion": "Vérifiez si une nouvelle version est disponible",
-  "wouldYouLikeToUpdate": "Souhaitez-vous mettre à jour l'application ?",
-  "updateCompleted": "Mise à jour terminée avec succès !",
-  "noUpdates": "Aucune mise à jour",
-  "usingLatestVersion": "Vous utilisez la dernière version.",
-  "updateCancelled": "Mise à jour annulée",
-  "checkingUpdates": "Vérification des mises à jour...",
-  "downloadingUpdate": "Téléchargement de la mise à jour...",
-  "installingUpdate": "Installation de la mise à jour...",
-  "updateCompletedSuccessfully": "Mise à jour terminée avec succès",
-  "updateFailed": "Échec de la mise à jour",
-  "updateFailed": "Échec de la mise à jour",
+  "hintTextRtspUrl": "rtsp://... ou https://youtube.com/live/...",
   "checkInternetUpdate": "Vous devez être connecté à Internet pour vérifier les nouvelles mises à jour",
   "appUpdateAvailable": "Votre application utilise la version {currentVersion}. Une nouvelle mise à jour (version {updatedVersion}) est disponible avec les dernières fonctionnalités et améliorations.",
   "@appUpdateAvailable": {
-    "description": "Texte de remplacement pour afficher le message de mise à jour disponible",
+    "description": "Placeholder text for displaying update available message",
     "placeholders": {
       "currentVersion": {
         "type": "String",
@@ -419,21 +407,65 @@
       }
     }
   },
+  "quranUpdateDialogContent": "Une nouvelle mise à jour pour le Quran {moshafName} (version {version}) est disponible.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
   "ishaAndFajrOnly": "Seulement les prières Fajr et d'Isha",
   "minutesBeforeFajrPrayer": "minutes avant l'heure de la prière de Fajr",
   "minutesAfterIshaPrayer": "minutes après l'heure de la prière d'Isha",
-  "scheduleInOnlineMode":"Veuillez vous connecter à Internet pour planifier l'écoute du Coran.",
-  "duaaBetweenAdhanAndIqamaaTitle": "L'invocation n'est pas rejetée entre l'adhan et l'iqama",
+  "scheduleSaved": "Votre planification a été enregistré.",
+  "completeAllFields": "Veuillez remplir tous les champs avant de sauvegarder.",
+  "endTimeAfter": "L'heure de fin doit être postérieure à l'heure de début.",
+  "scheduleListening": "Écoute planifiée",
+  "enableScheduling": "Activer la planification",
+  "scheduleDesc": "Activez cette fonctionnalité pour lire automatiquement une Sourate aux heures planifiées.",
+  "startTime": "Heure de Début",
+  "endTime": "Heure de Fin",
+  "selectReciter": "Choisissez un Récitateur",
+  "selectMoshaf": "Choisissez un Moushaf",
+  "randomSurahSelection": "Sélection Aléatoire de Sourate",
+  "selectSurah": "Choisissez une Sourate",
   "initializingAutoReading": "Initialisation en cours...",
+  "prayerTimeNotification": "Notification {salahName} fois ({prayerTime})",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Veuillez vous connecter à Internet pour planifier l'écoute du Coran.",
+  "duaaBetweenAdhanAndIqamaaTitle": "La supplication (Du'a) n'est pas rejetée entre l'Adhan et Iqamah",
+  "duaBetweenAdhanIqamah": "La supplication (Du'a) n'est pas rejetée entre l'Adhan et Iqamah.",
   "processingRequest": "Traitement de votre demande...",
+  "loadingStream": "Chargement du flux...",
+  "rtspUrlHint": "Entrez l'URL RTSP ou lien YouTube",
   "replaceWorkflowWithStream": "Afficher le flux caméra automatiquement",
   "replaceAppWorkflowWithCameraStream": "L'écran va automatiquement afficher le flux de la caméra dès que la caméra commence à enregistrer, si elle s'arrête  l'écran revient à l'affichage des heures de prières",
   "streamError": "Une erreur est survenue lors du streaming",
+  "finish": "Terminer",
   "schedulingAlarms": "Programmation des heures d’activation/désactivation...",
-  "alarmsSucessSchedule":"Déclencheurs marche/arrêt programmés avec succès",
-  "alarmsScheduleFailure":"Échec de la programmation des déclencheurs marche/arrêt",
-  "prayerTimeNotificationTitle":"Notifications des heures de prière",
-  "prayerTimeNotificationDesc":"Recevez l'adhan aux heures de prière, même lorsque l'application est fermée",
-  "enablePrayerReminders":"Activer les rappels de prière",
-  "enablePrayerRemindersDesc":"Fonctionne automatiquement en arrière-plan"
+  "alarmsSucessSchedule": "Déclencheurs marche/arrêt programmés avec succès",
+  "alarmsScheduleFailure": "Échec de la programmation des déclencheurs marche/arrêt",
+  "prayerTimeNotificationTitle": "Notifications des heures de prière",
+  "prayerTimeNotificationDesc": "Obtenez l'adhan à des heures de prière, même lorsque l'application est fermée",
+  "enablePrayerReminders": "Activer les rappels de prière",
+  "enablePrayerRemindersDesc": "Fonctionne automatiquement en arrière-plan"
 }

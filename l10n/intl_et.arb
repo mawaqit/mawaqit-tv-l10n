@@ -6,6 +6,7 @@
   "languages": "Keeled",
   "appLang": "Rakenduse keel",
   "descLang": "Palun valige oma eelistatud keel",
+  "hadithLangDesc": "See kirjutuskord tühistab teie valiku administraatori konsoolis, saate ekraanil valida teise keele.",
   "whoops": "Ups!",
   "noInternet": "Internetiühendus puudub",
   "tryAgain": "Proovi uuesti",
@@ -20,6 +21,7 @@
   "lightMode": "Valgusrežiim",
   "changeMosque": "Muuda mošee",
   "in1": "aadressil",
+  "azanIn": "Azan sisse",
   "sec": "Sek",
   "online": "Online",
   "missingMosqueId": "Puudub MAWAQIT #ID või MOSQUE #ID",
@@ -97,7 +99,7 @@
   },
   "azkarList9": "",
   "@azkarList9": {
-    "description": ".| اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات"
+    "description": "اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات|. [ وإذا أمسى قال: اللَّهم إني أمسيت...]"
   },
   "azkarList10": "",
   "@azkarList10": {
@@ -179,9 +181,291 @@
   "mainScreenExplanation": "Peamise mošee ruumi puhul ei näita see ekraan jumua otseülekannet.",
   "normalModeExplanation": "Näitab tavalist ekraani koos palveaegade ja teadaannetega.",
   "announcementOnlyModeExplanation": "Näitab teateid kogu aeg",
+  "orientation": "Orienteeritus",
+  "selectYourMawaqitTvAppOrientation": "Valige oma Mawaqit TV äpi orienteeritus",
+  "deviceDefault": "Seadme vaikeväärtus",
+  "deviceDefaultBTNDescription": "Mawaqit valib automaatselt vaikimisi orienteerituse ekraani asendi põhjal.",
+  "portrait": "Püstpaigutus",
+  "portraitBTNDescription": "Püstpaigutus sobib mošeedele, kus ruumi on vähe.",
+  "landscape": "Rõhtpaigutus",
+  "landscapeBTNDescription": "Rõhtpaigutus on Mawaqit TV äpi põhikujundus ja soovitatud enamikele mošeedele.",
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Seaded",
   "applicationModes": "Rakendusrežiimid",
-  "ifYouAreFacingAnIssueWithTheAppActivateThis": "Kui teil tekib probleem rakenduse aktiivse selle valikuga"
+  "ifYouAreFacingAnIssueWithTheAppActivateThis": "Kui teil tekib probleem rakenduse aktiivse selle valikuga",
+  "hijriAdjustments": "Kohalikud hijri korrigeerimised",
+  "hijriAdjustmentsDescription": "Kohandage hijri kuupäeva oma seadmes. See ei mõjuta mošee veebiseadeid.",
+  "backoffice_default": "Backoffice'i vaikeväärtused",
+  "recommended": "Soovitatud",
+  "sabah": "Sabah",
+  "randomHadithLanguage": "Juhuslik hadith'i keel",
+  "mosqueDefault": "Teie veebipõhise seadistuse järgi",
+  "en": "Inglise keeles",
+  "fr": "Prantsuse",
+  "ar": "Araabia keel",
+  "tr": "Türgi",
+  "de": "Saksa",
+  "es": "Hispaania",
+  "pt": "Portugali keel",
+  "nl": "Hollandi",
+  "fr_ar": "Prantsuse & Araabia keel",
+  "en_ar": "Inglise & Araabia keel",
+  "de_ar": "Saksa & Araabia keel",
+  "ta_ar": "Tamili & Araabia keel",
+  "tr_ar": "Türgi & Araabia keel",
+  "es_ar": "Hispaania & Araabia keel",
+  "pt_ar": "Portugali & Araabia keel",
+  "nl_ar": "Hollandi & Araabia keel",
+  "connectToChangeHadith": "Hadith'i keele muutmiseks ühendage palun internetti.",
+  "retry": "Uuesti proovida",
+  "reciterLoadError": "Ei õnnestu reciteraid laadida",
+  "reciterNetworkError": "Kontrollige oma internetiühendust ja proovige uuesti",
+  "reciterServerError": "Server pole hetkel kättesaadav. Proovige hiljem uuesti",
+  "reciterTimeoutError": "Aeg sai otsa. Proovige uuesti",
+  "surahLoadError": "Ei õnnestu suurasid laadida",
+  "timeSetting": "Aja seadistamine",
+  "timeSettingDesc": "Määra kohandatud nimi",
+  "selectedTime": "Praegu valitud aeg",
+  "confirmation": "Kinnitus",
+  "confirmationMessage": "Kas olete kindel, et soovite kasutada seadme aega?",
+  "useDeviceTime": "Kasuta seadme aega",
+  "selectTime": "Vali aeg",
+  "previous": "Eelmine",
+  "appTimezone": "Rakenduse ajavöönd",
+  "descTimezone": "Valige õige ajavöönd täpsete palveaegade jaoks.",
+  "appWifi": "Ühenda wifi-ga",
+  "descWifi": "Palun ühenda oma eelistatud wifi võrguga",
+  "searchCountries": "Otsi riike",
+  "scanAgain": "Skaneeri uuesti",
+  "noScannedResultsFound": "Lähedal asuvaid ligipääsupunkte ei leitud",
+  "connect": "Ühenda",
+  "wifiPassword": "Parool",
+  "skip": "Jäta vahele",
+  "noSSID": "**Peidetud SSID**",
+  "close": "Sulge",
+  "search": "Otsi",
+  "wifiSuccess": "Wifi-ga õnnestunult ühendatud.",
+  "wifiFailure": "Wifi-ga ühendumine ebaõnnestus.",
+  "timezoneSuccess": "Ajavöönd on edukalt määratud.",
+  "timezoneFailure": "Ajavööndi määramine ebaõnnestus.",
+  "screenLock": "Ekraani sisse/välja lülitamine",
+  "screenLockConfig": "Seadista ekraani sisse/välja lülitamine",
+  "screenLockMode": "Ekraani sisse/välja režiim",
+  "screenLockDesc": "Lülita TV sisse/välja enne ja pärast palveid, et säästa energiat",
+  "screenLockDesc2": "See funktsioon lülitab seadme sisse/välja enne igat palve azani ja pärast seda.",
+  "before": "minutit enne iga palveaega",
+  "after": "minutit pärast iga palveaega",
+  "updateAvailable": "Uuendus saadaval",
+  "seeMore": "Vaata rohkem",
+  "whatIsNew": "Mis on uut",
+  "update": "Ajakohastamine",
+  "automaticUpdate": "Teavita uuendusest",
+  "automaticUpdateDescription": "Lülita teavitused sisse, et saada uusimaid funktsioone ja uuendusi",
+  "checkInternetLegacyMode": "Pärandrežiimi kasutamiseks peate olema internetis",
+  "powerOnScreen": "Lülita ekraan sisse",
+  "powerOffScreen": "Lülita ekraan välja",
+  "deviceSettings": "Seadme seaded",
+  "later": "Hiljem",
+  "downloadQuran": "Laadi Koraan alla",
+  "quran": "Koraan",
+  "askDownloadQuran": "Kas soovite Koraani alla laadida?",
+  "download": "Laadi alla",
+  "downloadingQuran": "Koraani allalaadimine",
+  "extractingQuran": "Koraani lahtipakkimine",
+  "updatedQuran": "Koraan on uuendatud",
+  "quranLatestVersion": "Koraan on ajakohane",
+  "quranUpdatedVersion": "Koraani uuendatud versioon: {version}",
+  "quranIsUpdated": "Koraan on uuendatud",
+  "quranDownloaded": "Koraan on alla laetud",
+  "quranIsAlreadyDownloaded": "Koraan on juba alla laetud",
+  "chooseReciter": "Vali reciteerija",
+  "reciteType": "Reciteerimise tüüp",
+  "readingMode": "Soovin lugeda",
+  "listeningMode": "Soovin kuulata",
+  "quranReadingPage": "Lehekülg {leftPage} - {rightPage} / {totalPages}",
+  "@quranReadingPage": {
+    "description": "Placeholder text for displaying Quran reading page numbers",
+    "placeholders": {
+      "leftPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "rightPage": {
+        "type": "int",
+        "example": "2"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "quranReadingPagePortrait": "Lehekülg {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "chooseQuranPage": "Vali lehekülg",
+  "checkingForUpdates": "Uuenduste kontroll...",
+  "chooseQuranType": "Vali Koraan",
+  "hafs": "Hafs",
+  "warsh": "Warsh",
+  "favorites": "Lemmikud",
+  "allReciters": "Kõik reciteerijad",
+  "reciterAddedToFavorites": "Reciteerija {name} lisati lemmikutele",
+  "@reciterAddedToFavorites": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "reciterRemovedFromFavorites": "Reciteerija {name} eemaldati lemmikutest",
+  "@reciterRemovedFromFavorites": {
+    "description": "Message shown when a reciter is removed from favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "noFavoriteReciters": "Lemmik reciteerijaid pole. Lisa üks loendisse",
+  "@noFavoriteReciters": {
+    "description": "Message shown when there are no favorite reciters"
+  },
+  "noReciterSearchResult": "Otsingu kohta tulemusi ei leitud",
+  "searchForReciter": "Otsi reciteerijat",
+  "downloadAllSuwarSuccessfully": "Kogu Koraan on alla laetud",
+  "noSuwarDownload": "Pole uusi suurasid allalaadimiseks",
+  "connectDownloadQuran": "Koraani allalaadimiseks ühendage palun internetti",
+  "playInOnlineModeQuran": "Mängimiseks ühendage internetti",
+  "downloaded": "Alla laaditud",
+  "switchQuranType": "Mine {name} juurde",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "Vali sura",
+  "checkForUpdates": "Kontrollige uuendusi",
+  "checkForNewVersion": "Kontrolli, kas uus versioon on saadaval",
+  "wouldYouLikeToUpdate": "Kas soovite rakendust uuendada?",
+  "updateCompleted": "Uuendamine lõpetatud edukalt!",
+  "noUpdates": "Pole uuendusi",
+  "usingLatestVersion": "Kasutate uusimat versiooni.",
+  "updateCancelled": "Uuendamine tühistati",
+  "checkingUpdates": "Uuenduste kontrollimine...",
+  "downloadingUpdate": "Uuenduse allalaadimine...",
+  "installingUpdate": "Uuenduse paigaldamine...",
+  "updateCompletedSuccessfully": "Uuendamine lõpetati edukalt",
+  "updateFailed": "Uuendamine ebaõnnestus",
+  "save": "Salvesta",
+  "enterRtspUrl": "Sisestage RTSP või YouTube Live URL",
+  "addRtspUrl": "Lisage allpool oma kaamera voostriim URL",
+  "enableRtspCamera": "Luba kaamera voogedastus",
+  "rtspCameraSettings": "Kaamera seaded",
+  "invalidRtspUrl": "Vigane URL. Palun kontrollige URL-i ja proovige uuesti.",
+  "validRtspUrl": "URL valideeriti ja edukalt salvestatud.",
+  "rtspCameraSettingTitle": "Otsekaamera ühendus",
+  "rtspCameraSettingDesc": "Ühendage kohaliku kaameraga ja näidake jumua palve ülekannet TV ekraanil.",
+  "rtspCameraSettingScreenDesc": "Kui sisestate siia URL-i, lülitub ekraan automaatselt video voogedastusele, kui saabub Jumua aeg.",
+  "validatingStream": "Voogesituse valideerimine...",
+  "checkInternetLiveCamera": "Otsekaamera seadistamiseks ühendage palun internetti",
+  "somethingWentWrong": "Midagi läks valesti! Palun proovige uuesti",
+  "somethingWrong": "Midagi läks valesti",
+  "tryAgainLater": "Palun proovige hiljem uuesti",
+  "hintTextRtspUrl": "rtsp://... või https://youtube.com/live/...",
+  "checkInternetUpdate": "Uuenduste kontrollimiseks peate olema internetis",
+  "appUpdateAvailable": "Teie rakenduse versioon on {currentVersion}. Uus uuendus ({updatedVersion}) on saadaval koos uusimate funktsioonide ja täiustustega.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "{moshafName} Koraani uus uuendus (versioon {version}) on saadaval.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "Ainult Fajr ja Isha palved",
+  "minutesBeforeFajrPrayer": "minutit enne fajr palveaega",
+  "minutesAfterIshaPrayer": "minutit pärast isha palveaega",
+  "scheduleSaved": "Teie ajakava on salvestatud.",
+  "completeAllFields": "Enne salvestamist täitke kõik väljad.",
+  "endTimeAfter": "Lõppaeg peab olema pärast algusaega.",
+  "scheduleListening": "Planeeritud kuulamine",
+  "enableScheduling": "Luba ajastamine",
+  "scheduleDesc": "Luba selle funktsiooni, et suvaar mängitakse automaatselt seatud aegadel.",
+  "startTime": "Algusaeg",
+  "endTime": "Lõppaeg",
+  "selectReciter": "Vali reciteerija",
+  "selectMoshaf": "Vali mushaf",
+  "randomSurahSelection": "Juhuslik sura valik",
+  "selectSurah": "Vali sura",
+  "initializingAutoReading": "Alustamine käib...",
+  "prayerTimeNotification": "{salahName} aeg ({prayerTime}) teavitus",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Et planeeritud Koraani kuulamiseks ühenda internetti",
+  "duaaBetweenAdhanAndIqamaaTitle": "Palve (Du'a) ei lükata tagasi Adhani ja Iqama vahel.",
+  "duaBetweenAdhanIqamah": "Suppleekatsioon (Du'a) ei lükata tagasi Azaani ja Ikama vahel.",
+  "processingRequest": "Päringu töötlemine...",
+  "loadingStream": "Voostriimi laadimine...",
+  "rtspUrlHint": "Sisestage RTSP URL või YouTube link",
+  "replaceWorkflowWithStream": "Kaamera voog kuvatakse automaatselt",
+  "replaceAppWorkflowWithCameraStream": "Niipea kui kaamera alustab salvestamist, kuvatakse automaatselt kaamera voog; kui salvestamine lõppeb, naaseb ekraan palveaegade kuva juurde.",
+  "streamError": "Tekkis viga voogedastamisel",
+  "finish": "Lõpeta",
+  "schedulingAlarms": "Ajastatud sisse/välja lülitamiste seadistamine...",
+  "alarmsSucessSchedule": "Sisse/välja ajastused edukalt seadistatud",
+  "alarmsScheduleFailure": "Sisse/välja ajastamise seadistamine ebaõnnestus",
+  "prayerTimeNotificationTitle": "Palveaegade teavitused",
+  "prayerTimeNotificationDesc": "Saad teavituse azani ajal, isegi kui rakendus on suletud.",
+  "enablePrayerReminders": "Luba palvetemeldetuletused",
+  "enablePrayerRemindersDesc": "Töötab automaatselt taustal"
 }

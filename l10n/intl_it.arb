@@ -21,6 +21,7 @@
   "lightMode": "Modalità chiara",
   "changeMosque": "Cambia Moschea",
   "in1": "in",
+  "azanIn": "Azan in",
   "sec": "Sec",
   "online": "Online",
   "missingMosqueId": "Manca l'ID MAWAQIT o l'ID della MOSCHEA",
@@ -199,6 +200,7 @@
   "recommended": "Consigliato",
   "sabah": "Sabah",
   "randomHadithLanguage": "Lingua casuale hadith",
+  "mosqueDefault": "Dalla tua configurazione online",
   "en": "Inglese",
   "fr": "Francese",
   "ar": "Arabo",
@@ -217,6 +219,11 @@
   "nl_ar": "Olandese e Arabo",
   "connectToChangeHadith": "Connettiti a internet per cambiare la lingua dei hadith.",
   "retry": "Riprova",
+  "reciterLoadError": "Impossibile caricare i recitatori",
+  "reciterNetworkError": "Controlla la tua connessione internet e riprova",
+  "reciterServerError": "Il server non è temporaneamente disponibile. Riprova più tardi",
+  "reciterTimeoutError": "Richiesta scaduta. Si prega di riprovare",
+  "surahLoadError": "Impossibile caricare i surah",
   "timeSetting": "Configurare l'orario",
   "timeSettingDesc": "Imposta un nome personalizzato",
   "selectedTime": "L'ora corrente selezionata",
@@ -369,6 +376,22 @@
   "installingUpdate": "Installazione dell'aggiornamento in corso...",
   "updateCompletedSuccessfully": "Aggiornamento completato con successo",
   "updateFailed": "Aggiornamento non riuscito",
+  "save": "salva",
+  "enterRtspUrl": "Inserisci RTSP o Youtube Live URL",
+  "addRtspUrl": "Aggiungi l'URL del tuo flusso fotocamera qui sotto",
+  "enableRtspCamera": "Abilita Streaming Fotocamera",
+  "rtspCameraSettings": "Impostazioni Fotocamera",
+  "invalidRtspUrl": "URL non valido. Controlla l'URL e riprova.",
+  "validRtspUrl": "URL convalidato e salvato con successo.",
+  "rtspCameraSettingTitle": "Connessione telecamera dal vivo",
+  "rtspCameraSettingDesc": "Connettiti alla tua fotocamera locale e visualizza il flusso di preghiera jumua sullo schermo della TV.",
+  "rtspCameraSettingScreenDesc": "Se inserisci un URL qui, lo schermo passerà automaticamente allo streaming video quando arriva il tempo di Jumua",
+  "validatingStream": "Convalida Stream...",
+  "checkInternetLiveCamera": "Devi connetterti a internet per configurare la live camera",
+  "somethingWentWrong": "Qualcosa è andato storto! Per favore riprova",
+  "somethingWrong": "Qualcosa è andato storto",
+  "tryAgainLater": "Riprova più tardi",
+  "hintTextRtspUrl": "rtsp://... o https://youtube.com/live/...",
   "checkInternetUpdate": "Devi connetterti a internet per controllare nuovi aggiornamenti",
   "appUpdateAvailable": "La tua app sta eseguendo la versione {currentVersion}. Un nuovo aggiornamento (versione {updatedVersion}) è disponibile con le ultime funzionalità e miglioramenti.",
   "@appUpdateAvailable": {
@@ -383,5 +406,66 @@
         "example": "604"
       }
     }
-  }
+  },
+  "quranUpdateDialogContent": "Un nuovo aggiornamento per il Corano {moshafName} (versione {version}) è disponibile.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "Solo preghiere di Fajr e Isha",
+  "minutesBeforeFajrPrayer": "minuti prima del tempo di preghiera di fajr",
+  "minutesAfterIshaPrayer": "minuti dopo isha tempo di preghiera",
+  "scheduleSaved": "Il tuo programma è stato salvato.",
+  "completeAllFields": "Si prega di completare tutti i campi prima di salvare.",
+  "endTimeAfter": "L'ora di fine deve essere dopo l'ora di inizio.",
+  "scheduleListening": "Ascolto Pianificato",
+  "enableScheduling": "Abilita Pianificazione",
+  "scheduleDesc": "Abilita questa funzione per riprodurre automaticamente una Surah agli orari previsti.",
+  "startTime": "Ora Di Inizio",
+  "endTime": "Ora Di Fine",
+  "selectReciter": "Seleziona un Reciter",
+  "selectMoshaf": "Seleziona un Mushaf",
+  "randomSurahSelection": "Selezione Surah Casuale",
+  "selectSurah": "Seleziona una Surah",
+  "initializingAutoReading": "Inizializzazione in corso...",
+  "prayerTimeNotification": "{salahName} ora ({prayerTime}) notifica",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Connettiti a internet per pianificare l'ascolto del Corano",
+  "duaaBetweenAdhanAndIqamaaTitle": "La supplica (Du'a) non è respinta tra Adhan e Iqamah",
+  "duaBetweenAdhanIqamah": "La supplica (Du'a) non è respinta tra Adhan e Iqamah.",
+  "processingRequest": "Elaborazione richiesta...",
+  "loadingStream": "Caricamento stream...",
+  "rtspUrlHint": "Inserisci URL RTSP o link YouTube",
+  "replaceWorkflowWithStream": "Mostra automaticamente il flusso della fotocamera",
+  "replaceAppWorkflowWithCameraStream": "Lo schermo visualizzerà automaticamente il flusso di telecamere non appena la telecamera inizierà la registrazione; se si interrompe, lo schermo ritorna alla visualizzazione dei tempi di preghiera",
+  "streamError": "Si è verificato un errore nello streaming",
+  "finish": "Termina",
+  "schedulingAlarms": "Pianificazione dei tempi on/off...",
+  "alarmsSucessSchedule": "Attiva/disattivazione programmata con successo",
+  "alarmsScheduleFailure": "Impossibile pianificare i trigger On/Off",
+  "prayerTimeNotificationTitle": "Notifiche Orario Di Preghiera",
+  "prayerTimeNotificationDesc": "Ottieni l'adhan nei momenti di preghiera, anche quando l'app è chiusa",
+  "enablePrayerReminders": "Abilita Promemoria Di Preghiera",
+  "enablePrayerRemindersDesc": "Funziona automaticamente in background"
 }

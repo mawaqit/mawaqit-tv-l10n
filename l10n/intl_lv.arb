@@ -6,6 +6,7 @@
   "languages": "Valodas",
   "appLang": "Lietojumprogrammu valoda",
   "descLang": "Lūdzu, izvēlieties vēlamo valodu",
+  "hadithLangDesc": "Šis ignorēs jūsu izvēli administratora konsolē, jūs varat izvēlēties citu valodu uz ekrāna.",
   "whoops": "Ups!",
   "noInternet": "Nav interneta savienojuma",
   "tryAgain": "Mēģiniet vēlreiz",
@@ -20,6 +21,7 @@
   "lightMode": "Gaismas režīms",
   "changeMosque": "Mainīt mošeja",
   "in1": "vietnē",
+  "azanIn": "Azāns pēc",
   "sec": "Sec",
   "online": "Tiešsaistē",
   "missingMosqueId": "Trūkst MAWAQIT #ID vai MOSQUE #ID",
@@ -97,7 +99,7 @@
   },
   "azkarList9": "",
   "@azkarList9": {
-    "description": ".| اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات"
+    "description": "اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات|. [ وإذا أمسى قال: اللَّهم إني أمسيت...]"
   },
   "azkarList10": "",
   "@azkarList10": {
@@ -179,9 +181,291 @@
   "mainScreenExplanation": "Galvenajā mošejas telpā šajā ekrānā netiks rādīta džumua tiešraide.",
   "normalModeExplanation": "Tiek parādīts parastais ekrāns ar lūgšanu laikiem un paziņojumiem.",
   "announcementOnlyModeExplanation": "Visu laiku rādīs paziņojumus",
+  "orientation": "Orientācija",
+  "selectYourMawaqitTvAppOrientation": "Izvēlieties MAWAQIT TV lietotnes orientāciju",
+  "deviceDefault": "Ierīces noklusējums",
+  "deviceDefaultBTNDescription": "MAWAQIT automātiski izvēlēsies noklusēto orientāciju, balstoties uz ekrāna stāvokli",
+  "portrait": "Portreta režīms",
+  "portraitBTNDescription": "Vertikāla orientācija, ieteicams mošejām ar mazāku vietu",
+  "landscape": "Ainavas režīms",
+  "landscapeBTNDescription": "Horizontāla orientācija. Galvenais MAWAQIT TV lietotnes izkārtojums un ieteicams lielākajai daļai mošeju",
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Iestatījumi",
   "applicationModes": "Lietošanas režīmi",
-  "ifYouAreFacingAnIssueWithTheAppActivateThis": "Ja rodas problēmas ar lietotni, kas ir aktīva ar šo opciju."
+  "ifYouAreFacingAnIssueWithTheAppActivateThis": "Ja rodas problēmas ar lietotni, kas ir aktīva ar šo opciju.",
+  "hijriAdjustments": "Vietējie Hidžra datuma pielāgojumi",
+  "hijriAdjustmentsDescription": "Pielāgojiet Hidžra datumu savā ierīcē lokāli. Tas neietekmēs mošejas tiešsaistes iestatījumus",
+  "backoffice_default": "Aizmugures biroja noklusējumi",
+  "recommended": "Ieteicams",
+  "sabah": "Sabah",
+  "randomHadithLanguage": "Nejauša hadīsa valoda",
+  "mosqueDefault": "No jūsu tiešsaistes konfigurācijas",
+  "en": "Angļu valodā",
+  "fr": "Franču",
+  "ar": "Arābu valodā",
+  "tr": "Turcijas",
+  "de": "Vācu",
+  "es": "Spāņu",
+  "pt": "Portugāļu",
+  "nl": "Holandiešu",
+  "fr_ar": "Franču & arābu",
+  "en_ar": "Angļu & arābu",
+  "de_ar": "Vācu & arābu",
+  "ta_ar": "Tamilu & arābu",
+  "tr_ar": "Turku & arābu",
+  "es_ar": "Spāņu & arābu",
+  "pt_ar": "Portugāļu & arābu",
+  "nl_ar": "Holandiešu & arābu",
+  "connectToChangeHadith": "Lūdzu, pieslēdzieties internetam, lai mainītu hadīsa valodu.",
+  "retry": "Atkārtot",
+  "reciterLoadError": "Neizdevās ielādēt recitētājus",
+  "reciterNetworkError": "Lūdzu, pārbaudiet savu interneta savienojumu un mēģiniet vēlreiz",
+  "reciterServerError": "Serveris uz laiku nav pieejams. Lūdzu, mēģiniet vēlāk",
+  "reciterTimeoutError": "Pieprasījuma laiks ir beidzies. Lūdzu, mēģiniet vēlreiz",
+  "surahLoadError": "Neizdevās ielādēt suras",
+  "timeSetting": "Laika iestatīšana",
+  "timeSettingDesc": "Iestatiet pielāgotu nosaukumu",
+  "selectedTime": "Pašreiz izvēlētais laiks",
+  "confirmation": "Apstiprinājums",
+  "confirmationMessage": "Vai tiešām vēlaties izmantot ierīces laiku?",
+  "useDeviceTime": "Izmantot ierīces laiku",
+  "selectTime": "Izvēlieties laiku",
+  "previous": "Iepriekšējais",
+  "appTimezone": "Lietotnes laika josla",
+  "descTimezone": "Izvēlieties laika joslu, lai saņemtu precīzus lūgšanu laikus.",
+  "appWifi": "Pieslēgties wifi",
+  "descWifi": "Lūdzu, pieslēdzieties jūsu vēlamajam wifi",
+  "searchCountries": "Meklēt valstis",
+  "scanAgain": "Skenēt vēlreiz",
+  "noScannedResultsFound": "Tuvumā nav atrastu piekļuves punktu",
+  "connect": "Pieslēgties",
+  "wifiPassword": "Parole",
+  "skip": "Izlaist",
+  "noSSID": "**Slēpts SSID**",
+  "close": "Aizvērt",
+  "search": "Meklēšana",
+  "wifiSuccess": "Veiksmīgi pieslēgts wifi.",
+  "wifiFailure": "Neizdevās pieslēgties wifi.",
+  "timezoneSuccess": "Laika josla veiksmīgi iestatīta.",
+  "timezoneFailure": "Neizdevās iestatīt laika joslu.",
+  "screenLock": "Ekrāna ieslēgšana/izslēgšana",
+  "screenLockConfig": "Konfigurēt ekrāna ieslēgšanu/izslēgšanu",
+  "screenLockMode": "Ekrāna ieslēgšanas/izslēgšanas režīms",
+  "screenLockDesc": "Ieslēdziet/izslēdziet televizoru pirms un pēc katras lūgšanas, lai taupītu enerģiju",
+  "screenLockDesc2": "Šī funkcija ieslēdz/izslēdz ierīci pirms un pēc katra adhan (lūgšanu aicinājuma)",
+  "before": "minūtes pirms katra lūgšanas laika",
+  "after": "minūtes pēc katra lūgšanas laika",
+  "updateAvailable": "Pieejams atjauninājums",
+  "seeMore": "Skatīt vairāk",
+  "whatIsNew": "Kas jauns",
+  "update": "Atjaunināt",
+  "automaticUpdate": "Paziņot par atjauninājumu",
+  "automaticUpdateDescription": "Aktivizējiet paziņojumus par atjauninājumiem, lai saņemtu jaunākās iespējas un uzlabojumus",
+  "checkInternetLegacyMode": "Jums jāpieslēdzas internetam, lai izmantotu klasisko režīmu",
+  "powerOnScreen": "Ieslēgt ekrānu",
+  "powerOffScreen": "Izslēgt ekrānu",
+  "deviceSettings": "Ierīces iestatījumi",
+  "later": "Vēlāk",
+  "downloadQuran": "Lejupielādēt Korānu",
+  "quran": "Korāns",
+  "askDownloadQuran": "Vai vēlaties lejupielādēt Korānu?",
+  "download": "Lejupielādēt",
+  "downloadingQuran": "Korāna lejupielāde",
+  "extractingQuran": "Korāna izvilkšana",
+  "updatedQuran": "Korāns ir atjaunināts",
+  "quranLatestVersion": "Korāns jau ir jaunākajā versijā",
+  "quranUpdatedVersion": "Atjauninātā Korāna versija: {version}",
+  "quranIsUpdated": "Korāns ir atjaunināts",
+  "quranDownloaded": "Korāns veiksmīgi lejupielādēts",
+  "quranIsAlreadyDownloaded": "Korāns jau ir lejupielādēts",
+  "chooseReciter": "Izvēlieties recitētāju",
+  "reciteType": "Recitācijas tips",
+  "readingMode": "Vēlos lasīt",
+  "listeningMode": "Vēlos klausīties",
+  "quranReadingPage": "Lapa {leftPage} - {rightPage} / {totalPages}",
+  "@quranReadingPage": {
+    "description": "Placeholder text for displaying Quran reading page numbers",
+    "placeholders": {
+      "leftPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "rightPage": {
+        "type": "int",
+        "example": "2"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "quranReadingPagePortrait": "Lapa {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "chooseQuranPage": "Izvēlieties lapu",
+  "checkingForUpdates": "Meklē atjauninājumus...",
+  "chooseQuranType": "Izvēlēties Korānu",
+  "hafs": "Hafs",
+  "warsh": "Warsh",
+  "favorites": "Izlase",
+  "allReciters": "Visi recitētāji",
+  "reciterAddedToFavorites": "Recitētājs {name} pievienots izlasei",
+  "@reciterAddedToFavorites": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "reciterRemovedFromFavorites": "Recitētājs {name} noņemts no izlases",
+  "@reciterRemovedFromFavorites": {
+    "description": "Message shown when a reciter is removed from favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "noFavoriteReciters": "Nav neviena iecienīta recitētāja. Pievienojiet kādu sarakstam",
+  "@noFavoriteReciters": {
+    "description": "Message shown when there are no favorite reciters"
+  },
+  "noReciterSearchResult": "Meklēšanas rezultāti nav atrasti",
+  "searchForReciter": "Meklēt recitētāju",
+  "downloadAllSuwarSuccessfully": "Visas Korāna suras ir lejupielādētas",
+  "noSuwarDownload": "Nav jaunu suru lejupielādei",
+  "connectDownloadQuran": "Lūdzu, pieslēdzieties internetam, lai lejupielādētu",
+  "playInOnlineModeQuran": "Lūdzu, pieslēdzieties internetam, lai atskaņotu",
+  "downloaded": "Lejupielādēts",
+  "switchQuranType": "Doties uz {name}",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "Izvēlieties Suru",
+  "checkForUpdates": "Pārbaudiet atjauninājumus",
+  "checkForNewVersion": "Pārbaudiet, vai ir pieejama jauna versija",
+  "wouldYouLikeToUpdate": "Vai vēlaties atjaunināt lietotni?",
+  "updateCompleted": "Atjaunināšana veiksmīgi pabeigta!",
+  "noUpdates": "Nav atjauninājumu",
+  "usingLatestVersion": "Jūs izmantojat jaunāko versiju.",
+  "updateCancelled": "Atjaunināšana atcelta",
+  "checkingUpdates": "Pārbaudiet atjauninājumus...",
+  "downloadingUpdate": "Lejupielāde notiek...",
+  "installingUpdate": "Notiek atjauninājuma instalēšana...",
+  "updateCompletedSuccessfully": "Atjaunināšana veiksmīgi pabeigta",
+  "updateFailed": "Atjaunināšana neizdevās",
+  "save": "Saglabāt",
+  "enterRtspUrl": "Ievadiet RTSP vai YouTube Live URL",
+  "addRtspUrl": "Zemāk pievienojiet savas kameras plūsmas URL",
+  "enableRtspCamera": "Aktivizēt kameras straumēšanu",
+  "rtspCameraSettings": "Kameras iestatījumi",
+  "invalidRtspUrl": "Nederīgs URL. Lūdzu, pārbaudiet URL un mēģiniet vēlreiz.",
+  "validRtspUrl": "URL pārbaudīts un veiksmīgi saglabāts.",
+  "rtspCameraSettingTitle": "Tiešraides kameras savienojums",
+  "rtspCameraSettingDesc": "Pieslēdzieties savai vietējai kamerai un rādiet Džumuas lūgšanas tiešraidi TV ekrānā.",
+  "rtspCameraSettingScreenDesc": "Ja šeit ievadīsiet URL, ekrāns automātiski pārslēgsies uz video straumi, kad pienāks Džumuas laiks",
+  "validatingStream": "Plūsmas pārbaude...",
+  "checkInternetLiveCamera": "Lai iestatītu dzīvo kameru, jāpieslēdzas internetam",
+  "somethingWentWrong": "Kaut kas nogāja greizi! Lūdzu, mēģiniet vēlreiz",
+  "somethingWrong": "Kaut kas notika nepareizi",
+  "tryAgainLater": "Lūdzu, mēģiniet vēlreiz vēlāk",
+  "hintTextRtspUrl": "rtsp://... vai https://youtube.com/live/...",
+  "checkInternetUpdate": "Jums jāpieslēdzas internetam, lai pārbaudītu jaunumus",
+  "appUpdateAvailable": "Jūsu lietotnes versija ir {currentVersion}. Pieejams jauns atjauninājums (versija {updatedVersion}) ar jaunākām iespējām un uzlabojumiem.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "Pieejams jauns {moshafName} Korāna (versija {version}) atjauninājums.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "Tikai Fadžr un Iša lūgšanas",
+  "minutesBeforeFajrPrayer": "minūtes pirms Fadžr lūgšanas laika",
+  "minutesAfterIshaPrayer": "minūtes pēc Iša lūgšanas laika",
+  "scheduleSaved": "Jūsu grafiks ir saglabāts.",
+  "completeAllFields": "Lūdzu, aizpildiet visus laukus pirms saglabāšanas.",
+  "endTimeAfter": "Beigu laikam ir jābūt pēc sākuma laika.",
+  "scheduleListening": "Plānotā klausīšanās",
+  "enableScheduling": "Aktivizēt plānošanu",
+  "scheduleDesc": "Ieslēdziet šo funkciju, lai automātiski atskaņotu suru noteiktos laikos.",
+  "startTime": "Sākuma laiks",
+  "endTime": "Beigu laiks",
+  "selectReciter": "Izvēlieties recitētāju",
+  "selectMoshaf": "Izvēlieties Mushaf",
+  "randomSurahSelection": "Nejauša suras izvēle",
+  "selectSurah": "Izvēlieties suru",
+  "initializingAutoReading": "Inicializācija norisinās...",
+  "prayerTimeNotification": "{salahName} laiks ({prayerTime}) paziņojums",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Lūdzu, pieslēdzieties internetam, lai ieplānotu Korāna klausīšanos",
+  "duaaBetweenAdhanAndIqamaaTitle": "Lūgšana (Du’a) netiek atraidīta starp Adhānu un Iqāmu",
+  "duaBetweenAdhanIqamah": "Lūgšana (Duā) starp Azānu un Ikāmu netiek atraidīta.",
+  "processingRequest": "Pieprasījuma apstrāde...",
+  "loadingStream": "Plūsmas ielāde...",
+  "rtspUrlHint": "Ievadiet RTSP URL vai YouTube saiti",
+  "replaceWorkflowWithStream": "Automātiski rādīt kameras plūsmu",
+  "replaceAppWorkflowWithCameraStream": "Ekrāns automātiski rādīs kameras plūsmu, tiklīdz kamera sāks ierakstīt; ja tā pārtrauks, ekrānā atgriezīsies lūgšanu laiku parādīšana",
+  "streamError": "Radās kļūda straumēšanas laikā",
+  "finish": "Pabeigt",
+  "schedulingAlarms": "Ieplāno ieslēgšanas/izslēgšanas laikus...",
+  "alarmsSucessSchedule": "Ieslēgšanas/izslēgšanas trigeri veiksmīgi ieplānoti",
+  "alarmsScheduleFailure": "Neizdevās ieplānot ieslēgšanas/izslēgšanas trigerus",
+  "prayerTimeNotificationTitle": "Lūgšanu laiku paziņojumi",
+  "prayerTimeNotificationDesc": "Saņemiet adhan norādītajos lūgšanu laikos, pat ja lietotne ir aizvērta",
+  "enablePrayerReminders": "Aktivizēt lūgšanu atgādinājumus",
+  "enablePrayerRemindersDesc": "Darbojas automātiski fonā"
 }

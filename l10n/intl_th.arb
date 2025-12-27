@@ -21,6 +21,7 @@
   "lightMode": "โหมดสว่าง",
   "changeMosque": "เปลี่ยนมัสยิด",
   "in1": "ใน",
+  "azanIn": "อะซานในอีก",
   "sec": "วินาที",
   "online": "ออนไลน์",
   "missingMosqueId": "ไม่มี MAWAQIT #ID หรือ MOSQUE #ID",
@@ -199,6 +200,7 @@
   "recommended": "ที่แนะนำ",
   "sabah": "Sabah",
   "randomHadithLanguage": "ภาษาฮาดีษรอมฎอน",
+  "mosqueDefault": "จากการกำหนดค่าของคุณทางออนไลน์",
   "en": "ภาษาอังกฤษ",
   "fr": "ภาษาฝรั่งเศษ",
   "ar": "ภาษาอาหรับ",
@@ -217,6 +219,11 @@
   "nl_ar": "ภาษาดัช อาหรับ",
   "connectToChangeHadith": "โปรดเชื่อมต่ออินเทอร์เน็ตเพื่อเปลี่ยนภาษาฮาดีษ",
   "retry": "ลองอีกครั้ง",
+  "reciterLoadError": "ไม่สามารถโหลดผู้อ่านอัลกุรอานได้",
+  "reciterNetworkError": "โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณและลองใหม่อีกครั้ง",
+  "reciterServerError": "เซิร์ฟเวอร์ไม่พร้อมใช้งานชั่วคราว กรุณาลองใหม่ภายหลัง",
+  "reciterTimeoutError": "หมดเวลาการร้องขอ กรุณาลองใหม่อีกครั้ง",
+  "surahLoadError": "ไม่สามารถโหลดซูเราะห์ได้",
   "timeSetting": "การกำหนดค่าเวลา",
   "timeSettingDesc": "ตั้งชื่อที่กำหนดเอง",
   "selectedTime": "เวลาที่เลือกในปัจจุบัน",
@@ -254,7 +261,7 @@
   "whatIsNew": "มีอะไรใหม่",
   "update": "อัปเดต",
   "automaticUpdate": "แจ้งเตื่อนการอัพเดต",
-  "automaticUpdateDescription": "",
+  "automaticUpdateDescription": "เปิดใช้งานการแจ้งเตือนการอัปเดตเพื่อรับคุณสมบัติและการปรับปรุงล่าสุด",
   "checkInternetLegacyMode": "คุณต้องเชื่อมต่ออินเทอร์เน็ตเพื่อใช้โหมดเดิม",
   "powerOnScreen": "เปิดเครื่องบนหน้าจอ",
   "powerOffScreen": "ปิดเครื่องบนหน้าจอ",
@@ -294,6 +301,20 @@
       }
     }
   },
+  "quranReadingPagePortrait": "หน้า{currentPage}{totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
   "chooseQuranPage": "เลือกหน้า",
   "checkingForUpdates": "กำลังตรวจสอบการอัปเดต...",
   "chooseQuranType": "เลือกอัลกุรอาน",
@@ -324,5 +345,127 @@
   "noFavoriteReciters": "ไม่มีผู้อ่านที่ชื่นชอบ ลองเพิ่มรายการหนึ่งรายการ",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"
-  }
+  },
+  "noReciterSearchResult": "ไม่พบผลลัพธ์สำหรับการค้นหาของคุณ",
+  "searchForReciter": "ค้นหากอรี",
+  "downloadAllSuwarSuccessfully": "ดาวน์โหลดอัลกุรอานทั้งหมดแล้ว",
+  "noSuwarDownload": "No new suwars to download",
+  "connectDownloadQuran": "กรุณาเชื่อมต่ออินเทอร์เน็ตเพื่อดาวน์โหลด",
+  "playInOnlineModeQuran": "กรุณาเชื่อมต่ออินเทอร์เน็ต",
+  "downloaded": "ดาวน์โหลดแล้ว",
+  "switchQuranType": "ไปที่ {ชื่อ}",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "เลือกซูเราะห์",
+  "checkForUpdates": "ตรวจสอบการอัปเดต",
+  "checkForNewVersion": "ตรวจสอบว่ามีเวอร์ชันใหม่หรือไม่",
+  "wouldYouLikeToUpdate": "คุณต้องการอัปเดตแอปพลิเคชันหรือไม่?",
+  "updateCompleted": "อัปเดตเสร็จสมบูรณ์เรียบร้อย!",
+  "noUpdates": "ไม่มีการอัปเดต",
+  "usingLatestVersion": "คุณกำลังใช้เวอร์ชันล่าสุดแล้ว",
+  "updateCancelled": "ยกเลิกการอัปเดตแล้ว",
+  "checkingUpdates": "กำลังตรวจสอบการอัปเดต...",
+  "downloadingUpdate": "กำลังดาวน์โหลดการอัปเดต...",
+  "installingUpdate": "กำลังติดตั้งการอัปเดต...",
+  "updateCompletedSuccessfully": "อัปเดตเสร็จสมบูรณ์เรียบร้อย",
+  "updateFailed": "การอัปเดตล้มเหลว",
+  "save": "Save",
+  "enterRtspUrl": "กรอก URL ของ RTSP หรือ Youtube Live",
+  "addRtspUrl": "เพิ่ม URL สตรีมของกล้องของคุณด้านล่าง",
+  "enableRtspCamera": "เปิดใช้งานการสตรีมกล้อง",
+  "rtspCameraSettings": "การตั้งค่ากล้อง",
+  "invalidRtspUrl": "URL ไม่ถูกต้อง กรุณาตรวจสอบ URL และลองใหม่อีกครั้ง",
+  "validRtspUrl": "URL ผ่านการตรวจสอบและบันทึกเรียบร้อยแล้ว",
+  "rtspCameraSettingTitle": "การเชื่อมต่อกล้องถ่ายทอดสด",
+  "rtspCameraSettingDesc": "เชื่อมต่อกับกล้องภายในและแสดงการถ่ายทอดสดละหมาดญุมอะฮฺบนหน้าจอทีวี",
+  "rtspCameraSettingScreenDesc": "หากคุณกรอก URL ตรงนี้ หน้าจอของคุณจะสลับไปแสดงวิดีโออัตโนมัติเมื่อถึงเวลาญุมอะฮฺ",
+  "validatingStream": "กำลังตรวจสอบสตรีม...",
+  "checkInternetLiveCamera": "คุณต้องเชื่อมต่ออินเทอร์เน็ตเพื่อตั้งค่ากล้องถ่ายทอดสด",
+  "somethingWentWrong": "เกิดข้อผิดพลาด! กรุณาลองใหม่อีกครั้ง",
+  "somethingWrong": "Something went wrong",
+  "tryAgainLater": "กรุณาลองใหม่ภายหลัง",
+  "hintTextRtspUrl": "rtsp://... หรือ https://youtube.com/live/...",
+  "checkInternetUpdate": "คุณต้องเชื่อมต่ออินเทอร์เน็ตเพื่อตรวจสอบการอัปเดตใหม่",
+  "appUpdateAvailable": "แอปของคุณกำลังใช้เวอร์ชัน {currentVersion} มีการอัปเดตใหม่ (เวอร์ชัน {updatedVersion}) พร้อมคุณสมบัติและการปรับปรุงล่าสุด",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "มีการอัปเดตใหม่สำหรับอัลกุรอาน {moshafName} (เวอร์ชัน {version})",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "สำหรับละหมาดฟัจญ์รและอิชาอ์เท่านั้น",
+  "minutesBeforeFajrPrayer": "นาทีก่อนเวลาละหมาดฟัจญ์ร",
+  "minutesAfterIshaPrayer": "นาทีหลังเวลาละหมาดอิชาอ์",
+  "scheduleSaved": "ตารางเวลาของคุณถูกบันทึกแล้ว",
+  "completeAllFields": "กรุณากรอกข้อมูลให้ครบทุกช่องก่อนบันทึก",
+  "endTimeAfter": "เวลาสิ้นสุดต้องอยู่หลังเวลาเริ่มต้น",
+  "scheduleListening": "ฟังตามตารางเวลาที่กำหนด",
+  "enableScheduling": "เปิดใช้งานตารางเวลา",
+  "scheduleDesc": "เปิดใช้งานฟีเจอร์นี้เพื่อเล่นซูเราะห์โดยอัตโนมัติตามเวลาที่กำหนด",
+  "startTime": "เวลาเริ่มต้น",
+  "endTime": "เวลาสิ้นสุด",
+  "selectReciter": "เลือกผู้อ่านอัลกุรอาน",
+  "selectMoshaf": "เลือกมูชะฟฺ",
+  "randomSurahSelection": "สุ่มเลือกซูเราะห์",
+  "selectSurah": "เลือกซูเราะห์",
+  "initializingAutoReading": "กำลังเริ่มต้น...",
+  "prayerTimeNotification": "การแจ้งเตือนเวลาละหมาด {salahName} ({prayerTime})",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "โปรดเชื่อมต่ออินเทอร์เน็ตเพื่อตั้งเวลาฟังอัลกุรอาน",
+  "duaaBetweenAdhanAndIqamaaTitle": "การขอพร (ดูอา) จะไม่ได้รับการปฏิเสธระหว่างอะซานและอิกามะห์",
+  "duaBetweenAdhanIqamah": "ดุอาอ์จะไม่ถูกปฏิเสธระหว่างอาซานและอิกอมะห์.",
+  "processingRequest": "กำลังประมวลผลคำขอ...",
+  "loadingStream": "กำลังโหลดสตรีม...",
+  "rtspUrlHint": "กรอก RTSP URL หรือ ลิงก์ YouTube",
+  "replaceWorkflowWithStream": "แสดงสตรีมกล้องโดยอัตโนมัติ",
+  "replaceAppWorkflowWithCameraStream": "หน้าจอจะเปลี่ยนไปแสดงสตรีมกล้องอัตโนมัติเมื่อกล้องเริ่มบันทึก; หากหยุดบันทึกจะกลับไปหน้าจอเวลาละหมาด",
+  "streamError": "เกิดข้อผิดพลาดขณะสตรีม",
+  "finish": "เสร็จสิ้น",
+  "schedulingAlarms": "กำลังตั้งเวลาเปิด/ปิด...",
+  "alarmsSucessSchedule": "ตั้งเวลาเปิด/ปิดสำเร็จแล้ว",
+  "alarmsScheduleFailure": "ไม่สามารถตั้งเวลาเปิด/ปิดได้",
+  "prayerTimeNotificationTitle": "การแจ้งเตือนเวลาละหมาด",
+  "prayerTimeNotificationDesc": "รับเสียงอะซานตามเวลาละหมาด แม้ขณะปิดแอปฯ",
+  "enablePrayerReminders": "เปิดการเตือนละหมาด",
+  "enablePrayerRemindersDesc": "ทำงานอัตโนมัติในพื้นหลัง"
 }

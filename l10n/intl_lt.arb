@@ -6,6 +6,7 @@
   "languages": "Kalbos",
   "appLang": "Programėlės kalba",
   "descLang": "Pasirinkite pageidaujamą kalbą",
+  "hadithLangDesc": "Tai pakeis jūsų pasirinkimą administratoriaus valdymo pulte, galite pasirinkti kitą kalbą ekrane.",
   "whoops": "Ups!",
   "noInternet": "Nėra interneto ryšio",
   "tryAgain": "Pabandykite dar kartą",
@@ -20,6 +21,7 @@
   "lightMode": "Šviesos režimas",
   "changeMosque": "Pakeisti mečetę",
   "in1": "svetainėje",
+  "azanIn": "Azanas už",
   "sec": "Sec",
   "online": "Internete",
   "missingMosqueId": "Trūksta MAWAQIT #ID arba MOSQUE #ID",
@@ -97,7 +99,7 @@
   },
   "azkarList9": "",
   "@azkarList9": {
-    "description": ".| اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات"
+    "description": "اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات|. [ وإذا أمسى قال: اللَّهم إني أمسيت...]"
   },
   "azkarList10": "",
   "@azkarList10": {
@@ -179,9 +181,291 @@
   "mainScreenExplanation": "Pagrindinėje mečetės patalpoje šiame ekrane nebus rodoma tiesioginė jumua transliacija",
   "normalModeExplanation": "Bus rodomas įprastas ekranas su maldos laiku ir pranešimais.",
   "announcementOnlyModeExplanation": "Bus rodomi skelbimai visą laiką",
+  "orientation": "Orientacija",
+  "selectYourMawaqitTvAppOrientation": "Pasirinkite savo Mawaqit TV programėlės orientaciją",
+  "deviceDefault": "Įrenginio numatytoji",
+  "deviceDefaultBTNDescription": "Mawaqit automatiškai parinks numatytąją orientaciją pagal ekrano padėtį.",
+  "portrait": "Portretas",
+  "portraitBTNDescription": "Vertikali orientacija, rekomenduojama mečetėms su mažai vietos",
+  "landscape": "Kraštovaizdis",
+  "landscapeBTNDescription": "Horizontali orientacija. Pagrindinis Mawaqit TV programėlės išdėstymas, rekomenduojamas daugumai mečečių",
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Nustatymai",
   "applicationModes": "Taikymo režimai",
-  "ifYouAreFacingAnIssueWithTheAppActivateThis": "Jei susiduriate su problema su aktyvia programėle, pasirinkite šią parinktį"
+  "ifYouAreFacingAnIssueWithTheAppActivateThis": "Jei susiduriate su problema su aktyvia programėle, pasirinkite šią parinktį",
+  "hijriAdjustments": "Vietiniai Hidžros koregavimai",
+  "hijriAdjustmentsDescription": "Reguliuokite Hidžros datą vietoje savo įrenginyje. Tai neįtakos internetinių mečetės nustatymų.",
+  "backoffice_default": "Administratoriaus numatytosios reikšmės",
+  "recommended": "Rekomenduojama",
+  "sabah": "Sabah",
+  "randomHadithLanguage": "Atsitiktinė hadiso kalba",
+  "mosqueDefault": "Iš jūsų internetinės konfigūracijos",
+  "en": "Anglų kalba",
+  "fr": "Prancūzų kalba",
+  "ar": "Arabų kalba",
+  "tr": "Turkijos",
+  "de": "Vokiečių kalba",
+  "es": "Ispanų kalba",
+  "pt": "Portugalų",
+  "nl": "Olandų kalba",
+  "fr_ar": "Prancūzų ir arabų",
+  "en_ar": "Anglų ir arabų",
+  "de_ar": "Vokiečių ir arabų",
+  "ta_ar": "Tamilų ir arabų",
+  "tr_ar": "Turkų ir arabų",
+  "es_ar": "Ispanų ir arabų",
+  "pt_ar": "Portugalų ir arabų",
+  "nl_ar": "Olandų ir arabų",
+  "connectToChangeHadith": "Prašome prisijungti prie interneto, kad pakeistumėte hadiso kalbą.",
+  "retry": "Pakartoti",
+  "reciterLoadError": "Nepavyko įkelti recitatorių",
+  "reciterNetworkError": "Patikrinkite interneto ryšį ir bandykite dar kartą",
+  "reciterServerError": "Serveris laikinai nepasiekiamas. Bandykite vėliau",
+  "reciterTimeoutError": "Užklausa užtruko per ilgai. Bandykite dar kartą",
+  "surahLoadError": "Nepavyko įkelti suros",
+  "timeSetting": "Laiko nustatymas",
+  "timeSettingDesc": "Nurodykite pasirinktą pavadinimą",
+  "selectedTime": "Dabartinis pasirinktas laikas",
+  "confirmation": "Patvirtinimas",
+  "confirmationMessage": "Ar tikrai norite naudoti įrenginio laiką?",
+  "useDeviceTime": "Naudoti įrenginio laiką",
+  "selectTime": "Pasirinkite laiką",
+  "previous": "Ankstesnis",
+  "appTimezone": "Programėlės laiko juosta",
+  "descTimezone": "Pasirinkite laiko juostą, kad gautumėte tikslius maldos laikus.",
+  "appWifi": "Prisijunkite prie wifi",
+  "descWifi": "Prisijunkite prie pageidaujamo wifi tinklo",
+  "searchCountries": "Ieškoti šalių",
+  "scanAgain": "Skenuoti dar kartą",
+  "noScannedResultsFound": "Nerasta netoliese esančių prieigos taškų",
+  "connect": "Prisijungti",
+  "wifiPassword": "Slaptažodis",
+  "skip": "Praleisti",
+  "noSSID": "**Slaptas SSID**",
+  "close": "Uždaryti",
+  "search": "Paieška",
+  "wifiSuccess": "Sėkmingai prisijungta prie Wifi.",
+  "wifiFailure": "Nepavyko prisijungti prie Wifi.",
+  "timezoneSuccess": "Laiko juosta sėkmingai nustatyta.",
+  "timezoneFailure": "Nepavyko nustatyti laiko juostos.",
+  "screenLock": "Ekranas įjungtas/išjungtas",
+  "screenLockConfig": "Konfigūruoti ekrano įjungimą/išjungimą",
+  "screenLockMode": "Ekrano įjungimo/išjungimo režimas",
+  "screenLockDesc": "Įjunkite / išjunkite TV prieš ir po kiekvienos maldos, kad sutaupytumėte energijos",
+  "screenLockDesc2": "Ši funkcija įjungia arba išjungia įrenginį prieš ir po kiekvieno maldos Azano.",
+  "before": "minutės iki kiekvieno maldos laiko",
+  "after": "minutės po kiekvieno maldos laiko",
+  "updateAvailable": "Yra atnaujinimų",
+  "seeMore": "Žiūrėti daugiau",
+  "whatIsNew": "Kas naujo",
+  "update": "Atnaujinti",
+  "automaticUpdate": "Pranešti apie atnaujinimą",
+  "automaticUpdateDescription": "Įjunkite pranešimus apie atnaujinimus, kad gautumėte naujausias funkcijas ir patobulinimus",
+  "checkInternetLegacyMode": "Jūsų įrenginys turi būti prisijungęs prie interneto, kad galėtumėte naudoti senąjį režimą",
+  "powerOnScreen": "Įjungti ekraną",
+  "powerOffScreen": "Išjungti ekraną",
+  "deviceSettings": "Įrenginio nustatymai",
+  "later": "Vėliau",
+  "downloadQuran": "Atsisiųsti Korano tekstą",
+  "quran": "Koranas",
+  "askDownloadQuran": "Ar norite atsisiųsti Koraną?",
+  "download": "Atsisiųsti",
+  "downloadingQuran": "Korano atsisiuntimas",
+  "extractingQuran": "Korano išskleidimas",
+  "updatedQuran": "Koranas atnaujintas",
+  "quranLatestVersion": "Korano versija yra naujausia",
+  "quranUpdatedVersion": "Atnaujinta Korano versija: {version}",
+  "quranIsUpdated": "Koranas atnaujintas",
+  "quranDownloaded": "Koranas atsisiųstas",
+  "quranIsAlreadyDownloaded": "Koranas jau atsisiųstas",
+  "chooseReciter": "Pasirinkite recitatorių",
+  "reciteType": "Recitacijos tipas",
+  "readingMode": "Noriu skaityti",
+  "listeningMode": "Noriu klausytis",
+  "quranReadingPage": "Puslapiai {leftPage} - {rightPage} / {totalPages}",
+  "@quranReadingPage": {
+    "description": "Placeholder text for displaying Quran reading page numbers",
+    "placeholders": {
+      "leftPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "rightPage": {
+        "type": "int",
+        "example": "2"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "quranReadingPagePortrait": "Puslapis {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "chooseQuranPage": "Pasirinkite puslapį",
+  "checkingForUpdates": "Ieškoma atnaujinimų...",
+  "chooseQuranType": "Pasirinkite Koraną",
+  "hafs": "Hafs",
+  "warsh": "Warsh",
+  "favorites": "Mėgstamiausi",
+  "allReciters": "Visi recitatoriai",
+  "reciterAddedToFavorites": "Recitatorius {name} pridėtas prie mėgstamų",
+  "@reciterAddedToFavorites": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "reciterRemovedFromFavorites": "Recitatorius {name} pašalintas iš mėgstamų",
+  "@reciterRemovedFromFavorites": {
+    "description": "Message shown when a reciter is removed from favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "noFavoriteReciters": "Nėra mėgstamų recitatorių. Pabandykite pridėti vieną į sąrašą",
+  "@noFavoriteReciters": {
+    "description": "Message shown when there are no favorite reciters"
+  },
+  "noReciterSearchResult": "Rezultatų pagal paiešką nerasta",
+  "searchForReciter": "Ieškoti recitatoriaus",
+  "downloadAllSuwarSuccessfully": "Visas Koranas atsisiųstas",
+  "noSuwarDownload": "Nėra naujų surų atsisiuntimui",
+  "connectDownloadQuran": "Prisijunkite prie interneto, kad galėtumėte atsisiųsti",
+  "playInOnlineModeQuran": "Prisijunkite prie interneto, kad paleistumėte",
+  "downloaded": "Atsisiųsta",
+  "switchQuranType": "Eiti į {name}",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "Pasirinkite surą",
+  "checkForUpdates": "Patikrinkite, ar yra atnaujinimų",
+  "checkForNewVersion": "Patikrinkite, ar yra nauja versija",
+  "wouldYouLikeToUpdate": "Norėtumėte atnaujinti programą?",
+  "updateCompleted": "Atnaujinimas sėkmingai baigtas!",
+  "noUpdates": "Nėra atnaujinimų",
+  "usingLatestVersion": "Naudojate naujausią versiją.",
+  "updateCancelled": "Atnaujinimas atšauktas",
+  "checkingUpdates": "Ieškoma atnaujinimų...",
+  "downloadingUpdate": "Atsisiunčiamas atnaujinimas...",
+  "installingUpdate": "Diegiamas atnaujinimas...",
+  "updateCompletedSuccessfully": "Atnaujinimas sėkmingai užbaigtas",
+  "updateFailed": "Nepavyko atnaujinti",
+  "save": "Išsaugoti",
+  "enterRtspUrl": "Įveskite RTSP arba Youtube Live URL",
+  "addRtspUrl": "Pridėkite žemiau savo kameros transliacijos URL",
+  "enableRtspCamera": "Įjungti kameros transliavimą",
+  "rtspCameraSettings": "Kameros nustatymai",
+  "invalidRtspUrl": "Neteisingas URL. Patikrinkite URL ir bandykite dar kartą.",
+  "validRtspUrl": "URL patikrintas ir sėkmingai išsaugotas.",
+  "rtspCameraSettingTitle": "Tiesioginės kameros ryšys",
+  "rtspCameraSettingDesc": "Prisijunkite prie vietinės kameros ir rodykite Džumuos maldos transliaciją TV ekrane.",
+  "rtspCameraSettingScreenDesc": "Jei čia įvesite URL, jūsų ekranas automatiškai persijungs į vaizdo transliaciją, kai prasidės Džumuos laikas",
+  "validatingStream": "Tikrinama transliacija...",
+  "checkInternetLiveCamera": "Turite būti prisijungę prie interneto, kad nustatytumėte tiesioginę kamerą",
+  "somethingWentWrong": "Kažkas nutiko ne taip! Bandykite dar kartą",
+  "somethingWrong": "Kažkas nutiko ne taip",
+  "tryAgainLater": "Bandykite dar kartą vėliau",
+  "hintTextRtspUrl": "rtsp://... arba https://youtube.com/live/...",
+  "checkInternetUpdate": "Turite būti prisijungę prie interneto, kad patikrintumėte naujinimus",
+  "appUpdateAvailable": "Jūsų programos versija: {currentVersion}. Yra naujas atnaujinimas (versija {updatedVersion}) su naujausiomis funkcijomis ir patobulinimais.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "Yra naujas {moshafName} Korano (versija {version}) atnaujinimas.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "Tik fajr ir išos maldoms",
+  "minutesBeforeFajrPrayer": "minutės iki fajr maldos laiko",
+  "minutesAfterIshaPrayer": "minutės po išos maldos laiko",
+  "scheduleSaved": "Jūsų tvarkaraštis išsaugotas.",
+  "completeAllFields": "Prašome užpildyti visus laukus prieš išsaugant.",
+  "endTimeAfter": "Pabaigos laikas turi būti po pradžios laiko.",
+  "scheduleListening": "Numatytas klausymasis",
+  "enableScheduling": "Įjungti tvarkaraštį",
+  "scheduleDesc": "Įjunkite šią funkciją, kad automatiškai būtų leidžiama sura numatytu laiku.",
+  "startTime": "Pradžios laikas",
+  "endTime": "Pabaigos laikas",
+  "selectReciter": "Pasirinkite recitatorių",
+  "selectMoshaf": "Pasirinkite mushaf",
+  "randomSurahSelection": "Atsitiktinis surų pasirinkimas",
+  "selectSurah": "Pasirinkite surą",
+  "initializingAutoReading": "Vyksta inicializacija...",
+  "prayerTimeNotification": "{salahName} laikas ({prayerTime}) pranešimas",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Prisijunkite prie interneto, kad suplanuotumėte Korano klausymąsi",
+  "duaaBetweenAdhanAndIqamaaTitle": "Malda (Du'a) nėra atmetama tarp Adhano ir Iqam'os",
+  "duaBetweenAdhanIqamah": "Maldos (Du'a) tarp Azano ir Iqamos nėra atmetamos.",
+  "processingRequest": "Apdorojama užklausa...",
+  "loadingStream": "Įkeliamas srautas...",
+  "rtspUrlHint": "Įveskite RTSP URL arba YouTube nuorodą",
+  "replaceWorkflowWithStream": "Automatiškai rodyti kameros srautą",
+  "replaceAppWorkflowWithCameraStream": "Ekranas automatiškai rodys kameros srautą, kai tik kamera pradės įrašinėti; jei baigiasi, ekranas grįžta prie maldos laikų rodymo",
+  "streamError": "Įvyko klaida transliuojant",
+  "finish": "Baigti",
+  "schedulingAlarms": "Numatytų įjungimo/išjungimo laikų nustatymas...",
+  "alarmsSucessSchedule": "Įjungimo/išjungimo laikai sėkmingai suplanuoti",
+  "alarmsScheduleFailure": "Nepavyko suplanuoti įjungimo/išjungimo laikų",
+  "prayerTimeNotificationTitle": "Maldos laiko pranešimai",
+  "prayerTimeNotificationDesc": "Gaukite Azano pranešimą maldos metu, net kai programa yra uždaryta.",
+  "enablePrayerReminders": "Įjungti maldos priminimus",
+  "enablePrayerRemindersDesc": "Veikia automatiškai fone"
 }
