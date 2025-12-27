@@ -1,0 +1,471 @@
+{
+  "home": "Početna",
+  "share": "Podeli",
+  "about": "O aplikaciji",
+  "rate": "Ocenite nas",
+  "languages": "Jezici",
+  "appLang": "Jezik aplikacije",
+  "descLang": "Izaberite željeni jezik",
+  "hadithLangDesc": "Ovo će zameniti vaš izbor u administratorskoj konzoli, možete izabrati drugačiji jezik za svaki ekran.",
+  "whoops": "Ups!",
+  "noInternet": "Nema internet veze",
+  "tryAgain": "Pokušajte ponovo",
+  "closeApp": "Zatvori aplikaciju",
+  "quit": "Izađi",
+  "forceStaging": "Prebaci na testni režim",
+  "disableStaging": "Prebaci na produkcioni režim",
+  "sureCloseApp": "Da li ste sigurni da želite da zatvorite aplikaciju?",
+  "ok": "OK",
+  "cancel": "OTKAŽI",
+  "darkMode": "Tamni režim",
+  "lightMode": "Svetli režim",
+  "changeMosque": "Promeni džamiju",
+  "in1": "za",
+  "azanIn": "Ezan za",
+  "sec": "Sek",
+  "online": "Online",
+  "missingMosqueId": "Nedostaje MAWAQIT #ID ili DŽAMIJA #ID",
+  "mosqueIdIsNotValid": "Žao nam je, {mosqueId} nije validan ID džamije",
+  "selectMosqueId": "Unesite ID vaše džamije",
+  "mawaqitWelcome": "Dobrodošli u MAWAQIT",
+  "mawaqitDesc": "Esselamu alejkum i Barak'Allahu fikom što ste izabrali MAWAQIT, prvu i najbolju Pametnu mrežu džamija na svetu, koju od 2016. koriste milioni muslimana širom sveta u više od 85 zemalja.\n\nPružamo vam najnapredniji Pametni Ekran za džamiju dostupan na više uređaja (mobilni, pametni sat, TV ekrani), bez prikupljanja ili deljenja vaših ličnih podataka.\n\nPodržite ovaj blagoslovljeni projekat ovde: https://donate.mawaqit.net\n\nMi smo neprofitna organizacija, a ovaj projekat je \"Vakuf fi'sabili Allah\" (posvećeni zavet).\n\nVaše donacije omogućavaju svima, bilo gde, potpuno BESPLATNO i bez reklama, da koriste ovaj projekat, bez mesečne pretplate.\n\nOvaj projekat ne bi bio moguć bez pomoći Allaha, koji je okupio strastvenu zajednicu talentovanih volontera, koji rade dan i noć kako bi vam pružili najbolju moguću uslugu i najpouzdaniji sistem dostupan 24/7.\n\nRazmislite o donaciji kako bi ovaj blagoslovljeni projekat opstao. Barak'Allahu fikom na vašem poverenju i podršci.",
+  "privacyPolicy": "Politika privatnosti",
+  "termsOfService": "Uslovi korišćenja",
+  "installationGuide": "Vodič za instalaciju",
+  "drawerTitle": "MAWAQIT",
+  "drawerDesc": "Povezujemo muslimane sa džamijama",
+  "backendError": "Žao nam je, ne možemo da se povežemo na server.\nProverite internet konekciju ili pokušajte kasnije.",
+  "selectWithMosqueId": "Probajte: 256, to je ID 'Grande Mosquée de Paris'",
+  "searchForMosque": "Koju džamiju tražite? (ID, naziv, grad, poštanski broj...)",
+  "searchMosque": "Pretražite džamiju",
+  "mosqueNameError": "Unesite ime džamije",
+  "slugError": "Nije validan 'slug' džamije",
+  "doYouKnowMosqueId": "Znate li vaš ID za instalaciju ili ID džamije?",
+  "yes": "Da",
+  "no": "Ne",
+  "networkStatus": "Status mreže",
+  "mosqueNoMore": "Nema više rezultata",
+  "mosqueNoResults": "Nema rezultata",
+  "offline": "Offline",
+  "imsak": "Imsak",
+  "jumua": "Džuma",
+  "duhr": "Podne",
+  "fajr": "Sabah",
+  "asr": "Ikindija",
+  "maghrib": "Akšam",
+  "isha": "Jacija",
+  "afterAdhanHadithTitle": "Dova posle ezana (Du\\'aa)",
+  "afterSalahHadith": "Allahumma Rabba hadhihid-da'wati-ttammati, was-salatil-qa'imati, ati Muhammadanil-wasilata wal-fadhilata, wab'athu maqaman mahmuda nilladhi wa 'adtahu [O Allah, Gospodaru ovog savršenog poziva (Da’wa) i uspostavljene molitve (As-Salat), daruj Muhammedu wasilu i uzdignuće, i podigni ga na hvaljeno mesto koje si mu obećao]",
+  "alIqama": "Al Ikama",
+  "alAdhan": "Al Ezan",
+  "turnOfPhones": "Molimo vas da postavite telefone na tihi režim.",
+  "iqamaIn": "Ikamet za",
+  "alAthkar": "Al-Azkar",
+  "azkarList0": "Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik",
+  "@azkarList0": {
+    "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
+  },
+  "azkarList1": "Subhan Allah wal hamdu lillah wallahu akbar (33 puta) La ilaha illa Allah, wahdahu la šarika lah, lahu elmulk wa lahu elhamd, wa hua 'ala kulli šej in kadir",
+  "@azkarList1": {
+    "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
+  },
+  "azkarList2": "",
+  "@azkarList2": {
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس"
+  },
+  "azkarList3": "",
+  "@azkarList3": {
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِقُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"
+  },
+  "azkarList4": "",
+  "@azkarList4": {
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ"
+  },
+  "azkarList5": "",
+  "@azkarList5": {
+    "description": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ"
+  },
+  "azkarList6": "La ilaha illa Allah, wahdahu la šarika lah, lahu elmulk wa lahu elhamd, wa hua 'ala koulli šejin kadir, Allahumma la mani'a lima a'tayte, wa la mu'tia lima 'ate, wa la janfa'u dhal džaddi mineka eldžad",
+  "@azkarList6": {
+    "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
+  },
+  "azkarList7": "",
+  "@azkarList7": {
+    "description": "اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت"
+  },
+  "azkarList8": "",
+  "@azkarList8": {
+    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+  },
+  "azkarList9": "",
+  "@azkarList9": {
+    "description": "اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات|. [ وإذا أمسى قال: اللَّهم إني أمسيت...]"
+  },
+  "azkarList10": "",
+  "@azkarList10": {
+    "description": "|اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ"
+  },
+  "azkarList11": "",
+  "@azkarList11": {
+    "description": "|حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ"
+  },
+  "azkarList12": "",
+  "@azkarList12": {
+    "description": "|رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ"
+  },
+  "azkarList13": "",
+  "@azkarList13": {
+    "description": "|لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات"
+  },
+  "azkarList14": "",
+  "@azkarList14": {
+    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+  },
+  "jumuaaScreenTitle": "Vreme za Džumu",
+  "jumuaaHadith": "Poslanik ﷺ (mir i blagoslov Allahov neka su na njega) je rekao: \"Ko se abdestom temeljito opere, pa ode na džumu, sluša i ćuti, biće mu oprošteno između tog petka i sledećeg, plus još tri dana, a onaj ko se igra kamenčićima svakako je beskorisno postupio.\"",
+  "shuruk": "Izlazak sunca",
+  "reset": "Resetuj",
+  "mosqueNotFoundMessage": "Žao nam je, vaša džamija nije pronađena, možda nedostaje ili je privremeno onemogućena.",
+  "noInternetMessage": "Nema pristupa internetu. Proverite vašu internet konekciju i pokušajte ponovo. Da li ste povezani na Wi-Fi ili Ethernet?",
+  "error": "Greška",
+  "mosqueErrorMessage": "Greška džamije - ako ste administrator, kontaktirajte podršku da se reši problem.",
+  "muharram": "Muharrem",
+  "safar": "Sefar",
+  "rabiAlawwal": "Rebi' el-Evvel",
+  "rabiAlthani": "Rebi' es-Sani",
+  "jumadaAlula": "Džumade l-Ula",
+  "jumadaAlakhirah": "Džumade l-Ahire",
+  "rajab": "Redžeb",
+  "shaban": "Ša'ban",
+  "ramadan": "Ramazan",
+  "shawwal": "Ševval",
+  "dhuAlqidah": "Zu-l-Ka'de",
+  "dhuAlhijjah": "Zu-l-Hidže",
+  "duaaBetweenSalahAndAdhan": "Enes ibn Malik je rekao: Allahov poslanik ﷺ je rekao: \"Dova se ne odbija između ezana i ikameta.\"",
+  "salatKhayrMinaNawm": "Es-salatu hajrun mine'n-jevmi",
+  "salatElEid": "Bajram-namaz",
+  "webView": "Uključi stari režim",
+  "developersHomeScreen": "Početni ekran programera",
+  "onlineHome": "Početna Online",
+  "prayerTimes": "Vremena namaza",
+  "alerts": "Upozorenje",
+  "iqamaaCountDown": "Odbrojavanje za Ikamet",
+  "afterAdhanHadith": "Hadis posle ezana",
+  "afterSalahAzkar": "Azkar posle namaza",
+  "iqama": "Ikamet",
+  "randomHadith": "Nasumični hadis",
+  "announcement": "Obaveštenja",
+  "jumuaaLive": "Džuma [Prenos uživo]",
+  "showSecondaryScreen": "Koristi kao sekundarni ekran (za obaveštenja)",
+  "normalScreen": "Koristi kao glavni ekran",
+  "duaaRemainder": "Dova podsetnik",
+  "fajrWakeUp": "Buđenje za sabah",
+  "changeLanguage": "Promeni jezik",
+  "forceScreen": "Forsiraj ekran",
+  "clear": "Obriši",
+  "changeTheme": "Promeni temu",
+  "next": "Sledeće",
+  "mainScreenOrSecondaryScreen": "Lokacija ekrana",
+  "mainScreenOrSecondaryScreenEXPLINATION": "Da li želite da instalirate ovaj ekran u glavnoj prostoriji za namaz (muška prostorija)?",
+  "mainScreen": "Glavni ekran",
+  "secondaryScreen": "Sekundarni ekran",
+  "duaaElEftar": "Dova za iftar",
+  "announcementOnlyMode": "Režim obaveštenja",
+  "normalMode": "Normalni režim",
+  "announcementOnlyModeEXPLINATION": "Izaberite da li će ekran prikazivati obaveštenja stalno; ovo može biti korisno, na primer, ako se ekran nalazi na ulazu.",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
+  "@duaaElEftarText": {
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+  },
+  "secondaryScreenExplanation": "Za drugu prostoriju za namaz (ženski deo ili drugi sprat na primer), ovaj ekran će prikazivati prenos džume uživo.",
+  "mainScreenExplanation": "Za glavnu prostoriju džamije, ovaj ekran neće prikazivati prenos džume uživo.",
+  "normalModeExplanation": "Prikazaće normalan ekran sa vremenima namaza i obaveštenjima.",
+  "announcementOnlyModeExplanation": "Prikazivaće obaveštenja sve vreme",
+  "orientation": "Orijentacija",
+  "selectYourMawaqitTvAppOrientation": "Izaberite orijentaciju aplikacije mawaqit tv",
+  "deviceDefault": "Podrazumevano uređaja",
+  "deviceDefaultBTNDescription": "Mawaqit će automatski izabrati podrazumevanu orijentaciju na osnovu orijentacije ekrana",
+  "portrait": "Uspravno",
+  "portraitBTNDescription": "Za vertikalnu orijentaciju, preporučuje se za džamije sa malo prostora",
+  "landscape": "Vodooravno",
+  "landscapeBTNDescription": "Za vodoravnu orijentaciju. Glavni izgled aplikacije mawaqit tv i preporučeni za većinu džamija",
+  "eidMubarak": "Bajram Mubarek",
+  "takbeerAleidText": "Allahu Ekber, Allahu Ekber, Allahu Ekber, la ilaha illa Allah, Allahu Ekber, Allahu Ekber, ve lillahi-l-hamd",
+  "settings": "Podešavanja",
+  "applicationModes": "Režim aplikacije",
+  "ifYouAreFacingAnIssueWithTheAppActivateThis": "Ako imate problema sa aplikacijom, pokušajte da uključite ovu opciju",
+  "hijriAdjustments": "Lokalna hijri podešavanja",
+  "hijriAdjustmentsDescription": "Podesite hidžretski datum lokalno na vašem uređaju. Ovo neće uticati na online podešavanja džamije.",
+  "backoffice_default": "Podrazumevano u backoffice-u",
+  "recommended": "Preporučeno",
+  "sabah": "Sabah",
+  "randomHadithLanguage": "Jezik nasumičnih hadisa",
+  "mosqueDefault": "Iz vaše online konfiguracije",
+  "en": "Engleski",
+  "fr": "Francuski",
+  "ar": "Arapski",
+  "tr": "Turski",
+  "de": "Nemački",
+  "es": "Španski",
+  "pt": "Portugalski",
+  "nl": "Holandski",
+  "fr_ar": "Francuski & arapski",
+  "en_ar": "Engleski & arapski",
+  "de_ar": "Nemački & arapski",
+  "ta_ar": "Tamilski & arapski",
+  "tr_ar": "Turski & arapski",
+  "es_ar": "Španski & arapski",
+  "pt_ar": "Portugalski & arapski",
+  "nl_ar": "Holandski & arapski",
+  "connectToChangeHadith": "Povežite se na internet da biste promenili jezik hadisa.",
+  "retry": "Pokušaj ponovo",
+  "reciterLoadError": "Ne može se učitati učač",
+  "reciterNetworkError": "Proverite vašu internet vezu i pokušajte ponovo",
+  "reciterServerError": "Server je privremeno nedostupan. Pokušajte kasnije",
+  "reciterTimeoutError": "Zahtev je istekao. Pokušajte ponovo",
+  "surahLoadError": "Ne može se učitati sure",
+  "timeSetting": "Podešavanje vremena",
+  "timeSettingDesc": "Podesite prilagođeno ime",
+  "selectedTime": "Trenutno izabrano vreme",
+  "confirmation": "Potvrda",
+  "confirmationMessage": "Da li ste sigurni da želite da koristite vreme uređaja?",
+  "useDeviceTime": "Koristi vreme uređaja",
+  "selectTime": "Izaberite vreme",
+  "previous": "Prethodno",
+  "appTimezone": "Vremenska zona aplikacije",
+  "descTimezone": "Izaberite vašu vremensku zonu radi tačnog vremena namaza.",
+  "appWifi": "Poveži na wifi",
+  "descWifi": "Povežite se na željeni wifi",
+  "searchCountries": "Pretraži zemlje",
+  "scanAgain": "Skeniraj ponovo",
+  "noScannedResultsFound": "Nema pronađenih pristupnih tačaka u blizini",
+  "connect": "Poveži",
+  "wifiPassword": "Lozinka",
+  "skip": "Preskoči",
+  "noSSID": "**Skriven SSID**",
+  "close": "Zatvori",
+  "search": "Pretraži",
+  "wifiSuccess": "Uspešno povezano na Wifi.",
+  "wifiFailure": "Neuspešno povezivanje na Wifi.",
+  "timezoneSuccess": "Vremenska zona uspešno podešena.",
+  "timezoneFailure": "Neuspešno podešavanje vremenske zone.",
+  "screenLock": "Ekran uklj./isklj.",
+  "screenLockConfig": "Podesi uklj./isklj. ekrana",
+  "screenLockMode": "Režim uklj./isklj. ekrana",
+  "screenLockDesc": "Uključuje/isključuje TV pre i posle svakog namaza radi štednje energije",
+  "screenLockDesc2": "Ova funkcija uključuje/isključuje uređaj pre i posle svakog ezana",
+  "before": "minuta pre svakog vremena namaza",
+  "after": "minuta posle svakog vremena namaza",
+  "updateAvailable": "Dostupno ažuriranje",
+  "seeMore": "Vidi više",
+  "whatIsNew": "Šta je novo",
+  "update": "Ažuriraj",
+  "automaticUpdate": "Obavesti o ažuriranju",
+  "automaticUpdateDescription": "Omogućite obaveštenje o ažuriranju kako biste primali najnovije funkcije i poboljšanja",
+  "checkInternetLegacyMode": "Morate biti povezani na internet da biste koristili stari režim",
+  "powerOnScreen": "Uključi ekran",
+  "powerOffScreen": "Isključi ekran",
+  "deviceSettings": "Podešavanja uređaja",
+  "later": "Kasnije",
+  "downloadQuran": "Preuzmi Kur'an",
+  "quran": "Kur'an",
+  "askDownloadQuran": "Želite li da preuzmete Kur'an?",
+  "download": "Preuzmi",
+  "downloadingQuran": "Preuzimanje Kur'ana",
+  "extractingQuran": "Otpakivanje Kur'ana",
+  "updatedQuran": "Kur'an ažuriran",
+  "quranLatestVersion": "Kur'an je ažuriran",
+  "quranUpdatedVersion": "Kur'an je ažuriran na verziju: {version}",
+  "quranIsUpdated": "Kur'an je ažuriran",
+  "quranDownloaded": "Kur'an je preuzet",
+  "quranIsAlreadyDownloaded": "Kur'an je već preuzet",
+  "chooseReciter": "Izaberi učača",
+  "reciteType": "Vrsta učenja",
+  "readingMode": "Želim da čitam",
+  "listeningMode": "Želim da slušam",
+  "quranReadingPage": "Strana {leftPage} - {rightPage} / {totalPages}",
+  "@quranReadingPage": {
+    "description": "Placeholder text for displaying Quran reading page numbers",
+    "placeholders": {
+      "leftPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "rightPage": {
+        "type": "int",
+        "example": "2"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "quranReadingPagePortrait": "Strana {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "chooseQuranPage": "Izaberi stranu",
+  "checkingForUpdates": "Provera ažuriranja...",
+  "chooseQuranType": "Izaberi Kur'an",
+  "hafs": "Hafs",
+  "warsh": "Warsh",
+  "favorites": "Omiljeni",
+  "allReciters": "Svi učači",
+  "reciterAddedToFavorites": "Učač {name} dodat u omiljene",
+  "@reciterAddedToFavorites": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "reciterRemovedFromFavorites": "Učač {name} uklonjen iz omiljenih",
+  "@reciterRemovedFromFavorites": {
+    "description": "Message shown when a reciter is removed from favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "noFavoriteReciters": "Nema omiljenih učača. Dodajte nekog na listu",
+  "@noFavoriteReciters": {
+    "description": "Message shown when there are no favorite reciters"
+  },
+  "noReciterSearchResult": "Nema rezultata za vašu pretragu",
+  "searchForReciter": "Pretraži učača",
+  "downloadAllSuwarSuccessfully": "Ceо Kur'an je preuzet",
+  "noSuwarDownload": "Nema novih sura za preuzimanje",
+  "connectDownloadQuran": "Povežite se na internet kako biste preuzeli",
+  "playInOnlineModeQuran": "Povežite se na internet za reprodukciju",
+  "downloaded": "Preuzeto",
+  "switchQuranType": "Idi na {name}",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "Izaberi suru",
+  "checkForUpdates": "Proveri ažuriranja",
+  "checkForNewVersion": "Proverite da li postoji nova verzija",
+  "wouldYouLikeToUpdate": "Želite li da ažurirate aplikaciju?",
+  "updateCompleted": "Ažuriranje je uspešno završeno!",
+  "noUpdates": "Nema ažuriranja",
+  "usingLatestVersion": "Koristite najnoviju verziju.",
+  "updateCancelled": "Ažuriranje je otkazano",
+  "checkingUpdates": "Provera ažuriranja...",
+  "downloadingUpdate": "Preuzimanje ažuriranja...",
+  "installingUpdate": "Instalacija ažuriranja...",
+  "updateCompletedSuccessfully": "Ažuriranje uspešno završeno",
+  "updateFailed": "Ažuriranje nije uspelo",
+  "save": "Sačuvaj",
+  "enterRtspUrl": "Unesite RTSP ili Youtube Live URL",
+  "addRtspUrl": "Dodajte URL kamere ispod",
+  "enableRtspCamera": "Uključite strimovanje kamere",
+  "rtspCameraSettings": "Podešavanja kamere",
+  "invalidRtspUrl": "Nevalidan URL. Proverite URL i pokušajte ponovo.",
+  "validRtspUrl": "URL je proveren i uspešno sačuvan.",
+  "rtspCameraSettingTitle": "Uživo povezivanje kamere",
+  "rtspCameraSettingDesc": "Povežite vašu lokalnu kameru i puštajte prenos džuma-namaza na TV ekranu.",
+  "rtspCameraSettingScreenDesc": "Ako ovde unesete URL, vaš ekran će se automatski prebaciti na video strimovanje kada počne vreme džume",
+  "validatingStream": "Validacija prenosa...",
+  "checkInternetLiveCamera": "Morate biti povezani na internet da biste podesili uživo kameru",
+  "somethingWentWrong": "Nešto je pošlo naopako! Molimo pokušajte ponovo",
+  "somethingWrong": "Nešto nije u redu",
+  "tryAgainLater": "Pokušajte ponovo kasnije",
+  "hintTextRtspUrl": "rtsp://... ili https://youtube.com/live/...",
+  "checkInternetUpdate": "Morate biti povezani na internet za proveru novih ažuriranja",
+  "appUpdateAvailable": "Vaša aplikacija koristi verziju {currentVersion}. Novo ažuriranje (verzija {updatedVersion}) je dostupno sa najnovijim funkcijama i poboljšanjima.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "Novo ažuriranje za {moshafName} Kur'an (verzija {version}) je dostupno.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "Samo za sabah i jaciju",
+  "minutesBeforeFajrPrayer": "minuta pre vremena sabah-namaza",
+  "minutesAfterIshaPrayer": "minuta posle vremena jacija-namaza",
+  "scheduleSaved": "Vaš raspored je sačuvan.",
+  "completeAllFields": "Molimo popunite sva polja pre čuvanja.",
+  "endTimeAfter": "Vreme završetka mora biti posle vremena početka.",
+  "scheduleListening": "Zakazano slušanje",
+  "enableScheduling": "Omogući zakazivanje",
+  "scheduleDesc": "Omogućite ovu funkciju za automatsko puštanje sure u zakazano vreme.",
+  "startTime": "Vreme početka",
+  "endTime": "Vreme završetka",
+  "selectReciter": "Izaberite učača",
+  "selectMoshaf": "Izaberite mushaf",
+  "randomSurahSelection": "Nasumičan izbor sure",
+  "selectSurah": "Izaberite suru",
+  "initializingAutoReading": "Pokretanje u toku...",
+  "prayerTimeNotification": "Obaveštenje za vreme {salahName} ({prayerTime})",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Povežite se na internet kako biste zakazali slušanje Kur'ana",
+  "duaaBetweenAdhanAndIqamaaTitle": "Dova (Du'a) između ezana i ikameta nije odbijena",
+  "duaBetweenAdhanIqamah": "Dova (Du'a) između ezana i ikameta nije odbijena.",
+  "processingRequest": "Obrađivanje zahteva...",
+  "loadingStream": "Učitavanje prenosa...",
+  "rtspUrlHint": "Unesite RTSP URL ili link ka YouTube",
+  "replaceWorkflowWithStream": "Automatski prikaži prenos kamere",
+  "replaceAppWorkflowWithCameraStream": "Ekran će automatski prikazivati prenos sa kamere čim počne snimanje; ako se zaustavi, ekran se vraća na prikaz vremena namaza",
+  "streamError": "Došlo je do greške tokom prenosa",
+  "finish": "Završi",
+  "schedulingAlarms": "Zakaži postavljanje vremena...",
+  "alarmsSucessSchedule": "Uspesno zakaženi prekidači uklj./isklj.",
+  "alarmsScheduleFailure": "Neuspesno zakazivanje prekidača uklj./isklj.",
+  "prayerTimeNotificationTitle": "Obaveštenja za vreme namaza",
+  "prayerTimeNotificationDesc": "Primite ezan u vreme namaza, čak i kada je aplikacija zatvorena",
+  "enablePrayerReminders": "Omogući podsetnike za namaz",
+  "enablePrayerRemindersDesc": "Radi automatski u pozadini"
+}

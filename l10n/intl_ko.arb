@@ -6,6 +6,7 @@
   "languages": "언어",
   "appLang": "앱 언어",
   "descLang": "선호하는 언어를 선택해 주세요.",
+  "hadithLangDesc": "이 설정은 관리자 콘솔에서의 선택을 덮어씁니다. 화면에서 다른 언어를 선택할 수 있습니다.",
   "whoops": "웁스!",
   "noInternet": "인터넷 연결 없음",
   "tryAgain": "다시 시도",
@@ -20,6 +21,7 @@
   "lightMode": "조명 모드",
   "changeMosque": "모스크 변경",
   "in1": "에",
+  "azanIn": "아잔 시간까지",
   "sec": "초",
   "online": "온라인",
   "missingMosqueId": "누락된 MAWAQIT #ID 또는 MOSQUE #ID",
@@ -97,7 +99,7 @@
   },
   "azkarList9": "",
   "@azkarList9": {
-    "description": ".| اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات"
+    "description": "اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات|. [ وإذا أمسى قال: اللَّهم إني أمسيت...]"
   },
   "azkarList10": "",
   "@azkarList10": {
@@ -179,9 +181,291 @@
   "mainScreenExplanation": "메인 모스크 룸의 경우 이 화면에는 주무아 라이브 스트리밍이 표시되지 않습니다.",
   "normalModeExplanation": "기도 시간과 공지 사항이 표시된 일반 화면이 표시됩니다.",
   "announcementOnlyModeExplanation": "공지사항을 항상 표시합니다.",
+  "orientation": "방향",
+  "selectYourMawaqitTvAppOrientation": "마와킷 TV 앱의 화면 방향을 선택하세요",
+  "deviceDefault": "기기 기본값",
+  "deviceDefaultBTNDescription": "마와킷이 화면 방향에 따라 기본 방향을 자동으로 설정합니다",
+  "portrait": "세로",
+  "portraitBTNDescription": "공간이 작은 모스크에 권장되는 세로 방향",
+  "landscape": "가로",
+  "landscapeBTNDescription": "가로 방향. 마와킷 TV 앱의 기본 레이아웃으로 대부분의 모스크에 추천됩니다",
   "eidMubarak": "이드 무바라크",
   "takbeerAleidText": "알라후 아크바르, 알라후 아크바르, 알라후 아크바르, 라 일라하 일라 알라, 알라후 아크바르, 알라후 아크바르, 와 릴라히 알함드",
   "settings": "설정",
   "applicationModes": "애플리케이션 모드",
-  "ifYouAreFacingAnIssueWithTheAppActivateThis": "앱이 활성화되어 있는 상태에서 문제가 발생하는 경우 이 옵션을 사용하세요."
+  "ifYouAreFacingAnIssueWithTheAppActivateThis": "앱이 활성화되어 있는 상태에서 문제가 발생하는 경우 이 옵션을 사용하세요.",
+  "hijriAdjustments": "로컬 히즈리 조정",
+  "hijriAdjustmentsDescription": "기기에서 히즈리 날짜를 로컬로 조정합니다. 이는 온라인 모스크 설정에 영향을 주지 않습니다",
+  "backoffice_default": "백오피스 기본값",
+  "recommended": "추천",
+  "sabah": "사바흐",
+  "randomHadithLanguage": "무작위 하디스 언어",
+  "mosqueDefault": "온라인 설정에서",
+  "en": "영어",
+  "fr": "프랑스어",
+  "ar": "아랍어",
+  "tr": "터키어",
+  "de": "독일어",
+  "es": "스페인어",
+  "pt": "포르투갈어",
+  "nl": "네덜란드어",
+  "fr_ar": "프랑스어 & 아랍어",
+  "en_ar": "영어 & 아랍어",
+  "de_ar": "독일어 & 아랍어",
+  "ta_ar": "타밀어 & 아랍어",
+  "tr_ar": "터키어 & 아랍어",
+  "es_ar": "스페인어 & 아랍어",
+  "pt_ar": "포르투갈어 & 아랍어",
+  "nl_ar": "네덜란드어 & 아랍어",
+  "connectToChangeHadith": "하디스 언어를 변경하려면 인터넷에 연결해주세요.",
+  "retry": "재시도",
+  "reciterLoadError": "꾸란 낭송자를 불러올 수 없습니다",
+  "reciterNetworkError": "인터넷 연결을 확인하고 다시 시도해 주세요",
+  "reciterServerError": "서버를 일시적으로 사용할 수 없습니다. 잠시 후 다시 시도해 주세요",
+  "reciterTimeoutError": "요청 시간이 초과되었습니다. 다시 시도해 주세요",
+  "surahLoadError": "수라를 불러올 수 없습니다",
+  "timeSetting": "시간 설정 중",
+  "timeSettingDesc": "사용자 지정 이름 설정",
+  "selectedTime": "현재 선택된 시간",
+  "confirmation": "확인",
+  "confirmationMessage": "기기 시간을 사용하시겠습니까?",
+  "useDeviceTime": "기기 시간 사용",
+  "selectTime": "시간 선택",
+  "previous": "이전",
+  "appTimezone": "앱 시간대",
+  "descTimezone": "정확한 기도 시간을 위해 시간대를 선택하세요.",
+  "appWifi": "와이파이 연결",
+  "descWifi": "선호하는 와이파이에 연결하세요",
+  "searchCountries": "국가 검색",
+  "scanAgain": "다시 검색",
+  "noScannedResultsFound": "근처에서 접근 가능한 지점을 찾을 수 없습니다",
+  "connect": "연결",
+  "wifiPassword": "비밀번호",
+  "skip": "건너뛰기",
+  "noSSID": "**숨겨진 SSID**",
+  "close": "닫기",
+  "search": "검색",
+  "wifiSuccess": "Wifi에 성공적으로 연결되었습니다.",
+  "wifiFailure": "Wifi 연결에 실패하였습니다.",
+  "timezoneSuccess": "시간대가 성공적으로 설정되었습니다.",
+  "timezoneFailure": "시간대 설정에 실패하였습니다.",
+  "screenLock": "화면 켬/끔",
+  "screenLockConfig": "화면 켬/끔 설정",
+  "screenLockMode": "화면 켬/끔 모드",
+  "screenLockDesc": "기도 전후로 TV를 자동으로 켜고 꺼 에너지를 절약하세요",
+  "screenLockDesc2": "이 기능은 각 기도 아잔 전후에 기기를 자동으로 켜고 끕니다.",
+  "before": "각 기도 시간 전 분",
+  "after": "각 기도 시간 후 분",
+  "updateAvailable": "업데이트 가능",
+  "seeMore": "더 보기",
+  "whatIsNew": "새로운 소식",
+  "update": "업데이트",
+  "automaticUpdate": "업데이트 알림",
+  "automaticUpdateDescription": "최신 기능과 개선 사항을 받으려면 업데이트 알림을 활성화하세요",
+  "checkInternetLegacyMode": "레거시 모드를 사용하려면 인터넷에 연결해야 합니다",
+  "powerOnScreen": "화면 켜기",
+  "powerOffScreen": "화면 끄기",
+  "deviceSettings": "기기 설정",
+  "later": "나중에",
+  "downloadQuran": "꾸란 다운로드",
+  "quran": "꾸란",
+  "askDownloadQuran": "꾸란을 다운로드하시겠습니까?",
+  "download": "다운로드",
+  "downloadingQuran": "꾸란 다운로드 중",
+  "extractingQuran": "꾸란 추출 중",
+  "updatedQuran": "꾸란 업데이트됨",
+  "quranLatestVersion": "꾸란이 최신 버전입니다",
+  "quranUpdatedVersion": "꾸란 업데이트 버전: {version}",
+  "quranIsUpdated": "꾸란이 업데이트되었습니다",
+  "quranDownloaded": "꾸란 다운로드 완료",
+  "quranIsAlreadyDownloaded": "꾸란이 이미 다운로드되었습니다",
+  "chooseReciter": "낭송자 선택",
+  "reciteType": "낭송 유형",
+  "readingMode": "읽고 싶어요",
+  "listeningMode": "듣고 싶어요",
+  "quranReadingPage": "페이지 {leftPage} - {rightPage} / {totalPages}",
+  "@quranReadingPage": {
+    "description": "Placeholder text for displaying Quran reading page numbers",
+    "placeholders": {
+      "leftPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "rightPage": {
+        "type": "int",
+        "example": "2"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "quranReadingPagePortrait": "페이지 {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "chooseQuranPage": "페이지 선택",
+  "checkingForUpdates": "업데이트 확인 중...",
+  "chooseQuranType": "꾸란 선택",
+  "hafs": "하프스",
+  "warsh": "와르쉬",
+  "favorites": "즐겨찾기",
+  "allReciters": "모든 낭송자",
+  "reciterAddedToFavorites": "낭송자 {name}(이)가 즐겨찾기에 추가되었습니다",
+  "@reciterAddedToFavorites": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "reciterRemovedFromFavorites": "낭송자 {name}(이)가 즐겨찾기에서 삭제되었습니다",
+  "@reciterRemovedFromFavorites": {
+    "description": "Message shown when a reciter is removed from favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "noFavoriteReciters": "즐겨찾는 낭송자가 없습니다. 목록에 추가해보세요",
+  "@noFavoriteReciters": {
+    "description": "Message shown when there are no favorite reciters"
+  },
+  "noReciterSearchResult": "검색 결과가 없습니다",
+  "searchForReciter": "낭송자 검색",
+  "downloadAllSuwarSuccessfully": "꾸란 전체가 다운로드되었습니다",
+  "noSuwarDownload": "다운로드할 새로운 수라가 없습니다",
+  "connectDownloadQuran": "다운로드하려면 인터넷에 연결해주세요",
+  "playInOnlineModeQuran": "재생하려면 인터넷에 연결해주세요",
+  "downloaded": "다운로드됨",
+  "switchQuranType": "{name}으로 이동",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "수라 선택",
+  "checkForUpdates": "업데이트 확인",
+  "checkForNewVersion": "새 버전이 있는지 확인하세요",
+  "wouldYouLikeToUpdate": "앱을 업데이트하시겠습니까?",
+  "updateCompleted": "업데이트가 성공적으로 완료되었습니다!",
+  "noUpdates": "업데이트 없음",
+  "usingLatestVersion": "최신 버전을 사용 중입니다.",
+  "updateCancelled": "업데이트가 취소되었습니다",
+  "checkingUpdates": "업데이트 확인 중...",
+  "downloadingUpdate": "업데이트 다운로드 중...",
+  "installingUpdate": "업데이트 설치 중...",
+  "updateCompletedSuccessfully": "업데이트가 성공적으로 완료되었습니다",
+  "updateFailed": "업데이트 실패",
+  "save": "저장",
+  "enterRtspUrl": "RTSP 또는 유튜브 라이브 URL 입력",
+  "addRtspUrl": "아래에 카메라 스트림 URL을 추가하세요",
+  "enableRtspCamera": "카메라 스트리밍 활성화",
+  "rtspCameraSettings": "카메라 설정",
+  "invalidRtspUrl": "유효하지 않은 URL입니다. URL을 확인하고 다시 시도해 주세요.",
+  "validRtspUrl": "URL 검증 및 저장이 완료되었습니다.",
+  "rtspCameraSettingTitle": "실시간 카메라 연결",
+  "rtspCameraSettingDesc": "로컬 카메라에 연결하여 TV 화면에 주마(금요) 기도 스트림을 표시하세요.",
+  "rtspCameraSettingScreenDesc": "여기에 URL을 입력하면, 주마 시간에 화면이 자동으로 비디오 스트리밍으로 전환됩니다",
+  "validatingStream": "스트림 확인 중...",
+  "checkInternetLiveCamera": "실시간 카메라 설정을 위해 인터넷에 연결해야 합니다",
+  "somethingWentWrong": "문제가 발생했습니다! 다시 시도해 주세요",
+  "somethingWrong": "문제가 발생했습니다",
+  "tryAgainLater": "잠시 후 다시 시도해 주세요",
+  "hintTextRtspUrl": "rtsp://... 또는 https://youtube.com/live/...",
+  "checkInternetUpdate": "새로운 업데이트 확인을 위해 인터넷에 연결해야 합니다",
+  "appUpdateAvailable": "앱이 {currentVersion} 버전을 실행 중입니다. 새로운 업데이트({updatedVersion} 버전)가 이용 가능하며, 최신 기능과 개선사항이 포함되어 있습니다.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "{moshafName} 꾸란의 새로운 업데이트(버전 {version})가 있습니다.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "파즈르와 이샤 기도만",
+  "minutesBeforeFajrPrayer": "파즈르 기도 시간 전 분",
+  "minutesAfterIshaPrayer": "이샤 기도 시간 후 분",
+  "scheduleSaved": "시간표가 저장되었습니다.",
+  "completeAllFields": "저장 전에 모든 항목을 입력해주세요.",
+  "endTimeAfter": "종료 시간이 시작 시간 이후여야 합니다.",
+  "scheduleListening": "예약 재생",
+  "enableScheduling": "예약 활성화",
+  "scheduleDesc": "이 기능을 활성화하면 예약된 시간에 자동으로 수라가 재생됩니다.",
+  "startTime": "시작 시간",
+  "endTime": "종료 시간",
+  "selectReciter": "낭송자 선택",
+  "selectMoshaf": "무샤프 선택",
+  "randomSurahSelection": "무작위 수라 선택",
+  "selectSurah": "수라 선택",
+  "initializingAutoReading": "초기화 진행 중...",
+  "prayerTimeNotification": "{salahName} 시간({prayerTime}) 알림",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "꾸란 듣기 일정을 예약하려면 인터넷에 연결해주세요",
+  "duaaBetweenAdhanAndIqamaaTitle": "아잔과 이깜마 사이에는 두아(Du'a)가 거절되지 않습니다.",
+  "duaBetweenAdhanIqamah": "아잔과 이카마 사이에 드리는 두아는 거절되지 않습니다.",
+  "processingRequest": "요청 처리 중...",
+  "loadingStream": "스트림 로딩 중...",
+  "rtspUrlHint": "RTSP URL 또는 유튜브 링크 입력",
+  "replaceWorkflowWithStream": "카메라 스트림 자동 표시",
+  "replaceAppWorkflowWithCameraStream": "카메라가 녹화를 시작하면 화면에 카메라 스트림이 자동 표시되고, 멈추면 기도 시간 화면으로 돌아갑니다",
+  "streamError": "스트리밍 중 오류가 발생했습니다",
+  "finish": "종료",
+  "schedulingAlarms": "켜짐/꺼짐 시간 예약 중...",
+  "alarmsSucessSchedule": "켜기/끄기 트리거가 예약되었습니다",
+  "alarmsScheduleFailure": "켜기/끄기 트리거 예약 실패",
+  "prayerTimeNotificationTitle": "기도 시간 알림",
+  "prayerTimeNotificationDesc": "앱이 닫혀 있어도 기도 시간에 아잔 알림을 받을 수 있습니다.",
+  "enablePrayerReminders": "기도 알림 활성화",
+  "enablePrayerRemindersDesc": "백그라운드에서 자동으로 작동합니다"
 }

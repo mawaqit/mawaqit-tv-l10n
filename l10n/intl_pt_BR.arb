@@ -1,5 +1,4 @@
 {
-  "@@locale": "pt_BR",
   "home": "Início",
   "share": "Compartilhar",
   "about": "Sobre",
@@ -63,20 +62,65 @@
   "iqamaIn": "Jamaat em",
   "alAthkar": "Zikr",
   "azkarList0": "Peço desculpas a Allah, peço desculpas a Allah, peço desculpas a Allah, Ó Allah! Você é aquele que concede a paz e a paz vem somente de você. Você é o senhor da benção, Ó o senhor da majestade e benevolência! Ó Allah! Me ajuda em sua recordação, em seu agradecimento e sua boa adoração",
+  "@azkarList0": {
+    "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
+  },
   "azkarList1": "Puro de qualquer defeito é Allah, todos os louvores são a Allah e Allah é o maior (33 vezes) Ninguém é digno de adoração exceto Allah, o único, sem parceiro algum, somente ele pertence ao reinado e somente para ele são todas as glórias; todo bem está no seu poder e ele tem o poder de tudo",
+  "@azkarList1": {
+    "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
+  },
   "azkarList2": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz \"Busco refúgio no Senhor dos humanos, O Rei dos Humanos, O Deus dos humanos, Contra todo mal murmurador que recua, que murmura nos peitos dos humanos, dos gênios ou dos humanos\"",
-  "azkarList3": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz: \"Busco refúgio no Senhor da manhã, Contra o malcriado, e o mal da escuridão ao entrar, e o mal que nos sopra, E o mal invejoso em inveja\"",
-  "azkarList4": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz: \"Ele é Deus, o único! Deus é Independente; Não gerou e nem foi gerado; E não existe ninguém igual\"",
-  "azkarList5": "Deus! Não existe divindade exceto Ele, o eternamente vivo, o subsistente; Não toma-o a sonolência nem o sono; pertence-lhe tudo que há nos céus e tudo que há na terra. Quem poderá intervi-lo perante a ele sem sua permissão? Conhece o que a sua frente e o seu atrás, ninguém alcança algo do seu conhecimento se não desejar. O seu Kurssi abrange o céu e a terra, preservar ambos não cansa. E ele é Sublime, É Supremo.",
+  "@azkarList2": {
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس"
+  },
+  "azkarList3": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz \"Busco refúgio no Senhor dos humanos, O Rei dos Humanos, O Deus dos humanos, Contra todo mal murmurador que recua, que murmura nos peitos dos humanos, dos gênios ou dos humanos\"",
+  "@azkarList3": {
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِقُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"
+  },
+  "azkarList4": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz \"Busco refúgio no Senhor dos humanos, O Rei dos Humanos, O Deus dos humanos, Contra todo mal murmurador que recua, que murmura nos peitos dos humanos, dos gênios ou dos humanos\"",
+  "@azkarList4": {
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ"
+  },
+  "azkarList5": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz \"Busco refúgio no Senhor dos humanos, O Rei dos Humanos, O Deus dos humanos, Contra todo mal murmurador que recua, que murmura nos peitos dos humanos, dos gênios ou dos humanos\"",
+  "@azkarList5": {
+    "description": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ"
+  },
   "azkarList6": "Ninguém é digno de adoração exceto Allah, o único, sem parceiro algum, somente ele pertence ao reinado e somente para ele são todas as glórias e ele tem poder sobre tudo. Ó Allah! Ninguém nega que você concede e ninguém concede tudo que você retém; e a grandeza dos grandes é inútil para eles contra você",
-  "azkarList7": "Ó Allah! Você é meu Senhor, não há deus além de Vós. Você criou-me e sou seu servo, e estou vinculado à aliança sua e promessa tanto quanto posso. Busco refúgio em vós ontra o mal do que fiz. Reconheço diante de você e as bênçãos sobre mim e reconheço o meu pecado; portanto, perdoe-me, pois ninguém perdoa pecados, exceto vós.",
-  "azkarList8": "Nós, assim como todo o universo, amanhecemos para (a adoração de) Allah. Todos os louvores para Allah. Ninguém mais é digno de adoração exceto Allah. Ele é Único, não possui nenhum parceiro. A Ele pertence todo o universo. E para Ele são todos os louvores. Ó Senhor! Peço-Vos todas as coisas boas relacionadas com este dia e com os dias a seguir; peço a Vossa Proteção contra todos os males relacionados com este dia e os dias a seguir. Ó Senhor! Peço a Vossa ajuda no sentido de salvar-me da indolência e os males da velhice. Ó Allah! Peço a Vossa Proteção contra os castigos do Inferno e da sepultura.",
-  "azkarList9": "Ó Allah! Amanheci, Invoco a Vós e aos anjos que carregam o Vosso Trono, e aos Vossos anjos e toda a Vossa criação para que sejam testemunhas que Vós Sois Allah; ninguém mais é digno da adoração exceto Vós; Sois Único; Não possuis parceiro; e que Muhammad (Sallalláhu Alaihi Wa Sallam) é vosso Servo e Mensageiro. (quatro vezes) | E quando chega a noite, diz: Anoiteci invocando a Vós…",
-  "azkarList10": "Ó Allah! Conceda-me boa saúde no meu corpo, nos meus ouvidos e nos meus olhos. Ninguém exceto Vós é digno de adoração. Ó Allah! Peço refúgio da descrença e pobreza. Ó Allah! Peço Vossa proteção dos tormentos da sepultura; ninguém mais é digno de adoração exceto Vós. (três vezes)",
-  "azkarList11": "Allah é suficiente para mim, ninguém mais é digno da adoração exceto Ele, Nele coloquei a minha confiança e Ele é o Senhor do Trono Sublime. (sete vezes)",
-  "azkarList12": "Estou de todo contente em crer Allah como meu Senhor, Islam como a minha religião e Muhammad (Sallalláhu Alaihi Wa Sallam) como meu Profeta. (três vezes)",
-  "azkarList13": "Ninguém mais é digno da adoração exceto Allah; Ele é o Único; Não possui nenhum parceiro; o Reinado a Ele pertence e todos os Louvores são para Ele. Ele possui poder sobre todas as coisas. (dez vezes)",
-  "azkarList14": "Nós, assim como todo o universo, amanhecemos para (a adoração de) Allah. Todos os louvores para Allah. Ninguém mais é digno de adoração exceto Allah. Ele é Único, não possui nenhum parceiro. A Ele pertence todo o universo. E para Ele são todos os louvores. Ó Senhor! Peço-Vos todas as coisas boas relacionadas com este dia e com os dias a seguir; peço a Vossa Proteção contra todos os males relacionados com este dia e os dias a seguir. Ó Senhor! Peço a Vossa ajuda no sentido de salvar-me da indolência e os males da velhice. Ó Allah! Peço a Vossa Proteção contra os castigos do Inferno e da sepultura.",
+  "@azkarList6": {
+    "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
+  },
+  "azkarList7": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz \"Busco refúgio no Senhor dos humanos, O Rei dos Humanos, O Deus dos humanos, Contra todo mal murmurador que recua, que murmura nos peitos dos humanos, dos gênios ou dos humanos\"",
+  "@azkarList7": {
+    "description": "اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت"
+  },
+  "azkarList8": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz \"Busco refúgio no Senhor dos humanos, O Rei dos Humanos, O Deus dos humanos, Contra todo mal murmurador que recua, que murmura nos peitos dos humanos, dos gênios ou dos humanos\"",
+  "@azkarList8": {
+    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+  },
+  "azkarList9": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz \"Busco refúgio no Senhor dos humanos, O Rei dos Humanos, O Deus dos humanos, Contra todo mal murmurador que recua, que murmura nos peitos dos humanos, dos gênios ou dos humanos\"",
+  "@azkarList9": {
+    "description": "اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات|. [ وإذا أمسى قال: اللَّهم إني أمسيت...]"
+  },
+  "azkarList10": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz \"Busco refúgio no Senhor dos humanos, O Rei dos Humanos, O Deus dos humanos, Contra todo mal murmurador que recua, que murmura nos peitos dos humanos, dos gênios ou dos humanos\"",
+  "@azkarList10": {
+    "description": "|اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ"
+  },
+  "azkarList11": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz \"Busco refúgio no Senhor dos humanos, O Rei dos Humanos, O Deus dos humanos, Contra todo mal murmurador que recua, que murmura nos peitos dos humanos, dos gênios ou dos humanos\"",
+  "@azkarList11": {
+    "description": "|حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ"
+  },
+  "azkarList12": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz \"Busco refúgio no Senhor dos humanos, O Rei dos Humanos, O Deus dos humanos, Contra todo mal murmurador que recua, que murmura nos peitos dos humanos, dos gênios ou dos humanos\"",
+  "@azkarList12": {
+    "description": "|رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ"
+  },
+  "azkarList13": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz \"Busco refúgio no Senhor dos humanos, O Rei dos Humanos, O Deus dos humanos, Contra todo mal murmurador que recua, que murmura nos peitos dos humanos, dos gênios ou dos humanos\"",
+  "@azkarList13": {
+    "description": "|لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات"
+  },
+  "azkarList14": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz \"Busco refúgio no Senhor dos humanos, O Rei dos Humanos, O Deus dos humanos, Contra todo mal murmurador que recua, que murmura nos peitos dos humanos, dos gênios ou dos humanos\"",
+  "@azkarList14": {
+    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+  },
   "jumuaaScreenTitle": "Hora de Jumu'ah",
   "jumuaaHadith": "O Profeta ﷺ (Que a paz e a misericórdia de Allah esteja sobre ele) disse: \"Aquele que efetuar a ablução (Wudhu) correctamente e dirigir-se para a oração de Jumu’ah, ouvir o sermão (Khutbah) com atenção e em silêncio, todos os seus pequenos pecados entre aquela hora e o próximo Jumu’ah mais três dias (total 10 dias) serão perdoados. E aquele que durante o sermão brincar com uma pedra (ou seja, distrair-se), na realidade, interrompeu está recompensa.\"",
   "shuruk": "Nascer do sol",
@@ -130,6 +174,9 @@
   "normalMode": "Modo normal ",
   "announcementOnlyModeEXPLINATION": "Selecione se sua tela exibirá anunciados todo tempo, isso pode ser útil caso você instalar a tela na entrada, por exemplo.",
   "duaaElEftarText": "Ó Allah, por você jejuei, e com o sustento vindo de Ti, quebrei o meu jejum. Para você, retorno-me em arrependimento e em ti, deposito minha confiança. A sede já se saciou, as veias foram hidratadas, a recompensa já foi garantida, se Allah desejar.",
+  "@duaaElEftarText": {
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+  },
   "secondaryScreenExplanation": "Para uma sala de oração secundária (sala de mulheres ou outro andar, por exemplo), esta tela exibirá a transmissão ao vivo de Jumu'ah",
   "mainScreenExplanation": "Para a sala principal da mesquita, esta tela não exibirá a transmissão ao vivo de Jumu'ah",
   "normalModeExplanation": "Exibirá a tela normal com os horários de oração e os anunciados.",
@@ -153,6 +200,7 @@
   "recommended": "Recomendado",
   "sabah": "Amanhecer",
   "randomHadithLanguage": "Idioma hadith aleatório",
+  "mosqueDefault": "Da sua configuração on-line",
   "en": "Inglês",
   "fr": "Francês",
   "ar": "Árabe",
@@ -171,6 +219,11 @@
   "nl_ar": "Holandês e Árabe",
   "connectToChangeHadith": "Conecte-se à rede para alterar o idioma de hadith.",
   "retry": "Repetir",
+  "reciterLoadError": "Não foi possível carregar os reciters",
+  "reciterNetworkError": "Por favor, verifique sua conexão com a internet e tente novamente",
+  "reciterServerError": "O servidor está temporariamente indisponível. Por favor, tente novamente mais tarde",
+  "reciterTimeoutError": "Solicitação expirada. Por favor, tente novamente",
+  "surahLoadError": "Incapaz de carregar surahs",
   "timeSetting": "Configurando hora",
   "timeSettingDesc": "Definir nome personalizado",
   "selectedTime": "Hora atualmente selecionada",
@@ -231,7 +284,37 @@
   "readingMode": "Ler",
   "listeningMode": "Ouvir",
   "quranReadingPage": "Página {leftPage} - {rightPage} / {totalPages}",
+  "@quranReadingPage": {
+    "description": "Placeholder text for displaying Quran reading page numbers",
+    "placeholders": {
+      "leftPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "rightPage": {
+        "type": "int",
+        "example": "2"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
   "quranReadingPagePortrait": "Página {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
   "chooseQuranPage": "Escolher página",
   "checkingForUpdates": "Verificando por atualizações...",
   "chooseQuranType": "Escolher alcorão",
@@ -240,8 +323,29 @@
   "favorites": "Favoritos",
   "allReciters": "Todos os recitadores",
   "reciterAddedToFavorites": "Recitador {name} adicionado aos favoritos",
+  "@reciterAddedToFavorites": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
   "reciterRemovedFromFavorites": "Recitador {name} removido dos favoritos",
+  "@reciterRemovedFromFavorites": {
+    "description": "Message shown when a reciter is removed from favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
   "noFavoriteReciters": "Nenhum recitador favorito. Primeiramente adicione um à lista.",
+  "@noFavoriteReciters": {
+    "description": "Message shown when there are no favorite reciters"
+  },
   "noReciterSearchResult": "Nenhum resultado encontrado para sua busca",
   "searchForReciter": "Buscar recitador",
   "downloadAllSuwarSuccessfully": "O alcorão inteiro foi baixado",
@@ -250,6 +354,15 @@
   "playInOnlineModeQuran": "Conecte-se à rede para exibir",
   "downloaded": "Baixado",
   "switchQuranType": "Ir a {name}",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
   "surahSelector": "Selecionar surah",
   "checkForUpdates": "Verificar por atualizações",
   "checkForNewVersion": "Verificar caso tenha uma nova versão",
@@ -281,7 +394,33 @@
   "hintTextRtspUrl": "rtsp://... ou https://youtube.com/live/...",
   "checkInternetUpdate": "Você deve conectar-se à rede para verificar por novas atualizações",
   "appUpdateAvailable": "O aplicativo está executando a versão {currentVersion}. Uma nova atualização (versão {updatedVersion}) está disponível com novos recursos e melhorias.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
   "quranUpdateDialogContent": "Uma nova atualização para o {moshafName} Alcorão (versão {version}) está disponível.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
   "ishaAndFajrOnly": "Apenas orações de Fajr e Ishá",
   "minutesBeforeFajrPrayer": "minutos antes da hora de Fajr",
   "minutesAfterIshaPrayer": "minutos após a hora de Ishá",
@@ -299,6 +438,34 @@
   "selectSurah": "Selecione um Surah",
   "initializingAutoReading": "Inicialização em andamento...",
   "prayerTimeNotification": "Notificação da hora de {salahName} ({prayerTime})",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
   "scheduleInOnlineMode": "Conecte-se à rede para agendar a audição do Alcorão",
-  "duaBetweenAdhanIqamah": "O oferecimento (Du'a) não é rejeitado entre o Adhan e Iqamah."
+  "duaaBetweenAdhanAndIqamaaTitle": "O oferecimento (Du'a) não é rejeitado entre o Adhan e Iqamah",
+  "duaBetweenAdhanIqamah": "O oferecimento (Du'a) não é rejeitado entre o Adhan e Iqamah.",
+  "processingRequest": "Processando o pedido...",
+  "loadingStream": "Carregando transmissão...",
+  "rtspUrlHint": "Digite a URL RTSP ou o link do YouTube",
+  "replaceWorkflowWithStream": "Mostrar automaticamente o fluxo da câmera",
+  "replaceAppWorkflowWithCameraStream": "A tela exibirá automaticamente o fluxo da câmera assim que a câmera começar a gravar; se ele parar, a tela retorna aos tempos de oração",
+  "streamError": "Ocorreu um erro ao transmitir",
+  "finish": "Acabamento",
+  "schedulingAlarms": "Agendando horário ligado/desligado...",
+  "alarmsSucessSchedule": "Ativar/Desativar gatilhos agendados com sucesso",
+  "alarmsScheduleFailure": "Falha ao agendar gatilhos ligados/desligados",
+  "prayerTimeNotificationTitle": "Notificações de hora de oração",
+  "prayerTimeNotificationDesc": "Obtenha o adhan em tempos de oração, mesmo quando o aplicativo está fechado",
+  "enablePrayerReminders": "Ativar Lembretes de Oração",
+  "enablePrayerRemindersDesc": "Funciona automaticamente em segundo plano"
 }

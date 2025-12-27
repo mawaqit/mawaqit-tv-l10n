@@ -21,6 +21,7 @@
   "lightMode": "प्रकाश मोड",
   "changeMosque": "मस्जिद बदलो",
   "in1": "में",
+  "azanIn": "अज़ान में",
   "sec": "सेकंड",
   "online": "ऑनलाइन",
   "missingMosqueId": "मवाक़िट गायब है#पहचान या मस्जिद #पहचान",
@@ -199,6 +200,7 @@
   "recommended": "अनुशंसित",
   "sabah": "सभा",
   "randomHadithLanguage": "यादृच्छिक हदीस भाषा",
+  "mosqueDefault": "आपकी ऑनलाइन कॉन्फ़िगरेशन से",
   "en": "अंग्रेज़ी",
   "fr": "फ़्रेंच",
   "ar": "अरबी",
@@ -217,6 +219,11 @@
   "nl_ar": "डच और अरबी",
   "connectToChangeHadith": "हदीस भाषा बदलने के लिए कृपया इंटरनेट से जुड़ें।",
   "retry": "पुन: प्रयास",
+  "reciterLoadError": "कारी को लोड करने में असमर्थ",
+  "reciterNetworkError": "कृपया अपनी इंटरनेट कनेक्शन जांचें और पुनः प्रयास करें",
+  "reciterServerError": "सर्वर अस्थायी रूप से अनुपलब्ध है। कृपया बाद में पुनः प्रयास करें",
+  "reciterTimeoutError": "अनुरोध का समय समाप्त हो गया। कृपया पुनः प्रयास करें",
+  "surahLoadError": "सूरह लोड करने में असमर्थ",
   "timeSetting": "समय कॉन्फ़िगर करना",
   "timeSettingDesc": "एक कस्टम नाम सेट करें",
   "selectedTime": "वर्तमान चयनित समय",
@@ -294,6 +301,20 @@
       }
     }
   },
+  "quranReadingPagePortrait": "पेज {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
   "chooseQuranPage": "पेज चुनें",
   "checkingForUpdates": "अपडेट के लिए जांच कर रहा है...",
   "chooseQuranType": "कुरान चुनें",
@@ -324,6 +345,127 @@
   "noFavoriteReciters": "कोई पसंदीदा पाठक नहीं. सूची में एक जोड़ने का प्रयास करें",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"
-  }
-
+  },
+  "noReciterSearchResult": "आपकी खोज के कोई नतीजे नहीं मिलें",
+  "searchForReciter": "एक वाचक की खोज करें",
+  "downloadAllSuwarSuccessfully": "पूरा कुरान डाउनलोड हो गया है",
+  "noSuwarDownload": "डाउनलोड करने के लिए कोई नया सुरा नहीं",
+  "connectDownloadQuran": "कृपया डाउनलोड करने के लिए इंटरनेट से कनेक्ट करें",
+  "playInOnlineModeQuran": "कृपया खेलने के लिए इंटरनेट से कनेक्ट करें",
+  "downloaded": "डाउनलोड",
+  "switchQuranType": "{नाम} पर जाएँ",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "सूरह का चयन करें",
+  "checkForUpdates": "अपडेट के लिए जांचें",
+  "checkForNewVersion": "देखें कि क्या नया संस्करण उपलब्ध है",
+  "wouldYouLikeToUpdate": "क्या आप ऐप को अपडेट करना चाहेंगे?",
+  "updateCompleted": "अपडेट सफलतापूर्वक पूरा हुआ!",
+  "noUpdates": "कोई अपडेट नहीं",
+  "usingLatestVersion": "आप नवीनतम संस्करण का उपयोग कर रहे हैं।",
+  "updateCancelled": "अपडेट रद्द किया गया",
+  "checkingUpdates": "अपडेट के लिए जांच कर रहा है...",
+  "downloadingUpdate": "अपडेट डाउनलोड हो रहा है...",
+  "installingUpdate": "अपडेट स्थापित हो रहा है...",
+  "updateCompletedSuccessfully": "अपडेट सफलतापूर्वक पूरा हुआ",
+  "updateFailed": "अपडेट विफल रहा",
+  "save": "Save",
+  "enterRtspUrl": "RTSP या Youtube Live URL दर्ज करें",
+  "addRtspUrl": "नीचे अपना कैमरा स्ट्रीम URL जोड़ें",
+  "enableRtspCamera": "कैमरा स्ट्रीमिंग सक्षम करें",
+  "rtspCameraSettings": "कैमरा सेटिंग्स",
+  "invalidRtspUrl": "अमान्य URL। कृपया URL की जाँच करें और पुनः प्रयास करें।",
+  "validRtspUrl": "URL सत्यापित और सफलतापूर्वक सहेजा गया।",
+  "rtspCameraSettingTitle": "लाइव कैमरा कनेक्शन",
+  "rtspCameraSettingDesc": "अपने स्थानीय कैमरे से कनेक्ट करें और टीवी स्क्रीन पर जुमा प्रार्थना की स्ट्रीम दिखाएं।",
+  "rtspCameraSettingScreenDesc": "यदि आप यहां कोई URL दर्ज करते हैं, तो जुमा का समय आते ही आपकी स्क्रीन स्वचालित रूप से वीडियो स्ट्रीमिंग पर बदल जाएगी",
+  "validatingStream": "स्ट्रिम सत्यापित की जा रही है...",
+  "checkInternetLiveCamera": "लाइव कैमरा सेटअप करने के लिए आपको इंटरनेट से कनेक्ट होना आवश्यक है",
+  "somethingWentWrong": "कुछ गलत हो गया! कृपया पुनः प्रयास करें",
+  "somethingWrong": "Something went wrong",
+  "tryAgainLater": "कृपया बाद में पुनः प्रयास करें",
+  "hintTextRtspUrl": "rtsp://... या https://youtube.com/live/...",
+  "checkInternetUpdate": "नई अपडेट की जांच के लिए आपको इंटरनेट से कनेक्ट होना होगा",
+  "appUpdateAvailable": "आपका ऐप संस्करण {currentVersion} चला रहा है। एक नया अपडेट (संस्करण {updatedVersion}) नवीनतम विशेषताओं और सुधारों के साथ उपलब्ध है।",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "{moshafName} कुरआन (संस्करण {version}) के लिए नया अपडेट उपलब्ध है।",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "केवल फज्र और इशा की प्रार्थनाएँ",
+  "minutesBeforeFajrPrayer": "फज्र की प्रार्थना समय से कुछ मिनट पहले",
+  "minutesAfterIshaPrayer": "इशा की प्रार्थना समय के कुछ मिनट बाद",
+  "scheduleSaved": "आपकी अनुसूची सहेजी गई है।",
+  "completeAllFields": "सहेजने से पहले कृपया सभी फ़ील्ड भरें।",
+  "endTimeAfter": "समाप्ति समय प्रारंभ समय के बाद होना चाहिए।",
+  "scheduleListening": "अनुसूचित सुनना",
+  "enableScheduling": "अनुसूची सक्षम करें",
+  "scheduleDesc": "इस सुविधा को सक्षम करें जिससे समय निर्धारित होने पर सूरह स्वतः चल जाएगी।",
+  "startTime": "प्रारंभ समय",
+  "endTime": "समाप्ति समय",
+  "selectReciter": "कारी चुनें",
+  "selectMoshaf": "मुसहफ चुनें",
+  "randomSurahSelection": "यादृच्छिक सूरह चयन",
+  "selectSurah": "सूरह चुनें",
+  "initializingAutoReading": "प्रारंभिक प्रक्रिया जारी है...",
+  "prayerTimeNotification": "{salahName} समय ({prayerTime}) सूचना",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "क़ुरआन सुनने का समय निर्धारित करने के लिए कृपया इंटरनेट से कनेक्ट हों",
+  "duaaBetweenAdhanAndIqamaaTitle": "अज़ान और इक़ामत के बीच की दुआ (दुआ) स्वीकार की जाती है।",
+  "duaBetweenAdhanIqamah": "अज़ान और इक़ामत के बीच की दुआ (दुआ) अस्वीकार नहीं की जाती है।",
+  "processingRequest": "अनुरोध संसाधित किया जा रहा है...",
+  "loadingStream": "स्ट्रीम लोड हो रही है...",
+  "rtspUrlHint": "RTSP URL या YouTube लिंक दर्ज करें",
+  "replaceWorkflowWithStream": "कैमरा स्ट्रीम स्वचालित रूप से प्रदर्शित करें",
+  "replaceAppWorkflowWithCameraStream": "जैसे ही कैमरा रिकॉर्डिंग शुरू करता है, स्क्रीन स्वतः कैमरा स्ट्रीम दिखाएगी; यदि रिकॉर्डिंग बंद हो जाती है, तो स्क्रीन दोबारा प्रार्थना समय पर लौटेगी",
+  "streamError": "स्ट्रीमिंग में त्रुटि आई",
+  "finish": "समाप्त करें",
+  "schedulingAlarms": "ऑन/ऑफ समय की अनुसूची बनाई जा रही है...",
+  "alarmsSucessSchedule": "ऑन/ऑफ ट्रिगर सफलतापूर्वक निर्धारित किये गए",
+  "alarmsScheduleFailure": "ऑन/ऑफ ट्रिगर तय करने में विफल",
+  "prayerTimeNotificationTitle": "नमाज़ समय की सूचना",
+  "prayerTimeNotificationDesc": "नमाज़ के समय अज़ान प्राप्त करें, भले ही ऐप बंद हो।",
+  "enablePrayerReminders": "नमाज़ की याद दिलाने वाला सक्षम करें",
+  "enablePrayerRemindersDesc": "पृष्ठभूमि में स्वचालित रूप से कार्य करता है"
 }

@@ -21,6 +21,7 @@
   "lightMode": "لائٹ موڈ",
   "changeMosque": "مسجد بدلو",
   "in1": "میں",
+  "azanIn": "اذان میں",
   "sec": "سیکنڈ",
   "online": "آن لائن",
   "missingMosqueId": "MAWAQIT #ID یا MOSQUE #ID غائب ہے۔",
@@ -60,11 +61,11 @@
   "turnOfPhones": "براہ کرم اپنے فونز کو سائلنٹ موڈ میں رکھیں",
   "iqamaIn": "اقامہ میں",
   "alAthkar": "الازکار",
-  "azkarList0": "",
+  "azkarList0": "استغفیر اللہ، استغفی اللہ، استغفی اللہ اللہ تعالٰی انت السلام و منکا السلام، تبرکتہ یا ذل جلالی ول اکرام اللہم الذین علی ذکرک و شکرک و حسنی عبادت",
   "@azkarList0": {
     "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
   },
-  "azkarList1": "",
+  "azkarList1": "سبحان اللہ والحمدو للہ واللہ اکبر (33مرتبہ) لا الہ الا اللہ، وحدہ لاچاری لہ، لہو المؤلکو و لہو الہامدو، وھو الہٰی کُلّی ان قدیر۔",
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
@@ -84,7 +85,7 @@
   "@azkarList5": {
     "description": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ"
   },
-  "azkarList6": "",
+  "azkarList6": "لا الہ الا اللہ، وحدۃ لاچارک لہ، لاہو الملک و لہو الہامدو، وھوا علیٰ کُلّی چھائِین قدیر، اللّٰہُمَّا لاَ منیٰ لِما اَطَیْطَ، وَلا مُعَطَہَ لِمَا عَتِی، وَلا یَنْفَعُوْ ذَلَجَدِی منیکا الجاد",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
@@ -199,6 +200,7 @@
   "recommended": "تجویز کردہ",
   "sabah": "فجر",
   "randomHadithLanguage": "بے ترتیب حدیث کی زبان",
+  "mosqueDefault": "آپ کی آن لائن ترتیب سے",
   "en": "انگریزی",
   "fr": "فرانسیسی",
   "ar": "عربی",
@@ -217,6 +219,11 @@
   "nl_ar": "ڈچ اور عربی",
   "connectToChangeHadith": "حدیث کی زبان کو تبدیل کرنے کے لیے براہ کرم انٹرنیٹ سے جڑیں۔.",
   "retry": "دوبارہ کوشش کریں",
+  "reciterLoadError": "تلاوت کنندگان لوڈ کرنے میں ناکامی",
+  "reciterNetworkError": "براہ کرم اپنا انٹرنیٹ کنکشن چیک کریں اور دوبارہ کوشش کریں",
+  "reciterServerError": "سرور عارضی طور پر دستیاب نہیں ہے۔ براہ کرم بعد میں دوبارہ کوشش کریں",
+  "reciterTimeoutError": "درخواست کا وقت ختم ہو گیا۔ براہ کرم دوبارہ کوشش کریں",
+  "surahLoadError": "سورہ جات لوڈ نہیں ہو سکیں",
   "timeSetting": "وقت کی ترتیب",
   "timeSettingDesc": "حسب ضرورت نام سیٹ کریں۔",
   "selectedTime": "موجودہ منتخب وقت",
@@ -294,6 +301,20 @@
       }
     }
   },
+  "quranReadingPagePortrait": "صفحہ {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
   "chooseQuranPage": "صفحہ منتخب کریں۔",
   "checkingForUpdates": "اپ ڈیٹس کی جانچ ہو رہی ہے...",
   "chooseQuranType": "قرآن کا انتخاب کریں۔",
@@ -324,5 +345,127 @@
   "noFavoriteReciters": "کوئی پسندیدہ تلاوت کرنے والا نہیں۔ فہرست میں ایک شامل کرنے کی کوشش کریں۔",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"
-  }
+  },
+  "noReciterSearchResult": "آپ کی تلاش کے لیے کوئی نتیجہ نہیں ملا",
+  "searchForReciter": "قاری تلاش کریں",
+  "downloadAllSuwarSuccessfully": "پورا قرآن ڈاؤن لوڈ ہو چکا ہے",
+  "noSuwarDownload": "ڈاؤن لوڈ کرنے کے لیے کوئی نئی سورۃ موجود نہیں",
+  "connectDownloadQuran": "ڈاؤن لوڈ کے لیے براہ کرم انٹرنیٹ سے جڑیں",
+  "playInOnlineModeQuran": "پلے کرنے کے لیے براہ کرم انٹرنیٹ سے جڑیں",
+  "downloaded": "ڈاؤن لوڈ کیا گیا",
+  "switchQuranType": "{name} پر جائیں",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "سورۃ منتخب کریں",
+  "checkForUpdates": "اَپ ڈیٹس چیک کریں",
+  "checkForNewVersion": "دیکھیں کہ آیا نئی ورژن دستیاب ہے",
+  "wouldYouLikeToUpdate": "کیا آپ ایپ کو اپ ڈیٹ کرنا چاہتے ہیں؟",
+  "updateCompleted": "اپ ڈیٹ کامیابی سے مکمل ہو گئی!",
+  "noUpdates": "کوئی اپ ڈیٹس نہیں",
+  "usingLatestVersion": "آپ تازہ ترین ورژن استعمال کر رہے ہیں۔",
+  "updateCancelled": "اپ ڈیٹ منسوخ کر دی گئی",
+  "checkingUpdates": "اپ ڈیٹس کی جانچ ہو رہی ہے...",
+  "downloadingUpdate": "اپ ڈیٹ ڈاؤن لوڈ ہو رہا ہے...",
+  "installingUpdate": "اپ ڈیٹ انسٹال ہو رہا ہے...",
+  "updateCompletedSuccessfully": "اپ ڈیٹ کامیابی سے مکمل ہوئی",
+  "updateFailed": "اپ ڈیٹ ناکام ہو گئی",
+  "save": "محفوظ",
+  "enterRtspUrl": "RTSP یا Youtube Live کا URL درج کریں",
+  "addRtspUrl": "اپنے کیمرہ کی سٹریمنگ URL نیچے شامل کریں",
+  "enableRtspCamera": "کیمرہ سٹریمنگ فعال کریں",
+  "rtspCameraSettings": "کیمرہ سیٹنگز",
+  "invalidRtspUrl": "غلط URL۔ براہ کرم URL چیک کریں اور دوبارہ کوشش کریں۔",
+  "validRtspUrl": "URL کی تصدیق اور کامیابی سے محفوظ ہو گیا۔",
+  "rtspCameraSettingTitle": "براہ راست کیمرہ کنکشن",
+  "rtspCameraSettingDesc": "اپنے مقامی کیمرہ سے جڑیں اور جمعہ کی نماز کی سٹریمنگ ٹی وی اسکرین پر دکھائیں۔",
+  "rtspCameraSettingScreenDesc": "اگر آپ یہاں URL درج کرتے ہیں تو جیسے ہی جمعہ کا وقت ہوگا، آپ کی اسکرین خود بخود ویڈیو سٹریمنگ پر تبدیل ہو جائے گی",
+  "validatingStream": "سٹریمنگ کی تصدیق ہو رہی ہے...",
+  "checkInternetLiveCamera": "براہ کرم براہ راست کیمرہ سیٹ اپ کرنے کے لیے انٹرنیٹ سے منسلک ہوں",
+  "somethingWentWrong": "کچھ غلط ہو گیا! براہ کرم دوبارہ کوشش کریں",
+  "somethingWrong": "کچھ غلط ہو گیا",
+  "tryAgainLater": "براہ کرم بعد میں دوبارہ کوشش کریں",
+  "hintTextRtspUrl": "rtsp://... یا https://youtube.com/live/...",
+  "checkInternetUpdate": "نئی اپ ڈیٹس چیک کرنے کے لیے آپ کو انٹرنیٹ سے منسلک ہونا چاہیے۔",
+  "appUpdateAvailable": "آپ کی ایپ ورژن {currentVersion} پر چل رہی ہے۔ ایک نئی اپ ڈیٹ (ورژن {updatedVersion}) جدید خصوصیات اور بہتری کے ساتھ دستیاب ہے۔",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "{moshafName} قرآن کے لیے نئی اپ ڈیٹ (ورژن {version}) دستیاب ہے۔",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "صرف فجر اور عشاء کی نمازیں",
+  "minutesBeforeFajrPrayer": "فجر کی نماز کے وقت سے چند منٹ پہلے",
+  "minutesAfterIshaPrayer": "عشاء کی نماز کے وقت کے چند منٹ بعد",
+  "scheduleSaved": "آپ کا شیڈول محفوظ کر لیا گیا ہے۔",
+  "completeAllFields": "براہ کرم محفوظ کرنے سے پہلے تمام فیلڈز مکمل کریں۔",
+  "endTimeAfter": "اختتامی وقت، شروع ہونے کے وقت کے بعد ہونا چاہیے۔",
+  "scheduleListening": "شیڈول سننا",
+  "enableScheduling": "شیڈولنگ فعال کریں",
+  "scheduleDesc": "اس فیچر کو فعال کریں تاکہ مقررہ اوقات میں خود بخود سورۃ چل سکے۔",
+  "startTime": "آغاز وقت",
+  "endTime": "اختتامی وقت",
+  "selectReciter": "قاری منتخب کریں",
+  "selectMoshaf": "مصحف منتخب کریں",
+  "randomSurahSelection": "تصادفی سورۃ کا انتخاب",
+  "selectSurah": "ایک سورۃ منتخب کریں",
+  "initializingAutoReading": "تیاری جاری ہے...",
+  "prayerTimeNotification": "{salahName} کا وقت ({prayerTime}) اطلاع",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "قرآن سننے کا شیڈول بنانے کے لیے براہ کرم انٹرنیٹ سے جڑیں",
+  "duaaBetweenAdhanAndIqamaaTitle": "اذان اور اقامت کے درمیان دعا رد نہیں کی جاتی",
+  "duaBetweenAdhanIqamah": "اذان اور اقامت کے درمیان دعا رد نہیں کی جاتی۔",
+  "processingRequest": "پروسیسنگ ہو رہی ہے...",
+  "loadingStream": "سٹریمنگ لوڈ ہو رہی ہے...",
+  "rtspUrlHint": "RTSP URL یا YouTube لنک درج کریں",
+  "replaceWorkflowWithStream": "کیمرہ سٹریمنگ خود بخود دیکھائیں",
+  "replaceAppWorkflowWithCameraStream": "کیمرہ ریکارڈنگ شروع ہوتے ہی اسکرین خود بخود کیمرہ سٹریمنگ پر تبدیل ہو جائے گی؛ اگر ریکارڈنگ رُک جائے تو اسکرین نماز کے اوقات کی ڈسپلے پر واپس آجائے گی",
+  "streamError": "سٹریمنگ کے دوران ایک غلطی پیش آئی",
+  "finish": "ختم کریں",
+  "schedulingAlarms": "آن/آف اوقات شیڈول ہو رہے ہیں...",
+  "alarmsSucessSchedule": "آن/آف ٹرگرز کامیابی سے شیڈول ہو گئے",
+  "alarmsScheduleFailure": "آن/آف ٹرگرز شیڈول کرنے میں ناکامی",
+  "prayerTimeNotificationTitle": "نماز کے وقت کی اطلاع",
+  "prayerTimeNotificationDesc": "نماز کے اوقات پر اذان سنیں، چاہے ایپ بند بھی ہو",
+  "enablePrayerReminders": "نماز کی یاددہانی فعال کریں",
+  "enablePrayerRemindersDesc": "یہ فیچر خود بخود پس منظر میں کام کرتا ہے"
 }

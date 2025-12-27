@@ -21,6 +21,7 @@
   "lightMode": "Mbayka laaɓtuka",
   "changeMosque": "Waylu Jamaa",
   "in1": "nder",
+  "azanIn": "Azan ɗee ko jokkondirnde laawol",
   "sec": "Hoj",
   "online": "Ena seŋii",
   "missingMosqueId": "#ID MAWAQIT walla #ID JUMAA ena ŋakki",
@@ -172,7 +173,7 @@
   "announcementOnlyMode": "Mbayka tintine",
   "normalMode": "Mbayka ngoowaaka ",
   "announcementOnlyModeEXPLINATION": "Suɓo so yaynirde maa yaltinat tintine sahaa kala, ɗum ena himmi so tawii mbaɗ-ɗaa yaynirde ndee ko e naatirde, yeru.",
-  "duaaElEftarText": "",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
   },
@@ -199,6 +200,7 @@
   "recommended": "Ena wasiyaa",
   "sabah": "Subaka",
   "randomHadithLanguage": "Ɗemngal hadiis ñuggal",
+  "mosqueDefault": "Ko e teelte maa onlino",
   "en": "Engeleere",
   "fr": "Farayseere",
   "ar": "Aarabeere",
@@ -217,6 +219,11 @@
   "nl_ar": "Holanndeere & Aarabeere",
   "connectToChangeHadith": "Tiiɗno seŋo e Enternet ngam waylude ɗemngal hadisaaji ngal.",
   "retry": "Fuɗɗito",
+  "reciterLoadError": "Men waawiima lootirde loowdiɗe",
+  "reciterNetworkError": "Miñndin ko feere e jamfa internet maa, tee yawee",
+  "reciterServerError": "Serweer ngal jooɗii e waawannde. Tee yawee caɗee",
+  "reciterTimeoutError": "Kadi so tawii waawannde ngoodi. Tee yawee",
+  "surahLoadError": "Men waawiima lootirde suraaji",
   "timeSetting": "Teelto waku oo",
   "timeSettingDesc": "Suɓo innde heeriinde",
   "selectedTime": "Waktu labaaɗo oo sahaa",
@@ -369,6 +376,22 @@
   "installingUpdate": "Nana aafa kesɗitinal...",
   "updateCompletedSuccessfully": "Kesɗitingol timmirii no haanirta",
   "updateFailed": "Kesɗitingol woorii",
+  "save": "Danndu",
+  "enterRtspUrl": "Naatnu RTSP walla URL Youtube Tolbec",
+  "addRtspUrl": "Ɓeydu URL balol kameraa maa les ɗoo",
+  "enableRtspCamera": "Hurmin Balol Kameraa",
+  "rtspCameraSettings": "Teelte Kameraa",
+  "invalidRtspUrl": "URL jaalđaani. Tiiɗno ƴeewto URL oo kisa puɗɗito-ɗaa.",
+  "validRtspUrl": "URL jaalɗinaama kadi danndaama no haaniri.",
+  "rtspCameraSettingTitle": "Ceŋol kameraa tolbec",
+  "rtspCameraSettingDesc": "Seŋ kameraa npkkuure maa ngam yaltinde njuula aljumaa nguu e yaynirde tele.",
+  "rtspCameraSettingScreenDesc": "So a naatnii ɗoo URL, yaynirde maa fuɗɗo hollude widewoo tolbec so njuulu Aljumu'a fuɗɗiima",
+  "validatingStream": "Nana Jaalɗina Balol...",
+  "checkInternetLiveCamera": "Maa ceŋo-ɗaa e Enternet ngam teeltaade kameraa tolbec oo",
+  "somethingWentWrong": "Won ko feewaani! Tiiɗno fuɗɗito",
+  "somethingWrong": "Won ko feewaani",
+  "tryAgainLater": "Tiiɗno fuɗɗito ɗoo e yeeso",
+  "hintTextRtspUrl": "rtsp://... or https://youtube.com/live/...",
   "checkInternetUpdate": "Maa ceŋo-ɗaa e Enternet ngam yuurnaade kesɗitine kese",
   "appUpdateAvailable": "Jaaɓngal maa dogata heen ko yamre {currentVersion}. Kesɗitinal kesal (yamre {updatedVersion}) ena woodi wonndude e fannuuji e ƴellitine kesi.",
   "@appUpdateAvailable": {
@@ -383,5 +406,66 @@
         "example": "604"
       }
     }
-  }
+  },
+  "quranUpdateDialogContent": "Kesɗitinal kesal {moshafName} Ǧur'aana (yamre {version}) iena woodi.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "Njuulu fajiri e geeƴe tan",
+  "minutesBeforeFajrPrayer": "hojomaaji hade waktu fajiri",
+  "minutesAfterIshaPrayer": "hojomaaji ɓaawo waktu geeƴe",
+  "scheduleSaved": "Eɓɓannde maa danndaama.",
+  "completeAllFields": "Tiiɗno timmin galli fof hade maa danndude.",
+  "endTimeAfter": "Waktu gaynirde foti wonde ko caggal puɗɗorde.",
+  "scheduleListening": "Keɗagol Eɓɓangol",
+  "enableScheduling": "Hurmin Eɓɓgugol",
+  "scheduleDesc": "Hurmin oo fannu ngam tarde Simoore e jaajol tuma waktuuji eɓɓaaɗi.",
+  "startTime": "Waktu fuɗɗorde",
+  "endTime": "Waktu gasirde",
+  "selectReciter": "Suɓo Tafsiroowo",
+  "selectMoshaf": "Suɓo Mushaf",
+  "randomSurahSelection": "Labagol Simoore Ñugget",
+  "selectSurah": "Suɓo Simoore",
+  "initializingAutoReading": "Kurminirgol ena jokki...",
+  "prayerTimeNotification": "Tintinol {salahName} waktu ({prayerTime})",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Tiiɗno seŋo e Enternet ngam eɓɓude keɗagol Ǧur'aana",
+  "duaaBetweenAdhanAndIqamaaTitle": "Dua (diam njooraa) ko fowde nda Adhan e Iqamah tammi kam tawrii",
+  "duaBetweenAdhanIqamah": "Dua (diam njooraa) ko fowde nda Adhan e Iqamah tammi, kam tawrii.",
+  "processingRequest": "Nana ɗaɓɓude aadde...",
+  "loadingStream": "Nana lootirde balol...",
+  "rtspUrlHint": "Naatnu RTSP URL walla link YouTube",
+  "replaceWorkflowWithStream": "Nana hollu balol camara sey to woni",
+  "replaceAppWorkflowWithCameraStream": "Ekraanu nana hollu balol camara sey camara ndi fuɗɗi duɓɗude; so nodda, ekraan ngal sonna hollire jeeyndan juulu",
+  "streamError": "Jumɗo ɗaɓɓii so lootorde balol",
+  "finish": "Jaɓɓit",
+  "schedulingAlarms": "Nana ɗaɓɓude juulirde waawinde/waawaa...",
+  "alarmsSucessSchedule": "Waawinde/waawaa juulirde ɗe ɗaɓɓi e daraja",
+  "alarmsScheduleFailure": "Ndaa waayi juulirde waawinde/waawaa",
+  "prayerTimeNotificationTitle": "Tintine Waktu Juulu",
+  "prayerTimeNotificationDesc": "Joggor adhan kon maa fi sa'ii jangirde, e ko app en tokkataa",
+  "enablePrayerReminders": "Hurɗo Tintine Juulu",
+  "enablePrayerRemindersDesc": "Nana waawi e kaawru ngoɗɗo"
 }

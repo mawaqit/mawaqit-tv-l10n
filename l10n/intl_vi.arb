@@ -21,6 +21,7 @@
   "lightMode": "Svijetli način prikaza",
   "changeMosque": "Promijeni džamiju",
   "in1": "za",
+  "azanIn": "Azan bằng",
   "sec": "Sek",
   "online": "Online",
   "missingMosqueId": "Nedostaje MAWAQIT #ID ili #ID džamije",
@@ -88,31 +89,31 @@
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
-  "azkarList7": "''Allahu, Ti si moj Gospodar! Nema boga osim Tebe! Ti si me stvorio, i ja sam Tvoj rob! Držim se, koliko god mogu, svoje obaveze (prema Tebi) i svoga obećanja Tebi! Od Tebe tražim zaštitu od zla onoga što sam uradio! Priznajem Tvoje blagodati prema meni, i priznajem svoje grijehe! Oprosti mi, jer, doista, niko osim Tebe ne može grijehe oprostiti.''",
+  "azkarList7": "",
   "@azkarList7": {
     "description": "اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت"
   },
-  "azkarList8": "Osvanusmo i osvanu svekolika Allahova vlast. Hvala Allahu i nema boga osim Njega Jedinog, Koji druga nema. Njemu pripada sva vlast i svaka pohvala i on nad svačim ima moć. Allahu, molim Te za sva dobra ovog dana i za dobra poslije njega. I utječem ti se od zla ovog dana i zla poslije njega. Gospodaru moj, Tebi se sklanjam pred lijenošću i zlohudom ohološću. Tebi se sklanjam pred kaznom Džehennema i kaburskom kaznom. (Muslim)",
+  "azkarList8": "",
   "@azkarList8": {
     "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
   },
-  "azkarList9": "\"Allahu moj, jutros svjedočim pred Tobom, pred onima koji nose Tvoj Arš, pred Tvojim melekima i svim Tvojim stvorenjima da si Ti Allah, nema boga osim Tebe, Jedini, koji nemaš ortaka, i da je Muhammed Tvoj rob i Tvoj poslanik\" (četiri puta). A kada nastupi večer, kaže se: 'Allahu moj, večeras svjedočim...'",
+  "azkarList9": "",
   "@azkarList9": {
     "description": "اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات|. [ وإذا أمسى قال: اللَّهم إني أمسيت...]"
   },
-  "azkarList10": "\"Allahu moj, podari mi zdravlje u tijelu, Allahu moj, podari mi zdravlje u sluhu, Allahu moj, podari mi zdravlje u očima, nema boga osim Tebe. Allahu, utječem Ti se od nevjerovanja i siromaštva, i tražim utočište od kaburske patnje, nema boga osim Tebe\" (izgovara se 3 puta)",
+  "azkarList10": "",
   "@azkarList10": {
     "description": "|اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ"
   },
-  "azkarList11": "\"Dovoljan mi je Allah, nema boga osim Njega. Na Njega se oslanjam, i On je Gospodar Prijestolja veličanstvenog.\"\n(ponavlja se 7 puta)",
+  "azkarList11": "",
   "@azkarList11": {
     "description": "|حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ"
   },
-  "azkarList12": "Zadovoljan sam da mi je Allah Gospodar, vjera islam, Muhammed, a. s., vjerovjesnik. (Ponavlja se 3 puta)",
+  "azkarList12": "",
   "@azkarList12": {
     "description": "|رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ"
   },
-  "azkarList13": "Nema boga osim Allaha, Jedinoga, Koji druga nema. Njemu pripada vlast nad svim i sva pohvala. On sve može. (Ponavlja se 10 puta)",
+  "azkarList13": "",
   "@azkarList13": {
     "description": "|لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات"
   },
@@ -199,6 +200,7 @@
   "recommended": "Preporučeno",
   "sabah": "Sabah",
   "randomHadithLanguage": "Slučajni jezik hadisa",
+  "mosqueDefault": "Từ cấu hình trực tuyến của bạn",
   "en": "English",
   "fr": "French",
   "ar": "Arabic",
@@ -217,6 +219,11 @@
   "nl_ar": "Dutch & Arabic",
   "connectToChangeHadith": "Please connect to the internet to change the hadith language.",
   "retry": "Retry",
+  "reciterLoadError": "Không thể tải danh sách Qari",
+  "reciterNetworkError": "Vui lòng kiểm tra kết nối internet và thử lại",
+  "reciterServerError": "Máy chủ tạm thời không khả dụng. Vui lòng thử lại sau",
+  "reciterTimeoutError": "Yêu cầu bị quá hạn. Vui lòng thử lại",
+  "surahLoadError": "Không thể tải các Surah",
   "timeSetting": "Configuring the time",
   "timeSettingDesc": "Podešavanje vremena",
   "selectedTime": "Trenutno odabrano vrijeme",
@@ -294,6 +301,20 @@
       }
     }
   },
+  "quranReadingPagePortrait": "Trang {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
   "chooseQuranPage": "Zgjidhni faqen",
   "checkingForUpdates": "Po kontrollon për përditësime...",
   "chooseQuranType": "Zgjidhni Kuranin",
@@ -324,5 +345,127 @@
   "noFavoriteReciters": "Nuk ka recitues të preferuar. Provoni të shtoni një në listë",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"
-  }
+  },
+  "noReciterSearchResult": "Không tìm thấy kết quả cho tìm kiếm của bạn",
+  "searchForReciter": "Tìm kiếm Qari",
+  "downloadAllSuwarSuccessfully": "Toàn bộ Kinh Qur'an đã được tải xuống",
+  "noSuwarDownload": "Không có surah mới để tải xuống",
+  "connectDownloadQuran": "Vui lòng kết nối Internet để tải về",
+  "playInOnlineModeQuran": "Vui lòng kết nối Internet để phát",
+  "downloaded": "Đã tải xuống",
+  "switchQuranType": "Chuyển đến {name}",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "Chọn Surah",
+  "checkForUpdates": "Kiểm tra cập nhật",
+  "checkForNewVersion": "Kiểm tra xem có phiên bản mới hay không",
+  "wouldYouLikeToUpdate": "Bạn có muốn cập nhật ứng dụng không?",
+  "updateCompleted": "Cập nhật hoàn tất thành công!",
+  "noUpdates": "Không có cập nhật mới",
+  "usingLatestVersion": "Bạn đang sử dụng phiên bản mới nhất.",
+  "updateCancelled": "Hủy cập nhật",
+  "checkingUpdates": "Đang kiểm tra cập nhật...",
+  "downloadingUpdate": "Đang tải xuống bản cập nhật...",
+  "installingUpdate": "Đang cài đặt bản cập nhật...",
+  "updateCompletedSuccessfully": "Cập nhật thành công",
+  "updateFailed": "Cập nhật thất bại",
+  "save": "Lưu",
+  "enterRtspUrl": "Nhập đường dẫn RTSP hoặc Youtube Live",
+  "addRtspUrl": "Thêm đường dẫn luồng camera của bạn bên dưới",
+  "enableRtspCamera": "Bật phát trực tiếp Camera",
+  "rtspCameraSettings": "Cài đặt Camera",
+  "invalidRtspUrl": "URL không hợp lệ. Vui lòng kiểm tra lại và thử lại.",
+  "validRtspUrl": "URL đã xác minh và lưu thành công.",
+  "rtspCameraSettingTitle": "Kết nối camera trực tiếp",
+  "rtspCameraSettingDesc": "Kết nối đến camera cục bộ và hiển thị luồng lễ cầu nguyện Jumua trên màn hình TV.",
+  "rtspCameraSettingScreenDesc": "Nếu bạn nhập URL vào đây, màn hình sẽ tự động chuyển sang phát video trực tiếp khi đến giờ Jumua",
+  "validatingStream": "Đang xác minh luồng...",
+  "checkInternetLiveCamera": "Bạn phải kết nối internet để thiết lập camera trực tiếp",
+  "somethingWentWrong": "Đã xảy ra lỗi! Vui lòng thử lại",
+  "somethingWrong": "Đã xảy ra lỗi",
+  "tryAgainLater": "Vui lòng thử lại sau",
+  "hintTextRtspUrl": "rtsp://... hoặc https://youtube.com/live/...",
+  "checkInternetUpdate": "Bạn phải kết nối internet để kiểm tra bản cập nhật mới",
+  "appUpdateAvailable": "Ứng dụng của bạn đang sử dụng phiên bản {currentVersion}. Một bản cập nhật mới (phiên bản {updatedVersion}) đã có với các tính năng và cải tiến mới nhất.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "Một bản cập nhật mới cho Kinh Qur'an {moshafName} (phiên bản {version}) đã sẵn sàng.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "Chỉ dành cho các buổi cầu nguyện Fajr và Isha",
+  "minutesBeforeFajrPrayer": "phút trước giờ cầu nguyện fajr",
+  "minutesAfterIshaPrayer": "phút sau giờ cầu nguyện isha",
+  "scheduleSaved": "Lịch của bạn đã được lưu.",
+  "completeAllFields": "Vui lòng điền đầy đủ thông tin trước khi lưu.",
+  "endTimeAfter": "Giờ kết thúc phải sau giờ bắt đầu.",
+  "scheduleListening": "Nghe lên lịch",
+  "enableScheduling": "Bật lên lịch",
+  "scheduleDesc": "Kích hoạt tính năng này để tự động phát Surah vào thời gian đã định.",
+  "startTime": "Thời gian bắt đầu",
+  "endTime": "Thời gian kết thúc",
+  "selectReciter": "Chọn Qari",
+  "selectMoshaf": "Chọn Mushaf",
+  "randomSurahSelection": "Chọn surah ngẫu nhiên",
+  "selectSurah": "Chọn surah",
+  "initializingAutoReading": "Đang khởi tạo...",
+  "prayerTimeNotification": "Thông báo giờ {salahName} ({prayerTime})",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Vui lòng kết nối internet để hẹn giờ nghe Qur'an",
+  "duaaBetweenAdhanAndIqamaaTitle": "Lời cầu nguyện (Du'a) không bị từ chối giữa Adhan và Iqamah",
+  "duaBetweenAdhanIqamah": "Lời cầu nguyện (Du'a) không bị từ chối giữa Adhan và Iqamah.",
+  "processingRequest": "Đang xử lý yêu cầu...",
+  "loadingStream": "Đang tải luồng...",
+  "rtspUrlHint": "Nhập URL RTSP hoặc liên kết YouTube",
+  "replaceWorkflowWithStream": "Tự động hiển thị luồng camera",
+  "replaceAppWorkflowWithCameraStream": "Màn hình sẽ tự động hiển thị luồng camera ngay khi camera khởi động ghi hình; nếu dừng, màn hình sẽ trở về hiển thị giờ cầu nguyện",
+  "streamError": "Đã xảy ra lỗi khi phát trực tiếp",
+  "finish": "Hoàn thành",
+  "schedulingAlarms": "Đang lên lịch thời gian bật/tắt...",
+  "alarmsSucessSchedule": "Bật/tắt đã được lên lịch thành công",
+  "alarmsScheduleFailure": "Lên lịch bật/tắt không thành công",
+  "prayerTimeNotificationTitle": "Thông báo giờ cầu nguyện",
+  "prayerTimeNotificationDesc": "Nhận thông báo Azan vào các giờ cầu nguyện, ngay cả khi ứng dụng đã đóng",
+  "enablePrayerReminders": "Bật nhắc giờ cầu nguyện",
+  "enablePrayerRemindersDesc": "Hoạt động tự động trong nền"
 }
