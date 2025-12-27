@@ -3,7 +3,7 @@ name: Crowdin Sync
 on:
   push:
     paths:
-      - 'lib/l10n/intl_en.arb'
+      - 'l10n/intl_en.arb'
     branches:
       - dev
   workflow_dispatch:
@@ -40,7 +40,7 @@ jobs:
 
   download-translations:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/dev'
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev'
     needs: sync-and-pretranslate
     steps:
       - name: Checkout
