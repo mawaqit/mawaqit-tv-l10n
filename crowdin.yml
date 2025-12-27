@@ -1,7 +1,10 @@
+project_id_env: CROWDIN_PROJECT_ID
+api_token_env: CROWDIN_PERSONAL_TOKEN
+
 files:
-  - source: /l10n/intl_en.arb
-    translation: /l10n/intl_%two_letters_code%.arb
+  - source: /lib/l10n/intl_en.arb
+    translation: /lib/l10n/intl_%two_letters_code%.arb
     languages_mapping:
       two_letters_code:
-        pt_BR: pt_BR
-        pt_PT: pt_PT
+        pt-BR: pt_BR
+        pt-PT: pt_PT
