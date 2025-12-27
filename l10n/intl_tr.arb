@@ -120,7 +120,7 @@
     "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
   },
   "jumuaaScreenTitle": "Cuma Vakti",
-  "jumuaaHadith": "Peygamber Efendimiz (SAV) şöyle buyurmuştur: \" Bir kimse cuma günü cünüplükten temizleniyormuş gibi boy abdesti alır sonra cuma namazına ilk saatinde giderse bir deve kurban etmiş gibi sevap kazanır. İkinci saatte giderse bir inek kurban etmiş gibi sevap kazanır.\"",
+  "jumuaaHadith": "Ebû Hureyre radıyallahu anh'den rivayet edildiğine göre Resûlullah sallallahu aleyhi ve sellem şöyle buyurmuştur: \"Bir kişi güzelce abdest alır, cuma namazına gider, hutbeyi ses çıkarmadan dinlerse, iki cuma arasındaki ve fazla olarak üç günlük daha günahları bağışlanır. Kim hutbe okunurken çakıl taşlarıyla oynarsa, abesle iştiğal etmiş olur.\"",
   "shuruk": "Güneş",
   "reset": "Sıfırla",
   "mosqueNotFoundMessage": "Üzgünüz, caminiz bulunamadı, eksik veya geçici olarak kullanım dışı olabilir.",
@@ -183,5 +183,6 @@
   "takbeerAleidText": "Allâhü ekber Allâhü ekber lâ ilâhe illallâhü vallâhü ekber Allâhü ekber ve lillâhi'l-hamd",
   "settings": "Ayarlar",
   "applicationModes": "Uygulama modları",
-  "ifYouAreFacingAnIssueWithTheAppActivateThis": "Uygulamayla ilgili bir sorunla karşılaşıyorsanız bu seçeneği etkinleştirin"
+  "ifYouAreFacingAnIssueWithTheAppActivateThis": "Uygulamayla ilgili bir sorunla karşılaşıyorsanız bu seçeneği etkinleştirin",
+  "duaaBetweenAdhanAndIqamaaTitle": "Ezânla kâmet arasında yapılan dua reddedilmez"
 }
