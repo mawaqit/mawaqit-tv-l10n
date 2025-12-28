@@ -31,6 +31,51 @@ jobs:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
+      - name: Auto-label new strings for AI translation
+        run: |
+          # Get or create auto-translate label
+          LABEL_ID=$(curl -s "https://api.crowdin.com/api/v2/projects/${{ secrets.CROWDIN_PROJECT_ID }}/labels" \
+            -H "Authorization: Bearer ${{ secrets.CROWDIN_PERSONAL_TOKEN }}" | \
+            jq -r '.data[] | select(.data.title == "auto-translate") | .data.id')
+
+          if [ -z "$LABEL_ID" ]; then
+            LABEL_ID=$(curl -s -X POST "https://api.crowdin.com/api/v2/projects/${{ secrets.CROWDIN_PROJECT_ID }}/labels" \
+              -H "Authorization: Bearer ${{ secrets.CROWDIN_PERSONAL_TOKEN }}" \
+              -H "Content-Type: application/json" \
+              -d '{"title": "auto-translate"}' | jq -r '.data.id')
+          fi
+
+          echo "Label ID: $LABEL_ID"
+
+          # Sacred text patterns to exclude
+          EXCLUDE="azkarList|afterSalahHadith|duaaElEftarText|takbeerAleidText|jumuaaHadith|duaaBetweenSalahAndAdhan|salatKhayrMinaNawm"
+
+          # Get all strings and label new ones (without labels) except sacred texts
+          OFFSET=0
+          LABELED=0
+          while true; do
+            STRINGS=$(curl -s "https://api.crowdin.com/api/v2/projects/${{ secrets.CROWDIN_PROJECT_ID }}/strings?limit=500&offset=$OFFSET" \
+              -H "Authorization: Bearer ${{ secrets.CROWDIN_PERSONAL_TOKEN }}")
+
+            COUNT=$(echo "$STRINGS" | jq '.data | length')
+            [ "$COUNT" -eq 0 ] && break
+
+            # Get strings without labels and not matching exclude patterns
+            IDS=$(echo "$STRINGS" | jq -r --arg ex "$EXCLUDE" '.data[] | select((.data.labelIds | length) == 0) | select(.data.identifier | test($ex) | not) | .data.id')
+
+            for ID in $IDS; do
+              curl -s -X POST "https://api.crowdin.com/api/v2/projects/${{ secrets.CROWDIN_PROJECT_ID }}/strings/$ID/labels" \
+                -H "Authorization: Bearer ${{ secrets.CROWDIN_PERSONAL_TOKEN }}" \
+                -H "Content-Type: application/json" \
+                -d "{\"labelIds\": [$LABEL_ID]}" > /dev/null
+              LABELED=$((LABELED + 1))
+            done
+
+            OFFSET=$((OFFSET + 500))
+          done
+
+          echo "Labeled $LABELED new strings with 'auto-translate'"
+
       - name: Pre-translate new strings with AI
         uses: crowdin/github-action@v2
         with:
