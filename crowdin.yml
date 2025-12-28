@@ -1,9 +1,15 @@
 project_id_env: CROWDIN_PROJECT_ID
 api_token_env: CROWDIN_PERSONAL_TOKEN
 
+preserve_hierarchy: true
+
 files:
   - source: /l10n/intl_en.arb
     translation: /l10n/intl_%two_letters_code%.arb
+    # Keep existing translations when source string changes
+    update_option: keep_translations
+    # Don't export strings that have no translation (preserves local translations)
+    skip_untranslated_strings: true
     languages_mapping:
       two_letters_code:
         pt-BR: pt_BR
