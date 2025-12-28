@@ -19,14 +19,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Upload sources and translations to Crowdin
+      - name: Upload sources to Crowdin
         uses: crowdin/github-action@v2
         with:
           upload_sources: true
-          upload_translations: true
+          upload_translations: false
           download_translations: false
-          auto_approve_imported: true
-          import_eq_suggestions: true
         env:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
