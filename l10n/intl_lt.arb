@@ -6,6 +6,7 @@
   "languages": "Kalbos",
   "appLang": "Programėlės kalba",
   "descLang": "Pasirinkite pageidaujamą kalbą",
+  "hadithLangDesc": "Tai pakeis jūsų pasirinkimą administratoriaus konsolėje, ekrane galite pasirinkti kitą kalbą.",
   "whoops": "Ups!",
   "noInternet": "Nėra interneto ryšio",
   "tryAgain": "Pabandykite dar kartą",
@@ -20,6 +21,7 @@
   "lightMode": "Šviesos režimas",
   "changeMosque": "Pakeisti mečetę",
   "in1": "svetainėje",
+  "azanIn": "Azanas po",
   "sec": "Sec",
   "online": "Internete",
   "missingMosqueId": "Trūksta MAWAQIT #ID arba MOSQUE #ID",
@@ -67,57 +69,57 @@
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
-  "azkarList2": "",
+  "azkarList2": "بِسْمِ ٱللّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ ، ٱلَّذِي يُوَسْوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
   "@azkarList2": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس - Surah An-Nas"
   },
-  "azkarList3": "",
+  "azkarList3": "بِسْمِ ٱللّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِّ ٱلنَّفَّاثَاتِ فِي ٱلْعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
   "@azkarList3": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِقُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
-  "azkarList4": "",
+  "azkarList4": "بِسْمِ ٱللّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ قُلْ هُوَ ٱللّٰهُ أَحَدٌ ، ٱللّٰهُ ٱلصَّمَدُ ، لَمْ يَلِدْ وَلَمْ يُولَدْ ، وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌ",
   "@azkarList4": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ - Surah Al-Ikhlas"
   },
-  "azkarList5": "",
+  "azkarList5": "ٱللّٰهُ لَا إِلَٰهَ إِلَّا هُوَ ٱلْحَيُّ ٱلْقَيُّومُۚ لَا تَأْخُذُهُۥ سِنَةٞ وَلَا نَوْمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلْأَرْضِۗ مَن ذَا ٱلَّذِي يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْۖ وَلَا يُحِيطُونَ بِشَيْءٖ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَاءَۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَۖ وَلَا يَأُودُهُۥ حِفْظُهُمَاۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
   "@azkarList5": {
-    "description": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ"
+    "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
   "azkarList6": "La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
-  "azkarList7": "",
+  "azkarList7": "اللهم أنت ربي, nėra dievo, tik Tu, Tu mane sukūrei ir aš Tavo tarnas, o kiek tik sugebu esu ištikimas Tavo sandėriui ir pažadui. Prisibijau blogio, kurį esu padaręs, pripažįstu malonę, kurią suteikei man, ir pripažįstu savo nuodėmes. Atleisk man, nes tik Tu atleidi nuodėmes.",
   "@azkarList7": {
-    "description": "اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت"
+    "description": "Sayyid al-Istighfar (Master of Seeking Forgiveness)"
   },
-  "azkarList8": "",
+  "azkarList8": "Mes pabudome ir karalystė priklauso Allahui, šlovė Allahui, nėra dievo, tik Allahas, Jis vienas, neturi partnerio; Jis turi karalystę ir Jam šlovė, Jis pajėgus viskam. Prašau Tavęs, duok šioje dienoje tai, kas gera, bei tai, kas bus po jos, ir prisibijau blogio iš šios dienos ir iš to, kas bus po jos. Prisibijau Tavo prieglobstyje tinginystės ir iškrypusio senėjimo, prisibijau nuo ugnies bausmės ir kapo bausmės.",
   "@azkarList8": {
-    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+    "description": "Morning supplication - Protection dua"
   },
-  "azkarList9": "",
+  "azkarList9": "Allahumma, aš liudiju ryte Tave, ir Tavo Sosto nešėjus, Tavo angelus bei visus Tavo kūrinius, kad Tu esi Allahas, nėra jokio dievo, išskyrus Tave, Tu Vienas neturi partnerio, ir kad Muhammadas yra Tavo tarnas ir Pasiuntinys. (Keturis kartus) [O kai vakare - sakyk: \"Allahumma, aš liudiju vakare...\"]",
   "@azkarList9": {
-    "description": ".| اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات"
+    "description": "Morning testimony - 4 times"
   },
-  "azkarList10": "",
+  "azkarList10": "Allahumma, suteik man sveikatą mano kūne, Allahumma, suteik man sveikatą mano klausoje, Allahumma, suteik man sveikatą mano regėjime, nėra dievo tik Tu. Allahumma, saugok mane nuo netikėjimo ir skurdo, ir saugok mane nuo kapo bausmės. Nėra dievo tik Tu. (Tris kartus)",
   "@azkarList10": {
-    "description": "|اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ"
+    "description": "Dua for wellbeing - 3 times"
   },
-  "azkarList11": "",
+  "azkarList11": "Užtenka man Allaho, nėra dievo, tik Jis, Juo pasitikiu ir Jis yra Didžiojo Sosto Viešpats. (Septynis kartus)",
   "@azkarList11": {
-    "description": "|حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ"
+    "description": "Hasbiya Allah - 7 times"
   },
-  "azkarList12": "",
+  "azkarList12": "Aš esu patenkintas Allahu kaip savo Viešpačiu, islamu kaip religija ir Muhammadu (tebus jam Taika ir Allahos palaima) kaip pranašu. (Tris kartus)",
   "@azkarList12": {
-    "description": "|رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ"
+    "description": "Contentment with Allah - 3 times"
   },
-  "azkarList13": "",
+  "azkarList13": "Nėra dievo, tik Allahas, Jis vienas, neturi partnerio, Jis turi karalystę ir Jam šlovė, Jis pajėgus viskam. (Dešimt kartų)",
   "@azkarList13": {
-    "description": "|لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات"
+    "description": "La ilaha illa Allah tawhid - 10 times"
   },
-  "azkarList14": "",
+  "azkarList14": "Mes pabudome ir karalystė priklauso Allahui, šlovė Allahui, nėra dievo, tik Allahas, Jis vienas, neturi partnerio; Jis turi karalystę ir Jam šlovė, Jis pajėgus viskam. Prašau Tavęs, duok šioje dienoje tai, kas gera, bei tai, kas bus po jos, ir prisibijau blogio iš šios dienos ir iš to, kas bus po jos. Prisibijau Tavo prieglobstyje tinginystės ir iškrypusio senėjimo, prisibijau nuo ugnies bausmės ir kapo bausmės.",
   "@azkarList14": {
-    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+    "description": "Morning supplication - Protection from laziness"
   },
   "jumuaaScreenTitle": "Jumuaa laikas",
   "jumuaaHadith": "Pranašas ﷺ (ramybė ir Dievo palaiminimas jam) sakė: \"Kas puikiai atlieka prausimąsi, tada eina į jumua, o paskui klausosi ir tyli, tam atleidžiama tai, kas yra nuo to laiko iki kito penktadienio ir dar trijų dienų, o tas, kuris liečia akmenis, tikrai padarė beprasmybę\"",
@@ -179,9 +181,295 @@
   "mainScreenExplanation": "Pagrindinėje mečetės patalpoje šiame ekrane nebus rodoma tiesioginė jumua transliacija",
   "normalModeExplanation": "Bus rodomas įprastas ekranas su maldos laiku ir pranešimais.",
   "announcementOnlyModeExplanation": "Bus rodomi skelbimai visą laiką",
+  "orientation": "Orientacija",
+  "selectYourMawaqitTvAppOrientation": "Pasirinkite savo mawaqit tv programėlės orientaciją",
+  "deviceDefault": "Įrenginio numatyta",
+  "deviceDefaultBTNDescription": "Mawaqit automatiškai parinks numatytą orientaciją pagal ekrano padėtį",
+  "portrait": "Vertikali",
+  "portraitBTNDescription": "Vertikali orientacija – rekomenduojama mečetėms su nedidele erdve",
+  "landscape": "Horizontali",
+  "landscapeBTNDescription": "Horizontali orientacija. Pagrindinis mawaqit tv išdėstymas ir rekomenduojamas daugumai mečečių",
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Nustatymai",
   "applicationModes": "Taikymo režimai",
-  "ifYouAreFacingAnIssueWithTheAppActivateThis": "Jei susiduriate su problema su aktyvia programėle, pasirinkite šią parinktį"
+  "ifYouAreFacingAnIssueWithTheAppActivateThis": "Jei susiduriate su problema su aktyvia programėle, pasirinkite šią parinktį",
+  "hijriAdjustments": "Vietiniai hidžros koregavimai",
+  "hijriAdjustmentsDescription": "Koreguokite hidžros datą vietiškai savo įrenginyje. Tai nepakeis mečetės nustatymų internete",
+  "backoffice_default": "Administratoriaus numatyta",
+  "recommended": "Rekomenduojama",
+  "sabah": "Sabahas",
+  "randomHadithLanguage": "Atsitiktinė hadiso kalba",
+  "mosqueDefault": "Iš jūsų internetinės konfigūracijos",
+  "en": "Anglų kalba",
+  "fr": "Prancūzų kalba",
+  "ar": "Arabų kalba",
+  "tr": "Turkijos",
+  "de": "Vokiečių kalba",
+  "es": "Ispanų kalba",
+  "pt": "Portugalų",
+  "nl": "Olandų kalba",
+  "fr_ar": "Prancūzų & arabų",
+  "en_ar": "Anglų & arabų",
+  "de_ar": "Vokiečių & arabų",
+  "ta_ar": "Tamilų & arabų",
+  "tr_ar": "Turkų & arabų",
+  "es_ar": "Ispanų & arabų",
+  "pt_ar": "Portugalų & arabų",
+  "nl_ar": "Olandų & arabų",
+  "connectToChangeHadith": "Norėdami pakeisti hadiso kalbą, prisijunkite prie interneto.",
+  "retry": "Pakartoti",
+  "reciterLoadError": "Nepavyko įkelti recitatorių",
+  "reciterNetworkError": "Patikrinkite interneto ryšį ir bandykite dar kartą",
+  "reciterServerError": "Serveris laikinai nepasiekiamas. Bandykite vėliau",
+  "reciterTimeoutError": "Užklausa užtruko per ilgai. Bandykite dar kartą",
+  "surahLoadError": "Nepavyko įkelti suros",
+  "timeSetting": "Laiko konfigūravimas",
+  "timeSettingDesc": "Nustatykite pasirinktą pavadinimą",
+  "selectedTime": "Dabar pasirinktas laikas",
+  "confirmation": "Patvirtinimas",
+  "confirmationMessage": "Ar tikrai norite naudoti įrenginio laiką?",
+  "useDeviceTime": "Naudoti įrenginio laiką",
+  "selectTime": "Pasirinkti laiką",
+  "previous": "Ankstesnis",
+  "appTimezone": "Programos laiko juosta",
+  "descTimezone": "Pasirinkite savo laiko juostą, kad matytumėte tikslius maldos laikus.",
+  "appWifi": "Prisijunkite prie wifi",
+  "descWifi": "Prisijunkite prie pasirinkto wifi tinklo",
+  "searchCountries": "Ieškoti šalių",
+  "scanAgain": "Skenuoti dar kartą",
+  "noScannedResultsFound": "Netoliese prieigos taškai nerasti",
+  "connect": "Prisijungti",
+  "wifiPassword": "Slaptažodis",
+  "skip": "Praleisti",
+  "noSSID": "**Paslėptas SSID**",
+  "close": "Uždaryti",
+  "search": "Paieška",
+  "wifiSuccess": "Sėkmingai prisijungta prie Wifi.",
+  "wifiFailure": "Nepavyko prisijungti prie Wifi.",
+  "timezoneSuccess": "Laiko juosta nustatyta sėkmingai.",
+  "timezoneFailure": "Nepavyko nustatyti laiko juostos.",
+  "screenLock": "Ekranas įjungtas/išjungtas",
+  "screenLockConfig": "Konfigūruoti ekrano įjungimą/išjungimą",
+  "screenLockMode": "Ekrano įjungimo/išjungimo režimas",
+  "screenLockDesc": "Įjunkite/išjunkite televizorių prieš ir po kiekvienos maldos, kad taupytumėte energiją",
+  "screenLockDesc2": "Ši funkcija įjungia/išjungia įrenginį prieš ir po kiekvieno maldos adžano",
+  "before": "min. prieš kiekvieną maldos laiką",
+  "after": "min. po kiekvieno maldos laiko",
+  "updateAvailable": "Yra atnaujinimas",
+  "seeMore": "Rodyti daugiau",
+  "whatIsNew": "Kas nauja",
+  "update": "Atnaujinti",
+  "automaticUpdate": "Pranešti apie atnaujinimą",
+  "automaticUpdateDescription": "Įjunkite pranešimus apie atnaujinimus, kad gautumėte naujausias funkcijas ir patobulinimus",
+  "checkInternetLegacyMode": "Norėdami naudoti seną režimą, turite prisijungti prie interneto",
+  "powerOnScreen": "Įjungti ekraną",
+  "powerOffScreen": "Išjungti ekraną",
+  "deviceSettings": "Įrenginio nustatymai",
+  "later": "Vėliau",
+  "downloadQuran": "Atsisiųsti Koraną",
+  "quran": "Koranas",
+  "askDownloadQuran": "Ar norite atsisiųsti Koraną?",
+  "download": "Atsisiųsti",
+  "downloadingQuran": "Korano atsisiuntimas",
+  "extractingQuran": "Išskleidžiamas Koranas",
+  "updatedQuran": "Koranas atnaujintas",
+  "quranLatestVersion": "Koranas yra naujausios versijos",
+  "quranUpdatedVersion": "Atnaujinto Korano versija: {version}",
+  "quranIsUpdated": "Koranas atnaujintas",
+  "quranDownloaded": "Koranas atsisiųstas",
+  "quranIsAlreadyDownloaded": "Koranas jau atsisiųstas",
+  "chooseReciter": "Pasirinkite skaitytoją",
+  "reciteType": "Skaitymo tipas",
+  "readingMode": "Noriu skaityti",
+  "listeningMode": "Noriu klausytis",
+  "quranReadingPage": "Puslapis {leftPage} - {rightPage} / {totalPages}",
+  "@quranReadingPage": {
+    "description": "Placeholder text for displaying Quran reading page numbers",
+    "placeholders": {
+      "leftPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "rightPage": {
+        "type": "int",
+        "example": "2"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "quranReadingPagePortrait": "Puslapis {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "chooseQuranPage": "Pasirinkite puslapį",
+  "checkingForUpdates": "Tikrinti atnaujinimus...",
+  "chooseQuranType": "Pasirinkite Koraną",
+  "hafs": "Hafs",
+  "warsh": "Warsh",
+  "favorites": "Mėgstamiausi",
+  "allReciters": "Visi skaitytojai",
+  "reciterAddedToFavorites": "Skaitytojas {name} pridėtas prie mėgstamiausių",
+  "@reciterAddedToFavorites": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "reciterRemovedFromFavorites": "Skaitytojas {name} pašalintas iš mėgstamiausių",
+  "@reciterRemovedFromFavorites": {
+    "description": "Message shown when a reciter is removed from favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "noFavoriteReciters": "Nėra mėgstamų skaitytojų. Pridėkite vieną į sąrašą",
+  "@noFavoriteReciters": {
+    "description": "Message shown when there are no favorite reciters"
+  },
+  "noReciterSearchResult": "Pagal jūsų paiešką rezultatų nėra",
+  "searchForReciter": "Ieškoti skaitytojo",
+  "downloadAllSuwarSuccessfully": "Visas Koranas atsisiųstas",
+  "noSuwarDownload": "Nėra naujų surų atsisiuntimui",
+  "connectDownloadQuran": "Atsisiųsti galite tik prisijungę prie interneto",
+  "playInOnlineModeQuran": "Norėdami paleisti, turite būti prisijungę prie interneto",
+  "downloaded": "Atsisiųsta",
+  "switchQuranType": "Eikite į {name}",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "Pasirinkite surą",
+  "checkForUpdates": "Patikrinkite, ar yra atnaujinimų",
+  "checkForNewVersion": "Patikrinkite, ar yra naujos versijos",
+  "wouldYouLikeToUpdate": "Ar norėtumėte atnaujinti programėlę?",
+  "updateCompleted": "Atnaujinimas sėkmingai baigtas!",
+  "noUpdates": "Nėra atnaujinimų",
+  "usingLatestVersion": "Naudojate naujausią versiją.",
+  "updateCancelled": "Atnaujinimas atšauktas",
+  "checkingUpdates": "Tikrinami atnaujinimai...",
+  "downloadingUpdate": "Atsisiunčiamas atnaujinimas...",
+  "installingUpdate": "Diegiamas atnaujinimas...",
+  "updateCompletedSuccessfully": "Atnaujinimas sėkmingai baigtas",
+  "updateFailed": "Atnaujinti nepavyko",
+  "save": "Išsaugoti",
+  "enterRtspUrl": "Įveskite RTSP arba Youtube Live URL adresą",
+  "addRtspUrl": "Pridėkite savo kameros transliacijos URL žemiau",
+  "enableRtspCamera": "Įjungti kameros transliaciją",
+  "rtspCameraSettings": "Kameros nustatymai",
+  "invalidRtspUrl": "Neteisingas URL adresas. Patikrinkite adresą ir bandykite dar kartą.",
+  "validRtspUrl": "URL patikrintas ir sėkmingai išsaugotas.",
+  "rtspCameraSettingTitle": "Tiesioginis kameros ryšys",
+  "rtspCameraSettingDesc": "Prisijunkite prie savo vietinės kameros ir rodykite Džumu'a maldos transliaciją per televizorių.",
+  "rtspCameraSettingScreenDesc": "Jei čia įvesite URL, jūsų ekranas automatiškai persijungs į vaizdo transliaciją, kai ateis Džumu'a laikas",
+  "validatingStream": "Transliacija tikrinama...",
+  "checkInternetLiveCamera": "Norėdami nustatyti tiesioginę kamerą, turite prisijungti prie interneto",
+  "somethingWentWrong": "Įvyko klaida! Bandykite dar kartą",
+  "somethingWrong": "Kažkas nutiko ne taip",
+  "tryAgainLater": "Pabandykite vėliau",
+  "hintTextRtspUrl": "rtsp://... arba https://youtube.com/live/...",
+  "checkInternetUpdate": "Norėdami patikrinti, ar yra naujų atnaujinimų, prisijunkite prie interneto",
+  "appUpdateAvailable": "Jūsų programėlės versija yra {currentVersion}. Yra naujas atnaujinimas (versija {updatedVersion}) su naujausiomis funkcijomis ir patobulinimais.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "Yra naujas {moshafName} Korano (versija {version}) atnaujinimas.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "Tik Fadžr ir Iša maldos",
+  "minutesBeforeFajrPrayer": "minutės iki fadžr maldos laiko",
+  "minutesAfterIshaPrayer": "minutės po iša maldos laiko",
+  "scheduleSaved": "Jūsų tvarkaraštis išsaugotas.",
+  "completeAllFields": "Prieš išsaugodami užpildykite visus laukus.",
+  "endTimeAfter": "Pabaigos laikas turi būti po pradžios laiko.",
+  "scheduleListening": "Planuojamas klausymas",
+  "enableScheduling": "Įjungti planavimą",
+  "scheduleDesc": "Įjunkite šią funkciją, kad automatiškai grotumėte Surat nustatytu laiku.",
+  "startTime": "Pradžios laikas",
+  "endTime": "Pabaigos laikas",
+  "selectReciter": "Pasirinkite recituotoją",
+  "selectMoshaf": "Pasirinkite Mushaf",
+  "randomSurahSelection": "Atsitiktinis Suratos pasirinkimas",
+  "selectSurah": "Pasirinkite Suratą",
+  "initializingAutoReading": "Inicijavimas vyksta...",
+  "prayerTimeNotification": "{salahName} laikas ({prayerTime}) pranešimas",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Prisijunkite prie interneto, kad galėtumėte suplanuoti Korano klausymą",
+  "duaaBetweenAdhanAndIqamaaTitle": "Malda (Du'a) nėra atmetama tarp Adhano ir Iqam'os",
+  "duaBetweenAdhanIqamah": "Maldos (Du'a) tarp Azano ir Iqamos nėra atmetamos.",
+  "processingRequest": "Vykdoma užklausa...",
+  "loadingStream": "Transliacija kraunama...",
+  "rtspUrlHint": "Įveskite RTSP nuorodą arba YouTube adresą",
+  "replaceWorkflowWithStream": "Automatiškai rodyti kameros transliaciją",
+  "replaceAppWorkflowWithCameraStream": "Ekranas automatiškai rodys kameros transliaciją, kai kamera pradės įrašinėti; jei sustos, ekranas grįš prie maldos laikų rodymo",
+  "streamError": "Įvyko transliacijos klaida",
+  "finish": "Užbaigti",
+  "schedulingAlarms": "Planuojami įjungimo/išjungimo laikai...",
+  "alarmsSucessSchedule": "Įjungimo/išjungimo laikai suplanuoti sėkmingai",
+  "alarmsScheduleFailure": "Nepavyko suplanuoti įjungimo/išjungimo laikų",
+  "prayerTimeNotificationTitle": "Maldos laiko pranešimai",
+  "prayerTimeNotificationDesc": "Gaukite adžaną maldos metu net kai programėlė uždaryta",
+  "enablePrayerReminders": "Įjungti maldos priminimus",
+  "enablePrayerRemindersDesc": "Veikia automatiškai fone",
+  "testAITranslation": "Tai yra bandomasis tekstas patikrinti, ar AI vertimas veikia teisingai",
+  "@testAITranslation": {
+    "description": "Test string for AI translation verification - can be deleted after testing"
+  }
 }

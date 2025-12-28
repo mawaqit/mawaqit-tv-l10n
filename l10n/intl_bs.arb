@@ -21,6 +21,7 @@
   "lightMode": "Svijetli način prikaza",
   "changeMosque": "Promijeni džamiju",
   "in1": "za",
+  "azanIn": "Ezan za",
   "sec": "Sek",
   "online": "Online",
   "missingMosqueId": "Nedostaje MAWAQIT #ID ili #ID džamije",
@@ -68,21 +69,21 @@
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
-  "azkarList2": "",
+  "azkarList2": "U ime Allaha, Milostivog, Samilosnog! 1. Reci: \"Tražim zaštitu Gospodara ljudi, 2. Vladara ljudi, 3. Boga ljudi, 4. od zla šejtana-napasnika, 5. koji zle misli unosi u srca ljudi – 6. od džina i od ljudi!\"",
   "@azkarList2": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس - Surah An-Nas"
   },
-  "azkarList3": "",
+  "azkarList3": "U ime Allaha, Milostivog, Samilosnog! 1. Reci: \"Utječem se Gospodaru svitanja. 2. od zla onoga što On stvara, 3. i od zla mrkle noći kada razastre tmine, 4. i od zla onih koje u čvorove pušu 5. i od zla zavidljivca kad zavist ne krije!\"",
   "@azkarList3": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِقُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
-  "azkarList4": "",
+  "azkarList4": "U ime Allaha, Milostivog, Samilosnog! 1. Reci: \"On je Allah – Jedan! 2. Allah je Utočište svakom! 3. Nije rodio i rođen nije, 4. i niko Mu ravan nije!\"",
   "@azkarList4": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ - Surah Al-Ikhlas"
   },
-  "azkarList5": "",
+  "azkarList5": "Allah je – nema boga osim Njega – Živi i Vječni! Ne obuzima Ga ni drijemež ni san! Njegovo je ono što je na nebesima i ono što je na Zemlji! Ko se može pred Njim zauzimati za nekoga bez dopuštenja Njegova?! On zna šta je bilo i prije njih i šta će biti poslije njih, a od onoga što On zna – drugi znaju samo onoliko koliko On želi. Njegova Kursija obuhvaća i nebesa i Zemlju i Njemu ne dojadi održavanje njihovo; On je Svevišnji, Veličanstveni!",
   "@azkarList5": {
-    "description": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ"
+    "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
   "azkarList6": "La ilahe illellahu vahdehu la šerike leh, lehu-l-mulku ve lehu-l-hamdu ve huve ‘ala kulli šej-in kadir",
   "@azkarList6": {
@@ -90,35 +91,35 @@
   },
   "azkarList7": "''Allahu, Ti si moj Gospodar! Nema boga osim Tebe! Ti si me stvorio, i ja sam Tvoj rob! Držim se, koliko god mogu, svoje obaveze (prema Tebi) i svoga obećanja Tebi! Od Tebe tražim zaštitu od zla onoga što sam uradio! Priznajem Tvoje blagodati prema meni, i priznajem svoje grijehe! Oprosti mi, jer, doista, niko osim Tebe ne može grijehe oprostiti.''",
   "@azkarList7": {
-    "description": "اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت"
+    "description": "Sayyid al-Istighfar (Master of Seeking Forgiveness)"
   },
   "azkarList8": "Osvanusmo i osvanu svekolika Allahova vlast. Hvala Allahu i nema boga osim Njega Jedinog, Koji druga nema. Njemu pripada sva vlast i svaka pohvala i on nad svačim ima moć. Allahu, molim Te za sva dobra ovog dana i za dobra poslije njega. I utječem ti se od zla ovog dana i zla poslije njega. Gospodaru moj, Tebi se sklanjam pred lijenošću i zlohudom ohološću. Tebi se sklanjam pred kaznom Džehennema i kaburskom kaznom. (Muslim)",
   "@azkarList8": {
-    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+    "description": "Morning supplication - Protection dua"
   },
   "azkarList9": "\"Allahu moj, jutros svjedočim pred Tobom, pred onima koji nose Tvoj Arš, pred Tvojim melekima i svim Tvojim stvorenjima da si Ti Allah, nema boga osim Tebe, Jedini, koji nemaš ortaka, i da je Muhammed Tvoj rob i Tvoj poslanik\" (četiri puta). A kada nastupi večer, kaže se: 'Allahu moj, večeras svjedočim...'",
   "@azkarList9": {
-    "description": "اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات|. [ وإذا أمسى قال: اللَّهم إني أمسيت...]"
+    "description": "Morning testimony - 4 times"
   },
   "azkarList10": "\"Allahu moj, podari mi zdravlje u tijelu, Allahu moj, podari mi zdravlje u sluhu, Allahu moj, podari mi zdravlje u očima, nema boga osim Tebe. Allahu, utječem Ti se od nevjerovanja i siromaštva, i tražim utočište od kaburske patnje, nema boga osim Tebe\" (izgovara se 3 puta)",
   "@azkarList10": {
-    "description": "|اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ"
+    "description": "Dua for wellbeing - 3 times"
   },
   "azkarList11": "\"Dovoljan mi je Allah, nema boga osim Njega. Na Njega se oslanjam, i On je Gospodar Prijestolja veličanstvenog.\"\n(ponavlja se 7 puta)",
   "@azkarList11": {
-    "description": "|حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ"
+    "description": "Hasbiya Allah - 7 times"
   },
   "azkarList12": "Zadovoljan sam da mi je Allah Gospodar, vjera islam, Muhammed, a. s., vjerovjesnik. (Ponavlja se 3 puta)\nEbu Davud, Tirmizi i Ahmed",
   "@azkarList12": {
-    "description": "|رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ"
+    "description": "Contentment with Allah - 3 times"
   },
   "azkarList13": "Nema boga osim Allaha, Jedinoga, Koji druga nema. Njemu pripada vlast nad svim i sva pohvala. On sve može. (Ponavlja se 10 puta)\n(Muslim)",
   "@azkarList13": {
-    "description": "|لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات"
+    "description": "La ilaha illa Allah tawhid - 10 times"
   },
-  "azkarList14": "",
+  "azkarList14": "Osvanusmo i osvanu svekolika Allahova vlast. Hvala Allahu i nema boga osim Njega Jedinog, Koji druga nema. Njemu pripada sva vlast i svaka pohvala i on nad svačim ima moć. Allahu, molim Te za sva dobra ovog dana i za dobra poslije njega. I utječem ti se od zla ovog dana i zla poslije njega. Gospodaru moj, Tebi se sklanjam pred lijenošću i zlohudom ohološću. Tebi se sklanjam pred kaznom Džehennema i kaburskom kaznom. (Muslim)",
   "@azkarList14": {
-    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+    "description": "Morning supplication - Protection from laziness"
   },
   "jumuaaScreenTitle": "Vrijeme džuma namaza",
   "jumuaaHadith": "Allahov Poslanik s. a. vs., je rekao: „Ko opere svoju glavu i okupa se petkom, potom porani na džumu-namaz idući pješice, ne koristeći prijevozno sredstvo, zatim se približi imamu i pažljivo sluša, imaće nagradu za svaki učinjeni korak godinu dana posta i namaza.“\n\nHadis-Sabirači Sunena",
@@ -199,6 +200,7 @@
   "recommended": "Preporučeno",
   "sabah": "Sabah",
   "randomHadithLanguage": "Slučajni jezik hadisa",
+  "mosqueDefault": "Iz vaše online konfiguracije",
   "en": "Engleski",
   "fr": "Francuski",
   "ar": "Arapski",
@@ -217,6 +219,11 @@
   "nl_ar": "Holandski & Arapski",
   "connectToChangeHadith": "Molimo spojite se na internet kako biste promijenili jezik hadisa.",
   "retry": "Pokušajte ponovo",
+  "reciterLoadError": "Nije moguće učitati učače",
+  "reciterNetworkError": "Provjerite vašu internet vezu i pokušajte ponovo",
+  "reciterServerError": "Server je privremeno nedostupan. Molimo pokušajte kasnije",
+  "reciterTimeoutError": "Zahtjev je istekao. Molimo pokušajte ponovo",
+  "surahLoadError": "Nije moguće učitati sure",
   "timeSetting": "Podešavanje vremena",
   "timeSettingDesc": "Postavite prilagođeno ime",
   "selectedTime": "Trenutno odabrano vrijeme",
@@ -446,5 +453,23 @@
   },
   "scheduleInOnlineMode": "Please connect to the internet to schedule Quran listening",
   "duaaBetweenAdhanAndIqamaaTitle": "Supplication (Du'a) is not rejected between the Adhan and Iqamah",
-  "duaBetweenAdhanIqamah": "Supplication (Du'a) is not rejected between the Adhan and Iqamah."
+  "duaBetweenAdhanIqamah": "Supplication (Du'a) is not rejected between the Adhan and Iqamah.",
+  "processingRequest": "Obrada zahtjeva u toku...",
+  "loadingStream": "Učitavanje strima(prenos)...",
+  "rtspUrlHint": "Unesite RTSP URL ili YouTube link",
+  "replaceWorkflowWithStream": "Automatski prikazuj strim kamere",
+  "replaceAppWorkflowWithCameraStream": "Kada kamera počne sa snimanjem, ekran će automatski prikazivati njen strim; po završetku snimanja, ekran se vraća na prikaz namaskih vremena",
+  "streamError": "Došlo je do greške tokom prijenosa",
+  "finish": "Završi",
+  "schedulingAlarms": "Zakazivanje vremena uključenja/isključenja...",
+  "alarmsSucessSchedule": "Pokretači uključenja/isključenja su uspješno zakazani",
+  "alarmsScheduleFailure": "Neuspjelo zakazivanje pokretača uključenja/isključenja",
+  "prayerTimeNotificationTitle": "Obavještenja o vremenima namaza",
+  "prayerTimeNotificationDesc": "Primajte ezan u vrijeme namaza, čak i kada je aplikacija zatvorena",
+  "enablePrayerReminders": "Omogući podsjetnike za namaz",
+  "enablePrayerRemindersDesc": "Radi automatski u pozadini",
+  "testAITranslation": "Ovo je testna rečenica za provjeru ispravnosti AI prevoda",
+  "@testAITranslation": {
+    "description": "Test string for AI translation verification - can be deleted after testing"
+  }
 }

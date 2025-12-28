@@ -21,6 +21,7 @@
   "lightMode": "Mode terang",
   "changeMosque": "Ubah Masjid",
   "in1": "dalam",
+  "azanIn": "Azan dalam",
   "sec": "Detik",
   "online": "Online",
   "missingMosqueId": "Hilang MAWAQIT #ID atau MOSQUE #ID",
@@ -68,57 +69,57 @@
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
-  "azkarList2": "",
+  "azkarList2": "Dengan menyebut nama Allah yang Maha Pengasih lagi Maha Penyayang.\n\nKatakanlah, \"Aku berlindung kepada Tuhannya manusia, Raja manusia, Sembahan manusia, dari kejahatan (bisikan) setan yang bersembunyi, yang membisikkan (kejahatan) ke dalam dada manusia, dari (golongan) jin dan manusia.\" ‎(QS. An-Nas : 1 - 6)",
   "@azkarList2": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس - Surah An-Nas"
   },
-  "azkarList3": "",
+  "azkarList3": "Dengan menyebut nama Allah yang Maha Pengasih lagi Maha Penyayang.\n\nKatakanlah, \"Aku berlindung kepada Tuhan yang menguasai subuh (fajar), dari kejahatan (makhluk yang) Dia ciptakan, dan dari kejahatan malam apabila telah gelap gulita, dan dari kejahatan (perempuan-perempuan) penyihir yang meniup pada buhul-buhul (talinya), dan dari kejahatan orang yang dengki apabila dia dengki.\" (QS. Al-Falaq : 1 - 5)",
   "@azkarList3": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِقُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
-  "azkarList4": "",
+  "azkarList4": "Dengan menyebut nama Allah yang Maha Pengasih lagi Maha Penyayang.\n\nKatakanlah (Muhammad), \"Dialah Allah, Yang Maha Esa. Allah tempat meminta segala sesuatu. (Allah) tidak beranak dan tidak pula diperanakkan. Dan tidak ada sesuatu yang setara dengan Dia.\" (QS. Al-Ikhlas : 1 - 4)",
   "@azkarList4": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ - Surah Al-Ikhlas"
   },
-  "azkarList5": "",
+  "azkarList5": "Allah, tidak ada Tuhan selain Dia. Yang Maha Hidup, yang terus menerus mengurus (makhluk-Nya), tidak mengantuk dan tidak tidur. Milik-Nya apa yang ada di langit dan apa yang ada di bumi. Tidak ada yang dapat memberi syafaat di sisi-Nya tanpa izin-Nya. Dia mengetahui apa yang di hadapan mereka dan apa yang di belakang mereka, dan mereka tidak mengetahui sesuatu apa pun tentang ilmu-Nya melainkan apa yang Dia kehendaki. Kursi-Nya (ilmu dan kekuasaan-Nya) meliputi langit dan bumi. Dan Dia tidak merasa berat memelihara keduanya, dan Dia Maha Tinggi, Maha Besar. (QS. Al-Baqarah : 255)",
   "@azkarList5": {
-    "description": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ"
+    "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
   "azkarList6": "Lailahaillallah wahdahula syarikalah lahul mulku walahul hamdu yuhyi wayumitu wahuwa ala kulli syai-in qadir, Allahumma laa maani'a lima a'taita walaa mu'tiya lima mana'ta wala radda lima qadhaita wa laa yanfa'u dzaljadda minkaljadd",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
-  "azkarList7": "",
+  "azkarList7": "Allahumma anta rabbi laailaahailla anta khalaqtani wa ana 'abduka wa ana 'ala 'ahdika wa wa'dika ma istatha'tu, a'udzu bika min syarri ma shana'tu, abu'u laka bini'matika 'alayya, wa abu'u bidzanbi, faghfirli, fa innahu laa yaghfiru dzunuba illa anta.",
   "@azkarList7": {
-    "description": "اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت"
+    "description": "Sayyid al-Istighfar (Master of Seeking Forgiveness)"
   },
-  "azkarList8": "",
+  "azkarList8": "Ash-bahnaa wa ash-bahal mulku lillah walhamdulillah,wa laa ilaha illallah wahdahu laa syarika lah, lahul mulku walahul hamdu wa huwa 'ala kulli syai-in qodir. as-aluka khoiro maa fii hadzal yaum wa khoiro maa ba'dahu, wa a'udzu bika min syarri maa fii hadzal yaum wa syarri maa ba'dahu. Robbi a'udzu bika minal kasali wa su-il kibar. Robbi a'udzu bika min 'adzabin fin naari wa 'adzabin fil qobri",
   "@azkarList8": {
-    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+    "description": "Morning supplication - Protection dua"
   },
-  "azkarList9": "",
+  "azkarList9": "Allahumma inni ashbahtu usyhiduka, wa usyhid hamalata 'arsyika, wa malaikatika, wa jami'a khalqika, annaka anta Allah laa ilaaha illa anta wahdaka laa syariika lak, wa anna Muhammad 'abduka wa rasuluka. (Empat kali)\n[Jika sore hari, ucapkan: Allahumma inni amsaytu...]",
   "@azkarList9": {
-    "description": ".| اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات"
+    "description": "Morning testimony - 4 times"
   },
-  "azkarList10": "",
+  "azkarList10": "Allahumma 'aafini fi badani, Allahumma 'aafini fi sam'i, Allahumma 'aafini fi bashari, laa ilaaha illa anta. Allahumma inni a'udzu bika minal kufri, wal-faqri, wa a'udzu bika min 'adzab al-qabri, laa ilaaha illa anta. (Tiga kali)",
   "@azkarList10": {
-    "description": "|اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ"
+    "description": "Dua for wellbeing - 3 times"
   },
-  "azkarList11": "",
+  "azkarList11": "Hasbiyallah laa ilaaha illa huwa 'alaih tawakkaltu wa huwa rabbul 'arsyil 'azhim. (Tujuh kali)",
   "@azkarList11": {
-    "description": "|حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ"
+    "description": "Hasbiya Allah - 7 times"
   },
-  "azkarList12": "",
+  "azkarList12": "Aku ridha Allah sebagai Rabb-ku, Islam sebagai agamaku, dan Nabi Muhammad صلى الله عليه وسلم sebagai Nabi dan Rasulku. (Tiga kali)",
   "@azkarList12": {
-    "description": "|رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ"
+    "description": "Contentment with Allah - 3 times"
   },
-  "azkarList13": "",
+  "azkarList13": "Laa ilaaha illa Allah wahdahu laa syariika lahu, lahul mulku wa lahul hamdu wa huwa 'ala kulli syai'in qadir. (Sepuluh kali)",
   "@azkarList13": {
-    "description": "|لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات"
+    "description": "La ilaha illa Allah tawhid - 10 times"
   },
-  "azkarList14": "",
+  "azkarList14": "Ash-bahnaa wa ash-bahal mulku lillah walhamdulillah,wa laa ilaha illallah wahdahu laa syarika lah, lahul mulku walahul hamdu wa huwa 'ala kulli syai-in qodir. as-aluka khoiro maa fii hadzal yaum wa khoiro maa ba'dahu, wa a'udzu bika min syarri maa fii hadzal yaum wa syarri maa ba'dahu. Robbi a'udzu bika minal kasali wa su-il kibar. Robbi a'udzu bika min 'adzabin fin naari wa 'adzabin fil qobri",
   "@azkarList14": {
-    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+    "description": "Morning supplication - Protection from laziness"
   },
   "jumuaaScreenTitle": "Waktu Shalat Jumat",
   "jumuaaHadith": "Nabi ﷺ bersabda, \"Barangsiapa berwudhu dengan sempurna, kemudian pergi ke jumatan, lalu mendengarkan dan diam, maka diampuni baginya apa yang ada di antara waktu tersebut hingga Jumat berikutnya dan tiga hari berikutnya, dan barangsiapa yang menyentuh batu, maka sungguh ia telah berbuat sia-sia.\"",
@@ -199,6 +200,7 @@
   "recommended": "Direkomendasikan",
   "sabah": "Sabah",
   "randomHadithLanguage": "Bahasa hadis random/acak",
+  "mosqueDefault": "Dari konfigurasi online Anda",
   "en": "Bahasa Inggris",
   "fr": "Bahasa Prancis",
   "ar": "Bahasa Arab",
@@ -217,6 +219,11 @@
   "nl_ar": "Bahasa Belanda & Arab",
   "connectToChangeHadith": "Harap hubungkan ke internet untuk mengubah bahasa hadis.",
   "retry": "Coba lagi.",
+  "reciterLoadError": "Gagal memuat qari",
+  "reciterNetworkError": "Silakan periksa koneksi internet Anda dan coba lagi",
+  "reciterServerError": "Server sementara tidak tersedia. Silakan coba lagi nanti",
+  "reciterTimeoutError": "Permintaan melebihi batas waktu. Silakan coba lagi",
+  "surahLoadError": "Gagal memuat surah",
   "timeSetting": "Konfigurasi waktu",
   "timeSettingDesc": "Setel waktu sesuai keinginan (custom)",
   "selectedTime": "Waktu yang dipilih saat ini",
@@ -294,6 +301,175 @@
       }
     }
   },
+  "quranReadingPagePortrait": "Halaman {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
   "chooseQuranPage": "Pilih halaman",
-  "checkingForUpdates": "Memeriksa pembaruan"
+  "checkingForUpdates": "Memeriksa pembaruan",
+  "chooseQuranType": "Pilih Jenis quran",
+  "hafs": "Hafis",
+  "warsh": "Warsh",
+  "favorites": "Favorit",
+  "allReciters": "Semua qori",
+  "reciterAddedToFavorites": "Qori di hapus dari favorite",
+  "@reciterAddedToFavorites": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "reciterRemovedFromFavorites": "Qori {name} dihapus dari daftar favorit",
+  "@reciterRemovedFromFavorites": {
+    "description": "Message shown when a reciter is removed from favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "noFavoriteReciters": "Belum ada favorit qori. Silahkan ditambahkan ke dalam daftar",
+  "@noFavoriteReciters": {
+    "description": "Message shown when there are no favorite reciters"
+  },
+  "noReciterSearchResult": "Tidak ada hasil ditemukan dari pencarian anda",
+  "searchForReciter": "Cari berdasarnakan nama Qori",
+  "downloadAllSuwarSuccessfully": "Seluruh Al Quran telah berhasil di download",
+  "noSuwarDownload": "Tidak ada surah baru untuk diunduh",
+  "connectDownloadQuran": "Silahkan terhubung ke internet untuk melakukan download",
+  "playInOnlineModeQuran": "Silahkan terhubung ke internet untuk memulai",
+  "downloaded": "Diunduh",
+  "switchQuranType": "Buka {name}",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "Pilih Surat",
+  "checkForUpdates": "Periksa pembaruan/update",
+  "checkForNewVersion": "Cek jika versi terbaru telah tersedia",
+  "wouldYouLikeToUpdate": "Apakah anda ingin melakukan pembaharuan/update pada aplikasi?",
+  "updateCompleted": "Update/pembaharuan berhasil!",
+  "noUpdates": "Tidak ada update/pembaharuan",
+  "usingLatestVersion": "Kamu telah menggunakan versi terbaru.",
+  "updateCancelled": "Update dibatalkan",
+  "checkingUpdates": "Memeriksa update/pembaruan...",
+  "downloadingUpdate": "Mengunduh update/pembaruan...",
+  "installingUpdate": "Menginstal update/pembaruan...",
+  "updateCompletedSuccessfully": "Update/pembaharuan berhasil",
+  "updateFailed": "Update/pembaharuan gagal",
+  "save": "simpan",
+  "enterRtspUrl": "Masukan RSTP atau link Youtube Live",
+  "addRtspUrl": "Tambahkan link kamera stream anda dibawah ini",
+  "enableRtspCamera": "Aktifkan kamera streaming",
+  "rtspCameraSettings": "Pengaturan kamera",
+  "invalidRtspUrl": "URL/Link tidak valid. Harap periksa URL/Link dan coba lagi.",
+  "validRtspUrl": "URL/Link tervalidasi dan berhasil disimpan.",
+  "rtspCameraSettingTitle": "Koneksi Live kamera",
+  "rtspCameraSettingDesc": "Hubungkan ke kamera lokal Anda dan tampilkan siaran shalat Jumat di layar TV.",
+  "rtspCameraSettingScreenDesc": "Jika Anda memasukkan URL/Link di sini, layar Anda akan secara otomatis beralih ke streaming video saat waktu Jumat tiba",
+  "validatingStream": "Memvalidasi stream...",
+  "checkInternetLiveCamera": "Anda harus terhubung ke internet untuk mengatur live kamera",
+  "somethingWentWrong": "Terjadi kesalahan, silakan coba lagi",
+  "somethingWrong": "Ada yang tidak beres",
+  "tryAgainLater": "Silakan coba lagi nanti",
+  "hintTextRtspUrl": "rtsp://... atau https://youtube.com/live/...",
+  "checkInternetUpdate": "Anda harus terhubung ke internet untuk memeriksa pembaruan baru",
+  "appUpdateAvailable": "Aplikasi Anda menjalankan versi {currentVersion}. Pembaruan baru (versi {updatedVersion}) tersedia dengan fitur dan penyempurnaan terkini.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "Pembaruan baru untuk Al-Quran {moshafName} (versi {version}) telah tersedia.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "Hanya sholat Subuh dan Isya",
+  "minutesBeforeFajrPrayer": "menit sebelum waktu sholat subuh",
+  "minutesAfterIshaPrayer": "menit setelah waktu sholat isya",
+  "scheduleSaved": "Jadwal Anda telah disimpan.",
+  "completeAllFields": "Harap lengkapi semua kolom sebelum menyimpan.",
+  "endTimeAfter": "Waktu akhir harus setelah waktu mulai.",
+  "scheduleListening": "Jadwal mendengarkan",
+  "enableScheduling": "Aktifkan Penjadwalan",
+  "scheduleDesc": "Aktifkan fitur ini untuk memutar Surah secara otomatis pada waktu yang dijadwalkan.",
+  "startTime": "Waktu Mulai",
+  "endTime": "Waktu berakhir",
+  "selectReciter": "Pilih Qori",
+  "selectMoshaf": "Pilih Mushaf",
+  "randomSurahSelection": "Pemilihan surah secara acak",
+  "selectSurah": "Pilih surah",
+  "initializingAutoReading": "Inisialisasi sedang berlangsung...",
+  "prayerTimeNotification": "Pemberitahuan waktu {salahName} ({prayerTime})",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Silakan terhubung ke internet untuk menjadwalkan mendengarkan Al-Quran",
+  "duaaBetweenAdhanAndIqamaaTitle": "Doa tidak tertolak antara adzan dan iqamah",
+  "duaBetweenAdhanIqamah": "Doa tidak tertolak antara adzan dan iqamah.",
+  "processingRequest": "Memproses permintaan...",
+  "loadingStream": "Memuat stream...",
+  "rtspUrlHint": "Masukkan URL RTSP atau tautan YouTube",
+  "replaceWorkflowWithStream": "Tampilkan stream kamera secara otomatis",
+  "replaceAppWorkflowWithCameraStream": "Layar akan secara otomatis menampilkan stream kamera begitu kamera mulai merekam; jika berhenti, layar akan kembali ke tampilan jadwal waktu sholat",
+  "streamError": "Terjadi kesalahan saat streaming",
+  "finish": "Selesai",
+  "schedulingAlarms": "Menjadwalkan waktu on/off...",
+  "alarmsSucessSchedule": "Pemicu On/Off berhasil dijadwalkan",
+  "alarmsScheduleFailure": "Gagal menjadwalkan pemicu On/Off",
+  "prayerTimeNotificationTitle": "Notifikasi Waktu Sholat",
+  "prayerTimeNotificationDesc": "Dapatkan adzan pada waktu sholat, bahkan ketika aplikasi ditutup",
+  "enablePrayerReminders": "Aktifkan Pengingat Sholat",
+  "enablePrayerRemindersDesc": "Berjalan otomatis di latar belakang",
+  "testAITranslation": "Ini adalah string uji untuk memverifikasi apakah terjemahan AI berfungsi dengan benar",
+  "@testAITranslation": {
+    "description": "Test string for AI translation verification - can be deleted after testing"
+  }
 }

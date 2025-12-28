@@ -6,6 +6,7 @@
   "languages": "Sprachen",
   "appLang": "App. - Sprache",
   "descLang": "Bevorzugte Sprache auswählen",
+  "hadithLangDesc": "Dies überschreibt Ihre Auswahl in der Administrator-Konsole. Sie können pro Bildschirm eine andere Sprache auswählen",
   "whoops": "Hoppla!",
   "noInternet": "Keine Internetverbindung",
   "tryAgain": "nochmal versuchen",
@@ -20,6 +21,7 @@
   "lightMode": "hell Modus",
   "changeMosque": "Moschee ändern",
   "in1": "nach",
+  "azanIn": "Azan in",
   "sec": "Sek.",
   "online": "Online",
   "missingMosqueId": "Fehlende MAWAQIT #ID oder Moschee #ID",
@@ -67,57 +69,57 @@
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
-  "azkarList2": "",
+  "azkarList2": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس",
   "@azkarList2": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس - Surah An-Nas"
   },
-  "azkarList3": "",
+  "azkarList3": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
   "@azkarList3": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِقُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
-  "azkarList4": "",
+  "azkarList4": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ",
   "@azkarList4": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ - Surah Al-Ikhlas"
   },
-  "azkarList5": "",
+  "azkarList5": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ",
   "@azkarList5": {
-    "description": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ"
+    "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
   "azkarList6": "La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
-  "azkarList7": "",
+  "azkarList7": "اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت",
   "@azkarList7": {
-    "description": "اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت"
+    "description": "Sayyid al-Istighfar (Master of Seeking Forgiveness)"
   },
-  "azkarList8": "",
+  "azkarList8": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر",
   "@azkarList8": {
-    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+    "description": "Morning supplication - Protection dua"
   },
-  "azkarList9": "",
+  "azkarList9": "اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات|. [ وإذا أمسى قال: اللَّهم إني أمسيت...]",
   "@azkarList9": {
-    "description": ".| اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات"
+    "description": "Morning testimony - 4 times"
   },
-  "azkarList10": "",
+  "azkarList10": "|اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ",
   "@azkarList10": {
-    "description": "|اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ"
+    "description": "Dua for wellbeing - 3 times"
   },
-  "azkarList11": "",
+  "azkarList11": "|حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ",
   "@azkarList11": {
-    "description": "|حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ"
+    "description": "Hasbiya Allah - 7 times"
   },
-  "azkarList12": "",
+  "azkarList12": "|رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ",
   "@azkarList12": {
-    "description": "|رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ"
+    "description": "Contentment with Allah - 3 times"
   },
-  "azkarList13": "",
+  "azkarList13": "|لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات",
   "@azkarList13": {
-    "description": "|لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات"
+    "description": "La ilaha illa Allah tawhid - 10 times"
   },
-  "azkarList14": "",
+  "azkarList14": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر",
   "@azkarList14": {
-    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+    "description": "Morning supplication - Protection from laziness"
   },
   "jumuaaScreenTitle": "Jumuaa-Zeit",
   "jumuaaHadith": "Der Prophet ﷺ (Allahs Friede und Segen seien auf ihm) sagte: \"Wer die Waschungen perfekt verrichtet und dann zur Dschumua geht und dann zuhört und schweigt, dem wird vergeben, was zwischen dieser Zeit und dem folgenden Freitag und drei weiteren Tagen liegt, und wer Steine berührt, hat gewiss ein Vergehen begangen",
@@ -179,9 +181,295 @@
   "mainScreenExplanation": "Dieser Bildschirm zeigt nicht das Jumua-Live-Streaming für den Hauptraum der Moschee",
   "normalModeExplanation": "zeigt den Normal-Bildschirm mit den Gebetszeiten und den Ankündigungen.",
   "announcementOnlyModeExplanation": "Ankündigungen werden ständig angezeigt",
+  "orientation": "Orientierung",
+  "selectYourMawaqitTvAppOrientation": "Wählen Sie die Ausrichtung Ihrer mawaqit tv App",
+  "deviceDefault": "Gerät im Standardmodus",
+  "deviceDefaultBTNDescription": "Mawaqit wählt automatisch die Standardausrichtung basierend auf der Bildschirmausrichtung",
+  "portrait": "Hochformat",
+  "portraitBTNDescription": "Für vertikale Ausrichtung empfohlen für Moschee mit kleinem Raum",
+  "landscape": "Querformat",
+  "landscapeBTNDescription": "Für die horizontale Orientierung. Das Hauptlayout für mawaqit TV App und empfohlen für die meisten Moscheen",
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Einstellungen",
   "applicationModes": "Anwendungsmodi",
-  "ifYouAreFacingAnIssueWithTheAppActivateThis": "Wenn Sie ein Problem mit der App haben, aktivieren Sie diese Option"
+  "ifYouAreFacingAnIssueWithTheAppActivateThis": "Wenn Sie ein Problem mit der App haben, aktivieren Sie diese Option",
+  "hijriAdjustments": "Lokale Hijri Einstellungen",
+  "hijriAdjustmentsDescription": "Passen Sie das hijri Datum lokal auf Ihrem Gerät an. Dies wirkt sich nicht auf die Online-Moschee Einstellungen aus",
+  "backoffice_default": "Backoffice-Standard",
+  "recommended": "Empfohlen",
+  "sabah": "Sabah",
+  "randomHadithLanguage": "Zufällige Hadith Sprache",
+  "mosqueDefault": "Aus Ihrer Online-Konfiguration",
+  "en": "Englisch",
+  "fr": "Französisch",
+  "ar": "Arabisch",
+  "tr": "Türkisch",
+  "de": "Deutsch",
+  "es": "Spanisch",
+  "pt": "Portugiesisch",
+  "nl": "Niederländisch",
+  "fr_ar": "Französisch & Arabisch",
+  "en_ar": "Englisch & Arabisch",
+  "de_ar": "Deutsch & Arabisch",
+  "ta_ar": "Tamil & Arabic",
+  "tr_ar": "Türkisch & Arabisch",
+  "es_ar": "Spanisch & Arabisch",
+  "pt_ar": "Portugiesisch & Arabisch",
+  "nl_ar": "Niederländisch & Arabisch",
+  "connectToChangeHadith": "Bitte verbinden Sie sich mit dem Internet, um die Hadith Sprache zu ändern.",
+  "retry": "Wiederholen",
+  "reciterLoadError": "Fehler beim Laden von Rezitern",
+  "reciterNetworkError": "Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut",
+  "reciterServerError": "Server ist vorübergehend nicht verfügbar. Bitte versuchen Sie es später erneut",
+  "reciterTimeoutError": "Anfrage-Timeout. Bitte versuche es erneut",
+  "surahLoadError": "Fehler beim Laden von Surahs",
+  "timeSetting": "Zeit konfigurieren",
+  "timeSettingDesc": "Eigenen Namen festlegen",
+  "selectedTime": "Die aktuelle Uhrzeit",
+  "confirmation": "Bestätigung",
+  "confirmationMessage": "Sind Sie sicher, dass Sie die Gerätezeit verwenden möchten?",
+  "useDeviceTime": "Gerätezeit verwenden",
+  "selectTime": "Zeit auswählen",
+  "previous": "Vorherige",
+  "appTimezone": "App Timezone",
+  "descTimezone": "Wählen Sie Ihre Zeitzone, um genaue Gebetszeiten zu erhalten.",
+  "appWifi": "Mit Wlan verbinden",
+  "descWifi": "Bitte verbinden Sie sich mit Ihrem bevorzugten Wlan",
+  "searchCountries": "Länder suchen",
+  "scanAgain": "Erneut Scannen",
+  "noScannedResultsFound": "Keine Zugangspunkte gefunden",
+  "connect": "Verbinden",
+  "wifiPassword": "Passwort",
+  "skip": "Überspringen",
+  "noSSID": "**Hidden SSID**",
+  "close": "Schließen",
+  "search": "Suche",
+  "wifiSuccess": "Erfolgreich mit WLAN verbunden.",
+  "wifiFailure": "Verbindung mit WLAN fehlgeschlagen.",
+  "timezoneSuccess": "Zeitzone erfolgreich gesetzt.",
+  "timezoneFailure": "Zeitzone konnte nicht gesetzt werden.",
+  "screenLock": "Bildschirm an/aus",
+  "screenLockConfig": "Bildschirm an/aus konfigurieren",
+  "screenLockMode": "Bildschirm an/aus Modus",
+  "screenLockDesc": "TV vor und nach jedem Gebet ein-/ausschalten, um Energie zu sparen",
+  "screenLockDesc2": "Diese Funktion schaltet das Gerät vor und nach jedem Gebetsadhan ein",
+  "before": "Minuten vor jeder Gebetszeit",
+  "after": "Minuten nach jeder Gebetszeit",
+  "updateAvailable": "Update verfügbar",
+  "seeMore": "Mehr ansehen",
+  "whatIsNew": "Neuheiten",
+  "update": "Aktualisieren",
+  "automaticUpdate": "Update benachrichtigen",
+  "automaticUpdateDescription": "Benachrichtigungsupdate aktivieren, um die neuesten Funktionen und Verbesserungen zu erhalten",
+  "checkInternetLegacyMode": "Sie müssen sich mit dem Internet verbinden, um den Legacy-Modus zu nutzen",
+  "powerOnScreen": "Bildschirm einschalten",
+  "powerOffScreen": "Bildschirm ausschalten",
+  "deviceSettings": "Geräteeinstellungen",
+  "later": "Später",
+  "downloadQuran": "Koran herunterladen",
+  "quran": "Koran",
+  "askDownloadQuran": "Möchten Sie den Koran herunterladen?",
+  "download": "Herunterladen",
+  "downloadingQuran": "Der Koran wird heruntergeladen",
+  "extractingQuran": "Koran extrahieren",
+  "updatedQuran": "Koran aktualisiert",
+  "quranLatestVersion": "Koran ist aktuell",
+  "quranUpdatedVersion": "Koran aktualisierte Version ist: {version}",
+  "quranIsUpdated": "Koran wurde aktualisiert",
+  "quranDownloaded": "Koran heruntergeladen",
+  "quranIsAlreadyDownloaded": "Koran wurde bereits heruntergeladen",
+  "chooseReciter": "Reziter auswählen",
+  "reciteType": "Recite Type",
+  "readingMode": "Ich möchte lesen",
+  "listeningMode": "Ich möchte zuhören",
+  "quranReadingPage": "Seite {leftPage} - {rightPage} / {totalPages}",
+  "@quranReadingPage": {
+    "description": "Placeholder text for displaying Quran reading page numbers",
+    "placeholders": {
+      "leftPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "rightPage": {
+        "type": "int",
+        "example": "2"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "quranReadingPagePortrait": "Seite {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "chooseQuranPage": "Seite auswählen",
+  "checkingForUpdates": "Suche nach Updates...",
+  "chooseQuranType": "Koran auswählen",
+  "hafs": "Haft",
+  "warsh": "Warsch",
+  "favorites": "Favoriten",
+  "allReciters": "Alle Leser",
+  "reciterAddedToFavorites": "Reziter {name} zu den Favoriten hinzugefügt",
+  "@reciterAddedToFavorites": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "reciterRemovedFromFavorites": "Reziter {name} aus den Favoriten entfernt",
+  "@reciterRemovedFromFavorites": {
+    "description": "Message shown when a reciter is removed from favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "noFavoriteReciters": "Keine Lieblings-Reziter. Versuche einen zur Liste hinzuzufügen",
+  "@noFavoriteReciters": {
+    "description": "Message shown when there are no favorite reciters"
+  },
+  "noReciterSearchResult": "Keine Ergebnisse für Ihre Suche gefunden",
+  "searchForReciter": "Suche nach einem Reziter",
+  "downloadAllSuwarSuccessfully": "Der gesamte Quran wird heruntergeladen",
+  "noSuwarDownload": "Keine neuen Suwars zum Herunterladen",
+  "connectDownloadQuran": "Zum Herunterladen bitte mit Internet verbinden",
+  "playInOnlineModeQuran": "Zum Spielen bitte mit dem Internet verbinden",
+  "downloaded": "Heruntergeladen",
+  "switchQuranType": "Gehe zu {name}",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "Select Surah",
+  "checkForUpdates": "Nach Updates suchen",
+  "checkForNewVersion": "Überprüfen Sie, ob eine neue Version verfügbar ist",
+  "wouldYouLikeToUpdate": "Möchten Sie die App aktualisieren?",
+  "updateCompleted": "Update erfolgreich abgeschlossen!",
+  "noUpdates": "Keine Updates",
+  "usingLatestVersion": "Sie verwenden die neueste Version.",
+  "updateCancelled": "Update abgebrochen",
+  "checkingUpdates": "Überprüfe Updates...",
+  "downloadingUpdate": "Update wird heruntergeladen...",
+  "installingUpdate": "Update wird installiert...",
+  "updateCompletedSuccessfully": "Update erfolgreich abgeschlossen",
+  "updateFailed": "Update fehlgeschlagen",
+  "save": "Speichern",
+  "enterRtspUrl": "RTSP oder Youtube Live URL eingeben",
+  "addRtspUrl": "Füge deine Kamera-Stream-URL unten hinzu",
+  "enableRtspCamera": "Kamera-Streaming aktivieren",
+  "rtspCameraSettings": "Kameraeinstellungen",
+  "invalidRtspUrl": "Ungültige URL. Bitte überprüfen Sie die URL und versuchen Sie es erneut.",
+  "validRtspUrl": "URL erfolgreich validiert und gespeichert.",
+  "rtspCameraSettingTitle": "Live-Kamera-Verbindung",
+  "rtspCameraSettingDesc": "Verbinde dich mit deiner lokalen Kamera und zeige Jumua-Gebetsstreams auf dem Fernseher an.",
+  "rtspCameraSettingScreenDesc": "Wenn Sie hier eine URL eingeben, wird Ihr Bildschirm automatisch zum Video-Streaming wechseln, wenn Jumua-Zeit eintrifft",
+  "validatingStream": "Stream wird überprüft...",
+  "checkInternetLiveCamera": "Zum Einrichten der Live-Kamera muss eine Internetverbindung hergestellt werden",
+  "somethingWentWrong": "Etwas ist schiefgelaufen! Bitte versuche es erneut",
+  "somethingWrong": "Etwas ist schief gelaufen",
+  "tryAgainLater": "Bitte später erneut versuchen",
+  "hintTextRtspUrl": "rtsp://... oder https://youtube.com/live/...",
+  "checkInternetUpdate": "Sie müssen sich mit dem Internet verbinden, um nach neuen Updates zu suchen",
+  "appUpdateAvailable": "Ihre App verwendet die Version {currentVersion}. Ein neues Update (Version {updatedVersion}) ist verfügbar mit den neuesten Funktionen und Verbesserungen.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "Ein neues Update für den {moshafName} Koran (Version {version}) ist verfügbar.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "Nur Fajr und Isha Gebete",
+  "minutesBeforeFajrPrayer": "Minuten vor Fajr Gebetszeit",
+  "minutesAfterIshaPrayer": "Minuten Afer isha Gebetszeit",
+  "scheduleSaved": "Ihr Zeitplan wurde gespeichert.",
+  "completeAllFields": "Bitte füllen Sie vor dem Speichern alle Felder aus.",
+  "endTimeAfter": "Die Endzeit muss nach der Startzeit liegen.",
+  "scheduleListening": "Geplantes Zuhören",
+  "enableScheduling": "Zeitplanung aktivieren",
+  "scheduleDesc": "Aktivieren Sie diese Funktion, um automatisch einen Surah zu geplanten Zeiten abzuspielen.",
+  "startTime": "Startzeit",
+  "endTime": "Endzeit",
+  "selectReciter": "Reziter auswählen",
+  "selectMoshaf": "Wähle einen Mushaf",
+  "randomSurahSelection": "Zufällige Surah Auswahl",
+  "selectSurah": "Surah auswählen",
+  "initializingAutoReading": "Initialisiere läuft...",
+  "prayerTimeNotification": "{salahName} Zeit ({prayerTime}) Benachrichtigung",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Bitte verbinden Sie sich mit dem Internet, um das Hören von Koran zu planen",
+  "duaaBetweenAdhanAndIqamaaTitle": "Lieferung (Du'a) wird zwischen Adhan und Iqamah nicht abgelehnt",
+  "duaBetweenAdhanIqamah": "Die Lieferung (Du'a) wird zwischen Adhan und Iqamah nicht abgelehnt.",
+  "processingRequest": "Anfrage wird verarbeitet...",
+  "loadingStream": "Stream wird geladen...",
+  "rtspUrlHint": "RTSP-URL oder YouTube-Link eingeben",
+  "replaceWorkflowWithStream": "Zeigt den Kamera-Stream automatisch an",
+  "replaceAppWorkflowWithCameraStream": "Der Bildschirm zeigt den Kamera-Stream automatisch an, sobald die Kamera mit der Aufnahme beginnt; wenn es aufhört, kehrt der Bildschirm zur Gebetszeit zurück",
+  "streamError": "Fehler beim Streaming",
+  "finish": "Beenden",
+  "schedulingAlarms": "Zeitplanung ein/aus...",
+  "alarmsSucessSchedule": "Ein-/Ausschalten der Trigger erfolgreich geplant",
+  "alarmsScheduleFailure": "Konnte Auslöser nicht planen",
+  "prayerTimeNotificationTitle": "Gebetszeitbenachrichtigungen",
+  "prayerTimeNotificationDesc": "Erhalte den Adhan zu Gebetszeiten, auch wenn die App geschlossen ist",
+  "enablePrayerReminders": "Gebetserinnerungen aktivieren",
+  "enablePrayerRemindersDesc": "Funktioniert automatisch im Hintergrund",
+  "testAITranslation": "Dies ist eine Test-Zeichenkette, um zu überprüfen, ob die KI-Übersetzung korrekt funktioniert",
+  "@testAITranslation": {
+    "description": "Test string for AI translation verification - can be deleted after testing"
+  }
 }

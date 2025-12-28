@@ -6,6 +6,7 @@
   "languages": "Keeled",
   "appLang": "Rakenduse keel",
   "descLang": "Palun valige oma eelistatud keel",
+  "hadithLangDesc": "See valik kirjutab üle teie valiku administraatori konsoolis, saate ekraani kaudu valida teise keele.",
   "whoops": "Ups!",
   "noInternet": "Internetiühendus puudub",
   "tryAgain": "Proovi uuesti",
@@ -20,6 +21,7 @@
   "lightMode": "Valgusrežiim",
   "changeMosque": "Muuda mošee",
   "in1": "aadressil",
+  "azanIn": "Azan kell",
   "sec": "Sek",
   "online": "Online",
   "missingMosqueId": "Puudub MAWAQIT #ID või MOSQUE #ID",
@@ -67,57 +69,57 @@
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
-  "azkarList2": "",
+  "azkarList2": "بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ. Ütle: Ma otsin varju inimeste Isanda juures, inimeste Valitseja juures, inimeste Jumala juures, selle salakavalalt sosistaja eest, kes inimestele südamesse sosistab, džinnide ja inimeste seast.",
   "@azkarList2": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس - Surah An-Nas"
   },
-  "azkarList3": "",
+  "azkarList3": "بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ. Ütle: Ma otsin varju Koidiku Issanda juures, kõige eest, mis Ta on loonud, kahju eest pimedusest, kui see saabub, pahatahtlike sõlmepuhujate eest ja kadetseja eest, kui ta kadestab.",
   "@azkarList3": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِقُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
-  "azkarList4": "",
+  "azkarList4": "بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ. Ütle: Tema on Allah, üksainus; Allah, Igavene Tugi. Ta ei ole sigitanud ega ole sigitatud. Temale pole kedagi võrdset.",
   "@azkarList4": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ - Surah Al-Ikhlas"
   },
-  "azkarList5": "",
+  "azkarList5": "Allah! Ei ole teist jumalat kui Tema, Elav, Igavene. Ei võta Teda uni ega tukk. Temale kuulub kõik, mis on taevas ja maa peal. Kes võib Tema juures seista kellegi eest, kui mitte Tema loal? Ta teab, mis on nende ees ja mis on nende taga, ja nemad ei haara midagi Tema teadmistest peale selle, mida Tema tahab. Tema Troon hõlmab taevad ja maa, ning Temale ei ole koormaks valvata neid mõlemaid; Tema on Kõrgeim, Vägev.",
   "@azkarList5": {
-    "description": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ"
+    "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
   "azkarList6": "La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
-  "azkarList7": "",
+  "azkarList7": "Allahumma, Sina oled minu Issand, ei ole teist jumalat kui Sina. Sina oled mind loonud ja ma olen Sinu sulane ning ma olen Sinu lepingu ja tõotuse juures nii hästi, kui ma suudan. Ma otsin Sinu kaitset kõige halva eest, mis ma olen teinud. Ma tunnistan Sinu armu minu üle ja tunnistan oma patte, seepärast anna mulle andeks, sest ainult Sina annad patud andeks.",
   "@azkarList7": {
-    "description": "اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت"
+    "description": "Sayyid al-Istighfar (Master of Seeking Forgiveness)"
   },
-  "azkarList8": "",
+  "azkarList8": "Me oleme jõudnud hommikusse ja valitsus kuulub Allahile. Kiitus kuulub Allahile, ei ole teist jumalat kui Allah üksi, Tal ei ole kaaslast, Temale kuulub valitsejaseisus ja kiitus ning Tema on Kõigevõimas kõige üle. Ma palun Sinult selle päeva parimat ja seda, mis tuleb pärast seda päeva, ja ma otsin Sinu kaitset selle päeva kurja eest ja selle eest, mis tuleb pärast seda päeva. Ma otsin Sinu kaitset loiduse ja halva vanaduse eest, ning ma otsin Sinu kaitset Tule põrgupiinast ja haua piinast.",
   "@azkarList8": {
-    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+    "description": "Morning supplication - Protection dua"
   },
-  "azkarList9": "",
+  "azkarList9": "Allahumma, ma tunnistan Sind täna hommikul, tunnistan Su Trooni kandjaid, Su ingleid ja kogu Su loodut, et Sina oled Allah, ei ole muud jumalat kui Sina, üksinda, Sul pole kaaslast, ja et Muhammad on Sinu sulane ja sõnumitooja. |Neli korda|. [Kui on õhtu, ütle: Allahumma, ma tunnistan täna õhtul...]",
   "@azkarList9": {
-    "description": ".| اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات"
+    "description": "Morning testimony - 4 times"
   },
-  "azkarList10": "",
+  "azkarList10": "Allahumma, anna mulle hea tervis minu kehas, Allahumma, anna mulle hea kuulmine, Allahumma, anna mulle hea nägemine. Ei ole muud jumalat kui Sina. Allahumma, ma otsin Sinu kaitset uskmatuse ja vaesuse eest, ning ma otsin Sinu kaitset haua piina eest. Ei ole muud jumalat kui Sina. |Kolm korda|",
   "@azkarList10": {
-    "description": "|اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ"
+    "description": "Dua for wellbeing - 3 times"
   },
-  "azkarList11": "",
+  "azkarList11": "Hasbiyallahu, ei ole muud jumalat kui Tema. Temale ma panen oma lootuse ja Tema on suure Trooni Isand. |Seitse korda|",
   "@azkarList11": {
-    "description": "|حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ"
+    "description": "Hasbiya Allah - 7 times"
   },
-  "azkarList12": "",
+  "azkarList12": "Olen rahul Allahiga kui oma Issandaga, islamiga kui oma usuga, ja Muhammadiga صلى الله عليه وسلم kui oma Prohvetiga. |Kolm korda|",
   "@azkarList12": {
-    "description": "|رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ"
+    "description": "Contentment with Allah - 3 times"
   },
-  "azkarList13": "",
+  "azkarList13": "Ei ole teist jumalat kui ainult Allah, üksi, Temal pole kaaslast; Temale kuulub kuningriik ja kiitus ning Tema on kõige üle võimas. |Kümme korda|",
   "@azkarList13": {
-    "description": "|لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات"
+    "description": "La ilaha illa Allah tawhid - 10 times"
   },
-  "azkarList14": "",
+  "azkarList14": "Me oleme jõudnud hommikusse ja valitsus kuulub Allahile. Kiitus kuulub Allahile, ei ole teist jumalat kui Allah üksi, Tal ei ole kaaslast, Temale kuulub valitsejaseisus ja kiitus ning Tema on Kõigevõimas kõige üle. Ma palun Sinult selle päeva parimat ja seda, mis tuleb pärast seda päeva, ja ma otsin Sinu kaitset selle päeva kurja eest ja selle eest, mis tuleb pärast seda päeva. Ma otsin Sinu kaitset loiduse ja halva vanaduse eest, ning ma otsin Sinu kaitset Tule põrgupiinast ja haua piinast.",
   "@azkarList14": {
-    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+    "description": "Morning supplication - Protection from laziness"
   },
   "jumuaaScreenTitle": "Jumuaa aeg",
   "jumuaaHadith": "Prohvet ﷺ (rahu ja Jumala õnnistused olgu temaga) ütles: \"Kes teeb pesu täiuslikult, siis läheb jumua ja siis kuulab ja on vait, ta on andestatud, mis on selle aja ja järgmise reede ja veel kolme päeva vahel ja see, kes puudutab kive, on kindlasti teinud asjata\".",
@@ -179,9 +181,295 @@
   "mainScreenExplanation": "Peamise mošee ruumi puhul ei näita see ekraan jumua otseülekannet.",
   "normalModeExplanation": "Näitab tavalist ekraani koos palveaegade ja teadaannetega.",
   "announcementOnlyModeExplanation": "Näitab teateid kogu aeg",
+  "orientation": "Suund",
+  "selectYourMawaqitTvAppOrientation": "Valige oma Mawaqiti teleäpi ekraani suund",
+  "deviceDefault": "Seadme vaikeväärtus",
+  "deviceDefaultBTNDescription": "Mawaqit valib automaatselt vaikeasendi vastavalt ekraani orientatsioonile",
+  "portrait": "Püstpaigutus",
+  "portraitBTNDescription": "Vertikaalne asetus – soovitatav mošeele, kus on vähe ruumi",
+  "landscape": "Rõhtpaigutus",
+  "landscapeBTNDescription": "Horisontaalne suund. Peamine paigutus Mawaqit TV rakenduse jaoks ja soovitatav enamikule mošeedele",
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Seaded",
   "applicationModes": "Rakendusrežiimid",
-  "ifYouAreFacingAnIssueWithTheAppActivateThis": "Kui teil tekib probleem rakenduse aktiivse selle valikuga"
+  "ifYouAreFacingAnIssueWithTheAppActivateThis": "Kui teil tekib probleem rakenduse aktiivse selle valikuga",
+  "hijriAdjustments": "Kohalikud hijri korrigeerimised",
+  "hijriAdjustmentsDescription": "Häälestage hijri-kuupäev oma seadmes kohapeal. See ei mõjuta veebipõhiseid mošee seadeid",
+  "backoffice_default": "Backoffice'i vaikeväärtused",
+  "recommended": "Soovitatav",
+  "sabah": "Sabah",
+  "randomHadithLanguage": "Juhuslik hadith'i keel",
+  "mosqueDefault": "Teie veebipõhise seadistuse järgi",
+  "en": "Inglise keeles",
+  "fr": "Prantsuse",
+  "ar": "Araabia keel",
+  "tr": "Türgi",
+  "de": "Saksa",
+  "es": "Hispaania",
+  "pt": "Portugali keel",
+  "nl": "Hollandi",
+  "fr_ar": "Prantsuse & araabia keel",
+  "en_ar": "Inglise & araabia keel",
+  "de_ar": "Saksa & araabia keel",
+  "ta_ar": "Tamili & araabia keel",
+  "tr_ar": "Türgi & araabia keel",
+  "es_ar": "Hispaania & araabia keel",
+  "pt_ar": "Portugali & araabia keel",
+  "nl_ar": "Hollandi & araabia keel",
+  "connectToChangeHadith": "Hadith'i keele muutmiseks ühendage end palun internetti.",
+  "retry": "Uuesti proovida",
+  "reciterLoadError": "Ei õnnestu reciteraid laadida",
+  "reciterNetworkError": "Kontrollige oma internetiühendust ja proovige uuesti",
+  "reciterServerError": "Server pole hetkel kättesaadav. Proovige hiljem uuesti",
+  "reciterTimeoutError": "Aeg sai otsa. Proovige uuesti",
+  "surahLoadError": "Ei õnnestu suurasid laadida",
+  "timeSetting": "Aja seadistamine",
+  "timeSettingDesc": "Määra kohandatud nimi",
+  "selectedTime": "Praegu valitud aeg",
+  "confirmation": "Kinnitus",
+  "confirmationMessage": "Kas olete kindel, et soovite kasutada seadme aega?",
+  "useDeviceTime": "Kasuta seadme aega",
+  "selectTime": "Vali aeg",
+  "previous": "Eelmine",
+  "appTimezone": "Rakenduse ajavöönd",
+  "descTimezone": "Õigete palveaegade saamiseks valige oma ajavöönd.",
+  "appWifi": "Ühenda wifi-võrku",
+  "descWifi": "Palun ühenda eelistatud wifi-võrguga",
+  "searchCountries": "Otsi riike",
+  "scanAgain": "Skaneeri uuesti",
+  "noScannedResultsFound": "Lähedalolevaid pääsupunkte ei leitud",
+  "connect": "Ühenda",
+  "wifiPassword": "Parool",
+  "skip": "Jäta vahele",
+  "noSSID": "**Peidetud SSID**",
+  "close": "Sulge",
+  "search": "Otsi",
+  "wifiSuccess": "Wifi edukalt ühendatud.",
+  "wifiFailure": "Wifi ühendamine nurjus.",
+  "timezoneSuccess": "Ajavöönd on edukalt määratud.",
+  "timezoneFailure": "Ajavööndi määramine nurjus.",
+  "screenLock": "Ekraani sisse-/väljalülitus",
+  "screenLockConfig": "Seadista ekraani sisse-/väljalülitus",
+  "screenLockMode": "Ekraani sisselülituse/väljalülituse režiim",
+  "screenLockDesc": "Lülita TV sisse/välja enne ja pärast igat palveaega energia säästmiseks",
+  "screenLockDesc2": "See funktsioon lülitab seadme sisse/välja enne ja pärast iga palvuse adhani",
+  "before": "minutit enne iga palveaega",
+  "after": "minutit pärast iga palveaega",
+  "updateAvailable": "Uuendus saadaval",
+  "seeMore": "Vaata rohkem",
+  "whatIsNew": "Mis on uut",
+  "update": "Ajakohastamine",
+  "automaticUpdate": "Teavita uuendustest",
+  "automaticUpdateDescription": "Luba uuenduste teavitused, et saada uusimaid funktsioone ja parendusi",
+  "checkInternetLegacyMode": "Pärandrežiimi kasutamiseks peate ühendama internetti",
+  "powerOnScreen": "Lülita ekraan sisse",
+  "powerOffScreen": "Lülita ekraan välja",
+  "deviceSettings": "Seadme seaded",
+  "later": "Hiljem",
+  "downloadQuran": "Laadi alla Quran",
+  "quran": "Koraan",
+  "askDownloadQuran": "Kas soovite Quran'i alla laadida?",
+  "download": "Laadi alla",
+  "downloadingQuran": "Qurani allalaadimine",
+  "extractingQuran": "Qurani lahtipakkimine",
+  "updatedQuran": "Quran on uuendatud",
+  "quranLatestVersion": "Quran on ajakohane",
+  "quranUpdatedVersion": "Qurani uuendatud versioon on: {version}",
+  "quranIsUpdated": "Quran uuendatud",
+  "quranDownloaded": "Quran on alla laetud",
+  "quranIsAlreadyDownloaded": "Quran on juba alla laetud",
+  "chooseReciter": "Vali retsitaator",
+  "reciteType": "Retsitatsioonitüüp",
+  "readingMode": "Soovin lugeda",
+  "listeningMode": "Soovin kuulata",
+  "quranReadingPage": "Lehekülg {leftPage} - {rightPage} / {totalPages}",
+  "@quranReadingPage": {
+    "description": "Placeholder text for displaying Quran reading page numbers",
+    "placeholders": {
+      "leftPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "rightPage": {
+        "type": "int",
+        "example": "2"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "quranReadingPagePortrait": "Lehekülg {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "chooseQuranPage": "Vali lehekülg",
+  "checkingForUpdates": "Uuenduste kontrollimine...",
+  "chooseQuranType": "Vali quran",
+  "hafs": "Hafs",
+  "warsh": "Warsh",
+  "favorites": "Lemmikud",
+  "allReciters": "Kõik retsitaatorid",
+  "reciterAddedToFavorites": "Retsitaator {name} lisatud lemmikutesse",
+  "@reciterAddedToFavorites": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "reciterRemovedFromFavorites": "Retsitaator {name} eemaldatud lemmikutest",
+  "@reciterRemovedFromFavorites": {
+    "description": "Message shown when a reciter is removed from favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "noFavoriteReciters": "Ühtegi lemmikretsitaatorit pole. Proovi lisada nimekirja",
+  "@noFavoriteReciters": {
+    "description": "Message shown when there are no favorite reciters"
+  },
+  "noReciterSearchResult": "Otsing ei andnud tulemusi",
+  "searchForReciter": "Otsi retsitaatorit",
+  "downloadAllSuwarSuccessfully": "Kogu quran on alla laaditud",
+  "noSuwarDownload": "Pole uusi suurasid allalaadimiseks",
+  "connectDownloadQuran": "Palun ühenda Internetti allalaadimiseks",
+  "playInOnlineModeQuran": "Palun ühenda internetiga esitamaks",
+  "downloaded": "Alla laaditud",
+  "switchQuranType": "Mine {name}",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "Vali suura",
+  "checkForUpdates": "Kontrollige uuendusi",
+  "checkForNewVersion": "Kontrolli, kas uus versioon on saadaval",
+  "wouldYouLikeToUpdate": "Kas soovite rakendust uuendada?",
+  "updateCompleted": "Uuendus edukalt lõpetatud!",
+  "noUpdates": "Uuendusi pole",
+  "usingLatestVersion": "Kasutate uusimat versiooni.",
+  "updateCancelled": "Uuendamine tühistatud",
+  "checkingUpdates": "Uuendusi kontrollitakse...",
+  "downloadingUpdate": "Uuenduse allalaadimine...",
+  "installingUpdate": "Uuenduse installimine...",
+  "updateCompletedSuccessfully": "Uuendus edukalt lõpule viidud",
+  "updateFailed": "Uuendamine ebaõnnestus",
+  "save": "Salvesta",
+  "enterRtspUrl": "Sisesta RTSP või Youtube Live URL",
+  "addRtspUrl": "Lisa alla oma kaamera voo URL",
+  "enableRtspCamera": "Luba kaamera voogedastus",
+  "rtspCameraSettings": "Kaamera seaded",
+  "invalidRtspUrl": "Vigane URL. Palun kontrolli URL-i ja proovi uuesti.",
+  "validRtspUrl": "URL on kinnitatud ja edukalt salvestatud.",
+  "rtspCameraSettingTitle": "Reaalajas kaameraühendus",
+  "rtspCameraSettingDesc": "Ühenda oma kohalik kaamera ja kuva džumaa palvuse otseülekanne teleri ekraanil.",
+  "rtspCameraSettingScreenDesc": "Kui sisestad siia URL-i, lülitub ekraan džumaa ajal automaatselt videovoole",
+  "validatingStream": "Voogu kontrollitakse...",
+  "checkInternetLiveCamera": "Otsekaamera seadistamiseks pead olema ühendatud internetiga",
+  "somethingWentWrong": "Midagi läks valesti! Palun proovi uuesti",
+  "somethingWrong": "Midagi läks valesti",
+  "tryAgainLater": "Palun proovi hiljem uuesti",
+  "hintTextRtspUrl": "rtsp://... või https://youtube.com/live/...",
+  "checkInternetUpdate": "Uuenduste kontrollimiseks peate olema internetiga ühendatud",
+  "appUpdateAvailable": "Teie rakendus töötab versiooniga {currentVersion}. Saadaval on uus uuendus (versioon {updatedVersion}) uusimate funktsioonide ja täiustustega.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "{moshafName} Qur'ani uus versioon ({version}) on saadaval.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "Ainult Fadzri ja Isha palvused",
+  "minutesBeforeFajrPrayer": "minutit enne fadzri palvuse aega",
+  "minutesAfterIshaPrayer": "minutit pärast isha palvuse aega",
+  "scheduleSaved": "Sinu ajakava on salvestatud.",
+  "completeAllFields": "Palun täida kõik väljad enne salvestamist.",
+  "endTimeAfter": "Lõpuaeg peab olema pärast algusaega.",
+  "scheduleListening": "Ajakavaga kuulamine",
+  "enableScheduling": "Luba ajakava",
+  "scheduleDesc": "Luba see funktsioon, et mängida valitud ajal automaatselt suurat.",
+  "startTime": "Algusaeg",
+  "endTime": "Lõpuaeg",
+  "selectReciter": "Vali retsitaator",
+  "selectMoshaf": "Vali mushaf",
+  "randomSurahSelection": "Juhuslik suuravalik",
+  "selectSurah": "Vali suurah",
+  "initializingAutoReading": "Käivitamine käib...",
+  "prayerTimeNotification": "{salahName} aeg ({prayerTime}) teavitus",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Palun ühenda internetti, et ajastada Qur'ani kuulamist",
+  "duaaBetweenAdhanAndIqamaaTitle": "Palve (Du'a) ei lükata tagasi Adhani ja Iqama vahel.",
+  "duaBetweenAdhanIqamah": "Suppleekatsioon (Du'a) ei lükata tagasi Azaani ja Ikama vahel.",
+  "processingRequest": "Päringut töödeldakse...",
+  "loadingStream": "Voogu laaditakse...",
+  "rtspUrlHint": "Sisestage RTSP URL või YouTube'i link",
+  "replaceWorkflowWithStream": "Kuva kaameravoog automaatselt",
+  "replaceAppWorkflowWithCameraStream": "Ekraan hakkab automaatselt näitama kaameravoogu niipea, kui kaamera salvestamist alustab; kui see seiskub, taastub palveaegade kuva",
+  "streamError": "Voogedastuse ajal tekkis viga",
+  "finish": "Lõpeta",
+  "schedulingAlarms": "On/Off aegade ajastamine...",
+  "alarmsSucessSchedule": "Sisselülituse/väljalülituse sündmused on edukalt ajastatud",
+  "alarmsScheduleFailure": "Sisselülituse/väljalülituse ajastamine ebaõnnestus",
+  "prayerTimeNotificationTitle": "Palveaja teavitused",
+  "prayerTimeNotificationDesc": "Kuulutage adhan palve ajal ka siis, kui rakendus on suletud",
+  "enablePrayerReminders": "Luba palve meeldetuletused",
+  "enablePrayerRemindersDesc": "Töötab automaatselt taustal",
+  "testAITranslation": "See on testtekst, et kontrollida, kas tehisintellekti tõlge töötab korrektselt.",
+  "@testAITranslation": {
+    "description": "Test string for AI translation verification - can be deleted after testing"
+  }
 }
