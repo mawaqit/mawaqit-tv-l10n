@@ -467,5 +467,9 @@
   "prayerTimeNotificationTitle": "Prayer Time Notifications",
   "prayerTimeNotificationDesc": "Get the adhan at prayer times, even when the app is closed",
   "enablePrayerReminders": "Enable Prayer Reminders",
-  "enablePrayerRemindersDesc": "Works automatically in the background"
+  "enablePrayerRemindersDesc": "Works automatically in the background",
+  "testAITranslation": "This is a test string to verify AI translation is working correctly",
+  "@testAITranslation": {
+    "description": "Test string for AI translation verification - can be deleted after testing"
+  }
 }
