@@ -99,8 +99,6 @@ jobs:
           upload_sources: false
           upload_translations: false
           download_translations: true
-          # Only download approved translations (human or AI-approved)
-          export_only_approved: true
           # Skip strings without translations (prevents empty overwrites)
           skip_untranslated_strings: true
           localization_branch_name: l10n_crowdin_translations
