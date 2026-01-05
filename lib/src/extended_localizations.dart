@@ -1,24 +1,36 @@
 /// Extended localizations for Mawaqit TV
 ///
 /// This file provides localization delegates for all supported languages
-/// Note: Kurdish and Montenegrin language support is included via standard Flutter locales
+/// including Kurdish and Montenegrin language support
 
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:flutter_kurdish_localization/flutter_kurdish_localization.dart';
+import 'package:montenegrin_localization/montenegrin_localization.dart';
 import 'generated/mawaqit_tv_localizations.dart';
 
 /// Extended localization delegates for all supported languages
 class MawaqitTvExtendedLocalizations {
   /// Complete list of localization delegates
   static List<LocalizationsDelegate<dynamic>> get localizationsDelegates => [
+    // Montenegrin localizations (must be before global delegates)
+    MontenegrinMaterialLocalizations.delegate,
+    MontenegrinWidgetsLocalizations.delegate,
+    MontenegrinCupertinoLocalizations.delegate,
+
     // Mawaqit TV localizations
     MawaqitTvLocalizations.delegate,
 
     // Standard Flutter localizations
+    GlobalCupertinoLocalizations.delegate,
     GlobalMaterialLocalizations.delegate,
     GlobalWidgetsLocalizations.delegate,
-    GlobalCupertinoLocalizations.delegate,
+
+    // Kurdish localizations
+    KurdishMaterialLocalizations.delegate,
+    KurdishWidgetLocalizations.delegate,
+    KurdishCupertinoLocalizations.delegate,
   ];
 
   /// All supported locales
