@@ -24,4 +24,5 @@ export 'src/generated/mawaqit_tv_localizations.dart';
 export 'src/generated/mawaqit_tv_localizations_ar.dart';
 export 'src/locale_utils.dart';
 export 'src/constants.dart';
-export 'src/extended_localizations.dart'; 
+export 'src/extended_localizations.dart';
+export 'src/intl_utils.dart'; 
