@@ -4,6 +4,7 @@
 /// handling unsupported locales automatically.
 
 import 'package:intl/intl.dart';
+import 'package:intl/date_symbols.dart';
 
 /// Locales that are not supported by the intl package's DateFormat
 /// These are mapped to similar supported locales for date/number formatting
