@@ -1,10 +1,32 @@
 /// Locale utilities for Mawaqit TV Localization
-/// 
+///
 /// This file contains utility functions for working with locales,
 /// text direction, and language-specific formatting.
 
 import 'package:flutter/material.dart';
 import 'constants.dart';
+
+/// Locales that are not supported by the intl package's DateFormat
+/// These need to be mapped to a similar supported locale for date formatting
+const _unsupportedIntlLocaleMap = <String, String>{
+  'cnr': 'sr', // Montenegrin -> Serbian (closest supported Slavic language)
+  'ckb': 'ar', // Kurdish (Sorani) -> Arabic (same script direction)
+  'ff': 'en',  // Fulah -> English
+  'ba': 'ru',  // Bashkir -> Russian (closest supported)
+};
+
+/// Maps unsupported locale codes to supported fallback locales for intl package
+/// The intl package doesn't support all locales that MawaqitTvLocalizations supports
+/// Use this when working with DateFormat or other intl package features
+String mapToSupportedIntlLocale(String locale) {
+  final languageCode = locale.split('_').first.toLowerCase();
+
+  if (_unsupportedIntlLocaleMap.containsKey(languageCode)) {
+    return _unsupportedIntlLocaleMap[languageCode]!;
+  }
+
+  return locale;
+}
 
 /// Utility class for locale-related operations
 class MawaqitTvLocaleUtils {
