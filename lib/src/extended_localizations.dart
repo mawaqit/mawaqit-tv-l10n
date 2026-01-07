@@ -7,60 +7,15 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'generated/mawaqit_tv_localizations.dart';
 
-/// Locales that are not supported by Flutter's GlobalMaterialLocalizations
-/// These need special fallback handling for material/cupertino components
-const _unsupportedMaterialLocales = {'cnr', 'ckb', 'ff', 'ba'};
+// Kurdish localizations
+import 'localizations/kurdish/kurdish_material_localizations.dart';
+import 'localizations/kurdish/kurdish_cupertino_localizations.dart';
+import 'localizations/kurdish/kurdish_widgets_localizations.dart';
 
-/// Fallback delegate for MaterialLocalizations that handles unsupported locales
-class _FallbackMaterialLocalizationsDelegate extends LocalizationsDelegate<MaterialLocalizations> {
-  const _FallbackMaterialLocalizationsDelegate();
-
-  @override
-  bool isSupported(Locale locale) => _unsupportedMaterialLocales.contains(locale.languageCode);
-
-  @override
-  Future<MaterialLocalizations> load(Locale locale) async {
-    // Fall back to English material localizations for unsupported locales
-    return await GlobalMaterialLocalizations.delegate.load(const Locale('en'));
-  }
-
-  @override
-  bool shouldReload(_FallbackMaterialLocalizationsDelegate old) => false;
-}
-
-/// Fallback delegate for CupertinoLocalizations that handles unsupported locales
-class _FallbackCupertinoLocalizationsDelegate extends LocalizationsDelegate<CupertinoLocalizations> {
-  const _FallbackCupertinoLocalizationsDelegate();
-
-  @override
-  bool isSupported(Locale locale) => _unsupportedMaterialLocales.contains(locale.languageCode);
-
-  @override
-  Future<CupertinoLocalizations> load(Locale locale) async {
-    // Fall back to English cupertino localizations for unsupported locales
-    return await GlobalCupertinoLocalizations.delegate.load(const Locale('en'));
-  }
-
-  @override
-  bool shouldReload(_FallbackCupertinoLocalizationsDelegate old) => false;
-}
-
-/// Fallback delegate for WidgetsLocalizations that handles unsupported locales
-class _FallbackWidgetsLocalizationsDelegate extends LocalizationsDelegate<WidgetsLocalizations> {
-  const _FallbackWidgetsLocalizationsDelegate();
-
-  @override
-  bool isSupported(Locale locale) => _unsupportedMaterialLocales.contains(locale.languageCode);
-
-  @override
-  Future<WidgetsLocalizations> load(Locale locale) async {
-    // Fall back to English widgets localizations for unsupported locales
-    return await GlobalWidgetsLocalizations.delegate.load(const Locale('en'));
-  }
-
-  @override
-  bool shouldReload(_FallbackWidgetsLocalizationsDelegate old) => false;
-}
+// Montenegrin localizations
+import 'localizations/montenegrin/montenegrin_material_localizations.dart';
+import 'localizations/montenegrin/montenegrin_cupertino_localizations.dart';
+import 'localizations/montenegrin/montenegrin_widgets_localizations.dart';
 
 /// Extended localization delegates for all supported languages
 class MawaqitTvExtendedLocalizations {
@@ -69,10 +24,15 @@ class MawaqitTvExtendedLocalizations {
     // Mawaqit TV localizations (app strings)
     MawaqitTvLocalizations.delegate,
 
-    // Fallback delegates for unsupported locales (must come before global delegates)
-    const _FallbackMaterialLocalizationsDelegate(),
-    const _FallbackCupertinoLocalizationsDelegate(),
-    const _FallbackWidgetsLocalizationsDelegate(),
+    // Kurdish localizations (must come before global delegates)
+    KurdishMaterialLocalizations.delegate,
+    KurdishCupertinoLocalizations.delegate,
+    KurdishWidgetsLocalizations.delegate,
+
+    // Montenegrin localizations (must come before global delegates)
+    MontenegrinMaterialLocalizations.delegate,
+    MontenegrinCupertinoLocalizations.delegate,
+    MontenegrinWidgetsLocalizations.delegate,
 
     // Standard Flutter localizations
     GlobalCupertinoLocalizations.delegate,
@@ -111,4 +71,4 @@ class MawaqitTvExtendedLocalizations {
     // Default fallback
     return const Locale('en');
   }
-} 
+}
