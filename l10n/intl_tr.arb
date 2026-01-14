@@ -6,6 +6,7 @@
   "languages": "Diller",
   "appLang": "Uygulama Dili",
   "descLang": "Lütfen tercih ettiğiniz dili seçin",
+  "hadithLangDesc": "Bu, yönetici konsolundaki seçiminizi geçersiz kılar, ekrana göre farklı bir dil seçebilirsiniz",
   "whoops": "Tüh!",
   "noInternet": "İnternet bağlantısı yok",
   "tryAgain": "Tekrar Deneyin",
@@ -20,6 +21,7 @@
   "lightMode": "Aydınlık mod",
   "changeMosque": "Cami değiştir",
   "in1": "Kalan Süre",
+  "azanIn": "Ezana kala",
   "sec": "İkinci",
   "online": "Çevrimiçi",
   "missingMosqueId": "Eksik MAWAQIT #ID veya Camii #ID",
@@ -67,57 +69,57 @@
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
-  "azkarList2": "",
+  "azkarList2": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ النَّاسِ، مَلِكِ النَّاسِ، إِلٰهِ النَّاسِ، مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ، الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ، مِنَ الْجِنَّةِ وَالنَّاسِ",
   "@azkarList2": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس - Surah An-Nas"
   },
-  "azkarList3": "",
+  "azkarList3": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ، مِنْ شَرِّ مَا خَلَقَ، وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ، وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ، وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ",
   "@azkarList3": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِقُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
-  "azkarList4": "",
+  "azkarList4": "بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ قُلْ هُوَ اللهُ أَحَدٌ، اللهُ الصَّمَدُ، لَمْ يَلِدْ وَلَمْ يُولَدْ، وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ",
   "@azkarList4": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ - Surah Al-Ikhlas"
   },
-  "azkarList5": "",
+  "azkarList5": "اللّٰهُ لَا إِلٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ، لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ، لَهُ مَا فِي السَّمٰوَاتِ وَمَا فِي الْأَرْضِ، مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ، يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ، وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ، وَسِعَ كُرْسِيُّهُ السَّمٰوَاتِ وَالْأَرْضَ، وَلَا يَؤُودُهُ حِفْظُهُمَا، وَهُوَ الْعَلِيُّ الْعَظِيمُ",
   "@azkarList5": {
-    "description": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ"
+    "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
   "azkarList6": "Lâ ilâhe illallâhu vahdehû lâ şerîke leh, lehül-mülkü ve lehül-hamdü ve hüve alâ külli şey’in kadîr.",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
-  "azkarList7": "",
+  "azkarList7": "Allah’ım, Sen benim Rabbimsin, Senden başka ilah yoktur, Beni yarattın ve ben Senin kulunum, gücüm yettiğince Senin ahdine ve vaadine bağlıyım. Yaptığım kötülüklerden Sana sığınırım. Bana verdiğin nimetleri itiraf ediyorum, günahlarımı da itiraf ediyorum. Beni bağışla, çünkü günahları ancak Sen bağışlarsın.",
   "@azkarList7": {
-    "description": "اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت"
+    "description": "Sayyid al-Istighfar (Master of Seeking Forgiveness)"
   },
-  "azkarList8": "",
+  "azkarList8": "Sabahladık ve mülk Allah’ındır. Hamd Allah’a aittir ve Allah’tan başka ilah yoktur, O tektir, ortağı yoktur. Mülk O’na aittir, hamd O’na aittir, O her şeye kadirdir. Bugünün hayrını ve sonrası için olan hayrı Senden isterim. Bu günün ve sonrası için olan şerrinden Sana sığınırım. Tembellikten, kemâlin kötülüğünden Sana sığınırım. Ateş azabından ve kabir azabından Sana sığınırım.",
   "@azkarList8": {
-    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+    "description": "Morning supplication - Protection dua"
   },
-  "azkarList9": "",
+  "azkarList9": "Allah’ım! Ben sabahladım ki, Sen’i, Arş’ını taşıyanları, meleklerini ve tüm mahlukatını şahit tutuyorum ki, Sen Allah’sın, Senden başka ilah yok, ortağın yok ve Muhammed Sen’in kulun ve Rasulündür. |Dört defa|. [Akşam olunca: Allah’ım! Ben akşamladım… der.]",
   "@azkarList9": {
-    "description": ".| اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات"
+    "description": "Morning testimony - 4 times"
   },
-  "azkarList10": "",
+  "azkarList10": "Allah’ım! Bedenime afiyet ver, Allah’ım! Kulağıma afiyet ver, Allah’ım! Gözüme afiyet ver. Senden başka ilah yoktur. Allah’ım! Küfürden ve fakirlikten Sana sığınırım. Kabir azabından Sana sığınırım. Senden başka ilah yoktur. |Üç defa|",
   "@azkarList10": {
-    "description": "|اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ"
+    "description": "Dua for wellbeing - 3 times"
   },
-  "azkarList11": "",
+  "azkarList11": "Hasbiyallahu lâ ilâhe illâ Hû, O’na tevekkül ettim ve O, Yüce Arş’ın Rabbidir. |Yedi defa|",
   "@azkarList11": {
-    "description": "|حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ"
+    "description": "Hasbiya Allah - 7 times"
   },
-  "azkarList12": "",
+  "azkarList12": "Allah’tan Rab, İslam’dan din, Muhammed’den (s.a.v) nebî olarak razı oldum. |Üç defa|",
   "@azkarList12": {
-    "description": "|رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ"
+    "description": "Contentment with Allah - 3 times"
   },
-  "azkarList13": "",
+  "azkarList13": "Allah’tan başka ilah yoktur; O, tektir, ortağı yoktur. Mülk O’na aittir, hamd O’na aittir ve O her şeye kadirdir. |On defa|",
   "@azkarList13": {
-    "description": "|لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات"
+    "description": "La ilaha illa Allah tawhid - 10 times"
   },
-  "azkarList14": "",
+  "azkarList14": "Sabahladık ve mülk Allah’ındır. Hamd Allah’a aittir ve Allah’tan başka ilah yoktur, O tektir, ortağı yoktur. Mülk O’na aittir, hamd O’na aittir, O her şeye kadirdir. Bugünün hayrını ve sonrası için olan hayrı Senden isterim. Bu günün ve sonrası için olan şerrinden Sana sığınırım. Tembellikten, kemâlin kötülüğünden Sana sığınırım. Ateş azabından ve kabir azabından Sana sığınırım.",
   "@azkarList14": {
-    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+    "description": "Morning supplication - Protection from laziness"
   },
   "jumuaaScreenTitle": "Cuma Vakti",
   "jumuaaHadith": "Ebû Hureyre radıyallahu anh'den rivayet edildiğine göre Resûlullah sallallahu aleyhi ve sellem şöyle buyurmuştur: \"Bir kişi güzelce abdest alır, cuma namazına gider, hutbeyi ses çıkarmadan dinlerse, iki cuma arasındaki ve fazla olarak üç günlük daha günahları bağışlanır. Kim hutbe okunurken çakıl taşlarıyla oynarsa, abesle iştiğal etmiş olur.\"",
@@ -179,10 +181,295 @@
   "mainScreenExplanation": "Erkekler ekranı için bu ekran cuma canlı yayınını göstermeyecek",
   "normalModeExplanation": "Namaz vakitleri ve duyurular ile normal ekranı gösterecektir.",
   "announcementOnlyModeExplanation": "Duyuruları her zaman gösterecek",
+  "orientation": "Yönlendirme",
+  "selectYourMawaqitTvAppOrientation": "mawaqit tv uygulama yönünüzü seçin",
+  "deviceDefault": "Aygıt varsayılanı",
+  "deviceDefaultBTNDescription": "Mawaqit, ekran yönüne göre varsayılan yönelimi otomatik olarak seçecektir",
+  "portrait": "Düşey",
+  "portraitBTNDescription": "Dikey yönlendirme için küçük camiler için önerilir",
+  "landscape": "Yatay",
+  "landscapeBTNDescription": "Yatay yönlendirme için. Mawaqit TV uygulaması için ana düzen ve çoğu cami için önerilen düzen",
   "eidMubarak": "Bayram mübarek olsun",
   "takbeerAleidText": "Allâhü ekber Allâhü ekber lâ ilâhe illallâhü vallâhü ekber Allâhü ekber ve lillâhi'l-hamd",
   "settings": "Ayarlar",
   "applicationModes": "Uygulama modları",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Uygulamayla ilgili bir sorunla karşılaşıyorsanız bu seçeneği etkinleştirin",
-  "duaaBetweenAdhanAndIqamaaTitle": "Ezânla kâmet arasında yapılan dua reddedilmez"
+  "hijriAdjustments": "Yerel Hicri ayarlamalar",
+  "hijriAdjustmentsDescription": "Hicri tarihi cihazınızda yerel olarak ayarlayın. Bu, çevrimiçi cami ayarlarını etkilemez.",
+  "backoffice_default": "Backoffice Varsayılanları",
+  "recommended": "Tavsiye edilen",
+  "sabah": "Sabah",
+  "randomHadithLanguage": "Rastgele hadis dili",
+  "mosqueDefault": "Çevrimiçi yapılandırmanızdan",
+  "en": "İngilizce",
+  "fr": "Fransızca",
+  "ar": "Arapça",
+  "tr": "Türkçe",
+  "de": "Almanca",
+  "es": "İspanyolca",
+  "pt": "Portekizce",
+  "nl": "Felemenkçe",
+  "fr_ar": "Fransızca & Arapça",
+  "en_ar": "İngilizce & Arapça",
+  "de_ar": "Almanca & Arapça",
+  "ta_ar": "Tamilce & Arapça",
+  "tr_ar": "Türkçe & Arapça",
+  "es_ar": "İspanyolca & Arapça",
+  "pt_ar": "Portekizce & Arapça",
+  "nl_ar": "Flemenkçe & Arapça",
+  "connectToChangeHadith": "Hadis dilini değiştirmek için lütfen internete bağlanın.",
+  "retry": "Yeniden dene",
+  "reciterLoadError": "Kâri'ler yüklenemedi",
+  "reciterNetworkError": "Lütfen internet bağlantınızı kontrol edin ve tekrar deneyin",
+  "reciterServerError": "Sunucu geçici olarak kullanılamıyor. Lütfen daha sonra tekrar deneyin",
+  "reciterTimeoutError": "İstek zaman aşımına uğradı. Lütfen tekrar deneyin",
+  "surahLoadError": "Sureler yüklenemedi",
+  "timeSetting": "Zamanı yapılandırma",
+  "timeSettingDesc": "Özel bir ad belirleyin",
+  "selectedTime": "Seçili güncel zaman",
+  "confirmation": "Onay",
+  "confirmationMessage": "Cihaz saatini kullanmak istediğinizden emin misiniz?",
+  "useDeviceTime": "Cihaz saatini kullan",
+  "selectTime": "Zamanı Seç",
+  "previous": "Önceki",
+  "appTimezone": "Uygulama Saat Dilimi",
+  "descTimezone": "Doğru namaz vakitlerini almak için saat diliminizi seçin.",
+  "appWifi": "Wifi'ye bağlan",
+  "descWifi": "Tercih ettiğiniz wifi'ye bağlanın",
+  "searchCountries": "Ülkeleri ara",
+  "scanAgain": "Tekrar Tara",
+  "noScannedResultsFound": "Yakınlarda erişim noktası bulunamadı",
+  "connect": "Bağlan",
+  "wifiPassword": "Şifre",
+  "skip": "Atlamak",
+  "noSSID": "**Gizli SSID**",
+  "close": "Kapat",
+  "search": "Ara",
+  "wifiSuccess": "Wifi'ye başarıyla bağlanıldı.",
+  "wifiFailure": "Wifi'ye bağlanılamadı.",
+  "timezoneSuccess": "Saat dilimi başarıyla ayarlandı.",
+  "timezoneFailure": "Saat dilimi ayarlanamadı.",
+  "screenLock": "Ekran aç/kapat",
+  "screenLockConfig": "Ekran aç/kapat ayarlarını yapılandır",
+  "screenLockMode": "Ekran aç/kapat modu",
+  "screenLockDesc": "Enerji tasarrufu için her namazdan önce ve sonra televizyonu açıp kapatın",
+  "screenLockDesc2": "Bu özellik, her namaz ezanından önce ve sonra cihazı açıp kapatır",
+  "before": "her namazdan birkaç dakika önce",
+  "after": "her namazdan birkaç dakika sonra",
+  "updateAvailable": "Güncelleme var",
+  "seeMore": "Daha fazlasını gör",
+  "whatIsNew": "Haberler",
+  "update": "Güncelle",
+  "automaticUpdate": "Güncellemeyi bildir",
+  "automaticUpdateDescription": "En son özellikleri ve iyileştirmeleri almak için güncelleme bildirimini etkinleştirin",
+  "checkInternetLegacyMode": "Eski modu kullanmak için internete bağlanmanız gerekir",
+  "powerOnScreen": "Ekranı açmak",
+  "powerOffScreen": "Ekranı kapatmak",
+  "deviceSettings": "Cihaz Ayarları",
+  "later": "Sonra",
+  "downloadQuran": "Kuran indir",
+  "quran": "Kur'an",
+  "askDownloadQuran": "Kur'an-ı Kerim'i indirmek ister misiniz?",
+  "download": "İndir",
+  "downloadingQuran": "Kuran indiriliyor",
+  "extractingQuran": "Kur'an-ı Kerim Çıkarma",
+  "updatedQuran": "Kur'an programı güncellendi",
+  "quranLatestVersion": "Kur'an programı günceldir",
+  "quranUpdatedVersion": "Kur'an'ın programı güncellenmiş versiyonu: {version}",
+  "quranIsUpdated": "Kur'an programı güncellendi",
+  "quranDownloaded": "İndirilen sureler",
+  "quranIsAlreadyDownloaded": "Kur'an programı mevcuttur",
+  "chooseReciter": "Okuyucu seçimi",
+  "reciteType": "Recite Tipi",
+  "readingMode": "Okumak istiyorum.",
+  "listeningMode": "Dinlemek istiyorum.",
+  "quranReadingPage": "Sayfa {leftPage} - {rightPage} / {totalPages}",
+  "@quranReadingPage": {
+    "description": "Placeholder text for displaying Quran reading page numbers",
+    "placeholders": {
+      "leftPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "rightPage": {
+        "type": "int",
+        "example": "2"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "quranReadingPagePortrait": "Sayfa {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "chooseQuranPage": "Sayfayı seçin",
+  "checkingForUpdates": "Güncelleme kontrol ediliyor...",
+  "chooseQuranType": "Kur'an'ı seçin",
+  "hafs": "Hafs",
+  "warsh": "Warsh",
+  "favorites": "Favoriler",
+  "allReciters": "Tüm Okuyucular",
+  "reciterAddedToFavorites": "Reciter {name} favorilere eklendi",
+  "@reciterAddedToFavorites": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "reciterRemovedFromFavorites": "Reciter {name} favorilere eklendi",
+  "@reciterRemovedFromFavorites": {
+    "description": "Message shown when a reciter is removed from favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "noFavoriteReciters": "Favori okuyucunuz yoktur, Listeye bir tane eklemeyi deneyin",
+  "@noFavoriteReciters": {
+    "description": "Message shown when there are no favorite reciters"
+  },
+  "noReciterSearchResult": "Aramanız için sonuç bulunamadı",
+  "searchForReciter": "Kâri' ara",
+  "downloadAllSuwarSuccessfully": "Kuran'ın tamamı indirildi",
+  "noSuwarDownload": "İndirilecek yeni sure yok",
+  "connectDownloadQuran": "İndirmek için lütfen internete bağlanın",
+  "playInOnlineModeQuran": "Oynatmak için lütfen internete bağlanın",
+  "downloaded": "İndirildi",
+  "switchQuranType": "{name}'ye git",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "Sure Seç",
+  "checkForUpdates": "Güncellemeleri denetleyin",
+  "checkForNewVersion": "Yeni bir sürüm olup olmadığını kontrol edin",
+  "wouldYouLikeToUpdate": "Uygulamayı güncellemek ister misiniz?",
+  "updateCompleted": "Güncelleme başarıyla tamamlandı!",
+  "noUpdates": "Güncelleme Yok",
+  "usingLatestVersion": "En son sürümü kullanıyorsunuz.",
+  "updateCancelled": "Güncelleme iptal edildi",
+  "checkingUpdates": "Güncelleme kontrol ediliyor...",
+  "downloadingUpdate": "Güncelleme indiriliyor...",
+  "installingUpdate": "Güncelleme yükleniyor...",
+  "updateCompletedSuccessfully": "Güncelleme başarıyla tamamlandı",
+  "updateFailed": "Güncelleme başarısız",
+  "save": "kaydetmek",
+  "enterRtspUrl": "RTSP veya Youtube Canlı URL'sini girin.",
+  "addRtspUrl": "Aşağıya kamera akış URL'nizi ekleyin.",
+  "enableRtspCamera": "Kamera Yayınını Etkinleştir",
+  "rtspCameraSettings": "Kamera Ayarları",
+  "invalidRtspUrl": "Geçersiz URL. Lütfen URL'yi kontrol edip tekrar deneyin.",
+  "validRtspUrl": "URL başarıyla doğrulandı ve kaydedildi.",
+  "rtspCameraSettingTitle": "Canlı kamera bağlantısı",
+  "rtspCameraSettingDesc": "Yerel kameranıza bağlanın ve cuma namazı yayınının TV ekranında görüntülenmesini sağlayın.",
+  "rtspCameraSettingScreenDesc": "Buraya bir URL girerseniz, Cuma vakti geldiğinde ekranınız otomatik olarak video yayınına geçer",
+  "validatingStream": "Yayın doğrulanıyor...",
+  "checkInternetLiveCamera": "Canlı kamera ayarlamak için internete bağlanmanız gerekir",
+  "somethingWentWrong": "Bir hata oluştu! Lütfen tekrar deneyin",
+  "somethingWrong": "Bir sorun oluştu",
+  "tryAgainLater": "Lütfen daha sonra tekrar deneyin",
+  "hintTextRtspUrl": "rtsp://... veya https://youtube.com/live/...",
+  "checkInternetUpdate": "Yeni güncellemeleri kontrol etmek için internete bağlanmalısınız",
+  "appUpdateAvailable": "Uygulamanız {currentVersion} sürümünde çalışıyor. Yeni bir güncelleme (sürüm {updatedVersion}) en son özellikler ve iyileştirmelerle kullanılabilir.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "{moshafName} Kur’an’ı için yeni bir güncelleme (sürüm {version}) mevcut.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "Sadece Sabah (Fecir) ve Yatsı (İşa) namazları",
+  "minutesBeforeFajrPrayer": "sabah namazı vaktinden önce dakika",
+  "minutesAfterIshaPrayer": "yatsı namazı vaktinden sonra dakika",
+  "scheduleSaved": "Programınız kaydedildi.",
+  "completeAllFields": "Lütfen kaydetmeden önce tüm alanları doldurun.",
+  "endTimeAfter": "Bitiş zamanı, başlangıç zamanından sonra olmalıdır.",
+  "scheduleListening": "Programlı Dinleme",
+  "enableScheduling": "Planlamayı Etkinleştir",
+  "scheduleDesc": "Bu özelliği etkinleştirerek belirlenen saatlerde otomatik olarak bir Sure çalınmasını sağlayabilirsiniz.",
+  "startTime": "Başlangıç Zamanı",
+  "endTime": "Bitiş Zamanı",
+  "selectReciter": "Bir Kâri seçin",
+  "selectMoshaf": "Bir Mushaf seçin",
+  "randomSurahSelection": "Rastgele Sure Seçimi",
+  "selectSurah": "Bir Sure seçin",
+  "initializingAutoReading": "Başlatılıyor...",
+  "prayerTimeNotification": "{salahName} vakti ({prayerTime}) bildirimi",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Kur’an dinlemeyi planlamak için internete bağlanın",
+  "duaaBetweenAdhanAndIqamaaTitle": "Ezânla kâmet arasında yapılan dua reddedilmez",
+  "duaBetweenAdhanIqamah": "Ezân ve kâmet arasında yapılan dua reddedilmez.",
+  "processingRequest": "İstek işleniyor...",
+  "loadingStream": "Yayın yükleniyor...",
+  "rtspUrlHint": "RTSP URL'si veya YouTube bağlantısı girin",
+  "replaceWorkflowWithStream": "Kamera yayınını otomatik olarak göster",
+  "replaceAppWorkflowWithCameraStream": "Kamera kayda başladığında ekran otomatik olarak kamera yayınını gösterecek; durduğunda ekran tekrar namaz vakitleri ekranına dönecek",
+  "streamError": "Yayın sırasında bir hata oluştu",
+  "finish": "Bitir",
+  "schedulingAlarms": "Açık/kapalı zamanlar programlanıyor...",
+  "alarmsSucessSchedule": "Açık/Kapalı tetikleyicileri başarıyla programlandı",
+  "alarmsScheduleFailure": "Açık/Kapalı tetiklemeleri programlama başarısız oldu",
+  "prayerTimeNotificationTitle": "Namaz Vakti Bildirimleri",
+  "prayerTimeNotificationDesc": "Uygulama kapalı olsa bile namaz vakitlerinde ezan alın",
+  "enablePrayerReminders": "Namaz Hatırlatıcılarını Etkinleştir",
+  "enablePrayerRemindersDesc": "Arka planda otomatik çalışır",
+  "testAITranslation": "Bu, Yapay Zeka çevirisinin düzgün çalıştığını doğrulamak için bir test metnidir.",
+  "@testAITranslation": {
+    "description": "Test string for AI translation verification - can be deleted after testing"
+  }
 }

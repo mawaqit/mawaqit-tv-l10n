@@ -6,6 +6,7 @@
   "languages": "언어",
   "appLang": "앱 언어",
   "descLang": "선호하는 언어를 선택해 주세요.",
+  "hadithLangDesc": "이 설정은 관리자 콘솔에서 선택한 언어를 덮어씁니다. 화면별로 다른 언어를 선택할 수 있습니다.",
   "whoops": "웁스!",
   "noInternet": "인터넷 연결 없음",
   "tryAgain": "다시 시도",
@@ -20,6 +21,7 @@
   "lightMode": "조명 모드",
   "changeMosque": "모스크 변경",
   "in1": "에",
+  "azanIn": "아잔 시간",
   "sec": "초",
   "online": "온라인",
   "missingMosqueId": "누락된 MAWAQIT #ID 또는 MOSQUE #ID",
@@ -67,57 +69,57 @@
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
-  "azkarList2": "",
+  "azkarList2": "بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ النَّاسِ، مَلِكِ النَّاسِ، إِلٰهِ النَّاسِ، مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ، الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ، مِنَ الْجِنَّةِ وَالنَّاسِ",
   "@azkarList2": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس - Surah An-Nas"
   },
-  "azkarList3": "",
+  "azkarList3": "بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ، مِنْ شَرِّ مَا خَلَقَ، وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ، وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ، وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ",
   "@azkarList3": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِقُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
-  "azkarList4": "",
+  "azkarList4": "بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيمِ قُلْ هُوَ اللَّهُ أَحَدٌ، اللَّهُ الصَّمَدُ، لَمْ يَلِدْ وَلَمْ يُولَدْ، وَلَمْ يَكُنْ لَّهُ كُفُوًا أَحَدٌ",
   "@azkarList4": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ - Surah Al-Ikhlas"
   },
-  "azkarList5": "",
+  "azkarList5": "اللَّهُ لَا إِلٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ، لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ، لَهُ مَا فِي السَّمٰوَاتِ وَمَا فِي الْأَرْضِ، مَنْ ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ، يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ، وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ، وَسِعَ كُرْسِيُّهُ السَّمٰوَاتِ وَالأَرْضَ، وَلَا يَئُودُهُ حِفْظُهُمَا، وَهُوَ الْعَلِيُّ الْعَظِيمُ",
   "@azkarList5": {
-    "description": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ"
+    "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
   "azkarList6": "라 일라하 일라 알라, 와다후 라 카리카 라, 라후 엘물쿠 와 라후 엘함두, 와하 알라 코울리 체이인 카디르, 알라 훔마 라 마니 아타테, 와라 무티아 아타테, 와라 야네파 우달 디 자디 마이카 엘드 자드.",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
-  "azkarList7": "",
+  "azkarList7": "알라후마 안타 라비, 라 일라하 일라 안타, 할락타니 와 아나 아부두카, 와 아나 알라 아흐다카 와 와아다카 마 스타따투, 아우드 빅카 민 샤리 마 산아투, 아부우 라카 비니아마티카 알라야, 와 아부우 비단비, 파그피르 리, 파이낰 후 라 야그피루 준루바 일라 안타",
   "@azkarList7": {
-    "description": "اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت"
+    "description": "Sayyid al-Istighfar (Master of Seeking Forgiveness)"
   },
-  "azkarList8": "",
+  "azkarList8": "오늘 우리는 아침을 맞이했고, 왕권은 알라의 것입니다. 찬양은 알라께, 알라 외에는 신이 없으며, 오직 그분만이 동반자가 없으십니다. 왕권도 그분의 것이며, 찬양도 그분께, 그분은 모든 것에 능력이 있으십니다. 오늘의 선함과 그 이후의 선함을 구하며, 오늘의 악과 그 이후의 악으로부터 보호를 구합니다. 나태함과 나이 듦의 악에서 보호를 구하며, 불의 형벌과 무덤의 형벌에서도 보호를 구합니다.",
   "@azkarList8": {
-    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+    "description": "Morning supplication - Protection dua"
   },
-  "azkarList9": "",
+  "azkarList9": "알라후마, 저는 오늘 아침 당신을 증거로 삼고, 당신의 아르쉬의 운반자들과 천사들, 그리고 모든 피조물을 증거로 삼아, 오직 당신만이 알라이며, 신이 없고 당신과 동반자가 없는 유일한 분임을, 그리고 무함마드가 당신의 종이자 사도임을 네 번 증거합니다. [저녁일 경우: \"알라후마 인니 암사이투...\"]",
   "@azkarList9": {
-    "description": ".| اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات"
+    "description": "Morning testimony - 4 times"
   },
-  "azkarList10": "",
+  "azkarList10": "알라후마, 저의 몸을 건강하게 해주십시오. 알라후마, 저의 청력을 건강하게 해주십시오. 알라후마, 저의 시력을 건강하게 해주십시오. 알라 외에 신이 없습니다. 알라후마, 저는 당신께 불신과 가난에서 보호해주시길 구하며, 무덤의 형벌로부터도 보호해주시길 구합니다. 알라 외에는 신이 없습니다. (세 번 반복)",
   "@azkarList10": {
-    "description": "|اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ"
+    "description": "Dua for wellbeing - 3 times"
   },
-  "azkarList11": "",
+  "azkarList11": "하스비야 알라후 라 일라하 일라 후와, 알라히 타와깔투 와 후와 라브 알아르쉬 알아딤 (일곱 번 반복)",
   "@azkarList11": {
-    "description": "|حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ"
+    "description": "Hasbiya Allah - 7 times"
   },
-  "azkarList12": "",
+  "azkarList12": "라디투 빌라히 라브반, 와빌이슬라미 딘안, 와비무함마딴 (살랄라후 알라이히 와 살람) 나비얀 (세 번 반복)",
   "@azkarList12": {
-    "description": "|رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ"
+    "description": "Contentment with Allah - 3 times"
   },
-  "azkarList13": "",
+  "azkarList13": "라 일라하 일라 알라후 와흐다후 라 샤리카 라후, 라후 알물쿠 와 라후 알함두, 와 후와 알라 쿨리 샤이인 카디르 (열 번 반복)",
   "@azkarList13": {
-    "description": "|لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات"
+    "description": "La ilaha illa Allah tawhid - 10 times"
   },
-  "azkarList14": "",
+  "azkarList14": "오늘 우리는 아침을 맞이했고, 왕권은 알라의 것입니다. 찬양은 알라께, 알라 외에는 신이 없으며, 오직 그분만이 동반자가 없으십니다. 왕권도 그분의 것이며, 찬양도 그분께, 그분은 모든 것에 능력이 있으십니다. 오늘의 선함과 그 이후의 선함을 구하며, 오늘의 악과 그 이후의 악으로부터 보호를 구합니다. 나태함과 나이 듦의 악에서 보호를 구하며, 불의 형벌과 무덤의 형벌에서도 보호를 구합니다.",
   "@azkarList14": {
-    "description": "أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر"
+    "description": "Morning supplication - Protection from laziness"
   },
   "jumuaaScreenTitle": "주무아 시간",
   "jumuaaHadith": "예언자 ﷺ(알라의 평화와 축복이 그에게 있을 것임)는 \"누구든지 완벽하게 금식을 한 다음 주무아에 가서 듣고 침묵하는 사람은 그 시간부터 다음 주 금요일까지 사흘 동안의 일을 용서받으며 돌을 만지는 사람은 확실히 헛된 일을 한 것이다\"라고 말했습니다.",
@@ -179,9 +181,295 @@
   "mainScreenExplanation": "메인 모스크 룸의 경우 이 화면에는 주무아 라이브 스트리밍이 표시되지 않습니다.",
   "normalModeExplanation": "기도 시간과 공지 사항이 표시된 일반 화면이 표시됩니다.",
   "announcementOnlyModeExplanation": "공지사항을 항상 표시합니다.",
+  "orientation": "화면 방향",
+  "selectYourMawaqitTvAppOrientation": "마와끼트 TV 앱의 화면 방향을 선택하세요",
+  "deviceDefault": "기기 기본값",
+  "deviceDefaultBTNDescription": "마와끼트가 화면 방향을 기반으로 기본 방향을 자동으로 선택합니다",
+  "portrait": "세로",
+  "portraitBTNDescription": "좁은 공간의 마스지드에 권장되는 세로 방향",
+  "landscape": "가로",
+  "landscapeBTNDescription": "가로 방향. 마와끼트 TV 앱의 기본 레이아웃이며 대부분의 마스지드에 권장됩니다",
   "eidMubarak": "이드 무바라크",
   "takbeerAleidText": "알라후 아크바르, 알라후 아크바르, 알라후 아크바르, 라 일라하 일라 알라, 알라후 아크바르, 알라후 아크바르, 와 릴라히 알함드",
   "settings": "설정",
   "applicationModes": "애플리케이션 모드",
-  "ifYouAreFacingAnIssueWithTheAppActivateThis": "앱이 활성화되어 있는 상태에서 문제가 발생하는 경우 이 옵션을 사용하세요."
+  "ifYouAreFacingAnIssueWithTheAppActivateThis": "앱이 활성화되어 있는 상태에서 문제가 발생하는 경우 이 옵션을 사용하세요.",
+  "hijriAdjustments": "로컬 히즈리 조정",
+  "hijriAdjustmentsDescription": "기기에서 히즈리 날짜를 로컬로 조정합니다. 온라인 마스지드 설정에는 영향을 주지 않습니다",
+  "backoffice_default": "백오피스 기본값",
+  "recommended": "권장",
+  "sabah": "사바흐",
+  "randomHadithLanguage": "무작위 하디스 언어",
+  "mosqueDefault": "온라인 설정에서",
+  "en": "영어",
+  "fr": "프랑스어",
+  "ar": "아랍어",
+  "tr": "튀르키예어",
+  "de": "독일어",
+  "es": "스페인어",
+  "pt": "포르투갈어",
+  "nl": "네덜란드어",
+  "fr_ar": "프랑스어 & 아랍어",
+  "en_ar": "영어 & 아랍어",
+  "de_ar": "독일어 & 아랍어",
+  "ta_ar": "타밀어 & 아랍어",
+  "tr_ar": "튀르키예어 & 아랍어",
+  "es_ar": "스페인어 & 아랍어",
+  "pt_ar": "포르투갈어 & 아랍어",
+  "nl_ar": "네덜란드어 & 아랍어",
+  "connectToChangeHadith": "하디스 언어를 변경하려면 인터넷에 연결하세요.",
+  "retry": "다시 시도",
+  "reciterLoadError": "꾸란 낭송자를 불러올 수 없습니다",
+  "reciterNetworkError": "인터넷 연결을 확인하고 다시 시도해 주세요",
+  "reciterServerError": "서버를 일시적으로 사용할 수 없습니다. 잠시 후 다시 시도해 주세요",
+  "reciterTimeoutError": "요청 시간이 초과되었습니다. 다시 시도해 주세요",
+  "surahLoadError": "수라를 불러올 수 없습니다",
+  "timeSetting": "시간 설정 중",
+  "timeSettingDesc": "사용자 정의 이름 지정",
+  "selectedTime": "현재 선택된 시간",
+  "confirmation": "확인",
+  "confirmationMessage": "기기 시간을 사용하시겠습니까?",
+  "useDeviceTime": "기기 시간 사용",
+  "selectTime": "시간 선택",
+  "previous": "이전",
+  "appTimezone": "앱 시간대",
+  "descTimezone": "정확한 기도 시간을 위해 시간대를 선택하세요.",
+  "appWifi": "Wi-Fi 연결",
+  "descWifi": "원하는 Wi-Fi에 연결해주세요",
+  "searchCountries": "국가 검색",
+  "scanAgain": "다시 검색",
+  "noScannedResultsFound": "주변 액세스 포인트를 찾을 수 없습니다",
+  "connect": "연결",
+  "wifiPassword": "비밀번호",
+  "skip": "건너뛰기",
+  "noSSID": "**숨겨진 SSID**",
+  "close": "닫기",
+  "search": "검색",
+  "wifiSuccess": "Wi-Fi에 성공적으로 연결되었습니다.",
+  "wifiFailure": "Wi-Fi 연결에 실패했습니다.",
+  "timezoneSuccess": "시간대가 성공적으로 설정되었습니다.",
+  "timezoneFailure": "시간대 설정에 실패했습니다.",
+  "screenLock": "화면 온/오프",
+  "screenLockConfig": "화면 온/오프 설정",
+  "screenLockMode": "화면 온/오프 모드",
+  "screenLockDesc": "각 기도 전과 후에 TV를 켜고 꺼서 에너지를 절약하세요",
+  "screenLockDesc2": "이 기능은 각 기도 아잔 전후에 기기를 켜고 끕니다",
+  "before": "기도 시간 전 {variable}분",
+  "after": "기도 시간 후 {variable}분",
+  "updateAvailable": "업데이트 가능",
+  "seeMore": "더 보기",
+  "whatIsNew": "새로운 소식",
+  "update": "업데이트",
+  "automaticUpdate": "업데이트 알림",
+  "automaticUpdateDescription": "최신 기능과 향상된 사항을 받으려면 업데이트 알림을 활성화하세요",
+  "checkInternetLegacyMode": "레거시 모드를 사용하려면 인터넷에 연결해야 합니다",
+  "powerOnScreen": "화면 켜기",
+  "powerOffScreen": "화면 끄기",
+  "deviceSettings": "기기 설정",
+  "later": "나중에",
+  "downloadQuran": "꾸란 다운로드",
+  "quran": "꾸란",
+  "askDownloadQuran": "꾸란을 다운로드하시겠습니까?",
+  "download": "다운로드",
+  "downloadingQuran": "꾸란 다운로드 중",
+  "extractingQuran": "꾸란 추출 중",
+  "updatedQuran": "꾸란이 업데이트됨",
+  "quranLatestVersion": "꾸란이 최신 버전입니다",
+  "quranUpdatedVersion": "꾸란 업데이트 버전: {version}",
+  "quranIsUpdated": "꾸란이 업데이트되었습니다",
+  "quranDownloaded": "꾸란 다운로드 완료",
+  "quranIsAlreadyDownloaded": "꾸란이 이미 다운로드되어 있습니다",
+  "chooseReciter": "꾸란 낭독자 선택",
+  "reciteType": "낭독 유형",
+  "readingMode": "읽기 모드",
+  "listeningMode": "듣기 모드",
+  "quranReadingPage": "페이지 {leftPage} - {rightPage} / {totalPages}",
+  "@quranReadingPage": {
+    "description": "Placeholder text for displaying Quran reading page numbers",
+    "placeholders": {
+      "leftPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "rightPage": {
+        "type": "int",
+        "example": "2"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "quranReadingPagePortrait": "페이지 {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "chooseQuranPage": "페이지 선택",
+  "checkingForUpdates": "업데이트 확인 중...",
+  "chooseQuranType": "꾸란 선택",
+  "hafs": "하프스",
+  "warsh": "와르쉬",
+  "favorites": "즐겨찾기",
+  "allReciters": "모든 낭독자",
+  "reciterAddedToFavorites": "낭독자 {name} 님이 즐겨찾기에 추가되었습니다",
+  "@reciterAddedToFavorites": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "reciterRemovedFromFavorites": "낭독자 {name} 님이 즐겨찾기에서 제거되었습니다",
+  "@reciterRemovedFromFavorites": {
+    "description": "Message shown when a reciter is removed from favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "noFavoriteReciters": "즐겨찾는 낭독자가 없습니다. 목록에 추가해보세요",
+  "@noFavoriteReciters": {
+    "description": "Message shown when there are no favorite reciters"
+  },
+  "noReciterSearchResult": "검색 결과가 없습니다",
+  "searchForReciter": "낭독자 검색",
+  "downloadAllSuwarSuccessfully": "꾸란 전체가 다운로드되었습니다",
+  "noSuwarDownload": "다운로드할 새로운 수와르가 없습니다",
+  "connectDownloadQuran": "다운로드하려면 인터넷에 연결하세요",
+  "playInOnlineModeQuran": "재생하려면 인터넷에 연결하세요",
+  "downloaded": "다운로드됨",
+  "switchQuranType": "{name}(으)로 이동",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "수라 선택",
+  "checkForUpdates": "업데이트 확인",
+  "checkForNewVersion": "새 버전이 있는지 확인",
+  "wouldYouLikeToUpdate": "앱을 업데이트하시겠습니까?",
+  "updateCompleted": "업데이트가 성공적으로 완료되었습니다!",
+  "noUpdates": "업데이트 없음",
+  "usingLatestVersion": "최신 버전을 사용 중입니다.",
+  "updateCancelled": "업데이트가 취소되었습니다",
+  "checkingUpdates": "업데이트 확인 중...",
+  "downloadingUpdate": "업데이트 다운로드 중...",
+  "installingUpdate": "업데이트 설치 중...",
+  "updateCompletedSuccessfully": "업데이트가 성공적으로 완료되었습니다",
+  "updateFailed": "업데이트에 실패했습니다",
+  "save": "저장하기",
+  "enterRtspUrl": "RTSP 또는 유튜브 라이브 URL을 입력하세요",
+  "addRtspUrl": "아래에 카메라 스트림 URL을 추가하세요",
+  "enableRtspCamera": "카메라 스트리밍 활성화",
+  "rtspCameraSettings": "카메라 설정",
+  "invalidRtspUrl": "잘못된 URL입니다. URL을 확인하고 다시 시도하세요.",
+  "validRtspUrl": "URL이 성공적으로 검증 및 저장되었습니다.",
+  "rtspCameraSettingTitle": "실시간 카메라 연결",
+  "rtspCameraSettingDesc": "로컬 카메라에 연결하여 주마 기도 스트림을 TV 화면에 표시하세요.",
+  "rtspCameraSettingScreenDesc": "여기에 URL을 입력하면 주마 시간에 자동으로 영상 스트리밍으로 전환됩니다.",
+  "validatingStream": "스트림 검증 중...",
+  "checkInternetLiveCamera": "실시간 카메라 설정을 위해 인터넷에 연결해야 합니다.",
+  "somethingWentWrong": "문제가 발생했습니다! 다시 시도해주세요.",
+  "somethingWrong": "문제가 발생했습니다.",
+  "tryAgainLater": "나중에 다시 시도해주세요.",
+  "hintTextRtspUrl": "rtsp://... 또는 https://youtube.com/live/...",
+  "checkInternetUpdate": "새로운 업데이트를 확인하려면 인터넷에 연결해야 합니다",
+  "appUpdateAvailable": "현재 앱 버전은 {currentVersion}입니다. 새 업데이트(버전 {updatedVersion})가 제공되며 최신 기능과 향상된 사항이 포함되어 있습니다.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "{moshafName} 꾸란(버전 {version})의 새로운 업데이트가 있습니다.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "파즈르와 이샤만",
+  "minutesBeforeFajrPrayer": "파즈르 기도 시간 전 분",
+  "minutesAfterIshaPrayer": "이샤 기도 시간 후 분",
+  "scheduleSaved": "일정이 저장되었습니다.",
+  "completeAllFields": "저장하기 전에 모든 항목을 입력해주세요.",
+  "endTimeAfter": "종료 시간은 시작 시간 이후여야 합니다.",
+  "scheduleListening": "예약 듣기",
+  "enableScheduling": "예약 활성화",
+  "scheduleDesc": "이 기능을 활성화하면 지정된 시간에 수라가 자동으로 재생됩니다.",
+  "startTime": "시작 시간",
+  "endTime": "종료 시간",
+  "selectReciter": "낭송자 선택",
+  "selectMoshaf": "무샤프 선택",
+  "randomSurahSelection": "무작위 수라 선택",
+  "selectSurah": "수라 선택",
+  "initializingAutoReading": "초기화 진행 중...",
+  "prayerTimeNotification": "{salahName} 시간({prayerTime}) 알림",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "꾸란 듣기 예약을 위해 인터넷에 연결해주세요.",
+  "duaaBetweenAdhanAndIqamaaTitle": "아잔과 이깜마 사이에는 두아(Du'a)가 거절되지 않습니다.",
+  "duaBetweenAdhanIqamah": "아잔과 이카마 사이에 드리는 두아는 거절되지 않습니다.",
+  "processingRequest": "요청 처리 중...",
+  "loadingStream": "스트림 로딩 중...",
+  "rtspUrlHint": "RTSP URL 또는 YouTube 링크 입력",
+  "replaceWorkflowWithStream": "카메라 스트림을 자동으로 표시",
+  "replaceAppWorkflowWithCameraStream": "카메라가 녹화를 시작하면 화면에 스트림이 자동으로 표시되며, 중단 시 기도 시간 화면으로 돌아갑니다",
+  "streamError": "스트리밍 중 오류가 발생했습니다",
+  "finish": "완료",
+  "schedulingAlarms": "켜짐/꺼짐 시간 예약 중...",
+  "alarmsSucessSchedule": "켜짐/꺼짐 예약이 성공적으로 완료되었습니다",
+  "alarmsScheduleFailure": "켜짐/꺼짐 예약에 실패했습니다",
+  "prayerTimeNotificationTitle": "기도 시간 알림",
+  "prayerTimeNotificationDesc": "앱이 꺼져 있어도 기도 시간에 아잔을 받을 수 있습니다",
+  "enablePrayerReminders": "기도 알림 활성화",
+  "enablePrayerRemindersDesc": "백그라운드에서 자동으로 작동합니다",
+  "testAITranslation": "이것은 AI 번역이 제대로 작동하는지 확인하기 위한 테스트 문자열입니다.",
+  "@testAITranslation": {
+    "description": "Test string for AI translation verification - can be deleted after testing"
+  }
 }
