@@ -17,6 +17,11 @@ import 'localizations/montenegrin/montenegrin_material_localizations.dart';
 import 'localizations/montenegrin/montenegrin_cupertino_localizations.dart';
 import 'localizations/montenegrin/montenegrin_widgets_localizations.dart';
 
+// Fula localizations
+import 'localizations/fula/fula_material_localizations.dart';
+import 'localizations/fula/fula_cupertino_localizations.dart';
+import 'localizations/fula/fula_widgets_localizations.dart';
+
 /// Extended localization delegates for all supported languages
 class MawaqitTvExtendedLocalizations {
   /// Complete list of localization delegates
@@ -33,6 +38,11 @@ class MawaqitTvExtendedLocalizations {
     MontenegrinMaterialLocalizations.delegate,
     MontenegrinCupertinoLocalizations.delegate,
     MontenegrinWidgetsLocalizations.delegate,
+
+    // Fula localizations (must come before global delegates)
+    FulaMaterialLocalizations.delegate,
+    FulaCupertinoLocalizations.delegate,
+    FulaWidgetsLocalizations.delegate,
 
     // Standard Flutter localizations
     GlobalCupertinoLocalizations.delegate,
