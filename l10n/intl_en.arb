@@ -477,5 +477,9 @@
   "testAITranslation": "This is a test string to verify AI translation is working correctly",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
+  },
+  "testCrowdinCI": "Test string to verify Crowdin CI workflow on develop",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
   }
 }
