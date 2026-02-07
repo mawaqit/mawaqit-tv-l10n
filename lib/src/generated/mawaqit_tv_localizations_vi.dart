@@ -7,6 +7,9 @@ class MawaqitTvLocalizationsVi extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsVi([String locale = 'vi']) : super(locale);
 
   @override
+  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+
+  @override
   String get home => 'Početna';
 
   @override
@@ -49,7 +52,16 @@ class MawaqitTvLocalizationsVi extends MawaqitTvLocalizations {
   String get forceStaging => 'Prijeđite na prikaz';
 
   @override
+  String get forcePreProduction => 'Switch to pre-production';
+
+  @override
   String get disableStaging => 'Prijeđite na modus izrade';
+
+  @override
+  String get environmentSwitchSuccess => 'Environment switched successfully';
+
+  @override
+  String get environmentSwitchFailed => 'Failed to switch environment';
 
   @override
   String get sureCloseApp => 'Da li ste sigurni da želite izaći iz aplikacije?';
@@ -73,7 +85,7 @@ class MawaqitTvLocalizationsVi extends MawaqitTvLocalizations {
   String get in1 => 'za';
 
   @override
-  String get azanIn => 'Azan in';
+  String get azanIn => 'Azan sau';
 
   @override
   String get sec => 'Sek';
@@ -201,16 +213,16 @@ class MawaqitTvLocalizationsVi extends MawaqitTvLocalizations {
   String get azkarList1 => 'Subhanellahi – 33 puta; El-Hamdu lillahi – 33 puta; Allahu ekber – 33 puta (Buhari, Muslim, Nesa’i); ili svaku od ove tri riječi po 11 puta.\nLa ilahe illellahu vahdehu la šerike leh, lehu-l-mulku ve lehu-l-hamdu ve huve ‘ala kulli šej-in kadir';
 
   @override
-  String get azkarList2 => '';
+  String get azkarList2 => 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nHãy nói: Ta tìm nơi nương tựa nơi Thượng Đế của nhân loại, Vua của nhân loại, Thần của nhân loại, khỏi sự xấu xa của kẻ thì thầm ám quỷ lẩn trốn, kẻ thì thầm vào lòng ngực của nhân loại, từ loài jin và loài người.';
 
   @override
-  String get azkarList3 => '';
+  String get azkarList3 => 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nHãy nói: Ta tìm nơi nương tựa nơi Thượng Đế của Hừng đông, khỏi sự xấu xa của những gì Ngài đã tạo ra, khỏi sự xấu xa của bóng tối khi nó bao trùm, khỏi sự xấu xa của những kẻ phù phép thổi vào nút thắt, và khỏi sự xấu xa của kẻ ghen tị khi hắn ghen.';
 
   @override
-  String get azkarList4 => '';
+  String get azkarList4 => 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\nHãy nói: Ngài là Allah, Độc Nhất, Allah là Đấng Trường Cửu (As-Samad), Ngài không sinh ra ai và cũng không được sinh ra. Không có ai ngang hàng với Ngài.';
 
   @override
-  String get azkarList5 => '';
+  String get azkarList5 => 'Allah, không có Thần linh nào khác ngoài Ngài, Đấng Hằng Sống, Đấng Tự Duy Trì. Ngài không bị ngủ gật hay ngủ quên. Tất cả những gì ở trên trời và dưới đất đều thuộc về Ngài. Ai có thể can thiệp với Ngài nếu không được Ngài cho phép? Ngài biết điều ở trước mặt và sau lưng họ, còn họ không thể bao quát bất cứ điều gì về kiến thức của Ngài, trừ điều Ngài muốn. Ngai của Ngài bao trùm trời đất, và việc bảo vệ cả hai không làm Ngài mệt mỏi. Ngài là Đấng Tối Cao, Đấng Vĩ Đại.';
 
   @override
   String get azkarList6 => 'La ilahe illellahu vahdehu la šerike leh, lehu-l-mulku ve lehu-l-hamdu ve huve ‘ala kulli šej-in kadir';
@@ -237,7 +249,7 @@ class MawaqitTvLocalizationsVi extends MawaqitTvLocalizations {
   String get azkarList13 => 'Nema boga osim Allaha, Jedinoga, Koji druga nema. Njemu pripada vlast nad svim i sva pohvala. On sve može. (Ponavlja se 10 puta)';
 
   @override
-  String get azkarList14 => '';
+  String get azkarList14 => 'Osvanusmo i osvanu svekolika Allahova vlast. Hvala Allahu i nema boga osim Njega Jedinog, Koji druga nema. Njemu pripada sva vlast i svaka pohvala i on nad svačim ima moć. Allahu, molim Te za sva dobra ovog dana i za dobra poslije njega. I utječem ti se od zla ovog dana i zla poslije njega. Gospodaru moj, Tebi se sklanjam pred lijenošću i zlohudom ohološću. Tebi se sklanjam pred kaznom Džehennema i kaburskom kaznom. (Muslim)';
 
   @override
   String get jumuaaScreenTitle => 'Vrijeme džuma namaza';
@@ -468,7 +480,7 @@ class MawaqitTvLocalizationsVi extends MawaqitTvLocalizations {
   String get randomHadithLanguage => 'Slučajni jezik hadisa';
 
   @override
-  String get mosqueDefault => 'From your online configuration';
+  String get mosqueDefault => 'Từ cấu hình trực tuyến của bạn';
 
   @override
   String get en => 'English';
@@ -493,6 +505,9 @@ class MawaqitTvLocalizationsVi extends MawaqitTvLocalizations {
 
   @override
   String get nl => 'Dutch';
+
+  @override
+  String get ta => 'Tamil';
 
   @override
   String get fr_ar => 'French & Arabic';
@@ -525,19 +540,19 @@ class MawaqitTvLocalizationsVi extends MawaqitTvLocalizations {
   String get retry => 'Retry';
 
   @override
-  String get reciterLoadError => 'Unable to load reciters';
+  String get reciterLoadError => 'Không thể tải danh sách Qari';
 
   @override
-  String get reciterNetworkError => 'Please check your internet connection and try again';
+  String get reciterNetworkError => 'Vui lòng kiểm tra kết nối internet và thử lại';
 
   @override
-  String get reciterServerError => 'Server is temporarily unavailable. Please try again later';
+  String get reciterServerError => 'Máy chủ tạm thời không khả dụng. Vui lòng thử lại sau';
 
   @override
-  String get reciterTimeoutError => 'Request timed out. Please try again';
+  String get reciterTimeoutError => 'Yêu cầu bị quá hạn. Vui lòng thử lại';
 
   @override
-  String get surahLoadError => 'Unable to load surahs';
+  String get surahLoadError => 'Không thể tải các Surah';
 
   @override
   String get timeSetting => 'Configuring the time';
@@ -630,10 +645,14 @@ class MawaqitTvLocalizationsVi extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Ova funkcija uključuje/isključuje uređaj prije i poslije svakog namaza';
 
   @override
-  String get before => 'minuta prije svakog namaza';
+  String before(Object variable) {
+    return 'minuta prije svakog namaza';
+  }
 
   @override
-  String get after => 'minuta nakon svakog namaza';
+  String after(Object variable) {
+    return 'minuta nakon svakog namaza';
+  }
 
   @override
   String get updateAvailable => 'Dostupno je ažuriranje';
@@ -725,7 +744,7 @@ class MawaqitTvLocalizationsVi extends MawaqitTvLocalizations {
 
   @override
   String quranReadingPagePortrait(int currentPage, int totalPages) {
-    return 'Page $currentPage / $totalPages';
+    return 'Trang $currentPage / $totalPages';
   }
 
   @override
@@ -763,232 +782,241 @@ class MawaqitTvLocalizationsVi extends MawaqitTvLocalizations {
   String get noFavoriteReciters => 'Nuk ka recitues të preferuar. Provoni të shtoni një në listë';
 
   @override
-  String get noReciterSearchResult => 'No results found for your search';
+  String get noReciterSearchResult => 'Không tìm thấy kết quả cho tìm kiếm của bạn';
 
   @override
-  String get searchForReciter => 'Search for a reciter';
+  String get searchForReciter => 'Tìm kiếm người đọc Qur\'an';
 
   @override
-  String get downloadAllSuwarSuccessfully => 'The whole quran is downloaded';
+  String get downloadAllSuwarSuccessfully => 'Toàn bộ Qur\'an đã được tải xuống';
 
   @override
-  String get noSuwarDownload => 'No new suwars to download';
+  String get noSuwarDownload => 'Không có surah mới để tải xuống';
 
   @override
-  String get connectDownloadQuran => 'Please connect to Internet to download';
+  String get connectDownloadQuran => 'Vui lòng kết nối Internet để tải xuống';
 
   @override
-  String get playInOnlineModeQuran => 'Please connect to internet to play';
+  String get playInOnlineModeQuran => 'Vui lòng kết nối internet để phát';
 
   @override
-  String get downloaded => 'Downloaded';
+  String get downloaded => 'Đã tải xuống';
 
   @override
   String switchQuranType(String name) {
-    return 'Go to $name';
+    return 'Đi tới $name';
   }
 
   @override
-  String get surahSelector => 'Select Surah';
+  String get surahSelector => 'Chọn Surah';
 
   @override
-  String get checkForUpdates => 'Check for Updates';
+  String get checkForUpdates => 'Kiểm tra cập nhật';
 
   @override
-  String get checkForNewVersion => 'Check if a new version is available';
+  String get checkForNewVersion => 'Kiểm tra xem có phiên bản mới không';
 
   @override
-  String get wouldYouLikeToUpdate => 'Would you like to update the app?';
+  String get wouldYouLikeToUpdate => 'Bạn có muốn cập nhật ứng dụng không?';
 
   @override
-  String get updateCompleted => 'Update completed successfully!';
+  String get updateCompleted => 'Cập nhật thành công!';
 
   @override
-  String get noUpdates => 'No Updates';
+  String get noUpdates => 'Không có bản cập nhật';
 
   @override
-  String get usingLatestVersion => 'You are using the latest version.';
+  String get usingLatestVersion => 'Bạn đang sử dụng phiên bản mới nhất.';
 
   @override
-  String get updateCancelled => 'Update cancelled';
+  String get updateCancelled => 'Đã huỷ cập nhật';
 
   @override
-  String get checkingUpdates => 'Checking updates...';
+  String get checkingUpdates => 'Đang kiểm tra cập nhật...';
 
   @override
-  String get downloadingUpdate => 'Downloading update...';
+  String get downloadingUpdate => 'Đang tải bản cập nhật...';
 
   @override
-  String get installingUpdate => 'Installing update...';
+  String get installingUpdate => 'Đang cài đặt bản cập nhật...';
 
   @override
-  String get updateCompletedSuccessfully => 'Update completed successfully';
+  String get updateCompletedSuccessfully => 'Cập nhật hoàn tất thành công';
 
   @override
-  String get updateFailed => 'Update failed';
+  String get updateFailed => 'Cập nhật thất bại';
 
   @override
-  String get save => 'Save';
+  String get save => 'Lưu';
 
   @override
-  String get enterRtspUrl => 'Enter RTSP or Youtube Live URL';
+  String get enterRtspUrl => 'Nhập URL RTSP hoặc Youtube Live';
 
   @override
-  String get addRtspUrl => 'Add your camera stream URL below';
+  String get addRtspUrl => 'Thêm URL phát trực tiếp của camera bên dưới';
 
   @override
-  String get enableRtspCamera => 'Enable Camera Streaming';
+  String get enableRtspCamera => 'Bật phát trực tiếp Camera';
 
   @override
-  String get rtspCameraSettings => 'Camera Settings';
+  String get rtspCameraSettings => 'Cài đặt Camera';
 
   @override
-  String get invalidRtspUrl => 'Invalid URL. Please check the URL and try again.';
+  String get invalidRtspUrl => 'URL không hợp lệ. Vui lòng kiểm tra lại URL và thử lại.';
 
   @override
-  String get validRtspUrl => 'URL validated and saved successfully.';
+  String get validRtspUrl => 'URL đã được xác thực và lưu thành công.';
 
   @override
-  String get rtspCameraSettingTitle => 'Live camera connection';
+  String get rtspCameraSettingTitle => 'Kết nối camera trực tiếp';
 
   @override
-  String get rtspCameraSettingDesc => 'Connect to your local camera and display jumua prayer stream on the TV screen.';
+  String get rtspCameraSettingDesc => 'Kết nối với camera tại địa phương của bạn và phát trực tiếp buổi cầu nguyện Jumua lên màn hình TV.';
 
   @override
-  String get rtspCameraSettingScreenDesc => 'If you enter a URL here, your screen will automatically switch to video streaming when Jumua time arrives';
+  String get rtspCameraSettingScreenDesc => 'Nếu bạn nhập URL ở đây, màn hình của bạn sẽ tự động chuyển sang phát video khi đến giờ Jumua';
 
   @override
-  String get validatingStream => 'Validating Stream...';
+  String get validatingStream => 'Đang xác thực luồng...';
 
   @override
-  String get checkInternetLiveCamera => 'You must connect to internet to setup the live camera';
+  String get checkInternetLiveCamera => 'Bạn phải kết nối internet để cài đặt camera trực tiếp';
 
   @override
-  String get somethingWentWrong => 'Something went wrong! please try again';
+  String get somethingWentWrong => 'Đã xảy ra lỗi! Vui lòng thử lại';
 
   @override
-  String get somethingWrong => 'Something went wrong';
+  String get somethingWrong => 'Đã xảy ra lỗi';
 
   @override
-  String get tryAgainLater => 'Please try again later';
+  String get tryAgainLater => 'Vui lòng thử lại sau';
 
   @override
-  String get hintTextRtspUrl => 'rtsp://... or https://youtube.com/live/...';
+  String get hintTextRtspUrl => 'rtsp://... hoặc https://youtube.com/live/...';
 
   @override
-  String get checkInternetUpdate => 'You must connect to internet to check for new updates';
+  String get checkInternetUpdate => 'Bạn phải kết nối internet để kiểm tra các bản cập nhật mới';
 
   @override
   String appUpdateAvailable(String currentVersion, String updatedVersion) {
-    return 'Your app is running version $currentVersion. A new update (version $updatedVersion) is available with the latest features and improvements.';
+    return 'Ứng dụng của bạn đang chạy phiên bản $currentVersion. Có bản cập nhật mới (phiên bản $updatedVersion) với các tính năng và cải tiến mới nhất.';
   }
 
   @override
   String quranUpdateDialogContent(String moshafName, String version) {
-    return 'A new update for the $moshafName Quran (version $version) is available.';
+    return 'Có bản cập nhật mới cho Quran $moshafName (phiên bản $version).';
   }
 
   @override
-  String get ishaAndFajrOnly => 'Fajr and Isha prayers only';
+  String get ishaAndFajrOnly => 'Chỉ cầu nguyện Fajr và Isha';
 
   @override
-  String get minutesBeforeFajrPrayer => 'minutes before fajr prayer time';
+  String get minutesBeforeFajrPrayer => 'phút trước giờ cầu nguyện fajr';
 
   @override
-  String get minutesAfterIshaPrayer => 'minutes afer isha prayer time';
+  String get minutesAfterIshaPrayer => 'phút sau giờ cầu nguyện isha';
 
   @override
-  String get scheduleSaved => 'Your schedule has been saved.';
+  String get scheduleSaved => 'Lịch trình của bạn đã được lưu.';
 
   @override
-  String get completeAllFields => 'Please complete all fields before saving.';
+  String get completeAllFields => 'Vui lòng điền đầy đủ tất cả các trường trước khi lưu.';
 
   @override
-  String get endTimeAfter => 'The end time must be after the start time.';
+  String get endTimeAfter => 'Thời gian kết thúc phải sau thời gian bắt đầu.';
 
   @override
-  String get scheduleListening => 'Scheduled Listening';
+  String get scheduleListening => 'Nghe theo lịch trình';
 
   @override
-  String get enableScheduling => 'Enable Scheduling';
+  String get enableScheduling => 'Bật tính năng lập lịch';
 
   @override
-  String get scheduleDesc => 'Enable this feature to automatically play a Surah at scheduled times.';
+  String get scheduleDesc => 'Bật tính năng này để tự động phát một Surah vào các thời điểm đã đặt trước.';
 
   @override
-  String get startTime => 'Start Time';
+  String get startTime => 'Thời gian bắt đầu';
 
   @override
-  String get endTime => 'End Time';
+  String get endTime => 'Thời gian kết thúc';
 
   @override
-  String get selectReciter => 'Select a Reciter';
+  String get selectReciter => 'Chọn người đọc kinh Quran';
 
   @override
-  String get selectMoshaf => 'Select a Mushaf';
+  String get selectMoshaf => 'Chọn Mushaf';
 
   @override
-  String get randomSurahSelection => 'Random Surah Selection';
+  String get randomSurahSelection => 'Chọn Surah ngẫu nhiên';
 
   @override
-  String get selectSurah => 'Select a Surah';
+  String get selectSurah => 'Chọn Surah';
 
   @override
-  String get initializingAutoReading => 'Initializing in progress...';
+  String get initializingAutoReading => 'Đang khởi tạo...';
 
   @override
   String prayerTimeNotification(String salahName, String prayerTime) {
-    return '$salahName time ($prayerTime) notification';
+    return 'Thông báo giờ $salahName ($prayerTime)';
   }
 
   @override
-  String get scheduleInOnlineMode => 'Please connect to the internet to schedule Quran listening';
+  String get scheduleInOnlineMode => 'Vui lòng kết nối internet để lên lịch nghe kinh Quran';
 
   @override
-  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah';
+  String get duaaBetweenAdhanAndIqamaaTitle => 'Lời cầu nguyện (Du\'a) không bị từ chối giữa Adhan và Iqamah';
 
   @override
-  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
+  String get duaBetweenAdhanIqamah => 'Lời cầu nguyện (Du\'a) không bị từ chối giữa Adhan và Iqamah.';
 
   @override
-  String get processingRequest => 'Processing request...';
+  String get processingRequest => 'Đang xử lý yêu cầu...';
 
   @override
-  String get loadingStream => 'Loading stream...';
+  String get loadingStream => 'Đang tải luồng...';
 
   @override
-  String get rtspUrlHint => 'Enter RTSP URL or YouTube link';
+  String get rtspUrlHint => 'Nhập URL RTSP hoặc liên kết YouTube';
 
   @override
-  String get replaceWorkflowWithStream => 'Automatically display the camera stream';
+  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
 
   @override
-  String get replaceAppWorkflowWithCameraStream => 'The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display';
+  String get replaceWorkflowWithStream => 'Tự động hiển thị luồng camera';
 
   @override
-  String get streamError => 'An error occurred while streaming';
+  String get replaceAppWorkflowWithCameraStream => 'Màn hình sẽ tự động hiển thị luồng camera ngay khi camera bắt đầu ghi hình; nếu dừng, màn hình sẽ trở về hiển thị thời gian cầu nguyện';
 
   @override
-  String get finish => 'Finish';
+  String get streamError => 'Đã xảy ra lỗi khi phát trực tuyến';
 
   @override
-  String get schedulingAlarms => 'Scheduling on/off times...';
+  String get finish => 'Hoàn tất';
 
   @override
-  String get alarmsSucessSchedule => 'On/Off triggers scheduled successfully';
+  String get schedulingAlarms => 'Đang lên lịch bật/tắt...';
 
   @override
-  String get alarmsScheduleFailure => 'Failed to schedule On/Off triggers';
+  String get alarmsSucessSchedule => 'Đặt lịch kích hoạt Bật/Tắt thành công';
 
   @override
-  String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
+  String get alarmsScheduleFailure => 'Không thể đặt lịch Bật/Tắt';
 
   @override
-  String get prayerTimeNotificationDesc => 'Get the adhan at prayer times, even when the app is closed';
+  String get prayerTimeNotificationTitle => 'Thông báo thời gian cầu nguyện';
 
   @override
-  String get enablePrayerReminders => 'Enable Prayer Reminders';
+  String get prayerTimeNotificationDesc => 'Nhận thông báo adhan vào thời gian cầu nguyện, kể cả khi ứng dụng đóng';
 
   @override
-  String get enablePrayerRemindersDesc => 'Works automatically in the background';
+  String get enablePrayerReminders => 'Bật nhắc nhở cầu nguyện';
+
+  @override
+  String get enablePrayerRemindersDesc => 'Tự động hoạt động trong nền';
+
+  @override
+  String get testAITranslation => 'Đây là chuỗi kiểm tra để xác minh AI dịch thuật đang hoạt động chính xác';
+
+  @override
+  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
 }

@@ -7,105 +7,117 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsPt([String locale = 'pt']) : super(locale);
 
   @override
-  String get home => 'Início';
+  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
 
   @override
-  String get share => 'Compartilhar';
+  String get home => 'Home';
 
   @override
-  String get about => 'Sobre';
+  String get share => 'Share';
 
   @override
-  String get rate => 'Avaliar';
+  String get about => 'About';
 
   @override
-  String get languages => 'Idiomas';
+  String get rate => 'Rate Us';
 
   @override
-  String get appLang => 'Idioma do aplicativo';
+  String get languages => 'Languages';
 
   @override
-  String get descLang => 'Selecione seu idioma preferido';
+  String get appLang => 'App Language';
 
   @override
-  String get hadithLangDesc => 'Isso substituirá sua escolha no console de administrador, você pode selecionar um idioma para esta tela';
+  String get descLang => 'Please select your preferred language';
 
   @override
-  String get whoops => 'Ops!';
+  String get hadithLangDesc => 'This override  your choice in the admin console, you can chose a different language by screen';
 
   @override
-  String get noInternet => 'Sem ligação à internet';
+  String get whoops => 'Whoops!';
 
   @override
-  String get tryAgain => 'Tente novamente';
+  String get noInternet => 'No internet connection';
 
   @override
-  String get closeApp => 'Fechar aplicação';
+  String get tryAgain => 'Try Again';
 
   @override
-  String get quit => 'Sair';
+  String get closeApp => 'Close app';
 
   @override
-  String get forceStaging => 'Alterar para encenação';
+  String get quit => 'Quit';
 
   @override
-  String get disableStaging => 'Alterar para modo de produção';
+  String get forceStaging => 'Switch to staging';
 
   @override
-  String get sureCloseApp => 'Você tem certeza que quer sair do aplicativo?';
+  String get forcePreProduction => 'Switch to pre-production';
+
+  @override
+  String get disableStaging => 'Switch to production mode';
+
+  @override
+  String get environmentSwitchSuccess => 'Environment switched successfully';
+
+  @override
+  String get environmentSwitchFailed => 'Failed to switch environment';
+
+  @override
+  String get sureCloseApp => 'Are you sure you want to quit the application?';
 
   @override
   String get ok => 'OK';
 
   @override
-  String get cancel => 'CANCELAR';
+  String get cancel => 'CANCEL';
 
   @override
-  String get darkMode => 'Modo escuro';
+  String get darkMode => 'Dark mode';
 
   @override
-  String get lightMode => 'Modo claro';
+  String get lightMode => 'Light mode';
 
   @override
-  String get changeMosque => 'Alterar Mesquita';
+  String get changeMosque => 'Change Mosque';
 
   @override
-  String get in1 => 'em';
+  String get in1 => 'in';
 
   @override
   String get azanIn => 'Azan in';
 
   @override
-  String get sec => 'Seg';
+  String get sec => 'Sec';
 
   @override
-  String get online => 'On-line';
+  String get online => 'Online';
 
   @override
-  String get missingMosqueId => 'MAWAQIT #ID ou MOSQUE #ID em falta';
+  String get missingMosqueId => 'Missing MAWAQIT #ID or MOSQUE #ID';
 
   @override
   String mosqueIdIsNotValid(Object mosqueId) {
-    return '$mosqueId não é um ID de Mesquita válido';
+    return 'Sorry, $mosqueId isn\'t a valid mosque ID';
   }
 
   @override
-  String get selectMosqueId => 'Por favor, insira o ID da Mesquita';
+  String get selectMosqueId => 'Please enter your Mosque ID';
 
   @override
-  String get mawaqitWelcome => 'Bem-vindo ao MAWAQIT';
+  String get mawaqitWelcome => 'Welcome to MAWAQIT';
 
   @override
-  String get mawaqitDesc => 'Assalamu Alaikom e Baraka\'Allah fikom escolheu MAWAQIT como a primeira rede inteligente de mesquita, usado por milhões de muçulmanos em todo o mundo, em mais 86 países em 2016.\n\nNós lhe fornecemos com a melhor exibição avançada e inteligente de mesquita, disponível em vários dispositivos (Mobile, Smartwatch, TV Screens), sem coletar ou compartilhar seus dados.\n\nApoie esse abençoado projeto aqui:\nhttps://donate.mawaqit.net\n\nSomos uma organização sem fins lucrativos, e esse projeto é uma “Waqf fi\'sabili Allah” (doação dedicada).\n\nSuas doações tornam este projeto disponível para qualquer pessoa, em qualquer lugar, totalmente GRÁTIS de qualquer cobrança, sendo SEM ANÚNCIOS, e SEM INSCRIÇÕES MENSAIS.\n\nEste projeto não seria possível sem a ajuda de Allah que trouxe uma comunidade apaixonada de voluntários apaixonados mágicos, que trabalham dia e noite para lhe fornecer o melhor serviço possível, e um estado de sistema final disponível 24/7.\n\nConsidere continuar doando para manter este projeto abençoado continuando. Baraka\'Allah fikom pela sua confiança e apoio contínuo.';
+  String get mawaqitDesc => 'Assalamu Alaikom, and Baraka\'Allah fikom for choosing MAWAQIT, the World\'s first and #1 Smart Mosque Network, used by millions of Muslims worldwide across 85+ countries since 2016.\n\nWe provide you with the most advanced Smart Mosque Display, available on multiple Devices (Mobile, Smartwatch, TV Screens), without collecting or sharing your personal data.\n\nPlease support this blessed project here : https://donate.mawaqit.net\n\nWe are a non-profit organization, and this project is a “Waqf fi\'sabili Allah” (Dedicated endowment).\n\nYour donations keep this project available to anyone, anywhere, totally FREE of any charge, with NO ADVERTISEMENTS, and there\'s NO MONTHLY SUBSCRIPTION.\n\nThis project would not be made possible without the help of Allah that brought together a passionate community of talented and passionate volunteers, that work day and night to provide you with the best possible service, and a state of the end system available 24/7.\n\nPlease consider donating to keep this blessed project going. Baraka\'Allah fikom for your ongoing trust and support.';
 
   @override
-  String get privacyPolicy => 'Política de privacidade';
+  String get privacyPolicy => 'Privacy policy';
 
   @override
-  String get termsOfService => 'Termos de serviço';
+  String get termsOfService => 'Terms of Service';
 
   @override
-  String get installationGuide => 'Guia de instalação';
+  String get installationGuide => 'Installation Guide';
 
   @override
   String get drawerTitle => 'MAWAQIT';
@@ -114,154 +126,154 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get drawerDesc => 'Connecting Muslims to Mosques';
 
   @override
-  String get backendError => 'Desculpe, não foi possível ligar ao servidor.\nPor favor, verifique a ligação à internet ou tente novamente mais tarde.';
+  String get backendError => 'Sorry, we could not connect to the server.\nPlease verify Internet connectivity or try again later.';
 
   @override
-  String get selectWithMosqueId => 'Experimente: 256, É o ID da \'Grande Mosquée de Paris\'';
+  String get selectWithMosqueId => 'Try: 256, It\'s the ID of \'Grande Mosquée de Paris\'';
 
   @override
-  String get searchForMosque => 'Que Mesquita procura? (ID, Nome, Cidade, Código Postal...)';
+  String get searchForMosque => 'Which Mosque are you looking for ? (ID, Name, City, Postal code...)';
 
   @override
-  String get searchMosque => 'Procurar uma Mesquita';
+  String get searchMosque => 'Search for a Mosque';
 
   @override
-  String get mosqueNameError => 'Digite o nome da Mesquita';
+  String get mosqueNameError => 'Enter the Mosque name';
 
   @override
-  String get slugError => 'Não é um slug de mesquita válido';
+  String get slugError => 'Isn\'t a valid mosque slug';
 
   @override
-  String get doYouKnowMosqueId => 'Você sabe o ID de instalação ou ID da mesquita?';
+  String get doYouKnowMosqueId => 'Do you know your installation ID or your Mosque ID?';
 
   @override
-  String get yes => 'Sim';
+  String get yes => 'Yes';
 
   @override
-  String get no => 'Não';
+  String get no => 'No';
 
   @override
-  String get networkStatus => 'Estado da rede';
+  String get networkStatus => 'Network Status';
 
   @override
-  String get mosqueNoMore => 'Sem mais resultados';
+  String get mosqueNoMore => 'No more results';
 
   @override
-  String get mosqueNoResults => 'Sem resultados';
+  String get mosqueNoResults => 'No results';
 
   @override
   String get offline => 'Offline';
 
   @override
-  String get imsak => 'Sehri';
+  String get imsak => 'Imsak';
 
   @override
-  String get jumua => 'Jumu\'ah';
+  String get jumua => 'Jumua';
 
   @override
-  String get duhr => 'Zuhr';
+  String get duhr => 'Duhr';
 
   @override
   String get fajr => 'Fajr';
 
   @override
-  String get asr => 'Assr';
+  String get asr => 'Asr';
 
   @override
-  String get maghrib => 'Magrib';
+  String get maghrib => 'Maghrib';
 
   @override
-  String get isha => 'Ishá';
+  String get isha => 'Isha';
 
   @override
-  String get afterAdhanHadithTitle => 'Duá depois de Azán';
+  String get afterAdhanHadithTitle => 'After adhan Du`aa';
 
   @override
-  String get afterSalahHadith => 'Ó Allah! salvador deste chamado perfeito (Da\'wah) e do orador estabilizado (As-Salat), conceda a Muhammad o Wasilah e superioridade, e eleve-o a uma posição louvável que você o prometeu';
+  String get afterSalahHadith => 'Allahumma Rabba hadhihid-da\'wati-ttammati, was-salatil-qa\'imati, ati Muhammadanil-wasilata wal-fadhilata, wab\'athu maqaman mahmuda nilladhi wa \'adtahu [O Allah, Rubb of this perfect call (Da\'wah) and of the established prayer (As-Salat), grant Muhammad the Wasilah and superiority, and raise him up to a praiseworthy position which You have promised him]';
 
   @override
-  String get alIqama => 'Jamaat';
+  String get alIqama => 'Al Iqama';
 
   @override
-  String get alAdhan => 'Azán';
+  String get alAdhan => 'Al Adan';
 
   @override
-  String get turnOfPhones => 'Por favor, coloquem seus celulares no modo silencioso';
+  String get turnOfPhones => 'Please put your phones into Silent Mode';
 
   @override
-  String get iqamaIn => 'Jamaat em';
+  String get iqamaIn => 'Iqama in';
 
   @override
-  String get alAthkar => 'Zikr';
+  String get alAthkar => 'Al-Athkar';
 
   @override
-  String get azkarList0 => 'Peço perdão a Allah, peço perdão a Allah, peço perdão a Allah. Ó Allah, Vós sois Aquele que concede a paz, e a paz provém somente de Vós. Vós sois o Senhor das bênçãos, Ó Senhor da Majestade e Benevolência. Ó Allah, auxiliai-me na Vossa recordação, no Vosso agradecimento e na prática de uma adoração sincera e virtuosa.';
+  String get azkarList0 => 'Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik';
 
   @override
-  String get azkarList1 => 'Allah está isento de todos os defeitos, todos os louvores pertencem a Allah, e Allah é o Maior (33 vezes). Não há divindade digna de adoração excepto Allah, o Único, sem qualquer parceiro. A Ele pertence o domínio, e a Ele são devidas todas as glórias. Todo o bem está sob o Seu controlo, e Ele é Poderoso sobre todas as coisas.';
+  String get azkarList1 => 'Subhan Allah wal hamdu lillah wallahu akbar (33 times) La ilaha illa Allah, wahdahu la charika lah, lahu elmoulku wa lahu elhamdu, wa hua `ala kulli chay in kadir';
 
   @override
-  String get azkarList2 => 'Em nome de Deus, o Clemente, o Misericordioso Diz: «Procuro refúgio no Senhor dos humanos, O Rei dos humanos, O Deus dos humanos, Contra o mal do murmurador que recua, Que murmura nos peitos dos humanos, dos jinns ou dos humanos.»';
+  String get azkarList2 => 'بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس';
 
   @override
-  String get azkarList3 => 'Em nome de Deus, o Clemente, o Misericordioso Diz: «Procuro refúgio no Senhor da manhã, Contra o mal que criou, E contra o mal da escuridão quando entra, E contra o mal das que sopram nos nós, E contra o mal do invejoso quando inveja.»';
+  String get azkarList3 => 'بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ';
 
   @override
-  String get azkarList4 => 'Em nome de Deus, o Clemente, o Misericordioso Diz: «Ele é Allah, o Único! Deus é o Independente; Não gerou e nem foi gerado; E não há ninguém igual a Ele.»';
+  String get azkarList4 => 'بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ';
 
   @override
-  String get azkarList5 => 'Deus! Não há divindade exceto Ele, o Eternamente Vivo, o Subsistente; não O tomam a sonolência e nem o sono; pertence-Lhe tudo que há nos céus e tudo que há na terra. Quem é que pode interceder perante Ele sem Sua permissão? conhece o que há à frente deles e o que há atrás deles, e ninguém pode alcançar algo do Seu conhecimento senão o que quiser. O Seu Kurssi abrange os céus e a terra, e preservar ambos não O cansa. E Ele é o Sublime, o Supremo.';
+  String get azkarList5 => 'ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ';
 
   @override
-  String get azkarList6 => 'Ninguém é digno de adoração exceto Allah, o único, sem parceiro algum, somente ele pertence ao reinado e somente para ele são todas as glórias e ele tem poder sobre tudo. Ó Allah! Ninguém nega que você concede e ninguém concede tudo que você retém; e a grandeza dos grandes é inútil para eles contra você';
+  String get azkarList6 => 'La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad';
 
   @override
-  String get azkarList7 => 'Ó Allah! Vós sois o meu Senhor. Não existe outra divindade além de Vós. Vós criastes-me, e eu sou Vosso servo. Na medida do possível, permaneço fiel à promessa e ao pacto que fiz Convosco. Busco refúgio em Vós das consequências dos meus atos errados. Reconheço plenamente as bênçãos que me concedestes e confesso os meus pecados. Portanto, perdoai-me, pois ninguém além de Vós pode perdoar os pecados.';
+  String get azkarList7 => 'اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت';
 
   @override
-  String get azkarList8 => 'Nós, assim como todo o universo, despertamos para a adoração de Allah. Todos os louvores pertencem a Allah. Não há outra divindade digna de adoração senão Allah. Ele é Único, sem parceiro algum. A Ele pertence todo o universo, e a Ele são devidos todos os louvores. Ó Senhor! Suplico-Vos por tudo o que há de bom neste dia e nos dias que se seguem; e peço a Vossa proteção contra todo o mal deste dia e dos dias vindouros. Ó Senhor! Peço a Vossa ajuda para me livrar da preguiça e dos males da velhice. Ó Allah! Rogo pela Vossa proteção contra os tormentos do Inferno e da sepultura.';
+  String get azkarList8 => 'أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر';
 
   @override
-  String get azkarList9 => 'Ó Allah! Amanheci invocando a Vós, aos anjos que sustentam o Vosso Trono, a todos os Vossos anjos e a toda a Vossa criação, para que sejam testemunhas de que Vós sois Allah. Não há outra divindade digna de adoração senão Vós. Sois Único, não tendes parceiro, e Muhammad (que a paz e a misericórdia de Allah estejam sobre ele) é Vosso servo e Mensageiro. (quatro vezes). [E a noite, dizer: \"Ó Allah! Anoiteci invocando a Vós...\"]';
+  String get azkarList9 => 'اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات|. [ وإذا أمسى قال: اللَّهم إني أمسيت...]';
 
   @override
-  String get azkarList10 => 'Ó Allah! Concedei-me boa saúde no meu corpo, nos meus ouvidos e nos meus olhos. Não há divindade digna de adoração senão Vós. Ó Allah! Suplico-Vos refúgio contra a descrença e a pobreza. Ó Allah! Peço a Vossa proteção contra os tormentos da sepultura. Não há outra divindade digna de adoração senão Vós. (três vezes)';
+  String get azkarList10 => '|اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ';
 
   @override
-  String get azkarList11 => 'Allah é suficiente para mim. Não há divindade digna de adoração senão Ele. N’Ele confio, e Ele é o Senhor do Trono Sublime. (sete vezes)';
+  String get azkarList11 => '|حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ';
 
   @override
-  String get azkarList12 => 'Estou plenamente satisfeito por crer em Allah como meu Senhor, no Islão como a minha religião e em Muhammad (que a paz e a misericórdia de Allah estejam sobre ele) como meu Profeta. (três vezes)';
+  String get azkarList12 => '|رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ';
 
   @override
-  String get azkarList13 => 'Não há divindade digna de adoração senão Allah. Ele é o Único, sem parceiro algum. A Ele pertence o reinado, e todos os louvores são devidos a Ele. Ele é Poderoso sobre todas as coisas. (dez vezes)';
+  String get azkarList13 => '|لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات';
 
   @override
-  String get azkarList14 => '';
+  String get azkarList14 => 'أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر';
 
   @override
-  String get jumuaaScreenTitle => 'Hora de Jumu\'ah';
+  String get jumuaaScreenTitle => 'Jumuaa Time';
 
   @override
-  String get jumuaaHadith => 'O Profeta Muhammad (Sallalláhu Alaihi Wa Sallam) disse: \"Aquele que realizar a ablução (Wudhu) de forma correta, dirigir-se à oração de Jumu’ah, ouvir o sermão (Khutbah) com atenção e permanecer em silêncio, terá os seus pequenos pecados entre essa sexta-feira e a próxima, mais três dias (totalizando dez dias), perdoados. Contudo, aquele que durante o sermão brincar com uma pedra (ou seja, distrair-se), terá interrompido esta recompensa.\"';
+  String get jumuaaHadith => 'The Prophet ﷺ (peace and blessings of Allah be upon him) said “Whoever does the ablutions perfectly then goes to jumua and then listens and is silent, he is forgiven what is between that time and the following Friday and three more days and the one who touches stones has certainly made a futility”';
 
   @override
-  String get shuruk => 'Nascer do Sol';
+  String get shuruk => 'Shuruk';
 
   @override
   String get reset => 'Reset';
 
   @override
-  String get mosqueNotFoundMessage => 'Desculpe, a sua mesquita não foi encontrada, pode estar desativada ou temporariamente indisponível.';
+  String get mosqueNotFoundMessage => 'Sorry, your mosque wasn\'t found, or it might be missing or temporarily disabled.';
 
   @override
-  String get noInternetMessage => 'Por favor, verifique a sua ligação à Internet e tente novamente. O seu Wi-Fi ou Ethernet está ligado?';
+  String get noInternetMessage => 'No internet access. Please verify your internet connectivity and try again. Is your Wi-Fi or Ethernet Connected?';
 
   @override
-  String get error => 'ERRO';
+  String get error => 'Error';
 
   @override
-  String get mosqueErrorMessage => 'Erro na Mesquita se você é um administrador da Mesquita, entre em contacto com o nosso suporte para corrigir o problema';
+  String get mosqueErrorMessage => 'Mosque error if you are mosque admin contact our support to fix this issue';
 
   @override
   String get muharram => 'Muharram';
@@ -270,259 +282,262 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get safar => 'Safar';
 
   @override
-  String get rabiAlawwal => 'Rabi al-Awwal';
+  String get rabiAlawwal => 'Rabi\' al-Awwal';
 
   @override
-  String get rabiAlthani => 'Rabi al-Thani';
+  String get rabiAlthani => 'Rabi\' al-Thani';
 
   @override
-  String get jumadaAlula => 'Jumada al-Awwal';
+  String get jumadaAlula => 'Jumada al-Ula';
 
   @override
-  String get jumadaAlakhirah => 'Jumada al-Thaniyah';
+  String get jumadaAlakhirah => 'Jumada al-Akhirah';
 
   @override
   String get rajab => 'Rajab';
 
   @override
-  String get shaban => 'Sha\'aban';
+  String get shaban => 'Sha`ban';
 
   @override
-  String get ramadan => 'Ramadán';
+  String get ramadan => 'Ramadan';
 
   @override
-  String get shawwal => 'Shawwál';
+  String get shawwal => 'Shawwal';
 
   @override
-  String get dhuAlqidah => 'Dhu al-Qadah';
+  String get dhuAlqidah => 'Dhu al-Qi\'dah';
 
   @override
-  String get dhuAlhijjah => 'Dhu al-Hijjah';
+  String get dhuAlhijjah => 'Dhu al-Hijja';
 
   @override
-  String get duaaBetweenSalahAndAdhan => 'Anas ibn Mâlik (Radiyallahu Anhu) relatou que Profeta Muhammad (Sallalláhu Alaihi Wa Sallam) disse: \"O duá efetuado entre o Azán (chamamento para a oração) e o Iqamah (alerta para o início da oração), não é rejeitado.\"';
+  String get duaaBetweenSalahAndAdhan => 'Anas bin Malik said: The Messenger of Allah ﷺ said: The supplication does not return between the call to prayer and the standing for prayer.';
 
   @override
-  String get salatKhayrMinaNawm => 'A oração é melhor que o sono';
+  String get salatKhayrMinaNawm => 'Assalatu khayrun mina nawm';
 
   @override
-  String get salatElEid => 'Salatul Eid';
+  String get salatElEid => 'Eid Salah';
 
   @override
-  String get webView => 'Ativar Modo Compatível';
+  String get webView => 'Enable Legacy Mode';
 
   @override
-  String get developersHomeScreen => 'Ecrã de programador';
+  String get developersHomeScreen => 'Developer\'s home screen';
 
   @override
-  String get onlineHome => 'Página Inicial On-line';
+  String get onlineHome => 'Online Home';
 
   @override
-  String get prayerTimes => 'Horário de Orações';
+  String get prayerTimes => 'Prayer Times';
 
   @override
-  String get alerts => 'Alerta';
+  String get alerts => 'Alert';
 
   @override
-  String get iqamaaCountDown => 'Contagem decrescente para Jamaat';
+  String get iqamaaCountDown => 'Iqamaa Count Down';
 
   @override
-  String get afterAdhanHadith => 'Hadith depois de Azán';
+  String get afterAdhanHadith => 'After Adhan Hadith';
 
   @override
-  String get afterSalahAzkar => 'Zikr depois da oração';
+  String get afterSalahAzkar => 'After Salah Azkar';
 
   @override
-  String get iqama => 'Jamaat';
+  String get iqama => 'Iqama';
 
   @override
-  String get randomHadith => 'Hadith aleatório';
+  String get randomHadith => 'Random Hadith';
 
   @override
-  String get announcement => 'Anúncios';
+  String get announcement => 'Announcements';
 
   @override
-  String get jumuaaLive => 'Jumu\'ah [Transmissão ao vivo]';
+  String get jumuaaLive => 'Jumuaa [Live Streaming]';
 
   @override
-  String get showSecondaryScreen => 'Usar como tela secundária (para anúncios)';
+  String get showSecondaryScreen => 'Use as a secondary screen (For Announcements)';
 
   @override
-  String get normalScreen => 'Usar como tela principal';
+  String get normalScreen => 'Use as Main Screen';
 
   @override
-  String get duaaRemainder => 'Continuação Duá';
+  String get duaaRemainder => 'Duaa Remainder';
 
   @override
-  String get fajrWakeUp => 'Despertar no Fajr';
+  String get fajrWakeUp => 'Fajr Wake Up';
 
   @override
-  String get changeLanguage => 'Mudar idioma';
+  String get changeLanguage => 'Change language';
 
   @override
-  String get forceScreen => 'Forçar Ecrã';
+  String get forceScreen => 'Force screen';
 
   @override
-  String get clear => 'Limpar';
+  String get clear => 'Clear';
 
   @override
-  String get changeTheme => 'Alterar tema';
+  String get changeTheme => 'Change Theme';
 
   @override
-  String get next => 'Próximo';
+  String get next => 'Next';
 
   @override
-  String get mainScreenOrSecondaryScreen => 'Localização da tela';
+  String get mainScreenOrSecondaryScreen => 'Screen location';
 
   @override
-  String get mainScreenOrSecondaryScreenEXPLINATION => 'Deseja instalar esta tela na sala de oração principal (quarto de oração para homens)?';
+  String get mainScreenOrSecondaryScreenEXPLINATION => 'Do you want to install this screen in the main prayer room (men prayer room) ?';
 
   @override
-  String get mainScreen => 'Tela principal';
+  String get mainScreen => 'Main screen';
 
   @override
-  String get secondaryScreen => 'Tela secundária';
+  String get secondaryScreen => 'Secondary screen';
 
   @override
-  String get duaaElEftar => 'Duá de Iftar';
+  String get duaaElEftar => 'Duaa El Eftar';
 
   @override
-  String get announcementOnlyMode => 'Modo de anúncios';
+  String get announcementOnlyMode => 'Announcements mode';
 
   @override
-  String get normalMode => 'Modo normal ';
+  String get normalMode => 'Normal mode ';
 
   @override
-  String get announcementOnlyModeEXPLINATION => 'Escolha se pretende que o ecrã mostre apenas anúncios, isso pode ser útil se você instalar o ecrã na entrada, por exemplo.';
+  String get announcementOnlyModeEXPLINATION => 'Choose if your screen will display announcements all time, this can be useful if you install the screen at the entrance for example.';
 
   @override
-  String get duaaElEftarText => 'Ó Allah, por Ti jejuei, e com o sustento vindo de Ti quebrei o meu jejum. Para Ti volto-me em arrependimento e em Ti deposito a minha confiança. A sede foi saciada, as veias foram hidratadas, e a recompensa está garantida, se Allah quiser.';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
 
   @override
-  String get secondaryScreenExplanation => 'Para uma sala de oração secundária (sala de orações para senhoras ou para outro andar, por exemplo), este modo poderá mostrar a transmissão ao vivo do Jumu\'ah';
+  String get secondaryScreenExplanation => 'For a secondary prayer room (women room or an other floor for example), this screen will show jumua live-streaming';
 
   @override
-  String get mainScreenExplanation => 'Para a sala principal da Mesquita, este modo não irá mostrar a transmissão ao vivo do Jumu\'ah';
+  String get mainScreenExplanation => 'For the main mosque room, this screen will not show the jumua live-streaming';
 
   @override
-  String get normalModeExplanation => 'O modo normal irá mostrar os horários das orações e os anúncios.';
+  String get normalModeExplanation => 'Will show the normal screen with the prayer times and the announcements.';
 
   @override
-  String get announcementOnlyModeExplanation => 'Irá mostrar apenas anúncios';
+  String get announcementOnlyModeExplanation => 'Will show announcements all time';
 
   @override
-  String get orientation => 'Orientação';
+  String get orientation => 'Orientation';
 
   @override
-  String get selectYourMawaqitTvAppOrientation => 'Selecione a orientação da aplicação mawaqit tv';
+  String get selectYourMawaqitTvAppOrientation => 'Select your mawaqit tv app orientation';
 
   @override
-  String get deviceDefault => 'Dispositivo predefinido';
+  String get deviceDefault => 'Device Default';
 
   @override
-  String get deviceDefaultBTNDescription => 'O Mawaqit selecionará automaticamente a orientação padrão com base na orientação do ecrã';
+  String get deviceDefaultBTNDescription => 'Mawaqit will auto select the default orientation based on the screen orientation';
 
   @override
-  String get portrait => 'Vertical';
+  String get portrait => 'Portrait';
 
   @override
-  String get portraitBTNDescription => 'A orientação vertical é recomendada para mesquitas com menos espaço';
+  String get portraitBTNDescription => 'For vertical orientation recommended for mosque with small space';
 
   @override
-  String get landscape => 'Horizontal';
+  String get landscape => 'Landscape';
 
   @override
-  String get landscapeBTNDescription => 'Para a orientação horizontal. O layout principal para o aplicativo mawaqit tv e recomendado para a maioria das mesquitas';
+  String get landscapeBTNDescription => 'For Horizontal orientation. The main layout for mawaqit tv app and recommended one for most mosques';
 
   @override
   String get eidMubarak => 'Eid Mubarak';
 
   @override
-  String get takbeerAleidText => 'Allah é Grande, Allah é Grande, Allah é Grande. Não há divindade digna de adoração senão Allah. Allah é Grande, Allah é Grande, e todos os louvores pertencem a Allah.';
+  String get takbeerAleidText => 'Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd';
 
   @override
-  String get settings => 'Definições';
+  String get settings => 'Settings';
 
   @override
-  String get applicationModes => 'Modo da aplicação';
+  String get applicationModes => 'Application Mode';
 
   @override
-  String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'Se estiver a ter problemas com a aplicação, tente ativar esta opção';
+  String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'If you are facing issues with the app, try to enable this option';
 
   @override
-  String get hijriAdjustments => 'Ajuste local da data islâmica';
+  String get hijriAdjustments => 'Local Hijri adjustments';
 
   @override
-  String get hijriAdjustmentsDescription => 'Ajuste a data islâmica do seu dispositivo local. Isto não afetará as opções da mesquita online';
+  String get hijriAdjustmentsDescription => 'Adjust the hijri date locally in your device. This will not affect the online mosque settings';
 
   @override
-  String get backoffice_default => 'Padrões do backoffice';
+  String get backoffice_default => 'Backoffice Defaults';
 
   @override
-  String get recommended => 'Recomendado';
+  String get recommended => 'Recommended';
 
   @override
-  String get sabah => 'Amanhecer';
+  String get sabah => 'Sabah';
 
   @override
-  String get randomHadithLanguage => 'Idioma hadith aleatório';
+  String get randomHadithLanguage => 'Random hadith language';
 
   @override
   String get mosqueDefault => 'From your online configuration';
 
   @override
-  String get en => 'Inglês';
+  String get en => 'English';
 
   @override
-  String get fr => 'Francês';
+  String get fr => 'French';
 
   @override
-  String get ar => 'Árabe';
+  String get ar => 'Arabic';
 
   @override
-  String get tr => 'Turco';
+  String get tr => 'Turkish';
 
   @override
-  String get de => 'Alemão';
+  String get de => 'German';
 
   @override
-  String get es => 'Espanhol';
+  String get es => 'Spanish';
 
   @override
-  String get pt => 'Português';
+  String get pt => 'Portuguese';
 
   @override
-  String get nl => 'Holandês';
+  String get nl => 'Dutch';
 
   @override
-  String get fr_ar => 'Francês e Árabe';
+  String get ta => 'Tamil';
 
   @override
-  String get en_ar => 'Inglês e Árabe';
+  String get fr_ar => 'French & Arabic';
 
   @override
-  String get de_ar => 'Alemão e Árabe';
+  String get en_ar => 'English & Arabic';
 
   @override
-  String get ta_ar => 'Tamil e Árabe';
+  String get de_ar => 'German & Arabic';
 
   @override
-  String get tr_ar => 'Turco e Árabe';
+  String get ta_ar => 'Tamil & Arabic';
 
   @override
-  String get es_ar => 'Espanhol e Árabe';
+  String get tr_ar => 'Turkish & Arabic';
 
   @override
-  String get pt_ar => 'Português e Árabe';
+  String get es_ar => 'Spanish & Arabic';
 
   @override
-  String get nl_ar => 'Holandês e Árabe';
+  String get pt_ar => 'Portuguese & Arabic';
 
   @override
-  String get connectToChangeHadith => 'Conecte-se à internet para alterar o idioma hadith.';
+  String get nl_ar => 'Dutch & Arabic';
 
   @override
-  String get retry => 'Repetir';
+  String get connectToChangeHadith => 'Please connect to the internet to change the hadith language.';
+
+  @override
+  String get retry => 'Retry';
 
   @override
   String get reciterLoadError => 'Unable to load reciters';
@@ -540,202 +555,206 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get surahLoadError => 'Unable to load surahs';
 
   @override
-  String get timeSetting => 'Configurando hora';
+  String get timeSetting => 'Configuring the time';
 
   @override
-  String get timeSettingDesc => 'Definir nome personalizado';
+  String get timeSettingDesc => 'Set a custom name';
 
   @override
-  String get selectedTime => 'Hora atualmente selecionada';
+  String get selectedTime => 'The current selected time';
 
   @override
-  String get confirmation => 'Confirmar';
+  String get confirmation => 'Confirmation';
 
   @override
-  String get confirmationMessage => 'Deseja mesmo usar a hora do dispositivo?';
+  String get confirmationMessage => 'Are you sure you want to use device time?';
 
   @override
-  String get useDeviceTime => 'Usar hora do dispositivo';
+  String get useDeviceTime => 'Use device time';
 
   @override
-  String get selectTime => 'Selecionar hora';
+  String get selectTime => 'Select Time';
 
   @override
-  String get previous => 'Anterior';
+  String get previous => 'Previous';
 
   @override
-  String get appTimezone => 'Fuso horário da aplicação';
+  String get appTimezone => 'App Timezone';
 
   @override
-  String get descTimezone => 'Selecione o seu fuso horário para obter os horários das orações precisos.';
+  String get descTimezone => 'Select your timezone to get accurate prayer times.';
 
   @override
-  String get appWifi => 'Ligar ao Wi-Fi';
+  String get appWifi => 'Connect to wifi';
 
   @override
-  String get descWifi => 'Por favor, ligue-se ao seu Wi-Fi preferido';
+  String get descWifi => 'Please connect to your preferred wifi';
 
   @override
-  String get searchCountries => 'Pesquisar países';
+  String get searchCountries => 'Search countries';
 
   @override
-  String get scanAgain => 'Procurar novamente';
+  String get scanAgain => 'Scan Again';
 
   @override
-  String get noScannedResultsFound => 'Sem pontos de acesso próximos encontrados';
+  String get noScannedResultsFound => 'No near access points found';
 
   @override
-  String get connect => 'Conectar';
+  String get connect => 'Connect';
 
   @override
-  String get wifiPassword => 'Senha';
+  String get wifiPassword => 'Password';
 
   @override
-  String get skip => 'Pular';
+  String get skip => 'Skip';
 
   @override
-  String get noSSID => '**SSID oculto**';
+  String get noSSID => '**Hidden SSID**';
 
   @override
-  String get close => 'Fechar';
+  String get close => 'Close';
 
   @override
-  String get search => 'Pesquisar';
+  String get search => 'Search';
 
   @override
-  String get wifiSuccess => 'Ligação ao Wi-Fi estabelecida com sucesso.';
+  String get wifiSuccess => 'Successfully connected to Wifi.';
 
   @override
-  String get wifiFailure => 'Falha ao ligar ao Wi-Fi.';
+  String get wifiFailure => 'Failed to connect to Wifi.';
 
   @override
-  String get timezoneSuccess => 'Fuso horário definido com sucesso.';
+  String get timezoneSuccess => 'Timezone set successfully.';
 
   @override
-  String get timezoneFailure => 'Falhou ao definir fuso horário.';
+  String get timezoneFailure => 'Failed to set timezone.';
 
   @override
-  String get screenLock => 'Ligar/desligar tela';
+  String get screenLock => 'Screen on/off';
 
   @override
-  String get screenLockConfig => 'Ajustar tela para ligar/desligar';
+  String get screenLockConfig => 'Configure screen on/off';
 
   @override
-  String get screenLockMode => 'Modo de tela ligada/desligada';
+  String get screenLockMode => 'Screen on/off mode';
 
   @override
-  String get screenLockDesc => 'Desligar/ligar televisão antes ou depois de cada oração para economizar bateria/energia.';
+  String get screenLockDesc => 'Turn on/off TV before and after each prayer to save energy';
 
   @override
-  String get screenLockDesc2 => 'Este recurso liga/desliga o dispositivo antes ou depois de cada Azán';
+  String get screenLockDesc2 => 'This feature turn on/off the device before and after each prayer adhan';
 
   @override
-  String get before => 'minutos antes de cada oração';
-
-  @override
-  String get after => 'minutos depois de cada oração';
-
-  @override
-  String get updateAvailable => 'Atualização disponível';
-
-  @override
-  String get seeMore => 'Ver mais';
-
-  @override
-  String get whatIsNew => 'O que há de novo';
-
-  @override
-  String get update => 'Atualizar';
-
-  @override
-  String get automaticUpdate => 'Notificar atualizações';
-
-  @override
-  String get automaticUpdateDescription => 'Ative as notificações de atualização para obter as melhorias e recursos mais recentes';
-
-  @override
-  String get checkInternetLegacyMode => 'Você deve conectar à internet para usar o modo compatível';
-
-  @override
-  String get powerOnScreen => 'Ligar a tela';
-
-  @override
-  String get powerOffScreen => 'Desligar a tela';
-
-  @override
-  String get deviceSettings => 'Opções do dispositivo';
-
-  @override
-  String get later => 'Depois';
-
-  @override
-  String get downloadQuran => 'Baixar alcorão';
-
-  @override
-  String get quran => 'Alcorão';
-
-  @override
-  String get askDownloadQuran => 'Deseja baixar o alcorão?';
-
-  @override
-  String get download => 'Baixar';
-
-  @override
-  String get downloadingQuran => 'Baixando o alcorão';
-
-  @override
-  String get extractingQuran => 'Extraindo o alcorão';
-
-  @override
-  String get updatedQuran => 'Alcorão atualizado';
-
-  @override
-  String get quranLatestVersion => 'O Alcorão está atualizado';
-
-  @override
-  String quranUpdatedVersion(Object version) {
-    return 'A versão atualizada do Alcorão é: $version';
+  String before(Object variable) {
+    return 'minutes before each prayer time';
   }
 
   @override
-  String get quranIsUpdated => 'O Alcorão foi atualizado';
+  String after(Object variable) {
+    return 'minutes after each prayer time';
+  }
 
   @override
-  String get quranDownloaded => 'Alcorão descarregado';
+  String get updateAvailable => 'Update available';
 
   @override
-  String get quranIsAlreadyDownloaded => 'O Alcorão já está descarregado';
+  String get seeMore => 'See more';
 
   @override
-  String get chooseReciter => 'Escolher Recitador';
+  String get whatIsNew => 'What\'s new';
 
   @override
-  String get reciteType => 'Tipo de Recitação';
+  String get update => 'Update';
 
   @override
-  String get readingMode => 'Eu quero ler';
+  String get automaticUpdate => 'Notify update';
 
   @override
-  String get listeningMode => 'Eu quero ouvir';
+  String get automaticUpdateDescription => 'Enable notify update to receive the latest features and improvements';
+
+  @override
+  String get checkInternetLegacyMode => 'You must connect to internet to use the legacy mode';
+
+  @override
+  String get powerOnScreen => 'Power on the screen';
+
+  @override
+  String get powerOffScreen => 'Power off the screen';
+
+  @override
+  String get deviceSettings => 'Device Settings';
+
+  @override
+  String get later => 'Later';
+
+  @override
+  String get downloadQuran => 'Download Quran';
+
+  @override
+  String get quran => 'Quran';
+
+  @override
+  String get askDownloadQuran => 'Do you want to download the Quran?';
+
+  @override
+  String get download => 'Download';
+
+  @override
+  String get downloadingQuran => 'Downloading Quran';
+
+  @override
+  String get extractingQuran => 'Extracting Quran';
+
+  @override
+  String get updatedQuran => 'Quran updated';
+
+  @override
+  String get quranLatestVersion => 'Quran is up to date';
+
+  @override
+  String quranUpdatedVersion(Object version) {
+    return 'Quran updated version is: $version';
+  }
+
+  @override
+  String get quranIsUpdated => 'Quran is updated';
+
+  @override
+  String get quranDownloaded => 'Quran downloaded';
+
+  @override
+  String get quranIsAlreadyDownloaded => 'Quran is already downloaded';
+
+  @override
+  String get chooseReciter => 'Choose Reciter';
+
+  @override
+  String get reciteType => 'Recite Type';
+
+  @override
+  String get readingMode => 'I want to read';
+
+  @override
+  String get listeningMode => 'I want to listen';
 
   @override
   String quranReadingPage(int leftPage, int rightPage, int totalPages) {
-    return 'Página $leftPage - $rightPage / $totalPages';
+    return 'Page $leftPage - $rightPage / $totalPages';
   }
 
   @override
   String quranReadingPagePortrait(int currentPage, int totalPages) {
-    return 'Página $currentPage / $totalPages';
+    return 'Page $currentPage / $totalPages';
   }
 
   @override
-  String get chooseQuranPage => 'Escolher página';
+  String get chooseQuranPage => 'Choose the page';
 
   @override
-  String get checkingForUpdates => 'Verificando por atualizações...';
+  String get checkingForUpdates => 'Checking for updates...';
 
   @override
-  String get chooseQuranType => 'Escolher alcorão';
+  String get chooseQuranType => 'Choose quran';
 
   @override
   String get hafs => 'Hafs';
@@ -744,194 +763,194 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get warsh => 'Warsh';
 
   @override
-  String get favorites => 'Favoritos';
+  String get favorites => 'Favorites';
 
   @override
-  String get allReciters => 'Todos os recitadores';
+  String get allReciters => 'All Reciters';
 
   @override
   String reciterAddedToFavorites(String name) {
-    return 'Recitador $name adicionado aos favoritos';
+    return 'Reciter $name added to favorites';
   }
 
   @override
   String reciterRemovedFromFavorites(String name) {
-    return 'Recitador $name removido dos favoritos';
+    return 'Reciter $name removed from favorites';
   }
 
   @override
-  String get noFavoriteReciters => 'Nenhum recitador favorito. Primeiramente adicione um à lista.';
+  String get noFavoriteReciters => 'No favorite reciters. Try adding one to the list';
 
   @override
-  String get noReciterSearchResult => 'Nenhum resultado encontrado para a sua pesquisa';
+  String get noReciterSearchResult => 'No results found for your search';
 
   @override
-  String get searchForReciter => 'Pesquisar por um recitador';
+  String get searchForReciter => 'Search for a reciter';
 
   @override
-  String get downloadAllSuwarSuccessfully => 'O Alcorão completo foi descarregado';
+  String get downloadAllSuwarSuccessfully => 'The whole quran is downloaded';
 
   @override
-  String get noSuwarDownload => 'Não há novos surah para descarregar';
+  String get noSuwarDownload => 'No new suwars to download';
 
   @override
-  String get connectDownloadQuran => 'Por favor, ligue-se à Internet para descarregar';
+  String get connectDownloadQuran => 'Please connect to Internet to download';
 
   @override
-  String get playInOnlineModeQuran => 'Por favor, ligue-se à internet para reproduzir';
+  String get playInOnlineModeQuran => 'Please connect to internet to play';
 
   @override
-  String get downloaded => 'Descarregado';
+  String get downloaded => 'Downloaded';
 
   @override
   String switchQuranType(String name) {
-    return 'Ir para $name';
+    return 'Go to $name';
   }
 
   @override
-  String get surahSelector => 'Selecionar surah';
+  String get surahSelector => 'Select Surah';
 
   @override
-  String get checkForUpdates => 'Verificar por atualizações';
+  String get checkForUpdates => 'Check for Updates';
 
   @override
-  String get checkForNewVersion => 'Verificar caso tenha uma nova versão';
+  String get checkForNewVersion => 'Check if a new version is available';
 
   @override
-  String get wouldYouLikeToUpdate => 'Deseja atualizar o aplicativo?';
+  String get wouldYouLikeToUpdate => 'Would you like to update the app?';
 
   @override
-  String get updateCompleted => 'Atualização concluída com sucesso!';
+  String get updateCompleted => 'Update completed successfully!';
 
   @override
-  String get noUpdates => 'Sem atualizações';
+  String get noUpdates => 'No Updates';
 
   @override
-  String get usingLatestVersion => 'Você está usando a versão mais recente.';
+  String get usingLatestVersion => 'You are using the latest version.';
 
   @override
-  String get updateCancelled => 'Atualização cancelada';
+  String get updateCancelled => 'Update cancelled';
 
   @override
-  String get checkingUpdates => 'Verificando por atualizações...';
+  String get checkingUpdates => 'Checking updates...';
 
   @override
-  String get downloadingUpdate => 'Baixando atualização...';
+  String get downloadingUpdate => 'Downloading update...';
 
   @override
-  String get installingUpdate => 'Instalando atualização...';
+  String get installingUpdate => 'Installing update...';
 
   @override
-  String get updateCompletedSuccessfully => 'Atualização concluída com sucesso';
+  String get updateCompletedSuccessfully => 'Update completed successfully';
 
   @override
-  String get updateFailed => 'Falha na atualização';
+  String get updateFailed => 'Update failed';
 
   @override
-  String get save => 'Salvar';
+  String get save => 'Save';
 
   @override
-  String get enterRtspUrl => 'Introduza o RTSP ou URL do YouTube Live';
+  String get enterRtspUrl => 'Enter RTSP or Youtube Live URL';
 
   @override
-  String get addRtspUrl => 'Adicione o URL de transmissão da sua câmara abaixo';
+  String get addRtspUrl => 'Add your camera stream URL below';
 
   @override
-  String get enableRtspCamera => 'Ativar transmissão da câmara';
+  String get enableRtspCamera => 'Enable Camera Streaming';
 
   @override
-  String get rtspCameraSettings => 'Definições da câmara';
+  String get rtspCameraSettings => 'Camera Settings';
 
   @override
-  String get invalidRtspUrl => 'URL inválido. Verifique o URL e tente novamente.';
+  String get invalidRtspUrl => 'Invalid URL. Please check the URL and try again.';
 
   @override
-  String get validRtspUrl => 'URL validado e guardado com sucesso.';
+  String get validRtspUrl => 'URL validated and saved successfully.';
 
   @override
-  String get rtspCameraSettingTitle => 'Ligação da câmara em direto';
+  String get rtspCameraSettingTitle => 'Live camera connection';
 
   @override
-  String get rtspCameraSettingDesc => 'Ligue à sua câmara local e transmita ao vivo a oração de Jumu\'ah no ecrã da TV.';
+  String get rtspCameraSettingDesc => 'Connect to your local camera and display jumua prayer stream on the TV screen.';
 
   @override
-  String get rtspCameraSettingScreenDesc => 'Se introduzir um URL aqui, o seu ecrã mudará automaticamente para a transmissão ao vivo quando chegar a hora da Jumu\'ah';
+  String get rtspCameraSettingScreenDesc => 'If you enter a URL here, your screen will automatically switch to video streaming when Jumua time arrives';
 
   @override
-  String get validatingStream => 'A validar a transmissão...';
+  String get validatingStream => 'Validating Stream...';
 
   @override
-  String get checkInternetLiveCamera => 'Tem de se ligar à Internet para configurar a câmara em direto';
+  String get checkInternetLiveCamera => 'You must connect to internet to setup the live camera';
 
   @override
-  String get somethingWentWrong => 'Algo correu mal! Por favor, tente novamente';
+  String get somethingWentWrong => 'Something went wrong! please try again';
 
   @override
-  String get somethingWrong => 'Ocorreu algo mal';
+  String get somethingWrong => 'Something went wrong';
 
   @override
-  String get tryAgainLater => 'Por favor, tente novamente mais tarde';
+  String get tryAgainLater => 'Please try again later';
 
   @override
-  String get hintTextRtspUrl => 'rtsp://... ou https://youtube.com/live/...';
+  String get hintTextRtspUrl => 'rtsp://... or https://youtube.com/live/...';
 
   @override
-  String get checkInternetUpdate => 'Deve ligar-se à internet para verificar se há novas atualizações';
+  String get checkInternetUpdate => 'You must connect to internet to check for new updates';
 
   @override
   String appUpdateAvailable(String currentVersion, String updatedVersion) {
-    return 'A sua aplicação está a executar a versão $currentVersion. Está disponível uma nova atualização (versão $updatedVersion) com as funcionalidades e melhorias mais recentes.';
+    return 'Your app is running version $currentVersion. A new update (version $updatedVersion) is available with the latest features and improvements.';
   }
 
   @override
   String quranUpdateDialogContent(String moshafName, String version) {
-    return 'Está disponível uma nova atualização para $moshafName Alcorão (versão $version).';
+    return 'A new update for the $moshafName Quran (version $version) is available.';
   }
 
   @override
-  String get ishaAndFajrOnly => 'Apenas as orações de Fajr e Ishá';
+  String get ishaAndFajrOnly => 'Fajr and Isha prayers only';
 
   @override
-  String get minutesBeforeFajrPrayer => 'minutos antes da hora de Fajr';
+  String get minutesBeforeFajrPrayer => 'minutes before fajr prayer time';
 
   @override
-  String get minutesAfterIshaPrayer => 'minutos depois da hora Ishá';
+  String get minutesAfterIshaPrayer => 'minutes afer isha prayer time';
 
   @override
-  String get scheduleSaved => 'O seu horário foi guardado.';
+  String get scheduleSaved => 'Your schedule has been saved.';
 
   @override
-  String get completeAllFields => 'Por favor, preencha todos os campos antes de guardar.';
+  String get completeAllFields => 'Please complete all fields before saving.';
 
   @override
-  String get endTimeAfter => 'A hora de fim deve ser após a hora de início.';
+  String get endTimeAfter => 'The end time must be after the start time.';
 
   @override
-  String get scheduleListening => 'Escuta Agendada';
+  String get scheduleListening => 'Scheduled Listening';
 
   @override
-  String get enableScheduling => 'Ativar agendamento';
+  String get enableScheduling => 'Enable Scheduling';
 
   @override
-  String get scheduleDesc => 'Ative esta funcionalidade para reproduzir automaticamente um Surah nos horários agendados.';
+  String get scheduleDesc => 'Enable this feature to automatically play a Surah at scheduled times.';
 
   @override
-  String get startTime => 'Hora de início';
+  String get startTime => 'Start Time';
 
   @override
-  String get endTime => 'Hora de fim';
+  String get endTime => 'End Time';
 
   @override
-  String get selectReciter => 'Selecione um Recitador';
+  String get selectReciter => 'Select a Reciter';
 
   @override
-  String get selectMoshaf => 'Selecione um Mushaf';
+  String get selectMoshaf => 'Select a Mushaf';
 
   @override
-  String get randomSurahSelection => 'Seleção Aleatória de Surah';
+  String get randomSurahSelection => 'Random Surah Selection';
 
   @override
-  String get selectSurah => 'Selecione um Surah';
+  String get selectSurah => 'Select a Surah';
 
   @override
   String get initializingAutoReading => 'Initializing in progress...';
@@ -958,6 +977,9 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
 
   @override
   String get rtspUrlHint => 'Enter RTSP URL or YouTube link';
+
+  @override
+  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
 
   @override
   String get replaceWorkflowWithStream => 'Automatically display the camera stream';
@@ -991,6 +1013,12 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
 
   @override
   String get enablePrayerRemindersDesc => 'Works automatically in the background';
+
+  @override
+  String get testAITranslation => 'This is a test string to verify AI translation is working correctly';
+
+  @override
+  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -1459,6 +1487,9 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get randomHadithLanguage => 'Idioma hadith aleatório';
 
   @override
+  String get mosqueDefault => 'Da sua configuração on-line';
+
+  @override
   String get en => 'Inglês';
 
   @override
@@ -1511,6 +1542,21 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
 
   @override
   String get retry => 'Repetir';
+
+  @override
+  String get reciterLoadError => 'Não foi possível carregar os reciters';
+
+  @override
+  String get reciterNetworkError => 'Por favor, verifique sua conexão com a internet e tente novamente';
+
+  @override
+  String get reciterServerError => 'O servidor está temporariamente indisponível. Por favor, tente novamente mais tarde';
+
+  @override
+  String get reciterTimeoutError => 'Solicitação expirada. Por favor, tente novamente';
+
+  @override
+  String get surahLoadError => 'Incapaz de carregar surahs';
 
   @override
   String get timeSetting => 'Configurando hora';
@@ -1603,10 +1649,14 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get screenLockDesc2 => 'Este recurso liga/desliga o dispositivo antes ou depois de cada Azán';
 
   @override
-  String get before => 'minutos antes de cada oração';
+  String before(Object variable) {
+    return 'minutos antes de cada oração';
+  }
 
   @override
-  String get after => 'minutos depois de cada oração';
+  String after(Object variable) {
+    return 'minutos depois de cada oração';
+  }
 
   @override
   String get updateAvailable => 'Atualização disponível';
@@ -1918,7 +1968,55 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get scheduleInOnlineMode => 'Conecte-se à rede para agendar a audição do Alcorão';
 
   @override
+  String get duaaBetweenAdhanAndIqamaaTitle => 'O oferecimento (Du\'a) não é rejeitado entre o Adhan e Iqamah';
+
+  @override
   String get duaBetweenAdhanIqamah => 'O oferecimento (Du\'a) não é rejeitado entre o Adhan e Iqamah.';
+
+  @override
+  String get processingRequest => 'Processando o pedido...';
+
+  @override
+  String get loadingStream => 'Carregando transmissão...';
+
+  @override
+  String get rtspUrlHint => 'Digite a URL RTSP ou o link do YouTube';
+
+  @override
+  String get replaceWorkflowWithStream => 'Mostrar automaticamente o fluxo da câmera';
+
+  @override
+  String get replaceAppWorkflowWithCameraStream => 'A tela exibirá automaticamente o fluxo da câmera assim que a câmera começar a gravar; se ele parar, a tela retorna aos tempos de oração';
+
+  @override
+  String get streamError => 'Ocorreu um erro ao transmitir';
+
+  @override
+  String get finish => 'Acabamento';
+
+  @override
+  String get schedulingAlarms => 'Agendando horário ligado/desligado...';
+
+  @override
+  String get alarmsSucessSchedule => 'Ativar/Desativar gatilhos agendados com sucesso';
+
+  @override
+  String get alarmsScheduleFailure => 'Falha ao agendar gatilhos ligados/desligados';
+
+  @override
+  String get prayerTimeNotificationTitle => 'Notificações de hora de oração';
+
+  @override
+  String get prayerTimeNotificationDesc => 'Obtenha o adhan em tempos de oração, mesmo quando o aplicativo está fechado';
+
+  @override
+  String get enablePrayerReminders => 'Ativar Lembretes de Oração';
+
+  @override
+  String get enablePrayerRemindersDesc => 'Funciona automaticamente em segundo plano';
+
+  @override
+  String get testAITranslation => 'Este é um texto de teste para verificar se a tradução AI está funcionando corretamente';
 }
 
 /// The translations for Portuguese, as used in Portugal (`pt_PT`).
@@ -2531,10 +2629,14 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
   String get screenLockDesc2 => 'Esta funcionalidade liga/desliga o dispositivo antes e depois de cada Azán';
 
   @override
-  String get before => 'minutos antes de cada oração';
+  String before(Object variable) {
+    return 'minutos antes de cada oração';
+  }
 
   @override
-  String get after => 'minutos depois de cada oração';
+  String after(Object variable) {
+    return 'minutos depois de cada oração';
+  }
 
   @override
   String get updateAvailable => 'Atualização disponível';

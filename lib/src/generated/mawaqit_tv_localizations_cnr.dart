@@ -7,6 +7,9 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsCnr([String locale = 'cnr']) : super(locale);
 
   @override
+  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+
+  @override
   String get home => 'Početna';
 
   @override
@@ -49,7 +52,16 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get forceStaging => 'Prijeđite na prikaz';
 
   @override
+  String get forcePreProduction => 'Switch to pre-production';
+
+  @override
   String get disableStaging => 'Prijeđite na modus izrade';
+
+  @override
+  String get environmentSwitchSuccess => 'Environment switched successfully';
+
+  @override
+  String get environmentSwitchFailed => 'Failed to switch environment';
 
   @override
   String get sureCloseApp => 'Da li ste sigurni da želite izaći iz aplikacije?';
@@ -495,6 +507,9 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get nl => 'Dutch';
 
   @override
+  String get ta => 'Tamil';
+
+  @override
   String get fr_ar => 'French & Arabic';
 
   @override
@@ -630,10 +645,14 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Ova funkcija uključuje/isključuje uređaj prije i poslije svakog namaza';
 
   @override
-  String get before => 'minuta prije svakog namaza';
+  String before(Object variable) {
+    return 'minuta prije svakog namaza';
+  }
 
   @override
-  String get after => 'minuta nakon svakog namaza';
+  String after(Object variable) {
+    return 'minuta nakon svakog namaza';
+  }
 
   @override
   String get updateAvailable => 'Dostupno je ažuriranje';
@@ -960,6 +979,9 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get rtspUrlHint => 'Enter RTSP URL or YouTube link';
 
   @override
+  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
+
+  @override
   String get replaceWorkflowWithStream => 'Automatically display the camera stream';
 
   @override
@@ -991,4 +1013,10 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
 
   @override
   String get enablePrayerRemindersDesc => 'Works automatically in the background';
+
+  @override
+  String get testAITranslation => 'This is a test string to verify AI translation is working correctly';
+
+  @override
+  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
 }

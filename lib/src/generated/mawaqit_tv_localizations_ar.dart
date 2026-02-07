@@ -7,6 +7,9 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsAr([String locale = 'ar']) : super(locale);
 
   @override
+  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+
+  @override
   String get home => 'الصفحة الرئيسية';
 
   @override
@@ -49,7 +52,16 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get forceStaging => 'الانتقال إلى بيئة التهيئة';
 
   @override
+  String get forcePreProduction => 'Switch to pre-production';
+
+  @override
   String get disableStaging => 'الانتقال إلى بيئة الاختبار';
+
+  @override
+  String get environmentSwitchSuccess => 'Environment switched successfully';
+
+  @override
+  String get environmentSwitchFailed => 'Failed to switch environment';
 
   @override
   String get sureCloseApp => 'هل أنت متأكد أنك تريد الخروج من التطبيق؟';
@@ -73,7 +85,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get in1 => 'بعد';
 
   @override
-  String get azanIn => 'Azan in';
+  String get azanIn => 'آزان في';
 
   @override
   String get sec => 'ثانية';
@@ -186,7 +198,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get alAdhan => 'الأذان';
 
   @override
-  String get turnOfPhones => 'الرجاء وضع هاتفك في الوضع الصامت';
+  String get turnOfPhones => 'الرجاء ضبط هاتفك على الوضع الصامت';
 
   @override
   String get iqamaIn => 'الإقامة بعد';
@@ -468,7 +480,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get randomHadithLanguage => 'لغة الأحاديث';
 
   @override
-  String get mosqueDefault => 'From your online configuration';
+  String get mosqueDefault => 'من خلال إعداداتك على النت';
 
   @override
   String get en => 'الإنجليزية';
@@ -493,6 +505,9 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
 
   @override
   String get nl => 'الهولندية';
+
+  @override
+  String get ta => 'Tamil';
 
   @override
   String get fr_ar => 'الفرنسية والعربية';
@@ -525,19 +540,19 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get retry => 'أعد المحاولة';
 
   @override
-  String get reciterLoadError => 'Unable to load reciters';
+  String get reciterLoadError => 'تعذر تحميل القراء';
 
   @override
-  String get reciterNetworkError => 'Please check your internet connection and try again';
+  String get reciterNetworkError => 'يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى';
 
   @override
-  String get reciterServerError => 'Server is temporarily unavailable. Please try again later';
+  String get reciterServerError => 'الخادم غير متاح مؤقتًا. يرجى المحاولة مرة أخرى لاحقًا';
 
   @override
-  String get reciterTimeoutError => 'Request timed out. Please try again';
+  String get reciterTimeoutError => 'انتهت مهلة الطلب. يرجى المحاولة مرة أخرى';
 
   @override
-  String get surahLoadError => 'Unable to load surahs';
+  String get surahLoadError => 'تعذر تحميل السور';
 
   @override
   String get timeSetting => 'ضبط الوقت';
@@ -630,10 +645,14 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'هذه ميزة تشغيل/إيقاف الشاشة قبل وبعد كل صلاة أذان';
 
   @override
-  String get before => 'الدقائق قبل كل صلاة';
+  String before(Object variable) {
+    return 'الدقائق قبل كل صلاة';
+  }
 
   @override
-  String get after => 'الدقائق بعد كل صلاة';
+  String after(Object variable) {
+    return 'الدقائق بعد كل صلاة';
+  }
 
   @override
   String get updateAvailable => 'التحديث متاح';
@@ -873,7 +892,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get tryAgainLater => 'يرجى المحاولة لاحقًا';
 
   @override
-  String get hintTextRtspUrl => 'rtsp://... or https://youtube.com/live/...';
+  String get hintTextRtspUrl => 'rtsp://... أو https://youtube.com/live/...';
 
   @override
   String get checkInternetUpdate => 'يجب عليك الاتصال بالإنترنت للتحقق من وجود تحديثات جديدة';
@@ -885,7 +904,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
 
   @override
   String quranUpdateDialogContent(String moshafName, String version) {
-    return 'A new update for the $moshafName Quran (version $version) is available.';
+    return 'يتوفر تحديث جديد لنسخة القرآن $moshafName (الإصدار $version).';
   }
 
   @override
@@ -948,47 +967,56 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get duaaBetweenAdhanAndIqamaaTitle => 'الدعاء لا يرد بين الأذان والإقامة';
 
   @override
-  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
+  String get duaBetweenAdhanIqamah => 'ولا يرفض الدعم (الدعأ) بين عدهان وإيكاما.';
 
   @override
-  String get processingRequest => 'Processing request...';
+  String get processingRequest => 'جاري معالجة الطلب...';
 
   @override
-  String get loadingStream => 'Loading stream...';
+  String get loadingStream => 'جاري تحميل البث...';
 
   @override
-  String get rtspUrlHint => 'Enter RTSP URL or YouTube link';
+  String get rtspUrlHint => 'أدخل رابط RTSP أو رابط يوتيوب';
 
   @override
-  String get replaceWorkflowWithStream => 'Automatically display the camera stream';
+  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
 
   @override
-  String get replaceAppWorkflowWithCameraStream => 'The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display';
+  String get replaceWorkflowWithStream => 'عرض بث الكاميرا تلقائيًا';
 
   @override
-  String get streamError => 'An error occurred while streaming';
+  String get replaceAppWorkflowWithCameraStream => 'سيعرض الشاشة بث الكاميرا تلقائيًا بمجرد أن تبدأ الكاميرا في التسجيل، وإذا توقفت يعود العرض إلى مواقيت الصلاة';
 
   @override
-  String get finish => 'Finish';
+  String get streamError => 'حدث خطأ أثناء البث';
 
   @override
-  String get schedulingAlarms => 'Scheduling on/off times...';
+  String get finish => 'إنهاء';
 
   @override
-  String get alarmsSucessSchedule => 'On/Off triggers scheduled successfully';
+  String get schedulingAlarms => 'جدولة أوقات التشغيل/الإيقاف...';
 
   @override
-  String get alarmsScheduleFailure => 'Failed to schedule On/Off triggers';
+  String get alarmsSucessSchedule => 'تمت جدولة مشغلات التشغيل/الإيقاف بنجاح';
 
   @override
-  String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
+  String get alarmsScheduleFailure => 'فشل في جدولة مشغلات التشغيل/الإيقاف';
 
   @override
-  String get prayerTimeNotificationDesc => 'Get the adhan at prayer times, even when the app is closed';
+  String get prayerTimeNotificationTitle => 'أذان أوقات الصلاة';
 
   @override
-  String get enablePrayerReminders => 'Enable Prayer Reminders';
+  String get prayerTimeNotificationDesc => 'استقبل الأذان في أوقات الصلاة، حتى عند إغلاق التطبيق';
 
   @override
-  String get enablePrayerRemindersDesc => 'Works automatically in the background';
+  String get enablePrayerReminders => 'تفعيل أذان الصلاة';
+
+  @override
+  String get enablePrayerRemindersDesc => 'يعمل تلقائيًا في الخلفية';
+
+  @override
+  String get testAITranslation => 'هذه سلسلة اختبار للتحقق من أن ترجمة الذكاء الاصطناعي تعمل بشكل صحيح';
+
+  @override
+  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
 }

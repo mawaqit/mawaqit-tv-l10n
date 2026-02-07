@@ -353,7 +353,7 @@
   "connectDownloadQuran": "कृपया डाउनलोड करने के लिए इंटरनेट से कनेक्ट करें",
   "playInOnlineModeQuran": "कृपया खेलने के लिए इंटरनेट से कनेक्ट करें",
   "downloaded": "डाउनलोड",
-  "switchQuranType": "{नाम} पर जाएँ",
+  "switchQuranType": "{name} पर जाएँ",
   "@switchQuranType": {
     "description": "Message shown when a reciter is added to favorites",
     "placeholders": {

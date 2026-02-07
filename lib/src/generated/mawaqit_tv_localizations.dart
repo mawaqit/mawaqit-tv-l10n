@@ -6,6 +6,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
 import 'mawaqit_tv_localizations_ar.dart';
+import 'mawaqit_tv_localizations_az.dart';
 import 'mawaqit_tv_localizations_ba.dart';
 import 'mawaqit_tv_localizations_bg.dart';
 import 'mawaqit_tv_localizations_bn.dart';
@@ -23,6 +24,7 @@ import 'mawaqit_tv_localizations_fa.dart';
 import 'mawaqit_tv_localizations_ff.dart';
 import 'mawaqit_tv_localizations_fi.dart';
 import 'mawaqit_tv_localizations_fr.dart';
+import 'mawaqit_tv_localizations_gu.dart';
 import 'mawaqit_tv_localizations_he.dart';
 import 'mawaqit_tv_localizations_hi.dart';
 import 'mawaqit_tv_localizations_hr.dart';
@@ -34,6 +36,7 @@ import 'mawaqit_tv_localizations_ko.dart';
 import 'mawaqit_tv_localizations_ku.dart';
 import 'mawaqit_tv_localizations_lt.dart';
 import 'mawaqit_tv_localizations_lv.dart';
+import 'mawaqit_tv_localizations_mk.dart';
 import 'mawaqit_tv_localizations_ms.dart';
 import 'mawaqit_tv_localizations_nl.dart';
 import 'mawaqit_tv_localizations_no.dart';
@@ -43,10 +46,12 @@ import 'mawaqit_tv_localizations_ro.dart';
 import 'mawaqit_tv_localizations_ru.dart';
 import 'mawaqit_tv_localizations_sl.dart';
 import 'mawaqit_tv_localizations_sq.dart';
+import 'mawaqit_tv_localizations_sr.dart';
 import 'mawaqit_tv_localizations_sv.dart';
 import 'mawaqit_tv_localizations_ta.dart';
 import 'mawaqit_tv_localizations_th.dart';
 import 'mawaqit_tv_localizations_tr.dart';
+import 'mawaqit_tv_localizations_tt.dart';
 import 'mawaqit_tv_localizations_uk.dart';
 import 'mawaqit_tv_localizations_ur.dart';
 import 'mawaqit_tv_localizations_vi.dart';
@@ -138,6 +143,7 @@ abstract class MawaqitTvLocalizations {
     Locale('en'),
     Locale('ar'),
     Locale('fr'),
+    Locale('az'),
     Locale('ba'),
     Locale('bg'),
     Locale('bn'),
@@ -148,12 +154,12 @@ abstract class MawaqitTvLocalizations {
     Locale('da'),
     Locale('de'),
     Locale('el'),
-    Locale.fromSubtags(languageCode: 'en', scriptCode: 'backup'),
     Locale('es'),
     Locale('et'),
     Locale('fa'),
     Locale('ff'),
     Locale('fi'),
+    Locale('gu'),
     Locale('he'),
     Locale('hi'),
     Locale('hr'),
@@ -165,6 +171,7 @@ abstract class MawaqitTvLocalizations {
     Locale('ku'),
     Locale('lt'),
     Locale('lv'),
+    Locale('mk'),
     Locale('ms'),
     Locale('nl'),
     Locale('no'),
@@ -176,15 +183,23 @@ abstract class MawaqitTvLocalizations {
     Locale('ru'),
     Locale('sl'),
     Locale('sq'),
+    Locale('sr'),
     Locale('sv'),
     Locale('ta'),
     Locale('th'),
     Locale('tr'),
+    Locale('tt'),
     Locale('uk'),
     Locale('ur'),
     Locale('vi'),
     Locale('zh')
   ];
+
+  /// No description provided for @thisIsATestFromIbrahim.
+  ///
+  /// In en, this message translates to:
+  /// **'This is a test from Ibrahim'**
+  String get thisIsATestFromIbrahim;
 
   /// No description provided for @home.
   ///
@@ -270,11 +285,29 @@ abstract class MawaqitTvLocalizations {
   /// **'Switch to staging'**
   String get forceStaging;
 
+  /// No description provided for @forcePreProduction.
+  ///
+  /// In en, this message translates to:
+  /// **'Switch to pre-production'**
+  String get forcePreProduction;
+
   /// No description provided for @disableStaging.
   ///
   /// In en, this message translates to:
   /// **'Switch to production mode'**
   String get disableStaging;
+
+  /// No description provided for @environmentSwitchSuccess.
+  ///
+  /// In en, this message translates to:
+  /// **'Environment switched successfully'**
+  String get environmentSwitchSuccess;
+
+  /// No description provided for @environmentSwitchFailed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to switch environment'**
+  String get environmentSwitchFailed;
 
   /// No description provided for @sureCloseApp.
   ///
@@ -570,28 +603,28 @@ abstract class MawaqitTvLocalizations {
   /// **'Subhan Allah wal hamdu lillah wallahu akbar (33 times) La ilaha illa Allah, wahdahu la charika lah, lahu elmoulku wa lahu elhamdu, wa hua `ala kulli chay in kadir'**
   String get azkarList1;
 
-  /// بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس
+  /// بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس - Surah An-Nas
   ///
   /// In en, this message translates to:
-  /// **''**
+  /// **'بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس'**
   String get azkarList2;
 
-  /// بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِقُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ
+  /// بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq
   ///
   /// In en, this message translates to:
-  /// **''**
+  /// **'بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ'**
   String get azkarList3;
 
-  /// بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ
+  /// بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ - Surah Al-Ikhlas
   ///
   /// In en, this message translates to:
-  /// **''**
+  /// **'بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ'**
   String get azkarList4;
 
-  /// ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ
+  /// Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255
   ///
   /// In en, this message translates to:
-  /// **''**
+  /// **'ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ'**
   String get azkarList5;
 
   /// لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد
@@ -600,52 +633,52 @@ abstract class MawaqitTvLocalizations {
   /// **'La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad'**
   String get azkarList6;
 
-  /// اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت
+  /// Sayyid al-Istighfar (Master of Seeking Forgiveness)
   ///
   /// In en, this message translates to:
-  /// **''**
+  /// **'اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت'**
   String get azkarList7;
 
-  /// أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر
+  /// Morning supplication - Protection dua
   ///
   /// In en, this message translates to:
-  /// **''**
+  /// **'أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر'**
   String get azkarList8;
 
-  /// اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات|. [ وإذا أمسى قال: اللَّهم إني أمسيت...]
+  /// Morning testimony - 4 times
   ///
   /// In en, this message translates to:
-  /// **''**
+  /// **'اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات|. [ وإذا أمسى قال: اللَّهم إني أمسيت...]'**
   String get azkarList9;
 
-  /// |اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ
+  /// Dua for wellbeing - 3 times
   ///
   /// In en, this message translates to:
-  /// **''**
+  /// **'|اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ'**
   String get azkarList10;
 
-  /// |حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ
+  /// Hasbiya Allah - 7 times
   ///
   /// In en, this message translates to:
-  /// **''**
+  /// **'|حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ'**
   String get azkarList11;
 
-  /// |رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ
+  /// Contentment with Allah - 3 times
   ///
   /// In en, this message translates to:
-  /// **''**
+  /// **'|رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ'**
   String get azkarList12;
 
-  /// |لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات
+  /// La ilaha illa Allah tawhid - 10 times
   ///
   /// In en, this message translates to:
-  /// **''**
+  /// **'|لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات'**
   String get azkarList13;
 
-  /// أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر
+  /// Morning supplication - Protection from laziness
   ///
   /// In en, this message translates to:
-  /// **''**
+  /// **'أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر'**
   String get azkarList14;
 
   /// No description provided for @jumuaaScreenTitle.
@@ -1158,6 +1191,12 @@ abstract class MawaqitTvLocalizations {
   /// **'Dutch'**
   String get nl;
 
+  /// No description provided for @ta.
+  ///
+  /// In en, this message translates to:
+  /// **'Tamil'**
+  String get ta;
+
   /// No description provided for @fr_ar.
   ///
   /// In en, this message translates to:
@@ -1432,13 +1471,13 @@ abstract class MawaqitTvLocalizations {
   ///
   /// In en, this message translates to:
   /// **'minutes before each prayer time'**
-  String get before;
+  String before(Object variable);
 
   /// No description provided for @after.
   ///
   /// In en, this message translates to:
   /// **'minutes after each prayer time'**
-  String get after;
+  String after(Object variable);
 
   /// No description provided for @updateAvailable.
   ///
@@ -2052,6 +2091,12 @@ abstract class MawaqitTvLocalizations {
   /// **'Enter RTSP URL or YouTube link'**
   String get rtspUrlHint;
 
+  /// No description provided for @urlManagedByMosqueAdmin.
+  ///
+  /// In en, this message translates to:
+  /// **'URL managed by mosque administrator'**
+  String get urlManagedByMosqueAdmin;
+
   /// No description provided for @replaceWorkflowWithStream.
   ///
   /// In en, this message translates to:
@@ -2117,6 +2162,18 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Works automatically in the background'**
   String get enablePrayerRemindersDesc;
+
+  /// Test string for AI translation verification - can be deleted after testing
+  ///
+  /// In en, this message translates to:
+  /// **'This is a test string to verify AI translation is working correctly'**
+  String get testAITranslation;
+
+  /// Test string for Crowdin CI verification - can be deleted after testing
+  ///
+  /// In en, this message translates to:
+  /// **'Test string to verify Crowdin CI workflow on develop'**
+  String get testCrowdinCI;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {
@@ -2128,23 +2185,13 @@ class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLoc
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['ar', 'ba', 'bg', 'bn', 'bs', 'ca', 'cnr', 'cs', 'da', 'de', 'el', 'en', 'es', 'et', 'fa', 'ff', 'fi', 'fr', 'he', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'ku', 'lt', 'lv', 'ms', 'nl', 'no', 'pl', 'pt', 'ro', 'ru', 'sl', 'sq', 'sv', 'ta', 'th', 'tr', 'uk', 'ur', 'vi', 'zh'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['ar', 'az', 'ba', 'bg', 'bn', 'bs', 'ca', 'cnr', 'cs', 'da', 'de', 'el', 'en', 'es', 'et', 'fa', 'ff', 'fi', 'fr', 'gu', 'he', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'ku', 'lt', 'lv', 'mk', 'ms', 'nl', 'no', 'pl', 'pt', 'ro', 'ru', 'sl', 'sq', 'sr', 'sv', 'ta', 'th', 'tr', 'tt', 'uk', 'ur', 'vi', 'zh'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_MawaqitTvLocalizationsDelegate old) => false;
 }
 
 MawaqitTvLocalizations lookupMawaqitTvLocalizations(Locale locale) {
-
-  // Lookup logic when language+script codes are specified.
-  switch (locale.languageCode) {
-    case 'en': {
-  switch (locale.scriptCode) {
-    case 'backup': return MawaqitTvLocalizationsEnBackup();
-   }
-  break;
-   }
-  }
 
   // Lookup logic when language+country codes are specified.
   switch (locale.languageCode) {
@@ -2160,6 +2207,7 @@ case 'PT': return MawaqitTvLocalizationsPtPt();
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
     case 'ar': return MawaqitTvLocalizationsAr();
+    case 'az': return MawaqitTvLocalizationsAz();
     case 'ba': return MawaqitTvLocalizationsBa();
     case 'bg': return MawaqitTvLocalizationsBg();
     case 'bn': return MawaqitTvLocalizationsBn();
@@ -2177,6 +2225,7 @@ case 'PT': return MawaqitTvLocalizationsPtPt();
     case 'ff': return MawaqitTvLocalizationsFf();
     case 'fi': return MawaqitTvLocalizationsFi();
     case 'fr': return MawaqitTvLocalizationsFr();
+    case 'gu': return MawaqitTvLocalizationsGu();
     case 'he': return MawaqitTvLocalizationsHe();
     case 'hi': return MawaqitTvLocalizationsHi();
     case 'hr': return MawaqitTvLocalizationsHr();
@@ -2188,6 +2237,7 @@ case 'PT': return MawaqitTvLocalizationsPtPt();
     case 'ku': return MawaqitTvLocalizationsKu();
     case 'lt': return MawaqitTvLocalizationsLt();
     case 'lv': return MawaqitTvLocalizationsLv();
+    case 'mk': return MawaqitTvLocalizationsMk();
     case 'ms': return MawaqitTvLocalizationsMs();
     case 'nl': return MawaqitTvLocalizationsNl();
     case 'no': return MawaqitTvLocalizationsNo();
@@ -2197,10 +2247,12 @@ case 'PT': return MawaqitTvLocalizationsPtPt();
     case 'ru': return MawaqitTvLocalizationsRu();
     case 'sl': return MawaqitTvLocalizationsSl();
     case 'sq': return MawaqitTvLocalizationsSq();
+    case 'sr': return MawaqitTvLocalizationsSr();
     case 'sv': return MawaqitTvLocalizationsSv();
     case 'ta': return MawaqitTvLocalizationsTa();
     case 'th': return MawaqitTvLocalizationsTh();
     case 'tr': return MawaqitTvLocalizationsTr();
+    case 'tt': return MawaqitTvLocalizationsTt();
     case 'uk': return MawaqitTvLocalizationsUk();
     case 'ur': return MawaqitTvLocalizationsUr();
     case 'vi': return MawaqitTvLocalizationsVi();

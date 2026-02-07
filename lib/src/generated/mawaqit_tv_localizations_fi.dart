@@ -7,6 +7,9 @@ class MawaqitTvLocalizationsFi extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsFi([String locale = 'fi']) : super(locale);
 
   @override
+  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+
+  @override
   String get home => 'Etusivu';
 
   @override
@@ -49,7 +52,16 @@ class MawaqitTvLocalizationsFi extends MawaqitTvLocalizations {
   String get forceStaging => 'Vaihda testaukseen';
 
   @override
+  String get forcePreProduction => 'Switch to pre-production';
+
+  @override
   String get disableStaging => 'Siirry tuotantoon';
+
+  @override
+  String get environmentSwitchSuccess => 'Environment switched successfully';
+
+  @override
+  String get environmentSwitchFailed => 'Failed to switch environment';
 
   @override
   String get sureCloseApp => 'Haluatko varmasti sulkea sovelluksen?';
@@ -73,7 +85,7 @@ class MawaqitTvLocalizationsFi extends MawaqitTvLocalizations {
   String get in1 => 'osoitteessa';
 
   @override
-  String get azanIn => 'Azan in';
+  String get azanIn => 'Azan sisällä';
 
   @override
   String get sec => 'Sec';
@@ -201,43 +213,43 @@ class MawaqitTvLocalizationsFi extends MawaqitTvLocalizations {
   String get azkarList1 => 'Subhan Allah wal hamdu lillah wallahu akbar (33 kertaa) La ilaha illa Allah, wahdahu la charika lah, lahu elmoulku wa lahu elhamdu, wa hua `ala kulli chay kadirissa.';
 
   @override
-  String get azkarList2 => '';
+  String get azkarList2 => 'بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس';
 
   @override
-  String get azkarList3 => '';
+  String get azkarList3 => 'بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ';
 
   @override
-  String get azkarList4 => '';
+  String get azkarList4 => 'بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ';
 
   @override
-  String get azkarList5 => '';
+  String get azkarList5 => 'ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ';
 
   @override
   String get azkarList6 => 'La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad';
 
   @override
-  String get azkarList7 => '';
+  String get azkarList7 => 'اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت';
 
   @override
-  String get azkarList8 => '';
+  String get azkarList8 => 'أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر';
 
   @override
-  String get azkarList9 => '';
+  String get azkarList9 => 'اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات|. [ وإذا أمسى قال: اللَّهم إني أمسيت...]';
 
   @override
-  String get azkarList10 => '';
+  String get azkarList10 => '|اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ';
 
   @override
-  String get azkarList11 => '';
+  String get azkarList11 => '|حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ';
 
   @override
-  String get azkarList12 => '';
+  String get azkarList12 => '|رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ';
 
   @override
-  String get azkarList13 => '';
+  String get azkarList13 => '|لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات';
 
   @override
-  String get azkarList14 => '';
+  String get azkarList14 => 'أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر';
 
   @override
   String get jumuaaScreenTitle => 'Jumuaa aika';
@@ -468,7 +480,7 @@ class MawaqitTvLocalizationsFi extends MawaqitTvLocalizations {
   String get randomHadithLanguage => 'Satunnainen hadiith kieli';
 
   @override
-  String get mosqueDefault => 'From your online configuration';
+  String get mosqueDefault => 'Online-asetuksistasi alkaen';
 
   @override
   String get en => 'Englanti';
@@ -493,6 +505,9 @@ class MawaqitTvLocalizationsFi extends MawaqitTvLocalizations {
 
   @override
   String get nl => 'Hollantilainen';
+
+  @override
+  String get ta => 'Tamil';
 
   @override
   String get fr_ar => 'Ranska Ja Arabia';
@@ -525,19 +540,19 @@ class MawaqitTvLocalizationsFi extends MawaqitTvLocalizations {
   String get retry => 'Uudelleenyritys';
 
   @override
-  String get reciterLoadError => 'Unable to load reciters';
+  String get reciterLoadError => 'Kirjoittimien lataaminen epäonnistui';
 
   @override
-  String get reciterNetworkError => 'Please check your internet connection and try again';
+  String get reciterNetworkError => 'Tarkista internet-yhteytesi ja yritä uudelleen';
 
   @override
-  String get reciterServerError => 'Server is temporarily unavailable. Please try again later';
+  String get reciterServerError => 'Palvelin ei ole tilapäisesti käytettävissä. Yritä myöhemmin uudelleen';
 
   @override
-  String get reciterTimeoutError => 'Request timed out. Please try again';
+  String get reciterTimeoutError => 'Pyyntö aikakatkaistiin. Yritä uudelleen';
 
   @override
-  String get surahLoadError => 'Unable to load surahs';
+  String get surahLoadError => 'Surahsia ei voi ladata';
 
   @override
   String get timeSetting => 'Ajan määrittäminen';
@@ -630,10 +645,14 @@ class MawaqitTvLocalizationsFi extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Tämä ominaisuus kytketään laitteen päälle ja pois päältä ennen jokaista rukousta ja sen jälkeen';
 
   @override
-  String get before => 'minuuttia ennen jokaista rukousaikaa';
+  String before(Object variable) {
+    return 'minuuttia ennen jokaista rukousaikaa';
+  }
 
   @override
-  String get after => 'minuutit jokaisen rukouksen ajan jälkeen';
+  String after(Object variable) {
+    return 'minuutit jokaisen rukouksen ajan jälkeen';
+  }
 
   @override
   String get updateAvailable => 'Päivitys saatavilla';
@@ -828,52 +847,52 @@ class MawaqitTvLocalizationsFi extends MawaqitTvLocalizations {
   String get updateFailed => 'Päivitys epäonnistui';
 
   @override
-  String get save => 'Save';
+  String get save => 'Tallenna';
 
   @override
-  String get enterRtspUrl => 'Enter RTSP or Youtube Live URL';
+  String get enterRtspUrl => 'Syötä RTSP tai Youtube Live URL';
 
   @override
-  String get addRtspUrl => 'Add your camera stream URL below';
+  String get addRtspUrl => 'Lisää kameran streamin URL alapuolelle';
 
   @override
-  String get enableRtspCamera => 'Enable Camera Streaming';
+  String get enableRtspCamera => 'Ota Kameran Suoratoistaminen Käyttöön';
 
   @override
-  String get rtspCameraSettings => 'Camera Settings';
+  String get rtspCameraSettings => 'Kameran Asetukset';
 
   @override
-  String get invalidRtspUrl => 'Invalid URL. Please check the URL and try again.';
+  String get invalidRtspUrl => 'Virheellinen URL. Tarkista URL-osoite ja yritä uudelleen.';
 
   @override
-  String get validRtspUrl => 'URL validated and saved successfully.';
+  String get validRtspUrl => 'URL vahvistettu ja tallennettu onnistuneesti.';
 
   @override
-  String get rtspCameraSettingTitle => 'Live camera connection';
+  String get rtspCameraSettingTitle => 'Live-kamerayhteys';
 
   @override
-  String get rtspCameraSettingDesc => 'Connect to your local camera and display jumua prayer stream on the TV screen.';
+  String get rtspCameraSettingDesc => 'Yhdistä paikalliseen kameraan ja näytä jumua rukous streami TV-näytöllä.';
 
   @override
-  String get rtspCameraSettingScreenDesc => 'If you enter a URL here, your screen will automatically switch to video streaming when Jumua time arrives';
+  String get rtspCameraSettingScreenDesc => 'Jos syötät URL-osoitteen tähän, näyttösi siirtyy automaattisesti videon suoratoistoon, kun Jumua saapuu';
 
   @override
-  String get validatingStream => 'Validating Stream...';
+  String get validatingStream => 'Tarkistetaan Lähetystä...';
 
   @override
-  String get checkInternetLiveCamera => 'You must connect to internet to setup the live camera';
+  String get checkInternetLiveCamera => 'Sinun täytyy muodostaa yhteys internetiin määrittääksesi live-kameran';
 
   @override
-  String get somethingWentWrong => 'Something went wrong! please try again';
+  String get somethingWentWrong => 'Jokin meni pieleen! Yritä uudelleen';
 
   @override
-  String get somethingWrong => 'Something went wrong';
+  String get somethingWrong => 'Jokin meni pieleen';
 
   @override
-  String get tryAgainLater => 'Please try again later';
+  String get tryAgainLater => 'Yritä myöhemmin uudelleen';
 
   @override
-  String get hintTextRtspUrl => 'rtsp://... or https://youtube.com/live/...';
+  String get hintTextRtspUrl => 'rtsp://... tai https://youtube.com/live/...';
 
   @override
   String get checkInternetUpdate => 'Sinun täytyy muodostaa yhteys internetiin, jotta voit tarkistaa uusia päivityksiä';
@@ -885,110 +904,119 @@ class MawaqitTvLocalizationsFi extends MawaqitTvLocalizations {
 
   @override
   String quranUpdateDialogContent(String moshafName, String version) {
-    return 'A new update for the $moshafName Quran (version $version) is available.';
+    return 'Uusi päivitys $moshafName Koraaniin (versio $version) on saatavilla.';
   }
 
   @override
-  String get ishaAndFajrOnly => 'Fajr and Isha prayers only';
+  String get ishaAndFajrOnly => 'Vain Fajr ja Isha rukoukset';
 
   @override
-  String get minutesBeforeFajrPrayer => 'minutes before fajr prayer time';
+  String get minutesBeforeFajrPrayer => 'minuuttia ennen fajrin rukousaikaa';
 
   @override
-  String get minutesAfterIshaPrayer => 'minutes afer isha prayer time';
+  String get minutesAfterIshaPrayer => 'minuuttia jälkeen isha rukousaika';
 
   @override
-  String get scheduleSaved => 'Your schedule has been saved.';
+  String get scheduleSaved => 'Aikataulu on tallennettu.';
 
   @override
-  String get completeAllFields => 'Please complete all fields before saving.';
+  String get completeAllFields => 'Täytä kaikki kentät ennen tallentamista.';
 
   @override
-  String get endTimeAfter => 'The end time must be after the start time.';
+  String get endTimeAfter => 'Päättymisajan on oltava alkamisajan jälkeen.';
 
   @override
-  String get scheduleListening => 'Scheduled Listening';
+  String get scheduleListening => 'Ajoitettu Kuuntelu';
 
   @override
-  String get enableScheduling => 'Enable Scheduling';
+  String get enableScheduling => 'Ota Ajoitus Käyttöön';
 
   @override
-  String get scheduleDesc => 'Enable this feature to automatically play a Surah at scheduled times.';
+  String get scheduleDesc => 'Ota tämä ominaisuus käyttöön toistaaksesi automaattisesti Surah ajoitettuina aikoina.';
 
   @override
-  String get startTime => 'Start Time';
+  String get startTime => 'Aloitus Aika';
 
   @override
-  String get endTime => 'End Time';
+  String get endTime => 'Loppu Aika';
 
   @override
-  String get selectReciter => 'Select a Reciter';
+  String get selectReciter => 'Valitse Reciter';
 
   @override
-  String get selectMoshaf => 'Select a Mushaf';
+  String get selectMoshaf => 'Valitse myshaf';
 
   @override
-  String get randomSurahSelection => 'Random Surah Selection';
+  String get randomSurahSelection => 'Satunnainen Surah Valinta';
 
   @override
-  String get selectSurah => 'Select a Surah';
+  String get selectSurah => 'Valitse Surah';
 
   @override
-  String get initializingAutoReading => 'Initializing in progress...';
+  String get initializingAutoReading => 'Alustetaan käynnissä...';
 
   @override
   String prayerTimeNotification(String salahName, String prayerTime) {
-    return '$salahName time ($prayerTime) notification';
+    return 'Ilmoitus: $salahName-rukouksen aika ($prayerTime)';
   }
 
   @override
-  String get scheduleInOnlineMode => 'Please connect to the internet to schedule Quran listening';
+  String get scheduleInOnlineMode => 'Ota yhteys internetiin aikatauluun Quranin kuuntelemiseksi';
 
   @override
-  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah';
+  String get duaaBetweenAdhanAndIqamaaTitle => 'Adhanin ja Iqamahin välillä ei hylätä rasitusta (Du\'a).';
 
   @override
-  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
+  String get duaBetweenAdhanIqamah => 'Adhanin ja Iqaman välillä ei hylätä täyttöä (Du\'a).';
 
   @override
-  String get processingRequest => 'Processing request...';
+  String get processingRequest => 'Käsitellään pyyntöä...';
 
   @override
-  String get loadingStream => 'Loading stream...';
+  String get loadingStream => 'Ladataan suoratoistoa...';
 
   @override
-  String get rtspUrlHint => 'Enter RTSP URL or YouTube link';
+  String get rtspUrlHint => 'Syötä RTSP URL tai YouTube-linkki';
 
   @override
-  String get replaceWorkflowWithStream => 'Automatically display the camera stream';
+  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
 
   @override
-  String get replaceAppWorkflowWithCameraStream => 'The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display';
+  String get replaceWorkflowWithStream => 'Näytä kameran virta automaattisesti';
 
   @override
-  String get streamError => 'An error occurred while streaming';
+  String get replaceAppWorkflowWithCameraStream => 'Näyttö näyttää kameran virran automaattisesti heti kun kamera alkaa nauhoittaa. jos se pysähtyy, näyttö palaa rukousaikojen näyttö';
 
   @override
-  String get finish => 'Finish';
+  String get streamError => 'Tapahtui virhe suoratoistossa';
 
   @override
-  String get schedulingAlarms => 'Scheduling on/off times...';
+  String get finish => 'Valmis';
 
   @override
-  String get alarmsSucessSchedule => 'On/Off triggers scheduled successfully';
+  String get schedulingAlarms => 'Ajoitetaan kertaa/pois ajasta...';
 
   @override
-  String get alarmsScheduleFailure => 'Failed to schedule On/Off triggers';
+  String get alarmsSucessSchedule => 'Käynnissä/Pois päältä -käynnistimet ajoitettu onnistuneesti';
 
   @override
-  String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
+  String get alarmsScheduleFailure => 'Käynnistin/pois päältä -laukaisinten ajoitus epäonnistui';
 
   @override
-  String get prayerTimeNotificationDesc => 'Get the adhan at prayer times, even when the app is closed';
+  String get prayerTimeNotificationTitle => 'Rukouksen Ajan Ilmoitukset';
 
   @override
-  String get enablePrayerReminders => 'Enable Prayer Reminders';
+  String get prayerTimeNotificationDesc => 'Hanki adhan rukouksen aikana, vaikka sovellus on suljettu';
 
   @override
-  String get enablePrayerRemindersDesc => 'Works automatically in the background';
+  String get enablePrayerReminders => 'Ota Rukousmuistutukset Käyttöön';
+
+  @override
+  String get enablePrayerRemindersDesc => 'Toimii automaattisesti taustalla';
+
+  @override
+  String get testAITranslation => 'Tämä on testi merkkijono tarkistaa tekoälyn käännös toimii oikein';
+
+  @override
+  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
 }

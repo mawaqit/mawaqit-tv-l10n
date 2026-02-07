@@ -7,6 +7,9 @@ class MawaqitTvLocalizationsBs extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsBs([String locale = 'bs']) : super(locale);
 
   @override
+  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+
+  @override
   String get home => 'Početna';
 
   @override
@@ -49,7 +52,16 @@ class MawaqitTvLocalizationsBs extends MawaqitTvLocalizations {
   String get forceStaging => 'Prijeđite na prikaz';
 
   @override
+  String get forcePreProduction => 'Switch to pre-production';
+
+  @override
   String get disableStaging => 'Prijeđite na modus izrade';
+
+  @override
+  String get environmentSwitchSuccess => 'Environment switched successfully';
+
+  @override
+  String get environmentSwitchFailed => 'Failed to switch environment';
 
   @override
   String get sureCloseApp => 'Da li ste sigurni da želite izaći iz aplikacije?';
@@ -73,7 +85,7 @@ class MawaqitTvLocalizationsBs extends MawaqitTvLocalizations {
   String get in1 => 'za';
 
   @override
-  String get azanIn => 'Azan in';
+  String get azanIn => 'Ezan za';
 
   @override
   String get sec => 'Sek';
@@ -186,7 +198,7 @@ class MawaqitTvLocalizationsBs extends MawaqitTvLocalizations {
   String get alAdhan => 'Ezan';
 
   @override
-  String get turnOfPhones => 'Molimo vas da svoje telefone prebacite u NEČUJNI način rada';
+  String get turnOfPhones => 'Molimo vas, utišajte ili isključite svoje telefone!';
 
   @override
   String get iqamaIn => 'Ikamet za';
@@ -201,16 +213,16 @@ class MawaqitTvLocalizationsBs extends MawaqitTvLocalizations {
   String get azkarList1 => 'Subhanellahi – 33 puta; El-Hamdu lillahi – 33 puta; Allahu ekber – 33 puta (Buhari, Muslim, Nesa’i); ili svaku od ove tri riječi po 11 puta.\nLa ilahe illellahu vahdehu la šerike leh, lehu-l-mulku ve lehu-l-hamdu ve huve ‘ala kulli šej-in kadir';
 
   @override
-  String get azkarList2 => '';
+  String get azkarList2 => 'U ime Allaha, Milostivog, Samilosnog! 1. Reci: \"Tražim zaštitu Gospodara ljudi, 2. Vladara ljudi, 3. Boga ljudi, 4. od zla šejtana-napasnika, 5. koji zle misli unosi u srca ljudi – 6. od džina i od ljudi!\"';
 
   @override
-  String get azkarList3 => '';
+  String get azkarList3 => 'U ime Allaha, Milostivog, Samilosnog! 1. Reci: \"Utječem se Gospodaru svitanja. 2. od zla onoga što On stvara, 3. i od zla mrkle noći kada razastre tmine, 4. i od zla onih koje u čvorove pušu 5. i od zla zavidljivca kad zavist ne krije!\"';
 
   @override
-  String get azkarList4 => '';
+  String get azkarList4 => 'U ime Allaha, Milostivog, Samilosnog! 1. Reci: \"On je Allah – Jedan! 2. Allah je Utočište svakom! 3. Nije rodio i rođen nije, 4. i niko Mu ravan nije!\"';
 
   @override
-  String get azkarList5 => '';
+  String get azkarList5 => 'Allah je – nema boga osim Njega – Živi i Vječni! Ne obuzima Ga ni drijemež ni san! Njegovo je ono što je na nebesima i ono što je na Zemlji! Ko se može pred Njim zauzimati za nekoga bez dopuštenja Njegova?! On zna šta je bilo i prije njih i šta će biti poslije njih, a od onoga što On zna – drugi znaju samo onoliko koliko On želi. Njegova Kursija obuhvaća i nebesa i Zemlju i Njemu ne dojadi održavanje njihovo; On je Svevišnji, Veličanstveni!';
 
   @override
   String get azkarList6 => 'La ilahe illellahu vahdehu la šerike leh, lehu-l-mulku ve lehu-l-hamdu ve huve ‘ala kulli šej-in kadir';
@@ -237,7 +249,7 @@ class MawaqitTvLocalizationsBs extends MawaqitTvLocalizations {
   String get azkarList13 => 'Nema boga osim Allaha, Jedinoga, Koji druga nema. Njemu pripada vlast nad svim i sva pohvala. On sve može. (Ponavlja se 10 puta)\n(Muslim)';
 
   @override
-  String get azkarList14 => '';
+  String get azkarList14 => 'Osvanusmo i osvanu svekolika Allahova vlast. Hvala Allahu i nema boga osim Njega Jedinog, Koji druga nema. Njemu pripada sva vlast i svaka pohvala i on nad svačim ima moć. Allahu, molim Te za sva dobra ovog dana i za dobra poslije njega. I utječem ti se od zla ovog dana i zla poslije njega. Gospodaru moj, Tebi se sklanjam pred lijenošću i zlohudom ohološću. Tebi se sklanjam pred kaznom Džehennema i kaburskom kaznom. (Muslim)';
 
   @override
   String get jumuaaScreenTitle => 'Vrijeme džuma namaza';
@@ -399,7 +411,7 @@ class MawaqitTvLocalizationsBs extends MawaqitTvLocalizations {
   String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
 
   @override
-  String get secondaryScreenExplanation => 'Za sekundarnu prostoriju za namaz (ženska prostorija ili neki drugi sprat), ovaj ekran će prikazati Džumu-namaz uživo';
+  String get secondaryScreenExplanation => 'Za sekundarnu prostoriju (ženska prostorija za namaz ili neki drugi sprat), ovaj ekran će prikazati Džumu-namaz uživo';
 
   @override
   String get mainScreenExplanation => 'Za glavnu prostoriju džamije, ovaj ekran neće prikazivati ​​direktan prijenos Džume namaza';
@@ -468,7 +480,7 @@ class MawaqitTvLocalizationsBs extends MawaqitTvLocalizations {
   String get randomHadithLanguage => 'Slučajni jezik hadisa';
 
   @override
-  String get mosqueDefault => 'From your online configuration';
+  String get mosqueDefault => 'Iz vaše online konfiguracije';
 
   @override
   String get en => 'Engleski';
@@ -493,6 +505,9 @@ class MawaqitTvLocalizationsBs extends MawaqitTvLocalizations {
 
   @override
   String get nl => 'Holandski';
+
+  @override
+  String get ta => 'Tamil';
 
   @override
   String get fr_ar => 'Francuski & Arapski';
@@ -525,19 +540,19 @@ class MawaqitTvLocalizationsBs extends MawaqitTvLocalizations {
   String get retry => 'Pokušajte ponovo';
 
   @override
-  String get reciterLoadError => 'Unable to load reciters';
+  String get reciterLoadError => 'Nije moguće učitati učače';
 
   @override
-  String get reciterNetworkError => 'Please check your internet connection and try again';
+  String get reciterNetworkError => 'Provjerite vašu internet vezu i pokušajte ponovo';
 
   @override
-  String get reciterServerError => 'Server is temporarily unavailable. Please try again later';
+  String get reciterServerError => 'Server je privremeno nedostupan. Molimo pokušajte kasnije';
 
   @override
-  String get reciterTimeoutError => 'Request timed out. Please try again';
+  String get reciterTimeoutError => 'Zahtjev je istekao. Molimo pokušajte ponovo';
 
   @override
-  String get surahLoadError => 'Unable to load surahs';
+  String get surahLoadError => 'Nije moguće učitati sure';
 
   @override
   String get timeSetting => 'Podešavanje vremena';
@@ -630,10 +645,14 @@ class MawaqitTvLocalizationsBs extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Ova funkcija uključuje/isključuje uređaj prije i poslije svakog namaza';
 
   @override
-  String get before => 'minuta prije svakog namaza';
+  String before(Object variable) {
+    return 'minuta prije svakog namaza';
+  }
 
   @override
-  String get after => 'minuta nakon svakog namaza';
+  String after(Object variable) {
+    return 'minuta nakon svakog namaza';
+  }
 
   @override
   String get updateAvailable => 'Dostupno je ažuriranje';
@@ -792,43 +811,43 @@ class MawaqitTvLocalizationsBs extends MawaqitTvLocalizations {
   String get surahSelector => 'Odaberi suru';
 
   @override
-  String get checkForUpdates => 'Check for Updates';
+  String get checkForUpdates => 'Provjeri ažuriranja';
 
   @override
-  String get checkForNewVersion => 'Check if a new version is available';
+  String get checkForNewVersion => 'Provjeri da li je dostupna nova verzija';
 
   @override
-  String get wouldYouLikeToUpdate => 'Would you like to update the app?';
+  String get wouldYouLikeToUpdate => 'Želite li ažurirati aplikaciju?';
 
   @override
-  String get updateCompleted => 'Update completed successfully!';
+  String get updateCompleted => 'Ažuriranje je uspješno završeno!';
 
   @override
-  String get noUpdates => 'No Updates';
+  String get noUpdates => 'Nema ažuriranja';
 
   @override
-  String get usingLatestVersion => 'You are using the latest version.';
+  String get usingLatestVersion => 'Koristite najnoviju verziju.';
 
   @override
   String get updateCancelled => 'Update cancelled';
 
   @override
-  String get checkingUpdates => 'Checking updates...';
+  String get checkingUpdates => 'Provjeravam ažuriranja...';
 
   @override
   String get downloadingUpdate => 'Downloading update...';
 
   @override
-  String get installingUpdate => 'Installing update...';
+  String get installingUpdate => 'Instaliram ažuriranje...';
 
   @override
-  String get updateCompletedSuccessfully => 'Update completed successfully';
+  String get updateCompletedSuccessfully => 'Ažuriranje je uspješno završeno.';
 
   @override
-  String get updateFailed => 'Update failed';
+  String get updateFailed => 'Ažuriranje nije uspjelo';
 
   @override
-  String get save => 'Save';
+  String get save => 'Sačuvaj';
 
   @override
   String get enterRtspUrl => 'Enter RTSP or Youtube Live URL';
@@ -867,7 +886,7 @@ class MawaqitTvLocalizationsBs extends MawaqitTvLocalizations {
   String get somethingWentWrong => 'Something went wrong! please try again';
 
   @override
-  String get somethingWrong => 'Something went wrong';
+  String get somethingWrong => 'Nešto nije u redu';
 
   @override
   String get tryAgainLater => 'Please try again later';
@@ -876,11 +895,11 @@ class MawaqitTvLocalizationsBs extends MawaqitTvLocalizations {
   String get hintTextRtspUrl => 'rtsp://... or https://youtube.com/live/...';
 
   @override
-  String get checkInternetUpdate => 'You must connect to internet to check for new updates';
+  String get checkInternetUpdate => 'Morate se povezati na internet kako biste provjerili nova ažuriranja';
 
   @override
   String appUpdateAvailable(String currentVersion, String updatedVersion) {
-    return 'Your app is running version $currentVersion. A new update (version $updatedVersion) is available with the latest features and improvements.';
+    return 'Vaša aplikacija koristi verziju $currentVersion. Dostupno je novo ažuriranje (verzija $updatedVersion) sa najnovijim funkcijama i poboljšanjima.';
   }
 
   @override
@@ -951,44 +970,53 @@ class MawaqitTvLocalizationsBs extends MawaqitTvLocalizations {
   String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
 
   @override
-  String get processingRequest => 'Processing request...';
+  String get processingRequest => 'Obrada zahtjeva u toku...';
 
   @override
-  String get loadingStream => 'Loading stream...';
+  String get loadingStream => 'Učitavanje strima(prenos)...';
 
   @override
-  String get rtspUrlHint => 'Enter RTSP URL or YouTube link';
+  String get rtspUrlHint => 'Unesite RTSP URL ili YouTube link';
 
   @override
-  String get replaceWorkflowWithStream => 'Automatically display the camera stream';
+  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
 
   @override
-  String get replaceAppWorkflowWithCameraStream => 'The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display';
+  String get replaceWorkflowWithStream => 'Automatski prikazuj strim kamere';
 
   @override
-  String get streamError => 'An error occurred while streaming';
+  String get replaceAppWorkflowWithCameraStream => 'Kada kamera počne sa snimanjem, ekran će automatski prikazivati njen strim; po završetku snimanja, ekran se vraća na prikaz namaskih vremena';
 
   @override
-  String get finish => 'Finish';
+  String get streamError => 'Došlo je do greške tokom prijenosa';
 
   @override
-  String get schedulingAlarms => 'Scheduling on/off times...';
+  String get finish => 'Završi';
 
   @override
-  String get alarmsSucessSchedule => 'On/Off triggers scheduled successfully';
+  String get schedulingAlarms => 'Zakazivanje vremena uključenja/isključenja...';
 
   @override
-  String get alarmsScheduleFailure => 'Failed to schedule On/Off triggers';
+  String get alarmsSucessSchedule => 'Pokretači uključenja/isključenja su uspješno zakazani';
 
   @override
-  String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
+  String get alarmsScheduleFailure => 'Neuspjelo zakazivanje pokretača uključenja/isključenja';
 
   @override
-  String get prayerTimeNotificationDesc => 'Get the adhan at prayer times, even when the app is closed';
+  String get prayerTimeNotificationTitle => 'Obavještenja o vremenima namaza';
 
   @override
-  String get enablePrayerReminders => 'Enable Prayer Reminders';
+  String get prayerTimeNotificationDesc => 'Primajte ezan u vrijeme namaza, čak i kada je aplikacija zatvorena';
 
   @override
-  String get enablePrayerRemindersDesc => 'Works automatically in the background';
+  String get enablePrayerReminders => 'Omogući podsjetnike za namaz';
+
+  @override
+  String get enablePrayerRemindersDesc => 'Radi automatski u pozadini';
+
+  @override
+  String get testAITranslation => 'Ovo je testna rečenica za provjeru ispravnosti AI prevoda';
+
+  @override
+  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
 }

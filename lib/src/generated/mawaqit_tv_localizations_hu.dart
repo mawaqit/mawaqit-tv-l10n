@@ -7,6 +7,9 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsHu([String locale = 'hu']) : super(locale);
 
   @override
+  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+
+  @override
   String get home => 'Kezdőlap';
 
   @override
@@ -49,7 +52,16 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get forceStaging => 'Váltás tesztkörnyezetre';
 
   @override
+  String get forcePreProduction => 'Switch to pre-production';
+
+  @override
   String get disableStaging => 'Váltás éles üzemmódra';
+
+  @override
+  String get environmentSwitchSuccess => 'Environment switched successfully';
+
+  @override
+  String get environmentSwitchFailed => 'Failed to switch environment';
 
   @override
   String get sureCloseApp => 'Biztos, hogy ki akarsz lépni az alkalmazásból?';
@@ -73,7 +85,7 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get in1 => 'Be';
 
   @override
-  String get azanIn => 'Azan in';
+  String get azanIn => 'Azán hátralévő ideje:';
 
   @override
   String get sec => 'Másodperc';
@@ -237,7 +249,7 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get azkarList13 => 'Nincs más jogosan imádható isten Allahon kívül, Ő egyedül létezik, nincs Neki társa, Övé a tulajdon és az Övé a hála és Ő minden dologra képes |ismételd tízszer|';
 
   @override
-  String get azkarList14 => '';
+  String get azkarList14 => 'Reggelre keltünk és reggel eme idejében (is) Allahoz tartozik minden tulajdon, és minden hála és dicséret Allahot illeti, nincs más jogosan imádható isten Allahon kívül, Ő egyedül létezik, nincs Neki társa, Övé a tulajdon és Őt illeti a hála és Ő minden dologra képes. Uram, kérek Tőled minden jót, ami ebben a napban van és minden jót, ami utána következik. És menedéket keresek Nálad minden gonosztól, ami ebben az napban van és minden rossztól, ami utána jön. Uram, menedéket keresek nálad a lustaságtól, és az időskor tehetetlenségétől. Uram, menedéket keresek nálad a tűz kínzásától és a sírbani büntetéstől';
 
   @override
   String get jumuaaScreenTitle => 'Pénteki imaidő';
@@ -468,7 +480,7 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get randomHadithLanguage => 'Tetszőleges hadith nyelve';
 
   @override
-  String get mosqueDefault => 'From your online configuration';
+  String get mosqueDefault => 'Online beállításaidból';
 
   @override
   String get en => 'angol';
@@ -493,6 +505,9 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
 
   @override
   String get nl => 'holland';
+
+  @override
+  String get ta => 'Tamil';
 
   @override
   String get fr_ar => 'francia és arab';
@@ -525,19 +540,19 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get retry => 'Újrapróbálkozás';
 
   @override
-  String get reciterLoadError => 'Unable to load reciters';
+  String get reciterLoadError => 'Nem sikerült betölteni a recitátorokat';
 
   @override
-  String get reciterNetworkError => 'Please check your internet connection and try again';
+  String get reciterNetworkError => 'Kérjük, ellenőrizd az internetkapcsolatodat, és próbáld újra';
 
   @override
-  String get reciterServerError => 'Server is temporarily unavailable. Please try again later';
+  String get reciterServerError => 'A szerver átmenetileg nem elérhető. Kérjük, próbáld meg később újra';
 
   @override
-  String get reciterTimeoutError => 'Request timed out. Please try again';
+  String get reciterTimeoutError => 'A kérés időtúllépés miatt nem teljesült. Kérjük, próbáld újra';
 
   @override
-  String get surahLoadError => 'Unable to load surahs';
+  String get surahLoadError => 'Nem sikerült betölteni a szúrákat';
 
   @override
   String get timeSetting => 'Az idő beállítása';
@@ -630,10 +645,14 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Ez a funkció az eszközt minden imára hívás (adhan) előtt és után be- és kikapcsolja';
 
   @override
-  String get before => 'imaidőig hátra lévő percek';
+  String before(Object variable) {
+    return 'imaidőig hátra lévő percek';
+  }
 
   @override
-  String get after => 'percek minden imaidő után';
+  String after(Object variable) {
+    return 'percek minden imaidő után';
+  }
 
   @override
   String get updateAvailable => 'Frissítés elérhető';
@@ -934,61 +953,70 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get selectSurah => 'Válassz egy szúrát';
 
   @override
-  String get initializingAutoReading => 'Initializing in progress...';
+  String get initializingAutoReading => 'Inicializálás folyamatban...';
 
   @override
   String prayerTimeNotification(String salahName, String prayerTime) {
-    return '$salahName time ($prayerTime) notification';
+    return '$salahName ideje ($prayerTime) értesítés';
   }
 
   @override
-  String get scheduleInOnlineMode => 'Please connect to the internet to schedule Quran listening';
+  String get scheduleInOnlineMode => 'Kérjük, csatlakozz az internethez a Korán hallgatásának ütemezéséhez.';
 
   @override
-  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah';
+  String get duaaBetweenAdhanAndIqamaaTitle => 'A kérések (Du\'a) nem kerülnek elutasításra az Adhán és az Iqáma között.';
 
   @override
-  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
+  String get duaBetweenAdhanIqamah => 'A kérés (Du\'a) nem kerül elutasításra az Adhán és az Iqámah között.';
 
   @override
-  String get processingRequest => 'Processing request...';
+  String get processingRequest => 'Kérés feldolgozása...';
 
   @override
-  String get loadingStream => 'Loading stream...';
+  String get loadingStream => 'Stream betöltése...';
 
   @override
-  String get rtspUrlHint => 'Enter RTSP URL or YouTube link';
+  String get rtspUrlHint => 'Add meg az RTSP URL-t vagy a YouTube linket';
 
   @override
-  String get replaceWorkflowWithStream => 'Automatically display the camera stream';
+  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
 
   @override
-  String get replaceAppWorkflowWithCameraStream => 'The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display';
+  String get replaceWorkflowWithStream => 'A kamera stream automatikus megjelenítése';
 
   @override
-  String get streamError => 'An error occurred while streaming';
+  String get replaceAppWorkflowWithCameraStream => 'A képernyő automatikusan megjeleníti a kamera streamet, amint a kamera elkezd rögzíteni; ha leáll, a képernyő visszatér az imaidők kijelzéséhez';
 
   @override
-  String get finish => 'Finish';
+  String get streamError => 'Hiba történt a streamelés közben';
 
   @override
-  String get schedulingAlarms => 'Scheduling on/off times...';
+  String get finish => 'Befejezés';
 
   @override
-  String get alarmsSucessSchedule => 'On/Off triggers scheduled successfully';
+  String get schedulingAlarms => 'Be- és kikapcsolási idők ütemezése...';
 
   @override
-  String get alarmsScheduleFailure => 'Failed to schedule On/Off triggers';
+  String get alarmsSucessSchedule => 'A be-/kikapcsolás ütemezése sikeres';
 
   @override
-  String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
+  String get alarmsScheduleFailure => 'A be-/kikapcsolás ütemezése sikertelen';
 
   @override
-  String get prayerTimeNotificationDesc => 'Get the adhan at prayer times, even when the app is closed';
+  String get prayerTimeNotificationTitle => 'Imaidő értesítések';
 
   @override
-  String get enablePrayerReminders => 'Enable Prayer Reminders';
+  String get prayerTimeNotificationDesc => 'Kapd meg az adhan-t imaidőkor, még akkor is, ha az alkalmazás be van zárva';
 
   @override
-  String get enablePrayerRemindersDesc => 'Works automatically in the background';
+  String get enablePrayerReminders => 'Imaemlékeztetők engedélyezése';
+
+  @override
+  String get enablePrayerRemindersDesc => 'Automatikusan működik a háttérben';
+
+  @override
+  String get testAITranslation => 'Ez egy teszt szöveg annak ellenőrzésére, hogy az AI fordítás megfelelően működik.';
+
+  @override
+  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
 }

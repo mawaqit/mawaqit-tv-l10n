@@ -7,6 +7,9 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsSq([String locale = 'sq']) : super(locale);
 
   @override
+  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+
+  @override
   String get home => 'Faqja e parë';
 
   @override
@@ -46,10 +49,19 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get quit => 'Dilni!';
 
   @override
-  String get forceStaging => 'Kalo në skenë';
+  String get forceStaging => 'Kalo në fazën e testimit (staging)';
+
+  @override
+  String get forcePreProduction => 'Switch to pre-production';
 
   @override
   String get disableStaging => 'Kalo në modalitetin e prodhimit';
+
+  @override
+  String get environmentSwitchSuccess => 'Environment switched successfully';
+
+  @override
+  String get environmentSwitchFailed => 'Failed to switch environment';
 
   @override
   String get sureCloseApp => 'Jeni i sigurt që dëshironi të dilni nga aplikacioni?';
@@ -73,30 +85,30 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get in1 => 'pas';
 
   @override
-  String get azanIn => 'Azan in';
+  String get azanIn => 'Ezani pas';
 
   @override
   String get sec => 'Sek';
 
   @override
-  String get online => 'Në linjë';
+  String get online => 'Online';
 
   @override
-  String get missingMosqueId => 'Mungon MEWAQIT #ID ose #ID e xhamise';
+  String get missingMosqueId => '#ID i MAWAQIT ose #ID i XHAMISË mungon.';
 
   @override
   String mosqueIdIsNotValid(Object mosqueId) {
-    return '$mosqueId nuk është një id i vlefshëm i xhamisë';
+    return '$mosqueId nuk është id i vlefshëm i xhamisë';
   }
 
   @override
-  String get selectMosqueId => 'Shkruani ID-në e Xhamisë';
+  String get selectMosqueId => 'Ju lutem shkruani ID-në e XHAMISË tuaj';
 
   @override
   String get mawaqitWelcome => 'Mirë se vini në MAWAQIT';
 
   @override
-  String get mawaqitDesc => 'Ess-selamu alejkum!\nAllahu ua shpërbleftë për zgjedhjen e MAWAQIT- rrjetit të parë dhe numër një në botë i Xhamive inteligjente, i përdorur nga miliona muslimanë në mbarë botën. (85+ vende që nga viti 2016.)\n\nNe ju ofrojmë ekranin më të avancuar të Smart Xhamisë, i disponueshëm në pajisje të shumta (Mobile, Orë inteligjente, Ekrane TV), pa mbledhur ose ndarë të dhënat tuaja personale.\n\nJu lutemi mbështesni këtë projekt të bekuar këtu: https://donate.mawaqit.net\n\nNe jemi një organizatë jofitimprurëse, dhe ky projekt është një \"Vakf fi sebilil-lah\" (Vakf i për hire të Allahut).\n\nDonacionet tuaja e mbajnë këtë projekt të disponueshëm për këdo dhe kudo dhe plotësisht FALAS pa çdo tarifë, pa REKLAMA dhe NUK KA ABONIM MUJOR.\n\nKy projekt nuk do të bëhej i mundur pa ndihmën e Allahut që mblodhi së bashku një komunitet pasionant vullnetarësh të talentuar dhe të pasionuar, që punojnë ditë e natë për t\'ju ofruar shërbimin më të mirë të mundshëm dhe një gjendje të sistemit të disponueshëm 24/7.\n\nJu lutemi merrni parasysh të dhuroni për të vazhduar këtë projekt të bekuar. Baraka\'Allah fikom për besimin dhe mbështetjen tuaj të vazhdueshme.\n\n';
+  String get mawaqitDesc => '**Assalamu Alaikum, dhe Baraka\'Allah fikom për zgjedhjen e MAWAQIT, Rrjeti i Parë dhe më i Miri i Xhamive Inteligjente në Botë, i përdorur nga miliona muslimanë në mbarë botën, në më shumë se 85 shtete që nga viti 2016.**\n\nNe ju ofrojmë Shfaqjen më të Avancuar të Xhamisë Inteligjente, të disponueshme në pajisje të shumta (Telefon, Orë të mençura, Ekrane TV), pa mbledhur apo ndarë të dhënat tuaja personale.\n\nJu lutem mbështesni këtë projekt të bekuar këtu: [https://donate.mawaqit.net](https://donate.mawaqit.net)\n\nNe jemi një organizatë jofitimprurëse dhe ky projekt është një “Waqf fi’sabili Allah” (Pasuri e dedikuar për rrugën e Allahut).\n\nDonacionet e juaja e mbajnë këtë projekt në dispozicion për këdo, kudo, krejtësisht FALAS, pa asnjë tarifë, pa REKLAMAT dhe pa PAGESË MUJORE.\n\nKy projekt nuk do të ishte i mundur pa ndihmën e Allahut, i cili bashkoi një komunitet pasionant të vullnetarëve të talentuar që punojnë ditë e natë për t\'ju ofruar shërbimin më të mirë dhe një sistem të avancuar të disponueshëm 24/7.\n\nJu lutemi, merrni parasysh donacionet/sadakatë për të mbështetur këtë projekt të bekuar. Baraka\'Allah fikom për besimin dhe mbështetjen tuaj të vazhdueshme.\n\n';
 
   @override
   String get privacyPolicy => 'Politika e privatësisë';
@@ -114,7 +126,7 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get drawerDesc => 'Connecting Muslims to Mosques';
 
   @override
-  String get backendError => 'Na vjen keq, nuk mundëm të lidheshim me serverin.\nJu lutemi verifikoni lidhjen me internetin ose provoni përsëri më vonë.';
+  String get backendError => 'Na vjen keq, nuk mund të lidhemi me serverin.\nJu lutemi verifikoni lidhjen me internetin ose provoni përsëri më vonë.';
 
   @override
   String get selectWithMosqueId => 'Provoni: 256, është ID e \'Xhamisë së Parisit\'';
@@ -123,13 +135,13 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get searchForMosque => 'Cilën xhami po kërkoni ? (ID, Emri, Qyteti, Kodi Postar...)';
 
   @override
-  String get searchMosque => 'Kërkoni për një xhami';
+  String get searchMosque => 'Kërkoni xhamitë';
 
   @override
   String get mosqueNameError => 'Shkruani emrin e xhamisë';
 
   @override
-  String get slugError => 'Nuk është një id i vlefshëm i xhamisë';
+  String get slugError => 'Id i xhamisë nuk është i vlefshëm';
 
   @override
   String get doYouKnowMosqueId => 'A e dini ID-në tuaj të instalimit apo ID-në tuaj të Xhamisë?';
@@ -150,13 +162,13 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get mosqueNoResults => 'Na vjen keq, nuk ka rezultate';
 
   @override
-  String get offline => 'Jashtë linje';
+  String get offline => 'Offline';
 
   @override
   String get imsak => 'Imsaku';
 
   @override
-  String get jumua => 'E Xhuma';
+  String get jumua => 'Xhumaja';
 
   @override
   String get duhr => 'Dreka';
@@ -177,7 +189,7 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get afterAdhanHadithTitle => 'Duaja pas Ezanit';
 
   @override
-  String get afterSalahHadith => 'O Allahu im, Zot i kësaj thirrje të plotë dhe i namazit që do të falet, jepi Muhamedit ndërmjetësimin dhe nderimin, si dhe dërgoje atë në vendin e lavdishëm të cilin ia ke premtuar.';
+  String get afterSalahHadith => 'Allahumma Rabba hadhihid-da\'wati-ttammati, was-salatil-qa\'imati, ati Muhammadanil-wasilata wal-fadhilata, wab\'athu maqaman mahmuda nilladhi wa \'adtahu.\n\"O Allah, Zoti i kësaj thirrjeje të përsosur (Da’wah) dhe i lutjes së vendosur (As-Salat), jep Muhammedit (Paqja dhe bekimi i Allahut qoftë mbi të) Wasilah dhe madhështi, dhe ngrite atë në një pozicion të lavdërueshëm, të cilin Ti i ke premtuar.\"\n\n';
 
   @override
   String get alIqama => 'Ikameti';
@@ -186,7 +198,7 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get alAdhan => 'Ezani';
 
   @override
-  String get turnOfPhones => 'Ju lutemi, bërë telefonin të pazëshëm!';
+  String get turnOfPhones => 'Ju lutemi, fikni telefonin tuaj.';
 
   @override
   String get iqamaIn => 'Ikameti në';
@@ -237,7 +249,7 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get azkarList13 => 'La ilahe il-lAll-llahu vahdehu la sherike leh, lehul-Mulku ve lehul-hamdu ve huve ala kul-li shejin kadir (100 herë në mëngjes).\n\nS\'ka të adhuruar përveç All-llahut, Një dhe i pashoq, Atij i takon sundimi dhe lavdërimi. Ai është i plotfuqishëm mbi çdo send.';
 
   @override
-  String get azkarList14 => '';
+  String get azkarList14 => 'E arritëm mëngjesin, e gjithë pasuria i takon Allahut. Falënderimi është për Allahun, nuk ka të adhuruar me të drejtë përveç Allahut i Cili është Një dhe i Pashoq. Atij i takon sundimi dhe falënderimi, Ai është i Plotfuqishëm mbi çdo gjë. O Zot, prej Teje e kërkoj të mirën e kësaj dite dhe të ditëve tjera dhe prej Teje e kërkoj mbrojtjen nga e liga e kësaj dite dhe e ditëve tjera. O Zot, kërkoj mbrojtjen Tënde nga përtacia dhe mendjemadhësia. O Zot, më mbro nga dënimi i zjarrit dhe nga dënimi i varrit.';
 
   @override
   String get jumuaaScreenTitle => 'Koha e Xhumase';
@@ -375,7 +387,7 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get mainScreenOrSecondaryScreen => 'Vendndodhja e ekranit';
 
   @override
-  String get mainScreenOrSecondaryScreenEXPLINATION => 'Dëshiron ta instalosh këtë ekran në dhomën kryesore të lutjes (dhomë lutjeje për burra)?';
+  String get mainScreenOrSecondaryScreenEXPLINATION => 'Dëshiron ta instalosh këtë ekran në hapësiren kryesore të xhamisë (dhomë lutjeje për burra)?';
 
   @override
   String get mainScreen => 'Ekrani kryesor';
@@ -393,13 +405,13 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get normalMode => 'Modaliteti normal';
 
   @override
-  String get announcementOnlyModeEXPLINATION => 'Zgjidhni nëse ekrani juaj do të shfaqë njoftime gjatë gjithë kohës, kjo mund të jetë e dobishme nëse instaloni ekranin në hyrje për shembull.';
+  String get announcementOnlyModeEXPLINATION => 'Zgjidhni nëse ekrani juaj do të shfaqë njoftime gjatë gjithë kohës, kjo mund të jetë e dobishme nëse instaloni ekranin në hyrje të xhamisë.';
 
   @override
   String get duaaElEftarText => ' “Allahu im, për hir Tënden agjërova, me atë që më kë furnizuar bëjë iftar. Etja shkoi, damarët u njomën. Inshallah (dashtë Allahu) edhe shpërblimi dhe mirësia m’u caktuan.” ';
 
   @override
-  String get secondaryScreenExplanation => 'Për një dhomë lutjeje dytësore (dhomë grash ose një kat tjetër për shembull), ky ekran do të shfaqë transmetimin e drejtpërdrejtë të Xhumasë';
+  String get secondaryScreenExplanation => 'Për një dhomë ose hapësire lutjeje dytësore (dhomë grash ose një kat tjetër për shembull), ky ekran do të shfaqë transmetimin e drejtpërdrejtë të Xhumasë';
 
   @override
   String get mainScreenExplanation => 'Për pjesën kryesore të xhamisë, ky ekran nuk do të shfaqë transmetimin e drejtpërdrejtë të Xhumasë';
@@ -411,13 +423,13 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get announcementOnlyModeExplanation => 'Do të shfaqë njoftimet gjatë gjithë kohës';
 
   @override
-  String get orientation => 'Orjentimi';
+  String get orientation => 'Orientimi';
 
   @override
-  String get selectYourMawaqitTvAppOrientation => 'Zgjidhni orientimin e aplikacionit tuaj mawaqit tv';
+  String get selectYourMawaqitTvAppOrientation => 'Zgjidhni orientimin e aplikacionit tuaj Mawaqit tv';
 
   @override
-  String get deviceDefault => 'Parazgjedhja e pajisjes';
+  String get deviceDefault => '\"Vendosja standarde e Pajisjes\"';
 
   @override
   String get deviceDefaultBTNDescription => 'Mawaqit do të zgjedhë automatikisht orientimin e paracaktuar bazuar në orientimin e ekranit';
@@ -450,10 +462,10 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'Nëse keni probleme me aplikacionin, përpiquni ta aktivizoni këtë opsion';
 
   @override
-  String get hijriAdjustments => 'Rregullimet sipas hixhretit';
+  String get hijriAdjustments => 'Rregullime Lokale/Kalendari Hixhri';
 
   @override
-  String get hijriAdjustmentsDescription => 'Rregulloni datën hixhri në vend në pajisjen tuaj. Kjo nuk do të ndikojë në cilësimet e xhamisë në internet';
+  String get hijriAdjustmentsDescription => 'Rregulloni datën e hixhrit në pajisjen tuaj. Kjo nuk do të ndikojë në cilësimet e xhamisë në internet';
 
   @override
   String get backoffice_default => 'Backoffice Defaults';
@@ -465,10 +477,10 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get sabah => 'Sabahu';
 
   @override
-  String get randomHadithLanguage => 'Hadithe të rëndomta';
+  String get randomHadithLanguage => 'Gjuha- për hadithe të rëndomta';
 
   @override
-  String get mosqueDefault => 'From your online configuration';
+  String get mosqueDefault => 'Nga konfigurimi juaj online';
 
   @override
   String get en => 'English';
@@ -493,6 +505,9 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
 
   @override
   String get nl => 'Hollandisht';
+
+  @override
+  String get ta => 'Tamil';
 
   @override
   String get fr_ar => 'French - Arabic';
@@ -525,19 +540,19 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get retry => 'Provo përseri';
 
   @override
-  String get reciterLoadError => 'Unable to load reciters';
+  String get reciterLoadError => 'Nuk mund të ngarkohen kënduesit';
 
   @override
-  String get reciterNetworkError => 'Please check your internet connection and try again';
+  String get reciterNetworkError => 'Ju lutemi kontrolloni lidhjen tuaj të internetit dhe provoni përsëri';
 
   @override
-  String get reciterServerError => 'Server is temporarily unavailable. Please try again later';
+  String get reciterServerError => 'Serveri është përkohësisht i padisponueshëm. Ju lutemi provoni më vonë';
 
   @override
-  String get reciterTimeoutError => 'Request timed out. Please try again';
+  String get reciterTimeoutError => 'Kërkesa ka skaduar. Ju lutemi provoni përsëri';
 
   @override
-  String get surahLoadError => 'Unable to load surahs';
+  String get surahLoadError => 'Nuk mund të ngarkohen suret';
 
   @override
   String get timeSetting => 'Konfigurimi i kohës';
@@ -570,7 +585,7 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get descTimezone => 'Zgjidhni zonën tuaj kohore për të marrë kohët e sakta të lutjes.';
 
   @override
-  String get appWifi => 'Lidhu me wifi';
+  String get appWifi => 'Lidhu me Wi-Fi';
 
   @override
   String get descWifi => 'Lidhu me Wi-Fi të preferuar';
@@ -630,13 +645,17 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Kjo veçori ndiz/fik pajisjen para dhe pas çdo ezani të namazit';
 
   @override
-  String get before => 'minuta para çdo kohe të namazit';
+  String before(Object variable) {
+    return 'minuta para çdo kohe të namazit';
+  }
 
   @override
-  String get after => 'minuta pas çdo kohe të namazit';
+  String after(Object variable) {
+    return 'minuta pas çdo kohe të namazit';
+  }
 
   @override
-  String get updateAvailable => 'Përditësimi në Dispozicion';
+  String get updateAvailable => 'Përditësimi në dispozicion';
 
   @override
   String get seeMore => 'Shihni më tepër';
@@ -648,10 +667,10 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get update => 'Update';
 
   @override
-  String get automaticUpdate => 'Njoftimi i përditësimit';
+  String get automaticUpdate => 'Njoftim për përditësim';
 
   @override
-  String get automaticUpdateDescription => 'Aktivizo njoftimin për Update për të marrë veçoritë dhe përmirësimet më të fundit';
+  String get automaticUpdateDescription => 'Aktivizo njoftimin për përditësim për të marrë veçoritë dhe përmirësimet më të fundit';
 
   @override
   String get checkInternetLegacyMode => 'Duhet të lidheni me internetin për të përdorur modalitetin e vjetër';
@@ -669,13 +688,13 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get later => 'Më vonë';
 
   @override
-  String get downloadQuran => 'Sistemet e pajisjeve';
+  String get downloadQuran => 'Shkarko Kur\'anin';
 
   @override
-  String get quran => 'Kurani';
+  String get quran => 'Kur\'ani';
 
   @override
-  String get askDownloadQuran => 'Dëshironi të shkarkoni Kuranin?';
+  String get askDownloadQuran => 'Dëshironi të shkarkoni Kur\'anin?';
 
   @override
   String get download => 'Shkarkoni';
@@ -684,27 +703,27 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get downloadingQuran => 'Shkarkimi i Kuranit';
 
   @override
-  String get extractingQuran => 'Nxjerrja e Kuranit';
+  String get extractingQuran => 'Ekstradimi i Kur\'anit';
 
   @override
-  String get updatedQuran => 'Kurani i përditësuar';
+  String get updatedQuran => 'Kur\'ani u është përditësuar';
 
   @override
   String get quranLatestVersion => 'Kurani është i përditësuar';
 
   @override
   String quranUpdatedVersion(Object version) {
-    return 'Versioni i përditësuar i Kuranit është: $version';
+    return 'Versioni i përditësuar i Kur\'anit është: $version';
   }
 
   @override
-  String get quranIsUpdated => 'Kurani është përditësuar';
+  String get quranIsUpdated => 'Kur\'ani është përditësuar';
 
   @override
-  String get quranDownloaded => 'Kurani u shkarkua';
+  String get quranDownloaded => 'Kur\'ani u shkarkua';
 
   @override
-  String get quranIsAlreadyDownloaded => 'Kurani është shkarkuar tashmë';
+  String get quranIsAlreadyDownloaded => 'Kur\'ani është shkarkuar tashmë';
 
   @override
   String get chooseReciter => 'Zgjidhni Recituesin';
@@ -735,7 +754,7 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get checkingForUpdates => 'Po kontrollon për përditësime...';
 
   @override
-  String get chooseQuranType => 'Zgjidhni Kuranin';
+  String get chooseQuranType => 'Zgjidhni Kur\'anin';
 
   @override
   String get hafs => 'Hafs';
@@ -744,7 +763,7 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get warsh => 'Versh';
 
   @override
-  String get favorites => 'Të preferuarat';
+  String get favorites => 'Favorites';
 
   @override
   String get allReciters => 'Të gjithë Recituesit';
@@ -781,7 +800,7 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get playInOnlineModeQuran => 'Për të dëgjuar lidhuni me internetin';
 
   @override
-  String get downloaded => 'E shkarkuar';
+  String get downloaded => 'Është shkarkuar';
 
   @override
   String switchQuranType(String name) {
@@ -792,43 +811,43 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get surahSelector => 'Zgjidhni Suren';
 
   @override
-  String get checkForUpdates => 'Check for Updates';
+  String get checkForUpdates => 'Kontrollo për përditësime';
 
   @override
-  String get checkForNewVersion => 'Check if a new version is available';
+  String get checkForNewVersion => 'Verifikoni nëse është i disponueshëm një version i ri';
 
   @override
-  String get wouldYouLikeToUpdate => 'Would you like to update the app?';
+  String get wouldYouLikeToUpdate => 'Dëshironi të përditësoni aplikacionin?';
 
   @override
-  String get updateCompleted => 'Update completed successfully!';
+  String get updateCompleted => 'Përditësimi përfundoi me sukses!';
 
   @override
-  String get noUpdates => 'No Updates';
+  String get noUpdates => 'Nuk ka përditësime';
 
   @override
-  String get usingLatestVersion => 'You are using the latest version.';
+  String get usingLatestVersion => 'Jeni duke përdorur versionin më të ri.';
 
   @override
-  String get updateCancelled => 'Update cancelled';
+  String get updateCancelled => 'Përditësimi u anulua';
 
   @override
-  String get checkingUpdates => 'Checking updates...';
+  String get checkingUpdates => 'Po kontrollohen përditësimet..';
 
   @override
-  String get downloadingUpdate => 'Downloading update...';
+  String get downloadingUpdate => 'Përditësimi duke u shkarkuar...';
 
   @override
-  String get installingUpdate => 'Installing update...';
+  String get installingUpdate => 'Përditësimi po instalohet...';
 
   @override
-  String get updateCompletedSuccessfully => 'Update completed successfully';
+  String get updateCompletedSuccessfully => 'Përditësimi përfundoi me sukses...';
 
   @override
-  String get updateFailed => 'Update failed';
+  String get updateFailed => 'Përditësimi dështoi\n';
 
   @override
-  String get save => 'Save';
+  String get save => 'Ruaj';
 
   @override
   String get enterRtspUrl => 'Enter RTSP or Youtube Live URL';
@@ -867,7 +886,7 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get somethingWentWrong => 'Something went wrong! please try again';
 
   @override
-  String get somethingWrong => 'Something went wrong';
+  String get somethingWrong => 'Diçka shkoi keq';
 
   @override
   String get tryAgainLater => 'Please try again later';
@@ -876,11 +895,11 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get hintTextRtspUrl => 'rtsp://... or https://youtube.com/live/...';
 
   @override
-  String get checkInternetUpdate => 'You must connect to internet to check for new updates';
+  String get checkInternetUpdate => 'Duhet të lidheni me internetin për të kontrolluar për përditësime të reja';
 
   @override
   String appUpdateAvailable(String currentVersion, String updatedVersion) {
-    return 'Your app is running version $currentVersion. A new update (version $updatedVersion) is available with the latest features and improvements.';
+    return 'Aplikacioni juaj po përdor versionin $currentVersion. Një përditësim i ri (versioni $updatedVersion) është në dispozicion me funksionalitetet dhe përmirësimet më të fundit.';
   }
 
   @override
@@ -951,44 +970,53 @@ class MawaqitTvLocalizationsSq extends MawaqitTvLocalizations {
   String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
 
   @override
-  String get processingRequest => 'Processing request...';
+  String get processingRequest => 'Kërkesa po përpunohet…';
 
   @override
-  String get loadingStream => 'Loading stream...';
+  String get loadingStream => 'Duke ngarkuar transmetimin…';
 
   @override
-  String get rtspUrlHint => 'Enter RTSP URL or YouTube link';
+  String get rtspUrlHint => 'Shkruani URL-në RTSP ose linkun nga YouTube';
 
   @override
-  String get replaceWorkflowWithStream => 'Automatically display the camera stream';
+  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
 
   @override
-  String get replaceAppWorkflowWithCameraStream => 'The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display';
+  String get replaceWorkflowWithStream => 'Shfaq stream-in e kamerës automatikisht';
 
   @override
-  String get streamError => 'An error occurred while streaming';
+  String get replaceAppWorkflowWithCameraStream => 'Ekrani do të shfaqë automatikisht transmetimin e kamerës sapo kamera të fillojë regjistrimin; nëse ndalon, ekrani kthehet te shfaqja e orarit të namazeve';
 
   @override
-  String get finish => 'Finish';
+  String get streamError => 'Ndodhi një gabim gjatë transmetimit';
 
   @override
-  String get schedulingAlarms => 'Scheduling on/off times...';
+  String get finish => 'Përfundo';
 
   @override
-  String get alarmsSucessSchedule => 'On/Off triggers scheduled successfully';
+  String get schedulingAlarms => 'Duke planifikuar oraret e ndezjes/fikjes...';
 
   @override
-  String get alarmsScheduleFailure => 'Failed to schedule On/Off triggers';
+  String get alarmsSucessSchedule => 'Ndezja/Fikja u planifikua me sukses';
 
   @override
-  String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
+  String get alarmsScheduleFailure => 'Dështoi planifikimi i ndezjes/fikjes';
 
   @override
-  String get prayerTimeNotificationDesc => 'Get the adhan at prayer times, even when the app is closed';
+  String get prayerTimeNotificationTitle => 'Njoftime për kohët e namazit';
 
   @override
-  String get enablePrayerReminders => 'Enable Prayer Reminders';
+  String get prayerTimeNotificationDesc => 'Merrni ezanin në kohët e namazit, edhe kur aplikacioni është i mbyllur';
 
   @override
-  String get enablePrayerRemindersDesc => 'Works automatically in the background';
+  String get enablePrayerReminders => 'Aktivizo Kujtueset e Namazit';
+
+  @override
+  String get enablePrayerRemindersDesc => 'Punon automatikisht në sfond';
+
+  @override
+  String get testAITranslation => 'Kjo është një varg testues për të verifikuar nëse përkthimi nga AI funksionon siç duhet';
+
+  @override
+  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
 }

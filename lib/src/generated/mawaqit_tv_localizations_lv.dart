@@ -7,6 +7,9 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsLv([String locale = 'lv']) : super(locale);
 
   @override
+  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+
+  @override
   String get home => 'Sākums';
 
   @override
@@ -28,7 +31,7 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get descLang => 'Lūdzu, izvēlieties vēlamo valodu';
 
   @override
-  String get hadithLangDesc => 'This override  your choice in the admin console, you can chose a different language by screen';
+  String get hadithLangDesc => 'Šis aizstāj jūsu izvēli administrācijas konsolē, ekrānā varat izvēlēties citu valodu.';
 
   @override
   String get whoops => 'Ups!';
@@ -49,7 +52,16 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get forceStaging => 'Pāreja uz inscenēšanu';
 
   @override
+  String get forcePreProduction => 'Switch to pre-production';
+
+  @override
   String get disableStaging => 'Pāreja uz ražošanu';
+
+  @override
+  String get environmentSwitchSuccess => 'Environment switched successfully';
+
+  @override
+  String get environmentSwitchFailed => 'Failed to switch environment';
 
   @override
   String get sureCloseApp => 'Vai esat pārliecināts, ka vēlaties beigt lietotni?';
@@ -73,7 +85,7 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get in1 => 'vietnē';
 
   @override
-  String get azanIn => 'Azan in';
+  String get azanIn => 'Azāns pēc';
 
   @override
   String get sec => 'Sec';
@@ -201,43 +213,43 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get azkarList1 => 'Subhan Allah wal hamdu lillah wallahu akbar (33 reizes) La ilaha illa Allah, wahdahu la charika lah, lahu elmoulku wa lahu elhamdu, wa hua `ala kulli chay in kadir';
 
   @override
-  String get azkarList2 => '';
+  String get azkarList2 => 'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ. Saki: Es patveros pie cilvēku Kunga, cilvēku Ķēniņa, cilvēku Dieva, no ļaunā čukstētāja, kurš bēg, kas čukst cilvēku krūtīs, gan no džiniem, gan cilvēkiem.';
 
   @override
-  String get azkarList3 => '';
+  String get azkarList3 => 'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ. Saki: Es patveros pie Rīta gaismas Kunga, no ļaunuma, ko Viņš radījis, un no tumsas, kad tā iet naktī, un no tiem, kas pūš mezglos, un no skaudīgā, kad viņš skaudē.';
 
   @override
-  String get azkarList4 => '';
+  String get azkarList4 => 'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ. Saki: Viņš ir Allahs, Vienīgais. Allahs, Mūžīgais Patvērums. Viņš nav dzemdinājis un nav pats dzimis. Un Viņam nav neviena līdzīga.';
 
   @override
-  String get azkarList5 => '';
+  String get azkarList5 => 'Allahs! Nav cita dieva kā Viņš, Dzīvais, Patsnozīmīgais. Viņu neņem ne snauda, ne miegs. Viņam pieder viss, kas ir debesīs un viss, kas ir uz zemes. Kas var aizbildināties pie Viņa, izņemot ar Viņa atļauju? Viņš zina, kas ir priekšā tiem un kas aiz viņiem, un viņi nesatver neko no Viņa zināšanām, izņemot to, ko Viņš vēlas. Viņa Tronis aptver debesis un zemi, Viņam nesagādā grūtības to sargāt. Viņš ir Visaugstākais, Visvarenais.';
 
   @override
   String get azkarList6 => 'La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad';
 
   @override
-  String get azkarList7 => '';
+  String get azkarList7 => 'Allah! Tu esi mans Kungs, nav cita dieva kā Tu. Tu mani esi radījis un es esmu Tavs kalps. Es, cik spēju, turu Tavu derību un solījumu. Es patveros pie Tevis no ļaunuma, ko esmu izdarījis. Es atzīstu Tavas labvēlības pār mani un atzīstu savu grēku, tāpēc piedod man, jo neviens nepiedod grēkus, izņemot Tevi.';
 
   @override
-  String get azkarList8 => '';
+  String get azkarList8 => 'Mēs sākām šo rītu un visa valdība pieder Allaham. Slava Allaham, nav cita dieva kā Allah – Viņš viens, Viņam nav partnera. Viņam pieder vara un Viņam pieder pateicība, un Viņš ir pār visu varošs. Es lūdzu Tevi pēc visa laba šajā dienā un laba pēc tās, un es patveros pie Tevis no ļaunuma šajā dienā un ļaunuma pēc tās. Es patveros pie Tevis no slinkuma un no vecuma nepatīkamības, un es patveros pie Tevis no uguns soda un kapa soda.';
 
   @override
-  String get azkarList9 => '';
+  String get azkarList9 => 'Allah! Es kļuvu (par šo dienu) par Tavas liecinieku, un liecinu arī Tavu Troņa nesējus, Tavus eņģeļus un visu Tavu radību, ka noteikti Tu esi Allah, nav cita dieva kā Tu, viens pats, Tev nav partnera, un ka Muhameds ir Tavs kalps un sūtnis – četrreiz. (Un vakarā sakot: \"Allah! Es kļuvu par vakaru...\")';
 
   @override
-  String get azkarList10 => '';
+  String get azkarList10 => 'Allah! Dari mani veselīgu manā miesā. Allah! Dari mani veselīgu manā dzirdē. Allah! Dari mani veselīgu manā redzē. Nav cita dieva kā Tu. Allah! Es patveros pie Tevis no neticības un nabadzības, un es patveros pie Tevis no kapa soda. Nav cita dieva kā Tu. – trīs reizes.';
 
   @override
-  String get azkarList11 => '';
+  String get azkarList11 => 'Pietiek man ar Allahu, nav cita dieva kā Viņš. Viņam es uzticos, un Viņš ir Lielā Troņa Kungs. – septiņas reizes.';
 
   @override
-  String get azkarList12 => '';
+  String get azkarList12 => 'Es esmu apmierināts ar Allahu kā Kungu, ar islām kā reliģiju un ar Muhamedu (saw) kā pravieti. – trīs reizes.';
 
   @override
-  String get azkarList13 => '';
+  String get azkarList13 => 'Nav cita dieva kā Allahs vienīgais, Viņam nav partneru, Viņam pieder vara un slavējams, un Viņš spēj uz visu. – desmit reizes.';
 
   @override
-  String get azkarList14 => '';
+  String get azkarList14 => 'Mēs sākām šo rītu un visa valdība pieder Allaham. Slava Allaham, nav cita dieva kā Allah – Viņš viens, Viņam nav partnera. Viņam pieder vara un Viņam pieder pateicība, un Viņš ir pār visu varošs. Es lūdzu Tevi pēc visa laba šajā dienā un laba pēc tās, un es patveros pie Tevis no ļaunuma šajā dienā un ļaunuma pēc tās. Es patveros pie Tevis no slinkuma un no vecuma nepatīkamības, un es patveros pie Tevis no uguns soda un kapa soda.';
 
   @override
   String get jumuaaScreenTitle => 'Jumuaa laiks';
@@ -411,28 +423,28 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get announcementOnlyModeExplanation => 'Visu laiku rādīs paziņojumus';
 
   @override
-  String get orientation => 'Orientation';
+  String get orientation => 'Ekrāna orientācija';
 
   @override
-  String get selectYourMawaqitTvAppOrientation => 'Select your mawaqit tv app orientation';
+  String get selectYourMawaqitTvAppOrientation => 'Izvēlieties savas Mawaqit TV lietotnes orientāciju';
 
   @override
-  String get deviceDefault => 'Device Default';
+  String get deviceDefault => 'Ierīces noklusējums';
 
   @override
-  String get deviceDefaultBTNDescription => 'Mawaqit will auto select the default orientation based on the screen orientation';
+  String get deviceDefaultBTNDescription => 'Mawaqit automātiski izvēlēsies noklusēto orientāciju, balstoties uz ekrāna orientāciju';
 
   @override
-  String get portrait => 'Portrait';
+  String get portrait => 'Portrets';
 
   @override
-  String get portraitBTNDescription => 'For vertical orientation recommended for mosque with small space';
+  String get portraitBTNDescription => 'Portreta orientācija. Ieteicams mošejām ar ierobežotu vietu';
 
   @override
-  String get landscape => 'Landscape';
+  String get landscape => 'Ainava';
 
   @override
-  String get landscapeBTNDescription => 'For Horizontal orientation. The main layout for mawaqit tv app and recommended one for most mosques';
+  String get landscapeBTNDescription => 'Ainavas orientācija. Galvenais izkārtojums Mawaqit TV lietotnei un ieteicams lielākajai daļai mošeju';
 
   @override
   String get eidMubarak => 'Eid Mubarak';
@@ -450,545 +462,561 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'Ja rodas problēmas ar lietotni, kas ir aktīva ar šo opciju.';
 
   @override
-  String get hijriAdjustments => 'Local Hijri adjustments';
+  String get hijriAdjustments => 'Vietējās Hidžri korekcijas';
 
   @override
-  String get hijriAdjustmentsDescription => 'Adjust the hijri date locally in your device. This will not affect the online mosque settings';
+  String get hijriAdjustmentsDescription => 'Pielāgojiet Hidžri datumu lokāli savā ierīcē. Tas neietekmēs mošejas iestatījumus tiešsaistē';
 
   @override
-  String get backoffice_default => 'Backoffice Defaults';
+  String get backoffice_default => 'Aizmugursistēmas noklusējumi';
 
   @override
-  String get recommended => 'Recommended';
+  String get recommended => 'Ieteicamais';
 
   @override
   String get sabah => 'Sabah';
 
   @override
-  String get randomHadithLanguage => 'Random hadith language';
+  String get randomHadithLanguage => 'Gadījuma hadīsa valoda';
 
   @override
-  String get mosqueDefault => 'From your online configuration';
+  String get mosqueDefault => 'No jūsu tiešsaistes konfigurācijas';
 
   @override
-  String get en => 'English';
+  String get en => 'Angļu valodā';
 
   @override
-  String get fr => 'French';
+  String get fr => 'Franču';
 
   @override
-  String get ar => 'Arabic';
+  String get ar => 'Arābu valodā';
 
   @override
-  String get tr => 'Turkish';
+  String get tr => 'Turcijas';
 
   @override
-  String get de => 'German';
+  String get de => 'Vācu';
 
   @override
-  String get es => 'Spanish';
+  String get es => 'Spāņu';
 
   @override
-  String get pt => 'Portuguese';
+  String get pt => 'Portugāļu';
 
   @override
-  String get nl => 'Dutch';
+  String get nl => 'Holandiešu';
 
   @override
-  String get fr_ar => 'French & Arabic';
+  String get ta => 'Tamil';
 
   @override
-  String get en_ar => 'English & Arabic';
+  String get fr_ar => 'Franču un arābu';
 
   @override
-  String get de_ar => 'German & Arabic';
+  String get en_ar => 'Angļu un arābu';
 
   @override
-  String get ta_ar => 'Tamil & Arabic';
+  String get de_ar => 'Vācu un arābu';
 
   @override
-  String get tr_ar => 'Turkish & Arabic';
+  String get ta_ar => 'Tamīlu un arābu';
 
   @override
-  String get es_ar => 'Spanish & Arabic';
+  String get tr_ar => 'Turku un arābu';
 
   @override
-  String get pt_ar => 'Portuguese & Arabic';
+  String get es_ar => 'Spāņu un arābu';
 
   @override
-  String get nl_ar => 'Dutch & Arabic';
+  String get pt_ar => 'Portugāļu un arābu';
 
   @override
-  String get connectToChangeHadith => 'Please connect to the internet to change the hadith language.';
+  String get nl_ar => 'Holandiešu un arābu';
 
   @override
-  String get retry => 'Retry';
+  String get connectToChangeHadith => 'Lūdzu, pieslēdzieties internetam, lai mainītu hadīsa valodu.';
 
   @override
-  String get reciterLoadError => 'Unable to load reciters';
+  String get retry => 'Atkārtot';
 
   @override
-  String get reciterNetworkError => 'Please check your internet connection and try again';
+  String get reciterLoadError => 'Neizdevās ielādēt recitētājus';
 
   @override
-  String get reciterServerError => 'Server is temporarily unavailable. Please try again later';
+  String get reciterNetworkError => 'Lūdzu, pārbaudiet savu interneta savienojumu un mēģiniet vēlreiz';
 
   @override
-  String get reciterTimeoutError => 'Request timed out. Please try again';
+  String get reciterServerError => 'Serveris uz laiku nav pieejams. Lūdzu, mēģiniet vēlāk';
 
   @override
-  String get surahLoadError => 'Unable to load surahs';
+  String get reciterTimeoutError => 'Pieprasījuma laiks ir beidzies. Lūdzu, mēģiniet vēlreiz';
 
   @override
-  String get timeSetting => 'Configuring the time';
+  String get surahLoadError => 'Neizdevās ielādēt suras';
 
   @override
-  String get timeSettingDesc => 'Set a custom name';
+  String get timeSetting => 'Laika iestatīšana';
 
   @override
-  String get selectedTime => 'The current selected time';
+  String get timeSettingDesc => 'Iestatiet pielāgotu nosaukumu';
 
   @override
-  String get confirmation => 'Confirmation';
+  String get selectedTime => 'Pašlaik izvēlētais laiks';
 
   @override
-  String get confirmationMessage => 'Are you sure you want to use device time?';
+  String get confirmation => 'Apstiprinājums';
 
   @override
-  String get useDeviceTime => 'Use device time';
+  String get confirmationMessage => 'Vai esat pārliecināts, ka vēlaties izmantot ierīces laiku?';
 
   @override
-  String get selectTime => 'Select Time';
+  String get useDeviceTime => 'Izmantot ierīces laiku';
 
   @override
-  String get previous => 'Previous';
+  String get selectTime => 'Izvēlieties laiku';
 
   @override
-  String get appTimezone => 'App Timezone';
+  String get previous => 'Iepriekšējais';
 
   @override
-  String get descTimezone => 'Select your timezone to get accurate prayer times.';
+  String get appTimezone => 'Lietotnes laika josla';
 
   @override
-  String get appWifi => 'Connect to wifi';
+  String get descTimezone => 'Izvēlieties savu laika joslu, lai iegūtu precīzus lūgšanu laikus.';
 
   @override
-  String get descWifi => 'Please connect to your preferred wifi';
+  String get appWifi => 'Pieslēgties Wi-Fi';
 
   @override
-  String get searchCountries => 'Search countries';
+  String get descWifi => 'Lūdzu, pieslēdzieties vēlamajam Wi-Fi';
 
   @override
-  String get scanAgain => 'Scan Again';
+  String get searchCountries => 'Meklēt valstis';
 
   @override
-  String get noScannedResultsFound => 'No near access points found';
+  String get scanAgain => 'Skenēt vēlreiz';
 
   @override
-  String get connect => 'Connect';
+  String get noScannedResultsFound => 'Tuvumā netika atrasti piekļuves punkti';
 
   @override
-  String get wifiPassword => 'Password';
+  String get connect => 'Pievienoties';
 
   @override
-  String get skip => 'Skip';
+  String get wifiPassword => 'Parole';
 
   @override
-  String get noSSID => '**Hidden SSID**';
+  String get skip => 'Izlaist';
 
   @override
-  String get close => 'Close';
+  String get noSSID => '**Slēpts SSID**';
 
   @override
-  String get search => 'Search';
+  String get close => 'Aizvērt';
 
   @override
-  String get wifiSuccess => 'Successfully connected to Wifi.';
+  String get search => 'Meklēšana';
 
   @override
-  String get wifiFailure => 'Failed to connect to Wifi.';
+  String get wifiSuccess => 'Veiksmīgi izdevās pieslēgties Wi-Fi.';
 
   @override
-  String get timezoneSuccess => 'Timezone set successfully.';
+  String get wifiFailure => 'Neizdevās pieslēgties Wi-Fi.';
 
   @override
-  String get timezoneFailure => 'Failed to set timezone.';
+  String get timezoneSuccess => 'Laika josla veiksmīgi iestatīta.';
 
   @override
-  String get screenLock => 'Screen on/off';
+  String get timezoneFailure => 'Neizdevās iestatīt laika joslu.';
 
   @override
-  String get screenLockConfig => 'Configure screen on/off';
+  String get screenLock => 'Ekrāns ieslēgts/izslēgts';
 
   @override
-  String get screenLockMode => 'Screen on/off mode';
+  String get screenLockConfig => 'Konfigurēt ekrāna ieslēgšanu/izslēgšanu';
 
   @override
-  String get screenLockDesc => 'Turn on/off TV before and after each prayer to save energy';
+  String get screenLockMode => 'Ekrāna ieslēgšanas/izslēgšanas režīms';
 
   @override
-  String get screenLockDesc2 => 'This feature turn on/off the device before and after each prayer adhan';
+  String get screenLockDesc => 'Ieslēdziet/izslēdziet televizoru pirms un pēc katras lūgšanas, lai taupītu enerģiju';
 
   @override
-  String get before => 'minutes before each prayer time';
+  String get screenLockDesc2 => 'Šī funkcija ieslēdz/izslēdz ierīci pirms un pēc katra lūgšanas azāna';
 
   @override
-  String get after => 'minutes after each prayer time';
-
-  @override
-  String get updateAvailable => 'Update available';
-
-  @override
-  String get seeMore => 'See more';
-
-  @override
-  String get whatIsNew => 'What\'s new';
-
-  @override
-  String get update => 'Update';
-
-  @override
-  String get automaticUpdate => 'Notify update';
-
-  @override
-  String get automaticUpdateDescription => 'Enable notify update to receive the latest features and improvements';
-
-  @override
-  String get checkInternetLegacyMode => 'You must connect to internet to use the legacy mode';
-
-  @override
-  String get powerOnScreen => 'Power on the screen';
-
-  @override
-  String get powerOffScreen => 'Power off the screen';
-
-  @override
-  String get deviceSettings => 'Device Settings';
-
-  @override
-  String get later => 'Later';
-
-  @override
-  String get downloadQuran => 'Download Quran';
-
-  @override
-  String get quran => 'Quran';
-
-  @override
-  String get askDownloadQuran => 'Do you want to download the Quran?';
-
-  @override
-  String get download => 'Download';
-
-  @override
-  String get downloadingQuran => 'Downloading Quran';
-
-  @override
-  String get extractingQuran => 'Extracting Quran';
-
-  @override
-  String get updatedQuran => 'Quran updated';
-
-  @override
-  String get quranLatestVersion => 'Quran is up to date';
-
-  @override
-  String quranUpdatedVersion(Object version) {
-    return 'Quran updated version is: $version';
+  String before(Object variable) {
+    return 'minūtes pirms katra lūgšanu laika';
   }
 
   @override
-  String get quranIsUpdated => 'Quran is updated';
+  String after(Object variable) {
+    return 'minūtes pēc katra lūgšanu laika';
+  }
 
   @override
-  String get quranDownloaded => 'Quran downloaded';
+  String get updateAvailable => 'Pieejams atjauninājums';
 
   @override
-  String get quranIsAlreadyDownloaded => 'Quran is already downloaded';
+  String get seeMore => 'Skatīt vairāk';
 
   @override
-  String get chooseReciter => 'Choose Reciter';
+  String get whatIsNew => 'Kas jauns';
 
   @override
-  String get reciteType => 'Recite Type';
+  String get update => 'Atjaunināt';
 
   @override
-  String get readingMode => 'I want to read';
+  String get automaticUpdate => 'Paziņot par atjauninājumu';
 
   @override
-  String get listeningMode => 'I want to listen';
+  String get automaticUpdateDescription => 'Ieslēdziet atjauninājumu paziņojumus, lai saņemtu jaunākās funkcijas un uzlabojumus';
+
+  @override
+  String get checkInternetLegacyMode => 'Lai izmantotu veco režīmu, jābūt pieslēgtam internetam';
+
+  @override
+  String get powerOnScreen => 'Ieslēgt ekrānu';
+
+  @override
+  String get powerOffScreen => 'Izslēgt ekrānu';
+
+  @override
+  String get deviceSettings => 'Ierīces iestatījumi';
+
+  @override
+  String get later => 'Vēlāk';
+
+  @override
+  String get downloadQuran => 'Lejupielādēt Korānu';
+
+  @override
+  String get quran => 'Korāns';
+
+  @override
+  String get askDownloadQuran => 'Vai vēlaties lejupielādēt Korānu?';
+
+  @override
+  String get download => 'Lejupielādēt';
+
+  @override
+  String get downloadingQuran => 'Korāna lejupielāde';
+
+  @override
+  String get extractingQuran => 'Notiek Korāna izvilkšana';
+
+  @override
+  String get updatedQuran => 'Korāns ir atjaunināts';
+
+  @override
+  String get quranLatestVersion => 'Korāns ir jaunākajā versijā';
+
+  @override
+  String quranUpdatedVersion(Object version) {
+    return 'Korāna atjauninātā versija ir: $version';
+  }
+
+  @override
+  String get quranIsUpdated => 'Korāns ir atjaunināts';
+
+  @override
+  String get quranDownloaded => 'Korāns lejupielādēts';
+
+  @override
+  String get quranIsAlreadyDownloaded => 'Korāns jau ir lejupielādēts';
+
+  @override
+  String get chooseReciter => 'Izvēlieties lasītāju';
+
+  @override
+  String get reciteType => 'Recitācijas veids';
+
+  @override
+  String get readingMode => 'Gribu lasīt';
+
+  @override
+  String get listeningMode => 'Gribu klausīties';
 
   @override
   String quranReadingPage(int leftPage, int rightPage, int totalPages) {
-    return 'Page $leftPage - $rightPage / $totalPages';
+    return 'Lapa $leftPage - $rightPage / $totalPages';
   }
 
   @override
   String quranReadingPagePortrait(int currentPage, int totalPages) {
-    return 'Page $currentPage / $totalPages';
+    return 'Lapa $currentPage / $totalPages';
   }
 
   @override
-  String get chooseQuranPage => 'Choose the page';
+  String get chooseQuranPage => 'Izvēlieties lapu';
 
   @override
-  String get checkingForUpdates => 'Checking for updates...';
+  String get checkingForUpdates => 'Pārbauda atjauninājumus...';
 
   @override
-  String get chooseQuranType => 'Choose quran';
+  String get chooseQuranType => 'Izvēlieties Korānu';
 
   @override
   String get hafs => 'Hafs';
 
   @override
-  String get warsh => 'Warsh';
+  String get warsh => 'Waršs';
 
   @override
-  String get favorites => 'Favorites';
+  String get favorites => 'Izlase';
 
   @override
-  String get allReciters => 'All Reciters';
+  String get allReciters => 'Visi lasītāji';
 
   @override
   String reciterAddedToFavorites(String name) {
-    return 'Reciter $name added to favorites';
+    return 'Lasītājs $name pievienots izlasei';
   }
 
   @override
   String reciterRemovedFromFavorites(String name) {
-    return 'Reciter $name removed from favorites';
+    return 'Lasītājs $name izņemts no izlases';
   }
 
   @override
-  String get noFavoriteReciters => 'No favorite reciters. Try adding one to the list';
+  String get noFavoriteReciters => 'Nav neviena izlases lasītāja. Pievienojiet kādu sarakstam';
 
   @override
-  String get noReciterSearchResult => 'No results found for your search';
+  String get noReciterSearchResult => 'Nav rezultātu jūsu meklēšanai';
 
   @override
-  String get searchForReciter => 'Search for a reciter';
+  String get searchForReciter => 'Meklēt lasītāju';
 
   @override
-  String get downloadAllSuwarSuccessfully => 'The whole quran is downloaded';
+  String get downloadAllSuwarSuccessfully => 'Visa Korāna lejupielāde pabeigta';
 
   @override
-  String get noSuwarDownload => 'No new suwars to download';
+  String get noSuwarDownload => 'Nav jaunu suru lejupielādei';
 
   @override
-  String get connectDownloadQuran => 'Please connect to Internet to download';
+  String get connectDownloadQuran => 'Lūdzu, pieslēdzieties internetam, lai lejupielādētu';
 
   @override
-  String get playInOnlineModeQuran => 'Please connect to internet to play';
+  String get playInOnlineModeQuran => 'Lūdzu, pieslēdzieties internetam, lai atskaņotu';
 
   @override
-  String get downloaded => 'Downloaded';
+  String get downloaded => 'Lejupielādēts';
 
   @override
   String switchQuranType(String name) {
-    return 'Go to $name';
+    return 'Doties uz $name';
   }
 
   @override
-  String get surahSelector => 'Select Surah';
+  String get surahSelector => 'Izvēlieties sūru';
 
   @override
-  String get checkForUpdates => 'Check for Updates';
+  String get checkForUpdates => 'Pārbaudīt atjauninājumus';
 
   @override
-  String get checkForNewVersion => 'Check if a new version is available';
+  String get checkForNewVersion => 'Pārbaudiet vai ir pieejama jauna versija';
 
   @override
-  String get wouldYouLikeToUpdate => 'Would you like to update the app?';
+  String get wouldYouLikeToUpdate => 'Vai vēlaties atjaunināt lietotni?';
 
   @override
-  String get updateCompleted => 'Update completed successfully!';
+  String get updateCompleted => 'Atjaunināšana veiksmīgi pabeigta!';
 
   @override
-  String get noUpdates => 'No Updates';
+  String get noUpdates => 'Nav atjauninājumu';
 
   @override
-  String get usingLatestVersion => 'You are using the latest version.';
+  String get usingLatestVersion => 'Jūs izmantojat jaunāko versiju.';
 
   @override
-  String get updateCancelled => 'Update cancelled';
+  String get updateCancelled => 'Atjaunināšana atcelta';
 
   @override
-  String get checkingUpdates => 'Checking updates...';
+  String get checkingUpdates => 'Pārbauda atjauninājumus...';
 
   @override
-  String get downloadingUpdate => 'Downloading update...';
+  String get downloadingUpdate => 'Lejupielāde notiek...';
 
   @override
-  String get installingUpdate => 'Installing update...';
+  String get installingUpdate => 'Atjaunināšana tiek instalēta...';
 
   @override
-  String get updateCompletedSuccessfully => 'Update completed successfully';
+  String get updateCompletedSuccessfully => 'Atjaunināšana veiksmīgi pabeigta';
 
   @override
-  String get updateFailed => 'Update failed';
+  String get updateFailed => 'Atjaunināšanas kļūda';
 
   @override
-  String get save => 'Save';
+  String get save => 'Saglabāt';
 
   @override
-  String get enterRtspUrl => 'Enter RTSP or Youtube Live URL';
+  String get enterRtspUrl => 'Ievadiet RTSP vai YouTube Live URL';
 
   @override
-  String get addRtspUrl => 'Add your camera stream URL below';
+  String get addRtspUrl => 'Zemāk pievienojiet savas kameras straumes URL';
 
   @override
-  String get enableRtspCamera => 'Enable Camera Streaming';
+  String get enableRtspCamera => 'Ieslēgt kameras tiešraidi';
 
   @override
-  String get rtspCameraSettings => 'Camera Settings';
+  String get rtspCameraSettings => 'Kameras iestatījumi';
 
   @override
-  String get invalidRtspUrl => 'Invalid URL. Please check the URL and try again.';
+  String get invalidRtspUrl => 'Nederīgs URL. Lūdzu, pārbaudiet URL un mēģiniet vēlreiz.';
 
   @override
-  String get validRtspUrl => 'URL validated and saved successfully.';
+  String get validRtspUrl => 'URL ir pārbaudīts un veiksmīgi saglabāts.';
 
   @override
-  String get rtspCameraSettingTitle => 'Live camera connection';
+  String get rtspCameraSettingTitle => 'Tiešraides kameras savienojums';
 
   @override
-  String get rtspCameraSettingDesc => 'Connect to your local camera and display jumua prayer stream on the TV screen.';
+  String get rtspCameraSettingDesc => 'Pieslēdzieties savai vietējai kamerai un rādiet Džumas lūgšanas translāciju televizora ekrānā.';
 
   @override
-  String get rtspCameraSettingScreenDesc => 'If you enter a URL here, your screen will automatically switch to video streaming when Jumua time arrives';
+  String get rtspCameraSettingScreenDesc => 'Ja šeit ievadīsiet URL, ekrāns automātiski pārslēgsies uz video tiešraidi, kad iestāsies Džumas laiks';
 
   @override
-  String get validatingStream => 'Validating Stream...';
+  String get validatingStream => 'Plūsmas pārbaude...';
 
   @override
-  String get checkInternetLiveCamera => 'You must connect to internet to setup the live camera';
+  String get checkInternetLiveCamera => 'Lai uzstādītu tiešraides kameru, nepieciešams interneta pieslēgums';
 
   @override
-  String get somethingWentWrong => 'Something went wrong! please try again';
+  String get somethingWentWrong => 'Radās kļūda! Lūdzu, mēģiniet vēlreiz';
 
   @override
-  String get somethingWrong => 'Something went wrong';
+  String get somethingWrong => 'Kaut kas notika nepareizi';
 
   @override
-  String get tryAgainLater => 'Please try again later';
+  String get tryAgainLater => 'Lūdzu, mēģiniet vēlāk';
 
   @override
-  String get hintTextRtspUrl => 'rtsp://... or https://youtube.com/live/...';
+  String get hintTextRtspUrl => 'rtsp://... vai https://youtube.com/live/...';
 
   @override
-  String get checkInternetUpdate => 'You must connect to internet to check for new updates';
+  String get checkInternetUpdate => 'Jābūt savienotam ar internetu, lai pārbaudītu jaunus atjauninājumus';
 
   @override
   String appUpdateAvailable(String currentVersion, String updatedVersion) {
-    return 'Your app is running version $currentVersion. A new update (version $updatedVersion) is available with the latest features and improvements.';
+    return 'Jūsu lietotne darbojas versijā $currentVersion. Pieejams jauns atjauninājums (versija $updatedVersion) ar jaunākajām funkcijām un uzlabojumiem.';
   }
 
   @override
   String quranUpdateDialogContent(String moshafName, String version) {
-    return 'A new update for the $moshafName Quran (version $version) is available.';
+    return 'Ir pieejams jauns $moshafName Korāna atjauninājums (versija $version).';
   }
 
   @override
-  String get ishaAndFajrOnly => 'Fajr and Isha prayers only';
+  String get ishaAndFajrOnly => 'Tikai Fadžr un Iša lūgšanas';
 
   @override
-  String get minutesBeforeFajrPrayer => 'minutes before fajr prayer time';
+  String get minutesBeforeFajrPrayer => 'minūtes pirms Fadžr lūgšanas laika';
 
   @override
-  String get minutesAfterIshaPrayer => 'minutes afer isha prayer time';
+  String get minutesAfterIshaPrayer => 'minūtes pēc Iša lūgšanas laika';
 
   @override
-  String get scheduleSaved => 'Your schedule has been saved.';
+  String get scheduleSaved => 'Jūsu grafiks ir saglabāts.';
 
   @override
-  String get completeAllFields => 'Please complete all fields before saving.';
+  String get completeAllFields => 'Lūdzu, aizpildiet visus laukus pirms saglabāšanas.';
 
   @override
-  String get endTimeAfter => 'The end time must be after the start time.';
+  String get endTimeAfter => 'Beigu laikam jābūt pēc sākuma laika.';
 
   @override
-  String get scheduleListening => 'Scheduled Listening';
+  String get scheduleListening => 'Ieplānota klausīšanās';
 
   @override
-  String get enableScheduling => 'Enable Scheduling';
+  String get enableScheduling => 'Aktivizēt plānošanu';
 
   @override
-  String get scheduleDesc => 'Enable this feature to automatically play a Surah at scheduled times.';
+  String get scheduleDesc => 'Aktivizējiet šo funkciju, lai automātiski atskaņotu Sūru noteiktos laikos.';
 
   @override
-  String get startTime => 'Start Time';
+  String get startTime => 'Sākuma laiks';
 
   @override
-  String get endTime => 'End Time';
+  String get endTime => 'Beigu laiks';
 
   @override
-  String get selectReciter => 'Select a Reciter';
+  String get selectReciter => 'Izvēlieties recitētāju';
 
   @override
-  String get selectMoshaf => 'Select a Mushaf';
+  String get selectMoshaf => 'Izvēlieties Mušafu';
 
   @override
-  String get randomSurahSelection => 'Random Surah Selection';
+  String get randomSurahSelection => 'Nejauša Sūras izvēle';
 
   @override
-  String get selectSurah => 'Select a Surah';
+  String get selectSurah => 'Izvēlieties Sūru';
 
   @override
-  String get initializingAutoReading => 'Initializing in progress...';
+  String get initializingAutoReading => 'Inicializēšana notiek...';
 
   @override
   String prayerTimeNotification(String salahName, String prayerTime) {
-    return '$salahName time ($prayerTime) notification';
+    return 'Paziņojums par $salahName laiku ($prayerTime)';
   }
 
   @override
-  String get scheduleInOnlineMode => 'Please connect to the internet to schedule Quran listening';
+  String get scheduleInOnlineMode => 'Lai ieplānotu Korāna klausīšanos, pievienojieties internetam';
 
   @override
-  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah';
+  String get duaaBetweenAdhanAndIqamaaTitle => 'Lūgšana (Du’a) netiek atraidīta starp Adhānu un Iqāmu';
 
   @override
-  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
+  String get duaBetweenAdhanIqamah => 'Lūgšana (Duā) starp Azānu un Ikāmu netiek atraidīta.';
 
   @override
-  String get processingRequest => 'Processing request...';
+  String get processingRequest => 'Apstrādā pieprasījumu...';
 
   @override
-  String get loadingStream => 'Loading stream...';
+  String get loadingStream => 'Ielādē straumi...';
 
   @override
-  String get rtspUrlHint => 'Enter RTSP URL or YouTube link';
+  String get rtspUrlHint => 'Ievadiet RTSP URL vai YouTube saiti';
 
   @override
-  String get replaceWorkflowWithStream => 'Automatically display the camera stream';
+  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
 
   @override
-  String get replaceAppWorkflowWithCameraStream => 'The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display';
+  String get replaceWorkflowWithStream => 'Automātiski rādīt kameras tiešraidi';
 
   @override
-  String get streamError => 'An error occurred while streaming';
+  String get replaceAppWorkflowWithCameraStream => 'Ekrāns automātiski rādīs kameras tiešraidi, tikko kamera sāks ierakstīšanu; ja apstājas, ekrānā tiks atkal rādīti lūgšanu laiki';
 
   @override
-  String get finish => 'Finish';
+  String get streamError => 'Notika kļūda tiešraides laikā';
 
   @override
-  String get schedulingAlarms => 'Scheduling on/off times...';
+  String get finish => 'Pabeigt';
 
   @override
-  String get alarmsSucessSchedule => 'On/Off triggers scheduled successfully';
+  String get schedulingAlarms => 'Plāno ieslēgšanas/izslēgšanas laikus...';
 
   @override
-  String get alarmsScheduleFailure => 'Failed to schedule On/Off triggers';
+  String get alarmsSucessSchedule => 'Ieslēgšanas/izslēgšanas notikumi veiksmīgi ieplānoti';
 
   @override
-  String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
+  String get alarmsScheduleFailure => 'Neizdevās ieplānot ieslēgšanas/izslēgšanas notikumus';
 
   @override
-  String get prayerTimeNotificationDesc => 'Get the adhan at prayer times, even when the app is closed';
+  String get prayerTimeNotificationTitle => 'Lūgšanu laiku paziņojumi';
 
   @override
-  String get enablePrayerReminders => 'Enable Prayer Reminders';
+  String get prayerTimeNotificationDesc => 'Saņemiet azāna signālu lūgšanu laikos, pat ja lietotne ir aizvērta';
 
   @override
-  String get enablePrayerRemindersDesc => 'Works automatically in the background';
+  String get enablePrayerReminders => 'Ieslēgt lūgšanu atgādinājumus';
+
+  @override
+  String get enablePrayerRemindersDesc => 'Automātiski darbojas fonā';
+
+  @override
+  String get testAITranslation => 'Šī ir testa virkne, lai pārbaudītu, vai mākslīgā intelekta tulkošana darbojas pareizi.';
+
+  @override
+  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
 }
