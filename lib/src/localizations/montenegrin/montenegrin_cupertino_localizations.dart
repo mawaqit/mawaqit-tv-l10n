@@ -48,17 +48,28 @@ class _MontenegrinCupertinoLocalizationsDelegate
 
 class MontenegrinCupertinoLocalizations extends GlobalCupertinoLocalizations {
   const MontenegrinCupertinoLocalizations({
-    super.localeName = 'cnr',
-    required super.fullYearFormat,
-    required super.dayFormat,
-    required super.mediumDateFormat,
-    required super.singleDigitHourFormat,
-    required super.singleDigitMinuteFormat,
-    required super.doubleDigitMinuteFormat,
-    required super.singleDigitSecondFormat,
-    required super.decimalFormat,
-    required super.weekdayFormat,
-  });
+    String localeName = 'cnr',
+    required intl.DateFormat fullYearFormat,
+    required intl.DateFormat dayFormat,
+    required intl.DateFormat mediumDateFormat,
+    required intl.DateFormat singleDigitHourFormat,
+    required intl.DateFormat singleDigitMinuteFormat,
+    required intl.DateFormat doubleDigitMinuteFormat,
+    required intl.DateFormat singleDigitSecondFormat,
+    required intl.NumberFormat decimalFormat,
+    required intl.DateFormat weekdayFormat,
+  }) : super(
+         localeName: localeName,
+         fullYearFormat: fullYearFormat,
+         dayFormat: dayFormat,
+         mediumDateFormat: mediumDateFormat,
+         singleDigitHourFormat: singleDigitHourFormat,
+         singleDigitMinuteFormat: singleDigitMinuteFormat,
+         doubleDigitMinuteFormat: doubleDigitMinuteFormat,
+         singleDigitSecondFormat: singleDigitSecondFormat,
+         decimalFormat: decimalFormat,
+         weekdayFormat: weekdayFormat,
+       );
 
   static const LocalizationsDelegate<CupertinoLocalizations> delegate =
       _MontenegrinCupertinoLocalizationsDelegate();

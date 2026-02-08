@@ -48,17 +48,28 @@ class _FulaCupertinoLocalizationsDelegate
 
 class FulaCupertinoLocalizations extends GlobalCupertinoLocalizations {
   const FulaCupertinoLocalizations({
-    super.localeName = 'ff',
-    required super.fullYearFormat,
-    required super.mediumDateFormat,
-    required super.decimalFormat,
-    required super.dayFormat,
-    required super.doubleDigitMinuteFormat,
-    required super.singleDigitHourFormat,
-    required super.singleDigitMinuteFormat,
-    required super.singleDigitSecondFormat,
-    required super.weekdayFormat,
-  });
+    String localeName = 'ff',
+    required intl.DateFormat fullYearFormat,
+    required intl.DateFormat mediumDateFormat,
+    required intl.NumberFormat decimalFormat,
+    required intl.DateFormat dayFormat,
+    required intl.DateFormat doubleDigitMinuteFormat,
+    required intl.DateFormat singleDigitHourFormat,
+    required intl.DateFormat singleDigitMinuteFormat,
+    required intl.DateFormat singleDigitSecondFormat,
+    required intl.DateFormat weekdayFormat,
+  }) : super(
+          localeName: localeName,
+          fullYearFormat: fullYearFormat,
+          dayFormat: dayFormat,
+          weekdayFormat: weekdayFormat,
+          mediumDateFormat: mediumDateFormat,
+          singleDigitHourFormat: singleDigitHourFormat,
+          singleDigitMinuteFormat: singleDigitMinuteFormat,
+          doubleDigitMinuteFormat: doubleDigitMinuteFormat,
+          singleDigitSecondFormat: singleDigitSecondFormat,
+          decimalFormat: decimalFormat,
+        );
 
   static const LocalizationsDelegate<CupertinoLocalizations> delegate =
       _FulaCupertinoLocalizationsDelegate();
