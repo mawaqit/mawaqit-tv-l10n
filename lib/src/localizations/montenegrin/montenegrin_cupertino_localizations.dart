@@ -37,7 +37,6 @@ class _MontenegrinCupertinoLocalizationsDelegate
         singleDigitHourFormat: intl.DateFormat('H', localeName),
         singleDigitMinuteFormat: intl.DateFormat('m', localeName),
         singleDigitSecondFormat: intl.DateFormat('s', localeName),
-        weekdayFormat: intl.DateFormat('EEEE', localeName),
       ),
     );
   }
@@ -57,7 +56,6 @@ class MontenegrinCupertinoLocalizations extends GlobalCupertinoLocalizations {
     required intl.DateFormat doubleDigitMinuteFormat,
     required intl.DateFormat singleDigitSecondFormat,
     required intl.NumberFormat decimalFormat,
-    required intl.DateFormat weekdayFormat,
   }) : super(
          localeName: localeName,
          fullYearFormat: fullYearFormat,
@@ -68,7 +66,6 @@ class MontenegrinCupertinoLocalizations extends GlobalCupertinoLocalizations {
          doubleDigitMinuteFormat: doubleDigitMinuteFormat,
          singleDigitSecondFormat: singleDigitSecondFormat,
          decimalFormat: decimalFormat,
-         weekdayFormat: weekdayFormat,
        );
 
   static const LocalizationsDelegate<CupertinoLocalizations> delegate =

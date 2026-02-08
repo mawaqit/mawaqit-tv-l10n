@@ -37,7 +37,6 @@ class _FulaCupertinoLocalizationsDelegate
         singleDigitHourFormat: intl.DateFormat('H', localeName),
         singleDigitMinuteFormat: intl.DateFormat('m', localeName),
         singleDigitSecondFormat: intl.DateFormat('s', localeName),
-        weekdayFormat: intl.DateFormat('EEEE', localeName),
       ),
     );
   }
@@ -57,12 +56,10 @@ class FulaCupertinoLocalizations extends GlobalCupertinoLocalizations {
     required intl.DateFormat singleDigitHourFormat,
     required intl.DateFormat singleDigitMinuteFormat,
     required intl.DateFormat singleDigitSecondFormat,
-    required intl.DateFormat weekdayFormat,
   }) : super(
           localeName: localeName,
           fullYearFormat: fullYearFormat,
           dayFormat: dayFormat,
-          weekdayFormat: weekdayFormat,
           mediumDateFormat: mediumDateFormat,
           singleDigitHourFormat: singleDigitHourFormat,
           singleDigitMinuteFormat: singleDigitMinuteFormat,
