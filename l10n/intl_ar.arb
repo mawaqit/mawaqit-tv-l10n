@@ -393,7 +393,8 @@
   "tryAgainLater": "يرجى المحاولة لاحقًا",
   "hintTextRtspUrl": "rtsp://... أو https://youtube.com/live/...",
   "checkInternetUpdate": "يجب عليك الاتصال بالإنترنت للتحقق من وجود تحديثات جديدة",
-  "appUpdateAvailable": "تطبيقك يعمل بالإصدار {currentVersion}. الإصدار الجديد {updatedVersion} متوفر مع أحدث الميزات والتحسينات.",  "@appUpdateAvailable": {
+  "appUpdateAvailable": "تطبيقك يعمل بالإصدار {currentVersion}. الإصدار الجديد {updatedVersion} متوفر مع أحدث الميزات والتحسينات.",
+  "@appUpdateAvailable": {
     "description": "Placeholder text for displaying update available message",
     "placeholders": {
       "currentVersion": {
