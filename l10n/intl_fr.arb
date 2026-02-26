@@ -471,5 +471,11 @@
   "testAITranslation": "Ceci est une chaîne de test pour vérifier que la traduction de l'IA fonctionne correctement",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "quranMode": "Mode Coran",
+  "quranModeExplanation": "Afficher l'écran de lecture du Coran, en commençant par la dernière page lue",
+  "appDisplayMode": "Mode d'affichage",
+  "appDisplayModeExplanation": "Choisissez comment votre écran affichera le contenu",
+  "exitQuranModeTitle": "Quitter le mode Coran",
+  "exitQuranModeMessage": "Souhaitez-vous revenir au mode normal ?"
 }

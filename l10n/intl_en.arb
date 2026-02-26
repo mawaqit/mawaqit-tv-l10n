@@ -481,5 +481,29 @@
   "testCrowdinCI": "Test string to verify Crowdin CI workflow on develop",
   "@testCrowdinCI": {
     "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Quran mode",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Display the Quran reading screen, starting from the last read page",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "appDisplayMode": "Display Mode",
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "appDisplayModeExplanation": "Choose how your screen will display content",
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Exit Quran Mode",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Would you like to return to normal mode?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
   }
 }
