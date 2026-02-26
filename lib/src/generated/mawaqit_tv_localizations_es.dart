@@ -195,7 +195,7 @@ class MawaqitTvLocalizationsEs extends MawaqitTvLocalizations {
   String get alIqama => 'Al Iqama';
 
   @override
-  String get alAdhan => 'Al adhan';
+  String get alAdhan => 'Al Athan';
 
   @override
   String get turnOfPhones => 'Por favor, pongan sus teléfonos en modo silencio';
@@ -1019,4 +1019,22 @@ class MawaqitTvLocalizationsEs extends MawaqitTvLocalizations {
 
   @override
   String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
+
+  @override
+  String get quranMode => 'Quran mode';
+
+  @override
+  String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
+
+  @override
+  String get appDisplayMode => 'Display Mode';
+
+  @override
+  String get appDisplayModeExplanation => 'Choose how your screen will display content';
+
+  @override
+  String get exitQuranModeTitle => 'Exit Quran Mode';
+
+  @override
+  String get exitQuranModeMessage => 'Would you like to return to normal mode?';
 }

@@ -1019,4 +1019,22 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
 
   @override
   String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
+
+  @override
+  String get quranMode => 'وضع القرآن';
+
+  @override
+  String get quranModeExplanation => 'عرض شاشة قراءة القرآن، بدءاً من آخر صفحة تمت قراءتها';
+
+  @override
+  String get appDisplayMode => 'وضع العرض';
+
+  @override
+  String get appDisplayModeExplanation => 'اختر كيفية عرض المحتوى على شاشتك';
+
+  @override
+  String get exitQuranModeTitle => 'الخروج من وضع القرآن';
+
+  @override
+  String get exitQuranModeMessage => 'هل تريد العودة إلى الوضع العادي؟';
 }

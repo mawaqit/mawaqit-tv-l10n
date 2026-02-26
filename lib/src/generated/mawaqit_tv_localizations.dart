@@ -556,7 +556,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @afterSalahHadith.
   ///
   /// In en, this message translates to:
-  /// **'Allahumma Rabba hadhihid-da\'wati-ttammati, was-salatil-qa\'imati, ati Muhammadanil-wasilata wal-fadhilata, wab\'athu maqaman mahmuda nilladhi wa \'adtahu [O Allah, Rubb of this perfect call (Da\'wah) and of the established prayer (As-Salat), grant Muhammad the Wasilah and superiority, and raise him up to a praiseworthy position which You have promised him]'**
+  /// **'O Allah, Lord of this perfect call and established prayer. Grant Muhammad the intercession and favor, and raise him to the honored station You have promised him.'**
   String get afterSalahHadith;
 
   /// No description provided for @alIqama.
@@ -568,7 +568,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @alAdhan.
   ///
   /// In en, this message translates to:
-  /// **'Al Adan'**
+  /// **'Al Athan'**
   String get alAdhan;
 
   /// No description provided for @turnOfPhones.
@@ -592,91 +592,91 @@ abstract class MawaqitTvLocalizations {
   /// أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ
   ///
   /// In en, this message translates to:
-  /// **'Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik'**
+  /// **'I seek the forgiveness of Allah (three times). O Allah, You are Peace and from You comes peace. Blessed are You, O Owner of majesty and honor. O Allah, help me to remember You, to give You thanks, and to perform Your worship in the best manner.'**
   String get azkarList0;
 
   /// سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير
   ///
   /// In en, this message translates to:
-  /// **'Subhan Allah wal hamdu lillah wallahu akbar (33 times) La ilaha illa Allah, wahdahu la charika lah, lahu elmoulku wa lahu elhamdu, wa hua `ala kulli chay in kadir'**
+  /// **'Glory is to Allah, Praise is to Allah, Allah is the Greatest (33 times each). None has the right to be worshipped but Allah alone, Who has no partner. His is the dominion and His is the praise, and He is Able to do all things.'**
   String get azkarList1;
 
   /// بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس - Surah An-Nas
   ///
   /// In en, this message translates to:
-  /// **'بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس'**
+  /// **'With the Name of Allah, the Most Gracious, the Most Merciful. Say: I seek refuge with (Allah) the Lord of mankind, the King of mankind, the God of mankind, from the evil of the whisperer who withdraws, who whispers in the breasts of mankind, of jinns and men. (Recite these three times each in Arabic).'**
   String get azkarList2;
 
   /// بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq
   ///
   /// In en, this message translates to:
-  /// **'بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ'**
+  /// **'With the Name of Allah, the Most Gracious, the Most Merciful. Say: I seek refuge with (Allah) the Lord of the daybreak, from the evil of what He has created, and from the evil of the darkening (night) as it comes with its darkness, and from the evil of those who practice witchcraft when they blow in the knots, and from the evil of the envier when he envies. (Recite these three times each in Arabic).'**
   String get azkarList3;
 
   /// بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ - Surah Al-Ikhlas
   ///
   /// In en, this message translates to:
-  /// **'بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ'**
+  /// **'With the Name of Allah, the Most Gracious, the Most Merciful. Say: He is Allah (the) One. The Self-Sufficient Master, Whom all creatures need, He begets not nor was He begotten, and there is none equal to Him. (Recite these three times each in Arabic).'**
   String get azkarList4;
 
   /// Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255
   ///
   /// In en, this message translates to:
-  /// **'ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ'**
+  /// **'Allah! There is none worthy of worship but He, the Ever-Living, the One Who sustains and protects all that exists. Neither slumber nor sleep overtakes Him. To Him belongs whatever is in the heavens and whatever is on the earth. Who is he that can intercede with Him except with His Permission? He knows what happens to them in this world, and what will happen to them in the Hereafter. And they will never compass anything of His Knowledge except that which He wills. His Throne extends over the heavens and the earth, and He feels no fatigue in guarding and preserving them. And He is the Most High, the Most Great.'**
   String get azkarList5;
 
   /// لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد
   ///
   /// In en, this message translates to:
-  /// **'La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad'**
+  /// **'None has the right to be worshipped but Allah alone, He has no partner, His is the dominion and His is the praise, and He is Able to do all things. O Allah, there is none who can withhold what You give, and none may give what You have withheld, and the might of the mighty person cannot benefit him against You.'**
   String get azkarList6;
 
   /// Sayyid al-Istighfar (Master of Seeking Forgiveness)
   ///
   /// In en, this message translates to:
-  /// **'اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت'**
+  /// **'O Allah, You are my Lord, there is none worthy of worship but You. You created me and I am your slave. I keep Your covenant, and my pledge to You so far as I am able. I seek refuge in You from the evil of what I have done. I admit to Your blessings upon me, and I admit to my misdeeds. Forgive me, for there is none who may forgive sins but You.'**
   String get azkarList7;
 
   /// Morning supplication - Protection dua
   ///
   /// In en, this message translates to:
-  /// **'أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر'**
+  /// **'We have entered a new day and with it all dominion is Allah\'s. Praise is to Allah. None has the right to be worshipped but Allah alone, Who has no partner. To Allah belongs the dominion, and to Him is the praise and He is Able to do all things. My Lord, I ask You for the goodness of this day and of the days that come after it, and I seek refuge in You from the evil of this day and of the days that come after it. My Lord, I seek refuge in You from laziness and helpless old age. My Lord, I seek refuge in You from the punishment of Hell-fire, and from the punishment of the grave.'**
   String get azkarList8;
 
   /// Morning testimony - 4 times
   ///
   /// In en, this message translates to:
-  /// **'اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلاَئِكَتِكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَهَ إِلاَّ أَنْتَ وَحْدَكَ لاَ شَرِيكَ لَكَ، وَأَنَّ مُحَمَّداً عَبْدُكَ وَرَسُولُكَ |أربعَ مَرَّات|. [ وإذا أمسى قال: اللَّهم إني أمسيت...]'**
+  /// **'O Allah, I have entered a new morning and call upon You and upon the bearers of Your Throne, upon Your angels and all creation to bear witness that surely You are Allah, there is none worthy of worship but You alone, You have no partners, and that Muhammad is Your slave and Your Messenger. (Four times) [And in the evening say: O Allah, I have entered a new evening...]'**
   String get azkarList9;
 
   /// Dua for wellbeing - 3 times
   ///
   /// In en, this message translates to:
-  /// **'|اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ عَافِنِي فِي بَصَرِي، لاَ إِلَهَ إِلاَّ أَنْتَ. اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ القَبْرِ، لاَ إِلَهَ إِلاَّ أَنْتَ |ثلاثَ مرَّاتٍ'**
+  /// **'O Allah, make me healthy in my body. O Allah, preserve for me my hearing. O Allah, preserve for me my sight. There is none worthy of worship but You. O Allah, I seek refuge in You from disbelief and poverty, and I seek refuge in You from the punishment of the grave. There is none worthy of worship but You. (Three times)'**
   String get azkarList10;
 
   /// Hasbiya Allah - 7 times
   ///
   /// In en, this message translates to:
-  /// **'|حَسْبِيَ اللَّهُ لاَ إِلَهَ إِلاَّ هُوَ عَلَيهِ تَوَكَّلتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ |سَبْعَ مَرّاتٍ'**
+  /// **'Allah is sufficient for me. There is none worthy of worship but Him. I have placed my trust in Him, He is Lord of the Majestic Throne. (Seven times)'**
   String get azkarList11;
 
   /// Contentment with Allah - 3 times
   ///
   /// In en, this message translates to:
-  /// **'|رَضِيتُ بِاللَّهِ رَبَّاً، وَبِالْإِسْلاَمِ دِيناً، وَبِمُحَمَّدٍ صلى الله عليه وسلم نَبِيّاً |ثلاثَ مرَّاتٍ'**
+  /// **'I am pleased with Allah as my Lord, with Islam as my religion, and with Muhammad (peace and blessings of Allah be upon him) as my Prophet. (Three times)'**
   String get azkarList12;
 
   /// La ilaha illa Allah tawhid - 10 times
   ///
   /// In en, this message translates to:
-  /// **'|لاَ إِلَهَ إِلاَّ اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ |عشرَ مرَّات'**
+  /// **'None has the right to be worshipped but Allah alone, Who has no partner. His is the dominion and His is the praise. He brings life and He causes death, and He is Able to do all things. (Ten times)'**
   String get azkarList13;
 
   /// Morning supplication - Protection from laziness
   ///
   /// In en, this message translates to:
-  /// **'أصبحنا وأصبح الملك لله، والحمد لله ولا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، أسألك خير ما في هذا اليوم، وخير ما بعده، وأعوذ بك من شر هذا اليوم، وشر ما بعده، وأعوذ بك من الكسل وسوء الكبر، وأعوذ بك من عذاب النار وعذاب القبر'**
+  /// **'We have entered the evening and  with it all dominion is Allah\'s. Praise is to Allah. None has the right to be worshipped but Allah alone, Who has no partner. To Allah belongs the dominion, and to Him is the praise and He is Able to do all things. My Lord, I ask You for the goodness of this day and of the days that come after it, and I seek refuge in You from the evil of this day and of the days that come after it. My Lord, I seek refuge in You from laziness and helpless old age. My Lord, I seek refuge in You from the punishment of Hell-fire, and from the punishment of the grave.'**
   String get azkarList14;
 
   /// No description provided for @jumuaaScreenTitle.
@@ -1462,7 +1462,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @screenLockDesc2.
   ///
   /// In en, this message translates to:
-  /// **'This feature turn on/off the device before and after each prayer adhan'**
+  /// **'This feature turn on/off the device before and after each prayer Adhan'**
   String get screenLockDesc2;
 
   /// No description provided for @before.
@@ -2146,7 +2146,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @prayerTimeNotificationDesc.
   ///
   /// In en, this message translates to:
-  /// **'Get the adhan at prayer times, even when the app is closed'**
+  /// **'Get the Adhan at prayer times, even when the app is closed'**
   String get prayerTimeNotificationDesc;
 
   /// No description provided for @enablePrayerReminders.
@@ -2172,6 +2172,42 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Test string to verify Crowdin CI workflow on develop'**
   String get testCrowdinCI;
+
+  /// Label for Quran mode option in display mode settings
+  ///
+  /// In en, this message translates to:
+  /// **'Quran mode'**
+  String get quranMode;
+
+  /// Explanation text for the Quran mode option
+  ///
+  /// In en, this message translates to:
+  /// **'Display the Quran reading screen, starting from the last read page'**
+  String get quranModeExplanation;
+
+  /// Title for the display mode setting
+  ///
+  /// In en, this message translates to:
+  /// **'Display Mode'**
+  String get appDisplayMode;
+
+  /// Subtitle for the display mode setting
+  ///
+  /// In en, this message translates to:
+  /// **'Choose how your screen will display content'**
+  String get appDisplayModeExplanation;
+
+  /// Title for the exit Quran mode confirmation dialog
+  ///
+  /// In en, this message translates to:
+  /// **'Exit Quran Mode'**
+  String get exitQuranModeTitle;
+
+  /// Message body for the exit Quran mode confirmation dialog
+  ///
+  /// In en, this message translates to:
+  /// **'Would you like to return to normal mode?'**
+  String get exitQuranModeMessage;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {

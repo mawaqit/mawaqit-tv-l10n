@@ -1006,7 +1006,7 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
 
   @override
-  String get prayerTimeNotificationDesc => 'Get the adhan at prayer times, even when the app is closed';
+  String get prayerTimeNotificationDesc => 'Get the Adhan at prayer times, even when the app is closed';
 
   @override
   String get enablePrayerReminders => 'Enable Prayer Reminders';
@@ -1019,4 +1019,22 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
 
   @override
   String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
+
+  @override
+  String get quranMode => 'Quran mode';
+
+  @override
+  String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
+
+  @override
+  String get appDisplayMode => 'Display Mode';
+
+  @override
+  String get appDisplayModeExplanation => 'Choose how your screen will display content';
+
+  @override
+  String get exitQuranModeTitle => 'Exit Quran Mode';
+
+  @override
+  String get exitQuranModeMessage => 'Would you like to return to normal mode?';
 }
