@@ -471,5 +471,11 @@
   "testAITranslation": "هذه سلسلة اختبار للتحقق من أن ترجمة الذكاء الاصطناعي تعمل بشكل صحيح",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "quranMode": "وضع القرآن",
+  "quranModeExplanation": "عرض شاشة قراءة القرآن، بدءاً من آخر صفحة تمت قراءتها",
+  "appDisplayMode": "وضع العرض",
+  "appDisplayModeExplanation": "اختر كيفية عرض المحتوى على شاشتك",
+  "exitQuranModeTitle": "الخروج من وضع القرآن",
+  "exitQuranModeMessage": "هل تريد العودة إلى الوضع العادي؟"
 }
