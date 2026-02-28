@@ -49,19 +49,19 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get quit => 'Quitter';
 
   @override
-  String get forceStaging => 'Passer en préproduction';
+  String get forceStaging => 'Passer en staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Passer en pre-production';
 
   @override
   String get disableStaging => 'Passer en mode production';
 
   @override
-  String get environmentSwitchSuccess => 'Environment switched successfully';
+  String get environmentSwitchSuccess => 'Environnement changé avec succès';
 
   @override
-  String get environmentSwitchFailed => 'Failed to switch environment';
+  String get environmentSwitchFailed => 'Échec du changement d\'environnement';
 
   @override
   String get sureCloseApp => 'Voulez-vous vraiment quitter l\'application ?';
