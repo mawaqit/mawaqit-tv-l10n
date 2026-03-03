@@ -204,6 +204,12 @@ class MawaqitTvLocalizationsHr extends MawaqitTvLocalizations {
   String get iqamaIn => 'Agamat nakon';
 
   @override
+  String get iqamaShowClock => 'Show clock on Iqama screen';
+
+  @override
+  String get iqamaShowClockDesc => 'Display the current time and date on the Iqama countdown screen';
+
+  @override
   String get alAthkar => 'Al-Athkar';
 
   @override

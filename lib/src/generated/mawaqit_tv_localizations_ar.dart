@@ -204,6 +204,12 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get iqamaIn => 'الإقامة بعد';
 
   @override
+  String get iqamaShowClock => 'عرض الساعة في شاشة الإقامة';
+
+  @override
+  String get iqamaShowClockDesc => 'عرض الوقت والتاريخ الحالي في شاشة العد التنازلي للإقامة';
+
+  @override
   String get alAthkar => 'الأذكار';
 
   @override

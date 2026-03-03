@@ -583,6 +583,18 @@ abstract class MawaqitTvLocalizations {
   /// **'Iqama in'**
   String get iqamaIn;
 
+  /// Toggle to show or hide the clock widget on the Iqama countdown screen
+  ///
+  /// In en, this message translates to:
+  /// **'Show clock on Iqama screen'**
+  String get iqamaShowClock;
+
+  /// Subtitle for the iqama clock toggle setting
+  ///
+  /// In en, this message translates to:
+  /// **'Display the current time and date on the Iqama countdown screen'**
+  String get iqamaShowClockDesc;
+
   /// No description provided for @alAthkar.
   ///
   /// In en, this message translates to:

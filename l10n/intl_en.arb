@@ -64,6 +64,14 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Please put your phones into Silent Mode",
   "iqamaIn": "Iqama in",
+  "iqamaShowClock": "Show clock on Iqama screen",
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "iqamaShowClockDesc": "Display the current time and date on the Iqama countdown screen",
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
   "alAthkar": "Al-Athkar",
   "azkarList0": "I seek the forgiveness of Allah (three times). O Allah, You are Peace and from You comes peace. Blessed are You, O Owner of majesty and honor. O Allah, help me to remember You, to give You thanks, and to perform Your worship in the best manner.",
   "@azkarList0": {
