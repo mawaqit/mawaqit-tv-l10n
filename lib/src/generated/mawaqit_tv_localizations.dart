@@ -1090,7 +1090,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @applicationModes.
   ///
   /// In en, this message translates to:
-  /// **'Application Mode'**
+  /// **'Default launch mode'**
   String get applicationModes;
 
   /// No description provided for @ifYouAreFacingAnIssueWithTheAppActivateThis.
@@ -1534,7 +1534,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @deviceSettings.
   ///
   /// In en, this message translates to:
-  /// **'Device Settings'**
+  /// **'Device'**
   String get deviceSettings;
 
   /// No description provided for @later.
@@ -1882,7 +1882,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @rtspCameraSettingTitle.
   ///
   /// In en, this message translates to:
-  /// **'Live camera connection'**
+  /// **'Live camera'**
   String get rtspCameraSettingTitle;
 
   /// No description provided for @rtspCameraSettingDesc.
@@ -2188,7 +2188,7 @@ abstract class MawaqitTvLocalizations {
   /// Title for the display mode setting
   ///
   /// In en, this message translates to:
-  /// **'Display Mode'**
+  /// **'Display'**
   String get appDisplayMode;
 
   /// Subtitle for the display mode setting
@@ -2208,6 +2208,48 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Would you like to return to normal mode?'**
   String get exitQuranModeMessage;
+
+  /// Title for the Global settings section
+  ///
+  /// In en, this message translates to:
+  /// **'Global'**
+  String get settingsSectionGlobal;
+
+  /// Title for the Hijri date adjustment setting item
+  ///
+  /// In en, this message translates to:
+  /// **'Hijri date adjustment'**
+  String get hijriDateAdjustment;
+
+  /// Title for the interface language setting item
+  ///
+  /// In en, this message translates to:
+  /// **'Interface language'**
+  String get interfaceLanguage;
+
+  /// Dropdown label for main prayer times launch mode
+  ///
+  /// In en, this message translates to:
+  /// **'Main prayer times'**
+  String get launchModeMainPrayer;
+
+  /// Dropdown label for secondary prayer times launch mode
+  ///
+  /// In en, this message translates to:
+  /// **'Secondary prayer times'**
+  String get launchModeSecondaryPrayer;
+
+  /// Title for the timezone setting item
+  ///
+  /// In en, this message translates to:
+  /// **'Timezone'**
+  String get timezone;
+
+  /// Title for the WIFI setting item
+  ///
+  /// In en, this message translates to:
+  /// **'WIFI'**
+  String get wifi;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {

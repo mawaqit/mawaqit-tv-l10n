@@ -868,7 +868,7 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL validated and saved successfully.';
 
   @override
-  String get rtspCameraSettingTitle => 'Live camera connection';
+  String get rtspCameraSettingTitle => 'Live camera';
 
   @override
   String get rtspCameraSettingDesc => 'Connect to your local camera and display jumua prayer stream on the TV screen.';
@@ -1027,7 +1027,7 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display Mode';
+  String get appDisplayMode => 'Display';
 
   @override
   String get appDisplayModeExplanation => 'Choose how your screen will display content';
@@ -1037,4 +1037,25 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
 
   @override
   String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+
+  @override
+  String get settingsSectionGlobal => 'Global';
+
+  @override
+  String get hijriDateAdjustment => 'Hijri date adjustment';
+
+  @override
+  String get interfaceLanguage => 'Interface language';
+
+  @override
+  String get launchModeMainPrayer => 'Main prayer times';
+
+  @override
+  String get launchModeSecondaryPrayer => 'Secondary prayer times';
+
+  @override
+  String get timezone => 'Timezone';
+
+  @override
+  String get wifi => 'WIFI';
 }

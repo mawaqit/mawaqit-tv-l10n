@@ -456,7 +456,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get settings => 'Paramètres';
 
   @override
-  String get applicationModes => 'Mode Application';
+  String get applicationModes => 'Mode de lancement par défaut';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'Si vous rencontrez des problèmes avec l\'application, essayez d\'activer cette option.';
@@ -682,7 +682,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get powerOffScreen => 'Éteindre l\'écran';
 
   @override
-  String get deviceSettings => 'Paramètres de l\'appareil';
+  String get deviceSettings => 'Appareil';
 
   @override
   String get later => 'Plus tard';
@@ -868,7 +868,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL validée et enregistrée avec succès.';
 
   @override
-  String get rtspCameraSettingTitle => 'Connexion de la caméra en direct';
+  String get rtspCameraSettingTitle => 'Caméra en direct';
 
   @override
   String get rtspCameraSettingDesc => 'Connectez-vous à votre caméra locale et affichez le flux de la prière de la jumua sur l\'écran de la TV.';
@@ -1027,7 +1027,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Afficher l\'écran de lecture du Coran, en commençant par la dernière page lue';
 
   @override
-  String get appDisplayMode => 'Mode d\'affichage';
+  String get appDisplayMode => 'Affichage';
 
   @override
   String get appDisplayModeExplanation => 'Choisissez comment votre écran affichera le contenu';
@@ -1037,4 +1037,25 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
 
   @override
   String get exitQuranModeMessage => 'Souhaitez-vous revenir au mode normal ?';
+
+  @override
+  String get settingsSectionGlobal => 'Global';
+
+  @override
+  String get hijriDateAdjustment => 'Ajustement de la date hijri';
+
+  @override
+  String get interfaceLanguage => 'Langue de l\'interface';
+
+  @override
+  String get launchModeMainPrayer => 'Horaires de prière principaux';
+
+  @override
+  String get launchModeSecondaryPrayer => 'Horaires de prière secondaires';
+
+  @override
+  String get timezone => 'Fuseau horaire';
+
+  @override
+  String get wifi => 'WIFI';
 }
