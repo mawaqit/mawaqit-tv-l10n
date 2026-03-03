@@ -456,7 +456,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get settings => 'الإعدادات';
 
   @override
-  String get applicationModes => 'وضع الإطلاق الافتراضي';
+  String get applicationModes => 'وضع التطبيق';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'إذا كنت تواجه مشكلات مع التطبيق، حاول تفعيل هذا الخيار';
