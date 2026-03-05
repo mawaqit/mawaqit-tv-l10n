@@ -10,7 +10,7 @@ fi
 
 API_BASE="https://api.crowdin.com/api/v2"
 
-# Patterns to EXCLUDE from auto-translate (sacred texts)
+# Patterns to EXCLUDE from auto-translate (sacred texts + untranslatable technical strings)
 EXCLUDE_PATTERNS=(
   "azkarList"
   "afterSalahHadith"
@@ -19,6 +19,8 @@ EXCLUDE_PATTERNS=(
   "jumuaaHadith"
   "duaaBetweenSalahAndAdhan"
   "salatKhayrMinaNawm"
+  "forceStaging"
+  "forcePreProduction"
 )
 
 # First, create the label if it doesn't exist
