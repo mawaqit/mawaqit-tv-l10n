@@ -1079,9 +1079,6 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get quit => 'Sair';
 
   @override
-  String get forceStaging => 'Staging';
-
-  @override
   String get disableStaging => 'Alterar para modo de produção';
 
   @override
@@ -2071,9 +2068,6 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
 
   @override
   String get quit => 'Sair';
-
-  @override
-  String get forceStaging => 'Staging';
 
   @override
   String get disableStaging => 'Mudar para modo operacional';

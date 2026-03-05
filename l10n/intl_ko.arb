@@ -12,7 +12,6 @@
   "tryAgain": "다시 시도",
   "closeApp": "앱 닫기",
   "quit": "종료",
-  "forceStaging": "Staging",
   "disableStaging": "프로덕션으로 전환",
   "sureCloseApp": "애플리케이션을 종료하시겠습니까?",
   "ok": "확인",

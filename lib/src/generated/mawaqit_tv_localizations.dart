@@ -280,13 +280,13 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @forceStaging.
   ///
   /// In en, this message translates to:
-  /// **'Switch to staging'**
+  /// **'Staging'**
   String get forceStaging;
 
   /// No description provided for @forcePreProduction.
   ///
   /// In en, this message translates to:
-  /// **'Switch to pre-production'**
+  /// **'Pre-production'**
   String get forcePreProduction;
 
   /// No description provided for @disableStaging.

@@ -12,7 +12,6 @@
   "tryAgain": "Tentar novamente",
   "closeApp": "Fechar aplicativo",
   "quit": "Sair",
-  "forceStaging": "Staging",
   "disableStaging": "Alterar para modo de produção",
   "sureCloseApp": "Você tem certeza que quer sair do aplicativo?",
   "ok": "OK",
