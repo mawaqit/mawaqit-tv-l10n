@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get quit => 'Keluar';
 
   @override
-  String get forceStaging => 'Beralih kepada';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Beralih kepada mod pengeluaran';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Pilih sama ada skrin anda akan memaparkan pengumuman sepanjang masa, ini berguna sekiranya anda memasang skrin di pintu masuk.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Untuk ruang solat kedua (contohnya bilik wanita atau tingkat lain), skrin ini akan menunjukkan siaran langsung solat Jumaat';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Ciri ini menghidupkan/mematikan peranti sebelum dan selepas setiap azan solat';
 
   @override
-  String before(Object variable) {
-    return 'minit sebelum setiap waktu solat';
-  }
+  String get before => 'minit sebelum setiap waktu solat';
 
   @override
-  String after(Object variable) {
-    return 'minit selepas setiap waktu solat';
-  }
+  String get after => 'minit selepas setiap waktu solat';
 
   @override
   String get updateAvailable => 'Kemaskini ada';

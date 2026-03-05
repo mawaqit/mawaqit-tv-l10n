@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get quit => 'دەرچوون';
 
   @override
-  String get forceStaging => 'گۆڕین بۆ پلەبەندی';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'گۆڕین بۆ دۆخی بەرهەمهێنان';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'هەڵیبژێرە ئەگەر شاشەکەت هەموو کاتێک ڕاگەیاندنەکان پیشان دەدات، ئەمە دەتوانێت سوودی هەبێت ئەگەر شاشەکە لە دەرگای چوونە ژوورەوە دابمەزرێنیت بۆ نموونە.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لک صمت وعلى رزقك افطرت واليك انبت وعليک توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لک صمت وعلى رزقك افطرت واليك انبت وعليک توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'بۆ ژووری نوێژی لاوەکی (ژووری ئافرەتان یان نهۆمێکی تر بۆ نموونە)، ئەم شاشەیە دەتوانێت ڕاستەوخۆی وتاری هەینی پیشان بدات';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'ئەم دۆخە هەڵدەستێت بە هەڵکردن/گوژاندنەوە ی ڕوونما لە پێش و پاشی کاتەکانی نوێژ';
 
   @override
-  String before(Object variable) {
-    return 'خولەک پێش هەر کاتێکی نوێژ';
-  }
+  String get before => 'خولەک پێش هەر کاتێکی نوێژ';
 
   @override
-  String after(Object variable) {
-    return 'خولەک پاش هەر کاتێکی نوێژ';
-  }
+  String get after => 'خولەک پاش هەر کاتێکی نوێژ';
 
   @override
   String get updateAvailable => 'نوێکردنەوە بەردەستە';

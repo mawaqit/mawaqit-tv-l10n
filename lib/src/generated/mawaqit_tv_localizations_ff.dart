@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get quit => 'Yaltu';
 
   @override
-  String get forceStaging => 'Waatu lowre ƴeewndorde';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Waɗtu lowre huutorde';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Suɓo so yaynirde maa yaltinat tintine sahaa kala, ɗum ena himmi so tawii mbaɗ-ɗaa yaynirde ndee ko e naatirde, yeru.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'E suudu ɗiɗaɓuru njuulu (suudu rewɓe walla toggere woɗnde, yeru), ndee yaynirde hollirta ko njuulu Aljumaa tolbec';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Oo fannu huɓɓat/ñifa kaɓirgol hade kam e ɓaawo noddinaango kala';
 
   @override
-  String before(Object variable) {
-    return 'hojomaaji hade waktu njuulu kala';
-  }
+  String get before => 'hojomaaji hade waktu njuulu kala';
 
   @override
-  String after(Object variable) {
-    return 'hojomaaji hade njuulu kala';
-  }
+  String get after => 'hojomaaji hade njuulu kala';
 
   @override
   String get updateAvailable => 'Keɗtitinal ena woodi';

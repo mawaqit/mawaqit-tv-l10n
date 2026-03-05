@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsUr extends MawaqitTvLocalizations {
   String get quit => 'Quit';
 
   @override
-  String get forceStaging => 'اسٹیجنگ پر سوئچ کریں۔';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'پروڈکشن موڈ پر سوئچ کریں۔';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsUr extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'منتخب کریں کہ آیا آپ کی سکرین ہر وقت اعلانات دکھائے گی، اگر آپ مثال کے طور پر داخلی دروازے پر اسکرین انسٹال کرتے ہیں تو یہ کارآمد ہو سکتا ہے۔.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'ثانوی نماز کے کمرے کے لیے (مثال کے طور پر خواتین کا کمرہ یا دوسری منزل)، یہ اسکرین جمعہ کی لائیو سٹریمنگ دکھائے گی۔';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsUr extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'یہ فیچر ہر نماز کی اذان سے پہلے اور بعد میں ڈیوائس کو آن/آف کرتا ہے۔';
 
   @override
-  String before(Object variable) {
-    return 'ہر نماز کے وقت سے چند منٹ پہلے';
-  }
+  String get before => 'ہر نماز کے وقت سے چند منٹ پہلے';
 
   @override
-  String after(Object variable) {
-    return 'ہر نماز کے وقت کے چند منٹ بعد';
-  }
+  String get after => 'ہر نماز کے وقت کے چند منٹ بعد';
 
   @override
   String get updateAvailable => 'اپ ڈیٹ دستیاب ہے۔';

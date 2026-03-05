@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   String get quit => '종료';
 
   @override
-  String get forceStaging => '스테이징으로 전환';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => '프로덕션으로 전환';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => '화면에 항상 공지사항을 표시할지 여부를 선택하면 예를 들어 입구에 화면을 설치하는 경우에 유용할 수 있습니다.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => '보조 기도실(예: 여성실 또는 다른 층)의 경우, 이 화면에는 주무아 라이브 스트리밍이 표시됩니다.';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   String get screenLockDesc2 => '이 기능은 각 기도 아잔 전후에 기기를 켜고 끕니다';
 
   @override
-  String before(Object variable) {
-    return '기도 시간 전 $variable분';
-  }
+  String get before => '분 전';
 
   @override
-  String after(Object variable) {
-    return '기도 시간 후 $variable분';
-  }
+  String get after => '분 후';
 
   @override
   String get updateAvailable => '업데이트 가능';

@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsDe extends MawaqitTvLocalizations {
   String get quit => 'Beenden';
 
   @override
-  String get forceStaging => 'Zum Staging wechseln';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Zur Produktion wechseln';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsDe extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Wählen Sie aus, ob Ihr Bildschirm ständig Ankündigungen anzeigen soll. Dies kann nützlich sein, wenn der Bildschirm beispielsweise am Eingang des Hauses installiert wird.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Dieser Bildschirm zeigt jumua-Live-Streaming für einen anderen Gebetsraum (z. B. Frauen-Gebetsraum oder Räume in anderen Etagen) ';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsDe extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Diese Funktion schaltet das Gerät vor und nach jedem Gebetsadhan ein';
 
   @override
-  String before(Object variable) {
-    return 'Minuten vor jeder Gebetszeit';
-  }
+  String get before => 'Minuten vor jeder Gebetszeit';
 
   @override
-  String after(Object variable) {
-    return 'Minuten nach jeder Gebetszeit';
-  }
+  String get after => 'Minuten nach jeder Gebetszeit';
 
   @override
   String get updateAvailable => 'Update verfügbar';

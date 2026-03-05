@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsSl extends MawaqitTvLocalizations {
   String get quit => 'Opustite';
 
   @override
-  String get forceStaging => 'Preklop na postavitev';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Prehod na proizvodnjo';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsSl extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Izberite, ali bo zaslon ves čas prikazoval obvestila, kar je lahko koristno, če zaslon namestite na primer ob vhodu.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Za sekundarno molitveno sobo (na primer sobo za ženske ali drugo nadstropje) se na tem zaslonu prikaže prenos jumue v živo.';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsSl extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Ta funkcija vklopi/izklopi napravo pred in po vsakemadhan (klicu k molitvi)';
 
   @override
-  String before(Object variable) {
-    return 'minut pred vsakim molitvenim časom';
-  }
+  String get before => 'minut pred vsakim molitvenim časom';
 
   @override
-  String after(Object variable) {
-    return 'minut po vsakem molitvenem času';
-  }
+  String get after => 'minut po vsakem molitvenem času';
 
   @override
   String get updateAvailable => 'Posodobitev na voljo';

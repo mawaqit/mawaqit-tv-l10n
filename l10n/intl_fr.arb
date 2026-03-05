@@ -12,8 +12,8 @@
   "tryAgain": "Réessayez",
   "closeApp": "Fermer l'application",
   "quit": "Quitter",
-  "forceStaging": "Passer en staging",
-  "forcePreProduction": "Passer en pre-production",
+  "forceStaging": "Staging",
+  "forcePreProduction": "Pre-production",
   "disableStaging": "Passer en mode production",
   "environmentSwitchSuccess": "Environnement changé avec succès",
   "environmentSwitchFailed": "Échec du changement d'environnement",
@@ -176,9 +176,9 @@
   "announcementOnlyMode": "Mode annonces",
   "normalMode": "Mode Normal",
   "announcementOnlyModeEXPLINATION": "Choisissez si votre écran affichera des annonces en permanence, ce qui peut être utile si vous installez l'écran à l'entrée par exemple.",
-  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
   "@duaaElEftarText": {
-    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
   "secondaryScreenExplanation": "Pour une salle de prière secondaire (salle des femmes ou un autre étage par exemple), cet écran affichera la joumoua en direct.",
   "mainScreenExplanation": "Pour la salle principale de la mosquée, cet écran n'affichera pas la diffusion en direct de la joumouaa",

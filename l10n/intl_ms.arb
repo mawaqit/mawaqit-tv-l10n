@@ -12,7 +12,7 @@
   "tryAgain": "Cuba lagi",
   "closeApp": "Tutup apl",
   "quit": "Keluar",
-  "forceStaging": "Beralih kepada",
+  "forceStaging": "Staging",
   "disableStaging": "Beralih kepada mod pengeluaran",
   "sureCloseApp": "Adakah anda pasti untuk membatalkan permohonan?",
   "ok": "OK",
@@ -173,9 +173,9 @@
   "announcementOnlyMode": "Mod Pengumuman",
   "normalMode": "Mod Biasa ",
   "announcementOnlyModeEXPLINATION": "Pilih sama ada skrin anda akan memaparkan pengumuman sepanjang masa, ini berguna sekiranya anda memasang skrin di pintu masuk.",
-  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
   "@duaaElEftarText": {
-    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
   "secondaryScreenExplanation": "Untuk ruang solat kedua (contohnya bilik wanita atau tingkat lain), skrin ini akan menunjukkan siaran langsung solat Jumaat",
   "mainScreenExplanation": "Untuk ruang masjid utama, skrin ini tidak akan menunjukkan siaran langsung Solat Jumaat",

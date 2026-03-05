@@ -12,7 +12,7 @@
   "tryAgain": "Provo përsëri.",
   "closeApp": "Mbyll aplikacionin!",
   "quit": "Dilni!",
-  "forceStaging": "Kalo në fazën e testimit (staging)",
+  "forceStaging": "Staging",
   "disableStaging": "Kalo në modalitetin e prodhimit",
   "sureCloseApp": "Jeni i sigurt që dëshironi të dilni nga aplikacioni?",
   "ok": "Në rregull",
@@ -175,7 +175,7 @@
   "announcementOnlyModeEXPLINATION": "Zgjidhni nëse ekrani juaj do të shfaqë njoftime gjatë gjithë kohës, kjo mund të jetë e dobishme nëse instaloni ekranin në hyrje të xhamisë.",
   "duaaElEftarText": " “Allahu im, për hir Tënden agjërova, me atë që më kë furnizuar bëjë iftar. Etja shkoi, damarët u njomën. Inshallah (dashtë Allahu) edhe shpërblimi dhe mirësia m’u caktuan.” ",
   "@duaaElEftarText": {
-    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
   "secondaryScreenExplanation": "Për një dhomë ose hapësire lutjeje dytësore (dhomë grash ose një kat tjetër për shembull), ky ekran do të shfaqë transmetimin e drejtpërdrejtë të Xhumasë",
   "mainScreenExplanation": "Për pjesën kryesore të xhamisë, ky ekran nuk do të shfaqë transmetimin e drejtpërdrejtë të Xhumasë",

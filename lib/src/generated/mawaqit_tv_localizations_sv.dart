@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get quit => 'Sluta med';
 
   @override
-  String get forceStaging => 'Växla till staging';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Övergång till produktion';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Välj om skärmen ska visa meddelanden hela tiden, detta kan vara användbart om du installerar skärmen vid ingången till exempel.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'För ett sekundärt bönerum (t.ex. ett kvinnorum eller en annan våning) visas jumua live-streaming på denna skärm.';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Denna funktion slå på/av enheten före och efter varje bön adhan';
 
   @override
-  String before(Object variable) {
-    return 'minuter före varje bönetid';
-  }
+  String get before => 'minuter före varje bönetid';
 
   @override
-  String after(Object variable) {
-    return 'minuter efter varje bönetid';
-  }
+  String get after => 'minuter efter varje bönetid';
 
   @override
   String get updateAvailable => 'Uppdatering tillgänglig';

@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsTa extends MawaqitTvLocalizations {
   String get quit => 'விலகு';
 
   @override
-  String get forceStaging => 'ஸ்டேஜிங் முறைக்கு மாற்றவும்';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'உற்பத்தி முறைக்கு மாற்றவும்';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsTa extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'இந்த அம்சம் ஒவ்வொரு தொழுகை அதான் முன்பும் பின்னும் சாதனத்தை இயக்கும்/நிறுத்தும்';
 
   @override
-  String before(Object variable) {
-    return 'ஒவ்வொரு தொழுகை நேரத்திற்கும் முன் நிமிடங்கள்';
-  }
+  String get before => 'ஒவ்வொரு தொழுகை நேரத்திற்கும் முன் நிமிடங்கள்';
 
   @override
-  String after(Object variable) {
-    return 'ஒவ்வொரு தொழுகை நேரத்திற்கும் பின் நிமிடங்கள்';
-  }
+  String get after => 'ஒவ்வொரு தொழுகை நேரத்திற்கும் பின் நிமிடங்கள்';
 
   @override
   String get updateAvailable => 'புதுப்பிப்பு உள்ளது';

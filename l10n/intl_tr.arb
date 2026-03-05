@@ -12,7 +12,7 @@
   "tryAgain": "Tekrar Deneyin",
   "closeApp": "Uygulamayı kapat",
   "quit": "Çıkış",
-  "forceStaging": "Evrelemeye geç",
+  "forceStaging": "Staging",
   "disableStaging": "Üretime geçiş",
   "sureCloseApp": "Uygulamadan çıkmak istediğinizden emin misiniz?",
   "ok": "TAMAM",
@@ -175,7 +175,7 @@
   "announcementOnlyModeEXPLINATION": "Ekranınızın her zaman duyuruları gösterip göstermeyeceğini seçin, örneğin ekranı girişe kurarsanız bu yararlı olabilir.",
   "duaaElEftarText": "\"Allahümme leke sumtu ve bike âmentü ve aleyke tevekkeltü ve alâ rızkıke eftartü ve savme'l-Ğadi min şehri Ramazane neveytü, feğfirlî mâ kaddemtü ve mâ ahhartü.\"",
   "@duaaElEftarText": {
-    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
   "secondaryScreenExplanation": "İkinci bir ekran için (örneğin kadınlar yeri veya başka bir kat), bu ekran cuma canlı yayınını gösterecektir.",
   "mainScreenExplanation": "Erkekler ekranı için bu ekran cuma canlı yayınını göstermeyecek",

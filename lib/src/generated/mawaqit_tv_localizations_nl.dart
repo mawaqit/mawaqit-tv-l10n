@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsNl extends MawaqitTvLocalizations {
   String get quit => 'Sluiten';
 
   @override
-  String get forceStaging => 'Overschakelen naar staging';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Overschakelen naar productie';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsNl extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Kies of je scherm de mededelingen de hele tijd zal weergeven. Dit kan handig zijn als je het scherm bijvoorbeeld bij de ingang installeert.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Voor een secundaire gebedsruimte (vrouwenruimte of een andere verdieping bijvoorbeeld), zal dit scherm de live-streaming van de Vrijdaggebed tonen';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsNl extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Deze functie inschakelen/uitschakelen van het apparaat voor en na elke gebed adhan';
 
   @override
-  String before(Object variable) {
-    return 'minuten voor elke gebed tijd';
-  }
+  String get before => 'minuten voor elke gebed tijd';
 
   @override
-  String after(Object variable) {
-    return 'minuten na elke gebed tijd';
-  }
+  String get after => 'minuten na elke gebed tijd';
 
   @override
   String get updateAvailable => 'Update beschikbaar';

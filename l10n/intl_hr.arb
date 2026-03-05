@@ -12,7 +12,7 @@
   "tryAgain": "Pokušaj ponovno",
   "closeApp": "Zatvori aplikaciju",
   "quit": "Prestati",
-  "forceStaging": "Prijeđi na testni način rada",
+  "forceStaging": "Staging",
   "disableStaging": "Prijeđi na produkcijski način rada",
   "sureCloseApp": "Jeste li sigurni da želite obrisati ovu prijavu?",
   "ok": "U REDU",
@@ -173,9 +173,9 @@
   "announcementOnlyMode": "Način rada obavijesti",
   "normalMode": "Normalni način rada",
   "announcementOnlyModeEXPLINATION": "Odaberite hoće li vaš zaslon stalno prikazivati obavijesti, ovo može biti korisno ako, na primjer, postavite zaslon na ulazu.",
-  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
   "@duaaElEftarText": {
-    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
   "secondaryScreenExplanation": "Za sekundarnu prostoriju za namaz (ženska prostorija ili drugi kat npr.), ovaj zaslon prikazivat će džumu prijenos uživo.",
   "mainScreenExplanation": "Za glavnu prostoriju džamije, ovaj zaslon neće prikazivati džuma prijenos uživo.",

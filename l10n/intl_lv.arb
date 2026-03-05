@@ -12,7 +12,7 @@
   "tryAgain": "Mēģiniet vēlreiz",
   "closeApp": "Aizvērt lietotni",
   "quit": "Pārtraukt",
-  "forceStaging": "Pāreja uz inscenēšanu",
+  "forceStaging": "Staging",
   "disableStaging": "Pāreja uz ražošanu",
   "sureCloseApp": "Vai esat pārliecināts, ka vēlaties beigt lietotni?",
   "ok": "LABI",
@@ -173,9 +173,9 @@
   "announcementOnlyMode": "Paziņojumu režīms",
   "normalMode": "Parasts režīms ",
   "announcementOnlyModeEXPLINATION": "Izvēlieties, vai ekrānā visu laiku tiks rādīti paziņojumi; tas var būt noderīgi, ja ekrāns ir uzstādīts, piemēram, pie ieejas.",
-  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
   "@duaaElEftarText": {
-    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
   "secondaryScreenExplanation": "Otrajā lūgšanu telpā (piemēram, sieviešu istabā vai citā stāvā) šajā ekrānā tiks rādīta jumua tiešraide.",
   "mainScreenExplanation": "Galvenajā mošejas telpā šajā ekrānā netiks rādīta džumua tiešraide.",

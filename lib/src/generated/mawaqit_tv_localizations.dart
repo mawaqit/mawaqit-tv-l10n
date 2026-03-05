@@ -991,10 +991,10 @@ abstract class MawaqitTvLocalizations {
   /// **'Choose if your screen will display announcements all time, this can be useful if you install the screen at the entrance for example.'**
   String get announcementOnlyModeEXPLINATION;
 
-  /// اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله
+  /// اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله
   ///
   /// In en, this message translates to:
-  /// **'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله'**
+  /// **'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله'**
   String get duaaElEftarText;
 
   /// No description provided for @secondaryScreenExplanation.
@@ -1469,13 +1469,13 @@ abstract class MawaqitTvLocalizations {
   ///
   /// In en, this message translates to:
   /// **'minutes before each prayer time'**
-  String before(Object variable);
+  String get before;
 
   /// No description provided for @after.
   ///
   /// In en, this message translates to:
   /// **'minutes after each prayer time'**
-  String after(Object variable);
+  String get after;
 
   /// No description provided for @updateAvailable.
   ///

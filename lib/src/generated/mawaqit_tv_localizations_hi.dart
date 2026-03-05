@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsHi extends MawaqitTvLocalizations {
   String get quit => 'छोड़ना';
 
   @override
-  String get forceStaging => 'स्टेजिंग पर स्विच करें';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'उत्पादन मोड पर स्विच करें';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsHi extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'चुनें कि क्या आपकी स्क्रीन हर समय घोषणाएँ प्रदर्शित करेगी, उदाहरण के लिए यदि आप प्रवेश द्वार पर स्क्रीन स्थापित करते हैं तो यह उपयोगी हो सकता है।';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'द्वितीयक प्रार्थना कक्ष (उदाहरण के लिए महिला कक्ष या अन्य मंजिल) के लिए, यह स्क्रीन जुमुआ लाइव-स्ट्रीमिंग दिखाएगी';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsHi extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'यह सुविधा प्रत्येक प्रार्थना अज़ान से पहले और बाद में डिवाइस को चालू/बंद कर देती है';
 
   @override
-  String before(Object variable) {
-    return 'प्रत्येक प्रार्थना समय से कुछ मिनट पहले';
-  }
+  String get before => 'प्रत्येक प्रार्थना समय से कुछ मिनट पहले';
 
   @override
-  String after(Object variable) {
-    return 'प्रत्येक प्रार्थना समय के कुछ मिनट बाद';
-  }
+  String get after => 'प्रत्येक प्रार्थना समय के कुछ मिनट बाद';
 
   @override
   String get updateAvailable => 'उपलब्ध अद्यतन';

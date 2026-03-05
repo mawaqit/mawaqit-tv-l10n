@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsEt extends MawaqitTvLocalizations {
   String get quit => 'Lõpeta';
 
   @override
-  String get forceStaging => 'Üleminek lavastamisele';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Üleminek tootmisele';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsEt extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Valige, kas teie ekraanil kuvatakse kogu aeg teadaandeid, see võib olla kasulik, kui paigaldate ekraani näiteks sissepääsu juurde.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Teisese palveruumi (näiteks naiste tuba või teine korrus) puhul näitab see ekraan jumua live-striimimist.';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsEt extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'See funktsioon lülitab seadme sisse/välja enne ja pärast iga palvuse adhani';
 
   @override
-  String before(Object variable) {
-    return 'minutit enne iga palveaega';
-  }
+  String get before => 'minutit enne iga palveaega';
 
   @override
-  String after(Object variable) {
-    return 'minutit pärast iga palveaega';
-  }
+  String get after => 'minutit pärast iga palveaega';
 
   @override
   String get updateAvailable => 'Uuendus saadaval';

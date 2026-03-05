@@ -13,7 +13,7 @@
   "tryAgain": "Tente novamente",
   "closeApp": "Fechar aplicação",
   "quit": "Sair",
-  "forceStaging": "Trocar para ambiente de teste",
+  "forceStaging": "Staging",
   "disableStaging": "Mudar para modo operacional",
   "sureCloseApp": "Tem a certeza que pretende sair da aplicação?",
   "ok": "OK",

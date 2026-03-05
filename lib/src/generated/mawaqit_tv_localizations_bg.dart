@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsBg extends MawaqitTvLocalizations {
   String get quit => 'Изход';
 
   @override
-  String get forceStaging => 'Преминаване към постановка';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Преминаване към производствен режим';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsBg extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Изберете дали вашият екран да показва съобщения през цялото време, това може да бъде полезно, ако инсталирате екрана на входа на джамията.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'За вторична молитвена стая или пространство (женска стая или друг етаж например), този екран ще покаже предаването на живо от петък';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsBg extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Тази функция включва/изключва устройството преди и след всеки езан за молитвата намаз';
 
   @override
-  String before(Object variable) {
-    return 'минути преди всяка молитва намаз';
-  }
+  String get before => 'минути преди всяка молитва намаз';
 
   @override
-  String after(Object variable) {
-    return 'минути след всяка молитва намаз';
-  }
+  String get after => 'минути след всяка молитва намаз';
 
   @override
   String get updateAvailable => 'Налични са актуализации';

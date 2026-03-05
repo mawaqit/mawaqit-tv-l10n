@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsLt extends MawaqitTvLocalizations {
   String get quit => 'Baigti';
 
   @override
-  String get forceStaging => 'Perėjimas prie etapų';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Perėjimas prie gamybos';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsLt extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Pasirinkite, ar ekrane visą laiką bus rodomi pranešimai; tai gali būti naudinga, jei ekraną įrengsite, pavyzdžiui, prie įėjimo.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Jei tai antrinis maldos kambarys (pavyzdžiui, moterų kambarys arba kitas aukštas), šiame ekrane bus rodoma tiesioginė jumua transliacija.';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsLt extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Ši funkcija įjungia/išjungia įrenginį prieš ir po kiekvieno maldos adžano';
 
   @override
-  String before(Object variable) {
-    return 'min. prieš kiekvieną maldos laiką';
-  }
+  String get before => 'min. prieš kiekvieną maldos laiką';
 
   @override
-  String after(Object variable) {
-    return 'min. po kiekvieno maldos laiko';
-  }
+  String get after => 'min. po kiekvieno maldos laiko';
 
   @override
   String get updateAvailable => 'Yra atnaujinimas';

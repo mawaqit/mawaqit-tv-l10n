@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get quit => 'Pārtraukt';
 
   @override
-  String get forceStaging => 'Pāreja uz inscenēšanu';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Pāreja uz ražošanu';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Izvēlieties, vai ekrānā visu laiku tiks rādīti paziņojumi; tas var būt noderīgi, ja ekrāns ir uzstādīts, piemēram, pie ieejas.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Otrajā lūgšanu telpā (piemēram, sieviešu istabā vai citā stāvā) šajā ekrānā tiks rādīta jumua tiešraide.';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Šī funkcija ieslēdz/izslēdz ierīci pirms un pēc katra lūgšanas azāna';
 
   @override
-  String before(Object variable) {
-    return 'minūtes pirms katra lūgšanu laika';
-  }
+  String get before => 'minūtes pirms katra lūgšanu laika';
 
   @override
-  String after(Object variable) {
-    return 'minūtes pēc katra lūgšanu laika';
-  }
+  String get after => 'minūtes pēc katra lūgšanu laika';
 
   @override
   String get updateAvailable => 'Pieejams atjauninājums';

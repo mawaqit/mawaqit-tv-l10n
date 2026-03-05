@@ -12,7 +12,7 @@
   "tryAgain": "Inténtalo de nuevo",
   "closeApp": "Cerrar aplicación",
   "quit": "Salir",
-  "forceStaging": "Cambiar a puesta en escena",
+  "forceStaging": "Staging",
   "disableStaging": "Pase a producción",
   "sureCloseApp": "¿Está seguro de que desea salir de la aplicación?",
   "ok": "Ok",
@@ -173,9 +173,9 @@
   "announcementOnlyMode": "Modo de anuncios",
   "normalMode": "Modo normal ",
   "announcementOnlyModeEXPLINATION": "Elija si su pantalla mostrará anuncios todo el tiempo, esto puede ser útil si instala la pantalla en la entrada, por ejemplo.",
-  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
   "@duaaElEftarText": {
-    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
   "secondaryScreenExplanation": "Para una sala de oración secundaria (sala de mujeres u otro piso, por ejemplo), esta pantalla mostrará la transmisión en directo del jumua",
   "mainScreenExplanation": "Para la sala principal de la mezquita, esta pantalla no mostrará la retransmisión en directo del jumua",

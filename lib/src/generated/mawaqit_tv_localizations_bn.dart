@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsBn extends MawaqitTvLocalizations {
   String get quit => 'কুইট';
 
   @override
-  String get forceStaging => 'স্টেজিং-এ সুইচ করুন';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'প্রোডাকশন মোডে সুইচ করুন';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsBn extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'এই ফিচারটি প্রতিটি নামাজের আজানের আগে ও পরে ডিভাইসটি স্বয়ংক্রিয়ভাবে চালু ও বন্ধ করে';
 
   @override
-  String before(Object variable) {
-    return 'প্রতিটি নামাজের সময়ের কয়েক মিনিট আগে';
-  }
+  String get before => 'প্রতিটি নামাজের সময়ের কয়েক মিনিট আগে';
 
   @override
-  String after(Object variable) {
-    return 'প্রতিটি নামাজের সময়ের কয়েক মিনিট পরে';
-  }
+  String get after => 'প্রতিটি নামাজের সময়ের কয়েক মিনিট পরে';
 
   @override
   String get updateAvailable => 'আপডেট আছে';

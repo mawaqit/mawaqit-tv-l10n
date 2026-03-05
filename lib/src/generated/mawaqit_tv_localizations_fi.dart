@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsFi extends MawaqitTvLocalizations {
   String get quit => 'Lopeta';
 
   @override
-  String get forceStaging => 'Vaihda testaukseen';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Siirry tuotantoon';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsFi extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Valitse, näyttääkö näyttö ilmoituksia koko ajan, tämä voi olla hyödyllistä, jos asennat näytön esimerkiksi sisäänkäynnin yhteyteen.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Toissijaisen rukoushuoneen (esimerkiksi naistenhuone tai toinen kerros) osalta tämä näyttö näyttää jumuan suoratoiston.';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsFi extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Tämä ominaisuus kytketään laitteen päälle ja pois päältä ennen jokaista rukousta ja sen jälkeen';
 
   @override
-  String before(Object variable) {
-    return 'minuuttia ennen jokaista rukousaikaa';
-  }
+  String get before => 'minuuttia ennen jokaista rukousaikaa';
 
   @override
-  String after(Object variable) {
-    return 'minuutit jokaisen rukouksen ajan jälkeen';
-  }
+  String get after => 'minuutit jokaisen rukouksen ajan jälkeen';
 
   @override
   String get updateAvailable => 'Päivitys saatavilla';

@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsRo extends MawaqitTvLocalizations {
   String get quit => 'Renunță la';
 
   @override
-  String get forceStaging => 'Treceți la etapizare';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Trecerea la producție';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsRo extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Alegeți dacă ecranul dvs. va afișa anunțuri tot timpul, acest lucru poate fi util dacă instalați ecranul la intrare, de exemplu.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Pentru o sală de rugăciune secundară (de exemplu, camera femeilor sau un alt etaj), acest ecran va afișa transmisia în direct a jumua.';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsRo extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Această funcție pornește/oprește dispozitivul înainte și după fiecare rugăciune adhan';
 
   @override
-  String before(Object variable) {
-    return 'Cu câteva minute înainte de fiecare dată de rugăciune';
-  }
+  String get before => 'Cu câteva minute înainte de fiecare dată de rugăciune';
 
   @override
-  String after(Object variable) {
-    return 'minute după fiecare timp de rugăciune';
-  }
+  String get after => 'minute după fiecare timp de rugăciune';
 
   @override
   String get updateAvailable => 'Actualizare disponibilă';

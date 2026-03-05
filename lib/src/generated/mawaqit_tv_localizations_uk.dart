@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   String get quit => 'Звільнися.';
 
   @override
-  String get forceStaging => 'Перейдіть до інсценування';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Перемкнутись у робочий режим';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Ця функція увімк/вимк пристрій перед і після кожного Азану';
 
   @override
-  String before(Object variable) {
-    return 'хвилин до кожного часу молитви';
-  }
+  String get before => 'хвилин до кожного часу молитви';
 
   @override
-  String after(Object variable) {
-    return 'хвилин після кожного часу молитви';
-  }
+  String get after => 'хвилин після кожного часу молитви';
 
   @override
   String get updateAvailable => 'Доступне оновлення';

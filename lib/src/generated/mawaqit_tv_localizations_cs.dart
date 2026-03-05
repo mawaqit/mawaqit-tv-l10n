@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsCs extends MawaqitTvLocalizations {
   String get quit => 'Ukončit';
 
   @override
-  String get forceStaging => 'Přepnutí na etapizaci';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Přechod na výrobu';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsCs extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Zvolte, zda se na obrazovce budou neustále zobrazovat oznámení, což může být užitečné, pokud obrazovku instalujete například u vchodu.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'V případě sekundární modlitebny (například v místnosti pro ženy nebo v jiném patře) se na této obrazovce zobrazí přímý přenos jumuy.';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsCs extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Tato funkce zapnout/vypnout zařízení před a po každé modlitbě';
 
   @override
-  String before(Object variable) {
-    return 'minuty před každým časem modlitby';
-  }
+  String get before => 'minuty před každým časem modlitby';
 
   @override
-  String after(Object variable) {
-    return 'minuty po každém čase modlitby';
-  }
+  String get after => 'minuty po každém čase modlitby';
 
   @override
   String get updateAvailable => 'K dispozici je aktualizace';

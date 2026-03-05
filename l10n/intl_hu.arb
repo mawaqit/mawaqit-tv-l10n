@@ -12,7 +12,7 @@
   "tryAgain": "Próbáld újra",
   "closeApp": "Alkalmazás bezárása",
   "quit": "Kilépés",
-  "forceStaging": "Váltás tesztkörnyezetre",
+  "forceStaging": "Staging",
   "disableStaging": "Váltás éles üzemmódra",
   "sureCloseApp": "Biztos, hogy ki akarsz lépni az alkalmazásból?",
   "ok": "OK",
@@ -175,7 +175,7 @@
   "announcementOnlyModeEXPLINATION": "Válaszd ki, hogy a képernyő állandóan megjelenítsen-e közleményeket, ez hasznos lehet akkor, ha például a képernyőt a bejáratnál helyezed el.",
   "duaaElEftarText": "Ó, Allah, érted böjtöltem, és a Te ellátmányoddal törtem meg a böjtöt. Hozzád fordulok, és Rád hagyatkozom. Elmúlt a szomjúság, megnedvesedtek az erek, és biztosított a jutalom Allah engedelmével",
   "@duaaElEftarText": {
-    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
   "secondaryScreenExplanation": "Egy másodlagos imateremben (például a női teremben vagy egy másik emeleten) ez a képernyő mutatja a pénteki ima élő közvetítését",
   "mainScreenExplanation": "Ez a képernyő a mecset főimatermében nem fogja mutatni a pénteki ima élő közvetítését",

@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsAz extends MawaqitTvLocalizations {
   String get quit => 'Çıx';
 
   @override
-  String get forceStaging => 'Hazırlığa keç';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'İstehsal rejiminə keç';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsAz extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Ekranın elanları həmişə göstərib-göstərməyəcəyini seçə bilərsiniz, bu, məsələn, ekranı girişdə qurduqda faydalıdır.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'İkinci dərəcəli namaz otağı üçün (məsələn, qadın otağı və ya başqa mərtəbə) bu ekran cümə günü canlı yayımı göstərəcək';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsAz extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Bu özəllik, hər namaz azanından əvvəl və sonra cihazı açır/bağlayır';
 
   @override
-  String before(Object variable) {
-    return 'dəqiqə əvvəl (hər namaz vaxtında)';
-  }
+  String get before => 'dəqiqə əvvəl (hər namaz vaxtında)';
 
   @override
-  String after(Object variable) {
-    return 'dəqiqə sonra (hər namaz vaxtında)';
-  }
+  String get after => 'dəqiqə sonra (hər namaz vaxtında)';
 
   @override
   String get updateAvailable => 'Güncəlləmə mövcuddur';

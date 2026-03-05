@@ -12,7 +12,7 @@
   "tryAgain": "Zkuste to znovu",
   "closeApp": "Zavřít aplikaci",
   "quit": "Ukončit",
-  "forceStaging": "Přepnutí na etapizaci",
+  "forceStaging": "Staging",
   "disableStaging": "Přechod na výrobu",
   "sureCloseApp": "Jste si jisti, že chcete aplikaci ukončit?",
   "ok": "OK",
@@ -173,9 +173,9 @@
   "announcementOnlyMode": "Režim oznámení",
   "normalMode": "Normální režim ",
   "announcementOnlyModeEXPLINATION": "Zvolte, zda se na obrazovce budou neustále zobrazovat oznámení, což může být užitečné, pokud obrazovku instalujete například u vchodu.",
-  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
   "@duaaElEftarText": {
-    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
   "secondaryScreenExplanation": "V případě sekundární modlitebny (například v místnosti pro ženy nebo v jiném patře) se na této obrazovce zobrazí přímý přenos jumuy.",
   "mainScreenExplanation": "V případě hlavní místnosti mešity se na této obrazovce nezobrazuje přímý přenos jumuy.",

@@ -12,7 +12,7 @@
   "tryAgain": "Pabandykite dar kartą",
   "closeApp": "Uždaryti programą",
   "quit": "Baigti",
-  "forceStaging": "Perėjimas prie etapų",
+  "forceStaging": "Staging",
   "disableStaging": "Perėjimas prie gamybos",
   "sureCloseApp": "Ar tikrai norite baigti programą?",
   "ok": "GERAI",
@@ -173,9 +173,9 @@
   "announcementOnlyMode": "Skelbimų režimas",
   "normalMode": "Įprastas režimas ",
   "announcementOnlyModeEXPLINATION": "Pasirinkite, ar ekrane visą laiką bus rodomi pranešimai; tai gali būti naudinga, jei ekraną įrengsite, pavyzdžiui, prie įėjimo.",
-  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
   "@duaaElEftarText": {
-    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
   "secondaryScreenExplanation": "Jei tai antrinis maldos kambarys (pavyzdžiui, moterų kambarys arba kitas aukštas), šiame ekrane bus rodoma tiesioginė jumua transliacija.",
   "mainScreenExplanation": "Pagrindinėje mečetės patalpoje šiame ekrane nebus rodoma tiesioginė jumua transliacija",

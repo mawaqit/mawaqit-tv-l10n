@@ -12,7 +12,7 @@
   "tryAgain": "Spróbuj jeszcze raz",
   "closeApp": "Zamknij aplikację",
   "quit": "Zrezygnuj z",
-  "forceStaging": "Przełączanie na etap",
+  "forceStaging": "Staging",
   "disableStaging": "Przełącz na tryb produkcji",
   "sureCloseApp": "Czy na pewno chce Pan zrezygnować z aplikacji?",
   "ok": "OK",
@@ -173,9 +173,9 @@
   "announcementOnlyMode": "Tryb ogłoszeń",
   "normalMode": "Tryb normalny ",
   "announcementOnlyModeEXPLINATION": "Proszę wybrać, czy ekran będzie wyświetlał komunikaty przez cały czas, może to być przydatne, jeżeli zainstalują Państwo ekran na przykład przy wejściu.",
-  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
   "@duaaElEftarText": {
-    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
   "secondaryScreenExplanation": "W przypadku dodatkowej sali modlitewnej (np. sala kobiet lub inne piętro), ten ekran pokaże jumua na żywo",
   "mainScreenExplanation": "W przypadku głównego pomieszczenia meczetu, ten ekran nie będzie pokazywał transmisji dżumy na żywo",

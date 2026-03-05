@@ -12,7 +12,7 @@
   "tryAgain": "Pokušajte ponovo",
   "closeApp": "Zatvori aplikaciju",
   "quit": "Izađi",
-  "forceStaging": "Prebaci na testni režim",
+  "forceStaging": "Staging",
   "disableStaging": "Prebaci u produkcioni način",
   "sureCloseApp": "Da li ste sigurni da želite da izađete iz aplikacije?",
   "ok": "OK",
@@ -175,7 +175,7 @@
   "announcementOnlyModeEXPLINATION": "Izaberite da li će vaš ekran stalno prikazivati obaveštenja, što može biti korisno, na primer, ako postavite ekran na ulazu.",
   "duaaElEftarText": "Allahumme, ja sam zbog Tebe postio, na Tvojim blagodatima iftarim, Tebi se vraćam i u Tebe se uzdam. Nestala je žeđ, navlažile su se žile i potvrđena je nagrada, inšallah.",
   "@duaaElEftarText": {
-    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
   "secondaryScreenExplanation": "Za sekundarnu molitvenu prostoriju (ženska sala ili drugi sprat, na primer), ovaj ekran će prikazivati džumu prenos uživo",
   "mainScreenExplanation": "Za glavni deo džamije ovaj ekran neće prikazivati džumu uživo",

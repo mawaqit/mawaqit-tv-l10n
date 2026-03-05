@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get quit => 'Kilépés';
 
   @override
-  String get forceStaging => 'Váltás tesztkörnyezetre';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Váltás éles üzemmódra';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Ez a funkció az eszközt minden imára hívás (adhan) előtt és után be- és kikapcsolja';
 
   @override
-  String before(Object variable) {
-    return 'imaidőig hátra lévő percek';
-  }
+  String get before => 'imaidőig hátra lévő percek';
 
   @override
-  String after(Object variable) {
-    return 'percek minden imaidő után';
-  }
+  String get after => 'percek minden imaidő után';
 
   @override
   String get updateAvailable => 'Frissítés elérhető';

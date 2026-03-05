@@ -12,7 +12,7 @@
   "tryAgain": "Yenidən sınayın",
   "closeApp": "Tətbiqi bağla",
   "quit": "Çıx",
-  "forceStaging": "Hazırlığa keç",
+  "forceStaging": "Staging",
   "disableStaging": "İstehsal rejiminə keç",
   "sureCloseApp": "Tətbiqdən çıxmaq istədiyinizə əminsiniz?",
   "ok": "Oldu",
@@ -173,9 +173,9 @@
   "announcementOnlyMode": "Elan rejimi",
   "normalMode": "Normal rejim",
   "announcementOnlyModeEXPLINATION": "Ekranın elanları həmişə göstərib-göstərməyəcəyini seçə bilərsiniz, bu, məsələn, ekranı girişdə qurduqda faydalıdır.",
-  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
   "@duaaElEftarText": {
-    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
   "secondaryScreenExplanation": "İkinci dərəcəli namaz otağı üçün (məsələn, qadın otağı və ya başqa mərtəbə) bu ekran cümə günü canlı yayımı göstərəcək",
   "mainScreenExplanation": "Əsas məscid otağı üçün bu ekran cümə canlı yayımını göstərməyəcək",
