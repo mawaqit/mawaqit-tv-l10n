@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'اختر إذا كنت تود أن تعرض شاشة الإعلانات طوال الوقت، هذا يمكن أن يكون مفيداً إذا قمت بتثبيت الشاشة على سبيل المثال في المدخل.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'غرفة الصلاة الثانوية (غرفة النساء أو طابق آخر على سبيل المثال)، ستظهر هذه الشاشة البث المباشر للجمعة إذا تم تفعيله على حساب MAWAQIT';

@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsFi extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Valitse, näyttääkö näyttö ilmoituksia koko ajan, tämä voi olla hyödyllistä, jos asennat näytön esimerkiksi sisäänkäynnin yhteyteen.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Toissijaisen rukoushuoneen (esimerkiksi naistenhuone tai toinen kerros) osalta tämä näyttö näyttää jumuan suoratoiston.';

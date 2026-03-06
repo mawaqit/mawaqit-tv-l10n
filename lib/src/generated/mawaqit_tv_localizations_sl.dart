@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsSl extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Izberite, ali bo zaslon ves čas prikazoval obvestila, kar je lahko koristno, če zaslon namestite na primer ob vhodu.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Za sekundarno molitveno sobo (na primer sobo za ženske ali drugo nadstropje) se na tem zaslonu prikaže prenos jumue v živo.';
