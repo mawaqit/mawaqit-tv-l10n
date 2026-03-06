@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsMk extends MawaqitTvLocalizations {
   String get quit => 'Се откажувам';
 
   @override
-  String get forceStaging => 'Префрли на тест околина';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Префрли на продукциски режим';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsMk extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Оваа функција го вклучува/исклучува уредот пред и по секој езан';
 
   @override
-  String before(Object variable) {
-    return 'минути пред секое време за молитва';
-  }
+  String get before => 'минути пред секое време за молитва';
 
   @override
-  String after(Object variable) {
-    return 'минути по секое време за молитва';
-  }
+  String get after => 'минути по секое време за молитва';
 
   @override
   String get updateAvailable => 'Достапна е надградба';

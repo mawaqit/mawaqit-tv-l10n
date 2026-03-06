@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsHr extends MawaqitTvLocalizations {
   String get quit => 'Prestati';
 
   @override
-  String get forceStaging => 'Prijeđi na testni način rada';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Prijeđi na produkcijski način rada';
@@ -207,49 +207,49 @@ class MawaqitTvLocalizationsHr extends MawaqitTvLocalizations {
   String get alAthkar => 'Al-Athkar';
 
   @override
-  String get azkarList0 => 'Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ja dhal dželali vel ikram Allahumma A`inni `ala zikrika wa šukrika wa husni \'ibadatik';
+  String get azkarList0 => 'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
 
   @override
-  String get azkarList1 => 'Subhan Allah, vel hamdu lillah, vellahu ekber (33 puta) La ilaha illa Allah, vahdahu la šerike leh, lehu elmulku ve lehu elhamdu, ve huve \'ala kulli šej\'in kadir.';
+  String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
 
   @override
-  String get azkarList2 => 'بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ النَّاسِ، مَلِكِ النَّاسِ، إِلَٰهِ النَّاسِ، مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ، الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ، مِنَ الْجِنَّةِ وَالنَّاسِ';
+  String get azkarList2 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
 
   @override
-  String get azkarList3 => 'بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ، مِن شَرِّ مَا خَلَقَ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ، وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ';
+  String get azkarList3 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.';
 
   @override
-  String get azkarList4 => 'بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ قُلْ هُوَ اللهُ أَحَدٌ، اللهُ الصَّمَدُ، لَمْ يَلِدْ وَلَمْ يُولَدْ، وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ';
+  String get azkarList4 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.';
 
   @override
-  String get azkarList5 => 'اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ مَنْ ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ وَلَا يَئُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ';
+  String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 => 'La ilaha illa Allah, vahdahu la šerike leh, lehu elmulku ve lehu elhamdu, ve huve \'ala kulli šej\'in kadir, Allahumma la mani\'a lima a\'tayta, ve la mu\'tija lima mana\'ta, ve la janfa\'u dha-l-džaddi minke-l-džad.';
+  String get azkarList6 => 'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
 
   @override
-  String get azkarList7 => 'Allahu, Ti si moj Gospodar, nema drugog boga osim Tebe, stvorio si me i ja sam Tvoj rob, i ja koliko mogu držim se Tvoje obveze i obećanja. Utječem Ti se od zla onoga što počinih. Priznajem Tvoje blagodati prema meni i priznajem svoj grijeh. Oprosti mi, jer niko ne prašta grijehe osim Tebe.';
+  String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
 
   @override
-  String get azkarList8 => 'Postali smo jutrom a vlast pripada Allahu, i hvala Allahu. Nema boga osim Allaha, On je Jedan, nema mu sudruga. Njemu pripada vlast i Njemu pripada zahvala, i On je svemoćan nad svakom stvari. Molim Te za dobro ovoga dana i dobro nakon njega, i utječem Ti se od zla ovoga dana i zla nakon njega. Utječem Ti se od lijenosti i ružne starosti. Utječem Ti se od kazne Vatre i od kazne u grobu.';
+  String get azkarList8 => 'Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādha \'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha \'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū\'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.';
 
   @override
-  String get azkarList9 => 'Allahu, ja potvrđujem ovog jutra Tebi, i potvrđuju nositelji Tvoga Arša, i Tvoji meleci, i sva Tvoja stvorenja, da si Ti Allah, nema drugog boga osim Tebe, Jedan si, nemaš sudruga, i da je Muhammed Tvoj rob i Tvoj poslanik. |Četiri puta|. [Ako je navečer, reci: \"Allahu, ja potvrđujem ovog večera...\"]';
+  String get azkarList9 => 'Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā\'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba\'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]';
 
   @override
-  String get azkarList10 => 'Allahu, podari mi zdravlje u tijelu, Allahu, podari mi zdravlje u sluhu, Allahu, podari mi zdravlje u vidu. Nema boga osim Tebe. Allahu, utječem Ti se od nevjerstva i siromaštva, i utječem Ti se od kazne u grobu. Nema boga osim Tebe. |Tri puta|';
+  String get azkarList10 => 'Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina \'l-kufri, wa \'l-faqr, wa a`ūdhu bika min `adhābi \'l-qabr, lā ilāha illā ant. (Thalātha marrāt)';
 
   @override
-  String get azkarList11 => 'Dovoljan mi je Allah, nema drugog boga osim Njega, u Njega se pouzdajem, i On je Gospodar veličanstvenog Arša. |Sedam puta|';
+  String get azkarList11 => 'Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu \'l-`Arshi \'l-\'Aẓīm. (Sab\'a marrāt)';
 
   @override
-  String get azkarList12 => 'Zadovoljan sam Allahom kao Gospodarom, islamom kao vjerom i Muhammedom, sallallahu alejhi ve sellem, kao vjerovjesnikom. |Tri puta|';
+  String get azkarList12 => 'Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)';
 
   @override
-  String get azkarList13 => 'Nema boga osim Allaha, Jedan je, nema mu sudruga, Njemu pripada vlast i Njemu pripada zahvala, i On je svemoćan nad svakom stvari. |Deset puta|';
+  String get azkarList13 => 'Lā ilāha illallāh waḥdahu lā sharīka lah, lahu\'l-mulku wa lahu\'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay\'in qadīr. (\'Ashra marrāt)';
 
   @override
-  String get azkarList14 => 'Postali smo jutrom a vlast pripada Allahu, i hvala Allahu. Nema boga osim Allaha, On je Jedan, nema mu sudruga. Njemu pripada vlast i Njemu pripada zahvala, i On je svemoćan nad svakom stvari. Molim Te za dobro ovoga dana i dobro nakon njega, i utječem Ti se od zla ovoga dana i zla nakon njega. Utječem Ti se od lijenosti i ružne starosti. Utječem Ti se od kazne Vatre i od kazne u grobu.';
+  String get azkarList14 => 'Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba\'dahā, wa a\'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba\'dahā, wa a\'ūdhu bika minal-kasal, wa sū\'il-kibar, wa a\'ūdhu bika min \'adhābin-nār, wa \'adhābil-qabr';
 
   @override
   String get jumuaaScreenTitle => 'Petak vrijeme';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsHr extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Odaberite hoće li vaš zaslon stalno prikazivati obavijesti, ovo može biti korisno ako, na primjer, postavite zaslon na ulazu.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Za sekundarnu prostoriju za namaz (ženska prostorija ili drugi kat npr.), ovaj zaslon prikazivat će džumu prijenos uživo.';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsHr extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Ova funkcija uključuje/isključuje uređaj prije i nakon svakog ezana za namaz';
 
   @override
-  String before(Object variable) {
-    return 'minuta prije svakog vremena namaza';
-  }
+  String get before => 'minuta prije svakog vremena namaza';
 
   @override
-  String after(Object variable) {
-    return 'minuta nakon svakog vremena namaza';
-  }
+  String get after => 'minuta nakon svakog vremena namaza';
 
   @override
   String get updateAvailable => 'Dostupno ažuriranje';

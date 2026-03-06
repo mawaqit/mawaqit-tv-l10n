@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsAz extends MawaqitTvLocalizations {
   String get quit => 'Çıx';
 
   @override
-  String get forceStaging => 'Hazırlığa keç';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'İstehsal rejiminə keç';
@@ -207,49 +207,49 @@ class MawaqitTvLocalizationsAz extends MawaqitTvLocalizations {
   String get alAthkar => 'Zirk';
 
   @override
-  String get azkarList0 => 'Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik [Bağışla, Allah, Bağışla, Allah, Bağışla, Allah. Ey Allah, Sən əsl salam (sülh) verənin, sənin tərəfindən (sülh) gələn sənə şan-şöhrət və lütf edənsən. Ey Allah, məni Sənin zikrini (xatırlamağı) etməkdə, Sənin şükrünü etməkdə və Sənin ibadətini (gözəl şəkildə) etməkdə mənə kömək et.]';
+  String get azkarList0 => 'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
 
   @override
-  String get azkarList1 => 'Subhan Allah wal hamdu lillah wallahu akbar (33 times) La ilaha illa Allah, wahdahu la charika lah, lahu elmoulku wa lahu elhamdu, wa hua `ala kulli chay in kadir [Allah mübərakdır, hamd Allah\'a aiddir, Allah böyüktür\" (33 dəfə). \"Allahdan başqa ilah yoxdur, O təkdir, Onun şəriki yoxdur; mülk O\'nundur, hamd O\'nadır və O, hər şeyə qadirdir.]';
+  String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
 
   @override
-  String get azkarList2 => 'بِسْمِ اللّهِ الرَّحْمَنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ النَّاسِ ، مَلِكِ النَّاسِ ، إِلٰهِ النَّاسِ ، مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ، الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ ، مِنَ الْجِنَّةِ وَالنَّاسِ';
+  String get azkarList2 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
 
   @override
-  String get azkarList3 => 'بِسْمِ اللّهِ الرَّحْمَنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ';
+  String get azkarList3 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.';
 
   @override
-  String get azkarList4 => 'بِسْمِ اللّهِ الرَّحْمَنِ الرَّحِيمِ قُلْ هُوَ اللّهُ أَحَدٌ ، اللّهُ الصَّمَدُ ، لَمْ يَلِدْ وَلَمْ يُولَدْ ، وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ';
+  String get azkarList4 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.';
 
   @override
-  String get azkarList5 => 'اللَّهُ لَا إِلٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ، لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ، لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ، مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ، يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ، وَلَا يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلَّا بِمَا شَاءَ، وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ، وَلَا يَؤُدُهُ حِفْظُهُمَا، وَهُوَ الْعَلِيُّ الْعَظِيمُ';
+  String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 => 'La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad';
+  String get azkarList6 => 'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
 
   @override
-  String get azkarList7 => 'İlahi, Sən mənim Rəbbimsən, Səndən başqa məbud yoxdur, məni Sən yaratdın və mən Sənin qulunam və əlimdə olanların şərindən Sənə sığınıram. Mən Sənin mənə olan lütfünü etiraf edirəm və günahlarımı etiraf edirəm, məni bağışla, çünki Səndən başqa heç kim günahları bağışlamaz.';
+  String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
 
   @override
-  String get azkarList8 => 'Biz səhəri açdıq və mülk Allaha aiddir. Hamd Allaha aiddir, Allahdan başqa ilah yoxdur. O təkdir, Onun şəriki yoxdur; mülk Onundur, hamd Onadır və O, hər şeyə qadirdir. Bugündəki xeyir və ondan sonrakı xeyirləri Səndən istəyirəm. Bugündəki və ondan sonrakı şərdən Sənə sığınıram. Tənbəllikdən və pis qürurdan Sənə sığınıram, Cəhənnəm əzabından və qəbir əzabından Sənə sığınıram.';
+  String get azkarList8 => 'Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādha \'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha \'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū\'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.';
 
   @override
-  String get azkarList9 => 'Ey Allah, mən səhəri açdım və Şahidlik edirəm ki, Sən Allah\'san, Səndən başqa ilah yoxdur, O təkdir, Sənin şərikin yoxdur, və Məhəmməd (s.a.s.) Sənin qulundur və elçindir. (Bu ifadəni dörd dəfə təkrarlayın.)\n\nVə əgər axşam olarsa, belə deyir: Ey Allah, mən axşamı açdım...';
+  String get azkarList9 => 'Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā\'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba\'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]';
 
   @override
-  String get azkarList10 => 'Allahım, bədənimə can sağlığı ver, qulağıma sağlıq ver, görməyimə sağlıq ver, Səndən başqa ilah yoxdur. Ey Allah, mən küfrdən, yoxsulluqdan Sənə sığınıram və qəbir əzabından Sənə sığınıram. Səndən başqa ilah yoxdur. (Bu ifadəni üç dəfə təkrarlayın.)';
+  String get azkarList10 => 'Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina \'l-kufri, wa \'l-faqr, wa a`ūdhu bika min `adhābi \'l-qabr, lā ilāha illā ant. (Thalātha marrāt)';
 
   @override
-  String get azkarList11 => 'Allah mənə kifayətdir. Ondan başqa ilah yoxdur. Ona etimad (təvəkkül) etdim və O, böyük taxtın (ərşin) Rəbbidir. (Bu ifadəni yeddi dəfə təkrarlayın.)';
+  String get azkarList11 => 'Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu \'l-`Arshi \'l-\'Aẓīm. (Sab\'a marrāt)';
 
   @override
-  String get azkarList12 => 'Mən Allahı Rəbbim olaraq, İslamı dinim olaraq və Hz. Məhəmmədi (s.a.s.) peyğəmbərim olaraq qəbul edirəm. (Bu ifadəni üç dəfə təkrarlayın.)';
+  String get azkarList12 => 'Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)';
 
   @override
-  String get azkarList13 => 'Allahdan başqa ilah yoxdur, O təkdir, Onun şəriki yoxdur; mülk Onundur, hamd Onadır, və O, hər şeyə qadirdir. (Bu ifadəni on dəfə təkrarlayın.)';
+  String get azkarList13 => 'Lā ilāha illallāh waḥdahu lā sharīka lah, lahu\'l-mulku wa lahu\'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay\'in qadīr. (\'Ashra marrāt)';
 
   @override
-  String get azkarList14 => 'Biz səhəri açdıq və mülk Allaha aiddir. Hamd Allaha aiddir, Allahdan başqa ilah yoxdur. O təkdir, Onun şəriki yoxdur; mülk Onundur, hamd Onadır və O, hər şeyə qadirdir. Bugündəki xeyir və ondan sonrakı xeyirləri Səndən istəyirəm. Bugündəki və ondan sonrakı şərdən Sənə sığınıram. Tənbəllikdən və pis qürurdan Sənə sığınıram, Cəhənnəm əzabından və qəbir əzabından Sənə sığınıram.';
+  String get azkarList14 => 'Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba\'dahā, wa a\'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba\'dahā, wa a\'ūdhu bika minal-kasal, wa sū\'il-kibar, wa a\'ūdhu bika min \'adhābin-nār, wa \'adhābil-qabr';
 
   @override
   String get jumuaaScreenTitle => 'Cümə vaxtı';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsAz extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Ekranın elanları həmişə göstərib-göstərməyəcəyini seçə bilərsiniz, bu, məsələn, ekranı girişdə qurduqda faydalıdır.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'İkinci dərəcəli namaz otağı üçün (məsələn, qadın otağı və ya başqa mərtəbə) bu ekran cümə günü canlı yayımı göstərəcək';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsAz extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Bu özəllik, hər namaz azanından əvvəl və sonra cihazı açır/bağlayır';
 
   @override
-  String before(Object variable) {
-    return 'dəqiqə əvvəl (hər namaz vaxtında)';
-  }
+  String get before => 'dəqiqə əvvəl (hər namaz vaxtında)';
 
   @override
-  String after(Object variable) {
-    return 'dəqiqə sonra (hər namaz vaxtında)';
-  }
+  String get after => 'dəqiqə sonra (hər namaz vaxtında)';
 
   @override
   String get updateAvailable => 'Güncəlləmə mövcuddur';

@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get quit => 'Pārtraukt';
 
   @override
-  String get forceStaging => 'Pāreja uz inscenēšanu';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Pāreja uz ražošanu';
@@ -207,49 +207,49 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get alAthkar => 'Al-Athkar';
 
   @override
-  String get azkarList0 => 'Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik';
+  String get azkarList0 => 'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
 
   @override
-  String get azkarList1 => 'Subhan Allah wal hamdu lillah wallahu akbar (33 reizes) La ilaha illa Allah, wahdahu la charika lah, lahu elmoulku wa lahu elhamdu, wa hua `ala kulli chay in kadir';
+  String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
 
   @override
-  String get azkarList2 => 'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ. Saki: Es patveros pie cilvēku Kunga, cilvēku Ķēniņa, cilvēku Dieva, no ļaunā čukstētāja, kurš bēg, kas čukst cilvēku krūtīs, gan no džiniem, gan cilvēkiem.';
+  String get azkarList2 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
 
   @override
-  String get azkarList3 => 'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ. Saki: Es patveros pie Rīta gaismas Kunga, no ļaunuma, ko Viņš radījis, un no tumsas, kad tā iet naktī, un no tiem, kas pūš mezglos, un no skaudīgā, kad viņš skaudē.';
+  String get azkarList3 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.';
 
   @override
-  String get azkarList4 => 'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ. Saki: Viņš ir Allahs, Vienīgais. Allahs, Mūžīgais Patvērums. Viņš nav dzemdinājis un nav pats dzimis. Un Viņam nav neviena līdzīga.';
+  String get azkarList4 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.';
 
   @override
-  String get azkarList5 => 'Allahs! Nav cita dieva kā Viņš, Dzīvais, Patsnozīmīgais. Viņu neņem ne snauda, ne miegs. Viņam pieder viss, kas ir debesīs un viss, kas ir uz zemes. Kas var aizbildināties pie Viņa, izņemot ar Viņa atļauju? Viņš zina, kas ir priekšā tiem un kas aiz viņiem, un viņi nesatver neko no Viņa zināšanām, izņemot to, ko Viņš vēlas. Viņa Tronis aptver debesis un zemi, Viņam nesagādā grūtības to sargāt. Viņš ir Visaugstākais, Visvarenais.';
+  String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 => 'La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad';
+  String get azkarList6 => 'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
 
   @override
-  String get azkarList7 => 'Allah! Tu esi mans Kungs, nav cita dieva kā Tu. Tu mani esi radījis un es esmu Tavs kalps. Es, cik spēju, turu Tavu derību un solījumu. Es patveros pie Tevis no ļaunuma, ko esmu izdarījis. Es atzīstu Tavas labvēlības pār mani un atzīstu savu grēku, tāpēc piedod man, jo neviens nepiedod grēkus, izņemot Tevi.';
+  String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
 
   @override
-  String get azkarList8 => 'Mēs sākām šo rītu un visa valdība pieder Allaham. Slava Allaham, nav cita dieva kā Allah – Viņš viens, Viņam nav partnera. Viņam pieder vara un Viņam pieder pateicība, un Viņš ir pār visu varošs. Es lūdzu Tevi pēc visa laba šajā dienā un laba pēc tās, un es patveros pie Tevis no ļaunuma šajā dienā un ļaunuma pēc tās. Es patveros pie Tevis no slinkuma un no vecuma nepatīkamības, un es patveros pie Tevis no uguns soda un kapa soda.';
+  String get azkarList8 => 'Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādha \'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha \'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū\'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.';
 
   @override
-  String get azkarList9 => 'Allah! Es kļuvu (par šo dienu) par Tavas liecinieku, un liecinu arī Tavu Troņa nesējus, Tavus eņģeļus un visu Tavu radību, ka noteikti Tu esi Allah, nav cita dieva kā Tu, viens pats, Tev nav partnera, un ka Muhameds ir Tavs kalps un sūtnis – četrreiz. (Un vakarā sakot: \"Allah! Es kļuvu par vakaru...\")';
+  String get azkarList9 => 'Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā\'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba\'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]';
 
   @override
-  String get azkarList10 => 'Allah! Dari mani veselīgu manā miesā. Allah! Dari mani veselīgu manā dzirdē. Allah! Dari mani veselīgu manā redzē. Nav cita dieva kā Tu. Allah! Es patveros pie Tevis no neticības un nabadzības, un es patveros pie Tevis no kapa soda. Nav cita dieva kā Tu. – trīs reizes.';
+  String get azkarList10 => 'Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina \'l-kufri, wa \'l-faqr, wa a`ūdhu bika min `adhābi \'l-qabr, lā ilāha illā ant. (Thalātha marrāt)';
 
   @override
-  String get azkarList11 => 'Pietiek man ar Allahu, nav cita dieva kā Viņš. Viņam es uzticos, un Viņš ir Lielā Troņa Kungs. – septiņas reizes.';
+  String get azkarList11 => 'Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu \'l-`Arshi \'l-\'Aẓīm. (Sab\'a marrāt)';
 
   @override
-  String get azkarList12 => 'Es esmu apmierināts ar Allahu kā Kungu, ar islām kā reliģiju un ar Muhamedu (saw) kā pravieti. – trīs reizes.';
+  String get azkarList12 => 'Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)';
 
   @override
-  String get azkarList13 => 'Nav cita dieva kā Allahs vienīgais, Viņam nav partneru, Viņam pieder vara un slavējams, un Viņš spēj uz visu. – desmit reizes.';
+  String get azkarList13 => 'Lā ilāha illallāh waḥdahu lā sharīka lah, lahu\'l-mulku wa lahu\'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay\'in qadīr. (\'Ashra marrāt)';
 
   @override
-  String get azkarList14 => 'Mēs sākām šo rītu un visa valdība pieder Allaham. Slava Allaham, nav cita dieva kā Allah – Viņš viens, Viņam nav partnera. Viņam pieder vara un Viņam pieder pateicība, un Viņš ir pār visu varošs. Es lūdzu Tevi pēc visa laba šajā dienā un laba pēc tās, un es patveros pie Tevis no ļaunuma šajā dienā un ļaunuma pēc tās. Es patveros pie Tevis no slinkuma un no vecuma nepatīkamības, un es patveros pie Tevis no uguns soda un kapa soda.';
+  String get azkarList14 => 'Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba\'dahā, wa a\'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba\'dahā, wa a\'ūdhu bika minal-kasal, wa sū\'il-kibar, wa a\'ūdhu bika min \'adhābin-nār, wa \'adhābil-qabr';
 
   @override
   String get jumuaaScreenTitle => 'Jumuaa laiks';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Izvēlieties, vai ekrānā visu laiku tiks rādīti paziņojumi; tas var būt noderīgi, ja ekrāns ir uzstādīts, piemēram, pie ieejas.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Otrajā lūgšanu telpā (piemēram, sieviešu istabā vai citā stāvā) šajā ekrānā tiks rādīta jumua tiešraide.';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Šī funkcija ieslēdz/izslēdz ierīci pirms un pēc katra lūgšanas azāna';
 
   @override
-  String before(Object variable) {
-    return 'minūtes pirms katra lūgšanu laika';
-  }
+  String get before => 'minūtes pirms katra lūgšanu laika';
 
   @override
-  String after(Object variable) {
-    return 'minūtes pēc katra lūgšanu laika';
-  }
+  String get after => 'minūtes pēc katra lūgšanu laika';
 
   @override
   String get updateAvailable => 'Pieejams atjauninājums';

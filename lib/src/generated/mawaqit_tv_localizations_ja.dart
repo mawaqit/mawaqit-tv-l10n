@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get quit => 'やめる';
 
   @override
-  String get forceStaging => 'ステージングに切り替える';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => '生産への切り替え';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'スクリーンに常時アナウンスを表示するかどうかを選択します。例えば、エントランスにスクリーンを設置する場合に便利です。';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => '第二礼拝室（女子トイレや別フロアなど）の場合、この画面でジュムアライブ配信が行われます。';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'この機能は、各祈りのアドハンの前後にデバイスをオン/オフします';
 
   @override
-  String before(Object variable) {
-    return '祈りの時間の1分前';
-  }
+  String get before => '祈りの時間の1分前';
 
   @override
-  String after(Object variable) {
-    return '祈りの時間のたびに';
-  }
+  String get after => '祈りの時間のたびに';
 
   @override
   String get updateAvailable => 'アップデートがあります';

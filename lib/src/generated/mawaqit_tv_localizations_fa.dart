@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsFa extends MawaqitTvLocalizations {
   String get quit => 'خارج شوید';
 
   @override
-  String get forceStaging => ' به پیکربندی وارد شوید';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'از پیگربندی خارج شوید';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsFa extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'انتخاب کنید که آیا نمایشگر شما همیشه اعلان‌ها را نمایش بدهد یا خیر،   اگر نمایشگر در ورودی نصب شده باشد ، تایید این قسمت می‌تواند مفید باشد.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'برای نمازخانه ثانویه (به عنوان مثال اتاق زنان یا یک طبقه دیگر)، این صفحه پخش مستقیم نماز جمعه را نشان می دهد.';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsFa extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'این ویژگی دستگاه را قبل و بعد از هر اذان نماز روشن/خاموش می کند';
 
   @override
-  String before(Object variable) {
-    return 'دقیقه قبل از هر وقت نماز';
-  }
+  String get before => 'دقیقه قبل از هر وقت نماز';
 
   @override
-  String after(Object variable) {
-    return 'دقیقه بعد از هر وقت نماز';
-  }
+  String get after => 'دقیقه بعد از هر وقت نماز';
 
   @override
   String get updateAvailable => 'به روز رسانی موجود است';

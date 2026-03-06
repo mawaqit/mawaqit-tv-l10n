@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsEl extends MawaqitTvLocalizations {
   String get quit => 'Σταματήστε το';
 
   @override
-  String get forceStaging => 'Αλλαγή σε σταδιοποίηση';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Μετάβαση στην παραγωγή';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsEl extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Επιλέξτε αν η οθόνη σας θα εμφανίζει ανακοινώσεις όλη την ώρα, αυτό μπορεί να είναι χρήσιμο αν εγκαταστήσετε την οθόνη στην είσοδο, για παράδειγμα.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Για μια δευτερεύουσα αίθουσα προσευχής (αίθουσα γυναικών ή ένας άλλος όροφος για παράδειγμα), αυτή η οθόνη θα εμφανίσει τη ζωντανή μετάδοση του jumua.';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsEl extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'Αυτό το χαρακτηριστικό ενεργοποίηση/απενεργοποίηση της συσκευής πριν και μετά από κάθε προσευχή adhan';
 
   @override
-  String before(Object variable) {
-    return 'λεπτά πριν από κάθε ώρα προσευχής';
-  }
+  String get before => 'λεπτά πριν από κάθε ώρα προσευχής';
 
   @override
-  String after(Object variable) {
-    return 'λεπτά μετά από κάθε ώρα προσευχής';
-  }
+  String get after => 'λεπτά μετά από κάθε ώρα προσευχής';
 
   @override
   String get updateAvailable => 'Διαθέσιμη ενημέρωση';

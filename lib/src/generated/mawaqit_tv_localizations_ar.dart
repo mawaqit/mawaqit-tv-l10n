@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get quit => 'خروج';
 
   @override
-  String get forceStaging => 'الانتقال إلى بيئة التهيئة';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'الانتقال إلى بيئة ما قبل التهيئة';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'الانتقال إلى بيئة الاختبار';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'هذه ميزة تشغيل/إيقاف الشاشة قبل وبعد كل صلاة أذان';
 
   @override
-  String before(Object variable) {
-    return 'الدقائق قبل كل صلاة';
-  }
+  String get before => 'الدقائق قبل كل صلاة';
 
   @override
-  String after(Object variable) {
-    return 'الدقائق بعد كل صلاة';
-  }
+  String get after => 'الدقائق بعد كل صلاة';
 
   @override
   String get updateAvailable => 'التحديث متاح';

@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get quit => '辞职';
 
   @override
-  String get forceStaging => '切换到分期付款';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => '转为生产';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => '选择你的屏幕是否会一直显示公告，如果你把屏幕安装在入口处，这可能很有用，例如。';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => '对于一个次要的祈祷室（例如，妇女室或其他楼层），这个屏幕将显示jumua的现场直播';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get screenLockDesc2 => '这个功能在每个祈祷者到场前后开启/关闭设备';
 
   @override
-  String before(Object variable) {
-    return '每次祈祷前的分钟';
-  }
+  String get before => '每次祈祷前的分钟';
 
   @override
-  String after(Object variable) {
-    return '每次祈祷后的分钟';
-  }
+  String get after => '每次祈祷后的分钟';
 
   @override
   String get updateAvailable => '可用更新';

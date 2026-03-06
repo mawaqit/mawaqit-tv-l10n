@@ -12,7 +12,6 @@
   "tryAgain": "다시 시도",
   "closeApp": "앱 닫기",
   "quit": "종료",
-  "forceStaging": "스테이징으로 전환",
   "disableStaging": "프로덕션으로 전환",
   "sureCloseApp": "애플리케이션을 종료하시겠습니까?",
   "ok": "확인",
@@ -173,9 +172,9 @@
   "announcementOnlyMode": "공지 사항 모드",
   "normalMode": "일반 모드 ",
   "announcementOnlyModeEXPLINATION": "화면에 항상 공지사항을 표시할지 여부를 선택하면 예를 들어 입구에 화면을 설치하는 경우에 유용할 수 있습니다.",
-  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
   "@duaaElEftarText": {
-    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله"
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
   "secondaryScreenExplanation": "보조 기도실(예: 여성실 또는 다른 층)의 경우, 이 화면에는 주무아 라이브 스트리밍이 표시됩니다.",
   "mainScreenExplanation": "메인 모스크 룸의 경우 이 화면에는 주무아 라이브 스트리밍이 표시되지 않습니다.",
@@ -254,8 +253,8 @@
   "screenLockMode": "화면 온/오프 모드",
   "screenLockDesc": "각 기도 전과 후에 TV를 켜고 꺼서 에너지를 절약하세요",
   "screenLockDesc2": "이 기능은 각 기도 아잔 전후에 기기를 켜고 끕니다",
-  "before": "기도 시간 전 {variable}분",
-  "after": "기도 시간 후 {variable}분",
+  "before": "분 전",
+  "after": "분 후",
   "updateAvailable": "업데이트 가능",
   "seeMore": "더 보기",
   "whatIsNew": "새로운 소식",

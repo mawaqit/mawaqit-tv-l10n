@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsTh extends MawaqitTvLocalizations {
   String get quit => 'ออก';
 
   @override
-  String get forceStaging => 'เปลี่ยนไปที่';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'สลับไปที่โหมดการผลิต';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsTh extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'เลือกว่าหน้าจอของคุณจะแสดงประกาศตลอดเวลาหรือไม่ ซึ่งจะมีประโยชน์หากคุณติดตั้งหน้าจอที่ทางเข้า เป็นต้น';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'สำหรับห้องละหมาดรอง (เช่น ห้องสตรีหรือชั้นอื่นๆ) หน้าจอนี้จะแสดงการสตรีมสดของ Jumua';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsTh extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'คุณสมบัตินี้เปิด/ปิดอุปกรณ์ก่อนและหลังการละหมาดอาซานแต่ละครั้ง';
 
   @override
-  String before(Object variable) {
-    return 'นาทีก่อนเวลาละหมาดแต่ละครั้ง';
-  }
+  String get before => 'นาทีก่อนเวลาละหมาดแต่ละครั้ง';
 
   @override
-  String after(Object variable) {
-    return 'นาทีหลังเวลาละหมาดแต่ละครั้ง';
-  }
+  String get after => 'นาทีหลังเวลาละหมาดแต่ละครั้ง';
 
   @override
   String get updateAvailable => 'อัปเดตพร้อมใช้งาน';

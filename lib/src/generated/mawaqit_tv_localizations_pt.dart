@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get quit => 'Quit';
 
   @override
-  String get forceStaging => 'Switch to staging';
+  String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Switch to pre-production';
+  String get forcePreProduction => 'Pre-production';
 
   @override
   String get disableStaging => 'Switch to production mode';
@@ -207,49 +207,49 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get alAthkar => 'Al-Athkar';
 
   @override
-  String get azkarList0 => 'I seek the forgiveness of Allah (three times). O Allah, You are Peace and from You comes peace. Blessed are You, O Owner of majesty and honor. O Allah, help me to remember You, to give You thanks, and to perform Your worship in the best manner.';
+  String get azkarList0 => 'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
 
   @override
-  String get azkarList1 => 'Glory is to Allah, Praise is to Allah, Allah is the Greatest (33 times each). None has the right to be worshipped but Allah alone, Who has no partner. His is the dominion and His is the praise, and He is Able to do all things.';
+  String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
 
   @override
-  String get azkarList2 => 'With the Name of Allah, the Most Gracious, the Most Merciful. Say: I seek refuge with (Allah) the Lord of mankind, the King of mankind, the God of mankind, from the evil of the whisperer who withdraws, who whispers in the breasts of mankind, of jinns and men. (Recite these three times each in Arabic).';
+  String get azkarList2 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
 
   @override
-  String get azkarList3 => 'With the Name of Allah, the Most Gracious, the Most Merciful. Say: I seek refuge with (Allah) the Lord of the daybreak, from the evil of what He has created, and from the evil of the darkening (night) as it comes with its darkness, and from the evil of those who practice witchcraft when they blow in the knots, and from the evil of the envier when he envies. (Recite these three times each in Arabic).';
+  String get azkarList3 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.';
 
   @override
-  String get azkarList4 => 'With the Name of Allah, the Most Gracious, the Most Merciful. Say: He is Allah (the) One. The Self-Sufficient Master, Whom all creatures need, He begets not nor was He begotten, and there is none equal to Him. (Recite these three times each in Arabic).';
+  String get azkarList4 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.';
 
   @override
-  String get azkarList5 => 'Allah! There is none worthy of worship but He, the Ever-Living, the One Who sustains and protects all that exists. Neither slumber nor sleep overtakes Him. To Him belongs whatever is in the heavens and whatever is on the earth. Who is he that can intercede with Him except with His Permission? He knows what happens to them in this world, and what will happen to them in the Hereafter. And they will never compass anything of His Knowledge except that which He wills. His Throne extends over the heavens and the earth, and He feels no fatigue in guarding and preserving them. And He is the Most High, the Most Great.';
+  String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 => 'None has the right to be worshipped but Allah alone, He has no partner, His is the dominion and His is the praise, and He is Able to do all things. O Allah, there is none who can withhold what You give, and none may give what You have withheld, and the might of the mighty person cannot benefit him against You.';
+  String get azkarList6 => 'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
 
   @override
-  String get azkarList7 => 'O Allah, You are my Lord, there is none worthy of worship but You. You created me and I am your slave. I keep Your covenant, and my pledge to You so far as I am able. I seek refuge in You from the evil of what I have done. I admit to Your blessings upon me, and I admit to my misdeeds. Forgive me, for there is none who may forgive sins but You.';
+  String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
 
   @override
-  String get azkarList8 => 'We have entered a new day and with it all dominion is Allah\'s. Praise is to Allah. None has the right to be worshipped but Allah alone, Who has no partner. To Allah belongs the dominion, and to Him is the praise and He is Able to do all things. My Lord, I ask You for the goodness of this day and of the days that come after it, and I seek refuge in You from the evil of this day and of the days that come after it. My Lord, I seek refuge in You from laziness and helpless old age. My Lord, I seek refuge in You from the punishment of Hell-fire, and from the punishment of the grave.';
+  String get azkarList8 => 'Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādha \'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha \'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū\'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.';
 
   @override
-  String get azkarList9 => 'O Allah, I have entered a new morning and call upon You and upon the bearers of Your Throne, upon Your angels and all creation to bear witness that surely You are Allah, there is none worthy of worship but You alone, You have no partners, and that Muhammad is Your slave and Your Messenger. (Four times) [And in the evening say: O Allah, I have entered a new evening...]';
+  String get azkarList9 => 'Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā\'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba\'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]';
 
   @override
-  String get azkarList10 => 'O Allah, make me healthy in my body. O Allah, preserve for me my hearing. O Allah, preserve for me my sight. There is none worthy of worship but You. O Allah, I seek refuge in You from disbelief and poverty, and I seek refuge in You from the punishment of the grave. There is none worthy of worship but You. (Three times)';
+  String get azkarList10 => 'Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina \'l-kufri, wa \'l-faqr, wa a`ūdhu bika min `adhābi \'l-qabr, lā ilāha illā ant. (Thalātha marrāt)';
 
   @override
-  String get azkarList11 => 'Allah is sufficient for me. There is none worthy of worship but Him. I have placed my trust in Him, He is Lord of the Majestic Throne. (Seven times)';
+  String get azkarList11 => 'Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu \'l-`Arshi \'l-\'Aẓīm. (Sab\'a marrāt)';
 
   @override
-  String get azkarList12 => 'I am pleased with Allah as my Lord, with Islam as my religion, and with Muhammad (peace and blessings of Allah be upon him) as my Prophet. (Three times)';
+  String get azkarList12 => 'Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)';
 
   @override
-  String get azkarList13 => 'None has the right to be worshipped but Allah alone, Who has no partner. His is the dominion and His is the praise. He brings life and He causes death, and He is Able to do all things. (Ten times)';
+  String get azkarList13 => 'Lā ilāha illallāh waḥdahu lā sharīka lah, lahu\'l-mulku wa lahu\'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay\'in qadīr. (\'Ashra marrāt)';
 
   @override
-  String get azkarList14 => 'We have entered the evening and  with it all dominion is Allah\'s. Praise is to Allah. None has the right to be worshipped but Allah alone, Who has no partner. To Allah belongs the dominion, and to Him is the praise and He is Able to do all things. My Lord, I ask You for the goodness of this day and of the days that come after it, and I seek refuge in You from the evil of this day and of the days that come after it. My Lord, I seek refuge in You from laziness and helpless old age. My Lord, I seek refuge in You from the punishment of Hell-fire, and from the punishment of the grave.';
+  String get azkarList14 => 'Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba\'dahā, wa a\'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba\'dahā, wa a\'ūdhu bika minal-kasal, wa sū\'il-kibar, wa a\'ūdhu bika min \'adhābin-nār, wa \'adhābil-qabr';
 
   @override
   String get jumuaaScreenTitle => 'Jumuaa Time';
@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Choose if your screen will display announcements all time, this can be useful if you install the screen at the entrance for example.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'For a secondary prayer room (women room or an other floor for example), this screen will show jumua live-streaming';
@@ -645,14 +645,10 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get screenLockDesc2 => 'This feature turn on/off the device before and after each prayer Adhan';
 
   @override
-  String before(Object variable) {
-    return 'minutes before each prayer time';
-  }
+  String get before => 'minutes before each prayer time';
 
   @override
-  String after(Object variable) {
-    return 'minutes after each prayer time';
-  }
+  String get after => 'minutes after each prayer time';
 
   @override
   String get updateAvailable => 'Update available';
@@ -1083,9 +1079,6 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get quit => 'Sair';
 
   @override
-  String get forceStaging => 'Alterar para encenação';
-
-  @override
   String get disableStaging => 'Alterar para modo de produção';
 
   @override
@@ -1232,49 +1225,49 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get alAthkar => 'Zikr';
 
   @override
-  String get azkarList0 => 'Peço desculpas a Allah, peço desculpas a Allah, peço desculpas a Allah, Ó Allah! Você é aquele que concede a paz e a paz vem somente de você. Você é o senhor da benção, Ó o senhor da majestade e benevolência! Ó Allah! Me ajuda em sua recordação, em seu agradecimento e sua boa adoração';
+  String get azkarList0 => 'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
 
   @override
-  String get azkarList1 => 'Puro de qualquer defeito é Allah, todos os louvores são a Allah e Allah é o maior (33 vezes) Ninguém é digno de adoração exceto Allah, o único, sem parceiro algum, somente ele pertence ao reinado e somente para ele são todas as glórias; todo bem está no seu poder e ele tem o poder de tudo';
+  String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
 
   @override
-  String get azkarList2 => 'Em nome de Deus, o Clemente, Tão Misericordioso; Diz \"Busco refúgio no Senhor dos humanos, O Rei dos Humanos, O Deus dos humanos, Contra todo mal murmurador que recua, que murmura nos peitos dos humanos, dos gênios ou dos humanos\"';
+  String get azkarList2 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
 
   @override
-  String get azkarList3 => 'Em nome de Deus, o Clemente, Tão Misericordioso; Diz: \"Busco refúgio no Senhor da manhã, Contra o malcriado, e o mal da escuridão ao entrar, e o mal que nos sopra, E o mal invejoso em inveja\"';
+  String get azkarList3 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.';
 
   @override
-  String get azkarList4 => 'Em nome de Deus, o Clemente, Tão Misericordioso; Diz: \"Ele é Deus, o único! Deus é Independente; Não gerou e nem foi gerado; E não existe ninguém igual\"';
+  String get azkarList4 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.';
 
   @override
-  String get azkarList5 => 'Deus! Não existe divindade exceto Ele, o eternamente vivo, o subsistente; Não toma-o a sonolência nem o sono; pertence-lhe tudo que há nos céus e tudo que há na terra. Quem poderá intervi-lo perante a ele sem sua permissão? Conhece o que a sua frente e o seu atrás, ninguém alcança algo do seu conhecimento se não desejar. O seu Kurssi abrange o céu e a terra, preservar ambos não cansa. E ele é Sublime, É Supremo.';
+  String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 => 'Ninguém é digno de adoração exceto Allah, o único, sem parceiro algum, somente ele pertence ao reinado e somente para ele são todas as glórias e ele tem poder sobre tudo. Ó Allah! Ninguém nega que você concede e ninguém concede tudo que você retém; e a grandeza dos grandes é inútil para eles contra você';
+  String get azkarList6 => 'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
 
   @override
-  String get azkarList7 => 'Ó Allah! Você é meu Senhor, não há deus além de Vós. Você criou-me e sou seu servo, e estou vinculado à aliança sua e promessa tanto quanto posso. Busco refúgio em vós ontra o mal do que fiz. Reconheço diante de você e as bênçãos sobre mim e reconheço o meu pecado; portanto, perdoe-me, pois ninguém perdoa pecados, exceto vós.';
+  String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
 
   @override
-  String get azkarList8 => 'Nós, assim como todo o universo, amanhecemos para (a adoração de) Allah. Todos os louvores para Allah. Ninguém mais é digno de adoração exceto Allah. Ele é Único, não possui nenhum parceiro. A Ele pertence todo o universo. E para Ele são todos os louvores. Ó Senhor! Peço-Vos todas as coisas boas relacionadas com este dia e com os dias a seguir; peço a Vossa Proteção contra todos os males relacionados com este dia e os dias a seguir. Ó Senhor! Peço a Vossa ajuda no sentido de salvar-me da indolência e os males da velhice. Ó Allah! Peço a Vossa Proteção contra os castigos do Inferno e da sepultura.';
+  String get azkarList8 => 'Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādha \'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha \'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū\'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.';
 
   @override
-  String get azkarList9 => 'Ó Allah! Amanheci, Invoco a Vós e aos anjos que carregam o Vosso Trono, e aos Vossos anjos e toda a Vossa criação para que sejam testemunhas que Vós Sois Allah; ninguém mais é digno da adoração exceto Vós; Sois Único; Não possuis parceiro; e que Muhammad (Sallalláhu Alaihi Wa Sallam) é vosso Servo e Mensageiro. (quatro vezes) | E quando chega a noite, diz: Anoiteci invocando a Vós…';
+  String get azkarList9 => 'Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā\'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba\'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]';
 
   @override
-  String get azkarList10 => 'Ó Allah! Conceda-me boa saúde no meu corpo, nos meus ouvidos e nos meus olhos. Ninguém exceto Vós é digno de adoração. Ó Allah! Peço refúgio da descrença e pobreza. Ó Allah! Peço Vossa proteção dos tormentos da sepultura; ninguém mais é digno de adoração exceto Vós. (três vezes)';
+  String get azkarList10 => 'Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina \'l-kufri, wa \'l-faqr, wa a`ūdhu bika min `adhābi \'l-qabr, lā ilāha illā ant. (Thalātha marrāt)';
 
   @override
-  String get azkarList11 => 'Allah é suficiente para mim, ninguém mais é digno da adoração exceto Ele, Nele coloquei a minha confiança e Ele é o Senhor do Trono Sublime. (sete vezes)';
+  String get azkarList11 => 'Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu \'l-`Arshi \'l-\'Aẓīm. (Sab\'a marrāt)';
 
   @override
-  String get azkarList12 => 'Estou de todo contente em crer Allah como meu Senhor, Islam como a minha religião e Muhammad (Sallalláhu Alaihi Wa Sallam) como meu Profeta. (três vezes)';
+  String get azkarList12 => 'Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)';
 
   @override
-  String get azkarList13 => 'Ninguém mais é digno da adoração exceto Allah; Ele é o Único; Não possui nenhum parceiro; o Reinado a Ele pertence e todos os Louvores são para Ele. Ele possui poder sobre todas as coisas. (dez vezes)';
+  String get azkarList13 => 'Lā ilāha illallāh waḥdahu lā sharīka lah, lahu\'l-mulku wa lahu\'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay\'in qadīr. (\'Ashra marrāt)';
 
   @override
-  String get azkarList14 => 'Nós, assim como todo o universo, amanhecemos para (a adoração de) Allah. Todos os louvores para Allah. Ninguém mais é digno de adoração exceto Allah. Ele é Único, não possui nenhum parceiro. A Ele pertence todo o universo. E para Ele são todos os louvores. Ó Senhor! Peço-Vos todas as coisas boas relacionadas com este dia e com os dias a seguir; peço a Vossa Proteção contra todos os males relacionados com este dia e os dias a seguir. Ó Senhor! Peço a Vossa ajuda no sentido de salvar-me da indolência e os males da velhice. Ó Allah! Peço a Vossa Proteção contra os castigos do Inferno e da sepultura.';
+  String get azkarList14 => 'Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba\'dahā, wa a\'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba\'dahā, wa a\'ūdhu bika minal-kasal, wa sū\'il-kibar, wa a\'ūdhu bika min \'adhābin-nār, wa \'adhābil-qabr';
 
   @override
   String get jumuaaScreenTitle => 'Hora de Jumu\'ah';
@@ -1667,14 +1660,10 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get screenLockDesc2 => 'Este recurso liga/desliga o dispositivo antes ou depois de cada Azán';
 
   @override
-  String before(Object variable) {
-    return 'minutos antes de cada oração';
-  }
+  String get before => 'minutos antes de cada oração';
 
   @override
-  String after(Object variable) {
-    return 'minutos depois de cada oração';
-  }
+  String get after => 'minutos depois de cada oração';
 
   @override
   String get updateAvailable => 'Atualização disponível';
@@ -2081,9 +2070,6 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
   String get quit => 'Sair';
 
   @override
-  String get forceStaging => 'Trocar para ambiente de teste';
-
-  @override
   String get disableStaging => 'Mudar para modo operacional';
 
   @override
@@ -2230,49 +2216,49 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
   String get alAthkar => 'Zikr';
 
   @override
-  String get azkarList0 => 'Peço perdão a Allah, peço perdão a Allah, peço perdão a Allah. Ó Allah, Vós sois Aquele que concede a paz, e a paz provém somente de Vós. Vós sois o Senhor das bênçãos, Ó Senhor da Majestade e Benevolência. Ó Allah, auxiliai-me na Vossa recordação, no Vosso agradecimento e na prática de uma adoração sincera e virtuosa.';
+  String get azkarList0 => 'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
 
   @override
-  String get azkarList1 => 'Allah está isento de todos os defeitos, todos os louvores pertencem a Allah, e Allah é o Maior (33 vezes). Não há divindade digna de adoração excepto Allah, o Único, sem qualquer parceiro. A Ele pertence o domínio, e a Ele são devidas todas as glórias. Todo o bem está sob o Seu controlo, e Ele é Poderoso sobre todas as coisas.';
+  String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
 
   @override
-  String get azkarList2 => 'Em nome de Deus, o Clemente, o Misericordioso; Diz: «Procuro refúgio no Senhor dos humanos, O Rei dos humanos, O Deus dos humanos, Contra o mal do murmurador que recua, Que murmura nos peitos dos humanos, dos jinns ou dos humanos»';
+  String get azkarList2 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
 
   @override
-  String get azkarList3 => 'Em nome de Deus, o Clemente, o Misericordioso; Diz: «Procuro refúgio no Senhor da manhã, Contra o mal que criou, E contra o mal da escuridão quando entra, E contra o mal das que sopram nos nós, E contra o mal do invejoso quando inveja»';
+  String get azkarList3 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.';
 
   @override
-  String get azkarList4 => 'Em nome de Deus, o Clemente, o Misericordioso; Diz: «Ele é Deus, o Único! Deus é o Independente; Não gerou e nem foi gerado; E não há ninguém igual a Ele»';
+  String get azkarList4 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.';
 
   @override
-  String get azkarList5 => 'Deus! Não há divindade exceto Ele, o Eternamente Vivo, o Subsistente; não O tomam a sonolência e nem o sono; pertence-Lhe tudo que há nos céus e tudo que há na terra. Quem é que pode interceder perante Ele sem Sua permissão? conhece o que há à frente deles e o que há atrás deles, e ninguém pode alcançar algo do Seu conhecimento senão o que quiser. O Seu Kurssi abrange os céus e a terra, e preservar ambos não O cansa. E Ele é o Sublime, o Supremo.';
+  String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 => 'Ninguém e digno de adoração exepto Allah, o Único, sem nenhum parceiro, somente a Ele pertence o reinado e somente para Ele são todos os louvores e Ele tem poder sobre todas as coisas. Ó Allah! Ninguém pode negar o que Você concede e ninguém pode conceder aquilo que Você retém; e a grandeza dos grandes será inútil para eles contra Si.';
+  String get azkarList6 => 'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
 
   @override
-  String get azkarList7 => 'Ó Allah! Vós Sois meu Senhor. Não existe mais nenhuma divindade exceto Vossa. Vós criastes-me e sou Vosso servente tanto quanto possível, continuo com a minha solene promessa e convenção (que fiz Convosco). Peço Vossa proteção das consequências dos meus maus atos. Reconheço perfeitamente as graças por Vós a mim concedidas e confesso as minhas faltas. Assim, perdoai-me, pois ninguém exceto Vós poderá perdoar os meus pecados.';
+  String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
 
   @override
-  String get azkarList8 => 'Nós, assim como todo o universo, amanhecemos para (a adoração de) Allah. Todos os louvores para Allah. Ninguém mais é digno de adoração exceto Allah. Ele é Único, não possui nenhum parceiro. A Ele pertence todo o universo. E para Ele são todos os louvores. Ó Senhor! Peço-Vos todas as coisas boas relacionadas com este dia e com os dias a seguir; peço a Vossa Proteção contra todos os males relacionados com este dia e os dias a seguir. Ó Senhor! Peço a Vossa ajuda no sentido de salvar-me da indolência e os males da velhice. Ó Allah! Peço a Vossa Proteção contra os castigos do Inferno e da sepultura.';
+  String get azkarList8 => 'Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādha \'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha \'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū\'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.';
 
   @override
-  String get azkarList9 => 'Ó Allah! Amanheci, Invoco a Vós e aos anjos que carregam o Vosso Trono, e aos Vossos anjos e toda a Vossa criação para que sejam testemunhas que Vós Sois Allah; ninguém mais é digno da adoração exceto Vós; Sois Único; Não possuis parceiro; e que Muhammad (Sallalláhu Alaihi Wa Sallam) é vosso Servo e Mensageiro. (quatro vezes) | E quando chega a noite, diz: Anoiteci invocando a Vós…';
+  String get azkarList9 => 'Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā\'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba\'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]';
 
   @override
-  String get azkarList10 => 'Ó Allah! Conceda-me boa saúde no meu corpo, nos meus ouvidos e nos meus olhos. Ninguém exceto Vós é digno de adoração. Ó Allah! Peço refúgio da descrença e pobreza. Ó Allah! Peço Vossa proteção dos tormentos da sepultura; ninguém mais é digno de adoração exceto Vós. (três vezes)';
+  String get azkarList10 => 'Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina \'l-kufri, wa \'l-faqr, wa a`ūdhu bika min `adhābi \'l-qabr, lā ilāha illā ant. (Thalātha marrāt)';
 
   @override
-  String get azkarList11 => 'Allah é suficiente para mim, ninguém mais é digno da adoração exceto Ele, n’Ele coloquei a minha confiança e Ele é o Senhor do Trono Sublime. (sete vezes)';
+  String get azkarList11 => 'Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu \'l-`Arshi \'l-\'Aẓīm. (Sab\'a marrāt)';
 
   @override
-  String get azkarList12 => 'Estou de todo contente em crer Allah como meu Senhor, Islam como a minha religião e Muhammad (Sallalláhu Alaihi Wa Sallam) como meu Profeta. (três vezes)';
+  String get azkarList12 => 'Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)';
 
   @override
-  String get azkarList13 => 'Ninguém mais é digno da adoração exceto Allah; Ele é o Único; Não possui nenhum parceiro; o Reinado a Ele pertence e todos os Louvores são para Ele. Ele possui poder sobre todas as coisas. (dez vezes)';
+  String get azkarList13 => 'Lā ilāha illallāh waḥdahu lā sharīka lah, lahu\'l-mulku wa lahu\'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay\'in qadīr. (\'Ashra marrāt)';
 
   @override
-  String get azkarList14 => 'Nós, assim como todo o universo, amanhecemos para (a adoração de) Allah. Todos os louvores para Allah. Ninguém mais é digno de adoração exceto Allah. Ele é Único, não possui nenhum parceiro. A Ele pertence todo o universo. E para Ele são todos os louvores. Ó Senhor! Peço-Vos todas as coisas boas relacionadas com este dia e com os dias a seguir; peço a Vossa Proteção contra todos os males relacionados com este dia e os dias a seguir. Ó Senhor! Peço a Vossa ajuda no sentido de salvar-me da indolência e os males da velhice. Ó Allah! Peço a Vossa Proteção contra os castigos do Inferno e da sepultura.';
+  String get azkarList14 => 'Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba\'dahā, wa a\'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba\'dahā, wa a\'ūdhu bika minal-kasal, wa sū\'il-kibar, wa a\'ūdhu bika min \'adhābin-nār, wa \'adhābil-qabr';
 
   @override
   String get jumuaaScreenTitle => 'Hora de Jumu\'ah';
@@ -2647,14 +2633,10 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
   String get screenLockDesc2 => 'Esta funcionalidade liga/desliga o dispositivo antes e depois de cada Azán';
 
   @override
-  String before(Object variable) {
-    return 'minutos antes de cada oração';
-  }
+  String get before => 'minutos antes de cada oração';
 
   @override
-  String after(Object variable) {
-    return 'minutos depois de cada oração';
-  }
+  String get after => 'minutos depois de cada oração';
 
   @override
   String get updateAvailable => 'Atualização disponível';
