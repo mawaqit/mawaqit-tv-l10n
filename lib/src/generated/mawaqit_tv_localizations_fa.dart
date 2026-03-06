@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsFa extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'انتخاب کنید که آیا نمایشگر شما همیشه اعلان‌ها را نمایش بدهد یا خیر،   اگر نمایشگر در ورودی نصب شده باشد ، تایید این قسمت می‌تواند مفید باشد.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'برای نمازخانه ثانویه (به عنوان مثال اتاق زنان یا یک طبقه دیگر)، این صفحه پخش مستقیم نماز جمعه را نشان می دهد.';

@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'スクリーンに常時アナウンスを表示するかどうかを選択します。例えば、エントランスにスクリーンを設置する場合に便利です。';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => '第二礼拝室（女子トイレや別フロアなど）の場合、この画面でジュムアライブ配信が行われます。';

@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => '选择你的屏幕是否会一直显示公告，如果你把屏幕安装在入口处，这可能很有用，例如。';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => '对于一个次要的祈祷室（例如，妇女室或其他楼层），这个屏幕将显示jumua的现场直播';

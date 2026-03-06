@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Suɓo so yaynirde maa yaltinat tintine sahaa kala, ɗum ena himmi so tawii mbaɗ-ɗaa yaynirde ndee ko e naatirde, yeru.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'E suudu ɗiɗaɓuru njuulu (suudu rewɓe walla toggere woɗnde, yeru), ndee yaynirde hollirta ko njuulu Aljumaa tolbec';

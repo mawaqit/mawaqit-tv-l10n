@@ -994,7 +994,7 @@ abstract class MawaqitTvLocalizations {
   /// اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله
   ///
   /// In en, this message translates to:
-  /// **'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله'**
+  /// **'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله'**
   String get duaaElEftarText;
 
   /// No description provided for @secondaryScreenExplanation.

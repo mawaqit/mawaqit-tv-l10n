@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsBg extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Изберете дали вашият екран да показва съобщения през цялото време, това може да бъде полезно, ако инсталирате екрана на входа на джамията.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'За вторична молитвена стая или пространство (женска стая или друг етаж например), този екран ще покаже предаването на живо от петък';

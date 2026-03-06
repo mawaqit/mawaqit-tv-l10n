@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Pilih apakah layar Anda akan menampilkan pengumuman sepanjang waktu, ini dapat berguna jika Anda memasang layar di pintu masuk misalnya.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Untuk ruang salat sekunder (ruang wanita atau lantai lain misalnya), layar ini akan menampilkan siaran langsung jumatan';

@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsAz extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Ekranın elanları həmişə göstərib-göstərməyəcəyini seçə bilərsiniz, bu, məsələn, ekranı girişdə qurduqda faydalıdır.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'İkinci dərəcəli namaz otağı üçün (məsələn, qadın otağı və ya başqa mərtəbə) bu ekran cümə günü canlı yayımı göstərəcək';

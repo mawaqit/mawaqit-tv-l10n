@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Izvēlieties, vai ekrānā visu laiku tiks rādīti paziņojumi; tas var būt noderīgi, ja ekrāns ir uzstādīts, piemēram, pie ieejas.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Otrajā lūgšanu telpā (piemēram, sieviešu istabā vai citā stāvā) šajā ekrānā tiks rādīta jumua tiešraide.';

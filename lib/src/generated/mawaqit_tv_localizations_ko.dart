@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => '화면에 항상 공지사항을 표시할지 여부를 선택하면 예를 들어 입구에 화면을 설치하는 경우에 유용할 수 있습니다.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => '보조 기도실(예: 여성실 또는 다른 층)의 경우, 이 화면에는 주무아 라이브 스트리밍이 표시됩니다.';

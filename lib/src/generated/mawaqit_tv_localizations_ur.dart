@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsUr extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'منتخب کریں کہ آیا آپ کی سکرین ہر وقت اعلانات دکھائے گی، اگر آپ مثال کے طور پر داخلی دروازے پر اسکرین انسٹال کرتے ہیں تو یہ کارآمد ہو سکتا ہے۔.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'ثانوی نماز کے کمرے کے لیے (مثال کے طور پر خواتین کا کمرہ یا دوسری منزل)، یہ اسکرین جمعہ کی لائیو سٹریمنگ دکھائے گی۔';

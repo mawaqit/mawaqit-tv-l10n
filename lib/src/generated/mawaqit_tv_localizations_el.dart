@@ -408,7 +408,7 @@ class MawaqitTvLocalizationsEl extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Επιλέξτε αν η οθόνη σας θα εμφανίζει ανακοινώσεις όλη την ώρα, αυτό μπορεί να είναι χρήσιμο αν εγκαταστήσετε την οθόνη στην είσοδο, για παράδειγμα.';
 
   @override
-  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Για μια δευτερεύουσα αίθουσα προσευχής (αίθουσα γυναικών ή ένας άλλος όροφος για παράδειγμα), αυτή η οθόνη θα εμφανίσει τη ζωντανή μετάδοση του jumua.';
