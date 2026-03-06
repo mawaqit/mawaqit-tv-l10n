@@ -207,49 +207,49 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get alAthkar => 'Allah emlegetései';
 
   @override
-  String get azkarList0 => 'Bűnbocsánatot kérek Allahtól (háromszor).\nÓ, Allah! Te vagy a Béke, és Tőled van a béke. Áldott vagy, Ó, Magasztos és Méltóságteljes. Ó Allah! Segíts nekem, hogy megemlékezzek Rólad, hálás legyek Neked, és jól szolgáljalak Téged!';
+  String get azkarList0 => 'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
 
   @override
-  String get azkarList1 => 'Magasztaltassék Allah (Szubhán Allah), és Hála Allahnak (Alhamdulilláh), és Allah a Leghatalmasabb (Alláhu Akbar) (mindegyiket 33-szor), Nincs más jogosan imádható isten Allahon kívül, Ő egyedül létezik, nincs Neki társa, Övé a tulajdon és Övé a hála és Ő minden dologra képes.';
+  String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
 
   @override
-  String get azkarList2 => 'Allah, a felettébb Könyörületes és Irgalmas nevében.\nMondd: Menedéket keresek az emberek Uránál. Az emberek Királyánál. Az emberek Istenénél. Minden lopva sugalmazó (sátán) elől, aki (gonosz gondolatokat) sugdos az emberek keblébe, legyen ő dzsinn vagy ember';
+  String get azkarList2 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
 
   @override
-  String get azkarList3 => 'Allah, a felettébb Könyörületes és Irgalmas nevében.\nMondd: Menedéket keresek a hajnalhasadás Uránál. Annak rossza elől, amit teremtett. És a szétterjedő sötétség rossza elől. És a csomókba fújó [boszorkányok, varázslók] rossza elől. És az irigy rossza elől, amikor irigykedik.';
+  String get azkarList3 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.';
 
   @override
-  String get azkarList4 => 'Allah, a felettébb Könyörületes és Irgalmas nevében. \nMondd: Ő Allah, az Egyetlen. Allah, az Örökkévaló! Nem nemzett és nem nemzetett. És senki sem hasonlatos Hozzá';
+  String get azkarList4 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.';
 
   @override
-  String get azkarList5 => 'Allah – nincs más jogosan imádható isten csak Ő – az Élő, a Fenntartó. Nem vesz erőt rajta sem szendergés, sem alvás. Övé mindaz, ami az egekben, és ami a földön van. Vajon ki az, aki az engedélye nélkül közben járhatna Nála (a Feltámadás Napján)? Tudja azt, ami előttük van (a jövőt), és azt, ami mögöttük van (a múltat). [Ők azonban] nem fognak fel semmit az Ő tudásából, csak azt, amit Ő akar. A Széke átfogja az egeket és a földet. A megőrzésük nem terheli meg Őt. Ő a Mindenek Feletti, a Hatalmas';
+  String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 => 'Nincs más jogosan imádható isten Allahon kívül, Ő egyedül létezik, nincs Neki társa, Övé a tulajdon és Őt illeti a hála és Ő minden dologra képes. Ó Allah! senki sem képes visszatartani attól, amit Te adsz, és senki sem képes megadni azt, amit Te megakadályozol. Nem használ a hatalommal bíró embernek a hatalma, mivel Tőled származik (minden) hatalom.';
+  String get azkarList6 => 'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
 
   @override
-  String get azkarList7 => 'Ó, Allah! Te vagy az én Uram, nincs Rajtad kívül más jogosan imádható isten, csak Te. Te teremtettél és én a szolgád vagyok. Én be fogom tartani a Veled kötött egyezséget és a Neked tett ígéretet, amennyire csak képes vagyok rá. Menedéket keresek Nálad attól a sok rossztól, amit elkövettem. Elismerem az adományaidat, amit adtál nekem, és elismerem a bűneimet. Bocsáss meg nekem hát! Bizony nincs más, aki megbocsátja a bűnöket, csak Te';
+  String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
 
   @override
-  String get azkarList8 => 'Reggelre keltünk és reggel eme idejében (is) Allahoz tartozik minden tulajdon, és minden hála és dicséret Allahot illeti, nincs más jogosan imádható isten Allahon kívül, Ő egyedül létezik, nincs Neki társa, Övé a tulajdon és Őt illeti a hála és Ő minden dologra képes. Uram, kérek Tőled minden jót, ami ebben a napban van és minden jót, ami utána következik. És menedéket keresek Nálad minden gonosztól, ami ebben az napban van és minden rossztól, ami utána jön. Uram, menedéket keresek nálad a lustaságtól, és az időskor tehetetlenségétől. Uram, menedéket keresek nálad a tűz kínzásától és a sírbani büntetéstől';
+  String get azkarList8 => 'Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādha \'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha \'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū\'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.';
 
   @override
-  String get azkarList9 => 'Istenem, elértem a reggelt, legyél tanú nekem, és a Trónod hordozói, és az angyalaid, és az összes teremtményed arra, hogy Te vagy Allah, nincs más jogosan imádható isten Rajtad kívül és Muhammad (Allah áldása és békéje legyen vele) a te szolgád és küldötted. |négyszer|. [És ha esteledik, akkor azt kell mondani: Istenem, elértem az estét...]';
+  String get azkarList9 => 'Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā\'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba\'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]';
 
   @override
-  String get azkarList10 => 'Istenem! Óvd és védelmezd a testemet, Istenem! Óvd és védelmezd a hallásomat, Istenem! Óvd és védelmezd a látásomat. Nincs más jogosan imádható isten rajtad kívül! Istenem, menedéket keresek Nálad a hitetlenségtől, a szegénységtől, és menedéket keresek Nálad a sír kínzásától. Nincs más jogosan imádható isten Rajtad kívül! |ismételd háromszor|';
+  String get azkarList10 => 'Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina \'l-kufri, wa \'l-faqr, wa a`ūdhu bika min `adhābi \'l-qabr, lā ilāha illā ant. (Thalātha marrāt)';
 
   @override
-  String get azkarList11 => 'Elégséges számomra Allah, nincs más jogosan imádható isten csak Ő, rábízom magam és Ő a hatalmas Trónnak a Rabb-ja (Teremtő és Gondviselő) |ismételd hétszer|';
+  String get azkarList11 => 'Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu \'l-`Arshi \'l-\'Aẓīm. (Sab\'a marrāt)';
 
   @override
-  String get azkarList12 => 'Megelégedettséggel elfogadom Allahot Uramnak, az iszlámot vallásomnak és Muhammadet (Allah áldása és békéje legyen vele) Prófétámnak |ismételd háromszor|';
+  String get azkarList12 => 'Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)';
 
   @override
-  String get azkarList13 => 'Nincs más jogosan imádható isten Allahon kívül, Ő egyedül létezik, nincs Neki társa, Övé a tulajdon és az Övé a hála és Ő minden dologra képes |ismételd tízszer|';
+  String get azkarList13 => 'Lā ilāha illallāh waḥdahu lā sharīka lah, lahu\'l-mulku wa lahu\'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay\'in qadīr. (\'Ashra marrāt)';
 
   @override
-  String get azkarList14 => 'Reggelre keltünk és reggel eme idejében (is) Allahoz tartozik minden tulajdon, és minden hála és dicséret Allahot illeti, nincs más jogosan imádható isten Allahon kívül, Ő egyedül létezik, nincs Neki társa, Övé a tulajdon és Őt illeti a hála és Ő minden dologra képes. Uram, kérek Tőled minden jót, ami ebben a napban van és minden jót, ami utána következik. És menedéket keresek Nálad minden gonosztól, ami ebben az napban van és minden rossztól, ami utána jön. Uram, menedéket keresek nálad a lustaságtól, és az időskor tehetetlenségétől. Uram, menedéket keresek nálad a tűz kínzásától és a sírbani büntetéstől';
+  String get azkarList14 => 'Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba\'dahā, wa a\'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba\'dahā, wa a\'ūdhu bika minal-kasal, wa sū\'il-kibar, wa a\'ūdhu bika min \'adhābin-nār, wa \'adhābil-qabr';
 
   @override
   String get jumuaaScreenTitle => 'Pénteki imaidő';

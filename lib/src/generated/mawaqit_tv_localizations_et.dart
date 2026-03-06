@@ -207,49 +207,49 @@ class MawaqitTvLocalizationsEt extends MawaqitTvLocalizations {
   String get alAthkar => 'Al-Athkar';
 
   @override
-  String get azkarList0 => 'Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik';
+  String get azkarList0 => 'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
 
   @override
-  String get azkarList1 => 'Subhan Allah wal hamdu lillah wallahu akbar (33 korda) La ilaha illa Allah, wahdahu la charika lah, lahu elmoulku wa lahu elhamdu, wa hua `ala kulli chay in kadir';
+  String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
 
   @override
-  String get azkarList2 => 'بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ. Ütle: Ma otsin varju inimeste Isanda juures, inimeste Valitseja juures, inimeste Jumala juures, selle salakavalalt sosistaja eest, kes inimestele südamesse sosistab, džinnide ja inimeste seast.';
+  String get azkarList2 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
 
   @override
-  String get azkarList3 => 'بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ. Ütle: Ma otsin varju Koidiku Issanda juures, kõige eest, mis Ta on loonud, kahju eest pimedusest, kui see saabub, pahatahtlike sõlmepuhujate eest ja kadetseja eest, kui ta kadestab.';
+  String get azkarList3 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.';
 
   @override
-  String get azkarList4 => 'بِسْمِ ٱللّٰهِ ٱلرَّحْمٰنِ ٱلرَّحِيمِ. Ütle: Tema on Allah, üksainus; Allah, Igavene Tugi. Ta ei ole sigitanud ega ole sigitatud. Temale pole kedagi võrdset.';
+  String get azkarList4 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.';
 
   @override
-  String get azkarList5 => 'Allah! Ei ole teist jumalat kui Tema, Elav, Igavene. Ei võta Teda uni ega tukk. Temale kuulub kõik, mis on taevas ja maa peal. Kes võib Tema juures seista kellegi eest, kui mitte Tema loal? Ta teab, mis on nende ees ja mis on nende taga, ja nemad ei haara midagi Tema teadmistest peale selle, mida Tema tahab. Tema Troon hõlmab taevad ja maa, ning Temale ei ole koormaks valvata neid mõlemaid; Tema on Kõrgeim, Vägev.';
+  String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 => 'La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad';
+  String get azkarList6 => 'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
 
   @override
-  String get azkarList7 => 'Allahumma, Sina oled minu Issand, ei ole teist jumalat kui Sina. Sina oled mind loonud ja ma olen Sinu sulane ning ma olen Sinu lepingu ja tõotuse juures nii hästi, kui ma suudan. Ma otsin Sinu kaitset kõige halva eest, mis ma olen teinud. Ma tunnistan Sinu armu minu üle ja tunnistan oma patte, seepärast anna mulle andeks, sest ainult Sina annad patud andeks.';
+  String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
 
   @override
-  String get azkarList8 => 'Me oleme jõudnud hommikusse ja valitsus kuulub Allahile. Kiitus kuulub Allahile, ei ole teist jumalat kui Allah üksi, Tal ei ole kaaslast, Temale kuulub valitsejaseisus ja kiitus ning Tema on Kõigevõimas kõige üle. Ma palun Sinult selle päeva parimat ja seda, mis tuleb pärast seda päeva, ja ma otsin Sinu kaitset selle päeva kurja eest ja selle eest, mis tuleb pärast seda päeva. Ma otsin Sinu kaitset loiduse ja halva vanaduse eest, ning ma otsin Sinu kaitset Tule põrgupiinast ja haua piinast.';
+  String get azkarList8 => 'Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādha \'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha \'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū\'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.';
 
   @override
-  String get azkarList9 => 'Allahumma, ma tunnistan Sind täna hommikul, tunnistan Su Trooni kandjaid, Su ingleid ja kogu Su loodut, et Sina oled Allah, ei ole muud jumalat kui Sina, üksinda, Sul pole kaaslast, ja et Muhammad on Sinu sulane ja sõnumitooja. |Neli korda|. [Kui on õhtu, ütle: Allahumma, ma tunnistan täna õhtul...]';
+  String get azkarList9 => 'Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā\'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba\'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]';
 
   @override
-  String get azkarList10 => 'Allahumma, anna mulle hea tervis minu kehas, Allahumma, anna mulle hea kuulmine, Allahumma, anna mulle hea nägemine. Ei ole muud jumalat kui Sina. Allahumma, ma otsin Sinu kaitset uskmatuse ja vaesuse eest, ning ma otsin Sinu kaitset haua piina eest. Ei ole muud jumalat kui Sina. |Kolm korda|';
+  String get azkarList10 => 'Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina \'l-kufri, wa \'l-faqr, wa a`ūdhu bika min `adhābi \'l-qabr, lā ilāha illā ant. (Thalātha marrāt)';
 
   @override
-  String get azkarList11 => 'Hasbiyallahu, ei ole muud jumalat kui Tema. Temale ma panen oma lootuse ja Tema on suure Trooni Isand. |Seitse korda|';
+  String get azkarList11 => 'Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu \'l-`Arshi \'l-\'Aẓīm. (Sab\'a marrāt)';
 
   @override
-  String get azkarList12 => 'Olen rahul Allahiga kui oma Issandaga, islamiga kui oma usuga, ja Muhammadiga صلى الله عليه وسلم kui oma Prohvetiga. |Kolm korda|';
+  String get azkarList12 => 'Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)';
 
   @override
-  String get azkarList13 => 'Ei ole teist jumalat kui ainult Allah, üksi, Temal pole kaaslast; Temale kuulub kuningriik ja kiitus ning Tema on kõige üle võimas. |Kümme korda|';
+  String get azkarList13 => 'Lā ilāha illallāh waḥdahu lā sharīka lah, lahu\'l-mulku wa lahu\'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay\'in qadīr. (\'Ashra marrāt)';
 
   @override
-  String get azkarList14 => 'Me oleme jõudnud hommikusse ja valitsus kuulub Allahile. Kiitus kuulub Allahile, ei ole teist jumalat kui Allah üksi, Tal ei ole kaaslast, Temale kuulub valitsejaseisus ja kiitus ning Tema on Kõigevõimas kõige üle. Ma palun Sinult selle päeva parimat ja seda, mis tuleb pärast seda päeva, ja ma otsin Sinu kaitset selle päeva kurja eest ja selle eest, mis tuleb pärast seda päeva. Ma otsin Sinu kaitset loiduse ja halva vanaduse eest, ning ma otsin Sinu kaitset Tule põrgupiinast ja haua piinast.';
+  String get azkarList14 => 'Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba\'dahā, wa a\'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba\'dahā, wa a\'ūdhu bika minal-kasal, wa sū\'il-kibar, wa a\'ūdhu bika min \'adhābin-nār, wa \'adhābil-qabr';
 
   @override
   String get jumuaaScreenTitle => 'Jumuaa aeg';

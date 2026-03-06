@@ -60,63 +60,63 @@
   "turnOfPhones": "Molimo vas, utišajte ili isključite svoje telefone!",
   "iqamaIn": "Ikamet za",
   "alAthkar": "Dhikr",
-  "azkarList0": "Estagfirullah, Estagfirullah, Estagfirullah. \n\nAllahumme entes-selamu ve minkes-selam, tebarekte ja zel-dželali vel-ikram!\n\n''Gospodaru naš, Ti si izvor spasa i od Tebe je spas. Uzvišen si Ti, o Gospodaru veličine i plemenitosti''\n(Muslim, Ebu Davud, Tirmizi, Nesa’i, Ibn Madže, Taberani, Darimi)",
+  "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
     "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
   },
-  "azkarList1": "Subhanellahi – 33 puta; El-Hamdu lillahi – 33 puta; Allahu ekber – 33 puta (Buhari, Muslim, Nesa’i); ili svaku od ove tri riječi po 11 puta.\nLa ilahe illellahu vahdehu la šerike leh, lehu-l-mulku ve lehu-l-hamdu ve huve ‘ala kulli šej-in kadir",
+  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
-  "azkarList2": "U ime Allaha, Milostivog, Samilosnog! 1. Reci: \"Tražim zaštitu Gospodara ljudi, 2. Vladara ljudi, 3. Boga ljudi, 4. od zla šejtana-napasnika, 5. koji zle misli unosi u srca ljudi – 6. od džina i od ljudi!\"",
+  "azkarList2": "Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. 'Ilāhin-nās. Min sharri 'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.",
   "@azkarList2": {
     "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس - Surah An-Nas"
   },
-  "azkarList3": "U ime Allaha, Milostivog, Samilosnog! 1. Reci: \"Utječem se Gospodaru svitanja. 2. od zla onoga što On stvara, 3. i od zla mrkle noći kada razastre tmine, 4. i od zla onih koje u čvorove pušu 5. i od zla zavidljivca kad zavist ne krije!\"",
+  "azkarList3": "Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.",
   "@azkarList3": {
     "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
-  "azkarList4": "U ime Allaha, Milostivog, Samilosnog! 1. Reci: \"On je Allah – Jedan! 2. Allah je Utočište svakom! 3. Nije rodio i rođen nije, 4. i niko Mu ravan nije!\"",
+  "azkarList4": "Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.",
   "@azkarList4": {
     "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ - Surah Al-Ikhlas"
   },
-  "azkarList5": "Allah je – nema boga osim Njega – Živi i Vječni! Ne obuzima Ga ni drijemež ni san! Njegovo je ono što je na nebesima i ono što je na Zemlji! Ko se može pred Njim zauzimati za nekoga bez dopuštenja Njegova?! On zna šta je bilo i prije njih i šta će biti poslije njih, a od onoga što On zna – drugi znaju samo onoliko koliko On želi. Njegova Kursija obuhvaća i nebesa i Zemlju i Njemu ne dojadi održavanje njihovo; On je Svevišnji, Veličanstveni!",
+  "azkarList5": "Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa'u 'indahu illā bi'idhnih, ya'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay'im-min 'ilmihi illā bimā shā', wasi'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya'ūduhu ḥifẓuhumā, wa Huwal-'Aliyyul-'Aẓīm",
   "@azkarList5": {
     "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
-  "azkarList6": "La ilahe illellahu vahdehu la šerike leh, lehu-l-mulku ve lehu-l-hamdu ve huve ‘ala kulli šej-in kadir",
+  "azkarList6": "Lā 'ilāha 'illallāh, waḥdahu lā sharīka lah, lahu 'l-mulku wa lahu 'l-ḥamd, wa huwa `alā kulli shay'in qadīr, Allāhumma lā māni`a limā 'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
-  "azkarList7": "''Allahu, Ti si moj Gospodar! Nema boga osim Tebe! Ti si me stvorio, i ja sam Tvoj rob! Držim se, koliko god mogu, svoje obaveze (prema Tebi) i svoga obećanja Tebi! Od Tebe tražim zaštitu od zla onoga što sam uradio! Priznajem Tvoje blagodati prema meni, i priznajem svoje grijehe! Oprosti mi, jer, doista, niko osim Tebe ne može grijehe oprostiti.''",
+  "azkarList7": "Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū'u laka bi ni`matika `alay, wa abū'u bidhanbī faghfir lī fa'innahu lā yaghfirudh-dhunūba illā ant.",
   "@azkarList7": {
     "description": "Sayyid al-Istighfar (Master of Seeking Forgiveness)"
   },
-  "azkarList8": "Osvanusmo i osvanu svekolika Allahova vlast. Hvala Allahu i nema boga osim Njega Jedinog, Koji druga nema. Njemu pripada sva vlast i svaka pohvala i on nad svačim ima moć. Allahu, molim Te za sva dobra ovog dana i za dobra poslije njega. I utječem ti se od zla ovog dana i zla poslije njega. Gospodaru moj, Tebi se sklanjam pred lijenošću i zlohudom ohološću. Tebi se sklanjam pred kaznom Džehennema i kaburskom kaznom. (Muslim)",
+  "azkarList8": "Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay'in Qadīr. Rabbi as'aluka khayra mā fī hādha 'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha 'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.",
   "@azkarList8": {
     "description": "Morning supplication - Protection dua"
   },
-  "azkarList9": "\"Allahu moj, jutros svjedočim pred Tobom, pred onima koji nose Tvoj Arš, pred Tvojim melekima i svim Tvojim stvorenjima da si Ti Allah, nema boga osim Tebe, Jedini, koji nemaš ortaka, i da je Muhammed Tvoj rob i Tvoj poslanik\" (četiri puta). A kada nastupi večer, kaže se: 'Allahu moj, večeras svjedočim...'",
+  "azkarList9": "Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]",
   "@azkarList9": {
     "description": "Morning testimony - 4 times"
   },
-  "azkarList10": "\"Allahu moj, podari mi zdravlje u tijelu, Allahu moj, podari mi zdravlje u sluhu, Allahu moj, podari mi zdravlje u očima, nema boga osim Tebe. Allahu, utječem Ti se od nevjerovanja i siromaštva, i tražim utočište od kaburske patnje, nema boga osim Tebe\" (izgovara se 3 puta)",
+  "azkarList10": "Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina 'l-kufri, wa 'l-faqr, wa a`ūdhu bika min `adhābi 'l-qabr, lā ilāha illā ant. (Thalātha marrāt)",
   "@azkarList10": {
     "description": "Dua for wellbeing - 3 times"
   },
-  "azkarList11": "\"Dovoljan mi je Allah, nema boga osim Njega. Na Njega se oslanjam, i On je Gospodar Prijestolja veličanstvenog.\"\n(ponavlja se 7 puta)",
+  "azkarList11": "Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu 'l-`Arshi 'l-'Aẓīm. (Sab'a marrāt)",
   "@azkarList11": {
     "description": "Hasbiya Allah - 7 times"
   },
-  "azkarList12": "Zadovoljan sam da mi je Allah Gospodar, vjera islam, Muhammed, a. s., vjerovjesnik. (Ponavlja se 3 puta)\nEbu Davud, Tirmizi i Ahmed",
+  "azkarList12": "Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)",
   "@azkarList12": {
     "description": "Contentment with Allah - 3 times"
   },
-  "azkarList13": "Nema boga osim Allaha, Jedinoga, Koji druga nema. Njemu pripada vlast nad svim i sva pohvala. On sve može. (Ponavlja se 10 puta)\n(Muslim)",
+  "azkarList13": "Lā ilāha illallāh waḥdahu lā sharīka lah, lahu'l-mulku wa lahu'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay'in qadīr. ('Ashra marrāt)",
   "@azkarList13": {
     "description": "La ilaha illa Allah tawhid - 10 times"
   },
-  "azkarList14": "Osvanusmo i osvanu svekolika Allahova vlast. Hvala Allahu i nema boga osim Njega Jedinog, Koji druga nema. Njemu pripada sva vlast i svaka pohvala i on nad svačim ima moć. Allahu, molim Te za sva dobra ovog dana i za dobra poslije njega. I utječem ti se od zla ovog dana i zla poslije njega. Gospodaru moj, Tebi se sklanjam pred lijenošću i zlohudom ohološću. Tebi se sklanjam pred kaznom Džehennema i kaburskom kaznom. (Muslim)",
+  "azkarList14": "Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr. Rabbi as'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba'dahā, wa a'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba'dahā, wa a'ūdhu bika minal-kasal, wa sū'il-kibar, wa a'ūdhu bika min 'adhābin-nār, wa 'adhābil-qabr",
   "@azkarList14": {
     "description": "Morning supplication - Protection from laziness"
   },

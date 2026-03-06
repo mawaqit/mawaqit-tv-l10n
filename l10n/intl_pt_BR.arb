@@ -60,63 +60,63 @@
   "turnOfPhones": "Por favor, coloquem seus celulares no modo silencioso",
   "iqamaIn": "Jamaat em",
   "alAthkar": "Zikr",
-  "azkarList0": "Peço desculpas a Allah, peço desculpas a Allah, peço desculpas a Allah, Ó Allah! Você é aquele que concede a paz e a paz vem somente de você. Você é o senhor da benção, Ó o senhor da majestade e benevolência! Ó Allah! Me ajuda em sua recordação, em seu agradecimento e sua boa adoração",
+  "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
     "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
   },
-  "azkarList1": "Puro de qualquer defeito é Allah, todos os louvores são a Allah e Allah é o maior (33 vezes) Ninguém é digno de adoração exceto Allah, o único, sem parceiro algum, somente ele pertence ao reinado e somente para ele são todas as glórias; todo bem está no seu poder e ele tem o poder de tudo",
+  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
-  "azkarList2": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz \"Busco refúgio no Senhor dos humanos, O Rei dos Humanos, O Deus dos humanos, Contra todo mal murmurador que recua, que murmura nos peitos dos humanos, dos gênios ou dos humanos\"",
+  "azkarList2": "Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. 'Ilāhin-nās. Min sharri 'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.",
   "@azkarList2": {
     "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس - Surah An-Nas"
   },
-  "azkarList3": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz: \"Busco refúgio no Senhor da manhã, Contra o malcriado, e o mal da escuridão ao entrar, e o mal que nos sopra, E o mal invejoso em inveja\"",
+  "azkarList3": "Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.",
   "@azkarList3": {
     "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
-  "azkarList4": "Em nome de Deus, o Clemente, Tão Misericordioso; Diz: \"Ele é Deus, o único! Deus é Independente; Não gerou e nem foi gerado; E não existe ninguém igual\"",
+  "azkarList4": "Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.",
   "@azkarList4": {
     "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ - Surah Al-Ikhlas"
   },
-  "azkarList5": "Deus! Não existe divindade exceto Ele, o eternamente vivo, o subsistente; Não toma-o a sonolência nem o sono; pertence-lhe tudo que há nos céus e tudo que há na terra. Quem poderá intervi-lo perante a ele sem sua permissão? Conhece o que a sua frente e o seu atrás, ninguém alcança algo do seu conhecimento se não desejar. O seu Kurssi abrange o céu e a terra, preservar ambos não cansa. E ele é Sublime, É Supremo.",
+  "azkarList5": "Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa'u 'indahu illā bi'idhnih, ya'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay'im-min 'ilmihi illā bimā shā', wasi'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya'ūduhu ḥifẓuhumā, wa Huwal-'Aliyyul-'Aẓīm",
   "@azkarList5": {
     "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
-  "azkarList6": "Ninguém é digno de adoração exceto Allah, o único, sem parceiro algum, somente ele pertence ao reinado e somente para ele são todas as glórias e ele tem poder sobre tudo. Ó Allah! Ninguém nega que você concede e ninguém concede tudo que você retém; e a grandeza dos grandes é inútil para eles contra você",
+  "azkarList6": "Lā 'ilāha 'illallāh, waḥdahu lā sharīka lah, lahu 'l-mulku wa lahu 'l-ḥamd, wa huwa `alā kulli shay'in qadīr, Allāhumma lā māni`a limā 'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
-  "azkarList7": "Ó Allah! Você é meu Senhor, não há deus além de Vós. Você criou-me e sou seu servo, e estou vinculado à aliança sua e promessa tanto quanto posso. Busco refúgio em vós ontra o mal do que fiz. Reconheço diante de você e as bênçãos sobre mim e reconheço o meu pecado; portanto, perdoe-me, pois ninguém perdoa pecados, exceto vós.",
+  "azkarList7": "Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū'u laka bi ni`matika `alay, wa abū'u bidhanbī faghfir lī fa'innahu lā yaghfirudh-dhunūba illā ant.",
   "@azkarList7": {
     "description": "Sayyid al-Istighfar (Master of Seeking Forgiveness)"
   },
-  "azkarList8": "Nós, assim como todo o universo, amanhecemos para (a adoração de) Allah. Todos os louvores para Allah. Ninguém mais é digno de adoração exceto Allah. Ele é Único, não possui nenhum parceiro. A Ele pertence todo o universo. E para Ele são todos os louvores. Ó Senhor! Peço-Vos todas as coisas boas relacionadas com este dia e com os dias a seguir; peço a Vossa Proteção contra todos os males relacionados com este dia e os dias a seguir. Ó Senhor! Peço a Vossa ajuda no sentido de salvar-me da indolência e os males da velhice. Ó Allah! Peço a Vossa Proteção contra os castigos do Inferno e da sepultura.",
+  "azkarList8": "Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay'in Qadīr. Rabbi as'aluka khayra mā fī hādha 'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha 'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.",
   "@azkarList8": {
     "description": "Morning supplication - Protection dua"
   },
-  "azkarList9": "Ó Allah! Amanheci, Invoco a Vós e aos anjos que carregam o Vosso Trono, e aos Vossos anjos e toda a Vossa criação para que sejam testemunhas que Vós Sois Allah; ninguém mais é digno da adoração exceto Vós; Sois Único; Não possuis parceiro; e que Muhammad (Sallalláhu Alaihi Wa Sallam) é vosso Servo e Mensageiro. (quatro vezes) | E quando chega a noite, diz: Anoiteci invocando a Vós…",
+  "azkarList9": "Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]",
   "@azkarList9": {
     "description": "Morning testimony - 4 times"
   },
-  "azkarList10": "Ó Allah! Conceda-me boa saúde no meu corpo, nos meus ouvidos e nos meus olhos. Ninguém exceto Vós é digno de adoração. Ó Allah! Peço refúgio da descrença e pobreza. Ó Allah! Peço Vossa proteção dos tormentos da sepultura; ninguém mais é digno de adoração exceto Vós. (três vezes)",
+  "azkarList10": "Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina 'l-kufri, wa 'l-faqr, wa a`ūdhu bika min `adhābi 'l-qabr, lā ilāha illā ant. (Thalātha marrāt)",
   "@azkarList10": {
     "description": "Dua for wellbeing - 3 times"
   },
-  "azkarList11": "Allah é suficiente para mim, ninguém mais é digno da adoração exceto Ele, Nele coloquei a minha confiança e Ele é o Senhor do Trono Sublime. (sete vezes)",
+  "azkarList11": "Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu 'l-`Arshi 'l-'Aẓīm. (Sab'a marrāt)",
   "@azkarList11": {
     "description": "Hasbiya Allah - 7 times"
   },
-  "azkarList12": "Estou de todo contente em crer Allah como meu Senhor, Islam como a minha religião e Muhammad (Sallalláhu Alaihi Wa Sallam) como meu Profeta. (três vezes)",
+  "azkarList12": "Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)",
   "@azkarList12": {
     "description": "Contentment with Allah - 3 times"
   },
-  "azkarList13": "Ninguém mais é digno da adoração exceto Allah; Ele é o Único; Não possui nenhum parceiro; o Reinado a Ele pertence e todos os Louvores são para Ele. Ele possui poder sobre todas as coisas. (dez vezes)",
+  "azkarList13": "Lā ilāha illallāh waḥdahu lā sharīka lah, lahu'l-mulku wa lahu'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay'in qadīr. ('Ashra marrāt)",
   "@azkarList13": {
     "description": "La ilaha illa Allah tawhid - 10 times"
   },
-  "azkarList14": "Nós, assim como todo o universo, amanhecemos para (a adoração de) Allah. Todos os louvores para Allah. Ninguém mais é digno de adoração exceto Allah. Ele é Único, não possui nenhum parceiro. A Ele pertence todo o universo. E para Ele são todos os louvores. Ó Senhor! Peço-Vos todas as coisas boas relacionadas com este dia e com os dias a seguir; peço a Vossa Proteção contra todos os males relacionados com este dia e os dias a seguir. Ó Senhor! Peço a Vossa ajuda no sentido de salvar-me da indolência e os males da velhice. Ó Allah! Peço a Vossa Proteção contra os castigos do Inferno e da sepultura.",
+  "azkarList14": "Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr. Rabbi as'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba'dahā, wa a'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba'dahā, wa a'ūdhu bika minal-kasal, wa sū'il-kibar, wa a'ūdhu bika min 'adhābin-nār, wa 'adhābil-qabr",
   "@azkarList14": {
     "description": "Morning supplication - Protection from laziness"
   },
