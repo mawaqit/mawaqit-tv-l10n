@@ -1,4 +1,5 @@
 {
+  "thisIsATestFromIbrahim": "这是来自易卜拉欣的一种测试",
   "home": "首页",
   "share": "分享",
   "about": "关于",
@@ -12,7 +13,11 @@
   "tryAgain": "再试一次",
   "closeApp": "关闭应用程序",
   "quit": "辞职",
+  "forceStaging": "发布中",
+  "forcePreProduction": "预先生产",
   "disableStaging": "转为生产",
+  "environmentSwitchSuccess": "环境切换成功",
+  "environmentSwitchFailed": "切换环境失败",
   "sureCloseApp": "你确定要退出申请吗？",
   "ok": "认可",
   "cancel": "取消",
@@ -74,7 +79,7 @@
   },
   "azkarList3": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
   "@azkarList3": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
   "azkarList4": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ",
   "@azkarList4": {
@@ -172,7 +177,7 @@
   "announcementOnlyMode": "公告模式",
   "normalMode": "正常模式 ",
   "announcementOnlyModeEXPLINATION": "选择你的屏幕是否会一直显示公告，如果你把屏幕安装在入口处，这可能很有用，例如。",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -208,6 +213,7 @@
   "es": "西班牙",
   "pt": "葡萄牙文",
   "nl": "荷兰语",
+  "ta": "Tamil",
   "fr_ar": "法语和阿拉伯语",
   "en_ar": "英语和阿拉伯语",
   "de_ar": "德语和阿拉伯语",
@@ -456,6 +462,7 @@
   "processingRequest": "正在处理请求...",
   "loadingStream": "加载流...",
   "rtspUrlHint": "输入 RTSP URL 或 YouTube 链接",
+  "urlManagedByMosqueAdmin": "由清真寺管理员管理的 URL",
   "replaceWorkflowWithStream": "自动显示相机流",
   "replaceAppWorkflowWithCameraStream": "当摄像头开始录制时，屏幕将自动显示相机流； 如果它停止，屏幕返回祈祷时间",
   "streamError": "流媒体时出错",
@@ -470,5 +477,33 @@
   "testAITranslation": "这是验证AI 翻译正常工作的测试字符串",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
+  },
+  "testCrowdinCI": "开发时测试字符串以验证 Crowdin CI 工作流",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Quran 模式",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "显示Quran阅读屏幕，从最后一个阅读页面开始",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "appDisplayMode": "显示模式",
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "appDisplayModeExplanation": "选择屏幕如何显示内容",
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "退出 Quran 模式",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "您想要回到正常模式吗？",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
   }
 }

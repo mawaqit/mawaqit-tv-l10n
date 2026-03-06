@@ -1,4 +1,5 @@
 {
+  "thisIsATestFromIbrahim": "Це тест з Ібрагіма",
   "home": "Головна",
   "share": "Поділіться",
   "about": "Про",
@@ -12,7 +13,11 @@
   "tryAgain": "Спробуйте ще раз",
   "closeApp": "Закрити програму",
   "quit": "Звільнися.",
+  "forceStaging": "Інсценування",
+  "forcePreProduction": "Препродакшен",
   "disableStaging": "Перемкнутись у робочий режим",
+  "environmentSwitchSuccess": "Середовище успішно переключено",
+  "environmentSwitchFailed": "Не вдалося змінити середовище",
   "sureCloseApp": "Ви впевнені, що хочете вийти з програми?",
   "ok": "ГАРАЗД.",
   "cancel": "СКАСУВАТИ",
@@ -74,7 +79,7 @@
   },
   "azkarList3": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
   "@azkarList3": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
   "azkarList4": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ",
   "@azkarList4": {
@@ -172,7 +177,7 @@
   "announcementOnlyMode": "Режим оголошень",
   "normalMode": "Звичайний режим ",
   "announcementOnlyModeEXPLINATION": "Виберіть, чи будуть на екрані постійно показуватися оголошення, це може бути корисно, якщо ви встановите екран, наприклад, біля входу.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "اللهُمَّ إِنِّي لَكَ صُمْتُ وَعَلَى رِزْقِكَ أَفْطَرْتُ، وَإِلَيْكَ انْبَتُّ، وَعَلَيْكَ تَوَكَّلْتُ، ذَهَبَ الظَّمَأُ وَابْتلّت الْعُرُوِقُ، وَثَبَتَ الْأَجْرُ إِنْ شَاءَ اللَّهُ.",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -208,6 +213,7 @@
   "es": "Іспанська",
   "pt": "Португальська",
   "nl": "Нідерландська",
+  "ta": "Tamil",
   "fr_ar": "Французька та арабська",
   "en_ar": "Англійська та арабська",
   "de_ar": "Німецька та арабська",
@@ -456,6 +462,7 @@
   "processingRequest": "Обробка запиту...",
   "loadingStream": "Завантаження трансляції...",
   "rtspUrlHint": "Введіть посилання RTSP або YouTube",
+  "urlManagedByMosqueAdmin": "URL-адреса управляється адміністратором мечетей",
   "replaceWorkflowWithStream": "Автоматично відображати потік камери",
   "replaceAppWorkflowWithCameraStream": "Екран автоматично буде відображати потік камери, як тільки камера почне записуватися; якщо воно зупиняється, екран повертається до показу молитви",
   "streamError": "Сталася помилка під час потокового передавання",
@@ -470,5 +477,33 @@
   "testAITranslation": "Це тестовий рядок, щоб перевірити правильність роботи з перекладом AI",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
+  },
+  "testCrowdinCI": "Тестовий рядок, щоб перевірити робочий процес Crowdin CI на розробці",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Режим Корану",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Відображати екран читання Коран, починаючи з останньої прочитаної сторінки",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "appDisplayMode": "Режим показу",
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "appDisplayModeExplanation": "Виберіть, як ваш екран буде відображати вміст",
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Вийти з режиму Корану",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Ви б хотіли повернутися в нормальний режим?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
   }
 }
