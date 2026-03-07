@@ -46,7 +46,7 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
   String get closeApp => 'Закрыть приложение';
 
   @override
-  String get quit => 'Увольнение';
+  String get quit => 'Выход';
 
   @override
   String get forceStaging => 'Staging';
@@ -79,10 +79,10 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
   String get lightMode => 'Световой режим';
 
   @override
-  String get changeMosque => 'Мечеть перемен';
+  String get changeMosque => 'Изменить мечеть';
 
   @override
-  String get in1 => 'в';
+  String get in1 => 'через';
 
   @override
   String get azanIn => 'Азан через';
@@ -108,7 +108,7 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
   String get mawaqitWelcome => 'Добро пожаловать в MAWAQIT';
 
   @override
-  String get mawaqitDesc => 'Ассаламу Алайком и Барака\'Аллах фиком за то, что Вы выбрали MAWAQIT, первую в мире и №1 Сеть Умных Мечетей, которой пользуются миллионы мусульман по всему миру в 85+ странах с 2016 года.\n\nМы предоставляем Вам самый передовой Smart Mosque Display, доступный на различных устройствах (мобильных, смарт-часах, телевизионных экранах), не собирая и не передавая Ваши личные данные.\n\nПожалуйста, поддержите этот благословенный проект здесь: https://donate.mawaqit.net\n\nМы являемся некоммерческой организацией, и этот проект - \"Вакф фи\'сабили Аллах\" (целевой фонд).\n\nБлагодаря Вашим пожертвованиям этот проект доступен для всех и каждого, совершенно БЕСПЛАТНО, без рекламы, без ежемесячной подписки.\n\nЭтот проект не стал бы возможным без помощи Аллаха, который собрал сообщество талантливых и страстных волонтеров, которые работают день и ночь, чтобы предоставить Вам наилучший возможный сервис и современную систему, доступную 24 часа в сутки 7 дней в неделю.\n\nПожалуйста, рассмотрите возможность пожертвования для поддержания этого благословенного проекта. Барака\'Аллах фиком за Ваше постоянное доверие и поддержку.';
+  String get mawaqitDesc => 'Ассаламу Алайкум и Барака\'Аллах фикум за то, что Вы выбрали MAWAQIT, первую в мире и №1 Сеть Умных Мечетей, которой пользуются миллионы мусульман по всему миру в 85+ странах с 2016 года. Мы предоставляем Вам самый передовой Smart Mosque Display, доступный на различных устройствах (мобильных, смарт-часах, телевизионных экранах), не собирая и не передавая Ваши личные данные. Пожалуйста, поддержите этот благословенный проект здесь: https://donate.mawaqit.net Мы являемся некоммерческой организацией, и этот проект - \"Вакф фи\'сабили Аллах\" (целевой фонд). Благодаря Вашим пожертвованиям этот проект доступен для всех и каждого, совершенно БЕСПЛАТНО, без рекламы, без ежемесячной подписки. Этот проект не стал бы возможным без помощи Аллаха, который собрал сообщество талантливых и страстных волонтеров, которые работают день и ночь, чтобы предоставить Вам наилучший возможный сервис и современную систему, доступную 24 часа в сутки 7 дней в неделю. Пожалуйста, рассмотрите возможность пожертвования для поддержания этого благословенного проекта. Барака\'Аллах фиком за Ваше постоянное доверие и поддержку.';
 
   @override
   String get privacyPolicy => 'Политика конфиденциальности';
@@ -186,16 +186,16 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
   String get isha => 'Иша';
 
   @override
-  String get afterAdhanHadithTitle => 'После адхана Ду`аа';
+  String get afterAdhanHadithTitle => 'Дуа после азана';
 
   @override
-  String get afterSalahHadith => 'Аллахумма Рабба хашихид-да\'вати-таммати, ис-салатиль-ка\'имати, ати Мухаммаданил-василата валь-фадхилата, ваб\'ату макаман махмуда ниллади ва \'адтаху [О Аллах, Рубеж этого совершенного призыва (да\'ва) и установленной молитвы (ас-салат), даруй Мухаммаду васила и превосходство и возвысь его до похвального положения, которое Ты обещал ему].';
+  String get afterSalahHadith => 'Аллахумма Рабба хадзихи-д-да‘вати-т-таммати, ва-с-саляти-ль-каимати, ати Мухаммадан аль-василята ва-ль-фадила, ва-б‘асху макаман махму́дан аллязи ва‘адтах [О Аллах, Рубеж этого совершенного призыва (да\'ва) и установленной молитвы (ас-салат), даруй Мухаммаду васила и превосходство и возвысь его до похвального положения, которое Ты обещал ему]';
 
   @override
-  String get alIqama => 'Аль-Икама';
+  String get alIqama => 'Икама';
 
   @override
-  String get alAdhan => 'Аль-Адан';
+  String get alAdhan => 'Азан';
 
   @override
   String get turnOfPhones => 'Пожалуйста, переведите свои телефоны в беззвучный режим';
@@ -204,13 +204,13 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
   String get iqamaIn => 'Икама в';
 
   @override
-  String get alAthkar => 'Аль-Аткар';
+  String get alAthkar => 'Азкары';
 
   @override
-  String get azkarList0 => 'Астагфиру Аллах, Астагфиру Аллах, Астагфиру Аллах Аллахумма анта Эссалам ва минека Эссалам, табаракта йа дхал джалали вел икрам Аллахумма А`инни `ала дихрика ва чукрика ва хусни `ибадатик';
+  String get azkarList0 => 'Астагфируллах, Астагфируллах, Астагфируллах, Аллахумма Анта ас-Салям ва минка ас-Салям, табарокта йа Заль-джаляли валь-икрам, Аллахумма а‘инни ‘аля зикрика ва шукрика ва хусни ‘ибадатика.';
 
   @override
-  String get azkarList1 => 'Субхан Аллах вал хамду лиллах валлаху акбар (33 раза) Ла илаха илла Аллах, вахдаху ла харика лах, лаху эльмульку ва лаху эльхамду, ва хуа `ала кулли чай ин кадир';
+  String get azkarList1 => 'Субхан Аллах вал хамду Лиллах валлаху Акбар (33 раза) Ла илаха илла Аллах, вахдаху ла харика лах, лаху эльмульку ва лаху эльхамду, ва хуа `ала кулли чай ин кадир';
 
   @override
   String get azkarList2 => 'بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس';
@@ -225,7 +225,7 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
   String get azkarList5 => 'ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ';
 
   @override
-  String get azkarList6 => 'Ля иляха илля Аллах, вахдаху ля харика лах, ляху эльмульку ва ляху эльхамду, ва хуа `ала кулли чаин кадир, Аллахумма ля мани`а лима а`атайте, ва ля му`атия лима `ате, ва ля янефа`у дхал джадди минека эльджад';
+  String get azkarList6 => 'Ля иляха илля Аллах, вахдаху ля шарика лах, ляхуль-мульк ва ляхуль-хамд, ва хува ‘аля кулли шайн кадир. Аллахумма ля мани‘а лима а‘тайта,ва ля му‘тия лима ман‘ата, ва ля янфа‘у заль-джадда минка ль-джадд';
 
   @override
   String get azkarList7 => 'اللهم أنت ربي، لا إله إلا أنت، خلقتني وأنا عبدُك, وأنا على عهدِك ووعدِك ما استطعتُ، أعوذ بك من شر ما صنعتُ، أبوءُ لَكَ بنعمتكَ عَلَيَّ، وأبوء بذنبي، فاغفر لي، فإنه لا يغفرُ الذنوب إلا أنت';
@@ -336,13 +336,13 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
   String get alerts => 'Оповещение';
 
   @override
-  String get iqamaaCountDown => 'Икамаа число вниз';
+  String get iqamaaCountDown => 'Икама обратный отчет';
 
   @override
-  String get afterAdhanHadith => 'После адхана Хадис';
+  String get afterAdhanHadith => 'Хадис после азана';
 
   @override
-  String get afterSalahAzkar => 'После Салах Азкар';
+  String get afterSalahAzkar => 'Азкары после намаз';
 
   @override
   String get iqama => 'Икама';
@@ -363,10 +363,10 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
   String get normalScreen => 'Использование в качестве главного экрана';
 
   @override
-  String get duaaRemainder => 'Дуа Остаток';
+  String get duaaRemainder => 'Напоминание о Дуа';
 
   @override
-  String get fajrWakeUp => 'Фаджр Пробуждение';
+  String get fajrWakeUp => 'Напоминание о Фаджре ';
 
   @override
   String get changeLanguage => 'Изменить язык';
@@ -396,7 +396,7 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
   String get secondaryScreen => 'Вторичный экран';
 
   @override
-  String get duaaElEftar => 'Дуаа Эль Эфтар';
+  String get duaaElEftar => 'Дуа на Ифтар';
 
   @override
   String get announcementOnlyMode => 'Режим объявлений';
@@ -474,7 +474,7 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
   String get recommended => 'Рекомендуется';
 
   @override
-  String get sabah => 'утро';
+  String get sabah => 'Утро';
 
   @override
   String get randomHadithLanguage => 'Случайный язык хадисов';
@@ -606,7 +606,7 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
   String get wifiPassword => 'Пароль';
 
   @override
-  String get skip => 'Пропускать';
+  String get skip => 'Пропустить';
 
   @override
   String get noSSID => '**Hidden SSID**';
@@ -756,7 +756,7 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
   String get hafs => 'Хафс';
 
   @override
-  String get warsh => 'Уорш';
+  String get warsh => 'Варш';
 
   @override
   String get favorites => 'Избранное';
@@ -907,7 +907,7 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
   String get ishaAndFajrOnly => 'Только молитвы Фаджр и Иша';
 
   @override
-  String get minutesBeforeFajrPrayer => 'минуты до времени молитвы fajr';
+  String get minutesBeforeFajrPrayer => 'минут до времени молитвы Фаджр';
 
   @override
   String get minutesAfterIshaPrayer => 'минут после времени молитвы';
@@ -937,10 +937,10 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
   String get endTime => 'Конец времени';
 
   @override
-  String get selectReciter => 'Выберите Рецепт';
+  String get selectReciter => 'Выберите чтеца';
 
   @override
-  String get selectMoshaf => 'Выберите мушаф';
+  String get selectMoshaf => 'Выберите мусхаф';
 
   @override
   String get randomSurahSelection => 'Случайный выбор суры';
