@@ -775,6 +775,9 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   }
 
   @override
+  String get continueListening => 'Continue listening';
+
+  @override
   String get noFavoriteReciters => 'هیچ قورئانخوێنێکی دڵخواز بونی نیە. دانەیەک زیاد بکە';
 
   @override

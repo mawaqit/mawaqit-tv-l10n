@@ -240,6 +240,7 @@
   "allReciters": "Todos os Recitadores",
   "reciterAddedToFavorites": "Recitador {name} adicionado aos favoritos",
   "reciterRemovedFromFavorites": "Recitador {name} removido dos favoritos",
+  "continueListening": "Continue listening",
   "noFavoriteReciters": "Sem recitadores favoritos. Tente adicionar um à lista.",
   "noReciterSearchResult": "Nenhum resultado encontrado para a sua pesquisa",
   "searchForReciter": "Pesquisar por um recitador",

@@ -341,6 +341,7 @@
       }
     }
   },
+  "continueListening": "Continue listening",
   "noFavoriteReciters": "Sevimli qiraətçiniz yoxdur. Birini siyahıya əlavə edin",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"
