@@ -697,6 +697,18 @@ abstract class MawaqitTvLocalizations {
   /// **'Shuruk'**
   String get shuruk;
 
+  /// No description provided for @duha.
+  ///
+  /// In en, this message translates to:
+  /// **'Duha'**
+  String get duha;
+
+  /// No description provided for @duhaTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Duha Time'**
+  String get duhaTime;
+
   /// No description provided for @reset.
   ///
   /// In en, this message translates to:

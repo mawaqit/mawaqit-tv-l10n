@@ -261,6 +261,12 @@ class MawaqitTvLocalizationsGu extends MawaqitTvLocalizations {
   String get shuruk => 'ઇશરાક ';
 
   @override
+  String get duha => 'Duha';
+
+  @override
+  String get duhaTime => 'Duha Time';
+
+  @override
   String get reset => 'રીસૅટ ';
 
   @override

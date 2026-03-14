@@ -123,6 +123,8 @@
   "jumuaaScreenTitle": "Hora del viernes",
   "jumuaaHadith": "El Profeta ﷺ (la paz y las bendiciones de Allah sean con él) dijo \"Quien haga las abluciones perfectamente y luego vaya al jumua y luego escuche y guarde silencio, se le perdona lo que haya entre ese momento y el viernes siguiente y tres días más y el que toque piedras ciertamente ha hecho una futilidad\"",
   "shuruk": "Shuruq",
+  "duha": "Duha",
+  "duhaTime": "Duha Time",
   "reset": "Reset",
   "mosqueNotFoundMessage": "Lo sentimos, no se ha encontrado su mezquita, o puede que haya desaparecido o esté temporalmente desactivada.",
   "noInternetMessage": "No hay acceso a Internet. Por favor, verifique su conectividad a Internet e inténtelo de nuevo. ¿Está conectado su Wi-Fi o Ethernet?",

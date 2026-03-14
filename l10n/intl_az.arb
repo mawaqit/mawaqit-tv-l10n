@@ -123,6 +123,8 @@
   "jumuaaScreenTitle": "Cümə vaxtı",
   "jumuaaHadith": "Peyğəmbərimiz Hz. Məhəmməd (s.a.s.) buyurmuşdur: \"Kim gözəl dəstəmaz alıb cümə namazına getsə, sonra susub dinləsə, onun həmin vaxtla növbəti cümə və daha 3 gün arasındakı günahları bağışlanar. Daşlara toxunan isə əlbəttə ki, bir boş iş görmüşdür.\"",
   "shuruk": "Günəş",
+  "duha": "Duha",
+  "duhaTime": "Duha Time",
   "reset": "Sıfırla",
   "mosqueNotFoundMessage": "Təəssüf ki, məscidiniz tapılmadı, ya əskikdir, ya da müvəqqəti olaraq sıradan çıxarılıb.",
   "noInternetMessage": "İnternetə müraciət yoxdur. Lütfən internet bağlantınızı yoxlayıb yenidən sınayın. Wi-Fi və ya Ethernet bağlantınız var?",

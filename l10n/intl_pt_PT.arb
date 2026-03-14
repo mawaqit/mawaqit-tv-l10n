@@ -79,6 +79,8 @@
   "jumuaaScreenTitle": "Hora de Jumu'ah",
   "jumuaaHadith": "O Profeta Muhammad (Sallalláhu Alaihi Wa Sallam) disse: \"Aquele que realizar a ablução (Wudhu) de forma correta, dirigir-se à oração de Jumu’ah, ouvir o sermão (Khutbah) com atenção e permanecer em silêncio, terá os seus pequenos pecados entre essa sexta-feira e a próxima, mais três dias (totalizando dez dias), perdoados. Contudo, aquele que durante o sermão brincar com uma pedra (ou seja, distrair-se), terá interrompido esta recompensa.\"",
   "shuruk": "Nascer do Sol",
+  "duha": "Duha",
+  "duhaTime": "Duha Time",
   "reset": "Reset",
   "mosqueNotFoundMessage": "Desculpe, a sua mesquita não foi encontrada, pode estar desativada ou temporariamente indisponível.",
   "noInternetMessage": "Por favor, verifique a sua ligação à Internet e tente novamente. O seu Wi-Fi ou Ethernet está ligado?",

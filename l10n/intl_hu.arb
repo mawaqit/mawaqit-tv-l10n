@@ -123,6 +123,8 @@
   "jumuaaScreenTitle": "Pénteki imaidő",
   "jumuaaHadith": "A Próféta (Allah békéje és áldása legyen vele) azt mondta: “Aki tökéletesen elvégzi a wudu'-t (tisztálkodást), majd elmegy a pénteki imára, leül és csendben hallgatja (a szónoklatot), annak Allah megbocsátja azt, ami az adott idő és a következő péntek között történt, plusz három nap. És aki megérinti akár a kavicsokat is, az bizony Laghá-t (haszontalan cselekvést) követett el\"",
   "shuruk": "Napfelkelte",
+  "duha": "Duha",
+  "duhaTime": "Duha Time",
   "reset": "Visszaállítás",
   "mosqueNotFoundMessage": "Sajnáljuk, de a mecsetét nem találtuk meg, lehet, hogy hiányzik vagy ideiglenesen le van tiltva.",
   "noInternetMessage": "Nincs internet-hozzáférés. Kérjük, ellenőrizd internetkapcsolatodat, és próbáld meg újra. Wi-Fi vagy Ethernet csatlakoztatva van?",

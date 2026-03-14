@@ -261,6 +261,12 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get shuruk => 'Shuruk';
 
   @override
+  String get duha => 'Duha';
+
+  @override
+  String get duhaTime => 'Duha Time';
+
+  @override
   String get reset => 'Reset';
 
   @override
@@ -1279,6 +1285,12 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get shuruk => 'Nascer do sol';
 
   @override
+  String get duha => 'Duha';
+
+  @override
+  String get duhaTime => 'Duha Time';
+
+  @override
   String get reset => 'Reiniciar';
 
   @override
@@ -2268,6 +2280,12 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
 
   @override
   String get shuruk => 'Nascer do Sol';
+
+  @override
+  String get duha => 'Duha';
+
+  @override
+  String get duhaTime => 'Duha Time';
 
   @override
   String get reset => 'Reset';

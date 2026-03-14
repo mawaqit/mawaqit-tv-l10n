@@ -261,6 +261,12 @@ class MawaqitTvLocalizationsUr extends MawaqitTvLocalizations {
   String get shuruk => 'اشراق';
 
   @override
+  String get duha => 'Duha';
+
+  @override
+  String get duhaTime => 'Duha Time';
+
+  @override
   String get reset => 'دوبارہ ترتیب دیں۔';
 
   @override

@@ -123,6 +123,8 @@
   "jumuaaScreenTitle": "Jumuaa aika",
   "jumuaaHadith": "Profeetta ﷺ (rauha ja Allahin siunaukset hänelle) sanoi: \"Joka tekee pesut täydellisesti ja menee sitten jumualle ja sitten kuuntelee ja on hiljaa, hänelle annetaan anteeksi se, mikä on tuon ajan ja seuraavan perjantain ja kolmen muun päivän välissä, ja se, joka koskettaa kiviä, on varmasti tehnyt turhuuden.\"",
   "shuruk": "Shuruk",
+  "duha": "Duha",
+  "duhaTime": "Duha Time",
   "reset": "Nollaa",
   "mosqueNotFoundMessage": "Valitettavasti moskeijaasi ei löytynyt, tai se saattaa puuttua tai olla tilapäisesti poistettu käytöstä.",
   "noInternetMessage": "Ei internetyhteyttä. Tarkista internet-yhteytesi ja yritä uudelleen. Onko Wi-Fi- tai Ethernet-yhteys kytketty?",
