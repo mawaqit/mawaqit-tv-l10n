@@ -1033,4 +1033,36 @@ class MawaqitTvLocalizationsMk extends MawaqitTvLocalizations {
 
   @override
   String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+
+  @override
+  String get tutorialGetStarted => 'Get started in 4 simple steps';
+
+  @override
+  String get tutorialDontHaveId => 'Don\'t have a Mosque ID yet? Here\'s how:';
+
+  @override
+  String get tutorialStep1 => 'Go to mawaqit.net and create an account';
+
+  @override
+  String get tutorialStep2 => 'Register your mosque with photos & address';
+
+  @override
+  String get tutorialStep3 => 'Get your unique Mosque ID from your dashboard';
+
+  @override
+  String get tutorialStep4 => 'Enter the ID here to connect your TV display';
+
+  @override
+  String tutorialStep(String step) {
+    return 'Step $step  ';
+  }
+
+  @override
+  String get tutorialScanToRegister => 'Scan to register';
+
+  @override
+  String get tutorialScanDescription => 'Use your phone to create an account on mawaqit.net';
+
+  @override
+  String get tutorialFullTutorial => 'Full tutorial';
 }

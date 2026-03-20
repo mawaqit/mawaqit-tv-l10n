@@ -480,5 +480,15 @@
   "appDisplayMode": "Mode d'affichage",
   "appDisplayModeExplanation": "Choisissez comment votre écran affichera le contenu",
   "exitQuranModeTitle": "Quitter le mode Coran",
-  "exitQuranModeMessage": "Souhaitez-vous revenir au mode normal ?"
+  "exitQuranModeMessage": "Souhaitez-vous revenir au mode normal ?",
+  "tutorialGetStarted": "Commencez en 4 étapes simples",
+  "tutorialDontHaveId": "Vous n'avez pas encore d'identifiant de mosquée ? Voici comment :",
+  "tutorialStep1": "Allez sur mawaqit.net et créez un compte",
+  "tutorialStep2": "Enregistrez votre mosquée avec photos et adresse",
+  "tutorialStep3": "Obtenez votre identifiant unique depuis votre tableau de bord",
+  "tutorialStep4": "Entrez l'identifiant ici pour connecter votre écran TV",
+  "tutorialStep": "Étape {step}  ",
+  "tutorialScanToRegister": "Scannez pour vous inscrire",
+  "tutorialScanDescription": "Utilisez votre téléphone pour créer un compte sur mawaqit.net",
+  "tutorialFullTutorial": "Tutoriel complet"
 }
