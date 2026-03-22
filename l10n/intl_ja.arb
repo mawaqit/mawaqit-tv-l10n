@@ -1,4 +1,5 @@
 {
+  "thisIsATestFromIbrahim": "これはイブラヒムからのテストです",
   "home": "ホーム",
   "share": "シェア",
   "about": "について",
@@ -12,7 +13,11 @@
   "tryAgain": "再挑戦",
   "closeApp": "アプリを閉じる",
   "quit": "やめる",
+  "forceStaging": "ステージング中",
+  "forcePreProduction": "Pre-production",
   "disableStaging": "生産への切り替え",
+  "environmentSwitchSuccess": "環境の切り替えに成功し",
+  "environmentSwitchFailed": "環境の切り替えに失敗しました",
   "sureCloseApp": "本当にアプリケーションを終了しますか？",
   "ok": "よっしゃー",
   "cancel": "CANCEL",
@@ -74,7 +79,7 @@
   },
   "azkarList3": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
   "@azkarList3": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
   "azkarList4": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ",
   "@azkarList4": {
@@ -172,7 +177,7 @@
   "announcementOnlyMode": "アナウンスメントモード",
   "normalMode": "ノーマルモード ",
   "announcementOnlyModeEXPLINATION": "スクリーンに常時アナウンスを表示するかどうかを選択します。例えば、エントランスにスクリーンを設置する場合に便利です。",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -208,6 +213,7 @@
   "es": "スパニッシュ",
   "pt": "ポルトガル語",
   "nl": "オランダ語",
+  "ta": "Tamil",
   "fr_ar": "フランス語とアラビア語",
   "en_ar": "英語とアラビア語",
   "de_ar": "ドイツ語とアラビア語",
@@ -341,6 +347,7 @@
       }
     }
   },
+  "continueListening": "リッスンを続ける",
   "noFavoriteReciters": "お気に入りのリサイターはありません。リストに追加してみてください",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"
@@ -456,6 +463,7 @@
   "processingRequest": "リクエストを処理しています...",
   "loadingStream": "ストリームを読み込んでいます...",
   "rtspUrlHint": "RTSP URLまたはYouTubeリンクを入力",
+  "urlManagedByMosqueAdmin": "URLはモスクの管理者によって管理されています",
   "replaceWorkflowWithStream": "カメラストリームを自動的に表示",
   "replaceAppWorkflowWithCameraStream": "カメラが録画を開始すると、画面が自動的にカメラストリームを表示します。 止まればスクリーンは祈祷時間に戻ります",
   "streamError": "ストリーミング中にエラーが発生しました",
@@ -470,5 +478,33 @@
   "testAITranslation": "これはAI翻訳が正常に動作していることを確認するためのテスト文字列",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
+  },
+  "testCrowdinCI": "CrowdinのCIワークフローを確認するために文字列をテストする",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "クルアーンモード",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "クルアーンの読書画面を表示します。最後の読書ページから始まります。",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "appDisplayMode": "表示モード",
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "appDisplayModeExplanation": "画面のコンテンツの表示方法を選択してください",
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "クルアーンモードを終了",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "通常モードに戻りますか？",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
   }
 }

@@ -1,4 +1,5 @@
 {
+  "thisIsATestFromIbrahim": "Αυτό είναι μια δοκιμή από Ibrahim",
   "home": "Αρχική σελίδα",
   "share": "Μοιραστείτε το",
   "about": "Σχετικά με το",
@@ -12,7 +13,11 @@
   "tryAgain": "Δοκιμάστε ξανά",
   "closeApp": "Κλείστε την εφαρμογή",
   "quit": "Σταματήστε το",
+  "forceStaging": "Σταδιοποίηση",
+  "forcePreProduction": "Προπαραγωγή",
   "disableStaging": "Μετάβαση στην παραγωγή",
+  "environmentSwitchSuccess": "Το περιβάλλον άλλαξε με επιτυχία",
+  "environmentSwitchFailed": "Αποτυχία αλλαγής περιβάλλουσας",
   "sureCloseApp": "Σίγουρα θέλετε να τερματίσετε την εφαρμογή;",
   "ok": "OK",
   "cancel": "ΑΚΥΡΩΣΗ",
@@ -74,7 +79,7 @@
   },
   "azkarList3": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
   "@azkarList3": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
   "azkarList4": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ",
   "@azkarList4": {
@@ -172,7 +177,7 @@
   "announcementOnlyMode": "Λειτουργία ανακοινώσεων",
   "normalMode": "Κανονική λειτουργία ",
   "announcementOnlyModeEXPLINATION": "Επιλέξτε αν η οθόνη σας θα εμφανίζει ανακοινώσεις όλη την ώρα, αυτό μπορεί να είναι χρήσιμο αν εγκαταστήσετε την οθόνη στην είσοδο, για παράδειγμα.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -208,6 +213,7 @@
   "es": "Ισπανικά",
   "pt": "Πορτογαλικά",
   "nl": "Ολλανδικά",
+  "ta": "Tamil",
   "fr_ar": "Γαλλικά & Αραβικά",
   "en_ar": "Αγγλικά & Αραβικά",
   "de_ar": "Γερμανικά & Αραβικά",
@@ -341,6 +347,7 @@
       }
     }
   },
+  "continueListening": "Συνέχεια ακρόασης",
   "noFavoriteReciters": "Δεν υπάρχουν αγαπημένες ρεσιτόρ. Προσπαθήστε να προσθέσετε ένα στη λίστα",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"
@@ -456,6 +463,7 @@
   "processingRequest": "Επεξεργασία αιτήματος...",
   "loadingStream": "Φόρτωση ρεύματος...",
   "rtspUrlHint": "Εισάγετε σύνδεσμο RTSP URL ή YouTube",
+  "urlManagedByMosqueAdmin": "URL που διαχειρίζεται ο διαχειριστής τζαμιού",
   "replaceWorkflowWithStream": "Αυτόματη εμφάνιση ροής φωτογραφικής μηχανής",
   "replaceAppWorkflowWithCameraStream": "Η οθόνη θα εμφανίζει αυτόματα τη ροή της φωτογραφικής μηχανής μόλις ξεκινήσει η εγγραφή της φωτογραφικής μηχανής. αν σταματήσει, η οθόνη επιστρέφει στην οθόνη ώρες προσευχής",
   "streamError": "Παρουσιάστηκε σφάλμα κατά τη ροή",
@@ -470,5 +478,33 @@
   "testAITranslation": "Αυτή είναι μια συμβολοσειρά δοκιμής για την επαλήθευση της μετάφρασης τεχνητής νοημοσύνης λειτουργεί σωστά",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
+  },
+  "testCrowdinCI": "Δοκιμή συμβολοσειράς για επαλήθευση της ροής εργασίας του Crowdin CI στην ανάπτυξη",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Λειτουργία Κορανίου",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Εμφάνιση της οθόνης ανάγνωσης του Κορανίου, ξεκινώντας από την τελευταία σελίδα ανάγνωσης",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "appDisplayMode": "Λειτουργία Προβολής",
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "appDisplayModeExplanation": "Επιλέξτε πώς θα εμφανίζεται το περιεχόμενο της οθόνης σας",
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Έξοδος Από Λειτουργία Κορανίου",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Θα θέλατε να επιστρέψετε στην κανονική λειτουργία?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
   }
 }
