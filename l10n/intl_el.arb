@@ -59,6 +59,8 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Παρακαλούμε βάλτε τα τηλέφωνά σας σε αθόρυβη λειτουργία",
   "iqamaIn": "Iqama σε",
+  "iqamaShowClock": "Εμφάνιση ρολογιού στην οθόνη ικάμα",
+  "iqamaShowClockDesc": "Εμφάνιση τρέχουσας ώρας και ημερομηνίας στην οθόνη αντίστροφης μέτρησης ικάμα",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Ρυθμίσεις",
-  "applicationModes": "Τρόποι εφαρμογής",
+  "applicationModes": "Προεπιλεγμένη λειτουργία εκκίνησης",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Αν αντιμετωπίζετε κάποιο πρόβλημα με την εφαρμογή, ενεργοποιήστε αυτή την επιλογή",
   "hijriAdjustments": "Τοπικές προσαρμογές Hijri",
   "hijriAdjustmentsDescription": "Προσαρμόστε την ημερομηνία hijri τοπικά στη συσκευή σας. Αυτό δεν θα επηρεάσει τις ρυθμίσεις του online τζαμιού",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Πρέπει να συνδεθείτε στο διαδίκτυο για να χρησιμοποιήσετε τη λειτουργία παλαιού τύπου",
   "powerOnScreen": "Ενεργοποιήστε την οθόνη",
   "powerOffScreen": "Απενεργοποίηση της οθόνης",
-  "deviceSettings": "Ρυθμίσεις Συσκευής",
+  "deviceSettings": "Συσκευή",
   "later": "Αργότερα",
   "downloadQuran": "Λήψη Κορανίου",
   "quran": "Κοράνι",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Ρυθμίσεις Κάμερας",
   "invalidRtspUrl": "Μη έγκυρη διεύθυνση URL. Παρακαλώ ελέγξτε τη διεύθυνση URL και προσπαθήστε ξανά.",
   "validRtspUrl": "Το URL επικυρώθηκε και αποθηκεύτηκε επιτυχώς.",
-  "rtspCameraSettingTitle": "Ζωντανή σύνδεση κάμερας",
+  "rtspCameraSettingTitle": "Ζωντανή κάμερα",
   "rtspCameraSettingDesc": "Συνδεθείτε με την τοπική σας κάμερα και να εμφανίσετε ρεύμα προσευχής Jumua στην οθόνη της τηλεόρασης.",
   "rtspCameraSettingScreenDesc": "Αν εισάγετε μια διεύθυνση URL εδώ, η οθόνη σας θα μεταβεί αυτόματα σε ροή βίντεο όταν φτάσει η ώρα Jumua",
   "validatingStream": "Επικύρωση Ροής...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Αυτή είναι μια συμβολοσειρά δοκιμής για την επαλήθευση της μετάφρασης τεχνητής νοημοσύνης λειτουργεί σωστά",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Γενικά",
+  "hijriDateAdjustment": "Ρύθμιση ημερομηνίας Χέγκρα",
+  "interfaceLanguage": "Γλώσσα διεπαφής",
+  "launchModeMainPrayer": "Κύριες ώρες προσευχής",
+  "launchModeSecondaryPrayer": "Δευτερεύουσες ώρες προσευχής",
+  "timezone": "Ζώνη ώρας",
+  "wifi": "WiFi"
 }

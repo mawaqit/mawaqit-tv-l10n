@@ -59,6 +59,8 @@
   "alAdhan": "Azan",
   "turnOfPhones": "Sila matikan telefon anda",
   "iqamaIn": "Iqamat",
+  "iqamaShowClock": "Tunjukkan jam di skrin Iqama",
+  "iqamaShowClockDesc": "Paparkan masa dan tarikh semasa pada skrin kira detik Iqama",
   "alAthkar": "Doa-doa",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Selamat Hari Raya Aidilfitri",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Tetapan",
-  "applicationModes": "Mod Permohonan",
+  "applicationModes": "Mod pelancaran lalai",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Jika anda menghadapi masalah dengan aplikasi, cuba aktifkan pilihan ini",
   "hijriAdjustments": "Pelarasan Kalendar Hijrah tempatan",
   "hijriAdjustmentsDescription": "Laraskan tarikh hijrah secara setempat dalam peranti anda. Ini tidak akan menjejaskan tetapan masjid dalam talian",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Anda mesti menyambung ke Internet untuk menggunakan mod lama",
   "powerOnScreen": "Hidupkan paparan",
   "powerOffScreen": "Matikan paparan",
-  "deviceSettings": "Tetapan peranti",
+  "deviceSettings": "Peranti",
   "later": "Kemudian",
   "downloadQuran": "Muat turun Quran",
   "quran": "Quran",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Tetapan Kamera",
   "invalidRtspUrl": "URL tidak sah. Sila semak URL dan cuba lagi.",
   "validRtspUrl": "URL telah disahkan dan disimpan dengan jayanya.",
-  "rtspCameraSettingTitle": "Sambungan kamera langsung",
+  "rtspCameraSettingTitle": "Kamera langsung",
   "rtspCameraSettingDesc": "Sambung ke kamera tempatan anda dan paparkan siaran solat Jumaat di skrin TV.",
   "rtspCameraSettingScreenDesc": "Jika anda masukkan URL di sini, skrin anda akan beralih secara automatik ke penstriman video apabila tiba waktu Jumaat",
   "validatingStream": "Mengesahkan penstriman...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Ini adalah teks ujian untuk mengesahkan terjemahan AI berfungsi dengan betul",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Umum",
+  "hijriDateAdjustment": "Pelarasan tarikh Hijri",
+  "interfaceLanguage": "Bahasa antara muka",
+  "launchModeMainPrayer": "Waktu solat utama",
+  "launchModeSecondaryPrayer": "Waktu solat sekunder",
+  "timezone": "Zon masa",
+  "wifi": "WiFi"
 }

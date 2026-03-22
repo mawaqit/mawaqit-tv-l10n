@@ -352,7 +352,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @azanIn.
   ///
   /// In en, this message translates to:
-  /// **'Athan in'**
+  /// **'Azan in'**
   String get azanIn;
 
   /// No description provided for @sec.
@@ -550,7 +550,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @afterAdhanHadithTitle.
   ///
   /// In en, this message translates to:
-  /// **'After Athan Du`aa'**
+  /// **'After adhan Du`aa'**
   String get afterAdhanHadithTitle;
 
   /// No description provided for @afterSalahHadith.
@@ -582,6 +582,18 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Iqama in'**
   String get iqamaIn;
+
+  /// Toggle to show or hide the clock widget on the Iqama countdown screen
+  ///
+  /// In en, this message translates to:
+  /// **'Show clock on Iqama screen'**
+  String get iqamaShowClock;
+
+  /// Subtitle for the iqama clock toggle setting
+  ///
+  /// In en, this message translates to:
+  /// **'Display the current time and date on the Iqama countdown screen'**
+  String get iqamaShowClockDesc;
 
   /// No description provided for @alAthkar.
   ///
@@ -856,7 +868,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @afterAdhanHadith.
   ///
   /// In en, this message translates to:
-  /// **'After Athan Hadith'**
+  /// **'After Adhan Hadith'**
   String get afterAdhanHadith;
 
   /// No description provided for @afterSalahAzkar.
@@ -1090,7 +1102,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @applicationModes.
   ///
   /// In en, this message translates to:
-  /// **'Application Mode'**
+  /// **'Default launch mode'**
   String get applicationModes;
 
   /// No description provided for @ifYouAreFacingAnIssueWithTheAppActivateThis.
@@ -1462,7 +1474,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @screenLockDesc2.
   ///
   /// In en, this message translates to:
-  /// **'This feature turn on/off the device before and after each prayer Athan'**
+  /// **'This feature turn on/off the device before and after each prayer Adhan'**
   String get screenLockDesc2;
 
   /// No description provided for @before.
@@ -1534,7 +1546,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @deviceSettings.
   ///
   /// In en, this message translates to:
-  /// **'Device Settings'**
+  /// **'Device'**
   String get deviceSettings;
 
   /// No description provided for @later.
@@ -1888,7 +1900,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @rtspCameraSettingTitle.
   ///
   /// In en, this message translates to:
-  /// **'Live camera connection'**
+  /// **'Live camera'**
   String get rtspCameraSettingTitle;
 
   /// No description provided for @rtspCameraSettingDesc.
@@ -2068,13 +2080,13 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @duaaBetweenAdhanAndIqamaaTitle.
   ///
   /// In en, this message translates to:
-  /// **'Supplication (Du\'a) is not rejected between the Athan and Iqamah'**
+  /// **'Supplication (Du\'a) is not rejected between the Adhan and Iqamah'**
   String get duaaBetweenAdhanAndIqamaaTitle;
 
   /// No description provided for @duaBetweenAdhanIqamah.
   ///
   /// In en, this message translates to:
-  /// **'Supplication (Du\'a) is not rejected between the Athan and Iqamah.'**
+  /// **'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.'**
   String get duaBetweenAdhanIqamah;
 
   /// No description provided for @processingRequest.
@@ -2152,7 +2164,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @prayerTimeNotificationDesc.
   ///
   /// In en, this message translates to:
-  /// **'Get the Athan at prayer times, even when the app is closed'**
+  /// **'Get the Adhan at prayer times, even when the app is closed'**
   String get prayerTimeNotificationDesc;
 
   /// No description provided for @enablePrayerReminders.
@@ -2194,7 +2206,7 @@ abstract class MawaqitTvLocalizations {
   /// Title for the display mode setting
   ///
   /// In en, this message translates to:
-  /// **'Display Mode'**
+  /// **'Display'**
   String get appDisplayMode;
 
   /// Subtitle for the display mode setting
@@ -2214,6 +2226,48 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Would you like to return to normal mode?'**
   String get exitQuranModeMessage;
+
+  /// Title for the Global settings section
+  ///
+  /// In en, this message translates to:
+  /// **'Global'**
+  String get settingsSectionGlobal;
+
+  /// Title for the Hijri date adjustment setting item
+  ///
+  /// In en, this message translates to:
+  /// **'Hijri date adjustment'**
+  String get hijriDateAdjustment;
+
+  /// Title for the interface language setting item
+  ///
+  /// In en, this message translates to:
+  /// **'Interface language'**
+  String get interfaceLanguage;
+
+  /// Dropdown label for main prayer times launch mode
+  ///
+  /// In en, this message translates to:
+  /// **'Main prayer times'**
+  String get launchModeMainPrayer;
+
+  /// Dropdown label for secondary prayer times launch mode
+  ///
+  /// In en, this message translates to:
+  /// **'Secondary prayer times'**
+  String get launchModeSecondaryPrayer;
+
+  /// Title for the timezone setting item
+  ///
+  /// In en, this message translates to:
+  /// **'Timezone'**
+  String get timezone;
+
+  /// Title for the WIFI setting item
+  ///
+  /// In en, this message translates to:
+  /// **'WIFI'**
+  String get wifi;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {

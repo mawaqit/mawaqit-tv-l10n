@@ -59,6 +59,8 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Lūdzu, pārslēdziet tālruņus klusajā režīmā",
   "iqamaIn": "Iqama in",
+  "iqamaShowClock": "Rādīt pulksteni ikamas ekrānā",
+  "iqamaShowClockDesc": "Rādīt pašreizējo laiku un datumu ikamas atpakaļskaitīšanas ekrānā",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Iestatījumi",
-  "applicationModes": "Lietošanas režīmi",
+  "applicationModes": "Noklusējuma palaišanas režīms",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Ja rodas problēmas ar lietotni, kas ir aktīva ar šo opciju.",
   "hijriAdjustments": "Vietējās Hidžri korekcijas",
   "hijriAdjustmentsDescription": "Pielāgojiet Hidžri datumu lokāli savā ierīcē. Tas neietekmēs mošejas iestatījumus tiešsaistē",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Lai izmantotu veco režīmu, jābūt pieslēgtam internetam",
   "powerOnScreen": "Ieslēgt ekrānu",
   "powerOffScreen": "Izslēgt ekrānu",
-  "deviceSettings": "Ierīces iestatījumi",
+  "deviceSettings": "Ierīce",
   "later": "Vēlāk",
   "downloadQuran": "Lejupielādēt Korānu",
   "quran": "Korāns",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Kameras iestatījumi",
   "invalidRtspUrl": "Nederīgs URL. Lūdzu, pārbaudiet URL un mēģiniet vēlreiz.",
   "validRtspUrl": "URL ir pārbaudīts un veiksmīgi saglabāts.",
-  "rtspCameraSettingTitle": "Tiešraides kameras savienojums",
+  "rtspCameraSettingTitle": "Tiešraides kamera",
   "rtspCameraSettingDesc": "Pieslēdzieties savai vietējai kamerai un rādiet Džumas lūgšanas translāciju televizora ekrānā.",
   "rtspCameraSettingScreenDesc": "Ja šeit ievadīsiet URL, ekrāns automātiski pārslēgsies uz video tiešraidi, kad iestāsies Džumas laiks",
   "validatingStream": "Plūsmas pārbaude...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Šī ir testa virkne, lai pārbaudītu, vai mākslīgā intelekta tulkošana darbojas pareizi.",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Vispārīgi",
+  "hijriDateAdjustment": "Hidžras datuma pielāgošana",
+  "interfaceLanguage": "Saskarnes valoda",
+  "launchModeMainPrayer": "Galvenie lūgšanu laiki",
+  "launchModeSecondaryPrayer": "Sekundārie lūgšanu laiki",
+  "timezone": "Laika zona",
+  "wifi": "WiFi"
 }

@@ -59,6 +59,8 @@
   "alAdhan": "பிரார்த்தனைக்கான அழைப்பு",
   "turnOfPhones": "உங்கள் மொபைல் போன்களை சைலண்டில் வைக்கவும்!",
   "iqamaIn": "இகாமத் பிறகு",
+  "iqamaShowClock": "இக்காமா திரையில் கடிகாரத்தை காட்டு",
+  "iqamaShowClockDesc": "இக்காமா கவுண்ட்டவுன் திரையில் தற்போதைய நேரம் மற்றும் தேதியை காட்டு",
   "alAthkar": "அல்-அத்கார்",
   "azkarList0": "அஸ்தஃஃபிரு அல்லாஹ், அஸ்தஃஃபிரு அல்லாஹ், அஸ்தஃஃபிரு அல்லாஹ் அல்லாஹுமான்தா அஸ்ஸலாம், உமின்கா அஸ்ஸலாம், தபாரக்க்தா யா தல் ஜலாலி வல் இகராம் அல்லாஹும்மா அஇந்நீ அலா திக்ரிக த்யு ஷுக்ரிக த்யூ ஹுஸ்னி இபாததிக",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "ஈது முபாரக்",
   "takbeerAleidText": "அல்லாஹு அக்பர், அல்லாஹு அக்பர், அல்லாஹு அக்பர், லா இலாஹா இல்லல்லாஹ், அல்லாஹு அக்பர், அல்லாஹு அக்பர், வ லில்லாஹில் ஹம்த்",
   "settings": "Settings",
-  "applicationModes": "செயலி முறை",
+  "applicationModes": "இயல்புநிலை தொடக்க முறை",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "செயலியில் சிக்கல் ஏற்பட்டால், இந்த விருப்பத்தை இயக்க முயற்சிக்கவும்",
   "hijriAdjustments": "உள்ளூர் ஹிஜரி தொகுப்புகள்",
   "hijriAdjustmentsDescription": "உங்கள் சாதனத்தில் ஹிஜிரி நாளை உள்ளூரில் சீரமைக்கவும். இது ஆன்லைன் பள்ளிவாசல் அமைப்புகளை பாதிக்காது",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "லெகசி முறையை பயன்படுத்த இணையம் தேவை",
   "powerOnScreen": "திரையை இயக்கவும்",
   "powerOffScreen": "திரையை நிறுத்தவும்",
-  "deviceSettings": "சாதன அமைப்புகள்",
+  "deviceSettings": "சாதனம்",
   "later": "பிறகு",
   "downloadQuran": "குர்ஆனும் பதிவிறக்கவும்",
   "quran": "Quran",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "கேமரா அமைப்புகள்",
   "invalidRtspUrl": "தவறான URL. தயவு செய்து URL-ஐ சரிபார்த்து மீண்டும் முயற்சிக்கவும்.",
   "validRtspUrl": "URL செல்லுபடியாக உள்ளது மற்றும் வெற்றிகரமாக சேமிக்கப்பட்டது.",
-  "rtspCameraSettingTitle": "நேரடி கேமரா இணைப்பு",
+  "rtspCameraSettingTitle": "நேரடி கேமரா",
   "rtspCameraSettingDesc": "உங்கள் உள்ளூர் கேமராவை இணைத்து, ஜுமுஆ தொழுகையின் நிறைவு நேரத்தை டிவி திரையில் பார்க்கக்கூடியதாக மாற்றவும்.",
   "rtspCameraSettingScreenDesc": "இங்கு ஒரு URL உள்ளிடப்பட்டால், ஜுமுஆ நேரம் வந்தவுடன் உங்கள் திரை தானாகவே வீடியோ ஸ்ட்ரீமிங்கிற்குக் மாறும்",
   "validatingStream": "ஸ்ட்ரீம் சரிபார்க்கப்படுகிறது...",
@@ -471,5 +473,12 @@
   "testAITranslation": "AI மொழிபெயர்ப்பு சரியாக செயல்படுகிறதா என்பதை சரிபார்க்க இது ஒரு சோதனை உரை ஆகும்",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "பொது",
+  "hijriDateAdjustment": "ஹிஜ்ரி தேதி சரிசெய்தல்",
+  "interfaceLanguage": "இடைமுகம் மொழி",
+  "launchModeMainPrayer": "முக்கிய தொழுகை நேரங்கள்",
+  "launchModeSecondaryPrayer": "இரண்டாம் நிலை தொழுகை நேரங்கள்",
+  "timezone": "நேர மண்டலம்",
+  "wifi": "வைஃபை"
 }

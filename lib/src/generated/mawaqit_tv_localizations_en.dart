@@ -85,7 +85,7 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get in1 => 'in';
 
   @override
-  String get azanIn => 'Athan in';
+  String get azanIn => 'Azan in';
 
   @override
   String get sec => 'Sec';
@@ -186,7 +186,7 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get isha => 'Isha';
 
   @override
-  String get afterAdhanHadithTitle => 'After Athan Du`aa';
+  String get afterAdhanHadithTitle => 'After adhan Du`aa';
 
   @override
   String get afterSalahHadith => 'O Allah, Lord of this perfect call and established prayer. Grant Muhammad the intercession and favor, and raise him to the honored station You have promised him.';
@@ -202,6 +202,12 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
 
   @override
   String get iqamaIn => 'Iqama in';
+
+  @override
+  String get iqamaShowClock => 'Show clock on Iqama screen';
+
+  @override
+  String get iqamaShowClockDesc => 'Display the current time and date on the Iqama countdown screen';
 
   @override
   String get alAthkar => 'Al-Athkar';
@@ -339,7 +345,7 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get iqamaaCountDown => 'Iqamaa Count Down';
 
   @override
-  String get afterAdhanHadith => 'After Athan Hadith';
+  String get afterAdhanHadith => 'After Adhan Hadith';
 
   @override
   String get afterSalahAzkar => 'After Salah Azkar';
@@ -456,7 +462,7 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get settings => 'Settings';
 
   @override
-  String get applicationModes => 'Application Mode';
+  String get applicationModes => 'Default launch mode';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'If you are facing issues with the app, try to enable this option';
@@ -642,7 +648,7 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get screenLockDesc => 'Turn on/off TV before and after each prayer to save energy';
 
   @override
-  String get screenLockDesc2 => 'This feature turn on/off the device before and after each prayer Athan';
+  String get screenLockDesc2 => 'This feature turn on/off the device before and after each prayer Adhan';
 
   @override
   String get before => 'minutes before each prayer time';
@@ -678,7 +684,7 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get powerOffScreen => 'Power off the screen';
 
   @override
-  String get deviceSettings => 'Device Settings';
+  String get deviceSettings => 'Device';
 
   @override
   String get later => 'Later';
@@ -867,7 +873,7 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL validated and saved successfully.';
 
   @override
-  String get rtspCameraSettingTitle => 'Live camera connection';
+  String get rtspCameraSettingTitle => 'Live camera';
 
   @override
   String get rtspCameraSettingDesc => 'Connect to your local camera and display jumua prayer stream on the TV screen.';
@@ -963,10 +969,10 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get scheduleInOnlineMode => 'Please connect to the internet to schedule Quran listening';
 
   @override
-  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Athan and Iqamah';
+  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah';
 
   @override
-  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Athan and Iqamah.';
+  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
 
   @override
   String get processingRequest => 'Processing request...';
@@ -1005,7 +1011,7 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
 
   @override
-  String get prayerTimeNotificationDesc => 'Get the Athan at prayer times, even when the app is closed';
+  String get prayerTimeNotificationDesc => 'Get the Adhan at prayer times, even when the app is closed';
 
   @override
   String get enablePrayerReminders => 'Enable Prayer Reminders';
@@ -1026,7 +1032,7 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display Mode';
+  String get appDisplayMode => 'Display';
 
   @override
   String get appDisplayModeExplanation => 'Choose how your screen will display content';
@@ -1036,4 +1042,25 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
 
   @override
   String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+
+  @override
+  String get settingsSectionGlobal => 'Global';
+
+  @override
+  String get hijriDateAdjustment => 'Hijri date adjustment';
+
+  @override
+  String get interfaceLanguage => 'Interface language';
+
+  @override
+  String get launchModeMainPrayer => 'Main prayer times';
+
+  @override
+  String get launchModeSecondaryPrayer => 'Secondary prayer times';
+
+  @override
+  String get timezone => 'Timezone';
+
+  @override
+  String get wifi => 'WIFI';
 }

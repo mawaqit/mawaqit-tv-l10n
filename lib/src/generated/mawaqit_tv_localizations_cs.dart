@@ -204,6 +204,12 @@ class MawaqitTvLocalizationsCs extends MawaqitTvLocalizations {
   String get iqamaIn => 'Iqama v';
 
   @override
+  String get iqamaShowClock => 'Zobrazit hodiny na obrazovce ikámy';
+
+  @override
+  String get iqamaShowClockDesc => 'Zobrazit aktuální čas a datum na obrazovce odpočítávání ikámy';
+
+  @override
   String get alAthkar => 'Al-Athkar';
 
   @override
@@ -456,7 +462,7 @@ class MawaqitTvLocalizationsCs extends MawaqitTvLocalizations {
   String get settings => 'Nastavení';
 
   @override
-  String get applicationModes => 'Režimy použití';
+  String get applicationModes => 'Výchozí režim spuštění';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'Pokud se setkáte s problémem s aktivní aplikací.';
@@ -678,7 +684,7 @@ class MawaqitTvLocalizationsCs extends MawaqitTvLocalizations {
   String get powerOffScreen => 'Vypnout obrazovku';
 
   @override
-  String get deviceSettings => 'Nastavení zařízení';
+  String get deviceSettings => 'Zařízení';
 
   @override
   String get later => 'Později';
@@ -775,7 +781,7 @@ class MawaqitTvLocalizationsCs extends MawaqitTvLocalizations {
   }
 
   @override
-  String get continueListening => 'Continue listening';
+  String get continueListening => 'Poslouchejte dál';
 
   @override
   String get noFavoriteReciters => 'Žádné oblíbené čtenáře. Zkuste přidat jeden do seznamu';
@@ -867,7 +873,7 @@ class MawaqitTvLocalizationsCs extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL byla úspěšně potvrzena a uložena.';
 
   @override
-  String get rtspCameraSettingTitle => 'Připojení živé kamery';
+  String get rtspCameraSettingTitle => 'Živá kamera';
 
   @override
   String get rtspCameraSettingDesc => 'Připojte se k lokálnímu fotoaparátu a na obrazovce televize zobrazte proud modlitby.';
@@ -1026,7 +1032,7 @@ class MawaqitTvLocalizationsCs extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display Mode';
+  String get appDisplayMode => 'Display';
 
   @override
   String get appDisplayModeExplanation => 'Choose how your screen will display content';
@@ -1036,4 +1042,25 @@ class MawaqitTvLocalizationsCs extends MawaqitTvLocalizations {
 
   @override
   String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+
+  @override
+  String get settingsSectionGlobal => 'Globální';
+
+  @override
+  String get hijriDateAdjustment => 'Úprava hidžrálního data';
+
+  @override
+  String get interfaceLanguage => 'Jazyk rozhraní';
+
+  @override
+  String get launchModeMainPrayer => 'Hlavní časy modliteb';
+
+  @override
+  String get launchModeSecondaryPrayer => 'Vedlejší časy modliteb';
+
+  @override
+  String get timezone => 'Časové pásmo';
+
+  @override
+  String get wifi => 'WiFi';
 }

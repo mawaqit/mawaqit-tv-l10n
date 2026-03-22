@@ -59,6 +59,8 @@
   "alAdhan": "Ezan",
   "turnOfPhones": "Molimo vas da svoje telefone prebacite u NEČUJNI način rada",
   "iqamaIn": "Ikamet za",
+  "iqamaShowClock": "Prikaži sat na ekranu ikame",
+  "iqamaShowClockDesc": "Prikaži trenutno vrijeme i datum na ekranu odbrojavanja ikame",
   "alAthkar": "Dhikr",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Bajram Šerif Mubarek Olsun! \nHajrli Bajram",
   "takbeerAleidText": "Allahu Akber, Allahu Akber, Allahu Akber, la ilahe il-la Allah, Allahu Akber, Allahu Akber, ve lillahi el-hamd",
   "settings": "Settings",
-  "applicationModes": "Način primjene",
+  "applicationModes": "Podrazumijevani način pokretanja",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Ako imate problema s aplikacijom, pokušajte aktivirati ovu opciju",
   "hijriAdjustments": "Podešavanje hidžretskog datuma na vašem uređaju",
   "hijriAdjustmentsDescription": "Ispravite hidžretski datum na svom uređaju. Ovo neće utjecati na opšte postavke u net platformi",
@@ -258,7 +260,7 @@
   "checkInternetLegacyMode": "Duhet të lidheni me internetin për të përdorur modalitetin e vjetër",
   "powerOnScreen": "Ndizni ekranin",
   "powerOffScreen": "Fikni ekranin",
-  "deviceSettings": "Device Settings",
+  "deviceSettings": "Uređaj",
   "later": "Më vonë",
   "downloadQuran": "Shkarkoni Kur'anin",
   "quran": "Kur'an",
@@ -369,5 +371,12 @@
   "downloadingUpdate": "Downloading update...",
   "installingUpdate": "Installing update...",
   "updateCompletedSuccessfully": "Update completed successfully",
-  "updateFailed": "Update failed"
+  "updateFailed": "Update failed",
+  "settingsSectionGlobal": "Globalno",
+  "hijriDateAdjustment": "Podešavanje hidžretskog datuma",
+  "interfaceLanguage": "Jezik interfejsa",
+  "launchModeMainPrayer": "Glavna vremena namaza",
+  "launchModeSecondaryPrayer": "Sekundarna vremena namaza",
+  "timezone": "Vremenska zona",
+  "wifi": "WiFi"
 }

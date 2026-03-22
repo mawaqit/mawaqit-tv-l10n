@@ -204,6 +204,12 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   String get iqamaIn => '이카마';
 
   @override
+  String get iqamaShowClock => '이카마 화면에 시계 표시';
+
+  @override
+  String get iqamaShowClockDesc => '이카마 카운트다운 화면에 현재 시간과 날짜 표시';
+
+  @override
   String get alAthkar => '알-아트카르';
 
   @override
@@ -456,7 +462,7 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   String get settings => '설정';
 
   @override
-  String get applicationModes => '애플리케이션 모드';
+  String get applicationModes => '기본 실행 모드';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => '앱이 활성화되어 있는 상태에서 문제가 발생하는 경우 이 옵션을 사용하세요.';
@@ -678,7 +684,7 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   String get powerOffScreen => '화면 끄기';
 
   @override
-  String get deviceSettings => '기기 설정';
+  String get deviceSettings => '기기';
 
   @override
   String get later => '나중에';
@@ -775,7 +781,7 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   }
 
   @override
-  String get continueListening => 'Continue listening';
+  String get continueListening => '계속 듣기';
 
   @override
   String get noFavoriteReciters => '즐겨찾는 낭독자가 없습니다. 목록에 추가해보세요';
@@ -867,7 +873,7 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL이 성공적으로 검증 및 저장되었습니다.';
 
   @override
-  String get rtspCameraSettingTitle => '실시간 카메라 연결';
+  String get rtspCameraSettingTitle => '라이브 카메라';
 
   @override
   String get rtspCameraSettingDesc => '로컬 카메라에 연결하여 주마 기도 스트림을 TV 화면에 표시하세요.';
@@ -1026,7 +1032,7 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display Mode';
+  String get appDisplayMode => 'Display';
 
   @override
   String get appDisplayModeExplanation => 'Choose how your screen will display content';
@@ -1036,4 +1042,25 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
 
   @override
   String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+
+  @override
+  String get settingsSectionGlobal => '전체';
+
+  @override
+  String get hijriDateAdjustment => '히즈라 날짜 조정';
+
+  @override
+  String get interfaceLanguage => '인터페이스 언어';
+
+  @override
+  String get launchModeMainPrayer => '주요 기도 시간';
+
+  @override
+  String get launchModeSecondaryPrayer => '보조 기도 시간';
+
+  @override
+  String get timezone => '시간대';
+
+  @override
+  String get wifi => '와이파이';
 }

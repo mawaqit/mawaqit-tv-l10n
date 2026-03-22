@@ -204,6 +204,12 @@ class MawaqitTvLocalizationsTa extends MawaqitTvLocalizations {
   String get iqamaIn => 'இகாமத் பிறகு';
 
   @override
+  String get iqamaShowClock => 'இக்காமா திரையில் கடிகாரத்தை காட்டு';
+
+  @override
+  String get iqamaShowClockDesc => 'இக்காமா கவுண்ட்டவுன் திரையில் தற்போதைய நேரம் மற்றும் தேதியை காட்டு';
+
+  @override
   String get alAthkar => 'அல்-அத்கார்';
 
   @override
@@ -456,7 +462,7 @@ class MawaqitTvLocalizationsTa extends MawaqitTvLocalizations {
   String get settings => 'Settings';
 
   @override
-  String get applicationModes => 'செயலி முறை';
+  String get applicationModes => 'இயல்புநிலை தொடக்க முறை';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'செயலியில் சிக்கல் ஏற்பட்டால், இந்த விருப்பத்தை இயக்க முயற்சிக்கவும்';
@@ -678,7 +684,7 @@ class MawaqitTvLocalizationsTa extends MawaqitTvLocalizations {
   String get powerOffScreen => 'திரையை நிறுத்தவும்';
 
   @override
-  String get deviceSettings => 'சாதன அமைப்புகள்';
+  String get deviceSettings => 'சாதனம்';
 
   @override
   String get later => 'பிறகு';
@@ -775,7 +781,7 @@ class MawaqitTvLocalizationsTa extends MawaqitTvLocalizations {
   }
 
   @override
-  String get continueListening => 'Continue listening';
+  String get continueListening => 'தொடர்ந்து கேளுங்கள்';
 
   @override
   String get noFavoriteReciters => 'விருப்பமான பாடகர் இல்லை. பட்டியலில் ஒன்றைச் சேர்க்க முயற்சிக்கவும்';
@@ -867,7 +873,7 @@ class MawaqitTvLocalizationsTa extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL செல்லுபடியாக உள்ளது மற்றும் வெற்றிகரமாக சேமிக்கப்பட்டது.';
 
   @override
-  String get rtspCameraSettingTitle => 'நேரடி கேமரா இணைப்பு';
+  String get rtspCameraSettingTitle => 'நேரடி கேமரா';
 
   @override
   String get rtspCameraSettingDesc => 'உங்கள் உள்ளூர் கேமராவை இணைத்து, ஜுமுஆ தொழுகையின் நிறைவு நேரத்தை டிவி திரையில் பார்க்கக்கூடியதாக மாற்றவும்.';
@@ -1026,7 +1032,7 @@ class MawaqitTvLocalizationsTa extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display Mode';
+  String get appDisplayMode => 'Display';
 
   @override
   String get appDisplayModeExplanation => 'Choose how your screen will display content';
@@ -1036,4 +1042,25 @@ class MawaqitTvLocalizationsTa extends MawaqitTvLocalizations {
 
   @override
   String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+
+  @override
+  String get settingsSectionGlobal => 'பொது';
+
+  @override
+  String get hijriDateAdjustment => 'ஹிஜ்ரி தேதி சரிசெய்தல்';
+
+  @override
+  String get interfaceLanguage => 'இடைமுகம் மொழி';
+
+  @override
+  String get launchModeMainPrayer => 'முக்கிய தொழுகை நேரங்கள்';
+
+  @override
+  String get launchModeSecondaryPrayer => 'இரண்டாம் நிலை தொழுகை நேரங்கள்';
+
+  @override
+  String get timezone => 'நேர மண்டலம்';
+
+  @override
+  String get wifi => 'வைஃபை';
 }

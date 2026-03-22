@@ -59,6 +59,8 @@
   "alAdhan": "Ezan",
   "turnOfPhones": "Molimo vas da isključite svoje mobitele!",
   "iqamaIn": "Agamat nakon",
+  "iqamaShowClock": "Prikaži sat na ekranu ikame",
+  "iqamaShowClockDesc": "Prikaži trenutno vrijeme i datum na ekranu odbrojavanja ikame",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Bajram Mubarak",
   "takbeerAleidText": "Allahu ekber, Allahu ekber, Allahu ekber, la ilahe illa Allah, Allahu ekber, Allahu ekber, ve lillahi-l-hamd.",
   "settings": "Postavke",
-  "applicationModes": "Način rada aplikacije",
+  "applicationModes": "Zadani način pokretanja",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Ako imate problema s aplikacijom, pokušajte omogućiti ovu opciju",
   "hijriAdjustments": "Lokalna hijretska prilagodba",
   "hijriAdjustmentsDescription": "Prilagodite hijretski datum lokalno na svom uređaju. Ovo neće utjecati na online postavke džamije.",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Morate biti povezani na internet za korištenje naslijeđenog načina rada.",
   "powerOnScreen": "Uključi zaslon",
   "powerOffScreen": "Isključi zaslon",
-  "deviceSettings": "Postavke uređaja",
+  "deviceSettings": "Uređaj",
   "later": "Kasnije",
   "downloadQuran": "Preuzmi Kur'an",
   "quran": "Kur'an",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Postavke kamere",
   "invalidRtspUrl": "Nevaljan URL. Provjerite URL i pokušajte ponovno.",
   "validRtspUrl": "URL je uspješno potvrđen i spremljen.",
-  "rtspCameraSettingTitle": "Veza s kamerom uživo",
+  "rtspCameraSettingTitle": "Kamera uživo",
   "rtspCameraSettingDesc": "Povežite se s vašom lokalnom kamerom i prikazujte prijenos džuma-namaza na TV zaslonu.",
   "rtspCameraSettingScreenDesc": "Ako ovdje unesete URL, vaš zaslon će automatski prebaciti na video prijenos kada počne vrijeme džume.",
   "validatingStream": "Provjera streama...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Ovo je testna poruka za provjeru ispravnosti AI prijevoda",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Globalno",
+  "hijriDateAdjustment": "Podešavanje hidžretskog datuma",
+  "interfaceLanguage": "Jezik sučelja",
+  "launchModeMainPrayer": "Glavna vremena namaza",
+  "launchModeSecondaryPrayer": "Sekundarna vremena namaza",
+  "timezone": "Vremenska zona",
+  "wifi": "WiFi"
 }

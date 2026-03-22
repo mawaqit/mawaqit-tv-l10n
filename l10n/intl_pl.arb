@@ -59,6 +59,8 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Proszę przełączyć telefony w tryb cichy",
   "iqamaIn": "Iqama w",
+  "iqamaShowClock": "Pokaż zegar na ekranie ikamy",
+  "iqamaShowClockDesc": "Wyświetl aktualny czas i datę na ekranie odliczania ikamy",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Ustawienia",
-  "applicationModes": "Tryb aplikacji",
+  "applicationModes": "Domyślny tryb uruchamiania",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Jeśli mają Państwo problemy z aplikacją, proszę spróbować włączyć tę opcję.",
   "hijriAdjustments": "Lokalne dostosowania Hijri",
   "hijriAdjustmentsDescription": "Dostosuj lokalną datę hijri na urządzeniu. Nie wpłynie to na ustawienia meczetu online",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Musisz połączyć się z Internetem, aby korzystać z trybu starszego",
   "powerOnScreen": "Włącz ekran",
   "powerOffScreen": "Wyłącz ekran",
-  "deviceSettings": "Ustawienia urządzenia",
+  "deviceSettings": "Urządzenie",
   "later": "Później",
   "downloadQuran": "Pobierz Kuran",
   "quran": "Kuran",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Ustawienia kamery",
   "invalidRtspUrl": "Nieprawidłowy adres URL. Sprawdź adres URL i spróbuj ponownie.",
   "validRtspUrl": "Adres URL został zweryfikowany i zapisany.",
-  "rtspCameraSettingTitle": "Połączenie z kamerą na żywo",
+  "rtspCameraSettingTitle": "Kamera na żywo",
   "rtspCameraSettingDesc": "Połącz się z lokalną kamerą i wyświetl strumień modlitwy jumua na ekranie telewizora.",
   "rtspCameraSettingScreenDesc": "Jeśli wprowadzisz tutaj adres URL, ekran automatycznie przełączy się na streaming wideo po nadejściu czasu Jumua",
   "validatingStream": "Weryfikowanie strumienia...",
@@ -471,5 +473,12 @@
   "testAITranslation": "To jest ciąg testowy do sprawdzenia, czy tłumaczenie AI działa poprawnie",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Globalne",
+  "hijriDateAdjustment": "Korekta daty hidżry",
+  "interfaceLanguage": "Język interfejsu",
+  "launchModeMainPrayer": "Główne czasy modlitwy",
+  "launchModeSecondaryPrayer": "Drugorzędne czasy modlitwy",
+  "timezone": "Strefa czasowa",
+  "wifi": "WiFi"
 }

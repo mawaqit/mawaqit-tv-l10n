@@ -59,6 +59,8 @@
   "alAdhan": "Ал-Адан",
   "turnOfPhones": "Ве молиме ставете ги телефоните на безшумен режим",
   "iqamaIn": "Икама за",
+  "iqamaShowClock": "Прикажи часовник на екранот на икама",
+  "iqamaShowClockDesc": "Прикажи го тековното време и датум на екранот за одбројување на икама",
   "alAthkar": "Ал-Аthkar",
   "azkarList0": "Астагфирула, Астагфирула, Астагфирула. Аллахумма Анта ес-салам, и од Тебе е сé благословено, о Достојен на величие и чест. Аллахумма помогни ми да Те спомнувам, да Ти се заблагодарам и да Ти служам на најдобар начин.",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Бајрам мубарек",
   "takbeerAleidText": "Аллаху Акбар, Аллаху Акбар, Аллаху Акбар, ла илаха илла Аллах, Аллаху Акбар, Аллаху Акбар, ва лиллахи ел-хамд",
   "settings": "Поставки",
-  "applicationModes": "Режим на апликација",
+  "applicationModes": "Стандарден режим на стартување",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Доколку имате проблеми со апликацијата, обидете се да ја вклучите оваа опција",
   "hijriAdjustments": "Локални хиџри прилагодувања",
   "hijriAdjustmentsDescription": "Прилагодете го хиџри датумот локално на вашиот уред. Ова нема да влијае на онлајн поставките на џамијата",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Мора да имате интернет за да го користите наследниот режим",
   "powerOnScreen": "Вклучи го екранот",
   "powerOffScreen": "Исклучи го екранот",
-  "deviceSettings": "Поставки на уредот",
+  "deviceSettings": "Уред",
   "later": "Подоцна",
   "downloadQuran": "Преземи Курʼан",
   "quran": "Курʼан",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Поставки за камера",
   "invalidRtspUrl": "Невалиден URL. Проверете го URL-то и обидете се повторно.",
   "validRtspUrl": "URL-то е верификуван и успешно зачуван.",
-  "rtspCameraSettingTitle": "Врска со жива камера",
+  "rtspCameraSettingTitle": "Камера во живо",
   "rtspCameraSettingDesc": "Поврзете ја вашата локална камера и прикажете го преносот на Џумуа-намазот на ТВ екран.",
   "rtspCameraSettingScreenDesc": "Ако внесете URL тука, вашиот екран автоматски ќе се префрли на видео пренос кога ќе настапи времето за Џумуа.",
   "validatingStream": "Потврдување на пренос...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Ова е тест на текст за проверка дали AI преводот функционира правилно.",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Општо",
+  "hijriDateAdjustment": "Прилагодување на хиџра датумот",
+  "interfaceLanguage": "Јазик на интерфејсот",
+  "launchModeMainPrayer": "Главни времиња за молитва",
+  "launchModeSecondaryPrayer": "Секундарни времиња за молитва",
+  "timezone": "Временска зона",
+  "wifi": "WiFi"
 }

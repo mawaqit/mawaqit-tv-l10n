@@ -59,6 +59,8 @@
   "alAdhan": "알 아단",
   "turnOfPhones": "휴대폰을 무음 모드로 전환하세요.",
   "iqamaIn": "이카마",
+  "iqamaShowClock": "이카마 화면에 시계 표시",
+  "iqamaShowClockDesc": "이카마 카운트다운 화면에 현재 시간과 날짜 표시",
   "alAthkar": "알-아트카르",
   "azkarList0": "아스타그피루 알라, 아스타그피루 알라, 아스타그피루 알라 알라훔마 안타 에살람과 광산 에살람, 타바락타 야 달 잘랄리와 이크람 알라훔마 A`inni `알라 디크리카와 추크리카와 후즈니 `아이바다틱.",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "이드 무바라크",
   "takbeerAleidText": "알라후 아크바르, 알라후 아크바르, 알라후 아크바르, 라 일라하 일라 알라, 알라후 아크바르, 알라후 아크바르, 와 릴라히 알함드",
   "settings": "설정",
-  "applicationModes": "애플리케이션 모드",
+  "applicationModes": "기본 실행 모드",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "앱이 활성화되어 있는 상태에서 문제가 발생하는 경우 이 옵션을 사용하세요.",
   "hijriAdjustments": "로컬 히즈리 조정",
   "hijriAdjustmentsDescription": "기기에서 히즈리 날짜를 로컬로 조정합니다. 온라인 마스지드 설정에는 영향을 주지 않습니다",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "레거시 모드를 사용하려면 인터넷에 연결해야 합니다",
   "powerOnScreen": "화면 켜기",
   "powerOffScreen": "화면 끄기",
-  "deviceSettings": "기기 설정",
+  "deviceSettings": "기기",
   "later": "나중에",
   "downloadQuran": "꾸란 다운로드",
   "quran": "꾸란",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "카메라 설정",
   "invalidRtspUrl": "잘못된 URL입니다. URL을 확인하고 다시 시도하세요.",
   "validRtspUrl": "URL이 성공적으로 검증 및 저장되었습니다.",
-  "rtspCameraSettingTitle": "실시간 카메라 연결",
+  "rtspCameraSettingTitle": "라이브 카메라",
   "rtspCameraSettingDesc": "로컬 카메라에 연결하여 주마 기도 스트림을 TV 화면에 표시하세요.",
   "rtspCameraSettingScreenDesc": "여기에 URL을 입력하면 주마 시간에 자동으로 영상 스트리밍으로 전환됩니다.",
   "validatingStream": "스트림 검증 중...",
@@ -471,5 +473,12 @@
   "testAITranslation": "이것은 AI 번역이 제대로 작동하는지 확인하기 위한 테스트 문자열입니다.",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "전체",
+  "hijriDateAdjustment": "히즈라 날짜 조정",
+  "interfaceLanguage": "인터페이스 언어",
+  "launchModeMainPrayer": "주요 기도 시간",
+  "launchModeSecondaryPrayer": "보조 기도 시간",
+  "timezone": "시간대",
+  "wifi": "와이파이"
 }

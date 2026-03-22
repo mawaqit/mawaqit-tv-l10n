@@ -59,6 +59,8 @@
   "alAdhan": "آذان",
   "turnOfPhones": "براہ کرم اپنے فونز کو سائلنٹ موڈ میں رکھیں",
   "iqamaIn": "اقامہ میں",
+  "iqamaShowClock": "اقامت کی اسکرین پر گھڑی دکھائیں",
+  "iqamaShowClockDesc": "اقامت کاؤنٹ ڈاؤن اسکرین پر موجودہ وقت اور تاریخ دکھائیں",
   "alAthkar": "الازکار",
   "azkarList0": "استغفیر اللہ، استغفی اللہ، استغفی اللہ اللہ تعالٰی انت السلام و منکا السلام، تبرکتہ یا ذل جلالی ول اکرام اللہم الذین علی ذکرک و شکرک و حسنی عبادت",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "عید مبارک",
   "takbeerAleidText": "اللہ اکبر، اللہ اکبر، اللہ اکبر، لا الہ الا اللہ، اللہ اکبر، اللہ اکبر، واللہ اعلم",
   "settings": "ترتیبات",
-  "applicationModes": "ایپلیکیشن موڈ",
+  "applicationModes": "ڈیفالٹ لانچ موڈ",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "اگر آپ کو ایپ کے ساتھ مسائل کا سامنا ہے تو اس آپشن کو فعال کرنے کی کوشش کریں۔",
   "hijriAdjustments": "مقامی ہجری ایڈجسٹمنٹ",
   "hijriAdjustmentsDescription": "اپنے آلے میں مقامی طور پر ہجری کی تاریخ کو ایڈجسٹ کریں۔ اس سے آن لائن مسجد کی ترتیبات متاثر نہیں ہوں گی۔",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "لیگیسی موڈ استعمال کرنے کے لیے آپ کو انٹرنیٹ سے منسلک ہونا چاہیے۔",
   "powerOnScreen": "اسکرین پر پاور",
   "powerOffScreen": "اسکرین کو پاور آف کریں۔",
-  "deviceSettings": "ڈیوائس کی ترتیبات",
+  "deviceSettings": "ڈیوائس",
   "later": "بعد میں",
   "downloadQuran": "قرآن ڈاؤن لوڈ کریں۔",
   "quran": "قرآن",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "کیمرہ سیٹنگز",
   "invalidRtspUrl": "غلط یو آر ایل۔ براہ کرم یو آر ایل چیک کریں اور دوبارہ کوشش کریں۔",
   "validRtspUrl": "URL کامیابی سے درست اور محفوظ کر لی گئی ہے۔",
-  "rtspCameraSettingTitle": "لائیو کیمرہ کنکشن",
+  "rtspCameraSettingTitle": "لائیو کیمرہ",
   "rtspCameraSettingDesc": "اپنے مقامی کیمرہ سے جڑیں اور جمعہ کی نماز کی نشریات کو ٹی وی اسکرین پر دکھائیں۔",
   "rtspCameraSettingScreenDesc": "اگر آپ یہاں URL درج کرتے ہیں تو جمعہ کے وقت پر آپ کی اسکرین خود بخود ویڈیو اسٹریم پر منتقل ہو جائے گی۔",
   "validatingStream": "اسٹریم کی توثیق ہو رہی ہے...",
@@ -471,5 +473,12 @@
   "testAITranslation": "یہ ایک آزمائشی سٹرنگ ہے تاکہ تصدیق کی جا سکے کہ AI ترجمہ صحیح طور پر کام کر رہا ہے",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "عمومی",
+  "hijriDateAdjustment": "ہجری تاریخ ایڈجسٹمنٹ",
+  "interfaceLanguage": "انٹرفیس زبان",
+  "launchModeMainPrayer": "اہم نماز اوقات",
+  "launchModeSecondaryPrayer": "ثانوی نماز اوقات",
+  "timezone": "ٹائم زون",
+  "wifi": "وائی فائی"
 }

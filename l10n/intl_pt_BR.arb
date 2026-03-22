@@ -59,6 +59,8 @@
   "alAdhan": "Azán",
   "turnOfPhones": "Por favor, coloquem seus celulares no modo silencioso",
   "iqamaIn": "Jamaat em",
+  "iqamaShowClock": "Mostrar relógio na tela do Iqama",
+  "iqamaShowClockDesc": "Exibir a hora e data atuais na tela de contagem regressiva do Iqama",
   "alAthkar": "Zikr",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allah é grande, Allah é grande, Allah é grande, ninguém é mais digno de oração exceto Allah, Allah é grande, Allah é grande, todos os louvores à Allah.",
   "settings": "Opções",
-  "applicationModes": "Modo do aplicativo",
+  "applicationModes": "Modo de lançamento padrão",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Se você estiver tendo problemas com o aplicativo, tente ativar esta opção",
   "hijriAdjustments": "Ajuste local da data islâmica",
   "hijriAdjustmentsDescription": "Ajuste a data islâmica do seu dispositivo local. Isto não afetará as opções da mesquita online",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Você deve conectar-se à rede para usar o modo compatível",
   "powerOnScreen": "Ligar a tela",
   "powerOffScreen": "Desligar a tela",
-  "deviceSettings": "Opções do dispositivo",
+  "deviceSettings": "Dispositivo",
   "later": "Depois",
   "downloadQuran": "Baixar alcorão",
   "quran": "Alcorão",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Ajustes da câmera",
   "invalidRtspUrl": "URL inválido. Verifique o URL e tente novamente.",
   "validRtspUrl": "URL validado e salvo com sucesso.",
-  "rtspCameraSettingTitle": "Conexão de câmera ao vivo",
+  "rtspCameraSettingTitle": "Câmera ao vivo",
   "rtspCameraSettingDesc": "Conecte-se à sua câmera local e exiba a transmissão ao vivo da oração de Jumu'ah na tela da TV.",
   "rtspCameraSettingScreenDesc": "Se inserir um URL aqui, sua tela automaticamente alterará para transmissão de vídeo quando o tempo de Jumu'ah chegar",
   "validatingStream": "Validando transmissão...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Este é um texto de teste para verificar se a tradução AI está funcionando corretamente",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Global",
+  "hijriDateAdjustment": "Ajuste da data Hijri",
+  "interfaceLanguage": "Idioma da interface",
+  "launchModeMainPrayer": "Horários principais de oração",
+  "launchModeSecondaryPrayer": "Horários secundários de oração",
+  "timezone": "Fuso horário",
+  "wifi": "WiFi"
 }

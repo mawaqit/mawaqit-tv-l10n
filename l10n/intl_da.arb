@@ -59,6 +59,8 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Sæt venligst jeres telefoner i lydløs tilstand",
   "iqamaIn": "Iqama i",
+  "iqamaShowClock": "Vis ur på iqama-skærmen",
+  "iqamaShowClockDesc": "Vis den aktuelle tid og dato på iqama-nedtællingsskærmen",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Indstillinger",
-  "applicationModes": "Anvendelsesmetoder",
+  "applicationModes": "Standardstarttilstand",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Hvis du støder på et problem med appen, skal du aktivere denne mulighed",
   "hijriAdjustments": "Lokale Hijri justeringer",
   "hijriAdjustmentsDescription": "Juster hijri-datoen lokalt på din enhed. Dette vil ikke påvirke onlinemoskeindstillingerne",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Du skal oprette forbindelse til internettet for at bruge den tidligere tilstand",
   "powerOnScreen": "Strøm på skærmen",
   "powerOffScreen": "Slå skærmen fra",
-  "deviceSettings": "Indstillinger For Enhed",
+  "deviceSettings": "Enhed",
   "later": "Senere",
   "downloadQuran": "Download Koranen",
   "quran": "Koranen",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Indstillinger For Kamera",
   "invalidRtspUrl": "Ugyldig URL. Tjek venligst URL'en, og prøv igen.",
   "validRtspUrl": "URL valideret og gemt med succes.",
-  "rtspCameraSettingTitle": "Live kamera forbindelse",
+  "rtspCameraSettingTitle": "Live kamera",
   "rtspCameraSettingDesc": "Tilslut til dit lokale kamera og vis jumua bøn stream på tv-skærmen.",
   "rtspCameraSettingScreenDesc": "Hvis du indtaster en URL her, vil din skærm automatisk skifte til videostreaming når Jumua tid ankommer",
   "validatingStream": "Validerer Stream...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Dette er en teststreng til at verificere, at AI-oversættelse fungerer korrekt",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Global",
+  "hijriDateAdjustment": "Justering af hijri-dato",
+  "interfaceLanguage": "Grænsefladesprog",
+  "launchModeMainPrayer": "Hoved bønnetider",
+  "launchModeSecondaryPrayer": "Sekundære bønnetider",
+  "timezone": "Tidszone",
+  "wifi": "WiFi"
 }

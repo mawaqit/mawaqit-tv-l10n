@@ -204,6 +204,12 @@ class MawaqitTvLocalizationsBn extends MawaqitTvLocalizations {
   String get iqamaIn => 'জামাতের সময় বাকি';
 
   @override
+  String get iqamaShowClock => 'ইকামা স্ক্রিনে ঘড়ি দেখান';
+
+  @override
+  String get iqamaShowClockDesc => 'ইকামা কাউন্টডাউন স্ক্রিনে বর্তমান সময় ও তারিখ প্রদর্শন করুন';
+
+  @override
   String get alAthkar => 'স্মরণ';
 
   @override
@@ -456,7 +462,7 @@ class MawaqitTvLocalizationsBn extends MawaqitTvLocalizations {
   String get settings => 'বিন্যাস সমূহ';
 
   @override
-  String get applicationModes => 'অ্যাপ্লিকেশন মোড';
+  String get applicationModes => 'ডিফল্ট লঞ্চ মোড';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'যদি আপনি অ্যাপে কোনো সমস্যা সম্মুখীন হন, তাহলে এই বিকল্পটি চালু করার চেষ্টা করুন';
@@ -678,7 +684,7 @@ class MawaqitTvLocalizationsBn extends MawaqitTvLocalizations {
   String get powerOffScreen => 'স্ক্রিন বন্ধ করুন';
 
   @override
-  String get deviceSettings => 'ডিভাইস সেটিংস';
+  String get deviceSettings => 'ডিভাইস';
 
   @override
   String get later => 'পরবর্তীতে';
@@ -775,7 +781,7 @@ class MawaqitTvLocalizationsBn extends MawaqitTvLocalizations {
   }
 
   @override
-  String get continueListening => 'Continue listening';
+  String get continueListening => 'শুনতে থাকুন';
 
   @override
   String get noFavoriteReciters => 'পছন্দের কোনো তেলাওয়াতকারি নেই। একজন কে তালিকায় যোগ করুন';
@@ -867,7 +873,7 @@ class MawaqitTvLocalizationsBn extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL সফলভাবে যাচাই ও সংরক্ষণ করা হয়েছে';
 
   @override
-  String get rtspCameraSettingTitle => 'লাইভ ক্যামেরা সংযোগ';
+  String get rtspCameraSettingTitle => 'লাইভ ক্যামেরা';
 
   @override
   String get rtspCameraSettingDesc => 'আপনার লোকাল ক্যামেরার সাথে সংযোগ করুন এবং টিভি স্ক্রিনে জুমুয়া নামাজের স্ট্রিম দেখান';
@@ -1026,7 +1032,7 @@ class MawaqitTvLocalizationsBn extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display Mode';
+  String get appDisplayMode => 'Display';
 
   @override
   String get appDisplayModeExplanation => 'Choose how your screen will display content';
@@ -1036,4 +1042,25 @@ class MawaqitTvLocalizationsBn extends MawaqitTvLocalizations {
 
   @override
   String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+
+  @override
+  String get settingsSectionGlobal => 'সাধারণ';
+
+  @override
+  String get hijriDateAdjustment => 'হিজরি তারিখ সমন্বয়';
+
+  @override
+  String get interfaceLanguage => 'ইন্টারফেস ভাষা';
+
+  @override
+  String get launchModeMainPrayer => 'প্রধান নামাজের সময়';
+
+  @override
+  String get launchModeSecondaryPrayer => 'মাধ্যমিক নামাজের সময়';
+
+  @override
+  String get timezone => 'সময় অঞ্চল';
+
+  @override
+  String get wifi => 'WiFi';
 }

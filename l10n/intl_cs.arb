@@ -59,6 +59,8 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Přepněte prosím své telefony do tichého režimu",
   "iqamaIn": "Iqama v",
+  "iqamaShowClock": "Zobrazit hodiny na obrazovce ikámy",
+  "iqamaShowClockDesc": "Zobrazit aktuální čas a datum na obrazovce odpočítávání ikámy",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Nastavení",
-  "applicationModes": "Režimy použití",
+  "applicationModes": "Výchozí režim spuštění",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Pokud se setkáte s problémem s aktivní aplikací.",
   "hijriAdjustments": "Místní úpravy Hidžri",
   "hijriAdjustmentsDescription": "Upravte místní datum ve vašem zařízení. To neovlivní nastavení online mešity",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Musíte se připojit k internetu, abyste mohli používat starší režim",
   "powerOnScreen": "Zapnout na obrazovce",
   "powerOffScreen": "Vypnout obrazovku",
-  "deviceSettings": "Nastavení zařízení",
+  "deviceSettings": "Zařízení",
   "later": "Později",
   "downloadQuran": "Stáhnout Quran",
   "quran": "Quran",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Nastavení kamery",
   "invalidRtspUrl": "Neplatná adresa URL. Zkontrolujte adresu URL a zkuste to znovu.",
   "validRtspUrl": "URL byla úspěšně potvrzena a uložena.",
-  "rtspCameraSettingTitle": "Připojení živé kamery",
+  "rtspCameraSettingTitle": "Živá kamera",
   "rtspCameraSettingDesc": "Připojte se k lokálnímu fotoaparátu a na obrazovce televize zobrazte proud modlitby.",
   "rtspCameraSettingScreenDesc": "Pokud zde zadáte URL, vaše obrazovka se automaticky přepne na video streamování při příjezdu Jumua",
   "validatingStream": "Ověřování vysílání...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Toto je testovací řetězec pro ověření AI překladu funguje správně",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Globální",
+  "hijriDateAdjustment": "Úprava hidžrálního data",
+  "interfaceLanguage": "Jazyk rozhraní",
+  "launchModeMainPrayer": "Hlavní časy modliteb",
+  "launchModeSecondaryPrayer": "Vedlejší časy modliteb",
+  "timezone": "Časové pásmo",
+  "wifi": "WiFi"
 }

@@ -59,6 +59,8 @@
   "alAdhan": "Al-Athan",
   "turnOfPhones": "Per favore, metti il tuo cellulare in modalità silenziosa.",
   "iqamaIn": "Iqama tra",
+  "iqamaShowClock": "Mostra orologio sulla schermata Iqama",
+  "iqamaShowClockDesc": "Visualizza l'ora e la data attuali sulla schermata del conto alla rovescia dell'Iqama",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Impostazioni",
-  "applicationModes": "Modalità dell'applicazione",
+  "applicationModes": "Modalità di avvio predefinita",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Se riscontra un problema con l'applicazione attivi questa opzione",
   "hijriAdjustments": "Regolazione Hijri locale",
   "hijriAdjustmentsDescription": "Regola localmente la data dell'hijri nel tuo dispositivo. Questo non influenzerà le impostazioni della moschea online",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Devi connetterti a internet per utilizzare la modalità legacy",
   "powerOnScreen": "Accendi lo schermo",
   "powerOffScreen": "Spegni lo schermo",
-  "deviceSettings": "Impostazioni Dispositivo",
+  "deviceSettings": "Dispositivo",
   "later": "Dopo",
   "downloadQuran": "Scarica Corano",
   "quran": "Corano",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Impostazioni Fotocamera",
   "invalidRtspUrl": "URL non valido. Controlla l'URL e riprova.",
   "validRtspUrl": "URL convalidato e salvato con successo.",
-  "rtspCameraSettingTitle": "Connessione telecamera dal vivo",
+  "rtspCameraSettingTitle": "Telecamera live",
   "rtspCameraSettingDesc": "Connettiti alla tua fotocamera locale e visualizza il flusso di preghiera jumua sullo schermo della TV.",
   "rtspCameraSettingScreenDesc": "Se inserisci un URL qui, lo schermo passerà automaticamente allo streaming video quando arriva il tempo di Jumua",
   "validatingStream": "Convalida Stream...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Questa è una stringa di prova per verificare che la traduzione dell'IA funzioni correttamente",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Globale",
+  "hijriDateAdjustment": "Regolazione della data Hijri",
+  "interfaceLanguage": "Lingua dell'interfaccia",
+  "launchModeMainPrayer": "Orari principali di preghiera",
+  "launchModeSecondaryPrayer": "Orari secondari di preghiera",
+  "timezone": "Fuso orario",
+  "wifi": "WiFi"
 }

@@ -59,6 +59,8 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "请将您的手机调至静音模式",
   "iqamaIn": "Iqama在",
+  "iqamaShowClock": "在伊卡玛屏幕上显示时钟",
+  "iqamaShowClockDesc": "在伊卡玛倒计时屏幕上显示当前时间和日期",
   "alAthkar": "Al-Athkar",
   "azkarList0": "阿拉善哉，阿拉善哉，阿拉善哉，阿拉善哉，阿拉善哉，阿拉善哉。",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "开斋节",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "设置",
-  "applicationModes": "应用模式",
+  "applicationModes": "默认启动模式",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "如果你遇到了应用程序的问题，可以选择这个选项。",
   "hijriAdjustments": "本地Hijri调整",
   "hijriAdjustmentsDescription": "在您的设备上调整本地的 hirri 日期。这不会影响在线清真寺设置",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "您必须连接到互联网才能使用旧版模式",
   "powerOnScreen": "屏幕上的功率",
   "powerOffScreen": "关闭屏幕",
-  "deviceSettings": "设备设置",
+  "deviceSettings": "设备",
   "later": "稍后再说",
   "downloadQuran": "下载Quran",
   "quran": "古兰",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "相机设置",
   "invalidRtspUrl": "无效的 URL。请检查URL，然后重试。",
   "validRtspUrl": "URL验证并保存成功。",
-  "rtspCameraSettingTitle": "实时摄像头连接",
+  "rtspCameraSettingTitle": "直播摄像头",
   "rtspCameraSettingDesc": "连接到您的本地摄像头并在电视屏幕上显示跳跃祈祷流。",
   "rtspCameraSettingScreenDesc": "如果您在这里输入一个URL，当Jumua时间到达时，您的屏幕将自动切换到视频流",
   "validatingStream": "正在验证流...",
@@ -471,5 +473,12 @@
   "testAITranslation": "这是验证AI 翻译正常工作的测试字符串",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "全局",
+  "hijriDateAdjustment": "伊斯兰历日期调整",
+  "interfaceLanguage": "界面语言",
+  "launchModeMainPrayer": "主要礼拜时间",
+  "launchModeSecondaryPrayer": "次要礼拜时间",
+  "timezone": "时区",
+  "wifi": "WiFi"
 }

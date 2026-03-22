@@ -204,6 +204,12 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get iqamaIn => 'Al Iqáma (az ima kezdete) in';
 
   @override
+  String get iqamaShowClock => 'Óra megjelenítése az ikáma képernyőn';
+
+  @override
+  String get iqamaShowClockDesc => 'Az aktuális idő és dátum megjelenítése az ikáma visszaszámlálás képernyőn';
+
+  @override
   String get alAthkar => 'Allah emlegetései';
 
   @override
@@ -456,7 +462,7 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get settings => 'Beállítások';
 
   @override
-  String get applicationModes => 'Alkalmazás üzemmód';
+  String get applicationModes => 'Alapértelmezett indítási mód';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'Ha problémáid vannak az alkalmazással, próbáld meg engedélyezni ezt az opciót\n';
@@ -678,7 +684,7 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get powerOffScreen => 'Kapcsold ki a képernyőt';
 
   @override
-  String get deviceSettings => 'Eszköz beállításai';
+  String get deviceSettings => 'Eszköz';
 
   @override
   String get later => 'Később';
@@ -775,7 +781,7 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   }
 
   @override
-  String get continueListening => 'Continue listening';
+  String get continueListening => 'Hallgassa tovább';
 
   @override
   String get noFavoriteReciters => 'Nincsenek kedvenc recitálók. Próbálj hozzáadni egyet a listához';
@@ -867,7 +873,7 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL érvényesítése és mentése sikeres.';
 
   @override
-  String get rtspCameraSettingTitle => 'Élő kamerakapcsolat';
+  String get rtspCameraSettingTitle => 'Élő kamera';
 
   @override
   String get rtspCameraSettingDesc => 'Csatlakozz a helyi kamerához, és jelenítsd meg a pénteki ima streamet a TV képernyőjén.';
@@ -1026,7 +1032,7 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display Mode';
+  String get appDisplayMode => 'Display';
 
   @override
   String get appDisplayModeExplanation => 'Choose how your screen will display content';
@@ -1036,4 +1042,25 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
 
   @override
   String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+
+  @override
+  String get settingsSectionGlobal => 'Általános';
+
+  @override
+  String get hijriDateAdjustment => 'Hidzsra dátum beállítása';
+
+  @override
+  String get interfaceLanguage => 'Felhasználói felület nyelve';
+
+  @override
+  String get launchModeMainPrayer => 'Fő imaidők';
+
+  @override
+  String get launchModeSecondaryPrayer => 'Másodlagos imaidők';
+
+  @override
+  String get timezone => 'Időzóna';
+
+  @override
+  String get wifi => 'WiFi';
 }

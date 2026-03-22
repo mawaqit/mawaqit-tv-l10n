@@ -59,6 +59,8 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Vänligen sätt era telefoner i tyst läge",
   "iqamaIn": "Iqama i",
+  "iqamaShowClock": "Visa klocka på iqama-skärmen",
+  "iqamaShowClockDesc": "Visa aktuell tid och datum på iqama-nedräkningsskärmen",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Inställningar",
-  "applicationModes": "Tillämpningssätt",
+  "applicationModes": "Standardstartläge",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Om du stöter på problem med appen, aktivera detta alternativ",
   "hijriAdjustments": "Lokala Hijri justeringar",
   "hijriAdjustmentsDescription": "Justera hijri datumet lokalt i din enhet. Detta kommer inte att påverka inställningarna för moskén online",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Du måste ansluta till internet för att använda äldre läge",
   "powerOnScreen": "Slå på skärmen",
   "powerOffScreen": "Stäng av skärmen",
-  "deviceSettings": "Enhetens inställningar",
+  "deviceSettings": "Enhet",
   "later": "Senare",
   "downloadQuran": "Ladda ner Quran",
   "quran": "Koranen",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Kamerainställningar",
   "invalidRtspUrl": "Ogiltig URL. Kontrollera URL:en och försök igen.",
   "validRtspUrl": "URL validerad och sparad.",
-  "rtspCameraSettingTitle": "Anslutning till Live kamera",
+  "rtspCameraSettingTitle": "Live-kamera",
   "rtspCameraSettingDesc": "Anslut till din lokala kamera och visa jumua bön ström på TV-skärmen.",
   "rtspCameraSettingScreenDesc": "Om du anger en URL här, kommer din skärm automatiskt växla till videoströmning när Jumua tid anländer",
   "validatingStream": "Validerar stream...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Detta är en teststräng för att verifiera att AI översättning fungerar korrekt",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Global",
+  "hijriDateAdjustment": "Justering av hijri-datum",
+  "interfaceLanguage": "Gränssnittsspråk",
+  "launchModeMainPrayer": "Huvudsakliga bönetider",
+  "launchModeSecondaryPrayer": "Sekundära bönetider",
+  "timezone": "Tidszon",
+  "wifi": "WiFi"
 }

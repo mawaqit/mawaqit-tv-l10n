@@ -59,6 +59,8 @@
   "alAdhan": "আজান",
   "turnOfPhones": "দয়া করে মোবাইল বন্ধ রাখুন!",
   "iqamaIn": "জামাতের সময় বাকি",
+  "iqamaShowClock": "ইকামা স্ক্রিনে ঘড়ি দেখান",
+  "iqamaShowClockDesc": "ইকামা কাউন্টডাউন স্ক্রিনে বর্তমান সময় ও তারিখ প্রদর্শন করুন",
   "alAthkar": "স্মরণ",
   "azkarList0": "আস্তাগফিরুল্লাহ, আস্তাগফিরুল্লাহ, আস্তাগফিরুল্লাহ।\nআল্লাহুম্মা আনতা আস-সালাম ওয়া মিনকা আস-সালাম, তাবারাকতা ইয়া যাল-জালালি ওয়াল ইকরাম।\nআল্লাহুম্মা আ’ইন্নি ‘আলা জিকরিকা ওয়া শুকরিকা ওয়া হুসনি ‘ইবাদাতিক।",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "ঈদ মোবারক",
   "takbeerAleidText": "আল্লাহু আকবার, আল্লাহু আকবার, আল্লাহু আকবার, লা ইলাহা ইল্লাল্লাহ, আল্লাহু আকবার, আল্লাহু আকবার, ওয়া লিল্লাহি আল হামদ",
   "settings": "বিন্যাস সমূহ",
-  "applicationModes": "অ্যাপ্লিকেশন মোড",
+  "applicationModes": "ডিফল্ট লঞ্চ মোড",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "যদি আপনি অ্যাপে কোনো সমস্যা সম্মুখীন হন, তাহলে এই বিকল্পটি চালু করার চেষ্টা করুন",
   "hijriAdjustments": "স্থানীয় হিজরি তারিখের সমন্বয়",
   "hijriAdjustmentsDescription": "আপনার ডিভাইসে স্থানীয়ভাবে হিজরি তারিখ সমন্বয় করুন। এটি অনলাইন মসজিদের সেটিংসে কোনো প্রভাব ফেলবে না",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "লিগেসি মোড ব্যবহার করতে হলে আপনাকে অবশ্যই ইন্টারনেটের সাথে সংযুক্ত থাকতে হবে",
   "powerOnScreen": "স্ক্রিন চালু করুন",
   "powerOffScreen": "স্ক্রিন বন্ধ করুন",
-  "deviceSettings": "ডিভাইস সেটিংস",
+  "deviceSettings": "ডিভাইস",
   "later": "পরবর্তীতে",
   "downloadQuran": "কুরআন ডাউনলোড করুন",
   "quran": "কুরআন",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "ক্যামেরা সেটিংস",
   "invalidRtspUrl": "ভুল URL, অনুগ্রহ করে URLটি পরীক্ষা করে আবার চেষ্টা করুন",
   "validRtspUrl": "URL সফলভাবে যাচাই ও সংরক্ষণ করা হয়েছে",
-  "rtspCameraSettingTitle": "লাইভ ক্যামেরা সংযোগ",
+  "rtspCameraSettingTitle": "লাইভ ক্যামেরা",
   "rtspCameraSettingDesc": "আপনার লোকাল ক্যামেরার সাথে সংযোগ করুন এবং টিভি স্ক্রিনে জুমুয়া নামাজের স্ট্রিম দেখান",
   "rtspCameraSettingScreenDesc": "আপনি এখানে একটি URL দিলে, জুমুয়া নামাজের সময় আসলে আপনার স্ক্রিন স্বয়ংক্রিয়ভাবে ভিডিও স্ট্রিমিং মোডে পরিবর্তিত হবে",
   "validatingStream": "স্ট্রিম যাচাই করা হচ্ছে...",
@@ -471,5 +473,12 @@
   "testAITranslation": "এটি একটি পরীক্ষামূলক স্ট্রিং, যা যাচাই করার জন্য ব্যবহৃত হচ্ছে যে AI অনুবাদ সঠিকভাবে কাজ করছে।",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "সাধারণ",
+  "hijriDateAdjustment": "হিজরি তারিখ সমন্বয়",
+  "interfaceLanguage": "ইন্টারফেস ভাষা",
+  "launchModeMainPrayer": "প্রধান নামাজের সময়",
+  "launchModeSecondaryPrayer": "মাধ্যমিক নামাজের সময়",
+  "timezone": "সময় অঞ্চল",
+  "wifi": "WiFi"
 }

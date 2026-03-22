@@ -59,6 +59,8 @@
   "alAdhan": "Азан",
   "turnOfPhones": "Пожалуйста, переведите свои телефоны в беззвучный режим",
   "iqamaIn": "Икама в",
+  "iqamaShowClock": "Показать часы на экране икамы",
+  "iqamaShowClockDesc": "Отображать текущее время и дату на экране обратного отсчёта икамы",
   "alAthkar": "Азкары",
   "azkarList0": "Астагфируллах, Астагфируллах, Астагфируллах, Аллахумма Анта ас-Салям ва минка ас-Салям, табарокта йа Заль-джаляли валь-икрам, Аллахумма а‘инни ‘аля зикрика ва шукрика ва хусни ‘ибадатика.",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Ид Мубарак",
   "takbeerAleidText": "Аллаху Акбар, Аллаху Акбар, Аллаху Акбар, Аллаху Акбар, ла илаха илла Аллах, Аллаху Акбар, Аллаху Акбар, Аллаху Акбар, ва лиллахи аль-хамд",
   "settings": "Настройки",
-  "applicationModes": "Режимы применения",
+  "applicationModes": "Режим запуска по умолчанию",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Если у Вас возникли проблемы с приложением, активируйте эту опцию",
   "hijriAdjustments": "Корректировка даты по Хиджре на устройстве",
   "hijriAdjustmentsDescription": "Корректировка даты по Хиджре на вашем устройстве. Это не повлияет на глобальные настройки мечети в личном кабинете mawaqit.net",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Для использования старого режима необходимо подключиться к Интернету",
   "powerOnScreen": "Включить экран",
   "powerOffScreen": "Выключить экран",
-  "deviceSettings": "Настройки устройства",
+  "deviceSettings": "Устройство",
   "later": "Позже",
   "downloadQuran": "Скачать Коран",
   "quran": "Коран",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Настройки камеры",
   "invalidRtspUrl": "Неверный URL. Проверьте URL и повторите попытку.",
   "validRtspUrl": "URL проверен и успешно сохранен.",
-  "rtspCameraSettingTitle": "Подключение к камере",
+  "rtspCameraSettingTitle": "Живая камера",
   "rtspCameraSettingDesc": "Подключитесь к вашей локальной камере и отобразите молитвенный поток на экране телевизора.",
   "rtspCameraSettingScreenDesc": "Если вы введете URL здесь, экран автоматически переключится на видео потоковое время по прибытии Jumua",
   "validatingStream": "Проверка потока...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Это тестовая строка для проверки правильности работы AI перевода",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Общие",
+  "hijriDateAdjustment": "Настройка даты Хиджры",
+  "interfaceLanguage": "Язык интерфейса",
+  "launchModeMainPrayer": "Основные времена намаза",
+  "launchModeSecondaryPrayer": "Дополнительные времена намаза",
+  "timezone": "Часовой пояс",
+  "wifi": "WiFi"
 }

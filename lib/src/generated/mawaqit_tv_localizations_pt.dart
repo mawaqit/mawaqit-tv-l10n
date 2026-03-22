@@ -85,7 +85,7 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get in1 => 'in';
 
   @override
-  String get azanIn => 'Athan in';
+  String get azanIn => 'Azan in';
 
   @override
   String get sec => 'Sec';
@@ -186,7 +186,7 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get isha => 'Isha';
 
   @override
-  String get afterAdhanHadithTitle => 'After Athan Du`aa';
+  String get afterAdhanHadithTitle => 'After adhan Du`aa';
 
   @override
   String get afterSalahHadith => 'O Allah, Lord of this perfect call and established prayer. Grant Muhammad the intercession and favor, and raise him to the honored station You have promised him.';
@@ -202,6 +202,12 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
 
   @override
   String get iqamaIn => 'Iqama in';
+
+  @override
+  String get iqamaShowClock => 'Mostrar relógio na tela do Iqama';
+
+  @override
+  String get iqamaShowClockDesc => 'Exibir a hora e data atuais na tela de contagem regressiva do Iqama';
 
   @override
   String get alAthkar => 'Al-Athkar';
@@ -339,7 +345,7 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get iqamaaCountDown => 'Iqamaa Count Down';
 
   @override
-  String get afterAdhanHadith => 'After Athan Hadith';
+  String get afterAdhanHadith => 'After Adhan Hadith';
 
   @override
   String get afterSalahAzkar => 'After Salah Azkar';
@@ -456,7 +462,7 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get settings => 'Settings';
 
   @override
-  String get applicationModes => 'Application Mode';
+  String get applicationModes => 'Default launch mode';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'If you are facing issues with the app, try to enable this option';
@@ -642,7 +648,7 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get screenLockDesc => 'Turn on/off TV before and after each prayer to save energy';
 
   @override
-  String get screenLockDesc2 => 'This feature turn on/off the device before and after each prayer Athan';
+  String get screenLockDesc2 => 'This feature turn on/off the device before and after each prayer Adhan';
 
   @override
   String get before => 'minutes before each prayer time';
@@ -678,7 +684,7 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get powerOffScreen => 'Power off the screen';
 
   @override
-  String get deviceSettings => 'Device Settings';
+  String get deviceSettings => 'Device';
 
   @override
   String get later => 'Later';
@@ -775,7 +781,7 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   }
 
   @override
-  String get continueListening => 'Continue listening';
+  String get continueListening => 'Continuar ouvindo';
 
   @override
   String get noFavoriteReciters => 'No favorite reciters. Try adding one to the list';
@@ -867,7 +873,7 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL validated and saved successfully.';
 
   @override
-  String get rtspCameraSettingTitle => 'Live camera connection';
+  String get rtspCameraSettingTitle => 'Live camera';
 
   @override
   String get rtspCameraSettingDesc => 'Connect to your local camera and display jumua prayer stream on the TV screen.';
@@ -963,10 +969,10 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get scheduleInOnlineMode => 'Please connect to the internet to schedule Quran listening';
 
   @override
-  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Athan and Iqamah';
+  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah';
 
   @override
-  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Athan and Iqamah.';
+  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
 
   @override
   String get processingRequest => 'Processing request...';
@@ -1005,7 +1011,7 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
 
   @override
-  String get prayerTimeNotificationDesc => 'Get the Athan at prayer times, even when the app is closed';
+  String get prayerTimeNotificationDesc => 'Get the Adhan at prayer times, even when the app is closed';
 
   @override
   String get enablePrayerReminders => 'Enable Prayer Reminders';
@@ -1026,7 +1032,7 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display Mode';
+  String get appDisplayMode => 'Display';
 
   @override
   String get appDisplayModeExplanation => 'Choose how your screen will display content';
@@ -1036,6 +1042,27 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
 
   @override
   String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+
+  @override
+  String get settingsSectionGlobal => 'Global';
+
+  @override
+  String get hijriDateAdjustment => 'Ajuste da data Hijri';
+
+  @override
+  String get interfaceLanguage => 'Idioma da interface';
+
+  @override
+  String get launchModeMainPrayer => 'Horários principais de oração';
+
+  @override
+  String get launchModeSecondaryPrayer => 'Horários secundários de oração';
+
+  @override
+  String get timezone => 'Fuso horário';
+
+  @override
+  String get wifi => 'WiFi';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -1223,6 +1250,12 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
 
   @override
   String get iqamaIn => 'Jamaat em';
+
+  @override
+  String get iqamaShowClock => 'Mostrar relógio na tela do Iqama';
+
+  @override
+  String get iqamaShowClockDesc => 'Exibir a hora e data atuais na tela de contagem regressiva do Iqama';
 
   @override
   String get alAthkar => 'Zikr';
@@ -1477,7 +1510,7 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get settings => 'Opções';
 
   @override
-  String get applicationModes => 'Modo do aplicativo';
+  String get applicationModes => 'Modo de lançamento padrão';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'Se você estiver tendo problemas com o aplicativo, tente ativar esta opção';
@@ -1696,7 +1729,7 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get powerOffScreen => 'Desligar a tela';
 
   @override
-  String get deviceSettings => 'Opções do dispositivo';
+  String get deviceSettings => 'Dispositivo';
 
   @override
   String get later => 'Depois';
@@ -1793,7 +1826,7 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   }
 
   @override
-  String get continueListening => 'Continue listening';
+  String get continueListening => 'Continuar ouvindo';
 
   @override
   String get noFavoriteReciters => 'Nenhum recitador favorito. Primeiramente adicione um à lista.';
@@ -1885,7 +1918,7 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get validRtspUrl => 'URL validado e salvo com sucesso.';
 
   @override
-  String get rtspCameraSettingTitle => 'Conexão de câmera ao vivo';
+  String get rtspCameraSettingTitle => 'Câmera ao vivo';
 
   @override
   String get rtspCameraSettingDesc => 'Conecte-se à sua câmera local e exiba a transmissão ao vivo da oração de Jumu\'ah na tela da TV.';
@@ -2030,6 +2063,27 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
 
   @override
   String get testAITranslation => 'Este é um texto de teste para verificar se a tradução AI está funcionando corretamente';
+
+  @override
+  String get settingsSectionGlobal => 'Global';
+
+  @override
+  String get hijriDateAdjustment => 'Ajuste da data Hijri';
+
+  @override
+  String get interfaceLanguage => 'Idioma da interface';
+
+  @override
+  String get launchModeMainPrayer => 'Horários principais de oração';
+
+  @override
+  String get launchModeSecondaryPrayer => 'Horários secundários de oração';
+
+  @override
+  String get timezone => 'Fuso horário';
+
+  @override
+  String get wifi => 'WiFi';
 }
 
 /// The translations for Portuguese, as used in Portugal (`pt_PT`).
@@ -2217,6 +2271,12 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
 
   @override
   String get iqamaIn => 'Jamaat em';
+
+  @override
+  String get iqamaShowClock => 'Mostrar relógio na tela do Iqama';
+
+  @override
+  String get iqamaShowClockDesc => 'Exibir a hora e data atuais na tela de contagem regressiva do Iqama';
 
   @override
   String get alAthkar => 'Zikr';
@@ -2471,7 +2531,7 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
   String get settings => 'Definições';
 
   @override
-  String get applicationModes => 'Modo da aplicação';
+  String get applicationModes => 'Modo de lançamento padrão';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'Se estiver a ter problemas com a aplicação, tente ativar esta opção';
@@ -2672,7 +2732,7 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
   String get powerOffScreen => 'Desligar o ecrã';
 
   @override
-  String get deviceSettings => 'Configurações do Dispositivo';
+  String get deviceSettings => 'Dispositivo';
 
   @override
   String get later => 'Mais tarde';
@@ -2769,7 +2829,7 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
   }
 
   @override
-  String get continueListening => 'Continue listening';
+  String get continueListening => 'Continuar a ouvir';
 
   @override
   String get noFavoriteReciters => 'Sem recitadores favoritos. Tente adicionar um à lista.';
@@ -2861,7 +2921,7 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
   String get validRtspUrl => 'URL validado e guardado com sucesso.';
 
   @override
-  String get rtspCameraSettingTitle => 'Ligação da câmara em direto';
+  String get rtspCameraSettingTitle => 'Câmera ao vivo';
 
   @override
   String get rtspCameraSettingDesc => 'Ligue à sua câmara local e transmita ao vivo a oração de Jumu\'ah no ecrã da TV.';
@@ -2958,4 +3018,25 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
 
   @override
   String get duaBetweenAdhanIqamah => 'A súplica (duá) não é rejeitada entre o Azán e o Iqamah.';
+
+  @override
+  String get settingsSectionGlobal => 'Global';
+
+  @override
+  String get hijriDateAdjustment => 'Ajuste da data Hijri';
+
+  @override
+  String get interfaceLanguage => 'Idioma da interface';
+
+  @override
+  String get launchModeMainPrayer => 'Horários principais de oração';
+
+  @override
+  String get launchModeSecondaryPrayer => 'Horários secundários de oração';
+
+  @override
+  String get timezone => 'Fuso horário';
+
+  @override
+  String get wifi => 'WiFi';
 }
