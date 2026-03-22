@@ -341,6 +341,7 @@
       }
     }
   },
+  "continueListening": "Fortsätt lyssna",
   "noFavoriteReciters": "Inga favoritrecitatörer. Försök att lägga till en i listan",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"
