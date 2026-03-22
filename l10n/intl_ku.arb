@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Guhdarîkirinê bidomîne",
+  "continueListening": "Guhdarîkirinê berdewam bike",
   "noFavoriteReciters": "هیچ قورئانخوێنێکی دڵخواز بونی نیە. دانەیەک زیاد بکە",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Nastavi slušanje",
+  "continueListening": "Nastavi slušati",
   "noFavoriteReciters": "Nema omiljenih učača. Pokušajte dodati jednog na listu",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

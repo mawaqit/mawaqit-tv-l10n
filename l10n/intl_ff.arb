@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Jokku heɓaade",
+  "continueListening": "Jokku heɗtaade",
   "noFavoriteReciters": "Alaa tafsirooɓe hatojinaɓe. Eto ɓeydude gooto e doggol nfol",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

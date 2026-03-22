@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Continuă ascultarea",
+  "continueListening": "Continuați să ascultați",
   "noFavoriteReciters": "Niciun reciter favorit. Încearcă să adaugi unul la listă",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"
