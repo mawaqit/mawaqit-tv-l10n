@@ -775,6 +775,9 @@ class MawaqitTvLocalizationsHi extends MawaqitTvLocalizations {
   }
 
   @override
+  String get continueListening => 'Continue listening';
+
+  @override
   String get noFavoriteReciters => 'कोई पसंदीदा पाठक नहीं. सूची में एक जोड़ने का प्रयास करें';
 
   @override

@@ -85,7 +85,7 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get in1 => 'za';
 
   @override
-  String get azanIn => 'Azan in';
+  String get azanIn => 'Athan in';
 
   @override
   String get sec => 'Sek';
@@ -775,6 +775,9 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   }
 
   @override
+  String get continueListening => 'Continue listening';
+
+  @override
   String get noFavoriteReciters => 'Nuk ka recitues të preferuar. Provoni të shtoni një në listë';
 
   @override
@@ -960,10 +963,10 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get scheduleInOnlineMode => 'Please connect to the internet to schedule Quran listening';
 
   @override
-  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah';
+  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Athan and Iqamah';
 
   @override
-  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
+  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Athan and Iqamah.';
 
   @override
   String get processingRequest => 'Processing request...';
@@ -1002,7 +1005,7 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
 
   @override
-  String get prayerTimeNotificationDesc => 'Get the Adhan at prayer times, even when the app is closed';
+  String get prayerTimeNotificationDesc => 'Get the Athan at prayer times, even when the app is closed';
 
   @override
   String get enablePrayerReminders => 'Enable Prayer Reminders';

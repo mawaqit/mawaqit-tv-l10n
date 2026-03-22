@@ -775,6 +775,9 @@ class MawaqitTvLocalizationsAz extends MawaqitTvLocalizations {
   }
 
   @override
+  String get continueListening => 'Continue listening';
+
+  @override
   String get noFavoriteReciters => 'Sevimli qiraətçiniz yoxdur. Birini siyahıya əlavə edin';
 
   @override

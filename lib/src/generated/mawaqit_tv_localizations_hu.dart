@@ -775,6 +775,9 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   }
 
   @override
+  String get continueListening => 'Continue listening';
+
+  @override
   String get noFavoriteReciters => 'Nincsenek kedvenc recitálók. Próbálj hozzáadni egyet a listához';
 
   @override

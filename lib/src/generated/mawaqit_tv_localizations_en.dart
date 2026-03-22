@@ -85,7 +85,7 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get in1 => 'in';
 
   @override
-  String get azanIn => 'Azan in';
+  String get azanIn => 'Athan in';
 
   @override
   String get sec => 'Sec';
@@ -186,7 +186,7 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get isha => 'Isha';
 
   @override
-  String get afterAdhanHadithTitle => 'After adhan Du`aa';
+  String get afterAdhanHadithTitle => 'After Athan Du`aa';
 
   @override
   String get afterSalahHadith => 'O Allah, Lord of this perfect call and established prayer. Grant Muhammad the intercession and favor, and raise him to the honored station You have promised him.';
@@ -339,7 +339,7 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get iqamaaCountDown => 'Iqamaa Count Down';
 
   @override
-  String get afterAdhanHadith => 'After Adhan Hadith';
+  String get afterAdhanHadith => 'After Athan Hadith';
 
   @override
   String get afterSalahAzkar => 'After Salah Azkar';
@@ -642,7 +642,7 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get screenLockDesc => 'Turn on/off TV before and after each prayer to save energy';
 
   @override
-  String get screenLockDesc2 => 'This feature turn on/off the device before and after each prayer Adhan';
+  String get screenLockDesc2 => 'This feature turn on/off the device before and after each prayer Athan';
 
   @override
   String get before => 'minutes before each prayer time';
@@ -773,6 +773,9 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String reciterRemovedFromFavorites(String name) {
     return 'Reciter $name removed from favorites';
   }
+
+  @override
+  String get continueListening => 'Continue listening';
 
   @override
   String get noFavoriteReciters => 'No favorite reciters. Try adding one to the list';
@@ -960,10 +963,10 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get scheduleInOnlineMode => 'Please connect to the internet to schedule Quran listening';
 
   @override
-  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah';
+  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Athan and Iqamah';
 
   @override
-  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
+  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Athan and Iqamah.';
 
   @override
   String get processingRequest => 'Processing request...';
@@ -1002,7 +1005,7 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
 
   @override
-  String get prayerTimeNotificationDesc => 'Get the Adhan at prayer times, even when the app is closed';
+  String get prayerTimeNotificationDesc => 'Get the Athan at prayer times, even when the app is closed';
 
   @override
   String get enablePrayerReminders => 'Enable Prayer Reminders';

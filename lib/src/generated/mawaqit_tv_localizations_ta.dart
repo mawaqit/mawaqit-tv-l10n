@@ -775,6 +775,9 @@ class MawaqitTvLocalizationsTa extends MawaqitTvLocalizations {
   }
 
   @override
+  String get continueListening => 'Continue listening';
+
+  @override
   String get noFavoriteReciters => 'விருப்பமான பாடகர் இல்லை. பட்டியலில் ஒன்றைச் சேர்க்க முயற்சிக்கவும்';
 
   @override

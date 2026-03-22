@@ -775,6 +775,9 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   }
 
   @override
+  String get continueListening => 'Continue listening';
+
+  @override
   String get noFavoriteReciters => 'Belum ada favorit qori. Silahkan ditambahkan ke dalam daftar';
 
   @override
