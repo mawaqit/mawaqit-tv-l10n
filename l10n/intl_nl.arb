@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Continue listening",
+  "continueListening": "Doorgaan met luisteren",
   "noFavoriteReciters": "Geen favoriete reciters. Probeer er één toe te voegen aan de lijst",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

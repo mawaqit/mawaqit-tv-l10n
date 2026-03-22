@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Continue listening",
+  "continueListening": "સાંભળવાનું ચાલુ રાખો",
   "noFavoriteReciters": "પસંદગીના લિસ્ટમાં કોઈ કારી નથી. લિસ્ટમાં ઉમેરવા માટે પ્રયાસ કરો",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

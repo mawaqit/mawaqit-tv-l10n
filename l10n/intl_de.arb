@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Continue listening",
+  "continueListening": "Weiter hören",
   "noFavoriteReciters": "Keine Lieblings-Reziter. Versuche einen zur Liste hinzuzufügen",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

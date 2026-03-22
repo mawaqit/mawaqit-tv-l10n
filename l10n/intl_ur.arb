@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Continue listening",
+  "continueListening": "سننا جاری رکھیں",
   "noFavoriteReciters": "کوئی پسندیدہ تلاوت کرنے والا نہیں۔ فہرست میں ایک شامل کرنے کی کوشش کریں۔",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

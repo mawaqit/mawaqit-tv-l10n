@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Continue listening",
+  "continueListening": "Pokračovat v poslechu",
   "noFavoriteReciters": "Žádné oblíbené čtenáře. Zkuste přidat jeden do seznamu",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

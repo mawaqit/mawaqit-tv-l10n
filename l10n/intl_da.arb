@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Continue listening",
+  "continueListening": "Fortsæt med at lytte",
   "noFavoriteReciters": "Ingen foretrukne reciters. Prøv at tilføje en til listen",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

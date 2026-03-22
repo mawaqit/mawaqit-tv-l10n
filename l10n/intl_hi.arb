@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Continue listening",
+  "continueListening": "सुनना जारी रखें",
   "noFavoriteReciters": "कोई पसंदीदा पाठक नहीं. सूची में एक जोड़ने का प्रयास करें",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

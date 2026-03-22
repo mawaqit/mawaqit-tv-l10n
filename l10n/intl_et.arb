@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Continue listening",
+  "continueListening": "Jätka kuulamist",
   "noFavoriteReciters": "Ühtegi lemmikretsitaatorit pole. Proovi lisada nimekirja",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Continue listening",
+  "continueListening": "தொடர்ந்து கேளுங்கள்",
   "noFavoriteReciters": "விருப்பமான பாடகர் இல்லை. பட்டியலில் ஒன்றைச் சேர்க்க முயற்சிக்கவும்",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

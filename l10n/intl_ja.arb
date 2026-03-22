@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Continue listening",
+  "continueListening": "聴き続ける",
   "noFavoriteReciters": "お気に入りのリサイターはありません。リストに追加してみてください",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

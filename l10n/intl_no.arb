@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Continue listening",
+  "continueListening": "Fortsett å lytte",
   "noFavoriteReciters": "Ingen favorittoppskrifter. Prøv å legge til en i listen",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

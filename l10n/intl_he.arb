@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Continue listening",
+  "continueListening": "המשך האזנה",
   "noFavoriteReciters": "אין קוראים מועדפים. נסה להוסיף אחד לרשימה",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

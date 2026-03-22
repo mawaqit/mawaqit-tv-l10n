@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Continue listening",
+  "continueListening": "Hallgatás folytatása",
   "noFavoriteReciters": "Nincsenek kedvenc recitálók. Próbálj hozzáadni egyet a listához",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"
