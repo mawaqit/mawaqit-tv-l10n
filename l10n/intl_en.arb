@@ -347,6 +347,7 @@
       }
     }
   },
+  "continueListening": "Continue listening",
   "noFavoriteReciters": "No favorite reciters. Try adding one to the list",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

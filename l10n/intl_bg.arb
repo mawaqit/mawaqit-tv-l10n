@@ -341,6 +341,7 @@
       }
     }
   },
+  "continueListening": "Continue listening",
   "noFavoriteReciters": "Няма любими рецитатори. Опитайте се да добавите някой в списъка",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

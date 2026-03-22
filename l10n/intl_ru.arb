@@ -341,6 +341,7 @@
       }
     }
   },
+  "continueListening": "Continue listening",
   "noFavoriteReciters": "Нет любимых редакторов. Попробуйте добавить один в список",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"
