@@ -345,6 +345,7 @@
       }
     }
   },
+  "continueListening": "Continuer l'écoute",
   "noFavoriteReciters": "Aucun réciteur préféré. Essayez d'en ajouter un à la liste",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

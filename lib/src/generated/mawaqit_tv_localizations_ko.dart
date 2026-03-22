@@ -775,6 +775,9 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   }
 
   @override
+  String get continueListening => 'Continue listening';
+
+  @override
   String get noFavoriteReciters => '즐겨찾는 낭독자가 없습니다. 목록에 추가해보세요';
 
   @override

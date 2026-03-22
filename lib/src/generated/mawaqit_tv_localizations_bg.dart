@@ -775,6 +775,9 @@ class MawaqitTvLocalizationsBg extends MawaqitTvLocalizations {
   }
 
   @override
+  String get continueListening => 'Continue listening';
+
+  @override
   String get noFavoriteReciters => 'Няма любими рецитатори. Опитайте се да добавите някой в списъка';
 
   @override

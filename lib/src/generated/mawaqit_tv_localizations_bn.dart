@@ -775,6 +775,9 @@ class MawaqitTvLocalizationsBn extends MawaqitTvLocalizations {
   }
 
   @override
+  String get continueListening => 'Continue listening';
+
+  @override
   String get noFavoriteReciters => 'পছন্দের কোনো তেলাওয়াতকারি নেই। একজন কে তালিকায় যোগ করুন';
 
   @override

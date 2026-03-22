@@ -775,6 +775,9 @@ class MawaqitTvLocalizationsPl extends MawaqitTvLocalizations {
   }
 
   @override
+  String get continueListening => 'Continue listening';
+
+  @override
   String get noFavoriteReciters => 'Brak ulubionych motywów. Spróbuj dodać jeden do listy';
 
   @override

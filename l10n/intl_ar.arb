@@ -345,6 +345,7 @@
       }
     }
   },
+  "continueListening": "متابعة الاستماع",
   "noFavoriteReciters": "لا يوجد مقرئون مفضلون. حاول إضافة واحد إلى القائمة",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

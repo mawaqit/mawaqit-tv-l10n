@@ -775,6 +775,9 @@ class MawaqitTvLocalizationsEl extends MawaqitTvLocalizations {
   }
 
   @override
+  String get continueListening => 'Continue listening';
+
+  @override
   String get noFavoriteReciters => 'Δεν υπάρχουν αγαπημένες ρεσιτόρ. Προσπαθήστε να προσθέσετε ένα στη λίστα';
 
   @override

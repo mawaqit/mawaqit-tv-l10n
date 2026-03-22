@@ -775,6 +775,9 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   }
 
   @override
+  String get continueListening => 'Continue listening';
+
+  @override
   String get noFavoriteReciters => 'Alaa tafsirooɓe hatojinaɓe. Eto ɓeydude gooto e doggol nfol';
 
   @override
