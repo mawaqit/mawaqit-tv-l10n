@@ -341,7 +341,6 @@
       }
     }
   },
-  "continueListening": "Continue listening",
   "noFavoriteReciters": "没有收藏的最近版。请尝试在列表中添加一个",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

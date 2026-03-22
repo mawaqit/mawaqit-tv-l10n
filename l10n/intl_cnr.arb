@@ -335,7 +335,6 @@
       }
     }
   },
-  "continueListening": "Continue listening",
   "noFavoriteReciters": "Nuk ka recitues të preferuar. Provoni të shtoni një në listë",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

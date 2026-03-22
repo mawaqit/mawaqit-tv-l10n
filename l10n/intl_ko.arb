@@ -341,7 +341,6 @@
       }
     }
   },
-  "continueListening": "Continue listening",
   "noFavoriteReciters": "즐겨찾는 낭독자가 없습니다. 목록에 추가해보세요",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

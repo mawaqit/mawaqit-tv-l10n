@@ -341,7 +341,6 @@
       }
     }
   },
-  "continueListening": "Continue listening",
   "noFavoriteReciters": "পছন্দের কোনো তেলাওয়াতকারি নেই। একজন কে তালিকায় যোগ করুন",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

@@ -341,7 +341,6 @@
       }
     }
   },
-  "continueListening": "Continue listening",
   "noFavoriteReciters": "Δεν υπάρχουν αγαπημένες ρεσιτόρ. Προσπαθήστε να προσθέσετε ένα στη λίστα",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

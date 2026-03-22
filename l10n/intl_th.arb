@@ -341,7 +341,6 @@
       }
     }
   },
-  "continueListening": "Continue listening",
   "noFavoriteReciters": "ไม่มีผู้อ่านที่ชื่นชอบ ลองเพิ่มรายการหนึ่งรายการ",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

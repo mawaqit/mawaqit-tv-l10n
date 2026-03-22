@@ -341,7 +341,6 @@
       }
     }
   },
-  "continueListening": "Continue listening",
   "noFavoriteReciters": "Tiada qari kegemaran. Sila tambah ke senarai",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

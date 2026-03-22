@@ -341,7 +341,6 @@
       }
     }
   },
-  "continueListening": "Continue listening",
   "noFavoriteReciters": "Belum ada favorit qori. Silahkan ditambahkan ke dalam daftar",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

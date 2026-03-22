@@ -341,7 +341,6 @@
       }
     }
   },
-  "continueListening": "Continue listening",
   "noFavoriteReciters": "Favori okuyucunuz yoktur, Listeye bir tane eklemeyi deneyin",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"
