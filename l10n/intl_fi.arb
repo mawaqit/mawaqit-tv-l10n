@@ -59,6 +59,8 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Laittakaa puhelimenne äänettömään tilaan",
   "iqamaIn": "Iqama vuonna",
+  "iqamaShowClock": "Näytä kello iqama-näytöllä",
+  "iqamaShowClockDesc": "Näytä nykyinen aika ja päivämäärä iqama-lähtölaskennan näytöllä",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Asetukset",
-  "applicationModes": "Sovellustilat",
+  "applicationModes": "Oletuskäynnistystila",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Jos sovelluksessa on ongelmia, yritä ottaa tämä vaihtoehto käyttöön.",
   "hijriAdjustments": "Paikalliset Hijrin mukautukset",
   "hijriAdjustmentsDescription": "Muokkaa hijri päivämäärää paikallisesti laitteessasi. Tämä ei vaikuta online moskeija asetuksiin",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Sinun tulee muodostaa yhteys internetiin käyttääksesi legacy moodia",
   "powerOnScreen": "Virta näytöllä",
   "powerOffScreen": "Sammuta näyttö",
-  "deviceSettings": "Laitteen Asetukset",
+  "deviceSettings": "Laite",
   "later": "Myöhemmin",
   "downloadQuran": "Lataa Koraani",
   "quran": "Koraani",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Kameran Asetukset",
   "invalidRtspUrl": "Virheellinen URL. Tarkista URL-osoite ja yritä uudelleen.",
   "validRtspUrl": "URL vahvistettu ja tallennettu onnistuneesti.",
-  "rtspCameraSettingTitle": "Live-kamerayhteys",
+  "rtspCameraSettingTitle": "Live-kamera",
   "rtspCameraSettingDesc": "Yhdistä paikalliseen kameraan ja näytä jumua rukous streami TV-näytöllä.",
   "rtspCameraSettingScreenDesc": "Jos syötät URL-osoitteen tähän, näyttösi siirtyy automaattisesti videon suoratoistoon, kun Jumua saapuu",
   "validatingStream": "Tarkistetaan Lähetystä...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Tämä on testi merkkijono tarkistaa tekoälyn käännös toimii oikein",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Yleiset",
+  "hijriDateAdjustment": "Hidžra-päivämäärän säätö",
+  "interfaceLanguage": "Käyttöliittymän kieli",
+  "launchModeMainPrayer": "Pääasialliset rukousajat",
+  "launchModeSecondaryPrayer": "Toissijaiset rukousajat",
+  "timezone": "Aikavyöhyke",
+  "wifi": "WiFi"
 }

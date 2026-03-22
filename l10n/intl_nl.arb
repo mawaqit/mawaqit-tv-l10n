@@ -59,6 +59,8 @@
   "alAdhan": "Al-Athan",
   "turnOfPhones": "Zet uw telefoon in de stille modus",
   "iqamaIn": "Iqama in",
+  "iqamaShowClock": "Klok weergeven op iqama-scherm",
+  "iqamaShowClockDesc": "Huidige tijd en datum weergeven op het iqama-aftelscherm",
   "alAthkar": "Al-Atkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Instellingen",
-  "applicationModes": "Toepassingsmodi",
+  "applicationModes": "Standaard startmodus",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Als u een probleem ondervindt met de app activeert u deze optie",
   "hijriAdjustments": "Lokale Hijri aanpassingen",
   "hijriAdjustmentsDescription": "Pas de hijri-datum aan op uw apparaat. Dit heeft geen invloed op de online moske-instellingen",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "U moet verbinding maken met internet om de oude modus te gebruiken",
   "powerOnScreen": "Zet het scherm aan",
   "powerOffScreen": "Scherm uitschakelen",
-  "deviceSettings": "Apparaat instellingen",
+  "deviceSettings": "Apparaat",
   "later": "Later",
   "downloadQuran": "Koran downloaden",
   "quran": "Koran",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Camera instellingen",
   "invalidRtspUrl": "Ongeldige URL. Controleer de URL en probeer het opnieuw.",
   "validRtspUrl": "URL gevalideerd en met succes opgeslagen.",
-  "rtspCameraSettingTitle": "Live camera verbinding",
+  "rtspCameraSettingTitle": "Live camera",
   "rtspCameraSettingDesc": "Maak verbinding met uw lokale camera en toon de jumua gebed stream op het TV-scherm.",
   "rtspCameraSettingScreenDesc": "Als je hier een URL invoert, zal je scherm automatisch overschakelen naar video streaming wanneer Jumua tijd aankomt",
   "validatingStream": "Stream valideren...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Dit is een teststring om te controleren of de AI-vertaling correct werkt",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Globaal",
+  "hijriDateAdjustment": "Hijri-datumcorrectie",
+  "interfaceLanguage": "Interfacetaal",
+  "launchModeMainPrayer": "Hoofd gebedsijden",
+  "launchModeSecondaryPrayer": "Secundaire gebedsijden",
+  "timezone": "Tijdzone",
+  "wifi": "WiFi"
 }

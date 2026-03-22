@@ -59,6 +59,8 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Palun lülitage oma telefonid vaiksesse režiimi",
   "iqamaIn": "Iqama in",
+  "iqamaShowClock": "Näita kella ikama ekraanil",
+  "iqamaShowClockDesc": "Näita praegust aega ja kuupäeva ikama loenduri ekraanil",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Seaded",
-  "applicationModes": "Rakendusrežiimid",
+  "applicationModes": "Vaikimisi käivitusrežiim",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Kui teil tekib probleem rakenduse aktiivse selle valikuga",
   "hijriAdjustments": "Kohalikud hijri korrigeerimised",
   "hijriAdjustmentsDescription": "Häälestage hijri-kuupäev oma seadmes kohapeal. See ei mõjuta veebipõhiseid mošee seadeid",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Pärandrežiimi kasutamiseks peate ühendama internetti",
   "powerOnScreen": "Lülita ekraan sisse",
   "powerOffScreen": "Lülita ekraan välja",
-  "deviceSettings": "Seadme seaded",
+  "deviceSettings": "Seade",
   "later": "Hiljem",
   "downloadQuran": "Laadi alla Quran",
   "quran": "Koraan",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Kaamera seaded",
   "invalidRtspUrl": "Vigane URL. Palun kontrolli URL-i ja proovi uuesti.",
   "validRtspUrl": "URL on kinnitatud ja edukalt salvestatud.",
-  "rtspCameraSettingTitle": "Reaalajas kaameraühendus",
+  "rtspCameraSettingTitle": "Otsekaamera",
   "rtspCameraSettingDesc": "Ühenda oma kohalik kaamera ja kuva džumaa palvuse otseülekanne teleri ekraanil.",
   "rtspCameraSettingScreenDesc": "Kui sisestad siia URL-i, lülitub ekraan džumaa ajal automaatselt videovoole",
   "validatingStream": "Voogu kontrollitakse...",
@@ -471,5 +473,12 @@
   "testAITranslation": "See on testtekst, et kontrollida, kas tehisintellekti tõlge töötab korrektselt.",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Üldine",
+  "hijriDateAdjustment": "Hidžra kuupäeva kohandus",
+  "interfaceLanguage": "Liidese keel",
+  "launchModeMainPrayer": "Peamised palveajad",
+  "launchModeSecondaryPrayer": "Sekundaarsed palveajad",
+  "timezone": "Ajavöönd",
+  "wifi": "WiFi"
 }

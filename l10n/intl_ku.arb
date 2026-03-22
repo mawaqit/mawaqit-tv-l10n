@@ -59,6 +59,8 @@
   "alAdhan": "بانگ",
   "turnOfPhones": "تکایە موبایلەکانتان لەسەر دۆخی بێدەنگ دابنێن",
   "iqamaIn": "قامەت لە دوای",
+  "iqamaShowClock": "Saetê li ser ekrana iqameyê nîşan bide",
+  "iqamaShowClockDesc": "Dema û mêjûya niha li ser ekrana hejmartina iqameyê nîşan bide",
   "alAthkar": "ویردەکان",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "جەژنتان پیرۆز",
   "takbeerAleidText": "الله أكبر الله أكبر الله أكبر، لا إله إلا الله، الله أكبر الله أكبر ولله الحمد",
   "settings": "رێکخستنەکان",
-  "applicationModes": "دۆخەکانی بەرنامە",
+  "applicationModes": "Moda destpêkirina xwerû",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "ئەگەر ڕووبەڕووی کێشە بوویتەوە لەگەڵ بەرنامەکەدا، هەوڵبدە ئەم هەڵبژاردنە چالاک بکەیت",
   "hijriAdjustments": "ڕێکخستنە ناوخۆییەکانی بەرواری هیجری",
   "hijriAdjustmentsDescription": "بەرواری هیجری بە شێوەیەکی ناوخۆیی لە ئامێرەکەتدا ڕێکبخە. ئەمەش کاریگەری لەسەر ڕێکخستنەکانی مزگەوتەکەت لەسەر هێڵ نابێت",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "پێویستە پەیوەست ببیت بە هێڵی ئینتەرنێتەوە بۆ بەکارهێنانی دۆخی پێشوو",
   "powerOnScreen": "هەڵکردنی ڕوونما",
   "powerOffScreen": "گوژاندنەوەی ڕوونما",
-  "deviceSettings": "رێکخستنەکانی ئامێڕ",
+  "deviceSettings": "Cîhaz",
   "later": "دواتر",
   "downloadQuran": "داگرتنی قورئان",
   "quran": "قورئان",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "رێکخستنەکانی کامێرا",
   "invalidRtspUrl": "لینک ناتەواوە. تکایە دڵنیا ببەرەوە یاخود دواتر هەوڵ بدە.",
   "validRtspUrl": "لینک گونجاوە و بە سەرکەوتوویی پاشەکەوت کرا.",
-  "rtspCameraSettingTitle": "پەیوەستبوونی ڕاستەوخۆی کامێرا",
+  "rtspCameraSettingTitle": "Kamerayek zindî",
   "rtspCameraSettingDesc": "پەیوەست ببە بە کامێرا نێوخۆییەکەتەوە و راستەوخۆی وتاری هەینی لە شاشەکەوە بگوازەوە.",
   "rtspCameraSettingScreenDesc": "ئەگەر کینکەکە تۆماربکەیت، شاشەکە بە ئۆتۆماتیکی دەگۆڕدرێت بۆ ڤیدیۆی ڕاستەوخۆ لەکاتی گەیشتن بە کاتی جومعە",
   "validatingStream": "گونجاندنی پەخش...",
@@ -471,5 +473,12 @@
   "testAITranslation": "ئەمە تاقیکردنەوەیە بۆ دڵنیابوون لە کارکردنی وەرگێڕانی ئەیای",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Giştî",
+  "hijriDateAdjustment": "Sererastkirina mêjûya hicrî",
+  "interfaceLanguage": "Zimanê navberê",
+  "launchModeMainPrayer": "Demên nimêja sereke",
+  "launchModeSecondaryPrayer": "Demên nimêja duyemîn",
+  "timezone": "Herêma demê",
+  "wifi": "WiFi"
 }

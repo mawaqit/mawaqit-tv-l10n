@@ -59,6 +59,8 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Please turn of your mobile phones!",
   "iqamaIn": "Iqama in",
+  "iqamaShowClock": "הצג שעון במסך איקאמה",
+  "iqamaShowClockDesc": "הצג את השעה והתאריך הנוכחיים במסך ספירת האיקאמה",
   "alAthkar": "Al-Athkar",
   "azkarList0": "אַסְתַּעְ'פִרוּ אַלְלָה, אַסְתַּעְ'פִרוּ אַלְלָה, אַסְתַּעְ'פִרוּ אַלְלָה. אַלְלָהוּמַּא אַנְתַּ אלְסַּלָאם, וּמִמְּךָ הַשַּׁלוֹם. תְּבוֹרַךְ יָא דהּ אל-גַ'לָאל וְהָאִכְרָאם. אַלְלָהוּמַּא עֵזְרֵנִי לְהַזְכִּירְךָ, לְהוֹדוֹת לְךָ וְלִשְׁפַּר אֶת עֲבוֹדַתִּי לְךָ.",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "עיד מבארכ",
   "takbeerAleidText": "אללהו אכבר, אללהו אכבר, אללהו אכבר, לא אלה אלא אללה, אללהו אכבר, אללהו אכבר, וליללהי אלחמד",
   "settings": "הגדרות",
-  "applicationModes": "מצב אפליקציה",
+  "applicationModes": "מצב הפעלה ברירת מחדל",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "אם אתה נתקל בבעיות באפליקציה, נסה להפעיל אפשרות זו",
   "hijriAdjustments": "התאמות הלוח ההיג'רי המקומי",
   "hijriAdjustmentsDescription": "כיוון את התאריך ההיג'רי במכשירך. פעולה זו לא תשפיע על הגדרות המסגד המקוונות",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "חובה להתחבר לאינטרנט כדי להשתמש במצב הישן",
   "powerOnScreen": "הפעל את המסך",
   "powerOffScreen": "כבה את המסך",
-  "deviceSettings": "הגדרות מכשיר",
+  "deviceSettings": "מכשיר",
   "later": "מאוחר יותר",
   "downloadQuran": "הורד קוראן",
   "quran": "הקוראן",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "הגדרות מצלמה",
   "invalidRtspUrl": "כתובת לא תקינה. בדוק את הכתובת ונסה שוב.",
   "validRtspUrl": "ה-URL אומת ונשמר בהצלחה.",
-  "rtspCameraSettingTitle": "חיבור מצלמה בשידור חי",
+  "rtspCameraSettingTitle": "מצלמה חיה",
   "rtspCameraSettingDesc": "התחברו למצלמה המקומית שלכם ושדרו את תפילת יום שישי (ג'ומעה) על מסך הטלוויזיה.",
   "rtspCameraSettingScreenDesc": "אם תזינו כאן כתובת URL, המסך יעבור אוטומטית לשידור וידאו בעת כניסת זמן הג'ומעה",
   "validatingStream": "מאמת שידור...",
@@ -471,5 +473,12 @@
   "testAITranslation": "זהו מחרוזת בדיקה לוודא שהתרגום של הבינה המלאכותית פועל כראוי",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "כללי",
+  "hijriDateAdjustment": "כיוון תאריך הג'ירי",
+  "interfaceLanguage": "שפת ממשק",
+  "launchModeMainPrayer": "זמני תפילה ראשיים",
+  "launchModeSecondaryPrayer": "זמני תפילה משניים",
+  "timezone": "אזור זמן",
+  "wifi": "WiFi"
 }

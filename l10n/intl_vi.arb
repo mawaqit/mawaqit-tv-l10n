@@ -59,6 +59,8 @@
   "alAdhan": "Ezan",
   "turnOfPhones": "Molimo vas da svoje telefone prebacite u NEČUJNI način rada",
   "iqamaIn": "Ikamet za",
+  "iqamaShowClock": "Hiển thị đồng hồ trên màn hình Iqama",
+  "iqamaShowClockDesc": "Hiển thị thời gian và ngày tháng hiện tại trên màn hình đếm ngược Iqama",
   "alAthkar": "Dhikr",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Bajram Šerif Mubarek Olsun! \nHajrli Bajram",
   "takbeerAleidText": "Allahu Akber, Allahu Akber, Allahu Akber, la ilahe il-la Allah, Allahu Akber, Allahu Akber, ve lillahi el-hamd",
   "settings": "Settings",
-  "applicationModes": "Način primjene",
+  "applicationModes": "Chế độ khởi chạy mặc định",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Ako imate problema s aplikacijom, pokušajte aktivirati ovu opciju",
   "hijriAdjustments": "Podešavanje hidžretskog datuma na vašem uređaju",
   "hijriAdjustmentsDescription": "Ispravite hidžretski datum na svom uređaju. Ovo neće utjecati na opšte postavke u net platformi",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Duhet të lidheni me internetin për të përdorur modalitetin e vjetër",
   "powerOnScreen": "Ndizni ekranin",
   "powerOffScreen": "Fikni ekranin",
-  "deviceSettings": "Device Settings",
+  "deviceSettings": "Thiết bị",
   "later": "Më vonë",
   "downloadQuran": "Shkarkoni Kur'anin",
   "quran": "Kur'an",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Cài đặt Camera",
   "invalidRtspUrl": "URL không hợp lệ. Vui lòng kiểm tra lại URL và thử lại.",
   "validRtspUrl": "URL đã được xác thực và lưu thành công.",
-  "rtspCameraSettingTitle": "Kết nối camera trực tiếp",
+  "rtspCameraSettingTitle": "Camera trực tiếp",
   "rtspCameraSettingDesc": "Kết nối với camera tại địa phương của bạn và phát trực tiếp buổi cầu nguyện Jumua lên màn hình TV.",
   "rtspCameraSettingScreenDesc": "Nếu bạn nhập URL ở đây, màn hình của bạn sẽ tự động chuyển sang phát video khi đến giờ Jumua",
   "validatingStream": "Đang xác thực luồng...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Đây là chuỗi kiểm tra để xác minh AI dịch thuật đang hoạt động chính xác",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Toàn cầu",
+  "hijriDateAdjustment": "Điều chỉnh ngày Hijri",
+  "interfaceLanguage": "Ngôn ngữ giao diện",
+  "launchModeMainPrayer": "Giờ cầu nguyện chính",
+  "launchModeSecondaryPrayer": "Giờ cầu nguyện phụ",
+  "timezone": "Múi giờ",
+  "wifi": "WiFi"
 }

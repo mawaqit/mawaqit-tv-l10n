@@ -204,6 +204,12 @@ class MawaqitTvLocalizationsMk extends MawaqitTvLocalizations {
   String get iqamaIn => 'Икама за';
 
   @override
+  String get iqamaShowClock => 'Прикажи часовник на екранот на икама';
+
+  @override
+  String get iqamaShowClockDesc => 'Прикажи го тековното време и датум на екранот за одбројување на икама';
+
+  @override
   String get alAthkar => 'Ал-Аthkar';
 
   @override
@@ -456,7 +462,7 @@ class MawaqitTvLocalizationsMk extends MawaqitTvLocalizations {
   String get settings => 'Поставки';
 
   @override
-  String get applicationModes => 'Режим на апликација';
+  String get applicationModes => 'Стандарден режим на стартување';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'Доколку имате проблеми со апликацијата, обидете се да ја вклучите оваа опција';
@@ -678,7 +684,7 @@ class MawaqitTvLocalizationsMk extends MawaqitTvLocalizations {
   String get powerOffScreen => 'Исклучи го екранот';
 
   @override
-  String get deviceSettings => 'Поставки на уредот';
+  String get deviceSettings => 'Уред';
 
   @override
   String get later => 'Подоцна';
@@ -775,7 +781,7 @@ class MawaqitTvLocalizationsMk extends MawaqitTvLocalizations {
   }
 
   @override
-  String get continueListening => 'Continue listening';
+  String get continueListening => 'Продолжете да слушате';
 
   @override
   String get noFavoriteReciters => 'Нема омилени чтеци. Обидете се да додадете некој на листата';
@@ -867,7 +873,7 @@ class MawaqitTvLocalizationsMk extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL-то е верификуван и успешно зачуван.';
 
   @override
-  String get rtspCameraSettingTitle => 'Врска со жива камера';
+  String get rtspCameraSettingTitle => 'Камера во живо';
 
   @override
   String get rtspCameraSettingDesc => 'Поврзете ја вашата локална камера и прикажете го преносот на Џумуа-намазот на ТВ екран.';
@@ -1026,7 +1032,7 @@ class MawaqitTvLocalizationsMk extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display Mode';
+  String get appDisplayMode => 'Display';
 
   @override
   String get appDisplayModeExplanation => 'Choose how your screen will display content';
@@ -1036,4 +1042,25 @@ class MawaqitTvLocalizationsMk extends MawaqitTvLocalizations {
 
   @override
   String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+
+  @override
+  String get settingsSectionGlobal => 'Општо';
+
+  @override
+  String get hijriDateAdjustment => 'Прилагодување на хиџра датумот';
+
+  @override
+  String get interfaceLanguage => 'Јазик на интерфејсот';
+
+  @override
+  String get launchModeMainPrayer => 'Главни времиња за молитва';
+
+  @override
+  String get launchModeSecondaryPrayer => 'Секундарни времиња за молитва';
+
+  @override
+  String get timezone => 'Временска зона';
+
+  @override
+  String get wifi => 'WiFi';
 }

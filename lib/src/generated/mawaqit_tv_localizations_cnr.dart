@@ -85,7 +85,7 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get in1 => 'za';
 
   @override
-  String get azanIn => 'Athan in';
+  String get azanIn => 'Azan in';
 
   @override
   String get sec => 'Sek';
@@ -202,6 +202,12 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
 
   @override
   String get iqamaIn => 'Ikamet za';
+
+  @override
+  String get iqamaShowClock => 'Prikaži sat na ekranu ikame';
+
+  @override
+  String get iqamaShowClockDesc => 'Prikaži trenutno vrijeme i datum na ekranu odbrojavanja ikame';
 
   @override
   String get alAthkar => 'Dhikr';
@@ -456,7 +462,7 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get settings => 'Settings';
 
   @override
-  String get applicationModes => 'Način primjene';
+  String get applicationModes => 'Podrazumijevani način pokretanja';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'Ako imate problema s aplikacijom, pokušajte aktivirati ovu opciju';
@@ -678,7 +684,7 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get powerOffScreen => 'Fikni ekranin';
 
   @override
-  String get deviceSettings => 'Device Settings';
+  String get deviceSettings => 'Uređaj';
 
   @override
   String get later => 'Më vonë';
@@ -775,7 +781,7 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   }
 
   @override
-  String get continueListening => 'Continue listening';
+  String get continueListening => 'Nastavite sa slušanjem';
 
   @override
   String get noFavoriteReciters => 'Nuk ka recitues të preferuar. Provoni të shtoni një në listë';
@@ -867,7 +873,7 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL validated and saved successfully.';
 
   @override
-  String get rtspCameraSettingTitle => 'Live camera connection';
+  String get rtspCameraSettingTitle => 'Live camera';
 
   @override
   String get rtspCameraSettingDesc => 'Connect to your local camera and display jumua prayer stream on the TV screen.';
@@ -963,10 +969,10 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get scheduleInOnlineMode => 'Please connect to the internet to schedule Quran listening';
 
   @override
-  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Athan and Iqamah';
+  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah';
 
   @override
-  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Athan and Iqamah.';
+  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
 
   @override
   String get processingRequest => 'Processing request...';
@@ -1005,7 +1011,7 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
 
   @override
-  String get prayerTimeNotificationDesc => 'Get the Athan at prayer times, even when the app is closed';
+  String get prayerTimeNotificationDesc => 'Get the Adhan at prayer times, even when the app is closed';
 
   @override
   String get enablePrayerReminders => 'Enable Prayer Reminders';
@@ -1026,7 +1032,7 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display Mode';
+  String get appDisplayMode => 'Display';
 
   @override
   String get appDisplayModeExplanation => 'Choose how your screen will display content';
@@ -1036,4 +1042,25 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
 
   @override
   String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+
+  @override
+  String get settingsSectionGlobal => 'Globalno';
+
+  @override
+  String get hijriDateAdjustment => 'Podešavanje hidžretskog datuma';
+
+  @override
+  String get interfaceLanguage => 'Jezik interfejsa';
+
+  @override
+  String get launchModeMainPrayer => 'Glavna vremena namaza';
+
+  @override
+  String get launchModeSecondaryPrayer => 'Sekundarna vremena namaza';
+
+  @override
+  String get timezone => 'Vremenska zona';
+
+  @override
+  String get wifi => 'WiFi';
 }

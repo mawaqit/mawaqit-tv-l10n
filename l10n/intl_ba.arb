@@ -82,6 +82,8 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Please turn of your mobile phones!",
   "iqamaIn": "Iqama in",
+  "iqamaShowClock": "Иҡамәт экранында сәғәтте күрһәт",
+  "iqamaShowClockDesc": "Иҡамәт сәғәтенең иҫәпләү экранында ағымдағы ваҡытты һәм датаны күрһәт",
   "alAthkar": "Al-Athkar",
   "azkarList0": "",
   "@azkarList0": {
@@ -169,5 +171,12 @@
   "salatKhayrMinaNawm": "Әссәләтү Хәйрүм Минән Нәүм",
   "salatElEid": "Salat El Eid"
 ,
-  "continueListening": "Артабан тыңлау"
+  "continueListening": "Артабан тыңлау",
+  "settingsSectionGlobal": "Дөйөм",
+  "hijriDateAdjustment": "Хижри тарихын тәртипкә килтереү",
+  "interfaceLanguage": "Интерфейс теле",
+  "launchModeMainPrayer": "Төп намаҙ ваҡыттары",
+  "launchModeSecondaryPrayer": "Икенсел намаҙ ваҡыттары",
+  "timezone": "Ваҡыт бүлкәте",
+  "wifi": "WiFi"
 }

@@ -59,6 +59,8 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Por favor, pongan sus teléfonos en modo silencio",
   "iqamaIn": "Iqama en",
+  "iqamaShowClock": "Mostrar reloj en la pantalla de Iqama",
+  "iqamaShowClockDesc": "Mostrar la hora y fecha actuales en la pantalla de cuenta regresiva de Iqama",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Ajustes",
-  "applicationModes": "Modos de aplicación",
+  "applicationModes": "Modo de inicio predeterminado",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Si tiene algún problema con la aplicación active esta opción",
   "hijriAdjustments": "Ajustes locales de Hijri",
   "hijriAdjustmentsDescription": "Ajuste la fecha de hijri localmente en su dispositivo. Esto no afectará a la configuración de la mezquita en línea",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Debes conectarte a internet para usar el modo legado",
   "powerOnScreen": "Enciende la pantalla",
   "powerOffScreen": "Apagar la pantalla",
-  "deviceSettings": "Ajustes del dispositivo",
+  "deviceSettings": "Dispositivo",
   "later": "Más tarde",
   "downloadQuran": "Descargar Corán",
   "quran": "Corán",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Ajustes de cámara",
   "invalidRtspUrl": "URL no válida. Por favor, compruebe la URL y vuelva a intentarlo.",
   "validRtspUrl": "URL validada y guardada correctamente.",
-  "rtspCameraSettingTitle": "Conexión con cámara en vivo",
+  "rtspCameraSettingTitle": "Cámara en vivo",
   "rtspCameraSettingDesc": "Conéctate a tu cámara local y muestra el flujo de oración de jumua en la pantalla de TV.",
   "rtspCameraSettingScreenDesc": "Si ingresas una URL aquí, tu pantalla cambiará automáticamente a la transmisión de vídeo cuando llegue la hora de Jumua",
   "validatingStream": "Validando Stream...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Esta es una cadena de prueba para verificar que la traducción de IA funciona correctamente",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Global",
+  "hijriDateAdjustment": "Ajuste de fecha hégira",
+  "interfaceLanguage": "Idioma de la interfaz",
+  "launchModeMainPrayer": "Horarios principales de oración",
+  "launchModeSecondaryPrayer": "Horarios secundarios de oración",
+  "timezone": "Zona horaria",
+  "wifi": "WiFi"
 }

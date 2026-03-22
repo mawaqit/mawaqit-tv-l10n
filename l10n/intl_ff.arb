@@ -59,6 +59,8 @@
   "alAdhan": "Noddinaango",
   "turnOfPhones": "Tiiɗno-ɗee mbaɗee cinnde mon e mbayka muumal",
   "iqamaIn": "Wuurnaango ɗoo e",
+  "iqamaShowClock": "Hollu aadoo to letnol Iqama",
+  "iqamaShowClockDesc": "Hollu waktu e jamiroore to letnol ñaawoore Iqama",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Njuulee mo wuuri",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Teelte",
-  "applicationModes": "Mbayka Jaaɓngal",
+  "applicationModes": "Default launch mode",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "So a heɓii caɗeele e ngal jaaɓngal, eto hurminde ndee suɓre",
   "hijriAdjustments": "Ponnditgol Hijri Nokku",
   "hijriAdjustmentsDescription": "Fonndit ñalngu Hijiri nokkuure ndee e kaɓirgol maa. Ɗuum alaa baɗte e teelte Enternet jamaa oo",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Maa ceŋo-ɗaa e Enternet ngam huutoraasɗe mbayka ganni",
   "powerOnScreen": "Huɓɓu yaynirde ndee",
   "powerOffScreen": "Ñif yaynirde ndee",
-  "deviceSettings": "Teelte Kaɓirgol",
+  "deviceSettings": "Jaɓɓorgo",
   "later": "Haa yeeso",
   "downloadQuran": "Aawto Ǧur'aana oo",
   "quran": "Ǧur'aana",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Teelte Kameraa",
   "invalidRtspUrl": "URL jaalđaani. Tiiɗno ƴeewto URL oo kisa puɗɗito-ɗaa.",
   "validRtspUrl": "URL jaalɗinaama kadi danndaama no haaniri.",
-  "rtspCameraSettingTitle": "Ceŋol kameraa tolbec",
+  "rtspCameraSettingTitle": "Kaamaraaji nguurndam",
   "rtspCameraSettingDesc": "Seŋ kameraa npkkuure maa ngam yaltinde njuula aljumaa nguu e yaynirde tele.",
   "rtspCameraSettingScreenDesc": "So a naatnii ɗoo URL, yaynirde maa fuɗɗo hollude widewoo tolbec so njuulu Aljumu'a fuɗɗiima",
   "validatingStream": "Nana Jaalɗina Balol...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Eyi feewu tawa heɓtude jeytaa AI nder ɗaƴƴude firtaande ngal mowli.",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Hakkunde",
+  "hijriDateAdjustment": "Tabitinde jamiroore Hijri",
+  "interfaceLanguage": "Demngal janfaari",
+  "launchModeMainPrayer": "Waktuuji juulde mawɗi",
+  "launchModeSecondaryPrayer": "Waktuuji juulde ɓurɗi ɓurde",
+  "timezone": "Seeɗa waktu",
+  "wifi": "WiFi"
 }

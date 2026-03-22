@@ -59,6 +59,8 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Vennligst sett telefonene dine i stillemodus",
   "iqamaIn": "Iqama i",
+  "iqamaShowClock": "Vis klokke på iqama-skjermen",
+  "iqamaShowClockDesc": "Vis gjeldende tid og dato på iqama-nedtellingsskjermen",
   "alAthkar": "Al-ånder",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Innstillinger",
-  "applicationModes": "Applikasjons moduser",
+  "applicationModes": "Standard oppstartsmodus",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Dersom du møter et problem med appen aktiv dette alternativet",
   "hijriAdjustments": "Lokale justeringer i Hijri",
   "hijriAdjustmentsDescription": "Juster hijri-datoen lokalt på enheten din. Dette påvirker ikke innstillingene for online-moskeen",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Du må koble til internett for å bruke eldre modus",
   "powerOnScreen": "Slå på skjermen",
   "powerOffScreen": "Slå av skjermen",
-  "deviceSettings": "Enhets innstillinger",
+  "deviceSettings": "Enhet",
   "later": "Senere",
   "downloadQuran": "Last ned Quran",
   "quran": "Korsikansk",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Kamera innstillinger",
   "invalidRtspUrl": "Ugyldig URL. Kontroller URL-en og prøv på nytt.",
   "validRtspUrl": "URL validert og lagret.",
-  "rtspCameraSettingTitle": "Direkte kameratilkobling",
+  "rtspCameraSettingTitle": "Live kamera",
   "rtspCameraSettingDesc": "Koble til ditt lokale kamera og vis jumua bønn strøm på TV-skjermen.",
   "rtspCameraSettingScreenDesc": "Dersom du skriver inn en nettadresse her, vil skjermen automatisk bytte til videostrømming når Jumua ankommer tiden",
   "validatingStream": "Validerer strøm...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Dette er en teststreng for å verifisere AI-oversettelsen fungerer som den skal",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Global",
+  "hijriDateAdjustment": "Justering av hijri-dato",
+  "interfaceLanguage": "Grensesnittspråk",
+  "launchModeMainPrayer": "Hoved bønnetider",
+  "launchModeSecondaryPrayer": "Sekundære bønnetider",
+  "timezone": "Tidssone",
+  "wifi": "WiFi"
 }

@@ -59,6 +59,8 @@
   "alAdhan": "اذان",
   "turnOfPhones": "لطفا موبایل خود را خاموش کنید",
   "iqamaIn": "اقامه پس از",
+  "iqamaShowClock": "نمایش ساعت در صفحه اقامه",
+  "iqamaShowClockDesc": "نمایش زمان و تاریخ فعلی در صفحه شمارش معکوس اقامه",
   "alAthkar": "اذکار",
   "azkarList0": "استغفر الله استغفر الله استغفر الله اللهم أنت السلام و منک السلام تبارکت یا ذا الجلال و الإکرام، اللَّهُمَّ أَعِنِّي عَلَی ذِكْرِكَ، وَشُكْرِكَ، وَحُسْنِ عِبَادَتِكَ",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "عید مبارک",
   "takbeerAleidText": "الله اکبر الله اکبر الله اکبر ، لا اله الا الله ،  الله کبر الله اکبر  و لله الحمد",
   "settings": "تنظیمات",
-  "applicationModes": "حالت برنامه",
+  "applicationModes": "حالت راه‌اندازی پیش‌فرض",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "اگر با مشکلی در برنامه مواجه هستید، سعی کنید این گزینه را فعال کنید",
   "hijriAdjustments": "تنظیم دستی تاریخ هجری قمری",
   "hijriAdjustmentsDescription": "اگر تاریخ هجری را با تنظیم دستی در دستگاه خود تنظیم کنید. این بر تنظیمات مسجد آنلاین تأثیری نخواهد گذاشت",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "برای استفاده از حالت قدیمی باید به اینترنت متصل شوید",
   "powerOnScreen": "صفحه نمایش را روشن کنید",
   "powerOffScreen": "صفحه نمایش را خاموش کنید",
-  "deviceSettings": "تنظیمات دستگاه",
+  "deviceSettings": "دستگاه",
   "later": "بعد",
   "downloadQuran": "دانلود قران",
   "quran": "قران",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "تنظیمات دوربین",
   "invalidRtspUrl": "آدرس وارد شده نامعتبر است. لطفاً آدرس را بررسی کرده و دوباره تلاش کنید.",
   "validRtspUrl": "آدرس با موفقیت تأیید و ذخیره شد.",
-  "rtspCameraSettingTitle": "اتصال دوربین به‌صورت زنده",
+  "rtspCameraSettingTitle": "دوربین زنده",
   "rtspCameraSettingDesc": "به دوربین محلی خود متصل شوید و پخش زنده نماز جمعه را روی صفحه تلویزیون نمایش دهید.",
   "rtspCameraSettingScreenDesc": "اگر در اینجا یک آدرس وارد کنید، صفحه‌ نمایش شما به‌صورت خودکار در زمان نماز جمعه به پخش ویدیو تغییر خواهد کرد",
   "validatingStream": "در حال بررسی صحت پخش...",
@@ -471,5 +473,12 @@
   "testAITranslation": "این یک رشته آزمایشی است برای اطمینان از اینکه ترجمه هوش مصنوعی به درستی کار می\u0019کند",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "عمومی",
+  "hijriDateAdjustment": "تنظیم تاریخ هجری",
+  "interfaceLanguage": "زبان رابط کاربری",
+  "launchModeMainPrayer": "اوقات نماز اصلی",
+  "launchModeSecondaryPrayer": "اوقات نماز فرعی",
+  "timezone": "منطقه زمانی",
+  "wifi": "وای‌فای"
 }

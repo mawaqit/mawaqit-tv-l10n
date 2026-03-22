@@ -59,6 +59,8 @@
   "alAdhan": "アル・アダン",
   "turnOfPhones": "携帯電話をサイレントモードにしてください",
   "iqamaIn": "のイーカマ",
+  "iqamaShowClock": "イカーマ画面に時計を表示",
+  "iqamaShowClockDesc": "イカーマカウントダウン画面に現在の時刻と日付を表示する",
   "alAthkar": "アルアトカール",
   "azkarList0": "アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "イードムバラク",
   "takbeerAleidText": "アッラーフ・アクバル、アッラーフ・アクバル、ラ・イラハ・イラ・アッラー、アッラーフ・アクバル、ワ・リッラーヒ・アル・ハムド",
   "settings": "設定方法",
-  "applicationModes": "アプリケーションモード",
+  "applicationModes": "デフォルト起動モード",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "アプリで問題が発生した場合は、このオプションをアクティブにしてください。",
   "hijriAdjustments": "ローカルHijriの調整",
   "hijriAdjustmentsDescription": "お使いの端末でhijri日付をローカルに調整してください。これはオンラインのモスクの設定には影響しません",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "従来のモードを使用するにはインターネットに接続する必要があります",
   "powerOnScreen": "画面の電源を入れます",
   "powerOffScreen": "画面の電源を切る",
-  "deviceSettings": "端末設定",
+  "deviceSettings": "デバイス",
   "later": "後で",
   "downloadQuran": "クルアーンをダウンロード",
   "quran": "クルアーンformat@@0",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "カメラ設定",
   "invalidRtspUrl": "無効な URL です。URL を確認して、もう一度やり直してください。",
   "validRtspUrl": "URLが検証され、正常に保存されました。",
-  "rtspCameraSettingTitle": "ライブカメラの接続",
+  "rtspCameraSettingTitle": "ライブカメラ",
   "rtspCameraSettingDesc": "ローカルカメラに接続し、テレビ画面にジュミュア祈りのストリームを表示します。",
   "rtspCameraSettingScreenDesc": "ここにURLを入力すると、Jumua時間が到着したときに画面が自動的にビデオストリーミングに切り替わります",
   "validatingStream": "ストリームを検証中...",
@@ -471,5 +473,12 @@
   "testAITranslation": "これはAI翻訳が正常に動作していることを確認するためのテスト文字列",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "グローバル",
+  "hijriDateAdjustment": "ヒジュラ暦日付調整",
+  "interfaceLanguage": "インターフェース言語",
+  "launchModeMainPrayer": "主な礼拝時間",
+  "launchModeSecondaryPrayer": "補助礼拝時間",
+  "timezone": "タイムゾーン",
+  "wifi": "WiFi"
 }

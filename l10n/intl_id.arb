@@ -59,6 +59,8 @@
   "alAdhan": "Azan",
   "turnOfPhones": "Harap setel ponsel Anda ke Mode Senyap",
   "iqamaIn": "Iqomah dalam",
+  "iqamaShowClock": "Tampilkan jam di layar Iqama",
+  "iqamaShowClockDesc": "Tampilkan waktu dan tanggal saat ini di layar hitung mundur Iqama",
   "alAthkar": "Zikir",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Idul Fitri",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Pengaturan",
-  "applicationModes": "Mode Aplikasi",
+  "applicationModes": "Mode peluncuran default",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Jika Anda menghadapi masalah dengan aplikasi, coba aktifkan opsi ini",
   "hijriAdjustments": "Penyesuaian tanggal Hijriah",
   "hijriAdjustmentsDescription": "Sesuaikan tanggal hijriah secara lokal di perangkat Anda. Ini tidak akan memengaruhi pengaturan masjid online",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Anda harus terhubung ke internet untuk menggunakan mode lama",
   "powerOnScreen": "Menyalakan layar",
   "powerOffScreen": "Matikan layar",
-  "deviceSettings": "Pengaturan perangkat",
+  "deviceSettings": "Perangkat",
   "later": "Nanti",
   "downloadQuran": "Mengunduh Quran",
   "quran": "Quran",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Pengaturan kamera",
   "invalidRtspUrl": "URL/Link tidak valid. Harap periksa URL/Link dan coba lagi.",
   "validRtspUrl": "URL/Link tervalidasi dan berhasil disimpan.",
-  "rtspCameraSettingTitle": "Koneksi Live kamera",
+  "rtspCameraSettingTitle": "Kamera langsung",
   "rtspCameraSettingDesc": "Hubungkan ke kamera lokal Anda dan tampilkan siaran shalat Jumat di layar TV.",
   "rtspCameraSettingScreenDesc": "Jika Anda memasukkan URL/Link di sini, layar Anda akan secara otomatis beralih ke streaming video saat waktu Jumat tiba",
   "validatingStream": "Memvalidasi stream...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Ini adalah string uji untuk memverifikasi apakah terjemahan AI berfungsi dengan benar",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Umum",
+  "hijriDateAdjustment": "Penyesuaian tanggal Hijriyah",
+  "interfaceLanguage": "Bahasa antarmuka",
+  "launchModeMainPrayer": "Waktu salat utama",
+  "launchModeSecondaryPrayer": "Waktu salat sekunder",
+  "timezone": "Zona waktu",
+  "wifi": "WiFi"
 }

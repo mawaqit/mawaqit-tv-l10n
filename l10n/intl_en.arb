@@ -64,6 +64,14 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Please put your phones into Silent Mode",
   "iqamaIn": "Iqama in",
+  "iqamaShowClock": "Show clock on Iqama screen",
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "iqamaShowClockDesc": "Display the current time and date on the Iqama countdown screen",
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -196,7 +204,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Settings",
-  "applicationModes": "Application Mode",
+  "applicationModes": "Default launch mode",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "If you are facing issues with the app, try to enable this option",
   "hijriAdjustments": "Local Hijri adjustments",
   "hijriAdjustmentsDescription": "Adjust the hijri date locally in your device. This will not affect the online mosque settings",
@@ -270,7 +278,7 @@
   "checkInternetLegacyMode": "You must connect to internet to use the legacy mode",
   "powerOnScreen": "Power on the screen",
   "powerOffScreen": "Power off the screen",
-  "deviceSettings": "Device Settings",
+  "deviceSettings": "Device",
   "later": "Later",
   "downloadQuran": "Download Quran",
   "quran": "Quran",
@@ -389,7 +397,7 @@
   "rtspCameraSettings": "Camera Settings",
   "invalidRtspUrl": "Invalid URL. Please check the URL and try again.",
   "validRtspUrl": "URL validated and saved successfully.",
-  "rtspCameraSettingTitle": "Live camera connection",
+  "rtspCameraSettingTitle": "Live camera",
   "rtspCameraSettingDesc": "Connect to your local camera and display jumua prayer stream on the TV screen.",
   "rtspCameraSettingScreenDesc": "If you enter a URL here, your screen will automatically switch to video streaming when Jumua time arrives",
   "validatingStream": "Validating Stream...",
@@ -491,7 +499,7 @@
   "@quranModeExplanation": {
     "description": "Explanation text for the Quran mode option"
   },
-  "appDisplayMode": "Display Mode",
+  "appDisplayMode": "Display",
   "@appDisplayMode": {
     "description": "Title for the display mode setting"
   },
@@ -506,5 +514,33 @@
   "exitQuranModeMessage": "Would you like to return to normal mode?",
   "@exitQuranModeMessage": {
     "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "settingsSectionGlobal": "Global",
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "hijriDateAdjustment": "Hijri date adjustment",
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "interfaceLanguage": "Interface language",
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "launchModeMainPrayer": "Main prayer times",
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "launchModeSecondaryPrayer": "Secondary prayer times",
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "timezone": "Timezone",
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "wifi": "WIFI",
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
   }
 }

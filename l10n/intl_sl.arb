@@ -59,6 +59,8 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Prosimo, da telefone preklopite v tihi način",
   "iqamaIn": "Iqama v",
+  "iqamaShowClock": "Prikaži uro na zaslonu ikame",
+  "iqamaShowClockDesc": "Prikaži trenutni čas in datum na zaslonu odštevanja ikame",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Nastavitve",
-  "applicationModes": "Načini uporabe",
+  "applicationModes": "Privzeti način zagona",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Če imate težave z aplikacijo, je ta možnost aktivna.",
   "hijriAdjustments": "Lokalne prilagoditve hidžrijskega datuma",
   "hijriAdjustmentsDescription": "Prilagodite hidžrijski datum lokalno v svoji napravi. To ne bo vplivalo na spletne nastavitve mošeje.",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Za uporabo starega načina se morate povezati z internetom",
   "powerOnScreen": "Vklop zaslona",
   "powerOffScreen": "Izklop zaslona",
-  "deviceSettings": "Nastavitve naprave",
+  "deviceSettings": "Naprava",
   "later": "Kasneje",
   "downloadQuran": "Prenesi Koran",
   "quran": "Koran",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Nastavitve kamere",
   "invalidRtspUrl": "Neveljaven URL. Preverite URL in poskusite znova.",
   "validRtspUrl": "URL je bila uspešno preverjena in shranjena.",
-  "rtspCameraSettingTitle": "Povezava s kamero v živo",
+  "rtspCameraSettingTitle": "Kamera v živo",
   "rtspCameraSettingDesc": "Povežite se z vašo lokalno kamero in prikažite prenos džume na TV zaslonu.",
   "rtspCameraSettingScreenDesc": "Če tukaj vnesete URL, se bo vaš zaslon samodejno preklopil na video prenos ob času džume.",
   "validatingStream": "Preverjanje pretoka ...",
@@ -471,5 +473,12 @@
   "testAITranslation": "To je testno besedilo za preverjanje, ali AI prevajanje deluje pravilno",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Globalno",
+  "hijriDateAdjustment": "Prilagoditev datuma hidžre",
+  "interfaceLanguage": "Jezik vmesnika",
+  "launchModeMainPrayer": "Glavni časi molitve",
+  "launchModeSecondaryPrayer": "Sekundarni časi molitve",
+  "timezone": "Časovni pas",
+  "wifi": "WiFi"
 }

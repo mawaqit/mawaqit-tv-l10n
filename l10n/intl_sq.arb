@@ -59,6 +59,8 @@
   "alAdhan": "Ezani",
   "turnOfPhones": "Ju lutemi, fikni telefonin tuaj.",
   "iqamaIn": "Ikameti në",
+  "iqamaShowClock": "Trego orën në ekranin e ikamës",
+  "iqamaShowClockDesc": "Shfaq kohën dhe datën aktuale në ekranin e numërimit mbrapsht të ikamës",
   "alAthkar": "Dhikri",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Gëzuar Bajramin!",
   "takbeerAleidText": "Allahu Akber, Allahu Akber, Allahu Akber, la ilahe il-la Allah, Allahu Akber, Allahu Akber, ve lillahi el-hamd",
   "settings": "Settings",
-  "applicationModes": "Mënyra e aplikimit",
+  "applicationModes": "Mënyra e paracaktuar e nisjes",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Nëse keni probleme me aplikacionin, përpiquni ta aktivizoni këtë opsion",
   "hijriAdjustments": "Rregullime Lokale/Kalendari Hixhri",
   "hijriAdjustmentsDescription": "Rregulloni datën e hixhrit në pajisjen tuaj. Kjo nuk do të ndikojë në cilësimet e xhamisë në internet",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Duhet të lidheni me internetin për të përdorur modalitetin e vjetër",
   "powerOnScreen": "Ndizni ekranin",
   "powerOffScreen": "Fikni ekranin",
-  "deviceSettings": "Cilësimet e pajisjes",
+  "deviceSettings": "Pajisje",
   "later": "Më vonë",
   "downloadQuran": "Shkarko Kur'anin",
   "quran": "Kur'ani",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Camera Settings",
   "invalidRtspUrl": "Invalid URL. Please check the URL and try again.",
   "validRtspUrl": "URL validated and saved successfully.",
-  "rtspCameraSettingTitle": "Live camera connection",
+  "rtspCameraSettingTitle": "Kamera live",
   "rtspCameraSettingDesc": "Connect to your local camera and display jumua prayer stream on the TV screen.",
   "rtspCameraSettingScreenDesc": "If you enter a URL here, your screen will automatically switch to video streaming when Jumua time arrives",
   "validatingStream": "Validating Stream...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Kjo është një varg testues për të verifikuar nëse përkthimi nga AI funksionon siç duhet",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Global",
+  "hijriDateAdjustment": "Rregullimi i datës hixhri",
+  "interfaceLanguage": "Gjuha e ndërfaqes",
+  "launchModeMainPrayer": "Oraret kryesore të namazit",
+  "launchModeSecondaryPrayer": "Oraret dytësore të namazit",
+  "timezone": "Zona kohore",
+  "wifi": "WiFi"
 }

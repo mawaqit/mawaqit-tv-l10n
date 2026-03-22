@@ -204,6 +204,12 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get iqamaIn => 'Iqama在';
 
   @override
+  String get iqamaShowClock => '在伊卡玛屏幕上显示时钟';
+
+  @override
+  String get iqamaShowClockDesc => '在伊卡玛倒计时屏幕上显示当前时间和日期';
+
+  @override
   String get alAthkar => 'Al-Athkar';
 
   @override
@@ -456,7 +462,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get settings => '设置';
 
   @override
-  String get applicationModes => '应用模式';
+  String get applicationModes => '默认启动模式';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => '如果你遇到了应用程序的问题，可以选择这个选项。';
@@ -678,7 +684,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get powerOffScreen => '关闭屏幕';
 
   @override
-  String get deviceSettings => '设备设置';
+  String get deviceSettings => '设备';
 
   @override
   String get later => '稍后再说';
@@ -775,7 +781,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   }
 
   @override
-  String get continueListening => 'Continue listening';
+  String get continueListening => '继续收听';
 
   @override
   String get noFavoriteReciters => '没有收藏的最近版。请尝试在列表中添加一个';
@@ -867,7 +873,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL验证并保存成功。';
 
   @override
-  String get rtspCameraSettingTitle => '实时摄像头连接';
+  String get rtspCameraSettingTitle => '直播摄像头';
 
   @override
   String get rtspCameraSettingDesc => '连接到您的本地摄像头并在电视屏幕上显示跳跃祈祷流。';
@@ -1026,7 +1032,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display Mode';
+  String get appDisplayMode => 'Display';
 
   @override
   String get appDisplayModeExplanation => 'Choose how your screen will display content';
@@ -1036,4 +1042,25 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
 
   @override
   String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+
+  @override
+  String get settingsSectionGlobal => '全局';
+
+  @override
+  String get hijriDateAdjustment => '伊斯兰历日期调整';
+
+  @override
+  String get interfaceLanguage => '界面语言';
+
+  @override
+  String get launchModeMainPrayer => '主要礼拜时间';
+
+  @override
+  String get launchModeSecondaryPrayer => '次要礼拜时间';
+
+  @override
+  String get timezone => '时区';
+
+  @override
+  String get wifi => 'WiFi';
 }

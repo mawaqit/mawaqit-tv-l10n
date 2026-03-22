@@ -59,6 +59,8 @@
   "alAdhan": "Al आदान",
   "turnOfPhones": "कृपया अपने फोन को साइलेंट मोड में रखें",
   "iqamaIn": "इकामा में",
+  "iqamaShowClock": "इकामा स्क्रीन पर घड़ी दिखाएं",
+  "iqamaShowClockDesc": "इकामा काउंटडाउन स्क्रीन पर वर्तमान समय और तारीख प्रदर्शित करें",
   "alAthkar": "अल अथकार",
   "azkarList0": "अस्तग़फिरु अल्लाह, अस्तग़फिरु अल्लाह, अस्तग़फिरु अल्लाह अल्लाहुम्मा अंत एस्सलाम वा मिनेका एस्सलाम, तबरक्त या ढल जलाली वेल इकराम अल्लाहुम्मा ए`इनी `अला धिक्रिका वा चुकरिका वा हुस्नी `इबादतिक",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "ईद मुबारक",
   "takbeerAleidText": "अल्लाहु अकबर, अल्लाहु अकबर, अल्लाहु अकबर, ला इलाहा इल्ला अल्लाह, अल्लाहु अकबर, अल्लाहु अकबर, वा लिल्लाही अल-हम्द",
   "settings": "सेटिंग्स",
-  "applicationModes": "आवेदन मोड",
+  "applicationModes": "डिफ़ॉल्ट लॉन्च मोड",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "यदि आप ऐप के साथ समस्याओं का सामना कर रहे हैं, तो इस विकल्प को सक्षम करने का प्रयास करें",
   "hijriAdjustments": "स्थानीय हिजरी समायोजन",
   "hijriAdjustmentsDescription": "अपने डिवाइस में हिजरी तारीख को स्थानीय रूप से समायोजित करें। इससे ऑनलाइन मस्जिद सेटिंग पर कोई असर नहीं पड़ेगा",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "लीगेसी मोड का उपयोग करने के लिए आपको इंटरनेट से कनेक्ट होना होगा",
   "powerOnScreen": "स्क्रीन पर पावर",
   "powerOffScreen": "स्क्रीन को पावर बंद करें",
-  "deviceSettings": "डिवाइस सेटिंग्स",
+  "deviceSettings": "डिवाइस",
   "later": "बाद में",
   "downloadQuran": "कुरान डाउनलोड करें",
   "quran": "कुरान",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "कैमरा सेटिंग्स",
   "invalidRtspUrl": "अमान्य URL. कृपया URL जाँचें और पुनः प्रयास करें।",
   "validRtspUrl": "URL सफलतापूर्वक सत्यापित और सहेजा गया।",
-  "rtspCameraSettingTitle": "लाइव कैमरा कनेक्शन",
+  "rtspCameraSettingTitle": "लाइव कैमरा",
   "rtspCameraSettingDesc": "अपना स्थानीय कैमरा कनेक्ट करें और जुमुआ नमाज़ का प्रसारण टीवी स्क्रीन पर दिखाएँ।",
   "rtspCameraSettingScreenDesc": "यदि आप यहाँ एक URL दर्ज करते हैं, तो जुमुआ का समय आने पर आपकी स्क्रीन स्वतः वीडियो स्ट्रीमिंग पर चली जाएगी",
   "validatingStream": "स्ट्रीम सत्यापित की जा रही है...",
@@ -471,5 +473,12 @@
   "testAITranslation": "यह एक परीक्षण स्ट्रिंग है जिससे जांचा जा सके कि एआई अनुवाद सही प्रकार से काम कर रहा है।",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "सामान्य",
+  "hijriDateAdjustment": "हिजरी तिथि समायोजन",
+  "interfaceLanguage": "इंटरफ़ेस भाषा",
+  "launchModeMainPrayer": "मुख्य नमाज़ समय",
+  "launchModeSecondaryPrayer": "द्वितीयक नमाज़ समय",
+  "timezone": "समय क्षेत्र",
+  "wifi": "वाईफाई"
 }

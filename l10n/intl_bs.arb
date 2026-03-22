@@ -59,6 +59,8 @@
   "alAdhan": "Ezan",
   "turnOfPhones": "Molimo vas, utišajte ili isključite svoje telefone!",
   "iqamaIn": "Ikamet za",
+  "iqamaShowClock": "Prikaži sat na ekranu ikame",
+  "iqamaShowClockDesc": "Prikaži trenutno vrijeme i datum na ekranu odbrojavanje ikame",
   "alAthkar": "Dhikr",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Bajram Šerif Mubarek Olsun! \nHajrli Bajram",
   "takbeerAleidText": "Allahu Akber, Allahu Akber, Allahu Akber, la ilahe il-la Allah, Allahu Akber, Allahu Akber, ve lillahi el-hamd",
   "settings": "Postavke",
-  "applicationModes": "Način primjene",
+  "applicationModes": "Zadani način pokretanja",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Ako imate problema s aplikacijom, pokušajte aktivirati ovu opciju",
   "hijriAdjustments": "Podešavanje hidžretskog datuma na vašem uređaju",
   "hijriAdjustmentsDescription": "Ispravite hidžretski datum na svom uređaju. Ovo neće utjecati na opšte postavke u Mawaqit. net platformi",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Morate se povezati na internet da biste koristili naslijeđeni modus rada",
   "powerOnScreen": "Uključite ekran",
   "powerOffScreen": "Isključite ekran",
-  "deviceSettings": "Postavke uređaja",
+  "deviceSettings": "Uređaj",
   "later": "Kasnije",
   "downloadQuran": "Preuzmite Kur'an",
   "quran": "Kur'an",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Camera Settings",
   "invalidRtspUrl": "Invalid URL. Please check the URL and try again.",
   "validRtspUrl": "URL validated and saved successfully.",
-  "rtspCameraSettingTitle": "Live camera connection",
+  "rtspCameraSettingTitle": "Kamera uživo",
   "rtspCameraSettingDesc": "Connect to your local camera and display jumua prayer stream on the TV screen.",
   "rtspCameraSettingScreenDesc": "If you enter a URL here, your screen will automatically switch to video streaming when Jumua time arrives",
   "validatingStream": "Validating Stream...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Ovo je testna rečenica za provjeru ispravnosti AI prevoda",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Globalno",
+  "hijriDateAdjustment": "Podešavanje hidžretskog datuma",
+  "interfaceLanguage": "Jezik sučelja",
+  "launchModeMainPrayer": "Glavna vremena namaza",
+  "launchModeSecondaryPrayer": "Sekundarna vremena namaza",
+  "timezone": "Vremenska zona",
+  "wifi": "WiFi"
 }

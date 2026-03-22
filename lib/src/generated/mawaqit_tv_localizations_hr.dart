@@ -204,6 +204,12 @@ class MawaqitTvLocalizationsHr extends MawaqitTvLocalizations {
   String get iqamaIn => 'Agamat nakon';
 
   @override
+  String get iqamaShowClock => 'Prikaži sat na ekranu ikame';
+
+  @override
+  String get iqamaShowClockDesc => 'Prikaži trenutno vrijeme i datum na ekranu odbrojavanja ikame';
+
+  @override
   String get alAthkar => 'Al-Athkar';
 
   @override
@@ -456,7 +462,7 @@ class MawaqitTvLocalizationsHr extends MawaqitTvLocalizations {
   String get settings => 'Postavke';
 
   @override
-  String get applicationModes => 'Način rada aplikacije';
+  String get applicationModes => 'Zadani način pokretanja';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'Ako imate problema s aplikacijom, pokušajte omogućiti ovu opciju';
@@ -678,7 +684,7 @@ class MawaqitTvLocalizationsHr extends MawaqitTvLocalizations {
   String get powerOffScreen => 'Isključi zaslon';
 
   @override
-  String get deviceSettings => 'Postavke uređaja';
+  String get deviceSettings => 'Uređaj';
 
   @override
   String get later => 'Kasnije';
@@ -775,7 +781,7 @@ class MawaqitTvLocalizationsHr extends MawaqitTvLocalizations {
   }
 
   @override
-  String get continueListening => 'Continue listening';
+  String get continueListening => 'Nastavite slušati';
 
   @override
   String get noFavoriteReciters => 'Nema omiljenih učača. Pokušajte dodati jednog na popis.';
@@ -867,7 +873,7 @@ class MawaqitTvLocalizationsHr extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL je uspješno potvrđen i spremljen.';
 
   @override
-  String get rtspCameraSettingTitle => 'Veza s kamerom uživo';
+  String get rtspCameraSettingTitle => 'Kamera uživo';
 
   @override
   String get rtspCameraSettingDesc => 'Povežite se s vašom lokalnom kamerom i prikazujte prijenos džuma-namaza na TV zaslonu.';
@@ -1026,7 +1032,7 @@ class MawaqitTvLocalizationsHr extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display Mode';
+  String get appDisplayMode => 'Display';
 
   @override
   String get appDisplayModeExplanation => 'Choose how your screen will display content';
@@ -1036,4 +1042,25 @@ class MawaqitTvLocalizationsHr extends MawaqitTvLocalizations {
 
   @override
   String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+
+  @override
+  String get settingsSectionGlobal => 'Globalno';
+
+  @override
+  String get hijriDateAdjustment => 'Podešavanje hidžretskog datuma';
+
+  @override
+  String get interfaceLanguage => 'Jezik sučelja';
+
+  @override
+  String get launchModeMainPrayer => 'Glavna vremena namaza';
+
+  @override
+  String get launchModeSecondaryPrayer => 'Sekundarna vremena namaza';
+
+  @override
+  String get timezone => 'Vremenska zona';
+
+  @override
+  String get wifi => 'WiFi';
 }

@@ -59,6 +59,8 @@
   "alAdhan": "Ezan",
   "turnOfPhones": "Lütfen telefonlarınızı kapatın yada sessiz konumuna getirin",
   "iqamaIn": "İkamet kalan süre",
+  "iqamaShowClock": "İkamet ekranında saat göster",
+  "iqamaShowClockDesc": "İkamet geri sayım ekranında güncel saat ve tarihi göster",
   "alAthkar": "Zikir",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Bayram mübarek olsun",
   "takbeerAleidText": "Allâhü ekber Allâhü ekber lâ ilâhe illallâhü vallâhü ekber Allâhü ekber ve lillâhi'l-hamd",
   "settings": "Ayarlar",
-  "applicationModes": "Uygulama modları",
+  "applicationModes": "Varsayılan başlatma modu",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Uygulamayla ilgili bir sorunla karşılaşıyorsanız bu seçeneği etkinleştirin",
   "hijriAdjustments": "Yerel Hicri ayarlamalar",
   "hijriAdjustmentsDescription": "Hicri tarihi cihazınızda yerel olarak ayarlayın. Bu, çevrimiçi cami ayarlarını etkilemez.",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Eski modu kullanmak için internete bağlanmanız gerekir",
   "powerOnScreen": "Ekranı açmak",
   "powerOffScreen": "Ekranı kapatmak",
-  "deviceSettings": "Cihaz Ayarları",
+  "deviceSettings": "Cihaz",
   "later": "Sonra",
   "downloadQuran": "Kuran indir",
   "quran": "Kur'an",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Kamera Ayarları",
   "invalidRtspUrl": "Geçersiz URL. Lütfen URL'yi kontrol edip tekrar deneyin.",
   "validRtspUrl": "URL başarıyla doğrulandı ve kaydedildi.",
-  "rtspCameraSettingTitle": "Canlı kamera bağlantısı",
+  "rtspCameraSettingTitle": "Canlı kamera",
   "rtspCameraSettingDesc": "Yerel kameranıza bağlanın ve cuma namazı yayınının TV ekranında görüntülenmesini sağlayın.",
   "rtspCameraSettingScreenDesc": "Buraya bir URL girerseniz, Cuma vakti geldiğinde ekranınız otomatik olarak video yayınına geçer",
   "validatingStream": "Yayın doğrulanıyor...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Bu, Yapay Zeka çevirisinin düzgün çalıştığını doğrulamak için bir test metnidir.",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Genel",
+  "hijriDateAdjustment": "Hicri tarih ayarı",
+  "interfaceLanguage": "Arayüz dili",
+  "launchModeMainPrayer": "Ana namaz vakitleri",
+  "launchModeSecondaryPrayer": "İkincil namaz vakitleri",
+  "timezone": "Saat dilimi",
+  "wifi": "WiFi"
 }

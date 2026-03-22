@@ -204,6 +204,12 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get iqamaIn => 'الإقامة بعد';
 
   @override
+  String get iqamaShowClock => 'عرض الساعة في شاشة الإقامة';
+
+  @override
+  String get iqamaShowClockDesc => 'عرض الوقت والتاريخ الحالي في شاشة العد التنازلي للإقامة';
+
+  @override
   String get alAthkar => 'الأذكار';
 
   @override
@@ -678,7 +684,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get powerOffScreen => 'إيقاف تشغيل الشاشة';
 
   @override
-  String get deviceSettings => 'إعدادات الجهاز';
+  String get deviceSettings => 'الجهاز';
 
   @override
   String get later => 'لاحقاً';
@@ -775,7 +781,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   }
 
   @override
-  String get continueListening => 'متابعة الاستماع';
+  String get continueListening => 'مواصلة الاستماع';
 
   @override
   String get noFavoriteReciters => 'لا يوجد مقرئون مفضلون. حاول إضافة واحد إلى القائمة';
@@ -867,7 +873,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get validRtspUrl => 'تم التحقق من رابط RTSP وحفظه بنجاح.';
 
   @override
-  String get rtspCameraSettingTitle => 'اتصال الكاميرا المباشر';
+  String get rtspCameraSettingTitle => 'الكاميرا المباشرة';
 
   @override
   String get rtspCameraSettingDesc => 'اتصل بالكاميرا المحلية واعرض بث صلاة الجمعة على شاشة التلفاز.';
@@ -1026,7 +1032,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'عرض شاشة قراءة القرآن، بدءاً من آخر صفحة تمت قراءتها';
 
   @override
-  String get appDisplayMode => 'وضع العرض';
+  String get appDisplayMode => 'العرض';
 
   @override
   String get appDisplayModeExplanation => 'اختر كيفية عرض المحتوى على شاشتك';
@@ -1036,4 +1042,25 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
 
   @override
   String get exitQuranModeMessage => 'هل تريد العودة إلى الوضع العادي؟';
+
+  @override
+  String get settingsSectionGlobal => 'عام';
+
+  @override
+  String get hijriDateAdjustment => 'ضبط التاريخ الهجري';
+
+  @override
+  String get interfaceLanguage => 'لغة الواجهة';
+
+  @override
+  String get launchModeMainPrayer => 'أوقات الصلاة الرئيسية';
+
+  @override
+  String get launchModeSecondaryPrayer => 'أوقات الصلاة الثانوية';
+
+  @override
+  String get timezone => 'المنطقة الزمنية';
+
+  @override
+  String get wifi => 'واي فاي';
 }

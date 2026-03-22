@@ -59,6 +59,8 @@
   "alAdhan": "Az imára hívás",
   "turnOfPhones": "Kérjük, kapcsoljátok telefonjaitokat néma üzemmódba",
   "iqamaIn": "Al Iqáma (az ima kezdete) in",
+  "iqamaShowClock": "Óra megjelenítése az ikáma képernyőn",
+  "iqamaShowClockDesc": "Az aktuális idő és dátum megjelenítése az ikáma visszaszámlálás képernyőn",
   "alAthkar": "Allah emlegetései",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Alláhu Akbar, Alláhu Akbar, Alláhu Akbar, lá iláha illá Alláh, Alláhu Akbar, Alláhu Akbar, wa lilláhil-hamd",
   "settings": "Beállítások",
-  "applicationModes": "Alkalmazás üzemmód",
+  "applicationModes": "Alapértelmezett indítási mód",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Ha problémáid vannak az alkalmazással, próbáld meg engedélyezni ezt az opciót\n",
   "hijriAdjustments": "Helyi Hijri (hidzsri) beállítások",
   "hijriAdjustmentsDescription": "Állítsd be helyileg a hijri (hidzsri) dátumot az eszközödön. Ez nem fogja befolyásolni az online mecset beállításait",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "A hagyományos (legacy) üzemmód használatához csatlakozz az internethez ",
   "powerOnScreen": "Kapcsold be a képernyőt",
   "powerOffScreen": "Kapcsold ki a képernyőt",
-  "deviceSettings": "Eszköz beállításai",
+  "deviceSettings": "Eszköz",
   "later": "Később",
   "downloadQuran": "Korán letöltése",
   "quran": "Korán",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Kamera beállítások",
   "invalidRtspUrl": "Érvénytelen URL. Kérjük, ellenőrizd az URL-t, és próbálg meg újra.",
   "validRtspUrl": "URL érvényesítése és mentése sikeres.",
-  "rtspCameraSettingTitle": "Élő kamerakapcsolat",
+  "rtspCameraSettingTitle": "Élő kamera",
   "rtspCameraSettingDesc": "Csatlakozz a helyi kamerához, és jelenítsd meg a pénteki ima streamet a TV képernyőjén.",
   "rtspCameraSettingScreenDesc": "Ha itt megadsz egy URL-t, akkor a képernyőd automatikusan átvált videostreamingre, amikor elérkezik a pénteki ima ideje.",
   "validatingStream": "Stream érvényesítése...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Ez egy teszt szöveg annak ellenőrzésére, hogy az AI fordítás megfelelően működik.",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Általános",
+  "hijriDateAdjustment": "Hidzsra dátum beállítása",
+  "interfaceLanguage": "Felhasználói felület nyelve",
+  "launchModeMainPrayer": "Fő imaidők",
+  "launchModeSecondaryPrayer": "Másodlagos imaidők",
+  "timezone": "Időzóna",
+  "wifi": "WiFi"
 }

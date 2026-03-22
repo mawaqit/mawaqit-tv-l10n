@@ -59,6 +59,8 @@
   "alAdhan": "อาซาน الأذان",
   "turnOfPhones": "กรุณาปิดมือถือ หรือเข้าสู่โหมดปิดเสียง ขณะละหมาด",
   "iqamaIn": "เวลาอีกอมะฮฺ",
+  "iqamaShowClock": "แสดงนาฬิกาบนหน้าจออิกามะ",
+  "iqamaShowClockDesc": "แสดงเวลาและวันที่ปัจจุบันบนหน้าจอนับถอยหลังอิกามะ",
   "alAthkar": "อัล-อัซการ",
   "azkarList0": "Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "อีดมูบาร๊อก",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "ตั้งค่า",
-  "applicationModes": "โหมดการใช้งาน",
+  "applicationModes": "โหมดเริ่มต้นเริ่มตั้งต้น",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "หากคุณประสบปัญหากับแอป ให้ลองเปิดใช้งานตัวเลือกนี้",
   "hijriAdjustments": "การปรับเปลี่ยนฮิจเราะห์ในท้องถิ่น",
   "hijriAdjustmentsDescription": "ปรับวันที่ฮิจเราะห์ในอุปกรณ์ของคุณ สิ่งนี้จะไม่ส่งผลกระทบต่อการตั้งค่ามัสยิดออนไลน์",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "คุณต้องเชื่อมต่ออินเทอร์เน็ตเพื่อใช้โหมดเดิม",
   "powerOnScreen": "เปิดเครื่องบนหน้าจอ",
   "powerOffScreen": "ปิดเครื่องบนหน้าจอ",
-  "deviceSettings": "ตั้งค่าอุปกรณ์",
+  "deviceSettings": "อุปกรณ์",
   "later": "ภายหลัง",
   "downloadQuran": "ดาวน์โหลดอัลกุรอาน",
   "quran": "อัลกุรอาน",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "ตั้งค่ากล้อง",
   "invalidRtspUrl": "URL ไม่ถูกต้อง กรุณาตรวจสอบ URL แล้วลองใหม่อีกครั้ง",
   "validRtspUrl": "ตรวจสอบและบันทึก URL เรียบร้อยแล้ว.",
-  "rtspCameraSettingTitle": "เชื่อมต่อกล้องสด",
+  "rtspCameraSettingTitle": "กล้องสด",
   "rtspCameraSettingDesc": "เชื่อมต่อกับกล้องภายในของคุณและแสดงสตรีมละหมาดญุมอัตบนหน้าจอทีวี.",
   "rtspCameraSettingScreenDesc": "หากคุณป้อน URL ที่นี่ หน้าจอของคุณจะเปลี่ยนเป็นวิดีโอสตรีมอัตโนมัติเมื่อถึงเวลาญุมอัต",
   "validatingStream": "กำลังตรวจสอบสตรีม...",
@@ -471,5 +473,12 @@
   "testAITranslation": "นี่คือสตริงทดสอบเพื่อยืนยันว่าการแปล AI ทำงานอย่างถูกต้อง",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "ทั่วไป",
+  "hijriDateAdjustment": "การปรับวันที่ฮิจเราะห์",
+  "interfaceLanguage": "ภาษาของส่วนต่อประสาน",
+  "launchModeMainPrayer": "เวลาละหมาดหลัก",
+  "launchModeSecondaryPrayer": "เวลาละหมาดรอง",
+  "timezone": "เขตเวลา",
+  "wifi": "WiFi"
 }

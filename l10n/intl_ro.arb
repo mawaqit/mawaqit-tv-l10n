@@ -59,6 +59,8 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Vă rugăm să vă puneți telefoanele în modul silențios",
   "iqamaIn": "Iqama în",
+  "iqamaShowClock": "Afișează ceasul pe ecranul Iqama",
+  "iqamaShowClockDesc": "Afișează ora și data curentă pe ecranul de numărătoare inversă Iqama",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Setări",
-  "applicationModes": "Moduri de aplicare",
+  "applicationModes": "Modul implicit de lansare",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Dacă întâmpinați o problemă cu aplicația activă această opțiune",
   "hijriAdjustments": "Ajustări locale Hijri",
   "hijriAdjustmentsDescription": "Reglaţi data hijri pe aparatul dvs. Acest lucru nu va afecta setările moscheii online",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Trebuie să vă conectați la internet pentru a utiliza modul moștenire",
   "powerOnScreen": "Putere pe ecran",
   "powerOffScreen": "Opriți ecranul",
-  "deviceSettings": "Setări dispozitiv",
+  "deviceSettings": "Dispozitiv",
   "later": "Mai târziu",
   "downloadQuran": "Descarcă Coran",
   "quran": "Coran",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Setări cameră foto",
   "invalidRtspUrl": "URL invalid. Vă rugăm să verificaţi URL-ul şi încercaţi din nou.",
   "validRtspUrl": "URL validat şi salvat cu succes.",
-  "rtspCameraSettingTitle": "Conexiune cameră live",
+  "rtspCameraSettingTitle": "Cameră live",
   "rtspCameraSettingDesc": "Conectează-te la camera ta locală şi afişează stream-ul pentru jumua pe ecranul televizorului.",
   "rtspCameraSettingScreenDesc": "Dacă introduceți aici un URL, ecranul se va comuta automat pe video streaming atunci când vine timpul Jumua",
   "validatingStream": "Validare Stream...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Acesta este un șir de test pentru a verifica dacă traducerea AI funcționează corect",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Global",
+  "hijriDateAdjustment": "Ajustare dată Hijri",
+  "interfaceLanguage": "Limba interfeței",
+  "launchModeMainPrayer": "Orele principale de rugăciune",
+  "launchModeSecondaryPrayer": "Orele secundare de rugăciune",
+  "timezone": "Fus orar",
+  "wifi": "WiFi"
 }

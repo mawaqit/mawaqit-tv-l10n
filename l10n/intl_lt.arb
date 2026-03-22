@@ -59,6 +59,8 @@
   "alAdhan": "Al Adanas",
   "turnOfPhones": "Perjunkite telefonus į tylųjį režimą",
   "iqamaIn": "Iqama in",
+  "iqamaShowClock": "Rodyti laikrodį ikamos ekrane",
+  "iqamaShowClockDesc": "Rodyti dabartinį laiką ir datą ikamos atgalinės atskaitos ekrane",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,7 +193,7 @@
   "eidMubarak": "Eid Mubarak",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Nustatymai",
-  "applicationModes": "Taikymo režimai",
+  "applicationModes": "Numatytasis paleidimo režimas",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Jei susiduriate su problema su aktyvia programėle, pasirinkite šią parinktį",
   "hijriAdjustments": "Vietiniai hidžros koregavimai",
   "hijriAdjustmentsDescription": "Koreguokite hidžros datą vietiškai savo įrenginyje. Tai nepakeis mečetės nustatymų internete",
@@ -264,7 +266,7 @@
   "checkInternetLegacyMode": "Norėdami naudoti seną režimą, turite prisijungti prie interneto",
   "powerOnScreen": "Įjungti ekraną",
   "powerOffScreen": "Išjungti ekraną",
-  "deviceSettings": "Įrenginio nustatymai",
+  "deviceSettings": "Įrenginys",
   "later": "Vėliau",
   "downloadQuran": "Atsisiųsti Koraną",
   "quran": "Koranas",
@@ -383,7 +385,7 @@
   "rtspCameraSettings": "Kameros nustatymai",
   "invalidRtspUrl": "Neteisingas URL adresas. Patikrinkite adresą ir bandykite dar kartą.",
   "validRtspUrl": "URL patikrintas ir sėkmingai išsaugotas.",
-  "rtspCameraSettingTitle": "Tiesioginis kameros ryšys",
+  "rtspCameraSettingTitle": "Tiesioginė kamera",
   "rtspCameraSettingDesc": "Prisijunkite prie savo vietinės kameros ir rodykite Džumu'a maldos transliaciją per televizorių.",
   "rtspCameraSettingScreenDesc": "Jei čia įvesite URL, jūsų ekranas automatiškai persijungs į vaizdo transliaciją, kai ateis Džumu'a laikas",
   "validatingStream": "Transliacija tikrinama...",
@@ -471,5 +473,12 @@
   "testAITranslation": "Tai yra bandomasis tekstas patikrinti, ar AI vertimas veikia teisingai",
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
-  }
+  },
+  "settingsSectionGlobal": "Bendra",
+  "hijriDateAdjustment": "Hidžros datos koregavimas",
+  "interfaceLanguage": "Sąsajos kalba",
+  "launchModeMainPrayer": "Pagrindiniai maldų laikai",
+  "launchModeSecondaryPrayer": "Antriniai maldų laikai",
+  "timezone": "Laiko juosta",
+  "wifi": "WiFi"
 }
