@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Turpināt klausīties",
+  "continueListening": "Turpiniet klausīties",
   "noFavoriteReciters": "Nav neviena izlases lasītāja. Pievienojiet kādu sarakstam",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Nadaljuj poslušanje",
+  "continueListening": "Nadaljujte s poslušanjem",
   "noFavoriteReciters": "Ni najljubših recitatorjev. Poskusite dodati vsaj enega na seznam",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

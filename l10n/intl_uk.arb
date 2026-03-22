@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Продовжити прослуховування",
+  "continueListening": "Слухайте далі",
   "noFavoriteReciters": "Немає улюблених читців. Спробуйте додати одного до списку",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

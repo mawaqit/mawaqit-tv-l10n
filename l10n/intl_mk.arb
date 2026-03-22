@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Продолжи со слушање",
+  "continueListening": "Продолжете да слушате",
   "noFavoriteReciters": "Нема омилени чтеци. Обидете се да додадете некој на листата",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

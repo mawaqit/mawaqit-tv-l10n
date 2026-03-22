@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Tęsti klausymą",
+  "continueListening": "Klausyk toliau",
   "noFavoriteReciters": "Nėra mėgstamų skaitytojų. Pridėkite vieną į sąrašą",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

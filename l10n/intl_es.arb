@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Continuar escuchando",
+  "continueListening": "Seguir escuchando",
   "noFavoriteReciters": "No hay recetarios favoritos. Intenta añadir uno a la lista",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"

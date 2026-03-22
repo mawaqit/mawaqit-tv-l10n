@@ -341,7 +341,7 @@
       }
     }
   },
-  "continueListening": "Jatka kuuntelua",
+  "continueListening": "Jatka kuuntelemista",
   "noFavoriteReciters": "Ei suosikkitunnisteita. Yritä lisätä yksi listaan",
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"
