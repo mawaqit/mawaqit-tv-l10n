@@ -267,6 +267,12 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get shuruk => 'Puɗal';
 
   @override
+  String get duha => 'Duha';
+
+  @override
+  String get duhaTime => 'Duha time';
+
+  @override
   String get reset => 'Firlit';
 
   @override
