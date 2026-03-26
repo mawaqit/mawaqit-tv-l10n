@@ -969,10 +969,10 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get scheduleInOnlineMode => 'Please connect to the internet to schedule Quran listening';
 
   @override
-  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah';
+  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Athan and Iqamah';
 
   @override
-  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.';
+  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Athan and Iqamah.';
 
   @override
   String get processingRequest => 'Processing request...';
@@ -3015,6 +3015,9 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
 
   @override
   String get scheduleInOnlineMode => 'Por favor, ligue-se à internet para agendar a audição do Alcorão';
+
+  @override
+  String get duaaBetweenAdhanAndIqamaaTitle => 'A súplica (duá) não é rejeitada entre o Azán e o Iqamah.';
 
   @override
   String get duaBetweenAdhanIqamah => 'A súplica (duá) não é rejeitada entre o Azán e o Iqamah.';
