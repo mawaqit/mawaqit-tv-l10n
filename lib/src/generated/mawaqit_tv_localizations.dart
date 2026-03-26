@@ -352,7 +352,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @azanIn.
   ///
   /// In en, this message translates to:
-  /// **'Athan in'**
+  /// **'Azan in'**
   String get azanIn;
 
   /// No description provided for @sec.
@@ -550,7 +550,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @afterAdhanHadithTitle.
   ///
   /// In en, this message translates to:
-  /// **'After Athan Du`aa'**
+  /// **'After adhan Du`aa'**
   String get afterAdhanHadithTitle;
 
   /// No description provided for @afterSalahHadith.
@@ -708,18 +708,6 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Shuruk'**
   String get shuruk;
-
-  /// No description provided for @duha.
-  ///
-  /// In en, this message translates to:
-  /// **'Duha'**
-  String get duha;
-
-  /// No description provided for @duhaTime.
-  ///
-  /// In en, this message translates to:
-  /// **'Duha time'**
-  String get duhaTime;
 
   /// No description provided for @reset.
   ///
@@ -880,7 +868,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @afterAdhanHadith.
   ///
   /// In en, this message translates to:
-  /// **'After Athan Hadith'**
+  /// **'After Adhan Hadith'**
   String get afterAdhanHadith;
 
   /// No description provided for @afterSalahAzkar.
@@ -1486,7 +1474,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @screenLockDesc2.
   ///
   /// In en, this message translates to:
-  /// **'This feature turn on/off the device before and after each prayer Athan'**
+  /// **'This feature turn on/off the device before and after each prayer Adhan'**
   String get screenLockDesc2;
 
   /// No description provided for @before.
@@ -2092,13 +2080,13 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @duaaBetweenAdhanAndIqamaaTitle.
   ///
   /// In en, this message translates to:
-  /// **'Supplication (Du\'a) is not rejected between the Athan and Iqamah'**
+  /// **'Supplication (Du\'a) is not rejected between the Adhan and Iqamah'**
   String get duaaBetweenAdhanAndIqamaaTitle;
 
   /// No description provided for @duaBetweenAdhanIqamah.
   ///
   /// In en, this message translates to:
-  /// **'Supplication (Du\'a) is not rejected between the Athan and Iqamah.'**
+  /// **'Supplication (Du\'a) is not rejected between the Adhan and Iqamah.'**
   String get duaBetweenAdhanIqamah;
 
   /// No description provided for @processingRequest.
@@ -2176,7 +2164,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @prayerTimeNotificationDesc.
   ///
   /// In en, this message translates to:
-  /// **'Get the Athan at prayer times, even when the app is closed'**
+  /// **'Get the Adhan at prayer times, even when the app is closed'**
   String get prayerTimeNotificationDesc;
 
   /// No description provided for @enablePrayerReminders.

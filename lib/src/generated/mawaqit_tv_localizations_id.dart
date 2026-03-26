@@ -267,12 +267,6 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get shuruk => 'Syuruk';
 
   @override
-  String get duha => 'Duha';
-
-  @override
-  String get duhaTime => 'Duha time';
-
-  @override
   String get reset => 'Mengatur ulang';
 
   @override

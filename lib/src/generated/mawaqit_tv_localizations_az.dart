@@ -267,12 +267,6 @@ class MawaqitTvLocalizationsAz extends MawaqitTvLocalizations {
   String get shuruk => 'Günəş';
 
   @override
-  String get duha => 'Duha';
-
-  @override
-  String get duhaTime => 'Duha time';
-
-  @override
   String get reset => 'Sıfırla';
 
   @override
