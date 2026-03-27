@@ -125,6 +125,8 @@
   "jumuaaScreenTitle": "Waktu Shalat Jumat",
   "jumuaaHadith": "Nabi ﷺ bersabda, \"Barangsiapa berwudhu dengan sempurna, kemudian pergi ke jumatan, lalu mendengarkan dan diam, maka diampuni baginya apa yang ada di antara waktu tersebut hingga Jumat berikutnya dan tiga hari berikutnya, dan barangsiapa yang menyentuh batu, maka sungguh ia telah berbuat sia-sia.\"",
   "shuruk": "Syuruk",
+  "duha": "Duha",
+  "duhaTime": "Duha Time",
   "reset": "Mengatur ulang",
   "mosqueNotFoundMessage": "Maaf, masjid Anda tidak ditemukan, atau mungkin masjid tersebut hilang atau dinonaktifkan untuk sementara.",
   "noInternetMessage": "Tidak ada akses internet. Harap verifikasi konektivitas internet Anda dan coba lagi. Apakah Wi-Fi atau Ethernet Anda Tersambung?",

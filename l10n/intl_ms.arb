@@ -125,6 +125,8 @@
   "jumuaaScreenTitle": "Masa Solat Jumaat",
   "jumuaaHadith": "Rasulullah ﷺ bersabda: “Sesiapa yang berwuduk dengan sempurna kemudian pergi Solat Jumaat kemudian mendengar dan diam, maka diampuni dosanya antara waktu itu dan Jumaat berikutnya dan tiga hari lagi. Barangsiapa menyentuh batu, maka sesungguhnya ia telah membuat sia-sia”",
   "shuruk": "Syuruk",
+  "duha": "Duha",
+  "duhaTime": "Duha Time",
   "reset": "Set Semula",
   "mosqueNotFoundMessage": "Maaf, masjid anda tidak ditemui, atau mungkin hilang atau dilumpuhkan buat sementara waktu.",
   "noInternetMessage": "Tiada akses internet. Sila sahkan sambungan Internet anda dan cuba lagi. Adakah Wi-Fi atau Ethernet anda Disambungkan?",

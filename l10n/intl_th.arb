@@ -125,6 +125,8 @@
   "jumuaaScreenTitle": "เวลายุมอะฮฺ",
   "jumuaaHadith": "The Prophet ﷺ (peace and blessings of Allah be upon him) said “Whoever does the ablutions perfectly then goes to jumua and then listens and is silent, he is forgiven what is between that time and the following Friday and three more days and the one who touches stones has certainly made a futility”",
   "shuruk": "ซุรุก الشروق",
+  "duha": "Duha",
+  "duhaTime": "Duha Time",
   "reset": "รีเซ็ต",
   "mosqueNotFoundMessage": "ขออภัย ไม่พบมัสยิดของคุณ ไม่เช่นนั้นมัสยิดอาจหายไปหรือปิดใช้งานชั่วคราว",
   "noInternetMessage": "ไม่มีอินเทอร์เน็ต โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณแล้วลองอีกครั้ง เชื่อมต่อ Wi-Fi หรือ Ethernet ของคุณแล้วหรือยัง?",

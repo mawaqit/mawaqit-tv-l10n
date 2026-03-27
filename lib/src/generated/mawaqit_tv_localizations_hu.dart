@@ -267,6 +267,12 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get shuruk => 'Napfelkelte';
 
   @override
+  String get duha => 'Duha';
+
+  @override
+  String get duhaTime => 'Duha Time';
+
+  @override
   String get reset => 'Visszaállítás';
 
   @override

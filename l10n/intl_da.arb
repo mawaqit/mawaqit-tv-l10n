@@ -125,6 +125,8 @@
   "jumuaaScreenTitle": "Jumuaa tid",
   "jumuaaHadith": "Profeten ﷺ (Allahs fred og velsignelser være med ham) sagde: \"Den, der gør afvaskningerne perfekt og derefter går til jumua og derefter lytter og er tavs, han er tilgivet, hvad der er mellem det tidspunkt og den følgende fredag og tre dage mere, og den, der rører ved sten, har helt sikkert gjort en meningsløshed\"",
   "shuruk": "Shuruk",
+  "duha": "Duha",
+  "duhaTime": "Duha Time",
   "reset": "Nulstil",
   "mosqueNotFoundMessage": "Beklager, din moské blev ikke fundet, eller den mangler måske eller er midlertidigt deaktiveret.",
   "noInternetMessage": "Ingen internetadgang. Kontroller venligst din internetforbindelse og prøv igen. Er din Wi-Fi- eller Ethernet-forbindelse tilsluttet?",

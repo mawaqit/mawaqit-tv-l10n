@@ -125,6 +125,8 @@
   "jumuaaScreenTitle": "Cuma Vakti",
   "jumuaaHadith": "Ebû Hureyre radıyallahu anh'den rivayet edildiğine göre Resûlullah sallallahu aleyhi ve sellem şöyle buyurmuştur: \"Bir kişi güzelce abdest alır, cuma namazına gider, hutbeyi ses çıkarmadan dinlerse, iki cuma arasındaki ve fazla olarak üç günlük daha günahları bağışlanır. Kim hutbe okunurken çakıl taşlarıyla oynarsa, abesle iştiğal etmiş olur.\"",
   "shuruk": "Güneş",
+  "duha": "Duha",
+  "duhaTime": "Duha Time",
   "reset": "Sıfırla",
   "mosqueNotFoundMessage": "Üzgünüz, caminiz bulunamadı, eksik veya geçici olarak kullanım dışı olabilir.",
   "noInternetMessage": "İnternet bağlantısı yok. Lütfen internet bağlantınızı kontrol edin ve tekrar deneyin. Wi-Fi veya Ethernet bağlı mı?",

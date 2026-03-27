@@ -125,6 +125,8 @@
   "jumuaaScreenTitle": "Jumuaa aeg",
   "jumuaaHadith": "Prohvet ﷺ (rahu ja Jumala õnnistused olgu temaga) ütles: \"Kes teeb pesu täiuslikult, siis läheb jumua ja siis kuulab ja on vait, ta on andestatud, mis on selle aja ja järgmise reede ja veel kolme päeva vahel ja see, kes puudutab kive, on kindlasti teinud asjata\".",
   "shuruk": "Shuruk",
+  "duha": "Duha",
+  "duhaTime": "Duha Time",
   "reset": "Reset",
   "mosqueNotFoundMessage": "Vabandame, teie mošeed ei leitud või see võib olla kadunud või ajutiselt välja lülitatud.",
   "noInternetMessage": "Internetiühendus puudub. Palun kontrollige oma internetiühendust ja proovige uuesti. Kas teie Wi-Fi või Ethernet on ühendatud?",

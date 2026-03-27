@@ -125,6 +125,8 @@
   "jumuaaScreenTitle": "Koha e Xhumase",
   "jumuaaHadith": "Profeti ﷺ ka thenë\n « Kush merr abdes dhe e persos abdesin pastaj vjen per në xhuma dhe degjon me kujdes (hytben) dhe hesht (nuk flet) do ti falen atij gjynahet cfar ka ndermjet xhumase deri në xhumanë tjeter gjithashtu tre ditë shtese",
   "shuruk": "Lindja e diellit",
+  "duha": "Duha",
+  "duhaTime": "Duha Time",
   "reset": "Rivendosur",
   "mosqueNotFoundMessage": "Na vjen keq, xhamia juaj nuk u gjet, ose mund të mungojë ose mund të jetë e çaktivizuar përkohësisht.",
   "noInternetMessage": "Nuk ka qasje në internet. Verifiko lidhjen tënde të internetit dhe provo sërish. A është i lidhur Wi-Fi ose Ethernet?",

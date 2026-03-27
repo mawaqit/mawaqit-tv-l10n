@@ -125,6 +125,8 @@
   "jumuaaScreenTitle": "Jumuaa-Zeit",
   "jumuaaHadith": "Der Prophet ﷺ (Allahs Friede und Segen seien auf ihm) sagte: \"Wer die Waschungen perfekt verrichtet und dann zur Dschumua geht und dann zuhört und schweigt, dem wird vergeben, was zwischen dieser Zeit und dem folgenden Freitag und drei weiteren Tagen liegt, und wer Steine berührt, hat gewiss ein Vergehen begangen",
   "shuruk": "Shuruk",
+  "duha": "Duha",
+  "duhaTime": "Duha Time",
   "reset": "Reset",
   "mosqueNotFoundMessage": "Ihre Moschee wurde leider nicht gefunden, sie fehlt vielleicht oder ist vorübergehend deaktiviert.",
   "noInternetMessage": "Kein Internetzugang. Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut. Ist Ihr Wi-Fi oder Ethernet verbunden?",

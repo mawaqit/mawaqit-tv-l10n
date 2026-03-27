@@ -125,6 +125,8 @@
   "jumuaaScreenTitle": "Jumuaa Time",
   "jumuaaHadith": "Il Profeta Maometto ﷺ (pace e benedizioni di Allah siano su di lui) disse: \"A chi fa le abluzioni in modo perfetto e poi va alla jumua e poi ascolta e tace, viene perdonato ciò che c'è tra quel momento e il venerdì successivo e altri tre giorni, e chi tocca le pietre ha certamente commesso un'inutilità\"",
   "shuruk": "Alba",
+  "duha": "Duha",
+  "duhaTime": "Duha Time",
   "reset": "Reset",
   "mosqueNotFoundMessage": "Siamo spiacenti, la sua moschea non è stata trovata, oppure potrebbe essere mancante o temporaneamente disattivata.",
   "noInternetMessage": "Non connesso a Internet. Verifichi la sua connettività internet e riprovi. Il suo Wi-Fi o Ethernet è collegato?",
