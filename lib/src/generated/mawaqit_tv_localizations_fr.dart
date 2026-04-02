@@ -85,7 +85,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get in1 => 'dans';
 
   @override
-  String get azanIn => 'Azan en';
+  String get azanIn => 'Athan en';
 
   @override
   String get sec => 'Sec';
@@ -186,7 +186,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get isha => 'Icha';
 
   @override
-  String get afterAdhanHadithTitle => 'Doua après l\'adhan';
+  String get afterAdhanHadithTitle => 'Doua après l\'Athan';
 
   @override
   String get afterSalahHadith => 'Allāhumma rabba hādhihi \'d-da\'wati \'t-tāmmah waṣ-ṣalāti \'l-qā\'imah, \'āti Muhammadani \'l-wasīlata walfaḍīlata, wab \'ath-hu maqāma \'m-mahmūdani \'l-ladhī wa`adtahu';
@@ -324,7 +324,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get dhuAlhijjah => 'Dhu al-Hijja';
 
   @override
-  String get duaaBetweenSalahAndAdhan => '    Selon Anas Ibn Mâlik, le Prophète (ﷺ) a dit : \"Les invocations entre l\'Adhân et l’Iqâmah ne sont pas rejetées\"';
+  String get duaaBetweenSalahAndAdhan => '    Selon Anas Ibn Mâlik, le Prophète (ﷺ) a dit : \"Les invocations entre l’Athan et l’Iqâmah ne sont pas rejetées\"';
 
   @override
   String get salatKhayrMinaNawm => 'Assalatou khayroun mina nawm';
@@ -351,7 +351,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get iqamaaCountDown => 'Compte à rebours Iqamaa';
 
   @override
-  String get afterAdhanHadith => 'Hadith Après l\'Adhan';
+  String get afterAdhanHadith => 'Hadith Après l\'Athan';
 
   @override
   String get afterSalahAzkar => 'Invocations après la prière';
@@ -654,7 +654,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get screenLockDesc => 'Allumer/éteindre la TV avant et après chaque prière pour économiser de l\'énergie';
 
   @override
-  String get screenLockDesc2 => 'Cette fonctionnalité allume/éteint l\'appareil avant et après chaque adhan de prière';
+  String get screenLockDesc2 => 'Cette fonctionnalité allume/éteint l\'appareil avant et après chaque Athan de prière';
 
   @override
   String get before => 'minutes avant chaque heure de prière';
@@ -975,10 +975,10 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get scheduleInOnlineMode => 'Veuillez vous connecter à Internet pour planifier l\'écoute du Coran.';
 
   @override
-  String get duaaBetweenAdhanAndIqamaaTitle => 'L\'invocation n\'est pas rejetée entre l\'adhan et l\'iqama';
+  String get duaaBetweenAdhanAndIqamaaTitle => 'L\'invocation n\'est pas rejetée entre l\'Athan et l\'iqama';
 
   @override
-  String get duaBetweenAdhanIqamah => 'La supplication (Du\'a) n\'est pas rejetée entre l\'Adhan et Iqamah.';
+  String get duaBetweenAdhanIqamah => 'La supplication (Du\'a) n\'est pas rejetée entre l\'Athan et Iqamah.';
 
   @override
   String get processingRequest => 'Traitement de votre demande...';
@@ -1017,7 +1017,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get prayerTimeNotificationTitle => 'Notifications des heures de prière';
 
   @override
-  String get prayerTimeNotificationDesc => 'Recevez l\'adhan aux heures de prière, même lorsque l\'application est fermée';
+  String get prayerTimeNotificationDesc => 'Recevez l\'Athan aux heures de prière, même lorsque l\'application est fermée';
 
   @override
   String get enablePrayerReminders => 'Activer les rappels de prière';
