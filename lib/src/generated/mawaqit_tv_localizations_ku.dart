@@ -82,10 +82,10 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get changeMosque => 'گۆڕینی مزگەوت';
 
   @override
-  String get in1 => 'بانگ لەدوای';
+  String get in1 => 'لەدوای';
 
   @override
-  String get azanIn => 'بانگ لەدوای';
+  String get azanIn => 'بانگی';
 
   @override
   String get sec => 'دواتر';
