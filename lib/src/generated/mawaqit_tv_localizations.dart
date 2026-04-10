@@ -2077,6 +2077,12 @@ abstract class MawaqitTvLocalizations {
   /// **'Initializing in progress...'**
   String get initializingAutoReading;
 
+  /// No description provided for @holdOkToStop.
+  ///
+  /// In en, this message translates to:
+  /// **'Hold OK to Stop'**
+  String get holdOkToStop;
+
   /// Notifcation that will be displayed when app is backgrounded.
   ///
   /// In en, this message translates to:

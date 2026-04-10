@@ -967,6 +967,9 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get initializingAutoReading => 'Kurminirgol ena jokki...';
 
   @override
+  String get holdOkToStop => 'Hold OK to Stop';
+
+  @override
   String prayerTimeNotification(String salahName, String prayerTime) {
     return 'Tintinol $salahName waktu ($prayerTime)';
   }

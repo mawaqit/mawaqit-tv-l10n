@@ -967,6 +967,9 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get initializingAutoReading => 'אתחול בתהליך...';
 
   @override
+  String get holdOkToStop => 'Hold OK to Stop';
+
+  @override
   String prayerTimeNotification(String salahName, String prayerTime) {
     return 'התראה לזמן $salahName ($prayerTime)';
   }

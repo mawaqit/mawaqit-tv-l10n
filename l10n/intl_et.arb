@@ -441,6 +441,7 @@
   "randomSurahSelection": "Juhuslik suuravalik",
   "selectSurah": "Vali suurah",
   "initializingAutoReading": "Käivitamine käib...",
+  "holdOkToStop": "Hoidke OK peatamiseks",
   "prayerTimeNotification": "{salahName} aeg ({prayerTime}) teavitus",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",

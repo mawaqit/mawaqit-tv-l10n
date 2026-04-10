@@ -441,6 +441,7 @@
   "randomSurahSelection": "ランダムなスラー選択",
   "selectSurah": "スラを選択",
   "initializingAutoReading": "初期化中...",
+  "holdOkToStop": "OKを長押しして停止",
   "prayerTimeNotification": "{salahName} 時間 ({prayerTime}) の通知",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",

@@ -967,6 +967,9 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get initializingAutoReading => 'Initializing in progress...';
 
   @override
+  String get holdOkToStop => 'Hold OK to Stop';
+
+  @override
   String prayerTimeNotification(String salahName, String prayerTime) {
     return '$salahName time ($prayerTime) notification';
   }
@@ -2018,6 +2021,9 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get initializingAutoReading => 'Inicialização em andamento...';
 
   @override
+  String get holdOkToStop => 'Hold OK to Stop';
+
+  @override
   String prayerTimeNotification(String salahName, String prayerTime) {
     return 'Notificação da hora de $salahName ($prayerTime)';
   }
@@ -3025,6 +3031,9 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
 
   @override
   String get initializingAutoReading => 'A inicializar...';
+
+  @override
+  String get holdOkToStop => 'Hold OK to Stop';
 
   @override
   String prayerTimeNotification(String salahName, String prayerTime) {

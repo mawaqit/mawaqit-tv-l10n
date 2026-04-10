@@ -441,6 +441,7 @@
   "randomSurahSelection": "Satunnainen Surah Valinta",
   "selectSurah": "Valitse Surah",
   "initializingAutoReading": "Alustetaan käynnissä...",
+  "holdOkToStop": "Pidä OK pohjassa pysäyttääksesi",
   "prayerTimeNotification": "Ilmoitus: {salahName}-rukouksen aika ({prayerTime})",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",

@@ -441,6 +441,7 @@
   "randomSurahSelection": "Pemilihan surah secara acak",
   "selectSurah": "Pilih surah",
   "initializingAutoReading": "Inisialisasi sedang berlangsung...",
+  "holdOkToStop": "Tahan OK untuk berhenti",
   "prayerTimeNotification": "Pemberitahuan waktu {salahName} ({prayerTime})",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",

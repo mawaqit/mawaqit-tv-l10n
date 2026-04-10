@@ -441,6 +441,7 @@
   "randomSurahSelection": "Véletlenszerű szúra kiválasztás",
   "selectSurah": "Válassz egy szúrát",
   "initializingAutoReading": "Inicializálás folyamatban...",
+  "holdOkToStop": "Tartsa lenyomva az OK-t a megállításhoz",
   "prayerTimeNotification": "{salahName} ideje ({prayerTime}) értesítés",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",

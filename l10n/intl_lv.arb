@@ -441,6 +441,7 @@
   "randomSurahSelection": "Nejauša Sūras izvēle",
   "selectSurah": "Izvēlieties Sūru",
   "initializingAutoReading": "Inicializēšana notiek...",
+  "holdOkToStop": "Turiet OK, lai apturētu",
   "prayerTimeNotification": "Paziņojums par {salahName} laiku ({prayerTime})",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",

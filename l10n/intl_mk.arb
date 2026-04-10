@@ -441,6 +441,7 @@
   "randomSurahSelection": "Случаен избор на сура",
   "selectSurah": "Изберете сура",
   "initializingAutoReading": "Се иницијализира...",
+  "holdOkToStop": "Држете OK за запирање",
   "prayerTimeNotification": "Известување за време на {salahName} ({prayerTime})",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",
