@@ -441,6 +441,7 @@
   "randomSurahSelection": "Zufällige Surah Auswahl",
   "selectSurah": "Surah auswählen",
   "initializingAutoReading": "Initialisiere läuft...",
+  "holdOkToStop": "OK gedrückt halten zum Stoppen",
   "prayerTimeNotification": "{salahName} Zeit ({prayerTime}) Benachrichtigung",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",

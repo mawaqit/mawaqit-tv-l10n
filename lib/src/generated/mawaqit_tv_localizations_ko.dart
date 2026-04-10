@@ -967,6 +967,9 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   String get initializingAutoReading => '초기화 진행 중...';
 
   @override
+  String get holdOkToStop => 'OK를 길게 눌러 정지';
+
+  @override
   String prayerTimeNotification(String salahName, String prayerTime) {
     return '$salahName 시간($prayerTime) 알림';
   }

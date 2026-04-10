@@ -180,5 +180,6 @@
   "launchModeMainPrayer": "Төп намаҙ ваҡыттары",
   "launchModeSecondaryPrayer": "Икенсел намаҙ ваҡыттары",
   "timezone": "Ваҡыт бүлкәте",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "holdOkToStop": "OK тотоп туҡтатырға"
 }

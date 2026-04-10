@@ -180,5 +180,6 @@
   "launchModeMainPrayer": "Horaris principals de pregària",
   "launchModeSecondaryPrayer": "Horaris secundaris de pregària",
   "timezone": "Zona horària",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "holdOkToStop": "Manteniu OK per aturar"
 }

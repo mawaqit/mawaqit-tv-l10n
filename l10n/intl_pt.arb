@@ -8,5 +8,6 @@
   "launchModeMainPrayer": "Horários principais de oração",
   "launchModeSecondaryPrayer": "Horários secundários de oração",
   "timezone": "Fuso horário",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "holdOkToStop": "Segure OK para parar"
 }

@@ -441,6 +441,7 @@
   "randomSurahSelection": "Selectare Sursă aleatorie",
   "selectSurah": "Selectează o Sursă",
   "initializingAutoReading": "Se inițializează în curs...",
+  "holdOkToStop": "Mențineți OK apăsat pentru a opri",
   "prayerTimeNotification": "{salahName} timp ({prayerTime}) notificare",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",

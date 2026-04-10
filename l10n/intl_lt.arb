@@ -441,6 +441,7 @@
   "randomSurahSelection": "Atsitiktinis Suratos pasirinkimas",
   "selectSurah": "Pasirinkite Suratą",
   "initializingAutoReading": "Inicijavimas vyksta...",
+  "holdOkToStop": "Laikykite OK norėdami sustabdyti",
   "prayerTimeNotification": "{salahName} laikas ({prayerTime}) pranešimas",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",

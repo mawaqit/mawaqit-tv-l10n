@@ -441,6 +441,7 @@
   "randomSurahSelection": "Naključna izbira sure",
   "selectSurah": "Izberite sura",
   "initializingAutoReading": "Inicializacija v teku ...",
+  "holdOkToStop": "Držite OK za zaustavitev",
   "prayerTimeNotification": "Obvestilo o času {salahName} ({prayerTime})",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",

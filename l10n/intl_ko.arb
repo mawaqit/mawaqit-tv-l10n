@@ -441,6 +441,7 @@
   "randomSurahSelection": "무작위 수라 선택",
   "selectSurah": "수라 선택",
   "initializingAutoReading": "초기화 진행 중...",
+  "holdOkToStop": "OK를 길게 눌러 정지",
   "prayerTimeNotification": "{salahName} 시간({prayerTime}) 알림",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",

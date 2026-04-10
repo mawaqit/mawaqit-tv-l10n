@@ -441,6 +441,7 @@
   "randomSurahSelection": "هەڵبژاردنی سورەت بە هەڕەمەکی",
   "selectSurah": "سورەت هەڵبژێرە",
   "initializingAutoReading": " ...بەرنامەکە لە دەستپێکردندای",
+  "holdOkToStop": "OK بگرە بۆ وەستان",
   "prayerTimeNotification": "{salahName} کات ({prayerTime}) ئاگانامە",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",

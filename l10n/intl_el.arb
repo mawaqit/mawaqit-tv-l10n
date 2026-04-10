@@ -441,6 +441,7 @@
   "randomSurahSelection": "Τυχαία Επιλογή Surah",
   "selectSurah": "Επιλέξτε ένα Surah",
   "initializingAutoReading": "Αρχικοποίηση σε εξέλιξη...",
+  "holdOkToStop": "Κρατήστε πατημένο το OK για διακοπή",
   "prayerTimeNotification": "{salahName} time ({prayerTime}) notification",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",

@@ -441,6 +441,7 @@
   "randomSurahSelection": "Labagol Simoore Ñugget",
   "selectSurah": "Suɓo Simoore",
   "initializingAutoReading": "Kurminirgol ena jokki...",
+  "holdOkToStop": "Hold OK to Stop",
   "prayerTimeNotification": "Tintinol {salahName} waktu ({prayerTime})",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",

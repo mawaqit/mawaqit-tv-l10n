@@ -441,6 +441,7 @@
   "randomSurahSelection": "Chọn Surah ngẫu nhiên",
   "selectSurah": "Chọn Surah",
   "initializingAutoReading": "Đang khởi tạo...",
+  "holdOkToStop": "Giữ OK để dừng",
   "prayerTimeNotification": "Thông báo giờ {salahName} ({prayerTime})",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",

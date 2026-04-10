@@ -380,5 +380,6 @@
   "launchModeMainPrayer": "Glavna vremena namaza",
   "launchModeSecondaryPrayer": "Sekundarna vremena namaza",
   "timezone": "Vremenska zona",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "holdOkToStop": "Pridržite OK za zaustavljanje"
 }

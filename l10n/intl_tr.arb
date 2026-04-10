@@ -441,6 +441,7 @@
   "randomSurahSelection": "Rastgele Sure Seçimi",
   "selectSurah": "Bir Sure seçin",
   "initializingAutoReading": "Başlatılıyor...",
+  "holdOkToStop": "Durdurmak için OK'ye basılı tutun",
   "prayerTimeNotification": "{salahName} vakti ({prayerTime}) bildirimi",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",
