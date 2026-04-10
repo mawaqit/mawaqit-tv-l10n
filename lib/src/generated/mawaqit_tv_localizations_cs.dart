@@ -967,7 +967,7 @@ class MawaqitTvLocalizationsCs extends MawaqitTvLocalizations {
   String get initializingAutoReading => 'Probíhá inicializace...';
 
   @override
-  String get holdOkToStop => 'Hold OK to Stop';
+  String get holdOkToStop => 'Podržte OK pro zastavení';
 
   @override
   String prayerTimeNotification(String salahName, String prayerTime) {
