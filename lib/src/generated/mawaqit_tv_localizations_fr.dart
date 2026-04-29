@@ -210,6 +210,24 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Afficher l\'heure et la date actuelles sur l\'écran de décompte de l\'Iqama';
 
   @override
+  String get prayerTimeFontSize => 'Prayer time font size';
+
+  @override
+  String get prayerTimeFontSizeDesc => 'Adjust the size of prayer times displayed on screen';
+
+  @override
+  String get fontSizeSmall => 'Small';
+
+  @override
+  String get fontSizeNormal => 'Normal';
+
+  @override
+  String get fontSizeLarge => 'Large';
+
+  @override
+  String get fontSizeXLarge => 'Extra large';
+
+  @override
   String get alAthkar => 'Al Adhkar';
 
   @override
@@ -1000,6 +1018,30 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
 
   @override
   String get replaceAppWorkflowWithCameraStream => 'L\'écran va automatiquement afficher le flux de la caméra dès que la caméra commence à enregistrer, si elle s\'arrête  l\'écran revient à l\'affichage des heures de prières';
+
+  @override
+  String get streamMode => 'Mode de diffusion';
+
+  @override
+  String get streamModeDisabled => 'Désactivé';
+
+  @override
+  String get streamModeCamera => 'Diffusion selon la caméra';
+
+  @override
+  String get streamModeJumuaOnly => 'Diffusion pour la Jumua uniquement';
+
+  @override
+  String get streamModeJumuaAndPrayers => 'Diffusion pour la Jumua et les 5 prières';
+
+  @override
+  String get streamRequiresSecondaryScreen => 'Cette fonctionnalité est disponible uniquement lorsque l\'écran est configuré comme écran secondaire (requis pour le type Mosquée)';
+
+  @override
+  String get rtspServerNotAvailable => 'Le serveur RTSP n\'est pas disponible. Veuillez vérifier votre connexion.';
+
+  @override
+  String get settingsSavedSuccessfully => 'Paramètres enregistrés avec succès';
 
   @override
   String get streamError => 'Une erreur est survenue lors du streaming';
