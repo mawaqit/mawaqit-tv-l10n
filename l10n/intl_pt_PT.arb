@@ -306,6 +306,7 @@
   "prayerTimeNotification": "Notificação do horário de {salahName} ({prayerTime})",
   "scheduleInOnlineMode": "Por favor, ligue-se à internet para agendar a audição do Alcorão",
   "duaBetweenAdhanIqamah": "A súplica (duá) não é rejeitada entre o Azán e o Iqamah.",
+  "duaaBetweenAdhanAndIqamaaTitle": "A súplica (duá) não é rejeitada entre o Azán e o Iqamah.",
   "settingsSectionGlobal": "Global",
   "hijriDateAdjustment": "Ajuste da data Hijri",
   "interfaceLanguage": "Idioma da interface",

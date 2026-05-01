@@ -3044,6 +3044,9 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
   String get scheduleInOnlineMode => 'Por favor, ligue-se à internet para agendar a audição do Alcorão';
 
   @override
+  String get duaaBetweenAdhanAndIqamaaTitle => 'A súplica (duá) não é rejeitada entre o Azán e o Iqamah.';
+
+  @override
   String get duaBetweenAdhanIqamah => 'A súplica (duá) não é rejeitada entre o Azán e o Iqamah.';
 
   @override
