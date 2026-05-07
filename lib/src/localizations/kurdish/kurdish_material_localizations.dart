@@ -7,8 +7,7 @@ import 'package:intl/date_symbol_data_custom.dart' as date_symbol_data_custom;
 import 'package:intl/date_symbols.dart' as intl;
 import 'package:intl/intl.dart' as intl;
 
-class _KurdishMaterialLocalizationsDelegate
-    extends LocalizationsDelegate<MaterialLocalizations> {
+class _KurdishMaterialLocalizationsDelegate extends LocalizationsDelegate<MaterialLocalizations> {
   const _KurdishMaterialLocalizationsDelegate();
 
   @override
@@ -56,8 +55,7 @@ class KurdishMaterialLocalizations extends GlobalMaterialLocalizations {
     required super.twoDigitZeroPaddedFormat,
   });
 
-  static const LocalizationsDelegate<MaterialLocalizations> delegate =
-      _KurdishMaterialLocalizationsDelegate();
+  static const LocalizationsDelegate<MaterialLocalizations> delegate = _KurdishMaterialLocalizationsDelegate();
 
   @override
   String get aboutListTileTitleRaw => r'دەربارەی $applicationName';
@@ -117,8 +115,7 @@ class KurdishMaterialLocalizations extends GlobalMaterialLocalizations {
   String get dateRangePickerHelpText => 'دەست نیشانکردنی مەودا';
 
   @override
-  String get dateRangeStartDateSemanticLabelRaw =>
-      r'بەرواری دەستپێکردن $fullDate';
+  String get dateRangeStartDateSemanticLabelRaw => r'بەرواری دەستپێکردن $fullDate';
 
   @override
   String get dateRangeStartLabel => 'بەرواری دەستپێکردن';
@@ -193,8 +190,7 @@ class KurdishMaterialLocalizations extends GlobalMaterialLocalizations {
   String get pageRowsInfoTitleRaw => r'$firstRow–$lastRow لە $rowCount';
 
   @override
-  String get pageRowsInfoTitleApproximateRaw =>
-      r'$firstRow–$lastRow تا $rowCount';
+  String get pageRowsInfoTitleApproximateRaw => r'$firstRow–$lastRow تا $rowCount';
 
   @override
   String get pasteButtonLabel => 'پەیست';
@@ -227,8 +223,7 @@ class KurdishMaterialLocalizations extends GlobalMaterialLocalizations {
   String get remainingTextFieldCharacterCountOne => '١ پیت ماوە';
 
   @override
-  String get remainingTextFieldCharacterCountOther =>
-      r'$remainingCount پیتەکان ماون';
+  String get remainingTextFieldCharacterCountOther => r'$remainingCount پیتەکان ماون';
 
   @override
   String? get remainingTextFieldCharacterCountTwo => null;
@@ -538,34 +533,8 @@ const kuDateSymbols = {
   'NAME': 'ku',
   'ERAS': ['پ.ز', 'ز'],
   'ERANAMES': ['پێش زاینی', 'زاینی'],
-  'NARROWMONTHS': [
-    'ک.د',
-    'ش',
-    'ز',
-    'ن',
-    'م',
-    'ح',
-    'ت',
-    'ئ',
-    'ل',
-    'ت.ی',
-    'ت.د',
-    'ک.ی'
-  ],
-  'STANDALONENARROWMONTHS': [
-    'ک.د',
-    'ش',
-    'ز',
-    'ن',
-    'م',
-    'ح',
-    'ت',
-    'ئ',
-    'ل',
-    'ت.ی',
-    'ت.د',
-    'ک.ی'
-  ],
+  'NARROWMONTHS': ['ک.د', 'ش', 'ز', 'ن', 'م', 'ح', 'ت', 'ئ', 'ل', 'ت.ی', 'ت.د', 'ک.ی'],
+  'STANDALONENARROWMONTHS': ['ک.د', 'ش', 'ز', 'ن', 'م', 'ح', 'ت', 'ئ', 'ل', 'ت.ی', 'ت.د', 'ک.ی'],
   'MONTHS': [
     'کانونی دووەم',
     'شوبات',
@@ -622,42 +591,10 @@ const kuDateSymbols = {
     'تشرینی دووەم',
     'کانونی یەکەم',
   ],
-  'WEEKDAYS': [
-    'یەکشەممە',
-    'دووشەممە',
-    'سێشەممە',
-    'چوارشەممە',
-    'پێنجشەممە',
-    'هەینی',
-    'شەممە'
-  ],
-  'STANDALONEWEEKDAYS': [
-    'یەکشەممە',
-    'دووشەممە',
-    'سێشەممە',
-    'چوارشەممە',
-    'پێنجشەممە',
-    'هەینی',
-    'شەممە'
-  ],
-  'SHORTWEEKDAYS': [
-    'یەکشەم',
-    'دووشەم',
-    'سێشەم',
-    'چوارشەم',
-    'پێنجشەم',
-    'هەینی',
-    'شەممە'
-  ],
-  'STANDALONESHORTWEEKDAYS': [
-    'یەکشەم',
-    'دووشەم',
-    'سێشەم',
-    'چوارشەم',
-    'پێنجشەم',
-    'هەینی',
-    'شەممە'
-  ],
+  'WEEKDAYS': ['یەکشەممە', 'دووشەممە', 'سێشەممە', 'چوارشەممە', 'پێنجشەممە', 'هەینی', 'شەممە'],
+  'STANDALONEWEEKDAYS': ['یەکشەممە', 'دووشەممە', 'سێشەممە', 'چوارشەممە', 'پێنجشەممە', 'هەینی', 'شەممە'],
+  'SHORTWEEKDAYS': ['یەکشەم', 'دووشەم', 'سێشەم', 'چوارشەم', 'پێنجشەم', 'هەینی', 'شەممە'],
+  'STANDALONESHORTWEEKDAYS': ['یەکشەم', 'دووشەم', 'سێشەم', 'چوارشەم', 'پێنجشەم', 'هەینی', 'شەممە'],
   'NARROWWEEKDAYS': ['ی', 'د', 'س', 'چ', 'پ', 'ه', 'ش'],
   'STANDALONENARROWWEEKDAYS': ['ی', 'د', 'س', 'چ', 'پ', 'ه', 'ش'],
   'SHORTQUARTERS': ['چ١', 'چ٢', 'چ٣', 'چ٤'],

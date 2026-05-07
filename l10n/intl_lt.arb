@@ -21,6 +21,8 @@
   "changeMosque": "Pakeisti mečetę",
   "in1": "svetainėje",
   "azanIn": "Azanas po",
+  "countdownPrayer": "{name} svetainėje {time}",
+  "countdownNonPrayer": "{name} svetainėje {time}",
   "sec": "Sec",
   "online": "Internete",
   "missingMosqueId": "Trūksta MAWAQIT #ID arba MOSQUE #ID",

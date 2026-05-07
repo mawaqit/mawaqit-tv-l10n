@@ -21,6 +21,8 @@
   "changeMosque": "チェンジモスク",
   "in1": "において",
   "azanIn": "字イン",
+  "countdownPrayer": "{name} において {time}",
+  "countdownNonPrayer": "{name} において {time}",
   "sec": "セック",
   "online": "オンライン",
   "missingMosqueId": "MAWAQIT #IDまたはMOSQUE #IDを欠番とする。",

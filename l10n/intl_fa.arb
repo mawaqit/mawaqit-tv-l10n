@@ -21,6 +21,8 @@
   "changeMosque": " مسجد را تغییر بده",
   "in1": "پس از",
   "azanIn": "اذان در حال پس از:",
+  "countdownPrayer": "{name} پس از {time}",
+  "countdownNonPrayer": "{name} پس از {time}",
   "sec": "ثانیه",
   "online": "فعال",
   "missingMosqueId": "کد شناسایی مسجد فراموش شده است",

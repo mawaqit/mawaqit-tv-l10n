@@ -56,9 +56,7 @@ class MawaqitTvLocaleUtils {
 
   /// Gets all supported locale codes as strings
   static List<String> getSupportedLanguageCodes() {
-    return MawaqitTvLocaleConstants.supportedLocales
-        .map((locale) => locale.languageCode)
-        .toList();
+    return MawaqitTvLocaleConstants.supportedLocales.map((locale) => locale.languageCode).toList();
   }
 
   /// Creates a locale from a language code string
@@ -80,19 +78,73 @@ class MawaqitTvLocaleUtils {
   /// Groups locales by script/region for UI organization
   static Map<String, List<Locale>> groupLocalesByRegion() {
     return {
-      'Arabic/Islamic': MawaqitTvLocaleConstants.supportedLocales
-          .where((locale) => isIslamicLanguage(locale.languageCode))
-          .toList(),
+      'Arabic/Islamic':
+          MawaqitTvLocaleConstants.supportedLocales.where((locale) => isIslamicLanguage(locale.languageCode)).toList(),
       'European': MawaqitTvLocaleConstants.supportedLocales
-          .where((locale) => ['en', 'fr', 'de', 'es', 'it', 'pt', 'nl', 'da', 'sv', 'no', 'fi', 'pl', 'cs', 'hu', 'ro', 'bg', 'hr', 'sl', 'et', 'lv', 'lt', 'cnr'].contains(locale.languageCode))
+          .where((locale) => [
+                'en',
+                'fr',
+                'de',
+                'es',
+                'it',
+                'pt',
+                'nl',
+                'da',
+                'sv',
+                'no',
+                'fi',
+                'pl',
+                'cs',
+                'hu',
+                'ro',
+                'bg',
+                'hr',
+                'sl',
+                'et',
+                'lv',
+                'lt',
+                'cnr'
+              ].contains(locale.languageCode))
           .toList(),
       'Asian': MawaqitTvLocaleConstants.supportedLocales
           .where((locale) => ['zh', 'ja', 'ko', 'th', 'vi', 'hi', 'bn', 'ta'].contains(locale.languageCode))
           .toList(),
       'Other': MawaqitTvLocaleConstants.supportedLocales
-          .where((locale) => !isIslamicLanguage(locale.languageCode) && 
-                            !['en', 'fr', 'de', 'es', 'it', 'pt', 'nl', 'da', 'sv', 'no', 'fi', 'pl', 'cs', 'hu', 'ro', 'bg', 'hr', 'sl', 'et', 'lv', 'lt', 'cnr', 'zh', 'ja', 'ko', 'th', 'vi', 'hi', 'bn', 'ta'].contains(locale.languageCode))
+          .where((locale) =>
+              !isIslamicLanguage(locale.languageCode) &&
+              ![
+                'en',
+                'fr',
+                'de',
+                'es',
+                'it',
+                'pt',
+                'nl',
+                'da',
+                'sv',
+                'no',
+                'fi',
+                'pl',
+                'cs',
+                'hu',
+                'ro',
+                'bg',
+                'hr',
+                'sl',
+                'et',
+                'lv',
+                'lt',
+                'cnr',
+                'zh',
+                'ja',
+                'ko',
+                'th',
+                'vi',
+                'hi',
+                'bn',
+                'ta'
+              ].contains(locale.languageCode))
           .toList(),
     };
   }
-} 
+}

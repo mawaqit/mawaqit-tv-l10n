@@ -108,7 +108,8 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get mawaqitWelcome => 'Welcome to MAWAQIT';
 
   @override
-  String get mawaqitDesc => 'MAWAQIT offers you a new way to track and manage prayer times, indeed we offer an end-to-end system that provides mosque managers with an online tool available 24/24h.';
+  String get mawaqitDesc =>
+      'MAWAQIT offers you a new way to track and manage prayer times, indeed we offer an end-to-end system that provides mosque managers with an online tool available 24/24h.';
 
   @override
   String get privacyPolicy => 'פרטיות';
@@ -126,7 +127,8 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get drawerDesc => 'Connecting Muslims to Mosques';
 
   @override
-  String get backendError => 'Sorry, we could not connect to the server.\nPlease verify Internet connectivity or try again later.';
+  String get backendError =>
+      'Sorry, we could not connect to the server.\nPlease verify Internet connectivity or try again later.';
 
   @override
   String get selectWithMosqueId => 'Try: 256, It\'s the ID of the \'Mosquée de Paris\'';
@@ -189,7 +191,8 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get afterAdhanHadithTitle => 'After adhan Du`a';
 
   @override
-  String get afterSalahHadith => 'Allahumma Rabba hadhihid-da\'wati-ttammati, was-salatil-qa\'imati, ati Muhammadanil-wasilata wal-fadhilata, wab\'athu maqaman mahmuda nilladhi wa \'adtahu [O Allah, Rubb of this perfect call (Da\'wah) and of the established prayer (As-Salat), grant Muhammad the Wasilah and superiority, and raise him up to a praiseworthy position which You have promised him]';
+  String get afterSalahHadith =>
+      'Allahumma Rabba hadhihid-da\'wati-ttammati, was-salatil-qa\'imati, ati Muhammadanil-wasilata wal-fadhilata, wab\'athu maqaman mahmuda nilladhi wa \'adtahu [O Allah, Rubb of this perfect call (Da\'wah) and of the established prayer (As-Salat), grant Muhammad the Wasilah and superiority, and raise him up to a praiseworthy position which You have promised him]';
 
   @override
   String get alIqama => 'Al Iqama';
@@ -213,55 +216,71 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get alAthkar => 'Al-Athkar';
 
   @override
-  String get azkarList0 => 'אַסְתַּעְ\'פִרוּ אַלְלָה, אַסְתַּעְ\'פִרוּ אַלְלָה, אַסְתַּעְ\'פִרוּ אַלְלָה. אַלְלָהוּמַּא אַנְתַּ אלְסַּלָאם, וּמִמְּךָ הַשַּׁלוֹם. תְּבוֹרַךְ יָא דהּ אל-גַ\'לָאל וְהָאִכְרָאם. אַלְלָהוּמַּא עֵזְרֵנִי לְהַזְכִּירְךָ, לְהוֹדוֹת לְךָ וְלִשְׁפַּר אֶת עֲבוֹדַתִּי לְךָ.';
+  String get azkarList0 =>
+      'אַסְתַּעְ\'פִרוּ אַלְלָה, אַסְתַּעְ\'פִרוּ אַלְלָה, אַסְתַּעְ\'פִרוּ אַלְלָה. אַלְלָהוּמַּא אַנְתַּ אלְסַּלָאם, וּמִמְּךָ הַשַּׁלוֹם. תְּבוֹרַךְ יָא דהּ אל-גַ\'לָאל וְהָאִכְרָאם. אַלְלָהוּמַּא עֵזְרֵנִי לְהַזְכִּירְךָ, לְהוֹדוֹת לְךָ וְלִשְׁפַּר אֶת עֲבוֹדַתִּי לְךָ.';
 
   @override
-  String get azkarList1 => 'סֻבְּחָאן אַלְלָהּ ואלְחַמְדוּ לִלַּהּ ואַלְלָהּוּ אַכְּבָּר (33 פעמים) לָא אִלַּהַּ אִילָּא אַלְלָהּ, וַּחְדַּהוּ לַא שַׁרִיקַה לַּהּ, לַּהּוּ אלמֻלְכּ וְלַּהּוּ אלחַמְדּ, וְהוּא עַלַּא כֻּלְּ שַׁיְּ אֵין קָדִיר.';
+  String get azkarList1 =>
+      'סֻבְּחָאן אַלְלָהּ ואלְחַמְדוּ לִלַּהּ ואַלְלָהּוּ אַכְּבָּר (33 פעמים) לָא אִלַּהַּ אִילָּא אַלְלָהּ, וַּחְדַּהוּ לַא שַׁרִיקַה לַּהּ, לַּהּוּ אלמֻלְכּ וְלַּהּוּ אלחַמְדּ, וְהוּא עַלַּא כֻּלְּ שַׁיְּ אֵין קָדִיר.';
 
   @override
-  String get azkarList2 => 'بִּסְמִ אללהּ אלרַּחְמַאן א-רַּחִים אֱמֹר: אֲנִי מְבַקֵּשׁ מַחֲסֶה בַּאֲדוֹן הָאֲנָשִׁים, מֶלֶךְ הָאֲנָשִׁים, אֱלוֹהֵי הָאֲנָשִׁים, מֵרָעַת הַלָּחוּשׁ הַנִּסְתָּר, הַמְּלַחֲשׁ בְּחָזֶּה הָאֲנָשִׁים, מִן הַגִ\'נִּים וְהָאֲנָשִׁים.';
+  String get azkarList2 =>
+      'بִּסְמִ אללהּ אלרַּחְמַאן א-רַּחִים אֱמֹר: אֲנִי מְבַקֵּשׁ מַחֲסֶה בַּאֲדוֹן הָאֲנָשִׁים, מֶלֶךְ הָאֲנָשִׁים, אֱלוֹהֵי הָאֲנָשִׁים, מֵרָעַת הַלָּחוּשׁ הַנִּסְתָּר, הַמְּלַחֲשׁ בְּחָזֶּה הָאֲנָשִׁים, מִן הַגִ\'נִּים וְהָאֲנָשִׁים.';
 
   @override
-  String get azkarList3 => 'בִּסְמִ אללהּ אלרַּחְמַאן א-רַּחִים אֱמֹר: אֲנִי מְבַקֵּשׁ מַחֲסֶה בַּאֲדוֹן הַשַּׁחַר, מֵרָעַת כָּל בְּרוּא, וּמֵרָעַת הַחוֹשֶׁךְ בְּשָׁעָתוֹ, וּמֵרָעַת הַנָּשׁוֹפוֹת בַּקְּשָׁרוֹת, וּמֵרָעַת מְקַנֵּא לְפִי קִנְאָתוֹ.';
+  String get azkarList3 =>
+      'בִּסְמִ אללהּ אלרַּחְמַאן א-רַּחִים אֱמֹר: אֲנִי מְבַקֵּשׁ מַחֲסֶה בַּאֲדוֹן הַשַּׁחַר, מֵרָעַת כָּל בְּרוּא, וּמֵרָעַת הַחוֹשֶׁךְ בְּשָׁעָתוֹ, וּמֵרָעַת הַנָּשׁוֹפוֹת בַּקְּשָׁרוֹת, וּמֵרָעַת מְקַנֵּא לְפִי קִנְאָתוֹ.';
 
   @override
-  String get azkarList4 => 'בִּסְמִ אללהּ אלרַּחְמַאן א-רַּחִים אֱמֹר: הוּא אללהּ אֶחָד, אללהּ הַנִּצְמָד, לֹא הוֹלִיד וְלֹא נוֹלַד, וְלֹא הָיָה לוֹ שָׁוֶה אֵל.';
+  String get azkarList4 =>
+      'בִּסְמִ אללהּ אלרַּחְמַאן א-רַּחִים אֱמֹר: הוּא אללהּ אֶחָד, אללהּ הַנִּצְמָד, לֹא הוֹלִיד וְלֹא נוֹלַד, וְלֹא הָיָה לוֹ שָׁוֶה אֵל.';
 
   @override
-  String get azkarList5 => 'אללהּ לָא אֵלָה אֶלָּא הוּא, הֶחָי, הַמְקַיֵּם. לֹא תִּפְקֵד אֵתוֹ תּנּוּמָה וְלֹא שֵׁנָה; לוֹ מַה שֶּׁבַּשָּׁמַיִם וּמַה שֶּׁבָּאָרֶץ. מִי זֶה יַפְרִישׁ בְּעֵינָיו אֶלָּא בִּרְשׁוּתוֹ? יוֹדֵעַ אֶת אֲשֶׁר לִפְנֵיהֶם וְאֶת אֲשֶׁר אַחֲרֵיהֶם, וְאֵין הֵם מַקִּיפִים בְּמַשֶּׁהוּ מִדַּעְתוֹ אֵלָּא בִּרְצוֹנוֹ. כִּסְאוֹ חוֹפֵף אֶת הַשָּׁמַיִם וְהָאָרֶץ, וְאֵין לוֹ קוֹשִׁי לִשְׁמֹר עֲלֵיהֶם, וְהוּא הָעֶלְיוֹן הָאָדִיר.';
+  String get azkarList5 =>
+      'אללהּ לָא אֵלָה אֶלָּא הוּא, הֶחָי, הַמְקַיֵּם. לֹא תִּפְקֵד אֵתוֹ תּנּוּמָה וְלֹא שֵׁנָה; לוֹ מַה שֶּׁבַּשָּׁמַיִם וּמַה שֶּׁבָּאָרֶץ. מִי זֶה יַפְרִישׁ בְּעֵינָיו אֶלָּא בִּרְשׁוּתוֹ? יוֹדֵעַ אֶת אֲשֶׁר לִפְנֵיהֶם וְאֶת אֲשֶׁר אַחֲרֵיהֶם, וְאֵין הֵם מַקִּיפִים בְּמַשֶּׁהוּ מִדַּעְתוֹ אֵלָּא בִּרְצוֹנוֹ. כִּסְאוֹ חוֹפֵף אֶת הַשָּׁמַיִם וְהָאָרֶץ, וְאֵין לוֹ קוֹשִׁי לִשְׁמֹר עֲלֵיהֶם, וְהוּא הָעֶלְיוֹן הָאָדִיר.';
 
   @override
-  String get azkarList6 => 'אין אלוה אלא אללה, לבדו, אין לו שותף, לו המלוכה ולו התהילה, והוא על כל דבר יכול. אללה, אין מונע למה שנתת ואין נותן למה שמנעת, ולא יועיל בעלי עושר עושרם נגדך.';
+  String get azkarList6 =>
+      'אין אלוה אלא אללה, לבדו, אין לו שותף, לו המלוכה ולו התהילה, והוא על כל דבר יכול. אללה, אין מונע למה שנתת ואין נותן למה שמנעת, ולא יועיל בעלי עושר עושרם נגדך.';
 
   @override
-  String get azkarList7 => 'אללה, אַתָּה רִבִּי, אֵין אֱלוֹהִים מִלְּבַדְּךָ, בְּרָאתָנִי וַאֲנִי עַבְדְּךָ. וַאֲנִי שָׁרוּי עַל בְּרִיתְךָ וְהַבְטָחָתְךָ כְּפִי יְכוֹלְתִּי. אֲנִי מְבַקֵּשׁ מַחֲסֶה בְּךָ מֵרַעַת מַעֲשַׂי. מוֹדֶה בְּחַסְדְּךָ עָלַי, וּמוֹדֶה בַּחֶטְאֵי; סְלַח לִי, אֵין סוֹלֵחַ לַחֲטָאִים אֶלָּא אַתָּה.';
+  String get azkarList7 =>
+      'אללה, אַתָּה רִבִּי, אֵין אֱלוֹהִים מִלְּבַדְּךָ, בְּרָאתָנִי וַאֲנִי עַבְדְּךָ. וַאֲנִי שָׁרוּי עַל בְּרִיתְךָ וְהַבְטָחָתְךָ כְּפִי יְכוֹלְתִּי. אֲנִי מְבַקֵּשׁ מַחֲסֶה בְּךָ מֵרַעַת מַעֲשַׂי. מוֹדֶה בְּחַסְדְּךָ עָלַי, וּמוֹדֶה בַּחֶטְאֵי; סְלַח לִי, אֵין סוֹלֵחַ לַחֲטָאִים אֶלָּא אַתָּה.';
 
   @override
-  String get azkarList8 => 'הִשְׁכַּמְנוּ וְהַמַּלְכוּת לַאללהּ. וּתוּדָה לַאללהּ, וְאֵין אֱלוֹהִים אֶלָּא אַחָד, בְּלִי שֻׁתָּף. לוֹ הַמַלְכוּת וְלוֹ הַשֶּׁבַח, וְהוּא עַל כָּל דָּבָר יָכוֹל. אֲנִי מְבַקֵּשׁ מִמְּךָ אֶת הַטּוֹב שֶׁבַּיּוֹם הַזֶּה וְהַטּוֹב שֶׁל אַחֲרָיו, וּפוֹנֶה אֵלֶיךָ מֵרַעַת הַיּוֹם הַזֶּה וְרַעַת אַחֲרָיו. וְאֲנִי מְבַקֵּשׁ מַחֲסֶה בְּךָ מֵעַצְלוּת וּמִזִּקְנָה רָעָה, וּמֵעוֹנֶשׁ הַגֵּיהִנּוֹם וְתוֹךְ עוֹנֶשׁ הַקֶּבֶר.';
+  String get azkarList8 =>
+      'הִשְׁכַּמְנוּ וְהַמַּלְכוּת לַאללהּ. וּתוּדָה לַאללהּ, וְאֵין אֱלוֹהִים אֶלָּא אַחָד, בְּלִי שֻׁתָּף. לוֹ הַמַלְכוּת וְלוֹ הַשֶּׁבַח, וְהוּא עַל כָּל דָּבָר יָכוֹל. אֲנִי מְבַקֵּשׁ מִמְּךָ אֶת הַטּוֹב שֶׁבַּיּוֹם הַזֶּה וְהַטּוֹב שֶׁל אַחֲרָיו, וּפוֹנֶה אֵלֶיךָ מֵרַעַת הַיּוֹם הַזֶּה וְרַעַת אַחֲרָיו. וְאֲנִי מְבַקֵּשׁ מַחֲסֶה בְּךָ מֵעַצְלוּת וּמִזִּקְנָה רָעָה, וּמֵעוֹנֶשׁ הַגֵּיהִנּוֹם וְתוֹךְ עוֹנֶשׁ הַקֶּבֶר.';
 
   @override
-  String get azkarList9 => 'אללה, אֲנִי מַעֲמִיד אוֹתְךָ עֵד בַּבֹּקֶר, וְגוּם עַל נוֹשְׂאֵי כִּסְאְךָ, וּמַלְאָכֶיךָ, וְכָל בְּרִיאָתְךָ, שֶׁאַתָּה אֵל, אֵין אֱלוֹהִים אֶלָּא אַתָּה, לְךָ לְבַד, בְּלֹא שֻׁתָּף לְךָ, וּמֻחַמַּד עַבְדְּךָ וּשְׁלִיחֲךָ. |אַרְבַּע פְּעָמִים|. [וּבָעֶרֶב יֹאמַר: אללה, אֲנִי עָרַבְתִּי...]';
+  String get azkarList9 =>
+      'אללה, אֲנִי מַעֲמִיד אוֹתְךָ עֵד בַּבֹּקֶר, וְגוּם עַל נוֹשְׂאֵי כִּסְאְךָ, וּמַלְאָכֶיךָ, וְכָל בְּרִיאָתְךָ, שֶׁאַתָּה אֵל, אֵין אֱלוֹהִים אֶלָּא אַתָּה, לְךָ לְבַד, בְּלֹא שֻׁתָּף לְךָ, וּמֻחַמַּד עַבְדְּךָ וּשְׁלִיחֲךָ. |אַרְבַּע פְּעָמִים|. [וּבָעֶרֶב יֹאמַר: אללה, אֲנִי עָרַבְתִּי...]';
 
   @override
-  String get azkarList10 => 'אללה, הַעֲנֵק לִי בְּרִיאוּת בְּגוּפִּי, אללה, הַעֲנֵק לִי בְּרִיאוּת בְּשִׁמְעִי, אללה, הַעֲנֵק לִי בְּרִיאוּת בִּרְאוֹת עֵינַי, אֵין אֱלוֹהִים אֶלָּא אַתָּה. אללה, אֲנִי מְבַקֵּשׁ מַחֲסֶה בְּךָ מִכְּפִירָה וּמֵעֹנִי, וּמוֹחֵר בְּךָ מֵעֹנֶשׁ הַקֶּבֶר, אֵין אֱלוֹהִים אֶלָּא אַתָּה. |שָׁלוֹש פְּעָמִים|';
+  String get azkarList10 =>
+      'אללה, הַעֲנֵק לִי בְּרִיאוּת בְּגוּפִּי, אללה, הַעֲנֵק לִי בְּרִיאוּת בְּשִׁמְעִי, אללה, הַעֲנֵק לִי בְּרִיאוּת בִּרְאוֹת עֵינַי, אֵין אֱלוֹהִים אֶלָּא אַתָּה. אללה, אֲנִי מְבַקֵּשׁ מַחֲסֶה בְּךָ מִכְּפִירָה וּמֵעֹנִי, וּמוֹחֵר בְּךָ מֵעֹנֶשׁ הַקֶּבֶר, אֵין אֱלוֹהִים אֶלָּא אַתָּה. |שָׁלוֹש פְּעָמִים|';
 
   @override
-  String get azkarList11 => 'חַסְבִּי אללהּ אֵין אֱלוֹהִים אֶלָּא הוּא, עָלָיו בָּטַחְתִּי וְהוּא רִבּוֹן הַכִּסֵּא הָאַדִּיר. |שֶׁבַע פְּעָמִים|';
+  String get azkarList11 =>
+      'חַסְבִּי אללהּ אֵין אֱלוֹהִים אֶלָּא הוּא, עָלָיו בָּטַחְתִּי וְהוּא רִבּוֹן הַכִּסֵּא הָאַדִּיר. |שֶׁבַע פְּעָמִים|';
 
   @override
-  String get azkarList12 => 'רָצוֹן בַּאללהּ רַבִּי, וּבְאִסְלָאם דִּיןִ, וּבְמוּחַמָּד (צלאללה עלייו וסלם) נָבִיאִי. |שָׁלוֹש פְּעָמִים|';
+  String get azkarList12 =>
+      'רָצוֹן בַּאללהּ רַבִּי, וּבְאִסְלָאם דִּיןִ, וּבְמוּחַמָּד (צלאללה עלייו וסלם) נָבִיאִי. |שָׁלוֹש פְּעָמִים|';
 
   @override
-  String get azkarList13 => 'אֵין אֱלוֹהִים אֶלָּא אללהּ, לְבַדּוֹ, בְּלִי שֻׁתַּף לוֹ, לוֹ הַמַלְכוּת וְלוֹ הַתּוֹדָה, וְהוּא עַל כָּל דָּבָר יָכוֹל. |עֶשֶׂר פְּעָמִים|';
+  String get azkarList13 =>
+      'אֵין אֱלוֹהִים אֶלָּא אללהּ, לְבַדּוֹ, בְּלִי שֻׁתַּף לוֹ, לוֹ הַמַלְכוּת וְלוֹ הַתּוֹדָה, וְהוּא עַל כָּל דָּבָר יָכוֹל. |עֶשֶׂר פְּעָמִים|';
 
   @override
-  String get azkarList14 => 'הִשְׁכַּמְנוּ וְהַמַּלְכוּת לַאללהּ. וּתוּדָה לַאללהּ, וְאֵין אֱלוֹהִים אֶלָּא אַחָד, בְּלִי שֻׁתָּף. לוֹ הַמַלְכוּת וְלוֹ הַשֶּׁבַח, וְהוּא עַל כָּל דָּבָר יָכוֹל. אֲנִי מְבַקֵּשׁ מִמְּךָ אֶת הַטּוֹב שֶׁבַּיּוֹם הַזֶּה וְהַטּוֹב שֶׁל אַחֲרָיו, וּפוֹנֶה אֵלֶיךָ מֵרַעַת הַיּוֹם הַזֶּה וְרַעַת אַחֲרָיו. וְאֲנִי מְבַקֵּשׁ מַחֲסֶה בְּךָ מֵעַצְלוּת וּמִזִּקְנָה רָעָה, וּמֵעוֹנֶשׁ הַגֵּיהִנּוֹם וְתוֹךְ עוֹנֶשׁ הַקֶּבֶר.';
+  String get azkarList14 =>
+      'הִשְׁכַּמְנוּ וְהַמַּלְכוּת לַאללהּ. וּתוּדָה לַאללהּ, וְאֵין אֱלוֹהִים אֶלָּא אַחָד, בְּלִי שֻׁתָּף. לוֹ הַמַלְכוּת וְלוֹ הַשֶּׁבַח, וְהוּא עַל כָּל דָּבָר יָכוֹל. אֲנִי מְבַקֵּשׁ מִמְּךָ אֶת הַטּוֹב שֶׁבַּיּוֹם הַזֶּה וְהַטּוֹב שֶׁל אַחֲרָיו, וּפוֹנֶה אֵלֶיךָ מֵרַעַת הַיּוֹם הַזֶּה וְרַעַת אַחֲרָיו. וְאֲנִי מְבַקֵּשׁ מַחֲסֶה בְּךָ מֵעַצְלוּת וּמִזִּקְנָה רָעָה, וּמֵעוֹנֶשׁ הַגֵּיהִנּוֹם וְתוֹךְ עוֹנֶשׁ הַקֶּבֶר.';
 
   @override
   String get jumuaaScreenTitle => 'Jumuaa Time';
 
   @override
-  String get jumuaaHadith => 'The Prophet (peace and blessings of Allah be upon him) said \"Whoever does the ablutions perfectly then goes to jumua and then listens and is silent, he is forgiven what is between that time and the following Friday and three more days and the one who touches stones has certainly made a futility\"';
+  String get jumuaaHadith =>
+      'The Prophet (peace and blessings of Allah be upon him) said \"Whoever does the ablutions perfectly then goes to jumua and then listens and is silent, he is forgiven what is between that time and the following Friday and three more days and the one who touches stones has certainly made a futility\"';
 
   @override
   String get shuruk => 'Shuruk';
@@ -324,7 +343,8 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get dhuAlhijjah => 'Dhu al-Hijja';
 
   @override
-  String get duaaBetweenSalahAndAdhan => 'Anas bin Malik said: The Messenger of Allah (ﷺ) said: The supplication does not return between the call to prayer and the standing for prayer.';
+  String get duaaBetweenSalahAndAdhan =>
+      'Anas bin Malik said: The Messenger of Allah (ﷺ) said: The supplication does not return between the call to prayer and the standing for prayer.';
 
   @override
   String get salatKhayrMinaNawm => 'Assalatu khayrun mina nawm';
@@ -417,13 +437,15 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get normalMode => 'מצב רגיל';
 
   @override
-  String get announcementOnlyModeEXPLINATION => 'בחר אם ברצונך שהמסך יציג הודעות כל הזמן, זה יכול להיות שימושי אם התקנת את המסך בכניסה לדוגמה.';
+  String get announcementOnlyModeEXPLINATION =>
+      'בחר אם ברצונך שהמסך יציג הודעות כל הזמן, זה יכול להיות שימושי אם התקנת את המסך בכניסה לדוגמה.';
 
   @override
   String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
-  String get secondaryScreenExplanation => 'לחדר תפילה נוסף (חדר נשים או קומה נוספת לדוגמה), מסך זה יציג שידור חי של ג\'ומועא';
+  String get secondaryScreenExplanation =>
+      'לחדר תפילה נוסף (חדר נשים או קומה נוספת לדוגמה), מסך זה יציג שידור חי של ג\'ומועא';
 
   @override
   String get mainScreenExplanation => 'לחדר המרכזי של המסגד, מסך זה לא יציג את שידור החי של ג\'ומועא';
@@ -462,7 +484,8 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get eidMubarak => 'עיד מבארכ';
 
   @override
-  String get takbeerAleidText => 'אללהו אכבר, אללהו אכבר, אללהו אכבר, לא אלה אלא אללה, אללהו אכבר, אללהו אכבר, וליללהי אלחמד';
+  String get takbeerAleidText =>
+      'אללהו אכבר, אללהו אכבר, אללהו אכבר, לא אלה אלא אללה, אללהו אכבר, אללהו אכבר, וליללהי אלחמד';
 
   @override
   String get settings => 'הגדרות';
@@ -477,7 +500,8 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get hijriAdjustments => 'התאמות הלוח ההיג\'רי המקומי';
 
   @override
-  String get hijriAdjustmentsDescription => 'כיוון את התאריך ההיג\'רי במכשירך. פעולה זו לא תשפיע על הגדרות המסגד המקוונות';
+  String get hijriAdjustmentsDescription =>
+      'כיוון את התאריך ההיג\'רי במכשירך. פעולה זו לא תשפיע על הגדרות המסגד המקוונות';
 
   @override
   String get backoffice_default => 'ברירות מחדל למערכת הניהול';
@@ -885,7 +909,8 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get rtspCameraSettingDesc => 'התחברו למצלמה המקומית שלכם ושדרו את תפילת יום שישי (ג\'ומעה) על מסך הטלוויזיה.';
 
   @override
-  String get rtspCameraSettingScreenDesc => 'אם תזינו כאן כתובת URL, המסך יעבור אוטומטית לשידור וידאו בעת כניסת זמן הג\'ומעה';
+  String get rtspCameraSettingScreenDesc =>
+      'אם תזינו כאן כתובת URL, המסך יעבור אוטומטית לשידור וידאו בעת כניסת זמן הג\'ומעה';
 
   @override
   String get validatingStream => 'מאמת שידור...';
@@ -999,7 +1024,8 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get replaceWorkflowWithStream => 'הצג אוטומטית את שידור המצלמה';
 
   @override
-  String get replaceAppWorkflowWithCameraStream => 'המסך יציג אוטומטית את שידור המצלמה כאשר המצלמה תתחיל להקליט. אם תפסיק - המסך יחזור להציג את זמני התפילה';
+  String get replaceAppWorkflowWithCameraStream =>
+      'המסך יציג אוטומטית את שידור המצלמה כאשר המצלמה תתחיל להקליט. אם תפסיק - המסך יחזור להציג את זמני התפילה';
 
   @override
   String get streamError => 'אירעה שגיאה בזמן שידור';

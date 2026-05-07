@@ -1,5 +1,5 @@
 /// Constants for Mawaqit TV Localization
-/// 
+///
 /// This file contains constants used throughout the localization package,
 /// including supported locales, language codes, and utility mappings.
 
@@ -135,4 +135,4 @@ class MawaqitTvLocaleConstants {
     'ku', // Kurdish
     'cnr', // Montenegrin
   };
-} 
+}

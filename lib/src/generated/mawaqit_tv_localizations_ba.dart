@@ -31,7 +31,8 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get descLang => 'Зинһар, кәрәкле телде һайлап алығыҙ';
 
   @override
-  String get hadithLangDesc => 'This override  your choice in the admin console, you can chose a different language by screen';
+  String get hadithLangDesc =>
+      'This override  your choice in the admin console, you can chose a different language by screen';
 
   @override
   String get whoops => 'Упс!';
@@ -108,7 +109,8 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get mawaqitWelcome => 'MAWAQIT-ҡа Рәхим итегеҙ';
 
   @override
-  String get mawaqitDesc => 'MAWAQIT offers you a new way to track and manage prayer times, indeed we offer an end-to-end system that provides mosque managers with an online tool available 24/24h.\n';
+  String get mawaqitDesc =>
+      'MAWAQIT offers you a new way to track and manage prayer times, indeed we offer an end-to-end system that provides mosque managers with an online tool available 24/24h.\n';
 
   @override
   String get privacyPolicy => 'Йәшеренлек сәйәсәте';
@@ -126,7 +128,8 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get drawerDesc => 'Мәситкә Мөсөлмәндәр ҡушылыуы';
 
   @override
-  String get backendError => 'Кисерегеҙ, беҙ серверға бәйләнеп алманыҡ. Зинһар, Интернет бәйләнеште тикшерегеҙ йәки аҙағыраҡ яңынан ҡабатлағыҙ.';
+  String get backendError =>
+      'Кисерегеҙ, беҙ серверға бәйләнеп алманыҡ. Зинһар, Интернет бәйләнеште тикшерегеҙ йәки аҙағыраҡ яңынан ҡабатлағыҙ.';
 
   @override
   String get selectWithMosqueId => 'Һынап ҡарағыҙ: 256, \'Парижтың Мәсите\' ID-һы';
@@ -189,7 +192,8 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get afterAdhanHadithTitle => 'Намаҙдан һуң Доға';
 
   @override
-  String get afterSalahHadith => 'Allahumma Rabba hadhihid-da\'wati-ttammati, was-salatil-qa\'imati, ati Muhammadanil-wasilata wal-fadhilata, wab\'athu maqaman mahmuda nilladhi wa \'adtahu [O Allah, Rubb of this perfect call (Da\'wah) and of the established prayer (As-Salat), grant Muhammad the Wasilah and superiority, and raise him up to a praiseworthy position which You have promised him]\n';
+  String get afterSalahHadith =>
+      'Allahumma Rabba hadhihid-da\'wati-ttammati, was-salatil-qa\'imati, ati Muhammadanil-wasilata wal-fadhilata, wab\'athu maqaman mahmuda nilladhi wa \'adtahu [O Allah, Rubb of this perfect call (Da\'wah) and of the established prayer (As-Salat), grant Muhammad the Wasilah and superiority, and raise him up to a praiseworthy position which You have promised him]\n';
 
   @override
   String get alIqama => 'Al Iqama\n';
@@ -261,7 +265,8 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get jumuaaScreenTitle => 'Jumuaa Time';
 
   @override
-  String get jumuaaHadith => 'The Prophet (peace and blessings of Allah be upon him) said \"Whoever does the ablutions perfectly then goes to jumua and then listens and is silent, he is forgiven what is between that time and the following Friday and three more days and the one who touches stones has certainly made a futility\"';
+  String get jumuaaHadith =>
+      'The Prophet (peace and blessings of Allah be upon him) said \"Whoever does the ablutions perfectly then goes to jumua and then listens and is silent, he is forgiven what is between that time and the following Friday and three more days and the one who touches stones has certainly made a futility\"';
 
   @override
   String get shuruk => 'Shuruk';
@@ -285,7 +290,8 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get error => 'Хата';
 
   @override
-  String get mosqueErrorMessage => 'Хэрэв та сүмийн админ бол лалын сүмийн алдаа. Энэ асуудлыг засахын тулд манай дэмжлэгтэй холбогдоно уу';
+  String get mosqueErrorMessage =>
+      'Хэрэв та сүмийн админ бол лалын сүмийн алдаа. Энэ асуудлыг засахын тулд манай дэмжлэгтэй холбогдоно уу';
 
   @override
   String get muharram => 'Мөхәррәм';
@@ -324,7 +330,8 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get dhuAlhijjah => 'Ҙу әл-Хижжаһ';
 
   @override
-  String get duaaBetweenSalahAndAdhan => 'Anas bin Malik said: The Messenger of Allah (ﷺ) said: The supplication does not return between the call to prayer and the standing for prayer.';
+  String get duaaBetweenSalahAndAdhan =>
+      'Anas bin Malik said: The Messenger of Allah (ﷺ) said: The supplication does not return between the call to prayer and the standing for prayer.';
 
   @override
   String get salatKhayrMinaNawm => 'Әссәләтү Хәйрүм Минән Нәүм';
@@ -399,7 +406,8 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get mainScreenOrSecondaryScreen => 'Screen location';
 
   @override
-  String get mainScreenOrSecondaryScreenEXPLINATION => 'Do you want to install this screen in the main prayer room (men prayer room) ?';
+  String get mainScreenOrSecondaryScreenEXPLINATION =>
+      'Do you want to install this screen in the main prayer room (men prayer room) ?';
 
   @override
   String get mainScreen => 'Main screen';
@@ -417,13 +425,15 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get normalMode => 'Normal mode ';
 
   @override
-  String get announcementOnlyModeEXPLINATION => 'Choose if your screen will display announcements all time, this can be useful if you install the screen at the entrance for example.';
+  String get announcementOnlyModeEXPLINATION =>
+      'Choose if your screen will display announcements all time, this can be useful if you install the screen at the entrance for example.';
 
   @override
   String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
-  String get secondaryScreenExplanation => 'For a secondary prayer room (women room or an other floor for example), this screen will show jumua live-streaming';
+  String get secondaryScreenExplanation =>
+      'For a secondary prayer room (women room or an other floor for example), this screen will show jumua live-streaming';
 
   @override
   String get mainScreenExplanation => 'For the main mosque room, this screen will not show the jumua live-streaming';
@@ -444,7 +454,8 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get deviceDefault => 'Device Default';
 
   @override
-  String get deviceDefaultBTNDescription => 'Mawaqit will auto select the default orientation based on the screen orientation';
+  String get deviceDefaultBTNDescription =>
+      'Mawaqit will auto select the default orientation based on the screen orientation';
 
   @override
   String get portrait => 'Portrait';
@@ -456,13 +467,15 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get landscape => 'Landscape';
 
   @override
-  String get landscapeBTNDescription => 'For Horizontal orientation. The main layout for mawaqit tv app and recommended one for most mosques';
+  String get landscapeBTNDescription =>
+      'For Horizontal orientation. The main layout for mawaqit tv app and recommended one for most mosques';
 
   @override
   String get eidMubarak => 'Eid Mubarak';
 
   @override
-  String get takbeerAleidText => 'Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd';
+  String get takbeerAleidText =>
+      'Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd';
 
   @override
   String get settings => 'Settings';
@@ -471,13 +484,15 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get applicationModes => 'Default launch mode';
 
   @override
-  String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'If you are facing issues with the app, try to enable this option';
+  String get ifYouAreFacingAnIssueWithTheAppActivateThis =>
+      'If you are facing issues with the app, try to enable this option';
 
   @override
   String get hijriAdjustments => 'Local Hijri adjustments';
 
   @override
-  String get hijriAdjustmentsDescription => 'Adjust the hijri date locally in your device. This will not affect the online mosque settings';
+  String get hijriAdjustmentsDescription =>
+      'Adjust the hijri date locally in your device. This will not affect the online mosque settings';
 
   @override
   String get backoffice_default => 'Backoffice Defaults';
@@ -885,7 +900,8 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get rtspCameraSettingDesc => 'Connect to your local camera and display jumua prayer stream on the TV screen.';
 
   @override
-  String get rtspCameraSettingScreenDesc => 'If you enter a URL here, your screen will automatically switch to video streaming when Jumua time arrives';
+  String get rtspCameraSettingScreenDesc =>
+      'If you enter a URL here, your screen will automatically switch to video streaming when Jumua time arrives';
 
   @override
   String get validatingStream => 'Validating Stream...';
@@ -999,7 +1015,8 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get replaceWorkflowWithStream => 'Automatically display the camera stream';
 
   @override
-  String get replaceAppWorkflowWithCameraStream => 'The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display';
+  String get replaceAppWorkflowWithCameraStream =>
+      'The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display';
 
   @override
   String get streamError => 'An error occurred while streaming';

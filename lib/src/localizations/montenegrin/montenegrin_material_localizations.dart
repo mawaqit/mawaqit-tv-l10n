@@ -247,8 +247,7 @@ const montenegrinDateSymbols = {
   ],
 };
 
-class _MontenegrinMaterialLocalizationsDelegate
-    extends LocalizationsDelegate<MaterialLocalizations> {
+class _MontenegrinMaterialLocalizationsDelegate extends LocalizationsDelegate<MaterialLocalizations> {
   const _MontenegrinMaterialLocalizationsDelegate();
 
   @override
@@ -298,8 +297,7 @@ class MontenegrinMaterialLocalizations extends GlobalMaterialLocalizations {
     required super.twoDigitZeroPaddedFormat,
   });
 
-  static const LocalizationsDelegate<MaterialLocalizations> delegate =
-      _MontenegrinMaterialLocalizationsDelegate();
+  static const LocalizationsDelegate<MaterialLocalizations> delegate = _MontenegrinMaterialLocalizationsDelegate();
 
   @override
   String get moreButtonTooltip => 'Više';
@@ -380,8 +378,7 @@ class MontenegrinMaterialLocalizations extends GlobalMaterialLocalizations {
   String get pageRowsInfoTitleRaw => r'$firstRow–$lastRow od $rowCount';
 
   @override
-  String get pageRowsInfoTitleApproximateRaw =>
-      r'$firstRow–$lastRow od približno $rowCount';
+  String get pageRowsInfoTitleApproximateRaw => r'$firstRow–$lastRow od približno $rowCount';
 
   @override
   String get pasteButtonLabel => 'ZALIJEPI';
@@ -414,8 +411,7 @@ class MontenegrinMaterialLocalizations extends GlobalMaterialLocalizations {
   String get remainingTextFieldCharacterCountOne => 'Preostao je 1 karakter';
 
   @override
-  String get remainingTextFieldCharacterCountOther =>
-      r'$remainingCount karaktera preostalo';
+  String get remainingTextFieldCharacterCountOther => r'$remainingCount karaktera preostalo';
 
   @override
   String? get remainingTextFieldCharacterCountTwo => null;
@@ -496,8 +492,7 @@ class MontenegrinMaterialLocalizations extends GlobalMaterialLocalizations {
   String get viewLicensesButtonLabel => 'PREGLED LICENCI';
 
   @override
-  List<String> get narrowWeekdays =>
-      const <String>['N', 'P', 'U', 'S', 'Č', 'P', 'S'];
+  List<String> get narrowWeekdays => const <String>['N', 'P', 'U', 'S', 'Č', 'P', 'S'];
 
   @override
   int get firstDayOfWeekIndex => 1;

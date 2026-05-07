@@ -21,6 +21,8 @@
   "changeMosque": "Промяна на джамията",
   "in1": "след",
   "azanIn": "Езан след",
+  "countdownPrayer": "{name} след {time}",
+  "countdownNonPrayer": "{name} след {time}",
   "sec": "Секунди",
   "online": "Онлайн",
   "missingMosqueId": "Липсващ MAWAQIT #ID или MOSQUE #ID",

@@ -21,6 +21,8 @@
   "changeMosque": "Tukar Masjid",
   "in1": "di",
   "azanIn": "Azan dalam",
+  "countdownPrayer": "{name} di {time}",
+  "countdownNonPrayer": "{name} di {time}",
   "sec": "Detik",
   "online": "Online",
   "missingMosqueId": "Hilang MAWAQIT #ID atau MASJID #ID",

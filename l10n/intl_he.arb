@@ -21,6 +21,8 @@
   "changeMosque": "Change Mosque",
   "in1": "ב־",
   "azanIn": "אד'אן בעוד",
+  "countdownPrayer": "{name} ב־ {time}",
+  "countdownNonPrayer": "{name} ב־ {time}",
   "sec": "Sec",
   "online": "מקוון",
   "missingMosqueId": "Missing Mosque ID",

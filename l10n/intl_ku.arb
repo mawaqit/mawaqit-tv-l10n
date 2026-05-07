@@ -21,6 +21,8 @@
   "changeMosque": "گۆڕینی مزگەوت",
   "in1": "لەدوای",
   "azanIn": "بانگی",
+  "countdownPrayer": "بانگی {name} لەدوای {time}",
+  "countdownNonPrayer": "{name} لەدوای {time}",
   "sec": "دواتر",
   "online": "لەسەر هێڵ",
   "missingMosqueId": "کۆدی مەواقیت یاخود کۆدی مزگەوت بەردەست نیە",

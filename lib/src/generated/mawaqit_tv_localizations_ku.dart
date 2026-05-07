@@ -31,7 +31,8 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get descLang => 'تکایە زمانی دڵخوازی خۆت هەڵبژێرە';
 
   @override
-  String get hadithLangDesc => 'ئەمەش هەڵبژاردنی خۆت لە کۆنسۆلی بەڕێوەبەردا جێبەجێ دەکات، دەتوانیت زمانێکی جیاواز بۆ شاشە هەڵبژێریت';
+  String get hadithLangDesc =>
+      'ئەمەش هەڵبژاردنی خۆت لە کۆنسۆلی بەڕێوەبەردا جێبەجێ دەکات، دەتوانیت زمانێکی جیاواز بۆ شاشە هەڵبژێریت';
 
   @override
   String get whoops => 'ببورە!';
@@ -108,7 +109,8 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get mawaqitWelcome => 'بەخێربێیت بۆ مەواقیت';
 
   @override
-  String get mawaqitDesc => 'السلام علیکم، و خوای گەورە بەرەکەتدارتان بکات بۆ هەڵبژاردنی مەواقیت، یەکەم تۆڕی مزگەوتی زیرەک لە جیهاندا، کە ملیۆنان موسڵمان لە سەرانسەری جیهان و زیاد لە 85+ وڵات لە ساڵی 2016ەوە بەکاریدەهێنن.\n\nئێمە پێشکەوتووترین نیشاندەری مزگەوتی زیرەکتان بۆ دابین دەکەین، کە لەسەر چەندین ئامێر (مۆبایل، کاتژمێری زیرەک، شاشەی تەلەفزیۆن) بەردەستە، بەبێ کۆکردنەوە یان هاوبەشکردنی زانیارییە کەسییەکانتان.\n\nتکایە لێرەوە پاڵپشتی ئەم پڕۆژە پڕ بەرەکەتە بکەن : https://donate.mawaqit.net\n\nئێمە ڕێکخراوێکی قازانج نەویستین، ئەم پڕۆژەیەش “وەقف لەپێناو خودا”یە (وەقفی تایبەت)ە.\n\nبەخشینەکانتان ئەم پڕۆژەیە دەهێڵێتەوە بۆ هەموو کەسێک، لە هەر شوێنێک، بە تەواوی بێ بەرامبەر، بەبێ هیچ ڕیکلامێک، و هیچ بەشدارییەکی مانگانە نییە.\n\nئەم پڕۆژەیە بەبێ یارمەتی خوای گەورە بەڕێوە نەدەچوو، کە کۆمەڵگەیەکی بەسۆز لە خۆبەخشە بەتوانا و بەسۆزەکانی کۆکردەوە، کە شەو و ڕۆژ کاردەکەن بۆ پێشکەشکردنی باشترین خزمەتگوزاری و باشترین سیستەمێک کە بە دۆخی کۆتایی(٢٤/٧) کاربکات.\n\nتکایە بیر لە بەخشین بکەنەوە بۆ ئەوەی ئەم پڕۆژە پیرۆزە بەردەوام بێت. خوای گەورە بەرەکەت بڕژێنێت بەسەرتاندا بۆ متمانە و پشتیوانی بەردەوامتان.';
+  String get mawaqitDesc =>
+      'السلام علیکم، و خوای گەورە بەرەکەتدارتان بکات بۆ هەڵبژاردنی مەواقیت، یەکەم تۆڕی مزگەوتی زیرەک لە جیهاندا، کە ملیۆنان موسڵمان لە سەرانسەری جیهان و زیاد لە 85+ وڵات لە ساڵی 2016ەوە بەکاریدەهێنن.\n\nئێمە پێشکەوتووترین نیشاندەری مزگەوتی زیرەکتان بۆ دابین دەکەین، کە لەسەر چەندین ئامێر (مۆبایل، کاتژمێری زیرەک، شاشەی تەلەفزیۆن) بەردەستە، بەبێ کۆکردنەوە یان هاوبەشکردنی زانیارییە کەسییەکانتان.\n\nتکایە لێرەوە پاڵپشتی ئەم پڕۆژە پڕ بەرەکەتە بکەن : https://donate.mawaqit.net\n\nئێمە ڕێکخراوێکی قازانج نەویستین، ئەم پڕۆژەیەش “وەقف لەپێناو خودا”یە (وەقفی تایبەت)ە.\n\nبەخشینەکانتان ئەم پڕۆژەیە دەهێڵێتەوە بۆ هەموو کەسێک، لە هەر شوێنێک، بە تەواوی بێ بەرامبەر، بەبێ هیچ ڕیکلامێک، و هیچ بەشدارییەکی مانگانە نییە.\n\nئەم پڕۆژەیە بەبێ یارمەتی خوای گەورە بەڕێوە نەدەچوو، کە کۆمەڵگەیەکی بەسۆز لە خۆبەخشە بەتوانا و بەسۆزەکانی کۆکردەوە، کە شەو و ڕۆژ کاردەکەن بۆ پێشکەشکردنی باشترین خزمەتگوزاری و باشترین سیستەمێک کە بە دۆخی کۆتایی(٢٤/٧) کاربکات.\n\nتکایە بیر لە بەخشین بکەنەوە بۆ ئەوەی ئەم پڕۆژە پیرۆزە بەردەوام بێت. خوای گەورە بەرەکەت بڕژێنێت بەسەرتاندا بۆ متمانە و پشتیوانی بەردەوامتان.';
 
   @override
   String get privacyPolicy => 'سیاسەتی تایبەتمەندێتی';
@@ -126,7 +128,8 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get drawerDesc => 'بەستنەوەی موسڵمانان بە مزگەوتەکانەوە';
 
   @override
-  String get backendError => 'ببورە، نەمانتوانی پەیوەندی بە سێرڤەرەوە بکەین.\nتکایە پەیوەندی ئینتەرنێت پشتڕاست بکەرەوە یان دواتر هەوڵبدەرەوە.';
+  String get backendError =>
+      'ببورە، نەمانتوانی پەیوەندی بە سێرڤەرەوە بکەین.\nتکایە پەیوەندی ئینتەرنێت پشتڕاست بکەرەوە یان دواتر هەوڵبدەرەوە.';
 
   @override
   String get selectWithMosqueId => 'بۆ نمونە: 256, کە کۆدی مزگەوتی \'Grande Mosquée de Paris\'';
@@ -189,7 +192,8 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get afterAdhanHadithTitle => 'دوعای دوای بانگ';
 
   @override
-  String get afterSalahHadith => 'خودایه،‌ په‌روه‌ردگاری ئه‌م بانگه‌وازه‌ ته‌واو و بێ كه‌م و كورتییه‌، خاوه‌نی درودی به‌رده‌وام ببه‌خشه‌ به‌ پێغه‌مبه‌ر موحه‌ممه‌د (صلى الله علیه‌ وسلم) پله‌و پایه‌ی به‌رزی (الوسيلة) (پله و پایه‌یه‌كه‌ له‌ به‌هه‌شتدا) هه‌روه‌ها (الفضيلة) (كه‌ پله‌ی شه‌فاعه‌ته‌) هه‌روه‌ها ببه‌خشه‌ پێی ئه‌و شوێنه‌ به‌رز و باشه‌ی، كه‌ به‌ڵێنت پێداوه‌';
+  String get afterSalahHadith =>
+      'خودایه،‌ په‌روه‌ردگاری ئه‌م بانگه‌وازه‌ ته‌واو و بێ كه‌م و كورتییه‌، خاوه‌نی درودی به‌رده‌وام ببه‌خشه‌ به‌ پێغه‌مبه‌ر موحه‌ممه‌د (صلى الله علیه‌ وسلم) پله‌و پایه‌ی به‌رزی (الوسيلة) (پله و پایه‌یه‌كه‌ له‌ به‌هه‌شتدا) هه‌روه‌ها (الفضيلة) (كه‌ پله‌ی شه‌فاعه‌ته‌) هه‌روه‌ها ببه‌خشه‌ پێی ئه‌و شوێنه‌ به‌رز و باشه‌ی، كه‌ به‌ڵێنت پێداوه‌';
 
   @override
   String get alIqama => 'قامەت';
@@ -213,55 +217,71 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get alAthkar => 'ویردەکان';
 
   @override
-  String get azkarList0 => 'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
+  String get azkarList0 =>
+      'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
 
   @override
-  String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
+  String get azkarList1 =>
+      'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
 
   @override
-  String get azkarList2 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
+  String get azkarList2 =>
+      'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
 
   @override
-  String get azkarList3 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.';
+  String get azkarList3 =>
+      'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.';
 
   @override
-  String get azkarList4 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.';
+  String get azkarList4 =>
+      'Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.';
 
   @override
-  String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
+  String get azkarList5 =>
+      'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 => 'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
+  String get azkarList6 =>
+      'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
 
   @override
-  String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
+  String get azkarList7 =>
+      'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
 
   @override
-  String get azkarList8 => 'Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādha \'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha \'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū\'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.';
+  String get azkarList8 =>
+      'Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādha \'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha \'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū\'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.';
 
   @override
-  String get azkarList9 => 'Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā\'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba\'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]';
+  String get azkarList9 =>
+      'Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā\'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba\'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]';
 
   @override
-  String get azkarList10 => 'Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina \'l-kufri, wa \'l-faqr, wa a`ūdhu bika min `adhābi \'l-qabr, lā ilāha illā ant. (Thalātha marrāt)';
+  String get azkarList10 =>
+      'Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina \'l-kufri, wa \'l-faqr, wa a`ūdhu bika min `adhābi \'l-qabr, lā ilāha illā ant. (Thalātha marrāt)';
 
   @override
-  String get azkarList11 => 'Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu \'l-`Arshi \'l-\'Aẓīm. (Sab\'a marrāt)';
+  String get azkarList11 =>
+      'Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu \'l-`Arshi \'l-\'Aẓīm. (Sab\'a marrāt)';
 
   @override
-  String get azkarList12 => 'Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)';
+  String get azkarList12 =>
+      'Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)';
 
   @override
-  String get azkarList13 => 'Lā ilāha illallāh waḥdahu lā sharīka lah, lahu\'l-mulku wa lahu\'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay\'in qadīr. (\'Ashra marrāt)';
+  String get azkarList13 =>
+      'Lā ilāha illallāh waḥdahu lā sharīka lah, lahu\'l-mulku wa lahu\'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay\'in qadīr. (\'Ashra marrāt)';
 
   @override
-  String get azkarList14 => 'Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba\'dahā, wa a\'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba\'dahā, wa a\'ūdhu bika minal-kasal, wa sū\'il-kibar, wa a\'ūdhu bika min \'adhābin-nār, wa \'adhābil-qabr';
+  String get azkarList14 =>
+      'Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba\'dahā, wa a\'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba\'dahā, wa a\'ūdhu bika minal-kasal, wa sū\'il-kibar, wa a\'ūdhu bika min \'adhābin-nār, wa \'adhābil-qabr';
 
   @override
   String get jumuaaScreenTitle => 'کاتی هەینی';
 
   @override
-  String get jumuaaHadith => 'پێغەمبەری خوا ﷺ فەرموویەتى: «هەر کەسێک لە ڕۆژی هەینی بەجوانی و تەواوی خۆی بشوات، زوو بێت بۆ مزگەوت بۆ نوێژی هەینی، لە وتارخوێن نزیک ببێتەوە و گوێبیستی بێت و بێدەنگ بێت، ئەوە بە هەر هەنگاوێک کە دەینێت پاداشتی ساڵێک لە بەڕۆژووبون و هەڵسانەوەیەی شەونوێژی بۆ هەیە».';
+  String get jumuaaHadith =>
+      'پێغەمبەری خوا ﷺ فەرموویەتى: «هەر کەسێک لە ڕۆژی هەینی بەجوانی و تەواوی خۆی بشوات، زوو بێت بۆ مزگەوت بۆ نوێژی هەینی، لە وتارخوێن نزیک ببێتەوە و گوێبیستی بێت و بێدەنگ بێت، ئەوە بە هەر هەنگاوێک کە دەینێت پاداشتی ساڵێک لە بەڕۆژووبون و هەڵسانەوەیەی شەونوێژی بۆ هەیە».';
 
   @override
   String get shuruk => 'ڕۆژهەڵات';
@@ -276,16 +296,19 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get reset => 'فۆرمات';
 
   @override
-  String get mosqueNotFoundMessage => 'ببورن مزگەوتەکەت نەدۆزراوەتەوە، یان لەوانەیە ون بێت یان بۆ ماوەیەکی کاتی لەکارکەوتبێت.';
+  String get mosqueNotFoundMessage =>
+      'ببورن مزگەوتەکەت نەدۆزراوەتەوە، یان لەوانەیە ون بێت یان بۆ ماوەیەکی کاتی لەکارکەوتبێت.';
 
   @override
-  String get noInternetMessage => 'ئینتەرنێت نییە. تکایە پەیوەندی ئینتەرنێتەکەت پشتڕاست بکەرەوە و دووبارە هەوڵبدەرەوە. ئایا وای فای یان ئیتەرنێتەکەت پەیوەستە؟';
+  String get noInternetMessage =>
+      'ئینتەرنێت نییە. تکایە پەیوەندی ئینتەرنێتەکەت پشتڕاست بکەرەوە و دووبارە هەوڵبدەرەوە. ئایا وای فای یان ئیتەرنێتەکەت پەیوەستە؟';
 
   @override
   String get error => 'هەڵە';
 
   @override
-  String get mosqueErrorMessage => 'هەڵەی مزگەوت! ئەگەر ئەدمینی مزگەوتیت پەیوەندی بە پشتگیریمانەوە بکە بۆ چارەسەرکردنی ئەم کێشەیە';
+  String get mosqueErrorMessage =>
+      'هەڵەی مزگەوت! ئەگەر ئەدمینی مزگەوتیت پەیوەندی بە پشتگیریمانەوە بکە بۆ چارەسەرکردنی ئەم کێشەیە';
 
   @override
   String get muharram => 'محرم';
@@ -324,7 +347,8 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get dhuAlhijjah => 'زولحەجە';
 
   @override
-  String get duaaBetweenSalahAndAdhan => 'ئەنەسی کوڕى مالیک دەڵێت: پێغەمبەری خوا ﷺ فەرموویەتى: «دوعا و پاڕانەوەی نێوان بانگ و قامەت ڕەت ناکرێتەوە».';
+  String get duaaBetweenSalahAndAdhan =>
+      'ئەنەسی کوڕى مالیک دەڵێت: پێغەمبەری خوا ﷺ فەرموویەتى: «دوعا و پاڕانەوەی نێوان بانگ و قامەت ڕەت ناکرێتەوە».';
 
   @override
   String get salatKhayrMinaNawm => 'نوێژ باشترە لە نوستن';
@@ -399,7 +423,8 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get mainScreenOrSecondaryScreen => 'جێگای شاشە';
 
   @override
-  String get mainScreenOrSecondaryScreenEXPLINATION => 'دەتەوێت ئەم شاشەیە لە ژووری نوێژی سەرەکی (ژووری نوێژی پیاوان) دابنێیت ?';
+  String get mainScreenOrSecondaryScreenEXPLINATION =>
+      'دەتەوێت ئەم شاشەیە لە ژووری نوێژی سەرەکی (ژووری نوێژی پیاوان) دابنێیت ?';
 
   @override
   String get mainScreen => 'شاشەی سەرەکی';
@@ -417,13 +442,15 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get normalMode => 'دۆخی ئاسایی ';
 
   @override
-  String get announcementOnlyModeEXPLINATION => 'هەڵیبژێرە ئەگەر شاشەکەت هەموو کاتێک ڕاگەیاندنەکان پیشان دەدات، ئەمە دەتوانێت سوودی هەبێت ئەگەر شاشەکە لە دەرگای چوونە ژوورەوە دابمەزرێنیت بۆ نموونە.';
+  String get announcementOnlyModeEXPLINATION =>
+      'هەڵیبژێرە ئەگەر شاشەکەت هەموو کاتێک ڕاگەیاندنەکان پیشان دەدات، ئەمە دەتوانێت سوودی هەبێت ئەگەر شاشەکە لە دەرگای چوونە ژوورەوە دابمەزرێنیت بۆ نموونە.';
 
   @override
   String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
-  String get secondaryScreenExplanation => 'بۆ ژووری نوێژی لاوەکی (ژووری ئافرەتان یان نهۆمێکی تر بۆ نموونە)، ئەم شاشەیە دەتوانێت ڕاستەوخۆی وتاری هەینی پیشان بدات';
+  String get secondaryScreenExplanation =>
+      'بۆ ژووری نوێژی لاوەکی (ژووری ئافرەتان یان نهۆمێکی تر بۆ نموونە)، ئەم شاشەیە دەتوانێت ڕاستەوخۆی وتاری هەینی پیشان بدات';
 
   @override
   String get mainScreenExplanation => 'بۆ ژووری مزگەوتی سەرەکی ئەم شاشەیە ناتوانێت ڕاستەوخۆی وتاری هەینی پیشان بدات';
@@ -444,7 +471,8 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get deviceDefault => 'بەهەمان شێوەی ئامێر';
 
   @override
-  String get deviceDefaultBTNDescription => 'مەواقیت بە شێوەیەکی ئۆتۆماتیکی ئاراستە هەڵدەبژێرێت بە پشتبەستن بە ئاراستەی شاشەکە';
+  String get deviceDefaultBTNDescription =>
+      'مەواقیت بە شێوەیەکی ئۆتۆماتیکی ئاراستە هەڵدەبژێرێت بە پشتبەستن بە ئاراستەی شاشەکە';
 
   @override
   String get portrait => 'ستوونی';
@@ -456,7 +484,8 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get landscape => 'ئاسۆیی';
 
   @override
-  String get landscapeBTNDescription => 'بۆ ئاراستەی ئاسۆیی، شێوازی سەرەکی بۆ بەرنامەی مەواقیت پێشنیار کراوە بۆ زۆربەی مزگەوتەکان';
+  String get landscapeBTNDescription =>
+      'بۆ ئاراستەی ئاسۆیی، شێوازی سەرەکی بۆ بەرنامەی مەواقیت پێشنیار کراوە بۆ زۆربەی مزگەوتەکان';
 
   @override
   String get eidMubarak => 'جەژنتان پیرۆز';
@@ -471,13 +500,15 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get applicationModes => 'Moda destpêkirina xwerû';
 
   @override
-  String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'ئەگەر ڕووبەڕووی کێشە بوویتەوە لەگەڵ بەرنامەکەدا، هەوڵبدە ئەم هەڵبژاردنە چالاک بکەیت';
+  String get ifYouAreFacingAnIssueWithTheAppActivateThis =>
+      'ئەگەر ڕووبەڕووی کێشە بوویتەوە لەگەڵ بەرنامەکەدا، هەوڵبدە ئەم هەڵبژاردنە چالاک بکەیت';
 
   @override
   String get hijriAdjustments => 'ڕێکخستنە ناوخۆییەکانی بەرواری هیجری';
 
   @override
-  String get hijriAdjustmentsDescription => 'بەرواری هیجری بە شێوەیەکی ناوخۆیی لە ئامێرەکەتدا ڕێکبخە. ئەمەش کاریگەری لەسەر ڕێکخستنەکانی مزگەوتەکەت لەسەر هێڵ نابێت';
+  String get hijriAdjustmentsDescription =>
+      'بەرواری هیجری بە شێوەیەکی ناوخۆیی لە ئامێرەکەتدا ڕێکبخە. ئەمەش کاریگەری لەسەر ڕێکخستنەکانی مزگەوتەکەت لەسەر هێڵ نابێت';
 
   @override
   String get backoffice_default => 'رێکخستنە ئاساییەکانی نوسینگە';
@@ -678,7 +709,8 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get automaticUpdate => 'ئاگادارکەرەوەی نوێکردنەوە';
 
   @override
-  String get automaticUpdateDescription => 'ئاگادارکردنەوەی نوێکردنەوە چالاک بکە بۆ وەرگرتنی نوێترین تایبەتمەندی و باشترکردنەکان';
+  String get automaticUpdateDescription =>
+      'ئاگادارکردنەوەی نوێکردنەوە چالاک بکە بۆ وەرگرتنی نوێترین تایبەتمەندی و باشترکردنەکان';
 
   @override
   String get checkInternetLegacyMode => 'پێویستە پەیوەست ببیت بە هێڵی ئینتەرنێتەوە بۆ بەکارهێنانی دۆخی پێشوو';
@@ -882,10 +914,12 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get rtspCameraSettingTitle => 'Kamerayek zindî';
 
   @override
-  String get rtspCameraSettingDesc => 'پەیوەست ببە بە کامێرا نێوخۆییەکەتەوە و راستەوخۆی وتاری هەینی لە شاشەکەوە بگوازەوە.';
+  String get rtspCameraSettingDesc =>
+      'پەیوەست ببە بە کامێرا نێوخۆییەکەتەوە و راستەوخۆی وتاری هەینی لە شاشەکەوە بگوازەوە.';
 
   @override
-  String get rtspCameraSettingScreenDesc => 'ئەگەر کینکەکە تۆماربکەیت، شاشەکە بە ئۆتۆماتیکی دەگۆڕدرێت بۆ ڤیدیۆی ڕاستەوخۆ لەکاتی گەیشتن بە کاتی جومعە';
+  String get rtspCameraSettingScreenDesc =>
+      'ئەگەر کینکەکە تۆماربکەیت، شاشەکە بە ئۆتۆماتیکی دەگۆڕدرێت بۆ ڤیدیۆی ڕاستەوخۆ لەکاتی گەیشتن بە کاتی جومعە';
 
   @override
   String get validatingStream => 'گونجاندنی پەخش...';
@@ -943,7 +977,8 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get enableScheduling => 'کارپێکردنی خشتە';
 
   @override
-  String get scheduleDesc => 'ئەم خزمەتگوزارییە کارا بکە تاوەکوو بەشێوەیەکی ئۆتۆماتیکی لە کاتە دیاریکراوەکاندا سورەتێک گوێبیست ببیت.';
+  String get scheduleDesc =>
+      'ئەم خزمەتگوزارییە کارا بکە تاوەکوو بەشێوەیەکی ئۆتۆماتیکی لە کاتە دیاریکراوەکاندا سورەتێک گوێبیست ببیت.';
 
   @override
   String get startTime => 'کاتی دەستپێکردن';
@@ -999,7 +1034,8 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get replaceWorkflowWithStream => 'نیشاندانی خۆکارانەی پەخشی کامێرا';
 
   @override
-  String get replaceAppWorkflowWithCameraStream => 'شاشەکە بە شێوەیەکی ئۆتۆماتیکی پەخشی کامێرا پیشان دەدات هەر کە کامێرا دەستی بە تۆمارکردن کرد؛ ئەگەر وەستا، شاشەکە دەگەڕێتەوە بۆ پیشاندانی کاتەکانی نوێژ';
+  String get replaceAppWorkflowWithCameraStream =>
+      'شاشەکە بە شێوەیەکی ئۆتۆماتیکی پەخشی کامێرا پیشان دەدات هەر کە کامێرا دەستی بە تۆمارکردن کرد؛ ئەگەر وەستا، شاشەکە دەگەڕێتەوە بۆ پیشاندانی کاتەکانی نوێژ';
 
   @override
   String get streamError => 'هەڵەیەک روویدا لەکاتی پەخشکردن';

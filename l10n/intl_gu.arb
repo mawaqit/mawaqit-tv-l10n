@@ -21,6 +21,8 @@
   "changeMosque": "મસ્જીદ બદલો ",
   "in1": "માં",
   "azanIn": "અઝાન માં બાકી મિનિટ",
+  "countdownPrayer": "{name} માં {time}",
+  "countdownNonPrayer": "{name} માં {time}",
   "sec": "સેકન્ડ ",
   "online": "ઓનલાઈન ",
   "missingMosqueId": "મવાકિત #ID અથવા મસ્જિદ #ID મળતું નથી",

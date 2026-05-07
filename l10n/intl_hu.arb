@@ -21,6 +21,8 @@
   "changeMosque": "Válts mecsetet",
   "in1": "Be",
   "azanIn": "Azán hátralévő ideje:",
+  "countdownPrayer": "{name} Be {time}",
+  "countdownNonPrayer": "{name} Be {time}",
   "sec": "Másodperc",
   "online": "Online",
   "missingMosqueId": "Hiányzó MAWAQIT #ID vagy MECSET #ID",

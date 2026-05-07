@@ -1,5 +1,5 @@
 /// Example application demonstrating Mawaqit TV Localization Package
-/// 
+///
 /// This example shows how to integrate the localization package into
 /// a Flutter application for Islamic prayer times and mosque management
 
@@ -15,21 +15,21 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Mawaqit TV L10n Example',
-      
+
       // Add localization delegates (includes Kurdish and Montenegrin support)
       localizationsDelegates: MawaqitTvExtendedLocalizations.localizationsDelegates,
-      
+
       // Specify supported locales
       supportedLocales: MawaqitTvExtendedLocalizations.supportedLocales,
-      
+
       // Set locale resolution callback with extended support
       localeResolutionCallback: MawaqitTvExtendedLocalizations.localeResolutionCallback,
-      
+
       theme: ThemeData(
         primarySwatch: Colors.green,
         fontFamily: 'Roboto',
       ),
-      
+
       home: HomeScreen(),
     );
   }
@@ -53,7 +53,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     final l10n = MawaqitTvLocalizations.of(context);
     final isRtl = MawaqitTvLocaleUtils.isRtl(_currentLocale);
-    
+
     return Directionality(
       textDirection: isRtl ? TextDirection.rtl : TextDirection.ltr,
       child: Scaffold(
@@ -85,9 +85,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   _buildPrayerTimeRow(l10n.isha, "19:50"),
                 ],
               ),
-              
+
               const SizedBox(height: 16),
-              
+
               // Mosque Management Section
               _buildSectionCard(
                 context,
@@ -106,9 +106,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ],
               ),
-              
+
               const SizedBox(height: 16),
-              
+
               // Settings Section
               _buildSectionCard(
                 context,
@@ -157,9 +157,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text(
                   title,
                   style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                    fontWeight: FontWeight.bold,
-                    color: Colors.green[700],
-                  ),
+                        fontWeight: FontWeight.bold,
+                        color: Colors.green[700],
+                      ),
                 ),
               ],
             ),
@@ -205,7 +205,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 final locale = MawaqitTvLocaleConstants.supportedLocales[index];
                 final isRtl = MawaqitTvLocaleUtils.isRtl(locale);
                 final isSelected = locale.languageCode == _currentLocale.languageCode;
-                
+
                 return ListTile(
                   selected: isSelected,
                   leading: isSelected ? const Icon(Icons.check) : null,
@@ -232,4 +232,4 @@ class _HomeScreenState extends State<HomeScreen> {
       },
     );
   }
-} 
+}

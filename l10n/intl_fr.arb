@@ -25,6 +25,8 @@
   "changeMosque": "Changer de Mosquée",
   "in1": "dans",
   "azanIn": "Athan en",
+  "countdownPrayer": "{name} dans {time}",
+  "countdownNonPrayer": "{name} dans {time}",
   "sec": "Sec",
   "online": "Connecté",
   "missingMosqueId": "Numéro d'identification MAWAQIT #ID ou MOSQUE #ID manquant",

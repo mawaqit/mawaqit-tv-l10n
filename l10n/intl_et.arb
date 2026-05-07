@@ -21,6 +21,8 @@
   "changeMosque": "Muuda mošee",
   "in1": "aadressil",
   "azanIn": "Azan kell",
+  "countdownPrayer": "{name} aadressil {time}",
+  "countdownNonPrayer": "{name} aadressil {time}",
   "sec": "Sek",
   "online": "Online",
   "missingMosqueId": "Puudub MAWAQIT #ID või MOSQUE #ID",

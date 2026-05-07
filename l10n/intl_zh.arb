@@ -21,6 +21,8 @@
   "changeMosque": "改变清真寺",
   "in1": "在",
   "azanIn": "Azan 在",
+  "countdownPrayer": "{name} 在 {time}",
+  "countdownNonPrayer": "{name} 在 {time}",
   "sec": "秘书",
   "online": "在线",
   "missingMosqueId": "缺少MAWAQIT #ID或MOSQUE #ID",

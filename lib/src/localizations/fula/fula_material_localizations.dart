@@ -7,8 +7,7 @@ import 'package:intl/date_symbol_data_custom.dart' as date_symbol_data_custom;
 import 'package:intl/date_symbols.dart' as intl;
 import 'package:intl/intl.dart' as intl;
 
-class _FulaMaterialLocalizationsDelegate
-    extends LocalizationsDelegate<MaterialLocalizations> {
+class _FulaMaterialLocalizationsDelegate extends LocalizationsDelegate<MaterialLocalizations> {
   const _FulaMaterialLocalizationsDelegate();
 
   @override
@@ -56,8 +55,7 @@ class FulaMaterialLocalizations extends GlobalMaterialLocalizations {
     required super.twoDigitZeroPaddedFormat,
   });
 
-  static const LocalizationsDelegate<MaterialLocalizations> delegate =
-      _FulaMaterialLocalizationsDelegate();
+  static const LocalizationsDelegate<MaterialLocalizations> delegate = _FulaMaterialLocalizationsDelegate();
 
   @override
   String get aboutListTileTitleRaw => r'Baɗte $applicationName';
@@ -117,8 +115,7 @@ class FulaMaterialLocalizations extends GlobalMaterialLocalizations {
   String get dateRangePickerHelpText => 'SUƁO CAKKITOL';
 
   @override
-  String get dateRangeStartDateSemanticLabelRaw =>
-      r'Ñalnde Fuɗɗotoonde $fullDate';
+  String get dateRangeStartDateSemanticLabelRaw => r'Ñalnde Fuɗɗotoonde $fullDate';
 
   @override
   String get dateRangeStartLabel => 'Ñalnde Fuɗɗotoonde';
@@ -193,8 +190,7 @@ class FulaMaterialLocalizations extends GlobalMaterialLocalizations {
   String get pageRowsInfoTitleRaw => r'$firstRow–$lastRow e $rowCount';
 
   @override
-  String get pageRowsInfoTitleApproximateRaw =>
-      r'$firstRow–$lastRow e $rowCount haa';
+  String get pageRowsInfoTitleApproximateRaw => r'$firstRow–$lastRow e $rowCount haa';
 
   @override
   String get pasteButtonLabel => 'Ɗakku';
@@ -218,8 +214,7 @@ class FulaMaterialLocalizations extends GlobalMaterialLocalizations {
   String? get remainingTextFieldCharacterCountFew => null;
 
   @override
-  List<String> get narrowWeekdays =>
-      const ['A', 'A', 'M', 'N', 'N', 'M', 'H'];
+  List<String> get narrowWeekdays => const ['A', 'A', 'M', 'N', 'N', 'M', 'H'];
 
   @override
   String? get remainingTextFieldCharacterCountMany => null;
@@ -228,8 +223,7 @@ class FulaMaterialLocalizations extends GlobalMaterialLocalizations {
   String get remainingTextFieldCharacterCountOne => '1 seedantaagal fadde';
 
   @override
-  String get remainingTextFieldCharacterCountOther =>
-      r'$remainingCount seedantaaje faddude';
+  String get remainingTextFieldCharacterCountOther => r'$remainingCount seedantaaje faddude';
 
   @override
   String? get remainingTextFieldCharacterCountTwo => null;
@@ -539,34 +533,8 @@ const ffDateSymbols = {
   'NAME': 'ff',
   'ERAS': ['H-I', 'C-I'],
   'ERANAMES': ['Hade Iisa', 'Caggal Iisa'],
-  'NARROWMONTHS': [
-    'S',
-    'C',
-    'M',
-    'S',
-    'D',
-    'K',
-    'M',
-    'J',
-    'S',
-    'Y',
-    'J',
-    'B'
-  ],
-  'STANDALONENARROWMONTHS': [
-    'S',
-    'C',
-    'M',
-    'S',
-    'D',
-    'K',
-    'M',
-    'J',
-    'S',
-    'Y',
-    'J',
-    'B'
-  ],
+  'NARROWMONTHS': ['S', 'C', 'M', 'S', 'D', 'K', 'M', 'J', 'S', 'Y', 'J', 'B'],
+  'STANDALONENARROWMONTHS': ['S', 'C', 'M', 'S', 'D', 'K', 'M', 'J', 'S', 'Y', 'J', 'B'],
   'MONTHS': [
     'Siilo',
     'Colte',
@@ -623,51 +591,14 @@ const ffDateSymbols = {
     'jol',
     'bow',
   ],
-  'WEEKDAYS': [
-    'dewo',
-    'aaɓnde',
-    'mawbaare',
-    'njeslaare',
-    'naasaande',
-    'mawnde',
-    'hoore-biir'
-  ],
-  'STANDALONEWEEKDAYS': [
-    'dewo',
-    'aaɓnde',
-    'mawbaare',
-    'njeslaare',
-    'naasaande',
-    'mawnde',
-    'hoore-biir'
-  ],
-  'SHORTWEEKDAYS': [
-    'dew',
-    'aaɓ',
-    'maw',
-    'nje',
-    'naa',
-    'mwd',
-    'hbi'
-  ],
-  'STANDALONESHORTWEEKDAYS': [
-    'dew',
-    'aaɓ',
-    'maw',
-    'nje',
-    'naa',
-    'mwd',
-    'hbi'
-  ],
+  'WEEKDAYS': ['dewo', 'aaɓnde', 'mawbaare', 'njeslaare', 'naasaande', 'mawnde', 'hoore-biir'],
+  'STANDALONEWEEKDAYS': ['dewo', 'aaɓnde', 'mawbaare', 'njeslaare', 'naasaande', 'mawnde', 'hoore-biir'],
+  'SHORTWEEKDAYS': ['dew', 'aaɓ', 'maw', 'nje', 'naa', 'mwd', 'hbi'],
+  'STANDALONESHORTWEEKDAYS': ['dew', 'aaɓ', 'maw', 'nje', 'naa', 'mwd', 'hbi'],
   'NARROWWEEKDAYS': ['d', 'a', 'm', 'n', 'n', 'm', 'h'],
   'STANDALONENARROWWEEKDAYS': ['d', 'a', 'm', 'n', 'n', 'm', 'h'],
   'SHORTQUARTERS': ['N1', 'N2', 'N3', 'N4'],
-  'QUARTERS': [
-    'Termes 1',
-    'Termes 2',
-    'Termes 3',
-    'Termes 4'
-  ],
+  'QUARTERS': ['Termes 1', 'Termes 2', 'Termes 3', 'Termes 4'],
   'AMPMS': ['subaka', 'kikiiɗe'],
   'DATEFORMATS': [
     'EEEE d MMMM y',

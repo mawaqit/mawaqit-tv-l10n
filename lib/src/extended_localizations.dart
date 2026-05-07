@@ -26,29 +26,29 @@ import 'localizations/fula/fula_widgets_localizations.dart';
 class MawaqitTvExtendedLocalizations {
   /// Complete list of localization delegates
   static List<LocalizationsDelegate<dynamic>> get localizationsDelegates => [
-    // Mawaqit TV localizations (app strings)
-    MawaqitTvLocalizations.delegate,
+        // Mawaqit TV localizations (app strings)
+        MawaqitTvLocalizations.delegate,
 
-    // Kurdish localizations (must come before global delegates)
-    KurdishMaterialLocalizations.delegate,
-    KurdishCupertinoLocalizations.delegate,
-    KurdishWidgetsLocalizations.delegate,
+        // Kurdish localizations (must come before global delegates)
+        KurdishMaterialLocalizations.delegate,
+        KurdishCupertinoLocalizations.delegate,
+        KurdishWidgetsLocalizations.delegate,
 
-    // Montenegrin localizations (must come before global delegates)
-    MontenegrinMaterialLocalizations.delegate,
-    MontenegrinCupertinoLocalizations.delegate,
-    MontenegrinWidgetsLocalizations.delegate,
+        // Montenegrin localizations (must come before global delegates)
+        MontenegrinMaterialLocalizations.delegate,
+        MontenegrinCupertinoLocalizations.delegate,
+        MontenegrinWidgetsLocalizations.delegate,
 
-    // Fula localizations (must come before global delegates)
-    FulaMaterialLocalizations.delegate,
-    FulaCupertinoLocalizations.delegate,
-    FulaWidgetsLocalizations.delegate,
+        // Fula localizations (must come before global delegates)
+        FulaMaterialLocalizations.delegate,
+        FulaCupertinoLocalizations.delegate,
+        FulaWidgetsLocalizations.delegate,
 
-    // Standard Flutter localizations
-    GlobalCupertinoLocalizations.delegate,
-    GlobalMaterialLocalizations.delegate,
-    GlobalWidgetsLocalizations.delegate,
-  ];
+        // Standard Flutter localizations
+        GlobalCupertinoLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+      ];
 
   /// All supported locales
   static const List<Locale> supportedLocales = [

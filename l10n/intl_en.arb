@@ -26,6 +26,34 @@
   "changeMosque": "Change Mosque",
   "in1": "in",
   "azanIn": "Athan in",
+  "countdownPrayer": "{name} Athan in {time}",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "countdownNonPrayer": "{name} in {time}",
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
   "sec": "Sec",
   "online": "Online",
   "missingMosqueId": "Missing MAWAQIT #ID or MOSQUE #ID",

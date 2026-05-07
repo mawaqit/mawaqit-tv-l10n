@@ -21,6 +21,8 @@
   "changeMosque": "Sprememba mošeje",
   "in1": "na spletnem mestu",
   "azanIn": "Azan v",
+  "countdownPrayer": "{name} na spletnem mestu {time}",
+  "countdownNonPrayer": "{name} na spletnem mestu {time}",
   "sec": "Sec",
   "online": "Spletna stran",
   "missingMosqueId": "Manjka ID MAWAQIT ali ID MOSQUE",

@@ -21,6 +21,8 @@
   "changeMosque": "மசூதியை மாற்றவும்",
   "in1": "பிறகு",
   "azanIn": "அதான் நேரம் இன்னும்",
+  "countdownPrayer": "{name} பிறகு {time}",
+  "countdownNonPrayer": "{name} பிறகு {time}",
   "sec": "௨",
   "online": "ஆன்லைன்",
   "missingMosqueId": "மசூதி ஐடி காணவில்லை",
