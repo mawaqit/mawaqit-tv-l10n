@@ -31,8 +31,7 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get descLang => 'Molimo izaberite željeni jezik';
 
   @override
-  String get hadithLangDesc =>
-      'Ovo menja vaš izbor u administratorskoj konzoli, možete izabrati drugi jezik za svaki ekran';
+  String get hadithLangDesc => 'Ovo menja vaš izbor u administratorskoj konzoli, možete izabrati drugi jezik za svaki ekran';
 
   @override
   String get whoops => 'Ups!';
@@ -89,6 +88,16 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get azanIn => 'Ezan za';
 
   @override
+  String countdownPrayer(String name, String time) {
+    return '$name za $time';
+  }
+
+  @override
+  String countdownNonPrayer(String name, String time) {
+    return '$name za $time';
+  }
+
+  @override
   String get sec => 'sek';
 
   @override
@@ -109,8 +118,7 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get mawaqitWelcome => 'Dobrodošli u MAWAQIT';
 
   @override
-  String get mawaqitDesc =>
-      'Esselamu alejkum i Baraka\'Allah fikom što ste izabrali MAWAQIT, prvu i vodeću Mrežu Pametnih Džamija na svetu, koju koristi više miliona muslimana širom 85+ zemalja od 2016. godine.\n\nNudimo vam najnapredniji Pametni ekran za džamije, dostupan na više uređaja (mobilni, pametni sat, TV ekran), bez prikupljanja ili deljenja vaših ličnih podataka.\n\nPodržite ovaj blagoslovljeni projekat ovde: https://donate.mawaqit.net\n\nMi smo neprofitna organizacija, a ovaj projekat je \"Vakıf fi sebilillah\" (Posvećeni vakuf).\n\nVaše donacije omogućavaju da ovaj projekat bude dostupan svima, bilo gde, potpuno BESPLATNO, bez REKLAMA i bez MESEČNE PRETPLATE.\n\nOvaj projekat ne bi bio moguć bez Allahove pomoći, koja je okupila zajednicu talentovanih i posvećenih volontera koji danonoćno rade kako bi vam obezbedili najbolju moguću uslugu i savremeni sistem dostupan 24/7.\n\nMolimo vas, razmotrite mogućnost donacije kako bi ovaj blagoslovljeni projekat nastavio da traje. Baraka\'Allah fikom na vašem poverenju i podršci.';
+  String get mawaqitDesc => 'Esselamu alejkum i Baraka\'Allah fikom što ste izabrali MAWAQIT, prvu i vodeću Mrežu Pametnih Džamija na svetu, koju koristi više miliona muslimana širom 85+ zemalja od 2016. godine.\n\nNudimo vam najnapredniji Pametni ekran za džamije, dostupan na više uređaja (mobilni, pametni sat, TV ekran), bez prikupljanja ili deljenja vaših ličnih podataka.\n\nPodržite ovaj blagoslovljeni projekat ovde: https://donate.mawaqit.net\n\nMi smo neprofitna organizacija, a ovaj projekat je \"Vakıf fi sebilillah\" (Posvećeni vakuf).\n\nVaše donacije omogućavaju da ovaj projekat bude dostupan svima, bilo gde, potpuno BESPLATNO, bez REKLAMA i bez MESEČNE PRETPLATE.\n\nOvaj projekat ne bi bio moguć bez Allahove pomoći, koja je okupila zajednicu talentovanih i posvećenih volontera koji danonoćno rade kako bi vam obezbedili najbolju moguću uslugu i savremeni sistem dostupan 24/7.\n\nMolimo vas, razmotrite mogućnost donacije kako bi ovaj blagoslovljeni projekat nastavio da traje. Baraka\'Allah fikom na vašem poverenju i podršci.';
 
   @override
   String get privacyPolicy => 'Politika privatnosti';
@@ -128,8 +136,7 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get drawerDesc => 'Povezivanje muslimana sa džamijama';
 
   @override
-  String get backendError =>
-      'Žao nam je, nismo mogli da se povežemo sa serverom.\nProverite internet vezu ili pokušajte kasnije.';
+  String get backendError => 'Žao nam je, nismo mogli da se povežemo sa serverom.\nProverite internet vezu ili pokušajte kasnije.';
 
   @override
   String get selectWithMosqueId => 'Pokušajte: 256, to je ID \'Grande Mosquée de Paris\'';
@@ -192,8 +199,7 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get afterAdhanHadithTitle => 'Dova posle ezana';
 
   @override
-  String get afterSalahHadith =>
-      'Allahumma Rabba hadhihid-da\'wati-ttammati, was-salatil-qa\'imati, ati Muhammadanil-wasilata wal-fadhilata, wab\'athu maqaman mahmuda nilladhi wa \'adtahu [O Allah, Gospodaru ovog savršenog poziva (Da\'ve) i uspostavljenog namaza (salat), podari Muhammedu vasilu i čast, i podigni ga na hvaljeno mesto koje si mu obećao]';
+  String get afterSalahHadith => 'Allahumma Rabba hadhihid-da\'wati-ttammati, was-salatil-qa\'imati, ati Muhammadanil-wasilata wal-fadhilata, wab\'athu maqaman mahmuda nilladhi wa \'adtahu [O Allah, Gospodaru ovog savršenog poziva (Da\'ve) i uspostavljenog namaza (salat), podari Muhammedu vasilu i čast, i podigni ga na hvaljeno mesto koje si mu obećao]';
 
   @override
   String get alIqama => 'El Ikama';
@@ -217,71 +223,55 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get alAthkar => 'Al-Azkar';
 
   @override
-  String get azkarList0 =>
-      'Astaghfirullah, Astaghfirullah, Astaghfirullah. Allahumme Ente Selam, ve minke’s-selam, tebarekte ja zel-dželali vel-ikram. Allahumme a’inni ‘ala zikrike ve šukrike ve husni ‘ibadetike.';
+  String get azkarList0 => 'Astaghfirullah, Astaghfirullah, Astaghfirullah. Allahumme Ente Selam, ve minke’s-selam, tebarekte ja zel-dželali vel-ikram. Allahumme a’inni ‘ala zikrike ve šukrike ve husni ‘ibadetike.';
 
   @override
-  String get azkarList1 =>
-      'Subhanallah, vel-hamdu lillah, vellaahu ekber (33 puta) La ilahe illallah, vahdahu la šerike leh, lehu’l-mulku ve lehu’l-hamdu, ve huve ‘ala kulli šej’in kadir';
+  String get azkarList1 => 'Subhanallah, vel-hamdu lillah, vellaahu ekber (33 puta) La ilahe illallah, vahdahu la šerike leh, lehu’l-mulku ve lehu’l-hamdu, ve huve ‘ala kulli šej’in kadir';
 
   @override
-  String get azkarList2 =>
-      'بисмиллахир Рахманир Рахим. Реци: Тражим заштиту код Господара људи, Владaра људи, Бога људи, од зла подмуклог искушавача који се скрива, који шапуће у груди људи, од џинова и људи.';
+  String get azkarList2 => 'بисмиллахир Рахманир Рахим. Реци: Тражим заштиту код Господара људи, Владaра људи, Бога људи, од зла подмуклог искушавача који се скрива, који шапуће у груди људи, од џинова и људи.';
 
   @override
-  String get azkarList3 =>
-      'بисмиллахир Рахманир Рахим. Реци: Тражим заштиту код Господара зоре, од зла онога што је створио, и од зла таме када настане, и од зла жена које пљују у чворове, и од зла завидника када завиди.';
+  String get azkarList3 => 'بисмиллахир Рахманир Рахим. Реци: Тражим заштиту код Господара зоре, од зла онога што је створио, и од зла таме када настане, и од зла жена које пљују у чворове, и од зла завидника када завиди.';
 
   @override
-  String get azkarList4 =>
-      'бисмиллахир Рахманир Рахим. Реци: Он је Аллах, Један! Аллах је Уточиšte! Није родио и није рођен, и нико Му раван није.';
+  String get azkarList4 => 'бисмиллахир Рахманир Рахим. Реци: Он је Аллах, Један! Аллах је Уточиšte! Није родио и није рођен, и нико Му раван није.';
 
   @override
-  String get azkarList5 =>
-      'Аллаху ла илааhe илла хува ал-Хајјул Кајјум. Не обузима га ни дрема ни сан. Његово је оно што је на небесима и што је на Земљи. Ко се може заузимати код Њега без дозволе Његове? Зна шта је пред њима и шта је иза њих, а они од Његова знања обухватају само оно што Он жели. Пријестољ Његов обухвата и небеса и Земљу, и Њему није тешко одржавати их. Он је Узвишени, Велики.';
+  String get azkarList5 => 'Аллаху ла илааhe илла хува ал-Хајјул Кајјум. Не обузима га ни дрема ни сан. Његово је оно што је на небесима и што је на Земљи. Ко се може заузимати код Њега без дозволе Његове? Зна шта је пред њима и шта је иза њих, а они од Његова знања обухватају само оно што Он жели. Пријестољ Његов обухвата и небеса и Земљу, и Њему није тешко одржавати их. Он је Узвишени, Велики.';
 
   @override
-  String get azkarList6 =>
-      'La ilahe illallah, vahdehu la šerike leh, lehu-l-mulku ve lehu-l-hamdu, ve huve \'ala kulli šej\'in kadir. Allahumme la mani\'a lime a\'tejte, ve la mu\'tija lima mene\'te, ve la jenfe\'u ze-l-džeddi minke-l-džed.';
+  String get azkarList6 => 'La ilahe illallah, vahdehu la šerike leh, lehu-l-mulku ve lehu-l-hamdu, ve huve \'ala kulli šej\'in kadir. Allahumme la mani\'a lime a\'tejte, ve la mu\'tija lima mene\'te, ve la jenfe\'u ze-l-džeddi minke-l-džed.';
 
   @override
-  String get azkarList7 =>
-      'О Аллаху, Ти си мој Господар, нема бога осим Тебе. Ти си ме створио и ја сам Твој роб, и ја сам на Твом завету и обећању колико могу. Тражим уточиште код Тебе од зла онога што сам учинио. Признајем Твоју благодат према мени и признајем свој грех. Опрости ми, јер нико не опрашта грехе осим Тебе.';
+  String get azkarList7 => 'О Аллаху, Ти си мој Господар, нема бога осим Тебе. Ти си ме створио и ја сам Твој роб, и ја сам на Твом завету и обећању колико могу. Тражим уточиште код Тебе од зла онога што сам учинио. Признајем Твоју благодат према мени и признајем свој грех. Опрости ми, јер нико не опрашта грехе осим Тебе.';
 
   @override
-  String get azkarList8 =>
-      'Постали смо и власт припада Аллаху. Хвала Аллаху, нема бога осим Аллаха, Јединог, Он нема друга. Њему припада власт и Њему припада сва хвала, и Он је моћан над свим стварима. Молим Те за добро овог дана и добро што после њега долази, и тражим уточиште код Тебе од зла овог дана и зла што после њега долази. Тражим уточиште код Тебе од лeњости и зле старости, и тражим уточиште код Тебе од казне ватре и казне у гробу.';
+  String get azkarList8 => 'Постали смо и власт припада Аллаху. Хвала Аллаху, нема бога осим Аллаха, Јединог, Он нема друга. Њему припада власт и Њему припада сва хвала, и Он је моћан над свим стварима. Молим Те за добро овог дана и добро што после њега долази, и тражим уточиште код Тебе од зла овог дана и зла што после њега долази. Тражим уточиште код Тебе од лeњости и зле старости, и тражим уточиште код Тебе од казне ватре и казне у гробу.';
 
   @override
-  String get azkarList9 =>
-      'О Аллаху, заиста сам освануо сведочећи Ти, и сведочим носиоцима Твог Престола, Твојим анђелима и свим Твојим створењима, да си Ти Аллах, нема бога осим Тебе, Једини, и да Мухаммед је Твој роб и посланик. |Четири пута|. [А када омркне, да каже: О Аллаху, заиста сам омрнуо ...]';
+  String get azkarList9 => 'О Аллаху, заиста сам освануо сведочећи Ти, и сведочим носиоцима Твог Престола, Твојим анђелима и свим Твојим створењима, да си Ти Аллах, нема бога осим Тебе, Једини, и да Мухаммед је Твој роб и посланик. |Четири пута|. [А када омркне, да каже: О Аллаху, заиста сам омрнуо ...]';
 
   @override
-  String get azkarList10 =>
-      'О Аллаху, подари ми здравље у мом телу, о Аллаху, подари ми здравље у мом слуху, о Аллаху, подари ми здравље у мом виду. Нема бога осим Тебе. О Аллаху, тражим уточиште код Тебе од неверства и сиромаштва, и тражим уточиште код Тебе од казне у гробу. Нема бога осим Тебе. |Три пута|';
+  String get azkarList10 => 'О Аллаху, подари ми здравље у мом телу, о Аллаху, подари ми здравље у мом слуху, о Аллаху, подари ми здравље у мом виду. Нема бога осим Тебе. О Аллаху, тражим уточиште код Тебе од неверства и сиромаштва, и тражим уточиште код Тебе од казне у гробу. Нема бога осим Тебе. |Три пута|';
 
   @override
-  String get azkarList11 =>
-      'Довољан ми је Аллах, нема бога осим Њега, у Њега се уздам и Он је Господар Престола Великога. |Седам пута|';
+  String get azkarList11 => 'Довољан ми је Аллах, нема бога осим Њега, у Њега се уздам и Он је Господар Престола Великога. |Седам пута|';
 
   @override
-  String get azkarList12 =>
-      'Задовољан сам Аллахом као Господаром, Исламом као вером и Мухаммедом صلى الله عليه وسلم као Послаником. |Три пута|';
+  String get azkarList12 => 'Задовољан сам Аллахом као Господаром, Исламом као вером и Мухаммедом صلى الله عليه وسلم као Послаником. |Три пута|';
 
   @override
-  String get azkarList13 =>
-      'Нема бога осим Аллаха, Јединог, Он нема друга. Њему припада власт и Њему припада сва хвала и Он је моћан над свим стварима. |Десет пута|';
+  String get azkarList13 => 'Нема бога осим Аллаха, Јединог, Он нема друга. Њему припада власт и Њему припада сва хвала и Он је моћан над свим стварима. |Десет пута|';
 
   @override
-  String get azkarList14 =>
-      'Постали смо и власт припада Аллаху. Хвала Аллаху, нема бога осим Аллаха, Јединог, Он нема друга. Њему припада власт и Њему припада сва хвала, и Он је моћан над свим стварима. Молим Те за добро овог дана и добро што после њега долази, и тражим уточиште код Тебе од зла овог дана и зла што после њега долази. Тражим уточиште код Тебе од лeњости и зле старости, и тражим уточиште код Тебе од казне ватре и казне у гробу.';
+  String get azkarList14 => 'Постали смо и власт припада Аллаху. Хвала Аллаху, нема бога осим Аллаха, Јединог, Он нема друга. Њему припада власт и Њему припада сва хвала, и Он је моћан над свим стварима. Молим Те за добро овог дана и добро што после њега долази, и тражим уточиште код Тебе од зла овог дана и зла што после њега долази. Тражим уточиште код Тебе од лeњости и зле старости, и тражим уточиште код Тебе од казне ватре и казне у гробу.';
 
   @override
   String get jumuaaScreenTitle => 'Vreme džume';
 
   @override
-  String get jumuaaHadith =>
-      'Poslanik ﷺ (mir i blagoslov Allahov neka je na njega) je rekao: \"Ko uradi abdest savršeno, zatim ode na džumu, sluša i ćuti, biće mu oprošteno ono između te i naredne džume, kao i još tri dana. Onaj ko dira kamenčiće sigurno je učinio uzaludnost.\"';
+  String get jumuaaHadith => 'Poslanik ﷺ (mir i blagoslov Allahov neka je na njega) je rekao: \"Ko uradi abdest savršeno, zatim ode na džumu, sluša i ćuti, biće mu oprošteno ono između te i naredne džume, kao i još tri dana. Onaj ko dira kamenčiće sigurno je učinio uzaludnost.\"';
 
   @override
   String get shuruk => 'Šuruk';
@@ -299,15 +289,13 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get mosqueNotFoundMessage => 'Žao nam je, vaša džamija nije pronađena ili je privremeno onemogućena.';
 
   @override
-  String get noInternetMessage =>
-      'Nema pristupa internetu. Proverite vašu internet konekciju i pokušajte ponovo. Da li je vaš Wi-Fi ili Ethernet povezan?';
+  String get noInternetMessage => 'Nema pristupa internetu. Proverite vašu internet konekciju i pokušajte ponovo. Da li je vaš Wi-Fi ili Ethernet povezan?';
 
   @override
   String get error => 'Greška';
 
   @override
-  String get mosqueErrorMessage =>
-      'Greška sa džamijom. Ako ste administrator džamije, kontaktirajte podršku radi rešavanja problema.';
+  String get mosqueErrorMessage => 'Greška sa džamijom. Ako ste administrator džamije, kontaktirajte podršku radi rešavanja problema.';
 
   @override
   String get muharram => 'Muharrem';
@@ -346,8 +334,7 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get dhuAlhijjah => 'Zu-l-hidžže';
 
   @override
-  String get duaaBetweenSalahAndAdhan =>
-      'Enes ibn Malik je rekao: Poslanik ﷺ je rekao: \"Dova nije odbijena između poziva na namaz i ustajanja za namaz.\"';
+  String get duaaBetweenSalahAndAdhan => 'Enes ibn Malik je rekao: Poslanik ﷺ je rekao: \"Dova nije odbijena između poziva na namaz i ustajanja za namaz.\"';
 
   @override
   String get salatKhayrMinaNawm => 'Es-salatu hajrun mine’n-nevm';
@@ -422,8 +409,7 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get mainScreenOrSecondaryScreen => 'Lokacija ekrana';
 
   @override
-  String get mainScreenOrSecondaryScreenEXPLINATION =>
-      'Da li želite da instalirate ovaj ekran u glavnoj molitvenoj prostoriji (muškoj molitvenoj sali)?';
+  String get mainScreenOrSecondaryScreenEXPLINATION => 'Da li želite da instalirate ovaj ekran u glavnoj molitvenoj prostoriji (muškoj molitvenoj sali)?';
 
   @override
   String get mainScreen => 'Glavni ekran';
@@ -441,16 +427,13 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get normalMode => 'Normalan režim';
 
   @override
-  String get announcementOnlyModeEXPLINATION =>
-      'Izaberite da li će vaš ekran stalno prikazivati obaveštenja, što može biti korisno, na primer, ako postavite ekran na ulazu.';
+  String get announcementOnlyModeEXPLINATION => 'Izaberite da li će vaš ekran stalno prikazivati obaveštenja, što može biti korisno, na primer, ako postavite ekran na ulazu.';
 
   @override
-  String get duaaElEftarText =>
-      'Allahumme, ja sam zbog Tebe postio, na Tvojim blagodatima iftarim, Tebi se vraćam i u Tebe se uzdam. Nestala je žeđ, navlažile su se žile i potvrđena je nagrada, inšallah.';
+  String get duaaElEftarText => 'Allahumme, ja sam zbog Tebe postio, na Tvojim blagodatima iftarim, Tebi se vraćam i u Tebe se uzdam. Nestala je žeđ, navlažile su se žile i potvrđena je nagrada, inšallah.';
 
   @override
-  String get secondaryScreenExplanation =>
-      'Za sekundarnu molitvenu prostoriju (ženska sala ili drugi sprat, na primer), ovaj ekran će prikazivati džumu prenos uživo';
+  String get secondaryScreenExplanation => 'Za sekundarnu molitvenu prostoriju (ženska sala ili drugi sprat, na primer), ovaj ekran će prikazivati džumu prenos uživo';
 
   @override
   String get mainScreenExplanation => 'Za glavni deo džamije ovaj ekran neće prikazivati džumu uživo';
@@ -471,8 +454,7 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get deviceDefault => 'Podrazumevano na uređaju';
 
   @override
-  String get deviceDefaultBTNDescription =>
-      'MAWAQIT će automatski izabrati podrazumevanu orijentaciju na osnovu orijentacije ekrana';
+  String get deviceDefaultBTNDescription => 'MAWAQIT će automatski izabrati podrazumevanu orijentaciju na osnovu orijentacije ekrana';
 
   @override
   String get portrait => 'Portret';
@@ -484,15 +466,13 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get landscape => 'Pejzaž';
 
   @override
-  String get landscapeBTNDescription =>
-      'Za horizontalnu orijentaciju. Glavni izgled MAWAQIT TV aplikacije i preporučen za većinu džamija';
+  String get landscapeBTNDescription => 'Za horizontalnu orijentaciju. Glavni izgled MAWAQIT TV aplikacije i preporučen za većinu džamija';
 
   @override
   String get eidMubarak => 'Bajram mubarek';
 
   @override
-  String get takbeerAleidText =>
-      'Allahu Ekber, Allahu Ekber, Allahu Ekber, la ilahe illa Allah, Allahu Ekber, Allahu Ekber, ve lillahi-l-hamd';
+  String get takbeerAleidText => 'Allahu Ekber, Allahu Ekber, Allahu Ekber, la ilahe illa Allah, Allahu Ekber, Allahu Ekber, ve lillahi-l-hamd';
 
   @override
   String get settings => 'Podešavanja';
@@ -501,15 +481,13 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get applicationModes => 'Подразумевани режим покретања';
 
   @override
-  String get ifYouAreFacingAnIssueWithTheAppActivateThis =>
-      'Ako imate problema sa aplikacijom, pokušajte da omogućite ovu opciju';
+  String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'Ako imate problema sa aplikacijom, pokušajte da omogućite ovu opciju';
 
   @override
   String get hijriAdjustments => 'Lokalna hidžretska podešavanja';
 
   @override
-  String get hijriAdjustmentsDescription =>
-      'Podesite hidžretski datum lokalno na vašem uređaju. Ovo neće uticati na onlajn podešavanja džamije.';
+  String get hijriAdjustmentsDescription => 'Podesite hidžretski datum lokalno na vašem uređaju. Ovo neće uticati na onlajn podešavanja džamije.';
 
   @override
   String get backoffice_default => 'Podrazumevano za Backoffice';
@@ -710,8 +688,7 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get automaticUpdate => 'Obavesti o ažuriranju';
 
   @override
-  String get automaticUpdateDescription =>
-      'Omogućite obaveštenja o ažuriranju da primate najnovije opcije i poboljšanja';
+  String get automaticUpdateDescription => 'Omogućite obaveštenja o ažuriranju da primate najnovije opcije i poboljšanja';
 
   @override
   String get checkInternetLegacyMode => 'Morate se povezati na internet da biste koristili stari režim';
@@ -918,8 +895,7 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get rtspCameraSettingDesc => 'Povežite se sa lokalnom kamerom i prikazujte prenos džuma-namaza na TV ekranu.';
 
   @override
-  String get rtspCameraSettingScreenDesc =>
-      'Ako ovde unesete URL, vaš ekran će se automatski prebaciti na video prenos kada dođe vreme za džumu';
+  String get rtspCameraSettingScreenDesc => 'Ako ovde unesete URL, vaš ekran će se automatski prebaciti na video prenos kada dođe vreme za džumu';
 
   @override
   String get validatingStream => 'Validacija prenosa...';
@@ -1033,8 +1009,7 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get replaceWorkflowWithStream => 'Automatski prikazi prenos sa kamere';
 
   @override
-  String get replaceAppWorkflowWithCameraStream =>
-      'Ekran će automatski prikazivati prenos sa kamere čim ona počne da snima; ako prestane, ekran se vraća na prikaz vremena namaza';
+  String get replaceAppWorkflowWithCameraStream => 'Ekran će automatski prikazivati prenos sa kamere čim ona počne da snima; ako prestane, ekran se vraća na prikaz vremena namaza';
 
   @override
   String get streamError => 'Dogodila se greška tokom prenosa';

@@ -355,6 +355,18 @@ abstract class MawaqitTvLocalizations {
   /// **'Athan in'**
   String get azanIn;
 
+  /// Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'
+  ///
+  /// In en, this message translates to:
+  /// **'{name} Athan in {time}'**
+  String countdownPrayer(String name, String time);
+
+  /// Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'
+  ///
+  /// In en, this message translates to:
+  /// **'{name} in {time}'**
+  String countdownNonPrayer(String name, String time);
+
   /// No description provided for @sec.
   ///
   /// In en, this message translates to:
@@ -2297,184 +2309,83 @@ class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLoc
   }
 
   @override
-  bool isSupported(Locale locale) => <String>[
-        'ar',
-        'az',
-        'ba',
-        'bg',
-        'bn',
-        'bs',
-        'ca',
-        'cnr',
-        'cs',
-        'da',
-        'de',
-        'el',
-        'en',
-        'es',
-        'et',
-        'fa',
-        'ff',
-        'fi',
-        'fr',
-        'gu',
-        'he',
-        'hi',
-        'hr',
-        'hu',
-        'id',
-        'it',
-        'ja',
-        'ko',
-        'ku',
-        'lt',
-        'lv',
-        'mk',
-        'ms',
-        'nl',
-        'no',
-        'pl',
-        'pt',
-        'ro',
-        'ru',
-        'sl',
-        'sq',
-        'sr',
-        'sv',
-        'ta',
-        'th',
-        'tr',
-        'uk',
-        'ur',
-        'vi',
-        'zh'
-      ].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['ar', 'az', 'ba', 'bg', 'bn', 'bs', 'ca', 'cnr', 'cs', 'da', 'de', 'el', 'en', 'es', 'et', 'fa', 'ff', 'fi', 'fr', 'gu', 'he', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'ku', 'lt', 'lv', 'mk', 'ms', 'nl', 'no', 'pl', 'pt', 'ro', 'ru', 'sl', 'sq', 'sr', 'sv', 'ta', 'th', 'tr', 'uk', 'ur', 'vi', 'zh'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_MawaqitTvLocalizationsDelegate old) => false;
 }
 
 MawaqitTvLocalizations lookupMawaqitTvLocalizations(Locale locale) {
+
   // Lookup logic when language+country codes are specified.
   switch (locale.languageCode) {
-    case 'pt':
-      {
-        switch (locale.countryCode) {
-          case 'BR':
-            return MawaqitTvLocalizationsPtBr();
-          case 'PT':
-            return MawaqitTvLocalizationsPtPt();
-        }
-        break;
-      }
+    case 'pt': {
+  switch (locale.countryCode) {
+    case 'BR': return MawaqitTvLocalizationsPtBr();
+case 'PT': return MawaqitTvLocalizationsPtPt();
+   }
+  break;
+   }
   }
 
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
-    case 'ar':
-      return MawaqitTvLocalizationsAr();
-    case 'az':
-      return MawaqitTvLocalizationsAz();
-    case 'ba':
-      return MawaqitTvLocalizationsBa();
-    case 'bg':
-      return MawaqitTvLocalizationsBg();
-    case 'bn':
-      return MawaqitTvLocalizationsBn();
-    case 'bs':
-      return MawaqitTvLocalizationsBs();
-    case 'ca':
-      return MawaqitTvLocalizationsCa();
-    case 'cnr':
-      return MawaqitTvLocalizationsCnr();
-    case 'cs':
-      return MawaqitTvLocalizationsCs();
-    case 'da':
-      return MawaqitTvLocalizationsDa();
-    case 'de':
-      return MawaqitTvLocalizationsDe();
-    case 'el':
-      return MawaqitTvLocalizationsEl();
-    case 'en':
-      return MawaqitTvLocalizationsEn();
-    case 'es':
-      return MawaqitTvLocalizationsEs();
-    case 'et':
-      return MawaqitTvLocalizationsEt();
-    case 'fa':
-      return MawaqitTvLocalizationsFa();
-    case 'ff':
-      return MawaqitTvLocalizationsFf();
-    case 'fi':
-      return MawaqitTvLocalizationsFi();
-    case 'fr':
-      return MawaqitTvLocalizationsFr();
-    case 'gu':
-      return MawaqitTvLocalizationsGu();
-    case 'he':
-      return MawaqitTvLocalizationsHe();
-    case 'hi':
-      return MawaqitTvLocalizationsHi();
-    case 'hr':
-      return MawaqitTvLocalizationsHr();
-    case 'hu':
-      return MawaqitTvLocalizationsHu();
-    case 'id':
-      return MawaqitTvLocalizationsId();
-    case 'it':
-      return MawaqitTvLocalizationsIt();
-    case 'ja':
-      return MawaqitTvLocalizationsJa();
-    case 'ko':
-      return MawaqitTvLocalizationsKo();
-    case 'ku':
-      return MawaqitTvLocalizationsKu();
-    case 'lt':
-      return MawaqitTvLocalizationsLt();
-    case 'lv':
-      return MawaqitTvLocalizationsLv();
-    case 'mk':
-      return MawaqitTvLocalizationsMk();
-    case 'ms':
-      return MawaqitTvLocalizationsMs();
-    case 'nl':
-      return MawaqitTvLocalizationsNl();
-    case 'no':
-      return MawaqitTvLocalizationsNo();
-    case 'pl':
-      return MawaqitTvLocalizationsPl();
-    case 'pt':
-      return MawaqitTvLocalizationsPt();
-    case 'ro':
-      return MawaqitTvLocalizationsRo();
-    case 'ru':
-      return MawaqitTvLocalizationsRu();
-    case 'sl':
-      return MawaqitTvLocalizationsSl();
-    case 'sq':
-      return MawaqitTvLocalizationsSq();
-    case 'sr':
-      return MawaqitTvLocalizationsSr();
-    case 'sv':
-      return MawaqitTvLocalizationsSv();
-    case 'ta':
-      return MawaqitTvLocalizationsTa();
-    case 'th':
-      return MawaqitTvLocalizationsTh();
-    case 'tr':
-      return MawaqitTvLocalizationsTr();
-    case 'uk':
-      return MawaqitTvLocalizationsUk();
-    case 'ur':
-      return MawaqitTvLocalizationsUr();
-    case 'vi':
-      return MawaqitTvLocalizationsVi();
-    case 'zh':
-      return MawaqitTvLocalizationsZh();
+    case 'ar': return MawaqitTvLocalizationsAr();
+    case 'az': return MawaqitTvLocalizationsAz();
+    case 'ba': return MawaqitTvLocalizationsBa();
+    case 'bg': return MawaqitTvLocalizationsBg();
+    case 'bn': return MawaqitTvLocalizationsBn();
+    case 'bs': return MawaqitTvLocalizationsBs();
+    case 'ca': return MawaqitTvLocalizationsCa();
+    case 'cnr': return MawaqitTvLocalizationsCnr();
+    case 'cs': return MawaqitTvLocalizationsCs();
+    case 'da': return MawaqitTvLocalizationsDa();
+    case 'de': return MawaqitTvLocalizationsDe();
+    case 'el': return MawaqitTvLocalizationsEl();
+    case 'en': return MawaqitTvLocalizationsEn();
+    case 'es': return MawaqitTvLocalizationsEs();
+    case 'et': return MawaqitTvLocalizationsEt();
+    case 'fa': return MawaqitTvLocalizationsFa();
+    case 'ff': return MawaqitTvLocalizationsFf();
+    case 'fi': return MawaqitTvLocalizationsFi();
+    case 'fr': return MawaqitTvLocalizationsFr();
+    case 'gu': return MawaqitTvLocalizationsGu();
+    case 'he': return MawaqitTvLocalizationsHe();
+    case 'hi': return MawaqitTvLocalizationsHi();
+    case 'hr': return MawaqitTvLocalizationsHr();
+    case 'hu': return MawaqitTvLocalizationsHu();
+    case 'id': return MawaqitTvLocalizationsId();
+    case 'it': return MawaqitTvLocalizationsIt();
+    case 'ja': return MawaqitTvLocalizationsJa();
+    case 'ko': return MawaqitTvLocalizationsKo();
+    case 'ku': return MawaqitTvLocalizationsKu();
+    case 'lt': return MawaqitTvLocalizationsLt();
+    case 'lv': return MawaqitTvLocalizationsLv();
+    case 'mk': return MawaqitTvLocalizationsMk();
+    case 'ms': return MawaqitTvLocalizationsMs();
+    case 'nl': return MawaqitTvLocalizationsNl();
+    case 'no': return MawaqitTvLocalizationsNo();
+    case 'pl': return MawaqitTvLocalizationsPl();
+    case 'pt': return MawaqitTvLocalizationsPt();
+    case 'ro': return MawaqitTvLocalizationsRo();
+    case 'ru': return MawaqitTvLocalizationsRu();
+    case 'sl': return MawaqitTvLocalizationsSl();
+    case 'sq': return MawaqitTvLocalizationsSq();
+    case 'sr': return MawaqitTvLocalizationsSr();
+    case 'sv': return MawaqitTvLocalizationsSv();
+    case 'ta': return MawaqitTvLocalizationsTa();
+    case 'th': return MawaqitTvLocalizationsTh();
+    case 'tr': return MawaqitTvLocalizationsTr();
+    case 'uk': return MawaqitTvLocalizationsUk();
+    case 'ur': return MawaqitTvLocalizationsUr();
+    case 'vi': return MawaqitTvLocalizationsVi();
+    case 'zh': return MawaqitTvLocalizationsZh();
   }
 
-  throw FlutterError('MawaqitTvLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
-      'an issue with the localizations generation tool. Please file an issue '
-      'on GitHub with a reproducible sample app and the gen-l10n configuration '
-      'that was used.');
+  throw FlutterError(
+    'MawaqitTvLocalizations.delegate failed to load unsupported locale "$locale". This is likely '
+    'an issue with the localizations generation tool. Please file an issue '
+    'on GitHub with a reproducible sample app and the gen-l10n configuration '
+    'that was used.'
+  );
 }

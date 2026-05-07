@@ -31,8 +31,7 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get descLang => 'Pilih bahasa yang disukai';
 
   @override
-  String get hadithLangDesc =>
-      'Ini menggantikan pilihan Anda di konsol Admin, Anda dapat memilih bahasa yang berbeda pada layar';
+  String get hadithLangDesc => 'Ini menggantikan pilihan Anda di konsol Admin, Anda dapat memilih bahasa yang berbeda pada layar';
 
   @override
   String get whoops => 'Waduh!';
@@ -89,6 +88,16 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get azanIn => 'Azan dalam';
 
   @override
+  String countdownPrayer(String name, String time) {
+    return '$name dalam $time';
+  }
+
+  @override
+  String countdownNonPrayer(String name, String time) {
+    return '$name dalam $time';
+  }
+
+  @override
   String get sec => 'Detik';
 
   @override
@@ -109,8 +118,7 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get mawaqitWelcome => 'Selamat datang di MAWAQIT';
 
   @override
-  String get mawaqitDesc =>
-      'Assalamualaikum, dan Baraka\'Allah fikom telah memilih MAWAQIT, Jaringan Masjid Pintar pertama dan #1 di dunia, yang digunakan oleh jutaan umat Islam di seluruh dunia di lebih dari 85 negara sejak tahun 2016.\n\nKami menyediakan Anda dengan Tampilan Masjid Pintar yang paling canggih, tersedia di berbagai Perangkat (Ponsel, Smartwatch, Layar TV), tanpa mengumpulkan atau membagikan data pribadi Anda.\n\nDukunglah proyek yang penuh berkah ini di sini: https://donate.mawaqit.net\n\nKami adalah organisasi nirlaba, dan proyek ini adalah \"Wakaf fi\'sabili Allah\" (wakaf khusus).\n\nDonasi Anda membuat proyek ini tetap tersedia bagi siapa saja, di mana saja, benar-benar GRATIS tanpa biaya apa pun, tanpa IKLAN, dan TANPA LANGGANAN BULANAN.\n\nProyek ini tidak akan terwujud tanpa bantuan Allah yang menyatukan komunitas sukarelawan yang penuh semangat dan berbakat, yang bekerja siang dan malam untuk memberikan layanan terbaik kepada Anda, dan sistem yang selalu siap sedia selama 24 jam.\n\nMohon pertimbangkan untuk berdonasi agar proyek yang penuh berkah ini terus berjalan. Baraka\'Allah fikom atas kepercayaan dan dukungan Anda yang berkelanjutan.';
+  String get mawaqitDesc => 'Assalamualaikum, dan Baraka\'Allah fikom telah memilih MAWAQIT, Jaringan Masjid Pintar pertama dan #1 di dunia, yang digunakan oleh jutaan umat Islam di seluruh dunia di lebih dari 85 negara sejak tahun 2016.\n\nKami menyediakan Anda dengan Tampilan Masjid Pintar yang paling canggih, tersedia di berbagai Perangkat (Ponsel, Smartwatch, Layar TV), tanpa mengumpulkan atau membagikan data pribadi Anda.\n\nDukunglah proyek yang penuh berkah ini di sini: https://donate.mawaqit.net\n\nKami adalah organisasi nirlaba, dan proyek ini adalah \"Wakaf fi\'sabili Allah\" (wakaf khusus).\n\nDonasi Anda membuat proyek ini tetap tersedia bagi siapa saja, di mana saja, benar-benar GRATIS tanpa biaya apa pun, tanpa IKLAN, dan TANPA LANGGANAN BULANAN.\n\nProyek ini tidak akan terwujud tanpa bantuan Allah yang menyatukan komunitas sukarelawan yang penuh semangat dan berbakat, yang bekerja siang dan malam untuk memberikan layanan terbaik kepada Anda, dan sistem yang selalu siap sedia selama 24 jam.\n\nMohon pertimbangkan untuk berdonasi agar proyek yang penuh berkah ini terus berjalan. Baraka\'Allah fikom atas kepercayaan dan dukungan Anda yang berkelanjutan.';
 
   @override
   String get privacyPolicy => 'Kebijakan privasi';
@@ -128,8 +136,7 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get drawerDesc => 'Menghubungkan Jamaah dengan Masjid';
 
   @override
-  String get backendError =>
-      'Maaf, kami tidak bisa terhubung ke server. Tolong pastikan anda terhubung ke internet atau silahkan coba ulang.';
+  String get backendError => 'Maaf, kami tidak bisa terhubung ke server. Tolong pastikan anda terhubung ke internet atau silahkan coba ulang.';
 
   @override
   String get selectWithMosqueId => 'Coba: 256, Ini adalah ID dari \'Grande Mosquée de Paris\'';
@@ -192,8 +199,7 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get afterAdhanHadithTitle => 'Setelah adzan Du`aa';
 
   @override
-  String get afterSalahHadith =>
-      'Allahumma Rabba haadzihid-da’watit-taammah, wash-sholaatil-qaa’imah, aati sayyidanaa Muhammadanil-washiilata wal-fadhilah wash-syarafa wad-darajatal-‘aliyatar-rafii’ah, wab’atshu maqaamam-mahmudanil-ladzi wa’adtah, innaka laa tukhliful-mii’aad, yaa Arhamar-Raahimiin. (\"Ya Allah, Tuhan yang mempunyai seruan yang sempurna, dan sholat yang akan didirikan, karuniakanlah junjungan kami nabi Muhammad tempat yang luhur, kelebihan, kemuliaan, dan derajat yang tinggi. Dan tempatkanlah ia pada kedudukan yang terpuji seperti yang telah Engkau janjikan. Sesungguhnya Engkau tiada menyalahi janji. Wahai dzat yang Maha Penyayang”)';
+  String get afterSalahHadith => 'Allahumma Rabba haadzihid-da’watit-taammah, wash-sholaatil-qaa’imah, aati sayyidanaa Muhammadanil-washiilata wal-fadhilah wash-syarafa wad-darajatal-‘aliyatar-rafii’ah, wab’atshu maqaamam-mahmudanil-ladzi wa’adtah, innaka laa tukhliful-mii’aad, yaa Arhamar-Raahimiin. (\"Ya Allah, Tuhan yang mempunyai seruan yang sempurna, dan sholat yang akan didirikan, karuniakanlah junjungan kami nabi Muhammad tempat yang luhur, kelebihan, kemuliaan, dan derajat yang tinggi. Dan tempatkanlah ia pada kedudukan yang terpuji seperti yang telah Engkau janjikan. Sesungguhnya Engkau tiada menyalahi janji. Wahai dzat yang Maha Penyayang”)';
 
   @override
   String get alIqama => 'Iqomah';
@@ -217,71 +223,55 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get alAthkar => 'Zikir';
 
   @override
-  String get azkarList0 =>
-      'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
+  String get azkarList0 => 'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
 
   @override
-  String get azkarList1 =>
-      'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
+  String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
 
   @override
-  String get azkarList2 =>
-      'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
+  String get azkarList2 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
 
   @override
-  String get azkarList3 =>
-      'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.';
+  String get azkarList3 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.';
 
   @override
-  String get azkarList4 =>
-      'Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.';
+  String get azkarList4 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.';
 
   @override
-  String get azkarList5 =>
-      'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
+  String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 =>
-      'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
+  String get azkarList6 => 'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
 
   @override
-  String get azkarList7 =>
-      'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
+  String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
 
   @override
-  String get azkarList8 =>
-      'Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādha \'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha \'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū\'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.';
+  String get azkarList8 => 'Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādha \'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha \'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū\'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.';
 
   @override
-  String get azkarList9 =>
-      'Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā\'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba\'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]';
+  String get azkarList9 => 'Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā\'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba\'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]';
 
   @override
-  String get azkarList10 =>
-      'Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina \'l-kufri, wa \'l-faqr, wa a`ūdhu bika min `adhābi \'l-qabr, lā ilāha illā ant. (Thalātha marrāt)';
+  String get azkarList10 => 'Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina \'l-kufri, wa \'l-faqr, wa a`ūdhu bika min `adhābi \'l-qabr, lā ilāha illā ant. (Thalātha marrāt)';
 
   @override
-  String get azkarList11 =>
-      'Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu \'l-`Arshi \'l-\'Aẓīm. (Sab\'a marrāt)';
+  String get azkarList11 => 'Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu \'l-`Arshi \'l-\'Aẓīm. (Sab\'a marrāt)';
 
   @override
-  String get azkarList12 =>
-      'Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)';
+  String get azkarList12 => 'Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)';
 
   @override
-  String get azkarList13 =>
-      'Lā ilāha illallāh waḥdahu lā sharīka lah, lahu\'l-mulku wa lahu\'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay\'in qadīr. (\'Ashra marrāt)';
+  String get azkarList13 => 'Lā ilāha illallāh waḥdahu lā sharīka lah, lahu\'l-mulku wa lahu\'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay\'in qadīr. (\'Ashra marrāt)';
 
   @override
-  String get azkarList14 =>
-      'Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba\'dahā, wa a\'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba\'dahā, wa a\'ūdhu bika minal-kasal, wa sū\'il-kibar, wa a\'ūdhu bika min \'adhābin-nār, wa \'adhābil-qabr';
+  String get azkarList14 => 'Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr. Rabbi as\'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba\'dahā, wa a\'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba\'dahā, wa a\'ūdhu bika minal-kasal, wa sū\'il-kibar, wa a\'ūdhu bika min \'adhābin-nār, wa \'adhābil-qabr';
 
   @override
   String get jumuaaScreenTitle => 'Waktu Shalat Jumat';
 
   @override
-  String get jumuaaHadith =>
-      'Nabi ﷺ bersabda, \"Barangsiapa berwudhu dengan sempurna, kemudian pergi ke jumatan, lalu mendengarkan dan diam, maka diampuni baginya apa yang ada di antara waktu tersebut hingga Jumat berikutnya dan tiga hari berikutnya, dan barangsiapa yang menyentuh batu, maka sungguh ia telah berbuat sia-sia.\"';
+  String get jumuaaHadith => 'Nabi ﷺ bersabda, \"Barangsiapa berwudhu dengan sempurna, kemudian pergi ke jumatan, lalu mendengarkan dan diam, maka diampuni baginya apa yang ada di antara waktu tersebut hingga Jumat berikutnya dan tiga hari berikutnya, dan barangsiapa yang menyentuh batu, maka sungguh ia telah berbuat sia-sia.\"';
 
   @override
   String get shuruk => 'Syuruk';
@@ -296,19 +286,16 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get reset => 'Mengatur ulang';
 
   @override
-  String get mosqueNotFoundMessage =>
-      'Maaf, masjid Anda tidak ditemukan, atau mungkin masjid tersebut hilang atau dinonaktifkan untuk sementara.';
+  String get mosqueNotFoundMessage => 'Maaf, masjid Anda tidak ditemukan, atau mungkin masjid tersebut hilang atau dinonaktifkan untuk sementara.';
 
   @override
-  String get noInternetMessage =>
-      'Tidak ada akses internet. Harap verifikasi konektivitas internet Anda dan coba lagi. Apakah Wi-Fi atau Ethernet Anda Tersambung?';
+  String get noInternetMessage => 'Tidak ada akses internet. Harap verifikasi konektivitas internet Anda dan coba lagi. Apakah Wi-Fi atau Ethernet Anda Tersambung?';
 
   @override
   String get error => 'Kesalahan';
 
   @override
-  String get mosqueErrorMessage =>
-      'Masjid ada kesalahan jika anda admin masjid hubungi dukungan teknis untuk memperbaiki masalah ini';
+  String get mosqueErrorMessage => 'Masjid ada kesalahan jika anda admin masjid hubungi dukungan teknis untuk memperbaiki masalah ini';
 
   @override
   String get muharram => 'Muharram';
@@ -347,8 +334,7 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get dhuAlhijjah => 'Dzulhijjah';
 
   @override
-  String get duaaBetweenSalahAndAdhan =>
-      'Dari sahabat Anas bin Malik (رضي الله عنه), Rasulullah ﷺ bersabda,\nSesungguhnya doa yang tidak tertolak adalah doa (yang dipanjatkan) di antara adzan dan iqamah, maka berdoalah (di waktu itu).” (HR. Ahmad no. 12584).';
+  String get duaaBetweenSalahAndAdhan => 'Dari sahabat Anas bin Malik (رضي الله عنه), Rasulullah ﷺ bersabda,\nSesungguhnya doa yang tidak tertolak adalah doa (yang dipanjatkan) di antara adzan dan iqamah, maka berdoalah (di waktu itu).” (HR. Ahmad no. 12584).';
 
   @override
   String get salatKhayrMinaNawm => 'Assalatu khayrun mina nawm';
@@ -423,8 +409,7 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get mainScreenOrSecondaryScreen => 'Lokasi layar';
 
   @override
-  String get mainScreenOrSecondaryScreenEXPLINATION =>
-      'Apakah Anda ingin memasang layar ini di ruang salat utama (ruang salat pria)?';
+  String get mainScreenOrSecondaryScreenEXPLINATION => 'Apakah Anda ingin memasang layar ini di ruang salat utama (ruang salat pria)?';
 
   @override
   String get mainScreen => 'Layar utama';
@@ -442,19 +427,16 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get normalMode => 'Mode normal ';
 
   @override
-  String get announcementOnlyModeEXPLINATION =>
-      'Pilih apakah layar Anda akan menampilkan pengumuman sepanjang waktu, ini dapat berguna jika Anda memasang layar di pintu masuk misalnya.';
+  String get announcementOnlyModeEXPLINATION => 'Pilih apakah layar Anda akan menampilkan pengumuman sepanjang waktu, ini dapat berguna jika Anda memasang layar di pintu masuk misalnya.';
 
   @override
   String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
 
   @override
-  String get secondaryScreenExplanation =>
-      'Untuk ruang salat sekunder (ruang wanita atau lantai lain misalnya), layar ini akan menampilkan siaran langsung jumatan';
+  String get secondaryScreenExplanation => 'Untuk ruang salat sekunder (ruang wanita atau lantai lain misalnya), layar ini akan menampilkan siaran langsung jumatan';
 
   @override
-  String get mainScreenExplanation =>
-      'Untuk ruang masjid utama, layar ini tidak akan menampilkan siaran langsung jumatan';
+  String get mainScreenExplanation => 'Untuk ruang masjid utama, layar ini tidak akan menampilkan siaran langsung jumatan';
 
   @override
   String get normalModeExplanation => 'Akan menampilkan layar normal dengan waktu sholat dan pengumuman.';
@@ -472,8 +454,7 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get deviceDefault => 'Default Perangkat';
 
   @override
-  String get deviceDefaultBTNDescription =>
-      'Mawaqit akan secara otomatis memilih orientasi default berdasarkan orientasi layar';
+  String get deviceDefaultBTNDescription => 'Mawaqit akan secara otomatis memilih orientasi default berdasarkan orientasi layar';
 
   @override
   String get portrait => 'Tegak';
@@ -485,15 +466,13 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get landscape => 'Mendatar';
 
   @override
-  String get landscapeBTNDescription =>
-      'Untuk orientasi horizontal. Tata letak utama untuk aplikasi mawaqit TV dan direkomendasikan untuk sebagian besar masjid';
+  String get landscapeBTNDescription => 'Untuk orientasi horizontal. Tata letak utama untuk aplikasi mawaqit TV dan direkomendasikan untuk sebagian besar masjid';
 
   @override
   String get eidMubarak => 'Idul Fitri';
 
   @override
-  String get takbeerAleidText =>
-      'Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd';
+  String get takbeerAleidText => 'Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd';
 
   @override
   String get settings => 'Pengaturan';
@@ -502,15 +481,13 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get applicationModes => 'Mode peluncuran default';
 
   @override
-  String get ifYouAreFacingAnIssueWithTheAppActivateThis =>
-      'Jika Anda menghadapi masalah dengan aplikasi, coba aktifkan opsi ini';
+  String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'Jika Anda menghadapi masalah dengan aplikasi, coba aktifkan opsi ini';
 
   @override
   String get hijriAdjustments => 'Penyesuaian tanggal Hijriah';
 
   @override
-  String get hijriAdjustmentsDescription =>
-      'Sesuaikan tanggal hijriah secara lokal di perangkat Anda. Ini tidak akan memengaruhi pengaturan masjid online';
+  String get hijriAdjustmentsDescription => 'Sesuaikan tanggal hijriah secara lokal di perangkat Anda. Ini tidak akan memengaruhi pengaturan masjid online';
 
   @override
   String get backoffice_default => 'Default Backoffice';
@@ -711,8 +688,7 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get automaticUpdate => 'Beri tahu pembaruan';
 
   @override
-  String get automaticUpdateDescription =>
-      'Aktifkan pemberitahuan pembaruan untuk menerima fitur dan peningkatan terbaru';
+  String get automaticUpdateDescription => 'Aktifkan pemberitahuan pembaruan untuk menerima fitur dan peningkatan terbaru';
 
   @override
   String get checkInternetLegacyMode => 'Anda harus terhubung ke internet untuk menggunakan mode lama';
@@ -919,8 +895,7 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get rtspCameraSettingDesc => 'Hubungkan ke kamera lokal Anda dan tampilkan siaran shalat Jumat di layar TV.';
 
   @override
-  String get rtspCameraSettingScreenDesc =>
-      'Jika Anda memasukkan URL/Link di sini, layar Anda akan secara otomatis beralih ke streaming video saat waktu Jumat tiba';
+  String get rtspCameraSettingScreenDesc => 'Jika Anda memasukkan URL/Link di sini, layar Anda akan secara otomatis beralih ke streaming video saat waktu Jumat tiba';
 
   @override
   String get validatingStream => 'Memvalidasi stream...';
@@ -1034,8 +1009,7 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get replaceWorkflowWithStream => 'Tampilkan stream kamera secara otomatis';
 
   @override
-  String get replaceAppWorkflowWithCameraStream =>
-      'Layar akan secara otomatis menampilkan stream kamera begitu kamera mulai merekam; jika berhenti, layar akan kembali ke tampilan jadwal waktu sholat';
+  String get replaceAppWorkflowWithCameraStream => 'Layar akan secara otomatis menampilkan stream kamera begitu kamera mulai merekam; jika berhenti, layar akan kembali ke tampilan jadwal waktu sholat';
 
   @override
   String get streamError => 'Terjadi kesalahan saat streaming';
@@ -1065,8 +1039,7 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get enablePrayerRemindersDesc => 'Berjalan otomatis di latar belakang';
 
   @override
-  String get testAITranslation =>
-      'Ini adalah string uji untuk memverifikasi apakah terjemahan AI berfungsi dengan benar';
+  String get testAITranslation => 'Ini adalah string uji untuk memverifikasi apakah terjemahan AI berfungsi dengan benar';
 
   @override
   String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
