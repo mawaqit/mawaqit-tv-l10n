@@ -2286,6 +2286,66 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'WIFI'**
   String get wifi;
+
+  /// Title for the mosque ID tutorial section
+  ///
+  /// In en, this message translates to:
+  /// **'Get started in 4 simple steps'**
+  String get tutorialGetStarted;
+
+  /// Subtitle for the mosque ID tutorial section
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have a Mosque ID yet? Here\'s how:'**
+  String get tutorialDontHaveId;
+
+  /// Tutorial step 1 instruction
+  ///
+  /// In en, this message translates to:
+  /// **'Go to mawaqit.net and create an account'**
+  String get tutorialStep1;
+
+  /// Tutorial step 2 instruction
+  ///
+  /// In en, this message translates to:
+  /// **'Register your mosque with photos & address'**
+  String get tutorialStep2;
+
+  /// Tutorial step 3 instruction
+  ///
+  /// In en, this message translates to:
+  /// **'Get your unique Mosque ID from your dashboard'**
+  String get tutorialStep3;
+
+  /// Tutorial step 4 instruction
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the ID here to connect your TV display'**
+  String get tutorialStep4;
+
+  /// Step label prefix with step number
+  ///
+  /// In en, this message translates to:
+  /// **'Step {step}  '**
+  String tutorialStep(String step);
+
+  /// Label next to QR code for registration
+  ///
+  /// In en, this message translates to:
+  /// **'Scan to register'**
+  String get tutorialScanToRegister;
+
+  /// Description below the scan to register label
+  ///
+  /// In en, this message translates to:
+  /// **'Use your phone to create an account on mawaqit.net'**
+  String get tutorialScanDescription;
+
+  /// Label for the full video tutorial section
+  ///
+  /// In en, this message translates to:
+  /// **'Full tutorial'**
+  String get tutorialFullTutorial;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {
