@@ -493,5 +493,15 @@
   "launchModeMainPrayer": "أوقات الصلاة الرئيسية",
   "launchModeSecondaryPrayer": "أوقات الصلاة الثانوية",
   "timezone": "المنطقة الزمنية",
-  "wifi": "واي فاي"
+  "wifi": "واي فاي",
+  "tutorialGetStarted": "ابدأ في 4 خطوات بسيطة",
+  "tutorialDontHaveId": "ليس لديك معرّف مسجد بعد؟ إليك الطريقة:",
+  "tutorialStep1": "اذهب إلى mawaqit.net وأنشئ حساباً",
+  "tutorialStep2": "سجّل مسجدك بالصور والعنوان",
+  "tutorialStep3": "احصل على معرّف المسجد الفريد من لوحة التحكم",
+  "tutorialStep4": "أدخل المعرّف هنا لربط شاشة التلفزيون",
+  "tutorialStep": "الخطوة {step}  ",
+  "tutorialScanToRegister": "امسح للتسجيل",
+  "tutorialScanDescription": "استخدم هاتفك لإنشاء حساب على mawaqit.net",
+  "tutorialFullTutorial": "الشرح الكامل"
 }
