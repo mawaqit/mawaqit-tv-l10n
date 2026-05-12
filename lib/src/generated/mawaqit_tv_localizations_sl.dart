@@ -1104,4 +1104,22 @@ class MawaqitTvLocalizationsSl extends MawaqitTvLocalizations {
 
   @override
   String get tutorialFullTutorial => 'Full tutorial';
+
+  @override
+  String get prayerTimeFontSize => 'App font size';
+
+  @override
+  String get prayerTimeFontSizeDesc => 'Adjust the font size across the entire app';
+
+  @override
+  String get fontSizeSmall => 'Small';
+
+  @override
+  String get fontSizeNormal => 'Normal';
+
+  @override
+  String get fontSizeLarge => 'Large';
+
+  @override
+  String get fontSizeXLarge => 'Extra Large';
 }

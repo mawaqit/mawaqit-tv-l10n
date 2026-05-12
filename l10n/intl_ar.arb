@@ -503,5 +503,11 @@
   "tutorialStep": "الخطوة {step}  ",
   "tutorialScanToRegister": "امسح للتسجيل",
   "tutorialScanDescription": "استخدم هاتفك لإنشاء حساب على mawaqit.net",
-  "tutorialFullTutorial": "الشرح الكامل"
+  "tutorialFullTutorial": "الشرح الكامل",
+  "prayerTimeFontSize": "حجم خط التطبيق",
+  "prayerTimeFontSizeDesc": "اضبط حجم الخط في جميع أنحاء التطبيق",
+  "fontSizeSmall": "صغير",
+  "fontSizeNormal": "عادي",
+  "fontSizeLarge": "كبير",
+  "fontSizeXLarge": "كبير جداً"
 }

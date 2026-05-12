@@ -2346,6 +2346,42 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Full tutorial'**
   String get tutorialFullTutorial;
+
+  /// Label for the app font size setting
+  ///
+  /// In en, this message translates to:
+  /// **'App font size'**
+  String get prayerTimeFontSize;
+
+  /// Description for the app font size setting
+  ///
+  /// In en, this message translates to:
+  /// **'Adjust the font size across the entire app'**
+  String get prayerTimeFontSizeDesc;
+
+  /// Small font size option
+  ///
+  /// In en, this message translates to:
+  /// **'Small'**
+  String get fontSizeSmall;
+
+  /// Normal font size option
+  ///
+  /// In en, this message translates to:
+  /// **'Normal'**
+  String get fontSizeNormal;
+
+  /// Large font size option
+  ///
+  /// In en, this message translates to:
+  /// **'Large'**
+  String get fontSizeLarge;
+
+  /// Extra large font size option
+  ///
+  /// In en, this message translates to:
+  /// **'Extra Large'**
+  String get fontSizeXLarge;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {
