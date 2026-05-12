@@ -2350,13 +2350,13 @@ abstract class MawaqitTvLocalizations {
   /// Label for the app font size setting
   ///
   /// In en, this message translates to:
-  /// **'App font size'**
+  /// **'Text & display size'**
   String get prayerTimeFontSize;
 
   /// Description for the app font size setting
   ///
   /// In en, this message translates to:
-  /// **'Adjust the font size across the entire app'**
+  /// **'Change how large the text appears throughout the app'**
   String get prayerTimeFontSizeDesc;
 
   /// Small font size option
