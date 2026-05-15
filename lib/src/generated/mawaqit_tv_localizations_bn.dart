@@ -210,24 +210,6 @@ class MawaqitTvLocalizationsBn extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'ইকামা কাউন্টডাউন স্ক্রিনে বর্তমান সময় ও তারিখ প্রদর্শন করুন';
 
   @override
-  String get prayerTimeFontSize => 'Prayer time font size';
-
-  @override
-  String get prayerTimeFontSizeDesc => 'Adjust the size of prayer times displayed on screen';
-
-  @override
-  String get fontSizeSmall => 'Small';
-
-  @override
-  String get fontSizeNormal => 'Normal';
-
-  @override
-  String get fontSizeLarge => 'Large';
-
-  @override
-  String get fontSizeXLarge => 'Extra large';
-
-  @override
   String get alAthkar => 'স্মরণ';
 
   @override

@@ -72,30 +72,6 @@
   "@iqamaShowClockDesc": {
     "description": "Subtitle for the iqama clock toggle setting"
   },
-  "prayerTimeFontSize": "Prayer time font size",
-  "@prayerTimeFontSize": {
-    "description": "Label for the prayer time font size setting"
-  },
-  "prayerTimeFontSizeDesc": "Adjust the size of prayer times displayed on screen",
-  "@prayerTimeFontSizeDesc": {
-    "description": "Subtitle for the prayer time font size setting"
-  },
-  "fontSizeSmall": "Small",
-  "@fontSizeSmall": {
-    "description": "Small font size preset label"
-  },
-  "fontSizeNormal": "Normal",
-  "@fontSizeNormal": {
-    "description": "Normal font size preset label"
-  },
-  "fontSizeLarge": "Large",
-  "@fontSizeLarge": {
-    "description": "Large font size preset label"
-  },
-  "fontSizeXLarge": "Extra large",
-  "@fontSizeXLarge": {
-    "description": "Extra large font size preset label"
-  },
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {

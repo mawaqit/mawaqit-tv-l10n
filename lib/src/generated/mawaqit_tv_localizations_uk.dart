@@ -210,24 +210,6 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Відображати поточний час і дату на екрані зворотного відліку іками';
 
   @override
-  String get prayerTimeFontSize => 'Prayer time font size';
-
-  @override
-  String get prayerTimeFontSizeDesc => 'Adjust the size of prayer times displayed on screen';
-
-  @override
-  String get fontSizeSmall => 'Small';
-
-  @override
-  String get fontSizeNormal => 'Normal';
-
-  @override
-  String get fontSizeLarge => 'Large';
-
-  @override
-  String get fontSizeXLarge => 'Extra large';
-
-  @override
   String get alAthkar => 'Азкар';
 
   @override

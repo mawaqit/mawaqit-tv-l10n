@@ -595,42 +595,6 @@ abstract class MawaqitTvLocalizations {
   /// **'Display the current time and date on the Iqama countdown screen'**
   String get iqamaShowClockDesc;
 
-  /// Label for the prayer time font size setting
-  ///
-  /// In en, this message translates to:
-  /// **'Prayer time font size'**
-  String get prayerTimeFontSize;
-
-  /// Subtitle for the prayer time font size setting
-  ///
-  /// In en, this message translates to:
-  /// **'Adjust the size of prayer times displayed on screen'**
-  String get prayerTimeFontSizeDesc;
-
-  /// Small font size preset label
-  ///
-  /// In en, this message translates to:
-  /// **'Small'**
-  String get fontSizeSmall;
-
-  /// Normal font size preset label
-  ///
-  /// In en, this message translates to:
-  /// **'Normal'**
-  String get fontSizeNormal;
-
-  /// Large font size preset label
-  ///
-  /// In en, this message translates to:
-  /// **'Large'**
-  String get fontSizeLarge;
-
-  /// Extra large font size preset label
-  ///
-  /// In en, this message translates to:
-  /// **'Extra large'**
-  String get fontSizeXLarge;
-
   /// No description provided for @alAthkar.
   ///
   /// In en, this message translates to:
