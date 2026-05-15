@@ -72,6 +72,30 @@
   "@iqamaShowClockDesc": {
     "description": "Subtitle for the iqama clock toggle setting"
   },
+  "prayerTimeFontSize": "Prayer time font size",
+  "@prayerTimeFontSize": {
+    "description": "Label for the prayer time font size setting"
+  },
+  "prayerTimeFontSizeDesc": "Adjust the size of prayer times displayed on screen",
+  "@prayerTimeFontSizeDesc": {
+    "description": "Subtitle for the prayer time font size setting"
+  },
+  "fontSizeSmall": "Small",
+  "@fontSizeSmall": {
+    "description": "Small font size preset label"
+  },
+  "fontSizeNormal": "Normal",
+  "@fontSizeNormal": {
+    "description": "Normal font size preset label"
+  },
+  "fontSizeLarge": "Large",
+  "@fontSizeLarge": {
+    "description": "Large font size preset label"
+  },
+  "fontSizeXLarge": "Extra large",
+  "@fontSizeXLarge": {
+    "description": "Extra large font size preset label"
+  },
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -477,6 +501,14 @@
   "urlManagedByMosqueAdmin": "URL managed by mosque administrator",
   "replaceWorkflowWithStream": "Automatically display the camera stream",
   "replaceAppWorkflowWithCameraStream": "The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display",
+  "streamMode": "Stream mode",
+  "streamModeDisabled": "Disabled",
+  "streamModeCamera": "Stream depends on camera",
+  "streamModeJumuaOnly": "Stream depends on Jumua only",
+  "streamModeJumuaAndPrayers": "Stream depends on Jumua and the 5 prayers",
+  "streamRequiresSecondaryScreen": "This feature is only available when the screen is configured as a secondary screen (required for mosque type)",
+  "rtspServerNotAvailable": "RTSP server is not available. Please check your connection.",
+  "settingsSavedSuccessfully": "Settings saved successfully",
   "streamError": "An error occurred while streaming",
   "finish": "Finish",
   "schedulingAlarms": "Scheduling on/off times...",

@@ -595,6 +595,42 @@ abstract class MawaqitTvLocalizations {
   /// **'Display the current time and date on the Iqama countdown screen'**
   String get iqamaShowClockDesc;
 
+  /// Label for the prayer time font size setting
+  ///
+  /// In en, this message translates to:
+  /// **'Prayer time font size'**
+  String get prayerTimeFontSize;
+
+  /// Subtitle for the prayer time font size setting
+  ///
+  /// In en, this message translates to:
+  /// **'Adjust the size of prayer times displayed on screen'**
+  String get prayerTimeFontSizeDesc;
+
+  /// Small font size preset label
+  ///
+  /// In en, this message translates to:
+  /// **'Small'**
+  String get fontSizeSmall;
+
+  /// Normal font size preset label
+  ///
+  /// In en, this message translates to:
+  /// **'Normal'**
+  String get fontSizeNormal;
+
+  /// Large font size preset label
+  ///
+  /// In en, this message translates to:
+  /// **'Large'**
+  String get fontSizeLarge;
+
+  /// Extra large font size preset label
+  ///
+  /// In en, this message translates to:
+  /// **'Extra large'**
+  String get fontSizeXLarge;
+
   /// No description provided for @alAthkar.
   ///
   /// In en, this message translates to:
@@ -2142,6 +2178,54 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display'**
   String get replaceAppWorkflowWithCameraStream;
+
+  /// No description provided for @streamMode.
+  ///
+  /// In en, this message translates to:
+  /// **'Stream mode'**
+  String get streamMode;
+
+  /// No description provided for @streamModeDisabled.
+  ///
+  /// In en, this message translates to:
+  /// **'Disabled'**
+  String get streamModeDisabled;
+
+  /// No description provided for @streamModeCamera.
+  ///
+  /// In en, this message translates to:
+  /// **'Stream depends on camera'**
+  String get streamModeCamera;
+
+  /// No description provided for @streamModeJumuaOnly.
+  ///
+  /// In en, this message translates to:
+  /// **'Stream depends on Jumua only'**
+  String get streamModeJumuaOnly;
+
+  /// No description provided for @streamModeJumuaAndPrayers.
+  ///
+  /// In en, this message translates to:
+  /// **'Stream depends on Jumua and the 5 prayers'**
+  String get streamModeJumuaAndPrayers;
+
+  /// No description provided for @streamRequiresSecondaryScreen.
+  ///
+  /// In en, this message translates to:
+  /// **'This feature is only available when the screen is configured as a secondary screen (required for mosque type)'**
+  String get streamRequiresSecondaryScreen;
+
+  /// No description provided for @rtspServerNotAvailable.
+  ///
+  /// In en, this message translates to:
+  /// **'RTSP server is not available. Please check your connection.'**
+  String get rtspServerNotAvailable;
+
+  /// No description provided for @settingsSavedSuccessfully.
+  ///
+  /// In en, this message translates to:
+  /// **'Settings saved successfully'**
+  String get settingsSavedSuccessfully;
 
   /// No description provided for @streamError.
   ///

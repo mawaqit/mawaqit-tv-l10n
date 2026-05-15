@@ -210,6 +210,24 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'عرض الوقت والتاريخ الحالي في شاشة العد التنازلي للإقامة';
 
   @override
+  String get prayerTimeFontSize => 'Prayer time font size';
+
+  @override
+  String get prayerTimeFontSizeDesc => 'Adjust the size of prayer times displayed on screen';
+
+  @override
+  String get fontSizeSmall => 'Small';
+
+  @override
+  String get fontSizeNormal => 'Normal';
+
+  @override
+  String get fontSizeLarge => 'Large';
+
+  @override
+  String get fontSizeXLarge => 'Extra large';
+
+  @override
   String get alAthkar => 'الأذكار';
 
   @override
@@ -1000,6 +1018,30 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
 
   @override
   String get replaceAppWorkflowWithCameraStream => 'سيعرض الشاشة بث الكاميرا تلقائيًا بمجرد أن تبدأ الكاميرا في التسجيل، وإذا توقفت يعود العرض إلى مواقيت الصلاة';
+
+  @override
+  String get streamMode => 'وضع البث';
+
+  @override
+  String get streamModeDisabled => 'معطّل';
+
+  @override
+  String get streamModeCamera => 'البث حسب الكاميرا';
+
+  @override
+  String get streamModeJumuaOnly => 'البث لصلاة الجمعة فقط';
+
+  @override
+  String get streamModeJumuaAndPrayers => 'البث لصلاة الجمعة والصلوات الخمس';
+
+  @override
+  String get streamRequiresSecondaryScreen => 'هذه الميزة متاحة فقط عندما تكون الشاشة مضبوطة كشاشة ثانوية (مطلوب لنوع المسجد)';
+
+  @override
+  String get rtspServerNotAvailable => 'خادم RTSP غير متاح. يرجى التحقق من اتصالك.';
+
+  @override
+  String get settingsSavedSuccessfully => 'تم حفظ الإعدادات بنجاح';
 
   @override
   String get streamError => 'حدث خطأ أثناء البث';

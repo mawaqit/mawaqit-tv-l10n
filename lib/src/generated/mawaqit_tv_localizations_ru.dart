@@ -210,6 +210,24 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Отображать текущее время и дату на экране обратного отсчёта икамы';
 
   @override
+  String get prayerTimeFontSize => 'Prayer time font size';
+
+  @override
+  String get prayerTimeFontSizeDesc => 'Adjust the size of prayer times displayed on screen';
+
+  @override
+  String get fontSizeSmall => 'Small';
+
+  @override
+  String get fontSizeNormal => 'Normal';
+
+  @override
+  String get fontSizeLarge => 'Large';
+
+  @override
+  String get fontSizeXLarge => 'Extra large';
+
+  @override
   String get alAthkar => 'Азкары';
 
   @override
@@ -1000,6 +1018,30 @@ class MawaqitTvLocalizationsRu extends MawaqitTvLocalizations {
 
   @override
   String get replaceAppWorkflowWithCameraStream => 'Экран будет автоматически отображать поток камеры, как только камера начнет запись; если он остановился, экран возвращается к отображению времени молитвы';
+
+  @override
+  String get streamMode => 'Stream mode';
+
+  @override
+  String get streamModeDisabled => 'Disabled';
+
+  @override
+  String get streamModeCamera => 'Stream depends on camera';
+
+  @override
+  String get streamModeJumuaOnly => 'Stream depends on Jumua only';
+
+  @override
+  String get streamModeJumuaAndPrayers => 'Stream depends on Jumua and the 5 prayers';
+
+  @override
+  String get streamRequiresSecondaryScreen => 'This feature is only available when the screen is configured as a secondary screen (required for mosque type)';
+
+  @override
+  String get rtspServerNotAvailable => 'RTSP server is not available. Please check your connection.';
+
+  @override
+  String get settingsSavedSuccessfully => 'Settings saved successfully';
 
   @override
   String get streamError => 'Произошла ошибка при трансляции';
