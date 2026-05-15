@@ -622,5 +622,29 @@
   "tutorialFullTutorial": "Full tutorial",
   "@tutorialFullTutorial": {
     "description": "Label for the full video tutorial section"
+  },
+  "prayerTimeFontSize": "Text & display size",
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "prayerTimeFontSizeDesc": "Change how large the text appears throughout the app",
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "fontSizeSmall": "Small",
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "fontSizeNormal": "Normal",
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "fontSizeLarge": "Large",
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "fontSizeXLarge": "Extra Large",
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
   }
 }
