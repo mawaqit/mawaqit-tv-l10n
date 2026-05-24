@@ -1128,24 +1128,6 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
 
   @override
   String get tutorialFullTutorial => 'Full tutorial';
-
-  @override
-  String get prayerTimeFontSize => 'Text & display size';
-
-  @override
-  String get prayerTimeFontSizeDesc => 'Change how large the text appears throughout the app';
-
-  @override
-  String get fontSizeSmall => 'Small';
-
-  @override
-  String get fontSizeNormal => 'Normal';
-
-  @override
-  String get fontSizeLarge => 'Large';
-
-  @override
-  String get fontSizeXLarge => 'Extra Large';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
