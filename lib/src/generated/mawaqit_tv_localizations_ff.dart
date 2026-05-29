@@ -88,6 +88,16 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get azanIn => 'Azan kanko hoɗɗi e ';
 
   @override
+  String countdownPrayer(String name, String time) {
+    return '$name nder $time';
+  }
+
+  @override
+  String countdownNonPrayer(String name, String time) {
+    return '$name nder $time';
+  }
+
+  @override
   String get sec => 'Hoj';
 
   @override

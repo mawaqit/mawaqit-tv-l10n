@@ -1,5 +1,5 @@
 /// Tests for Mawaqit TV Localization Package
-/// 
+///
 /// This file contains unit tests for the localization utilities,
 /// locale support, and translation functionality
 
@@ -12,7 +12,7 @@ void main() {
     test('should have all required supported locales', () {
       expect(MawaqitTvLocaleConstants.supportedLocales, isNotEmpty);
       expect(MawaqitTvLocaleConstants.supportedLocales.length, equals(46));
-      
+
       // Check that English and Arabic are included
       expect(
         MawaqitTvLocaleConstants.supportedLocales.any((l) => l.languageCode == 'en'),
@@ -40,7 +40,7 @@ void main() {
       expect(MawaqitTvLocaleConstants.rtlLanguages, contains('he'));
       expect(MawaqitTvLocaleConstants.rtlLanguages, contains('ur'));
       expect(MawaqitTvLocaleConstants.rtlLanguages, contains('ku'));
-      
+
       // Ensure non-RTL languages are not included
       expect(MawaqitTvLocaleConstants.rtlLanguages, isNot(contains('en')));
       expect(MawaqitTvLocaleConstants.rtlLanguages, isNot(contains('fr')));
@@ -57,7 +57,7 @@ void main() {
       expect(MawaqitTvLocaleUtils.isRtl(const Locale('fa')), isTrue);
       expect(MawaqitTvLocaleUtils.isRtl(const Locale('ur')), isTrue);
       expect(MawaqitTvLocaleUtils.isRtl(const Locale('he')), isTrue);
-      
+
       expect(MawaqitTvLocaleUtils.isRtl(const Locale('en')), isFalse);
       expect(MawaqitTvLocaleUtils.isRtl(const Locale('fr')), isFalse);
       expect(MawaqitTvLocaleUtils.isRtl(const Locale('de')), isFalse);
@@ -79,7 +79,7 @@ void main() {
       expect(MawaqitTvLocaleUtils.getLanguageName('en'), equals('English'));
       expect(MawaqitTvLocaleUtils.getLanguageName('fr'), equals('Français'));
       expect(MawaqitTvLocaleUtils.getLanguageName('de'), equals('Deutsch'));
-      
+
       // Should return language code if name not found
       expect(MawaqitTvLocaleUtils.getLanguageName('xyz'), equals('xyz'));
     });
@@ -88,7 +88,7 @@ void main() {
       expect(MawaqitTvLocaleUtils.isLocaleSupported(const Locale('en')), isTrue);
       expect(MawaqitTvLocaleUtils.isLocaleSupported(const Locale('ar')), isTrue);
       expect(MawaqitTvLocaleUtils.isLocaleSupported(const Locale('fr')), isTrue);
-      
+
       expect(MawaqitTvLocaleUtils.isLocaleSupported(const Locale('xyz')), isFalse);
     });
 
@@ -98,13 +98,13 @@ void main() {
         MawaqitTvLocaleUtils.getBestMatchingLocale(const Locale('ar')),
         equals(const Locale('ar')),
       );
-      
+
       // Language code match with different country
       expect(
         MawaqitTvLocaleUtils.getBestMatchingLocale(const Locale('ar', 'SA')),
         equals(const Locale('ar')),
       );
-      
+
       // No match - should return default
       expect(
         MawaqitTvLocaleUtils.getBestMatchingLocale(const Locale('xyz')),
@@ -119,7 +119,7 @@ void main() {
       expect(MawaqitTvLocaleUtils.isIslamicLanguage('tr'), isTrue);
       expect(MawaqitTvLocaleUtils.isIslamicLanguage('id'), isTrue);
       expect(MawaqitTvLocaleUtils.isIslamicLanguage('ms'), isTrue);
-      
+
       expect(MawaqitTvLocaleUtils.isIslamicLanguage('en'), isFalse);
       expect(MawaqitTvLocaleUtils.isIslamicLanguage('fr'), isFalse);
     });
@@ -141,28 +141,28 @@ void main() {
     test('should format locale for display', () {
       final formatted = MawaqitTvLocaleUtils.formatLocaleForDisplay(const Locale('ar'));
       expect(formatted, equals('العربية (ar)'));
-      
+
       final formattedEn = MawaqitTvLocaleUtils.formatLocaleForDisplay(const Locale('en'));
       expect(formattedEn, equals('English (en)'));
     });
 
     test('should group locales by region', () {
       final groups = MawaqitTvLocaleUtils.groupLocalesByRegion();
-      
+
       expect(groups.keys, contains('Arabic/Islamic'));
       expect(groups.keys, contains('European'));
       expect(groups.keys, contains('Asian'));
       expect(groups.keys, contains('Other'));
-      
+
       expect(groups['Arabic/Islamic'], isNotEmpty);
       expect(groups['European'], isNotEmpty);
-      
+
       // Check that Arabic is in Islamic group
       expect(
         groups['Arabic/Islamic']!.any((l) => l.languageCode == 'ar'),
         isTrue,
       );
-      
+
       // Check that English is in European group
       expect(
         groups['European']!.any((l) => l.languageCode == 'en'),
@@ -170,4 +170,4 @@ void main() {
       );
     });
   });
-} 
+}

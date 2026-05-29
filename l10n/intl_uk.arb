@@ -21,6 +21,8 @@
   "changeMosque": "Мечеть змін",
   "in1": "в",
   "azanIn": "Азанська ін",
+  "countdownPrayer": "{name} в {time}",
+  "countdownNonPrayer": "{name} в {time}",
   "sec": "Секунду.",
   "online": "Онлайн",
   "missingMosqueId": "Відсутній MAWAQIT #ID або MOSQUE #ID",

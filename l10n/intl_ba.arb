@@ -39,6 +39,8 @@
   "changeMosque": "Мәситте Алмаштырырға",
   "mosque": "Мәсит",
   "in1": "һуң",
+  "countdownPrayer": "{name} һуң {time}",
+  "countdownNonPrayer": "{name} һуң {time}",
   "sec": "Уст",
   "online": "Онлайн",
   "enterMosqueId": "Зинһар, Мәситтең ID индерегеҙ :",

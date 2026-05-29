@@ -355,6 +355,18 @@ abstract class MawaqitTvLocalizations {
   /// **'Athan in'**
   String get azanIn;
 
+  /// Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'
+  ///
+  /// In en, this message translates to:
+  /// **'{name} Athan in {time}'**
+  String countdownPrayer(String name, String time);
+
+  /// Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'
+  ///
+  /// In en, this message translates to:
+  /// **'{name} in {time}'**
+  String countdownNonPrayer(String name, String time);
+
   /// No description provided for @sec.
   ///
   /// In en, this message translates to:

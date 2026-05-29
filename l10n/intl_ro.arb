@@ -21,6 +21,8 @@
   "changeMosque": "Schimbarea Moscheii",
   "in1": "în",
   "azanIn": "Azan în",
+  "countdownPrayer": "{name} în {time}",
+  "countdownNonPrayer": "{name} în {time}",
   "sec": "Sec",
   "online": "Online",
   "missingMosqueId": "Lipsește MAWAQIT #ID sau MOSQUE #ID",

@@ -21,6 +21,8 @@
   "changeMosque": "মসজিদ পরিবর্তন করুন",
   "in1": "এর অবশিষ্ট সময়",
   "azanIn": "আজান শুরু হবে আরো ",
+  "countdownPrayer": "{name} এর অবশিষ্ট সময় {time}",
+  "countdownNonPrayer": "{name} এর অবশিষ্ট সময় {time}",
   "sec": "२",
   "online": "অনলাইন",
   "missingMosqueId": "মসজিদের আইডি নেই",

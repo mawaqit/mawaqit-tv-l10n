@@ -9,8 +9,7 @@ import 'package:intl/intl.dart' as intl;
 
 import 'kurdish_material_localizations.dart';
 
-class _KurdishCupertinoLocalizationsDelegate
-    extends LocalizationsDelegate<CupertinoLocalizations> {
+class _KurdishCupertinoLocalizationsDelegate extends LocalizationsDelegate<CupertinoLocalizations> {
   const _KurdishCupertinoLocalizationsDelegate();
 
   @override
@@ -68,8 +67,7 @@ class KurdishCupertinoLocalizations extends GlobalCupertinoLocalizations {
           singleDigitSecondFormat: singleDigitSecondFormat,
         );
 
-  static const LocalizationsDelegate<CupertinoLocalizations> delegate =
-      _KurdishCupertinoLocalizationsDelegate();
+  static const LocalizationsDelegate<CupertinoLocalizations> delegate = _KurdishCupertinoLocalizationsDelegate();
 
   @override
   String get alertDialogLabel => 'ئاگادارکردنەوە';
@@ -126,8 +124,7 @@ class KurdishCupertinoLocalizations extends GlobalCupertinoLocalizations {
   String get todayLabel => 'ئەمڕۆ';
 
   @override
-  String get noSpellCheckReplacementsLabel =>
-      'هیچ جێگرەوەیەکی پشکنینی ڕێنووسی نییە';
+  String get noSpellCheckReplacementsLabel => 'هیچ جێگرەوەیەکی پشکنینی ڕێنووسی نییە';
 
   @override
   String get lookUpButtonLabel => 'بە دوادا گەڕان';

@@ -21,6 +21,8 @@
   "changeMosque": "Ubah Masjid",
   "in1": "dalam",
   "azanIn": "Azan dalam",
+  "countdownPrayer": "{name} dalam {time}",
+  "countdownNonPrayer": "{name} dalam {time}",
   "sec": "Detik",
   "online": "Online",
   "missingMosqueId": "Hilang MAWAQIT #ID atau MOSQUE #ID",

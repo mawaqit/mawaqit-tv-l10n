@@ -9,5 +9,7 @@
   "launchModeSecondaryPrayer": "Horários secundários de oração",
   "timezone": "Fuso horário",
   "wifi": "WiFi",
-  "holdOkToStop": "Segure OK para parar"
+  "holdOkToStop": "Segure OK para parar",
+  "countdownPrayer": "{name} Azán em {time}",
+  "countdownNonPrayer": "{name} em {time}"
 }

@@ -3,8 +3,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 
-class _MontenegrinWidgetsLocalizationsDelegate
-    extends LocalizationsDelegate<WidgetsLocalizations> {
+class _MontenegrinWidgetsLocalizationsDelegate extends LocalizationsDelegate<WidgetsLocalizations> {
   const _MontenegrinWidgetsLocalizationsDelegate();
 
   @override
@@ -22,8 +21,7 @@ class _MontenegrinWidgetsLocalizationsDelegate
 }
 
 class MontenegrinWidgetsLocalizations extends WidgetsLocalizations {
-  static const LocalizationsDelegate<WidgetsLocalizations> delegate =
-      _MontenegrinWidgetsLocalizationsDelegate();
+  static const LocalizationsDelegate<WidgetsLocalizations> delegate = _MontenegrinWidgetsLocalizationsDelegate();
 
   @override
   TextDirection get textDirection => TextDirection.ltr;

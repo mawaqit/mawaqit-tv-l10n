@@ -88,6 +88,16 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get azanIn => 'بانگی';
 
   @override
+  String countdownPrayer(String name, String time) {
+    return 'بانگی $name لەدوای $time';
+  }
+
+  @override
+  String countdownNonPrayer(String name, String time) {
+    return '$name لەدوای $time';
+  }
+
+  @override
   String get sec => 'دواتر';
 
   @override

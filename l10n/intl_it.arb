@@ -21,6 +21,8 @@
   "changeMosque": "Cambia Moschea",
   "in1": "in",
   "azanIn": "Azan in",
+  "countdownPrayer": "{name} in {time}",
+  "countdownNonPrayer": "{name} in {time}",
   "sec": "Sec",
   "online": "Online",
   "missingMosqueId": "Manca l'ID MAWAQIT o l'ID della MOSCHEA",

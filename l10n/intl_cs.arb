@@ -21,6 +21,8 @@
   "changeMosque": "Změna mešity",
   "in1": "na adrese",
   "azanIn": "Azan v",
+  "countdownPrayer": "{name} na adrese {time}",
+  "countdownNonPrayer": "{name} na adrese {time}",
   "sec": "Sekce",
   "online": "Online",
   "missingMosqueId": "Chybějící MAWAQIT #ID nebo MOSQUE #ID",

@@ -88,6 +88,16 @@ class MawaqitTvLocalizationsNo extends MawaqitTvLocalizations {
   String get azanIn => 'Azan i';
 
   @override
+  String countdownPrayer(String name, String time) {
+    return '$name i $time';
+  }
+
+  @override
+  String countdownNonPrayer(String name, String time) {
+    return '$name i $time';
+  }
+
+  @override
   String get sec => 'Sek';
 
   @override

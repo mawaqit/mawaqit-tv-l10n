@@ -88,6 +88,16 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get azanIn => 'Athan in';
 
   @override
+  String countdownPrayer(String name, String time) {
+    return '$name Azán em $time';
+  }
+
+  @override
+  String countdownNonPrayer(String name, String time) {
+    return '$name em $time';
+  }
+
+  @override
   String get sec => 'Sec';
 
   @override
@@ -1201,6 +1211,16 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get azanIn => 'Azán em';
 
   @override
+  String countdownPrayer(String name, String time) {
+    return '$name Azán em $time';
+  }
+
+  @override
+  String countdownNonPrayer(String name, String time) {
+    return '$name em $time';
+  }
+
+  @override
   String get sec => 'Seg';
 
   @override
@@ -2229,6 +2249,16 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
 
   @override
   String get azanIn => 'Azán em';
+
+  @override
+  String countdownPrayer(String name, String time) {
+    return '$name Azán em $time';
+  }
+
+  @override
+  String countdownNonPrayer(String name, String time) {
+    return '$name em $time';
+  }
 
   @override
   String get sec => 'Seg';

@@ -9,8 +9,7 @@ import 'package:intl/intl.dart' as intl;
 
 import 'fula_material_localizations.dart';
 
-class _FulaCupertinoLocalizationsDelegate
-    extends LocalizationsDelegate<CupertinoLocalizations> {
+class _FulaCupertinoLocalizationsDelegate extends LocalizationsDelegate<CupertinoLocalizations> {
   const _FulaCupertinoLocalizationsDelegate();
 
   @override
@@ -68,8 +67,7 @@ class FulaCupertinoLocalizations extends GlobalCupertinoLocalizations {
           decimalFormat: decimalFormat,
         );
 
-  static const LocalizationsDelegate<CupertinoLocalizations> delegate =
-      _FulaCupertinoLocalizationsDelegate();
+  static const LocalizationsDelegate<CupertinoLocalizations> delegate = _FulaCupertinoLocalizationsDelegate();
 
   @override
   String get alertDialogLabel => 'Tinndinoore';
@@ -126,8 +124,7 @@ class FulaCupertinoLocalizations extends GlobalCupertinoLocalizations {
   String get todayLabel => 'Hannde';
 
   @override
-  String get noSpellCheckReplacementsLabel =>
-      'Alaa waylu seedantaagal';
+  String get noSpellCheckReplacementsLabel => 'Alaa waylu seedantaagal';
 
   @override
   String get lookUpButtonLabel => 'Yiylo';

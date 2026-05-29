@@ -25,6 +25,8 @@
   "changeMosque": "تغيير المسجد",
   "in1": "بعد",
   "azanIn": "آزان في",
+  "countdownPrayer": "{name} بعد {time}",
+  "countdownNonPrayer": "{name} بعد {time}",
   "sec": "ثانية",
   "online": "متصل",
   "missingMosqueId": "معرف المسجد مفقود (MAWAQIT #ID أو MOSQUE #ID)",

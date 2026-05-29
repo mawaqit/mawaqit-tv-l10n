@@ -21,6 +21,8 @@
   "changeMosque": "مسجد بدلو",
   "in1": "میں",
   "azanIn": "اذان میں",
+  "countdownPrayer": "{name} میں {time}",
+  "countdownNonPrayer": "{name} میں {time}",
   "sec": "سیکنڈ",
   "online": "آن لائن",
   "missingMosqueId": "MAWAQIT #ID یا MOSQUE #ID غائب ہے۔",

@@ -21,6 +21,8 @@
   "changeMosque": "Waylu Jamaa",
   "in1": "nder",
   "azanIn": "Azan kanko hoɗɗi e ",
+  "countdownPrayer": "{name} nder {time}",
+  "countdownNonPrayer": "{name} nder {time}",
   "sec": "Hoj",
   "online": "Ena seŋii",
   "missingMosqueId": "#ID MAWAQIT walla #ID JUMAA ena ŋakki",

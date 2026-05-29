@@ -88,6 +88,16 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get azanIn => 'Azán hátralévő ideje:';
 
   @override
+  String countdownPrayer(String name, String time) {
+    return '$name Be $time';
+  }
+
+  @override
+  String countdownNonPrayer(String name, String time) {
+    return '$name Be $time';
+  }
+
+  @override
   String get sec => 'Másodperc';
 
   @override

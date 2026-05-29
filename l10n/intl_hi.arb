@@ -21,6 +21,8 @@
   "changeMosque": "मस्जिद बदलो",
   "in1": "में",
   "azanIn": "अज़ान में",
+  "countdownPrayer": "{name} में {time}",
+  "countdownNonPrayer": "{name} में {time}",
   "sec": "सेकंड",
   "online": "ऑनलाइन",
   "missingMosqueId": "मवाक़िट गायब है#पहचान या मस्जिद #पहचान",

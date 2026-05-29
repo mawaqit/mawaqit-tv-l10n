@@ -21,6 +21,8 @@
   "changeMosque": "Məscidi dəyişdir",
   "in1": "Qalan vaxt",
   "azanIn": "Azan üçün",
+  "countdownPrayer": "{name} Qalan vaxt {time}",
+  "countdownNonPrayer": "{name} Qalan vaxt {time}",
   "sec": "san",
   "online": "Onlayn",
   "missingMosqueId": "MAWAQIT #ID vəya Məscid #ID əskikdir",

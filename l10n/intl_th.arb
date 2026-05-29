@@ -21,6 +21,8 @@
   "changeMosque": "เปลี่ยนมัสยิด",
   "in1": "ใน",
   "azanIn": "อะซานในเวลา ",
+  "countdownPrayer": "{name} ใน {time}",
+  "countdownNonPrayer": "{name} ใน {time}",
   "sec": "วินาที",
   "online": "ออนไลน์",
   "missingMosqueId": "ไม่มี MAWAQIT #ID หรือ MOSQUE #ID",
