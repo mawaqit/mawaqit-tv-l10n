@@ -636,6 +636,9 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get wifiFailure => '连接到 Wifi 失败。';
 
   @override
+  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+
+  @override
   String get timezoneSuccess => '时区设置成功。';
 
   @override

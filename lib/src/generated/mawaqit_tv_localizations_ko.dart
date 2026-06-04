@@ -636,6 +636,9 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   String get wifiFailure => 'Wi-Fi 연결에 실패했습니다.';
 
   @override
+  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+
+  @override
   String get timezoneSuccess => '시간대가 성공적으로 설정되었습니다.';
 
   @override

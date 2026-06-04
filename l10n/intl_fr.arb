@@ -254,6 +254,7 @@
   "search": "Recherche",
   "wifiSuccess": "Connexion au Wi-Fi réussie.",
   "wifiFailure": "Impossible de se connecter au Wifi.",
+  "wifiForgetNetwork": "Ce réseau a été ajouté dans les paramètres Android. Veuillez l'oublier à cet endroit, puis vous reconnecter.",
   "timezoneSuccess": "Fuseau horaire défini avec succès.",
   "timezoneFailure": "Impossible de définir le fuseau horaire.",
   "screenLock": "Allumer/éteindre l'écran",
