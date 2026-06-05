@@ -513,5 +513,9 @@
   "tutorialStep": "الخطوة {step}  ",
   "tutorialScanToRegister": "امسح للتسجيل",
   "tutorialScanDescription": "استخدم هاتفك لإنشاء حساب على mawaqit.net",
-  "tutorialFullTutorial": "الشرح الكامل"
+  "tutorialFullTutorial": "الشرح الكامل",
+  "athkarArabicFont": "خط الأذكار العربي",
+  "athkarArabicFontDesc": "اختر الخط العربي المستخدم للأذكار (بعد الصلاة، الأذان، الجمعة، الحديث...)",
+  "athkarFontKufi": "الكوفي",
+  "athkarFontUthmani": "العثماني"
 }

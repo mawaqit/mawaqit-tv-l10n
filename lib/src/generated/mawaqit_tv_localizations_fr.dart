@@ -1138,4 +1138,16 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
 
   @override
   String get tutorialFullTutorial => 'Tutoriel complet';
+
+  @override
+  String get athkarArabicFont => 'Police arabe des Adhkar';
+
+  @override
+  String get athkarArabicFontDesc => 'Choisissez la police arabe utilisée pour les Adhkar (après la prière, l\'adhan, le Joumoua, le hadith...)';
+
+  @override
+  String get athkarFontKufi => 'Koufi';
+
+  @override
+  String get athkarFontUthmani => 'Uthmani';
 }
