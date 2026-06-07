@@ -290,6 +290,7 @@
   "search": "Search",
   "wifiSuccess": "Successfully connected to Wifi.",
   "wifiFailure": "Failed to connect to Wifi.",
+  "wifiForgetNetwork": "This network was added in Android settings. Please forget it there, then connect again.",
   "timezoneSuccess": "Timezone set successfully.",
   "timezoneFailure": "Failed to set timezone.",
   "screenLock": "Screen on/off",

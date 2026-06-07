@@ -646,6 +646,9 @@ class MawaqitTvLocalizationsGu extends MawaqitTvLocalizations {
   String get wifiFailure => 'વાઈ-ફાઈ સાથે કનેક્ટ કરવામાં નિષ્ફળ.';
 
   @override
+  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+
+  @override
   String get timezoneSuccess => 'ટાઇમઝોન સફળતાપૂર્વક સેટ કરવામાં આવ્યો છે.';
 
   @override

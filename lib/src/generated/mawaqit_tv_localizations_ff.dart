@@ -646,6 +646,9 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get wifiFailure => 'Horiima seŋaade e Wifi.';
 
   @override
+  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+
+  @override
   String get timezoneSuccess => 'Diiwaan wakktu labaama no haaniri.';
 
   @override

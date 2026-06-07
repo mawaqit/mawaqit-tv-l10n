@@ -646,6 +646,9 @@ class MawaqitTvLocalizationsEl extends MawaqitTvLocalizations {
   String get wifiFailure => 'Αποτυχία σύνδεσης με το Wifi.';
 
   @override
+  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+
+  @override
   String get timezoneSuccess => 'Η ζώνη ώρας ορίστηκε επιτυχώς.';
 
   @override

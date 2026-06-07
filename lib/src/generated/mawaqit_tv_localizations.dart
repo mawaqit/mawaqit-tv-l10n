@@ -1459,6 +1459,12 @@ abstract class MawaqitTvLocalizations {
   /// **'Failed to connect to Wifi.'**
   String get wifiFailure;
 
+  /// No description provided for @wifiForgetNetwork.
+  ///
+  /// In en, this message translates to:
+  /// **'This network was added in Android settings. Please forget it there, then connect again.'**
+  String get wifiForgetNetwork;
+
   /// No description provided for @timezoneSuccess.
   ///
   /// In en, this message translates to:
