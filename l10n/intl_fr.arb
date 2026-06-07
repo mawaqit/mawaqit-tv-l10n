@@ -514,5 +514,9 @@
   "tutorialStep": "Étape {step}  ",
   "tutorialScanToRegister": "Scannez pour vous inscrire",
   "tutorialScanDescription": "Utilisez votre téléphone pour créer un compte sur mawaqit.net",
-  "tutorialFullTutorial": "Tutoriel complet"
+  "tutorialFullTutorial": "Tutoriel complet",
+  "athkarArabicFont": "Police arabe des Adhkar",
+  "athkarArabicFontDesc": "Choisissez la police arabe utilisée pour les Adhkar (après la prière, l'adhan, le Joumoua, le hadith...)",
+  "athkarFontKufi": "Koufi",
+  "athkarFontUthmani": "Uthmani"
 }

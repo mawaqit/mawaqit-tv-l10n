@@ -2412,6 +2412,30 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Full tutorial'**
   String get tutorialFullTutorial;
+
+  /// Title of the display setting that selects the Arabic font for Athkar content
+  ///
+  /// In en, this message translates to:
+  /// **'Athkar Arabic font'**
+  String get athkarArabicFont;
+
+  /// Subtitle describing the Athkar Arabic font setting
+  ///
+  /// In en, this message translates to:
+  /// **'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)'**
+  String get athkarArabicFontDesc;
+
+  /// Label for the Kufi Arabic font option (default)
+  ///
+  /// In en, this message translates to:
+  /// **'Kufi'**
+  String get athkarFontKufi;
+
+  /// Label for the Uthmani Arabic font option
+  ///
+  /// In en, this message translates to:
+  /// **'Uthmani'**
+  String get athkarFontUthmani;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {

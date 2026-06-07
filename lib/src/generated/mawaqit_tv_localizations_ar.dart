@@ -1141,4 +1141,16 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
 
   @override
   String get tutorialFullTutorial => 'الشرح الكامل';
+
+  @override
+  String get athkarArabicFont => 'خط الأذكار العربي';
+
+  @override
+  String get athkarArabicFontDesc => 'اختر الخط العربي المستخدم للأذكار (بعد الصلاة، الأذان، الجمعة، الحديث...)';
+
+  @override
+  String get athkarFontKufi => 'الكوفي';
+
+  @override
+  String get athkarFontUthmani => 'العثماني';
 }

@@ -627,5 +627,21 @@
   "tutorialFullTutorial": "Full tutorial",
   "@tutorialFullTutorial": {
     "description": "Label for the full video tutorial section"
+  },
+  "athkarArabicFont": "Athkar Arabic font",
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "athkarArabicFontDesc": "Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)",
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "athkarFontKufi": "Kufi",
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "athkarFontUthmani": "Uthmani",
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
   }
 }
