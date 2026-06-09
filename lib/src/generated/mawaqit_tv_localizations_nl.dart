@@ -598,7 +598,7 @@ class MawaqitTvLocalizationsNl extends MawaqitTvLocalizations {
   String get selectTime => 'Selecteer tijd';
 
   @override
-  String get previous => 'named@@0';
+  String get previous => 'Vorige';
 
   @override
   String get appTimezone => 'App Timezone';

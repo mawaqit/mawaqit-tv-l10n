@@ -236,7 +236,7 @@
   "confirmationMessage": "Weet u zeker dat u de apparaattijd wilt gebruiken?",
   "useDeviceTime": "Apparaattijd gebruiken",
   "selectTime": "Selecteer tijd",
-  "previous": "named@@0",
+  "previous": "Vorige",
   "appTimezone": "App Timezone",
   "descTimezone": "Selecteer je tijdzone om nauwkeurige gebedstijden te krijgen.",
   "appWifi": "Verbinden met wifi",
