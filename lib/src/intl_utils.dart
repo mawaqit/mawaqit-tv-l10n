@@ -11,8 +11,8 @@ import 'package:intl/date_symbols.dart';
 const _unsupportedIntlLocaleMap = <String, String>{
   'cnr': 'sr', // Montenegrin -> Serbian (closest supported Slavic language)
   'ckb': 'ar', // Kurdish (Sorani) -> Arabic (same script direction)
-  'ff': 'en',  // Fulah -> English
-  'ba': 'ru',  // Bashkir -> Russian (closest supported)
+  'ff': 'en', // Fulah -> English
+  'ba': 'ru', // Bashkir -> Russian (closest supported)
 };
 
 /// Maps a locale code to a supported intl locale

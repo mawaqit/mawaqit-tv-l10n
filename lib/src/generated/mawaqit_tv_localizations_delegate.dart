@@ -1,5 +1,5 @@
 /// Custom localization delegate for Mawaqit TV
-/// 
+///
 /// This file provides a convenient delegate for use in Flutter applications
 /// that need to integrate Mawaqit TV localization support
 
@@ -8,8 +8,7 @@ import 'package:flutter/material.dart';
 import 'mawaqit_tv_localizations.dart';
 
 /// Custom delegate for Mawaqit TV localizations
-class MawaqitTvLocalizationsDelegate
-    extends LocalizationsDelegate<MawaqitTvLocalizations> {
+class MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {
   const MawaqitTvLocalizationsDelegate();
 
   @override
@@ -27,4 +26,4 @@ class MawaqitTvLocalizationsDelegate
 
   @override
   String toString() => 'MawaqitTvLocalizationsDelegate';
-} 
+}

@@ -21,6 +21,8 @@
   "changeMosque": "Изменить мечеть",
   "in1": "через",
   "azanIn": "Азан через",
+  "countdownPrayer": "{name} через {time}",
+  "countdownNonPrayer": "{name} через {time}",
   "sec": "Сек",
   "online": "Онлайн",
   "missingMosqueId": "Отсутствует MAWAQIT #ID или MOSQUE #ID",

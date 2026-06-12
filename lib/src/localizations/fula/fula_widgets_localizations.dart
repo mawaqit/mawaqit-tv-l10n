@@ -3,8 +3,7 @@ import 'dart:async';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 
-class _FulaWidgetsLocalizationsDelegate
-    extends LocalizationsDelegate<WidgetsLocalizations> {
+class _FulaWidgetsLocalizationsDelegate extends LocalizationsDelegate<WidgetsLocalizations> {
   const _FulaWidgetsLocalizationsDelegate();
 
   @override
@@ -22,8 +21,7 @@ class _FulaWidgetsLocalizationsDelegate
 }
 
 class FulaWidgetsLocalizations extends WidgetsLocalizations {
-  static const LocalizationsDelegate<WidgetsLocalizations> delegate =
-      _FulaWidgetsLocalizationsDelegate();
+  static const LocalizationsDelegate<WidgetsLocalizations> delegate = _FulaWidgetsLocalizationsDelegate();
 
   @override
   TextDirection get textDirection => TextDirection.ltr;

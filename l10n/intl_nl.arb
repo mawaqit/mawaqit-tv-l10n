@@ -21,6 +21,8 @@
   "changeMosque": "Wijzigen Moskee",
   "in1": "na",
   "azanIn": "Azan in",
+  "countdownPrayer": "{name} na {time}",
+  "countdownNonPrayer": "{name} na {time}",
   "sec": "Sec",
   "online": "Online",
   "missingMosqueId": "Ontbrekende MAWAQIT #ID of MOSQUE #ID",

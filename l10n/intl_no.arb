@@ -21,6 +21,8 @@
   "changeMosque": "Endre moskeen",
   "in1": "i",
   "azanIn": "Azan i",
+  "countdownPrayer": "{name} i {time}",
+  "countdownNonPrayer": "{name} i {time}",
   "sec": "Sek",
   "online": "Pålogget",
   "missingMosqueId": "Mangler MAWAQIT #ID eller MOSQUE #ID",

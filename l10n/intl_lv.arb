@@ -21,6 +21,8 @@
   "changeMosque": "Mainīt mošeja",
   "in1": "vietnē",
   "azanIn": "Azāns pēc",
+  "countdownPrayer": "{name} vietnē {time}",
+  "countdownNonPrayer": "{name} vietnē {time}",
   "sec": "Sec",
   "online": "Tiešsaistē",
   "missingMosqueId": "Trūkst MAWAQIT #ID vai MOSQUE #ID",

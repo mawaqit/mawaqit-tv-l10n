@@ -88,6 +88,16 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get azanIn => 'Athan en';
 
   @override
+  String countdownPrayer(String name, String time) {
+    return '$name dans $time';
+  }
+
+  @override
+  String countdownNonPrayer(String name, String time) {
+    return '$name dans $time';
+  }
+
+  @override
   String get sec => 'Sec';
 
   @override
@@ -636,6 +646,9 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get wifiFailure => 'Impossible de se connecter au Wifi.';
 
   @override
+  String get wifiForgetNetwork => 'Ce réseau a été ajouté dans les paramètres Android. Veuillez l\'oublier à cet endroit, puis vous reconnecter.';
+
+  @override
   String get timezoneSuccess => 'Fuseau horaire défini avec succès.';
 
   @override
@@ -1146,4 +1159,16 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
 
   @override
   String get fontSizeXLarge => 'Très grand';
+
+  @override
+  String get athkarArabicFont => 'Police arabe des Adhkar';
+
+  @override
+  String get athkarArabicFontDesc => 'Choisissez la police arabe utilisée pour les Adhkar (après la prière, l\'adhan, le Joumoua, le hadith...)';
+
+  @override
+  String get athkarFontKufi => 'Koufi';
+
+  @override
+  String get athkarFontUthmani => 'Uthmani';
 }

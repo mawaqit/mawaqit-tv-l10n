@@ -21,6 +21,8 @@
   "changeMosque": "Promeni džamiju",
   "in1": "za",
   "azanIn": "Ezan za",
+  "countdownPrayer": "{name} za {time}",
+  "countdownNonPrayer": "{name} za {time}",
   "sec": "sek",
   "online": "Online",
   "missingMosqueId": "Nedostaje MAWAQIT #ID ili DŽAMIJA #ID",

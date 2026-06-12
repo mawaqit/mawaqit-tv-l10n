@@ -21,6 +21,8 @@
   "changeMosque": "모스크 변경",
   "in1": "에",
   "azanIn": "아잔 시간",
+  "countdownPrayer": "{name} 에 {time}",
+  "countdownNonPrayer": "{name} 에 {time}",
   "sec": "초",
   "online": "온라인",
   "missingMosqueId": "누락된 MAWAQIT #ID 또는 MOSQUE #ID",

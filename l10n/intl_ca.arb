@@ -39,6 +39,8 @@
   "changeMosque": "Change Mosque",
   "mosque": "Mesquita",
   "in1": "en",
+  "countdownPrayer": "{name} en {time}",
+  "countdownNonPrayer": "{name} en {time}",
   "sec": "Sec",
   "online": "Online",
   "enterMosqueId": "Please enter the Mosque ID :",

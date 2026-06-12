@@ -25,6 +25,8 @@
   "changeMosque": "Changer de Mosquée",
   "in1": "dans",
   "azanIn": "Athan en",
+  "countdownPrayer": "{name} dans {time}",
+  "countdownNonPrayer": "{name} dans {time}",
   "sec": "Sec",
   "online": "Connecté",
   "missingMosqueId": "Numéro d'identification MAWAQIT #ID ou MOSQUE #ID manquant",
@@ -254,6 +256,7 @@
   "search": "Recherche",
   "wifiSuccess": "Connexion au Wi-Fi réussie.",
   "wifiFailure": "Impossible de se connecter au Wifi.",
+  "wifiForgetNetwork": "Ce réseau a été ajouté dans les paramètres Android. Veuillez l'oublier à cet endroit, puis vous reconnecter.",
   "timezoneSuccess": "Fuseau horaire défini avec succès.",
   "timezoneFailure": "Impossible de définir le fuseau horaire.",
   "screenLock": "Allumer/éteindre l'écran",
@@ -517,5 +520,9 @@
   "fontSizeSmall": "Petit",
   "fontSizeNormal": "Normal",
   "fontSizeLarge": "Grand",
-  "fontSizeXLarge": "Très grand"
+  "fontSizeXLarge": "Très grand",
+  "athkarArabicFont": "Police arabe des Adhkar",
+  "athkarArabicFontDesc": "Choisissez la police arabe utilisée pour les Adhkar (après la prière, l'adhan, le Joumoua, le hadith...)",
+  "athkarFontKufi": "Koufi",
+  "athkarFontUthmani": "Uthmani"
 }

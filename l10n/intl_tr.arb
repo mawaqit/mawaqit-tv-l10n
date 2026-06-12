@@ -21,6 +21,8 @@
   "changeMosque": "Cami değiştir",
   "in1": "Kalan Süre",
   "azanIn": "Ezana kala",
+  "countdownPrayer": "{name} Kalan Süre {time}",
+  "countdownNonPrayer": "{name} Kalan Süre {time}",
   "sec": "İkinci",
   "online": "Çevrimiçi",
   "missingMosqueId": "Eksik MAWAQIT #ID veya Camii #ID",

@@ -25,6 +25,8 @@
   "changeMosque": "تغيير المسجد",
   "in1": "بعد",
   "azanIn": "آزان في",
+  "countdownPrayer": "{name} بعد {time}",
+  "countdownNonPrayer": "{name} بعد {time}",
   "sec": "ثانية",
   "online": "متصل",
   "missingMosqueId": "معرف المسجد مفقود (MAWAQIT #ID أو MOSQUE #ID)",
@@ -254,6 +256,7 @@
   "search": "بحث",
   "wifiSuccess": "تم الاتصال بشبكة Wifi بنجاح.",
   "wifiFailure": "فشل الاتصال بشبكة الإنترنت.",
+  "wifiForgetNetwork": "تمت إضافة هذه الشبكة في إعدادات أندرويد. يرجى نسيانها من هناك، ثم إعادة الاتصال.",
   "timezoneSuccess": "تم تعيين المنطقة الزمنية بنجاح",
   "timezoneFailure": "فشل في تعيين المنطقة الزمنية",
   "screenLock": "تشغيل/إيقاف الشاشة",
@@ -517,5 +520,9 @@
   "fontSizeSmall": "صغير",
   "fontSizeNormal": "عادي",
   "fontSizeLarge": "كبير",
-  "fontSizeXLarge": "كبير جداً"
+  "fontSizeXLarge": "كبير جداً",
+  "athkarArabicFont": "خط الأذكار العربي",
+  "athkarArabicFontDesc": "اختر الخط العربي المستخدم للأذكار (بعد الصلاة، الأذان، الجمعة، الحديث...)",
+  "athkarFontKufi": "الكوفي",
+  "athkarFontUthmani": "العثماني"
 }

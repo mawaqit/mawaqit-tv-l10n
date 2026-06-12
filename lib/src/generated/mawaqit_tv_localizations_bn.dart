@@ -88,6 +88,16 @@ class MawaqitTvLocalizationsBn extends MawaqitTvLocalizations {
   String get azanIn => 'আজান শুরু হবে আরো ';
 
   @override
+  String countdownPrayer(String name, String time) {
+    return '$name এর অবশিষ্ট সময় $time';
+  }
+
+  @override
+  String countdownNonPrayer(String name, String time) {
+    return '$name এর অবশিষ্ট সময় $time';
+  }
+
+  @override
   String get sec => '२';
 
   @override
@@ -636,6 +646,9 @@ class MawaqitTvLocalizationsBn extends MawaqitTvLocalizations {
   String get wifiFailure => 'ওয়াইফাইয়ে সংযুক্ত হতে ব্যর্থ হয়েছে';
 
   @override
+  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+
+  @override
   String get timezoneSuccess => 'টাইমজোন সফলভাবে সেট হয়েছে';
 
   @override
@@ -1146,4 +1159,16 @@ class MawaqitTvLocalizationsBn extends MawaqitTvLocalizations {
 
   @override
   String get fontSizeXLarge => 'Extra Large';
+
+  @override
+  String get athkarArabicFont => 'Athkar Arabic font';
+
+  @override
+  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+
+  @override
+  String get athkarFontKufi => 'Kufi';
+
+  @override
+  String get athkarFontUthmani => 'Uthmani';
 }

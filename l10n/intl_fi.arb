@@ -21,6 +21,8 @@
   "changeMosque": "Vaihda moskeija",
   "in1": "osoitteessa",
   "azanIn": "Azan sisällä",
+  "countdownPrayer": "{name} osoitteessa {time}",
+  "countdownNonPrayer": "{name} osoitteessa {time}",
   "sec": "Sec",
   "online": "Online",
   "missingMosqueId": "MAWAQIT #ID tai MOSQUE #ID puuttuu",

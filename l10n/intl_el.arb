@@ -21,6 +21,8 @@
   "changeMosque": "Αλλαγή Τζαμί",
   "in1": "στο",
   "azanIn": "Αζανικά σε",
+  "countdownPrayer": "{name} στο {time}",
+  "countdownNonPrayer": "{name} στο {time}",
   "sec": "Sec",
   "online": "Online",
   "missingMosqueId": "Λείπει το MAWAQIT #ID ή το MOSQUE #ID",

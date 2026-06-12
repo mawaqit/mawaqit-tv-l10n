@@ -21,6 +21,8 @@
   "changeMosque": "Ndrysho Xhami",
   "in1": "pas",
   "azanIn": "Ezani pas",
+  "countdownPrayer": "{name} pas {time}",
+  "countdownNonPrayer": "{name} pas {time}",
   "sec": "Sek",
   "online": "Online",
   "missingMosqueId": "#ID i MAWAQIT ose #ID i XHAMISË mungon.",

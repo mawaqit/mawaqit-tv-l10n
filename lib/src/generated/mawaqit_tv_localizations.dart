@@ -355,6 +355,18 @@ abstract class MawaqitTvLocalizations {
   /// **'Athan in'**
   String get azanIn;
 
+  /// Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'
+  ///
+  /// In en, this message translates to:
+  /// **'{name} Athan in {time}'**
+  String countdownPrayer(String name, String time);
+
+  /// Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'
+  ///
+  /// In en, this message translates to:
+  /// **'{name} in {time}'**
+  String countdownNonPrayer(String name, String time);
+
   /// No description provided for @sec.
   ///
   /// In en, this message translates to:
@@ -1447,6 +1459,12 @@ abstract class MawaqitTvLocalizations {
   /// **'Failed to connect to Wifi.'**
   String get wifiFailure;
 
+  /// No description provided for @wifiForgetNetwork.
+  ///
+  /// In en, this message translates to:
+  /// **'This network was added in Android settings. Please forget it there, then connect again.'**
+  String get wifiForgetNetwork;
+
   /// No description provided for @timezoneSuccess.
   ///
   /// In en, this message translates to:
@@ -2430,6 +2448,30 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Extra Large'**
   String get fontSizeXLarge;
+
+  /// Title of the display setting that selects the Arabic font for Athkar content
+  ///
+  /// In en, this message translates to:
+  /// **'Athkar Arabic font'**
+  String get athkarArabicFont;
+
+  /// Subtitle describing the Athkar Arabic font setting
+  ///
+  /// In en, this message translates to:
+  /// **'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)'**
+  String get athkarArabicFontDesc;
+
+  /// Label for the Kufi Arabic font option (default)
+  ///
+  /// In en, this message translates to:
+  /// **'Kufi'**
+  String get athkarFontKufi;
+
+  /// Label for the Uthmani Arabic font option
+  ///
+  /// In en, this message translates to:
+  /// **'Uthmani'**
+  String get athkarFontUthmani;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {

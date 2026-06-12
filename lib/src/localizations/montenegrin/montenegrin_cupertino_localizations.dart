@@ -9,8 +9,7 @@ import 'package:intl/intl.dart' as intl;
 
 import 'montenegrin_material_localizations.dart';
 
-class _MontenegrinCupertinoLocalizationsDelegate
-    extends LocalizationsDelegate<CupertinoLocalizations> {
+class _MontenegrinCupertinoLocalizationsDelegate extends LocalizationsDelegate<CupertinoLocalizations> {
   const _MontenegrinCupertinoLocalizationsDelegate();
 
   @override
@@ -57,19 +56,18 @@ class MontenegrinCupertinoLocalizations extends GlobalCupertinoLocalizations {
     required intl.DateFormat singleDigitSecondFormat,
     required intl.NumberFormat decimalFormat,
   }) : super(
-         localeName: localeName,
-         fullYearFormat: fullYearFormat,
-         dayFormat: dayFormat,
-         mediumDateFormat: mediumDateFormat,
-         singleDigitHourFormat: singleDigitHourFormat,
-         singleDigitMinuteFormat: singleDigitMinuteFormat,
-         doubleDigitMinuteFormat: doubleDigitMinuteFormat,
-         singleDigitSecondFormat: singleDigitSecondFormat,
-         decimalFormat: decimalFormat,
-       );
+          localeName: localeName,
+          fullYearFormat: fullYearFormat,
+          dayFormat: dayFormat,
+          mediumDateFormat: mediumDateFormat,
+          singleDigitHourFormat: singleDigitHourFormat,
+          singleDigitMinuteFormat: singleDigitMinuteFormat,
+          doubleDigitMinuteFormat: doubleDigitMinuteFormat,
+          singleDigitSecondFormat: singleDigitSecondFormat,
+          decimalFormat: decimalFormat,
+        );
 
-  static const LocalizationsDelegate<CupertinoLocalizations> delegate =
-      _MontenegrinCupertinoLocalizationsDelegate();
+  static const LocalizationsDelegate<CupertinoLocalizations> delegate = _MontenegrinCupertinoLocalizationsDelegate();
 
   @override
   String get alertDialogLabel => 'Upozorenje';
