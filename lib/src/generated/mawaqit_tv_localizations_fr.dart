@@ -1143,6 +1143,24 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get tutorialFullTutorial => 'Tutoriel complet';
 
   @override
+  String get prayerTimeFontSize => 'Taille du texte et de l\'affichage';
+
+  @override
+  String get prayerTimeFontSizeDesc => 'Modifiez la taille du texte dans toute l\'application';
+
+  @override
+  String get fontSizeSmall => 'Petit';
+
+  @override
+  String get fontSizeNormal => 'Normal';
+
+  @override
+  String get fontSizeLarge => 'Grand';
+
+  @override
+  String get fontSizeXLarge => 'Très grand';
+
+  @override
   String get athkarArabicFont => 'Police arabe des Adhkar';
 
   @override
