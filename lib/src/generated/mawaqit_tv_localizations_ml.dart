@@ -88,6 +88,16 @@ class MawaqitTvLocalizationsMl extends MawaqitTvLocalizations {
   String get azanIn => 'Athan in';
 
   @override
+  String countdownPrayer(String name, String time) {
+    return '$name Athan in $time';
+  }
+
+  @override
+  String countdownNonPrayer(String name, String time) {
+    return '$name in $time';
+  }
+
+  @override
   String get sec => 'സെക്കൻഡ്';
 
   @override
@@ -636,6 +646,9 @@ class MawaqitTvLocalizationsMl extends MawaqitTvLocalizations {
   String get wifiFailure => 'Wi-Fi-ൽ കണക്‌ട് ചെയ്യുന്നതിൽ പരാജയപ്പെട്ടു.';
 
   @override
+  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+
+  @override
   String get timezoneSuccess => 'ടൈം സോൺ വിജയകരമായി സജ്ജമാക്കി.';
 
   @override
@@ -1002,6 +1015,30 @@ class MawaqitTvLocalizationsMl extends MawaqitTvLocalizations {
   String get replaceAppWorkflowWithCameraStream => 'The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display';
 
   @override
+  String get streamMode => 'Stream mode';
+
+  @override
+  String get streamModeDisabled => 'Disabled';
+
+  @override
+  String get streamModeCamera => 'Stream depends on camera';
+
+  @override
+  String get streamModeJumuaOnly => 'Stream depends on Jumua only';
+
+  @override
+  String get streamModeJumuaAndPrayers => 'Stream depends on Jumua and the 5 prayers';
+
+  @override
+  String get streamRequiresSecondaryScreen => 'This feature is only available when the screen is configured as a secondary screen (required for mosque type)';
+
+  @override
+  String get rtspServerNotAvailable => 'RTSP server is not available. Please check your connection.';
+
+  @override
+  String get settingsSavedSuccessfully => 'Settings saved successfully';
+
+  @override
   String get streamError => 'An error occurred while streaming';
 
   @override
@@ -1072,4 +1109,66 @@ class MawaqitTvLocalizationsMl extends MawaqitTvLocalizations {
 
   @override
   String get wifi => 'WIFI';
+
+  @override
+  String get tutorialGetStarted => 'Get started in 4 simple steps';
+
+  @override
+  String get tutorialDontHaveId => 'Don\'t have a Mosque ID yet? Here\'s how:';
+
+  @override
+  String get tutorialStep1 => 'Go to mawaqit.net and create an account';
+
+  @override
+  String get tutorialStep2 => 'Register your mosque with photos & address';
+
+  @override
+  String get tutorialStep3 => 'Get your unique Mosque ID from your dashboard';
+
+  @override
+  String get tutorialStep4 => 'Enter the ID here to connect your TV display';
+
+  @override
+  String tutorialStep(String step) {
+    return 'Step $step  ';
+  }
+
+  @override
+  String get tutorialScanToRegister => 'Scan to register';
+
+  @override
+  String get tutorialScanDescription => 'Use your phone to create an account on mawaqit.net';
+
+  @override
+  String get tutorialFullTutorial => 'Full tutorial';
+
+  @override
+  String get prayerTimeFontSize => 'Text & display size';
+
+  @override
+  String get prayerTimeFontSizeDesc => 'Change how large the text appears throughout the app';
+
+  @override
+  String get fontSizeSmall => 'Small';
+
+  @override
+  String get fontSizeNormal => 'Normal';
+
+  @override
+  String get fontSizeLarge => 'Large';
+
+  @override
+  String get fontSizeXLarge => 'Extra Large';
+
+  @override
+  String get athkarArabicFont => 'Athkar Arabic font';
+
+  @override
+  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+
+  @override
+  String get athkarFontKufi => 'Kufi';
+
+  @override
+  String get athkarFontUthmani => 'Uthmani';
 }
