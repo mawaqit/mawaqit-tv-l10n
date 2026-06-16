@@ -1030,7 +1030,16 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get streamModeJumuaAndPrayers => 'Diffusion pour la Jumua et les 5 prières';
 
   @override
-  String get streamRequiresSecondaryScreen => 'Cette fonctionnalité est disponible uniquement lorsque l\'écran est configuré comme écran secondaire (requis pour le type Mosquée)';
+  String get streamRequiresSecondaryScreen => 'Cette fonctionnalité ne fonctionne que lorsque l\'application est configurée comme écran secondaire. Pour l\'activer :';
+
+  @override
+  String get streamSecondaryScreenStep1 => 'Allez dans Affichage.';
+
+  @override
+  String get streamSecondaryScreenStep2 => 'Ouvrez « Mode de lancement par défaut ».';
+
+  @override
+  String get streamSecondaryScreenStep3 => 'Sélectionnez « Écran secondaire ».';
 
   @override
   String get rtspServerNotAvailable => 'Le serveur RTSP n\'est pas disponible. Veuillez vérifier votre connexion.';

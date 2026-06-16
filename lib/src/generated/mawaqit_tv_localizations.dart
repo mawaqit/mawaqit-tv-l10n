@@ -2196,8 +2196,26 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @streamRequiresSecondaryScreen.
   ///
   /// In en, this message translates to:
-  /// **'This feature is only available when the screen is configured as a secondary screen (required for mosque type)'**
+  /// **'This feature only works when the app runs as a secondary screen. To enable it:'**
   String get streamRequiresSecondaryScreen;
+
+  /// No description provided for @streamSecondaryScreenStep1.
+  ///
+  /// In en, this message translates to:
+  /// **'Go to Display.'**
+  String get streamSecondaryScreenStep1;
+
+  /// No description provided for @streamSecondaryScreenStep2.
+  ///
+  /// In en, this message translates to:
+  /// **'Open \"Default launch mode\".'**
+  String get streamSecondaryScreenStep2;
+
+  /// No description provided for @streamSecondaryScreenStep3.
+  ///
+  /// In en, this message translates to:
+  /// **'Select \"Secondary screen\".'**
+  String get streamSecondaryScreenStep3;
 
   /// No description provided for @rtspServerNotAvailable.
   ///
