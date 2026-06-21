@@ -1,4 +1,5 @@
 {
+  "thisIsATestFromIbrahim": "C'est un test d'Ibrahim",
   "home": "Accueil",
   "share": "Partager",
   "about": "À propos",
@@ -12,8 +13,8 @@
   "tryAgain": "Réessayez",
   "closeApp": "Fermer l'application",
   "quit": "Quitter",
-  "forceStaging": "Staging",
-  "forcePreProduction": "Pre-production",
+  "forceStaging": "Passer en préproduction",
+  "forcePreProduction": "Pré-production",
   "disableStaging": "Passer en mode production",
   "environmentSwitchSuccess": "Environnement changé avec succès",
   "environmentSwitchFailed": "Échec du changement d'environnement",
@@ -26,7 +27,33 @@
   "in1": "dans",
   "azanIn": "Athan en",
   "countdownPrayer": "{name} dans {time}",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
   "countdownNonPrayer": "{name} dans {time}",
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
   "sec": "Sec",
   "online": "Connecté",
   "missingMosqueId": "Numéro d'identification MAWAQIT #ID ou MOSQUE #ID manquant",
@@ -62,13 +89,19 @@
   "afterAdhanHadithTitle": "Doua après l'Athan",
   "afterSalahHadith": "Allāhumma rabba hādhihi 'd-da'wati 't-tāmmah waṣ-ṣalāti 'l-qā'imah, 'āti Muhammadani 'l-wasīlata walfaḍīlata, wab 'ath-hu maqāma 'm-mahmūdani 'l-ladhī wa`adtahu",
   "alIqama": "Al Iqama",
-  "alAdhan": "Al Athan",
+  "alAdhan": "Al adhan",
   "turnOfPhones": "Veuillez mettre vos téléphones en mode silencieux",
   "iqamaIn": "Iqama dans",
   "iqamaShowClock": "Afficher l'horloge sur l'écran Iqama",
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
   "iqamaShowClockDesc": "Afficher l'heure et la date actuelles sur l'écran de décompte de l'Iqama",
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
   "alAthkar": "Al Adhkar",
-  "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
+  "azkarList0": "Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik",
   "@azkarList0": {
     "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
   },
@@ -76,62 +109,62 @@
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
-  "azkarList2": "Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. 'Ilāhin-nās. Min sharri 'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.",
+  "azkarList2": "Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. 'Ilāhin-nās. Min sharri 'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.",
   "@azkarList2": {
     "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس - Surah An-Nas"
   },
-  "azkarList3": "Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.",
+  "azkarList3": "Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.",
   "@azkarList3": {
     "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
-  "azkarList4": "Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.",
+  "azkarList4": "Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.",
   "@azkarList4": {
     "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ - Surah Al-Ikhlas"
   },
-  "azkarList5": "Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa'u 'indahu illā bi'idhnih, ya'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay'im-min 'ilmihi illā bimā shā', wasi'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya'ūduhu ḥifẓuhumā, wa Huwal-'Aliyyul-'Aẓīm",
+  "azkarList5": "Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa'u 'indahu illā bi'idhnih, ya'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay'im-min 'ilmihi illā bimā shā', wasi'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya'ūduhu ḥifẓuhumā, wa Huwal-'Aliyyul-'Aẓīm",
   "@azkarList5": {
     "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
-  "azkarList6": "Lā 'ilāha 'illallāh, waḥdahu lā sharīka lah, lahu 'l-mulku wa lahu 'l-ḥamd, wa huwa `alā kulli shay'in qadīr, Allāhumma lā māni`a limā 'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.",
+  "azkarList6": "La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
-  "azkarList7": "Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū'u laka bi ni`matika `alay, wa abū'u bidhanbī faghfir lī fa'innahu lā yaghfirudh-dhunūba illā ant.",
+  "azkarList7": "Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū'u laka bi ni`matika `alay, wa abū'u bidhanbī faghfir lī fa'innahu lā yaghfirudh-dhunūba illā ant.",
   "@azkarList7": {
     "description": "Sayyid al-Istighfar (Master of Seeking Forgiveness)"
   },
-  "azkarList8": "Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay'in Qadīr. Rabbi as'aluka khayra mā fī hādha 'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha 'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.",
+  "azkarList8": "As<unk> bah<unk> na<unk> wa as<unk> bah<unk> al-mulku lilla<unk> h, walh<unk> amdu lilla<unk> h, la<unk> ila<unk> ha illalla<unk> hu wah<unk> dahu la<unk> shari<unk> ka lah, lahul-mulku wa lahul-h<unk> amd, wa huwa `ala<unk> kulli shay'in Qadi<unk> r. Rabbi as'aluka khayra ma<unk> fi<unk> ha<unk> dha 'l-yawmi wa khayra ma<unk> ba`dahu wa a`u<unk> dhu bika min sharri ma<unk> fi<unk> ha<unk> tha 'l-yawmi wa sharri ma<unk> ba`dahu, Rabbi a`u<unk> dhu bika minal-kasali, wa su<unk> 'il-kibar, Rabbi a`u<unk> dhu bika min `adha<unk> bin fin-na<unk> ri wa `adha<unk> bin fil-qabr.",
   "@azkarList8": {
     "description": "Morning supplication - Protection dua"
   },
-  "azkarList9": "Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]",
+  "azkarList9": "Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]",
   "@azkarList9": {
     "description": "Morning testimony - 4 times"
   },
-  "azkarList10": "Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina 'l-kufri, wa 'l-faqr, wa a`ūdhu bika min `adhābi 'l-qabr, lā ilāha illā ant. (Thalātha marrāt)",
+  "azkarList10": "Alla<unk> humma `a<unk> fini<unk> fi<unk> badani<unk> , Alla<unk> humma `a<unk> fini<unk> sam`i<unk> , Alla<unk> humma `a<unk> fini<unk> fi<unk> bas<unk> ari<unk> , la<unk> ila<unk> ha illa<unk> ant. Allah humma inni<unk> a`u<unk> dhu bika mina 'l-kufri, wa 'l-faqr, wa a`u<unk> dhu bika min `adha<unk> bi 'l-qabr, la<unk> ila<unk> ha illa<unk> ant. (Thala<unk> tha marra<unk> t)",
   "@azkarList10": {
     "description": "Dua for wellbeing - 3 times"
   },
-  "azkarList11": "Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu 'l-`Arshi 'l-'Aẓīm. (Sab'a marrāt)",
+  "azkarList11": "Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu 'l-`Arshi 'l-'Aẓīm. (Sab'a marrāt)",
   "@azkarList11": {
     "description": "Hasbiya Allah - 7 times"
   },
-  "azkarList12": "Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)",
+  "azkarList12": "Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)",
   "@azkarList12": {
     "description": "Contentment with Allah - 3 times"
   },
-  "azkarList13": "Lā ilāha illallāh waḥdahu lā sharīka lah, lahu'l-mulku wa lahu'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay'in qadīr. ('Ashra marrāt)",
+  "azkarList13": "La<unk> ila<unk> ha illalla<unk> h wah<unk> dahu la<unk> shari<unk> ka lah, lahu'l-mulku wa lahu'l-h<unk> amd yuh<unk> yi<unk> wa yumi<unk> t wa huwa `ala<unk> kulli shay'in qadi<unk> r. ('Ashra marra<unk> t)",
   "@azkarList13": {
     "description": "La ilaha illa Allah tawhid - 10 times"
   },
-  "azkarList14": "Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr. Rabbi as'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba'dahā, wa a'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba'dahā, wa a'ūdhu bika minal-kasal, wa sū'il-kibar, wa a'ūdhu bika min 'adhābin-nār, wa 'adhābil-qabr",
+  "azkarList14": "Amsayna<unk> wa amsal-mulku lilla<unk> h, walh<unk> amdulilla<unk> h, wa la<unk> ila<unk> ha illalla<unk> hu wah<unk> dahu la<unk> shari<unk> ka lah, lahul-mulku wa lahul-h<unk> amd, wa huwa 'ala<unk> kulli shay'in Qadi<unk> r. Rabbi as'aluka khayra ma<unk> fi<unk> ha<unk> dhihil-laylah, wa khayra ma<unk> ba'daha<unk> , wa a'u<unk> dhu bika min sharri ma<unk> fi<unk> ha<unk> dhihil-laylah, wa sharri ma<unk> ba'daha<unk> , wa a'u<unk> dhu bika minal-kasal, wa su<unk> 'il-kibar, wa a'u<unk> dhu bika min 'adha<unk> bin-na<unk> r, wa 'adha<unk> bil-qabr",
   "@azkarList14": {
     "description": "Morning supplication - Protection from laziness"
   },
   "jumuaaScreenTitle": "L'heure du Joumoua",
   "jumuaaHadith": "Le Prophète ﷺ a dit : \"Quiconque fait les ablutions parfaitement puis va à la jumua puis écoute et se tait, il lui est pardonné ce qui se trouve entre ce moment et le vendredi suivant et trois autres jours, et celui qui touche des pierres a certainement fait une futilité\".",
   "shuruk": "Chourouk",
-  "duha": "Duha",
+  "duha": "Douha",
   "duhaTime": "Heure du Duha",
   "reset": "Reset",
   "mosqueNotFoundMessage": "Désolé, votre mosquée n'a pas été trouvée, elle est peut-être manquante ou temporairement désactivée.",
@@ -142,14 +175,14 @@
   "safar": "Safar",
   "rabiAlawwal": "Rabi' al-Awwal",
   "rabiAlthani": "Rabi' al-akhir",
-  "jumadaAlula": "Jumada al-Ula",
+  "jumadaAlula": "Joumada al-oula",
   "jumadaAlakhirah": "Joumada al-akhirah",
   "rajab": "Rajab",
   "shaban": "Chaabane",
   "ramadan": "Ramadan",
-  "shawwal": "Shawwal",
-  "dhuAlqidah": "Dhu al-Qi'dah",
-  "dhuAlhijjah": "Dhu al-Hijja",
+  "shawwal": "Chaoual",
+  "dhuAlqidah": "Dhou al-Qi'dah",
+  "dhuAlhijjah": "Dhou al-Hijja",
   "duaaBetweenSalahAndAdhan": "    Selon Anas Ibn Mâlik, le Prophète (ﷺ) a dit : \"Les invocations entre l’Athan et l’Iqâmah ne sont pas rejetées\"",
   "salatKhayrMinaNawm": "Assalatou khayroun mina nawm",
   "salatElEid": "Salat Al Aïd",
@@ -218,6 +251,7 @@
   "es": "Espagnol",
   "pt": "Portugais",
   "nl": "Néerlandais",
+  "ta": "Tamil",
   "fr_ar": "Français et Arabe",
   "en_ar": "Anglais et Arabe",
   "de_ar": "Allemand et Arabe",
@@ -469,6 +503,7 @@
   "processingRequest": "Traitement de votre demande...",
   "loadingStream": "Chargement du flux...",
   "rtspUrlHint": "Entrez l'URL RTSP ou lien YouTube",
+  "urlManagedByMosqueAdmin": "URL gérée par l'administrateur de la mosquée",
   "replaceWorkflowWithStream": "Afficher le flux caméra automatiquement",
   "replaceAppWorkflowWithCameraStream": "L'écran va automatiquement afficher le flux de la caméra dès que la caméra commence à enregistrer, si elle s'arrête  l'écran revient à l'affichage des heures de prières",
   "streamMode": "Mode de diffusion",
@@ -495,37 +530,145 @@
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
   },
+  "testCrowdinCI": "Tester la chaîne de caractères pour vérifier le workflow CI de Crowdin lors du développement",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
   "quranMode": "Mode Coran",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
   "quranModeExplanation": "Afficher l'écran de lecture du Coran, en commençant par la dernière page lue",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
   "appDisplayMode": "Affichage",
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
   "appDisplayModeExplanation": "Choisissez comment votre écran affichera le contenu",
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
   "exitQuranModeTitle": "Quitter le mode Coran",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
   "exitQuranModeMessage": "Souhaitez-vous revenir au mode normal ?",
-  "settingsSectionGlobal": "Global",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "settingsSectionGlobal": "Globale",
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
   "hijriDateAdjustment": "Ajustement de la date hijri",
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
   "interfaceLanguage": "Langue de l'interface",
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
   "launchModeMainPrayer": "Horaires de prière principaux",
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
   "launchModeSecondaryPrayer": "Horaires de prière secondaires",
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
   "timezone": "Fuseau horaire",
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
   "wifi": "WiFi",
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
   "tutorialGetStarted": "Commencez en 4 étapes simples",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
   "tutorialDontHaveId": "Vous n'avez pas encore d'identifiant de mosquée ? Voici comment :",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
   "tutorialStep1": "Allez sur mawaqit.net et créez un compte",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
   "tutorialStep2": "Enregistrez votre mosquée avec photos et adresse",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
   "tutorialStep3": "Obtenez votre identifiant unique depuis votre tableau de bord",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
   "tutorialStep4": "Entrez l'identifiant ici pour connecter votre écran TV",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
   "tutorialStep": "Étape {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
   "tutorialScanToRegister": "Scannez pour vous inscrire",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
   "tutorialScanDescription": "Utilisez votre téléphone pour créer un compte sur mawaqit.net",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
   "tutorialFullTutorial": "Tutoriel complet",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
   "prayerTimeFontSize": "Taille du texte et de l'affichage",
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
   "prayerTimeFontSizeDesc": "Modifiez la taille du texte dans toute l'application",
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
   "fontSizeSmall": "Petit",
-  "fontSizeNormal": "Normal",
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "fontSizeNormal": "Normale",
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
   "fontSizeLarge": "Grand",
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
   "fontSizeXLarge": "Très grand",
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
   "athkarArabicFont": "Police arabe des Adhkar",
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
   "athkarArabicFontDesc": "Choisissez la police arabe utilisée pour les Adhkar (après la prière, l'adhan, le Joumoua, le hadith...)",
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
   "athkarFontKufi": "Koufi",
-  "athkarFontUthmani": "Uthmani"
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "athkarFontUthmani": "Uthmani",
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  }
 }

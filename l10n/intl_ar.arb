@@ -1,4 +1,5 @@
 {
+  "thisIsATestFromIbrahim": "هذا اختبار من إبراهيم",
   "home": "الصفحة الرئيسية",
   "share": "مشاركة",
   "about": "عن التطبيق",
@@ -12,8 +13,8 @@
   "tryAgain": "حاول مرة اخرى",
   "closeApp": "إغلاق التطبيق",
   "quit": "خروج",
-  "forceStaging": "Staging",
-  "forcePreProduction": "Pre-production",
+  "forceStaging": "الانتقال إلى وضع التهيئة",
+  "forcePreProduction": "ما قبل الإنتاج",
   "disableStaging": "الانتقال إلى بيئة الاختبار",
   "environmentSwitchSuccess": "تم تغيير الإعدادات بنجاح",
   "environmentSwitchFailed": "فشل تغيير الإعدادات",
@@ -26,7 +27,33 @@
   "in1": "بعد",
   "azanIn": "آزان في",
   "countdownPrayer": "{name} بعد {time}",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
   "countdownNonPrayer": "{name} بعد {time}",
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
   "sec": "ثانية",
   "online": "متصل",
   "missingMosqueId": "معرف المسجد مفقود (MAWAQIT #ID أو MOSQUE #ID)",
@@ -66,7 +93,13 @@
   "turnOfPhones": "الرجاء ضبط هاتفك على الوضع الصامت",
   "iqamaIn": "الإقامة بعد",
   "iqamaShowClock": "عرض الساعة في شاشة الإقامة",
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
   "iqamaShowClockDesc": "عرض الوقت والتاريخ الحالي في شاشة العد التنازلي للإقامة",
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
   "alAthkar": "الأذكار",
   "azkarList0": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
   "@azkarList0": {
@@ -82,7 +115,7 @@
   },
   "azkarList3": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
   "@azkarList3": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
   "azkarList4": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ",
   "@azkarList4": {
@@ -182,7 +215,7 @@
   "announcementOnlyMode": "وضع الإعلانات",
   "normalMode": "الوضع العادي",
   "announcementOnlyModeEXPLINATION": "اختر إذا كنت تود أن تعرض شاشة الإعلانات طوال الوقت، هذا يمكن أن يكون مفيداً إذا قمت بتثبيت الشاشة على سبيل المثال في المدخل.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "اللهم اني لك صمت وعلى رزقك افطرت واليك انبت وعليك توكلت ذهب الظمأ وابتلت العروق وثبت الأجر إن شاء الله",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -218,6 +251,7 @@
   "es": "الإسبانية",
   "pt": "البرتغالية",
   "nl": "الهولندية",
+  "ta": "Tamil",
   "fr_ar": "الفرنسية والعربية",
   "en_ar": "الإنكليزية والعربية",
   "de_ar": "الألمانية والعربية",
@@ -469,6 +503,7 @@
   "processingRequest": "جاري معالجة الطلب...",
   "loadingStream": "جاري تحميل البث...",
   "rtspUrlHint": "أدخل رابط RTSP أو رابط يوتيوب",
+  "urlManagedByMosqueAdmin": "عنوان URL يديره مسؤول المسجد",
   "replaceWorkflowWithStream": "عرض بث الكاميرا تلقائيًا",
   "replaceAppWorkflowWithCameraStream": "سيعرض الشاشة بث الكاميرا تلقائيًا بمجرد أن تبدأ الكاميرا في التسجيل، وإذا توقفت يعود العرض إلى مواقيت الصلاة",
   "streamMode": "وضع البث",
@@ -495,37 +530,145 @@
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
   },
+  "testCrowdinCI": "سلسلة اختبار للتحقق من سير عمل كرودن في التطوير",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
   "quranMode": "وضع القرآن",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
   "quranModeExplanation": "عرض شاشة قراءة القرآن، بدءاً من آخر صفحة تمت قراءتها",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
   "appDisplayMode": "العرض",
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
   "appDisplayModeExplanation": "اختر كيفية عرض المحتوى على شاشتك",
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
   "exitQuranModeTitle": "الخروج من وضع القرآن",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
   "exitQuranModeMessage": "هل تريد العودة إلى الوضع العادي؟",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
   "settingsSectionGlobal": "عام",
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
   "hijriDateAdjustment": "ضبط التاريخ الهجري",
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
   "interfaceLanguage": "لغة الواجهة",
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
   "launchModeMainPrayer": "أوقات الصلاة الرئيسية",
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
   "launchModeSecondaryPrayer": "أوقات الصلاة الثانوية",
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
   "timezone": "المنطقة الزمنية",
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
   "wifi": "واي فاي",
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
   "tutorialGetStarted": "ابدأ في 4 خطوات بسيطة",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
   "tutorialDontHaveId": "ليس لديك معرّف مسجد بعد؟ إليك الطريقة:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
   "tutorialStep1": "اذهب إلى mawaqit.net وأنشئ حساباً",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
   "tutorialStep2": "سجّل مسجدك بالصور والعنوان",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
   "tutorialStep3": "احصل على معرّف المسجد الفريد من لوحة التحكم",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
   "tutorialStep4": "أدخل المعرّف هنا لربط شاشة التلفزيون",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
   "tutorialStep": "الخطوة {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
   "tutorialScanToRegister": "امسح للتسجيل",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
   "tutorialScanDescription": "استخدم هاتفك لإنشاء حساب على mawaqit.net",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
   "tutorialFullTutorial": "الشرح الكامل",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
   "prayerTimeFontSize": "حجم النص والعرض",
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
   "prayerTimeFontSizeDesc": "غيّر حجم النص الظاهر في جميع أنحاء التطبيق",
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
   "fontSizeSmall": "صغير",
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
   "fontSizeNormal": "عادي",
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
   "fontSizeLarge": "كبير",
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
   "fontSizeXLarge": "كبير جداً",
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
   "athkarArabicFont": "خط الأذكار العربي",
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
   "athkarArabicFontDesc": "اختر الخط العربي المستخدم للأذكار (بعد الصلاة، الأذان، الجمعة، الحديث...)",
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
   "athkarFontKufi": "الكوفي",
-  "athkarFontUthmani": "العثماني"
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "athkarFontUthmani": "العثماني",
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  }
 }
