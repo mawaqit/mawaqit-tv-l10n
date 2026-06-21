@@ -1030,7 +1030,16 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get streamModeJumuaAndPrayers => 'البث لصلاة الجمعة والصلوات الخمس';
 
   @override
-  String get streamRequiresSecondaryScreen => 'هذه الميزة متاحة فقط عندما تكون الشاشة مضبوطة كشاشة ثانوية (مطلوب لنوع المسجد)';
+  String get streamRequiresSecondaryScreen => 'تعمل هذه الميزة فقط عندما يكون التطبيق مضبوطًا كشاشة ثانوية. لتفعيلها:';
+
+  @override
+  String get streamSecondaryScreenStep1 => 'انتقل إلى العرض.';
+
+  @override
+  String get streamSecondaryScreenStep2 => 'افتح «وضع التطبيق».';
+
+  @override
+  String get streamSecondaryScreenStep3 => 'اختر «الشاشة الثانوية».';
 
   @override
   String get rtspServerNotAvailable => 'خادم RTSP غير متاح. يرجى التحقق من اتصالك.';
