@@ -19,18 +19,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Upload sources and translations to Crowdin
-        uses: crowdin/github-action@v2
-        with:
-          upload_sources: true
-          upload_translations: true
-          download_translations: false
-          # Imported repo text arrives as a suggestion, not a verdict. Approval is
-          # a human act — see the round trip described in the PR body.
-          auto_approve_imported: false
-        env:
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+      # Sources are uploaded by Crowdin's own GitHub VCS integration (Integrations tab),
+      # not here — running both created a duplicate, out-of-sync source file in Crowdin.
+      #
+      # Translations are never uploaded from the repo back to Crowdin either — Crowdin
+      # is the one-way source of truth for translation text. Re-uploading the repo's
+      # own (possibly stale) files on every dev merge overwrote human approvals in
+      # Crowdin with old committed text, which is what happened repeatedly to the
+      # pt-PT translations in issue #2289 (and, before auto_approve_imported was
+      # turned off in a8e6ff5, the same round trip is what let a reversed-meaning
+      # Swedish hadith sit "Approved" in issue #2154).
+      - name: Wait for Crowdin's native VCS sync to pick up the new sources
+        run: sleep 60
 
       - name: Pre-translate with AI
         uses: crowdin/github-action@v2
