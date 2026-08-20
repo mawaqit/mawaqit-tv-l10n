@@ -274,7 +274,7 @@ class MawaqitTvLocalizationsEn extends MawaqitTvLocalizations {
   String get jumuaaHadith => 'The Prophet ﷺ (peace and blessings of Allah be upon him) said “Whoever does the ablutions perfectly then goes to jumua and then listens and is silent, he is forgiven what is between that time and the following Friday and three more days and the one who touches stones has certainly made a futility”';
 
   @override
-  String get shuruk => 'Shuruk';
+  String get shuruk => 'Sunrise';
 
   @override
   String get duha => 'Duha';
