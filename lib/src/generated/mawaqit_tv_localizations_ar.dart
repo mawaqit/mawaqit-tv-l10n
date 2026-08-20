@@ -307,7 +307,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get rabiAlawwal => 'ربيع الأول';
 
   @override
-  String get rabiAlthani => 'ربيع الثاني';
+  String get rabiAlthani => 'ربيع الآخر';
 
   @override
   String get jumadaAlula => 'جُمادى الأولى';
