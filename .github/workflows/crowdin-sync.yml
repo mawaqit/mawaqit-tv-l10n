@@ -25,7 +25,9 @@ jobs:
           upload_sources: true
           upload_translations: true
           download_translations: false
-          auto_approve_imported: true
+          # Imported repo text arrives as a suggestion, not a verdict. Approval is
+          # a human act — see the round trip described in the PR body.
+          auto_approve_imported: false
         env:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
@@ -34,7 +36,10 @@ jobs:
         uses: crowdin/github-action@v2
         with:
           command: 'pre-translate'
-          command_args: '--method ai --ai-prompt 332920 --translate-untranslated-only'
+          # --auto-approve-option none is already the CLI default; pinned so a future
+          # edit can't quietly promote machine output to approved. --label lets us
+          # filter and bulk-review everything the AI wrote.
+          command_args: '--method ai --ai-prompt 332920 --translate-untranslated-only --auto-approve-option none --label ai'
         env:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
@@ -54,6 +59,10 @@ jobs:
           upload_translations: false
           download_translations: true
           skip_untranslated_strings: true
+          # Only human-approved text reaches the app. Combined with
+          # skip_untranslated_strings, unapproved strings are omitted from the .arb
+          # and Flutter falls back to English — preferable to shipping a wrong hadith.
+          export_only_approved: true
           localization_branch_name: l10n_crowdin_translations
           create_pull_request: true
           pull_request_title: 'chore(l10n): sync translations from Crowdin'
