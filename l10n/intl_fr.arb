@@ -67,6 +67,10 @@
   "iqamaIn": "Iqama dans",
   "iqamaShowClock": "Afficher l'horloge sur l'écran Iqama",
   "iqamaShowClockDesc": "Afficher l'heure et la date actuelles sur l'écran de décompte de l'Iqama",
+  "perPrayerRollover": "Basculement des heures de prière",
+  "perPrayerRolloverDesc": "Choisissez comment les heures de prière basculent vers demain",
+  "perPrayerRolloverOptionPerPrayer": "Chaque prière individuellement",
+  "perPrayerRolloverOptionAfterIsha": "Toutes ensemble après l'Isha",
   "alAthkar": "Al Adhkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
