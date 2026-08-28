@@ -71,6 +71,17 @@ jobs:
           proj = call("GET", f"/projects/{PID}")["data"]
           print(f"project: {proj.get('name')} (id={proj.get('id')}, type={proj.get('type')})")
 
+          # Crowdin language ids are locale codes (sv-SE, pt-PT). Accept a short code
+          # and resolve it, so callers do not have to know the exact spelling.
+          langs = proj.get("targetLanguages") or []
+          match = [l for l in langs
+                   if LANG in (l.get("id"), l.get("locale"), l.get("twoLettersCode"))]
+          if not match:
+              print("available: " + ", ".join(sorted(l["id"] for l in langs)))
+              sys.exit(f"language '{LANG}' not in this project")
+          LANG = match[0]["id"]
+          print(f"language: {match[0].get('name')} -> {LANG}")
+
           def paged(path, params):
               out, offset = [], 0
               while True:
@@ -82,8 +93,19 @@ jobs:
                   offset += 500
               return out
 
+          branches = paged(f"/projects/{PID}/branches", {})
+          if branches:
+              print("branches: " + ", ".join(f"{b['id']}:{b.get('name')}" for b in branches))
+
           files = paged(f"/projects/{PID}/files", {})
-          print("files: " + ", ".join(f"{f['id']}:{f.get('path')}" for f in files) + "\n")
+          for b in branches:
+              files += paged(f"/projects/{PID}/files", {"branchId": b["id"]})
+          seen, uniq = set(), []
+          for f in files:
+              if f["id"] not in seen:
+                  seen.add(f["id"]); uniq.append(f)
+          files = [f for f in uniq if str(f.get("path","")).endswith(".arb")]
+          print("arb files: " + ", ".join(f"{f['id']}:{f.get('path')}" for f in files) + "\n")
 
           approvals = []
           for f in files:
