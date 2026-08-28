@@ -1,0 +1,109 @@
+name: Crowdin Approval Audit
+
+# Approvals in this project were, until #59, being stamped by the sync pipeline
+# rather than given by a person. #59 stopped new ones; it is not retroactive.
+# This workflow reports who approved what, and can revoke pipeline-made approvals
+# so that `export_only_approved` means what it says.
+#
+# Default mode is `report` — read-only. `unapprove` requires typing the confirm word.
+
+on:
+  workflow_dispatch:
+    inputs:
+      language:
+        description: 'Crowdin language id (e.g. sv, tr, pt-PT)'
+        required: true
+        default: 'sv'
+      mode:
+        description: 'report (read-only) or unapprove'
+        required: true
+        default: 'report'
+        type: choice
+        options: [report, unapprove]
+      approver_id:
+        description: 'unapprove: only approvals made by this Crowdin user id (from the report)'
+        required: false
+        default: ''
+      before:
+        description: 'unapprove: only approvals created before this ISO date (e.g. 2026-08-20)'
+        required: false
+        default: ''
+      confirm:
+        description: 'unapprove: type UNAPPROVE to proceed'
+        required: false
+        default: ''
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Query approvals
+        env:
+          TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+          PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          LANG_ID: ${{ inputs.language }}
+          MODE: ${{ inputs.mode }}
+          APPROVER: ${{ inputs.approver_id }}
+          BEFORE: ${{ inputs.before }}
+          CONFIRM: ${{ inputs.confirm }}
+        run: |
+          python3 - <<'PY'
+          import os, json, urllib.request, collections, sys
+
+          BASE = "https://api.crowdin.com/api/v2"
+          TOKEN, PID = os.environ["TOKEN"], os.environ["PROJECT_ID"]
+          LANG, MODE = os.environ["LANG_ID"], os.environ["MODE"]
+          APPROVER, BEFORE = os.environ.get("APPROVER",""), os.environ.get("BEFORE","")
+
+          def call(method, path, params=None):
+              url = f"{BASE}{path}"
+              if params:
+                  url += "?" + "&".join(f"{k}={v}" for k, v in params.items())
+              req = urllib.request.Request(url, method=method)
+              req.add_header("Authorization", f"Bearer {TOKEN}")
+              with urllib.request.urlopen(req) as r:
+                  body = r.read()
+              return json.loads(body) if body else None
+
+          approvals, offset = [], 0
+          while True:
+              page = call("GET", f"/projects/{PID}/approvals",
+                          {"languageId": LANG, "limit": 500, "offset": offset})
+              rows = page.get("data", [])
+              approvals += [r["data"] for r in rows]
+              if len(rows) < 500:
+                  break
+              offset += 500
+
+          print(f"language={LANG}  total approvals={len(approvals)}\n")
+          by = collections.Counter()
+          for a in approvals:
+              u = a.get("user") or {}
+              by[(u.get("id"), u.get("username"))] += 1
+          print(f"{'approver id':>14}  {'username':<28} {'count':>7}")
+          for (uid, uname), n in by.most_common():
+              print(f"{str(uid):>14}  {str(uname):<28} {n:>7}")
+
+          dates = sorted(a.get("createdAt","") for a in approvals if a.get("createdAt"))
+          if dates:
+              print(f"\nearliest={dates[0]}  latest={dates[-1]}")
+
+          if MODE != "unapprove":
+              print("\nreport mode — nothing changed.")
+              sys.exit(0)
+
+          if os.environ.get("CONFIRM") != "UNAPPROVE":
+              sys.exit("refusing to unapprove: confirm input was not UNAPPROVE")
+          if not APPROVER and not BEFORE:
+              sys.exit("refusing to unapprove everything: set approver_id and/or before")
+
+          targets = [a for a in approvals
+                     if (not APPROVER or str((a.get("user") or {}).get("id")) == APPROVER)
+                     and (not BEFORE or (a.get("createdAt","") < BEFORE))]
+          print(f"\nunapproving {len(targets)} of {len(approvals)} approvals")
+          for i, a in enumerate(targets, 1):
+              call("DELETE", f"/projects/{PID}/approvals/{a['id']}")
+              if i % 100 == 0:
+                  print(f"  {i}/{len(targets)}")
+          print(f"done — revoked {len(targets)} approvals for {LANG}")
+          PY
