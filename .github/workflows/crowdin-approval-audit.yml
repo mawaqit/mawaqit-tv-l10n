@@ -126,6 +126,17 @@ jobs:
               print(f"\nearliest={dates[0]}  latest={dates[-1]}")
 
           if MODE != "unapprove":
+              if APPROVER:
+                  mine = [a for a in approvals
+                          if str((a.get("user") or {}).get("id")) == APPROVER]
+                  print(f"\nstrings approved by {APPROVER} ({len(mine)}):")
+                  for a in mine:
+                      try:
+                          st = call("GET", f"/projects/{PID}/strings/{a['stringId']}")["data"]
+                          key = st.get("identifier") or st.get("key") or a["stringId"]
+                      except SystemExit:
+                          key = f"string {a['stringId']} (lookup failed)"
+                      print(f"  {a.get('createdAt','')[:10]}  {key}")
               print("\nreport mode — nothing changed.")
               sys.exit(0)
 
