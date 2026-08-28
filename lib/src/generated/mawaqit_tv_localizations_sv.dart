@@ -334,7 +334,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get dhuAlhijjah => 'Dhu al-Hijja';
 
   @override
-  String get duaaBetweenSalahAndAdhan => 'Anas bin Malik sade: Allahs budbärare ﷺ sade: \"Jag har aldrig hört talas om det: Jag har inte sagt att bönerna inte återvänder mellan böneutropet och böneutropet.';
+  String get duaaBetweenSalahAndAdhan => 'Anas ibn Malik berättade: Allahs sändebud ﷺ sade: \"Åkallelse (Du\'a) avvisas inte mellan Adhan och Iqamah, så åkalla Allah.\" (Återberättad av at-Tirmidhi)';
 
   @override
   String get salatKhayrMinaNawm => 'Assalatu khayrun mina nawm';
@@ -385,7 +385,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get normalScreen => 'Använd som huvudskärm';
 
   @override
-  String get duaaRemainder => 'Duaa Resterande del';
+  String get duaaRemainder => 'Påminnelse om Du\'a';
 
   @override
   String get fajrWakeUp => 'Fajr väcker upp';
@@ -499,7 +499,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get sabah => 'Sabah';
 
   @override
-  String get randomHadithLanguage => 'Slumpmässigt hadith språk';
+  String get randomHadithLanguage => 'Slumpmässigt hadithspråk';
 
   @override
   String get mosqueDefault => 'Från din online-konfiguration';
@@ -556,7 +556,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get nl_ar => 'Holländska & Arabiska';
 
   @override
-  String get connectToChangeHadith => 'Vänligen anslut till internet för att ändra hadith språket.';
+  String get connectToChangeHadith => 'Vänligen anslut till internet för att ändra hadithspråket.';
 
   @override
   String get retry => 'Försök igen';
