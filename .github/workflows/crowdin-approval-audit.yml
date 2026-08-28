@@ -61,19 +61,34 @@ jobs:
                   url += "?" + "&".join(f"{k}={v}" for k, v in params.items())
               req = urllib.request.Request(url, method=method)
               req.add_header("Authorization", f"Bearer {TOKEN}")
-              with urllib.request.urlopen(req) as r:
-                  body = r.read()
+              try:
+                  with urllib.request.urlopen(req) as r:
+                      body = r.read()
+              except urllib.error.HTTPError as e:
+                  sys.exit(f"{method} {path} -> HTTP {e.code}\n{e.read().decode()[:400]}")
               return json.loads(body) if body else None
 
-          approvals, offset = [], 0
-          while True:
-              page = call("GET", f"/projects/{PID}/approvals",
-                          {"languageId": LANG, "limit": 500, "offset": offset})
-              rows = page.get("data", [])
-              approvals += [r["data"] for r in rows]
-              if len(rows) < 500:
-                  break
-              offset += 500
+          proj = call("GET", f"/projects/{PID}")["data"]
+          print(f"project: {proj.get('name')} (id={proj.get('id')}, type={proj.get('type')})")
+
+          def paged(path, params):
+              out, offset = [], 0
+              while True:
+                  p2 = dict(params); p2.update({"limit": 500, "offset": offset})
+                  rows = call("GET", path, p2).get("data", [])
+                  out += [r["data"] for r in rows]
+                  if len(rows) < 500:
+                      break
+                  offset += 500
+              return out
+
+          files = paged(f"/projects/{PID}/files", {})
+          print("files: " + ", ".join(f"{f['id']}:{f.get('path')}" for f in files) + "\n")
+
+          approvals = []
+          for f in files:
+              approvals += paged(f"/projects/{PID}/approvals",
+                                 {"languageId": LANG, "fileId": f["id"]})
 
           print(f"language={LANG}  total approvals={len(approvals)}\n")
           by = collections.Counter()
