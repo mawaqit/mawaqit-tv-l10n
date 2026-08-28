@@ -1,4 +1,5 @@
 {
+  "thisIsATestFromIbrahim": "This is a test from Ibrahim",
   "home": "Ana Sayfa",
   "share": "Paylaş",
   "about": "Hakkında",
@@ -7,29 +8,31 @@
   "appLang": "Uygulama Dili",
   "descLang": "Lütfen tercih ettiğiniz dili seçin",
   "hadithLangDesc": "Bu, yönetici konsolundaki seçiminizi geçersiz kılar, ekrana göre farklı bir dil seçebilirsiniz",
-  "whoops": "Tüh!",
+  "whoops": "    Bir hata oluştu!",
   "noInternet": "İnternet bağlantısı yok",
   "tryAgain": "Tekrar Deneyin",
   "closeApp": "Uygulamayı kapat",
   "quit": "Çıkış",
-  "disableStaging": "Üretime geçiş",
+  "forceStaging": "Test ortamına geçiş",
+  "forcePreProduction": "Test Aşaması",
+  "disableStaging": "Prodüksiyon moduna geçiş",
+  "environmentSwitchSuccess": "Environment switched successfully",
+  "environmentSwitchFailed": "Ortam değiştirilemedi",
   "sureCloseApp": "Uygulamadan çıkmak istediğinizden emin misiniz?",
   "ok": "TAMAM",
   "cancel": "İPTAL",
-  "darkMode": "Karanlık modu",
+  "darkMode": "Karanlık mod",
   "lightMode": "Aydınlık mod",
   "changeMosque": "Cami değiştir",
   "in1": "Kalan Süre",
   "azanIn": "Ezana kala",
-  "countdownPrayer": "{name} Kalan Süre {time}",
-  "countdownNonPrayer": "{name} Kalan Süre {time}",
   "sec": "İkinci",
   "online": "Çevrimiçi",
   "missingMosqueId": "Eksik MAWAQIT #ID veya Camii #ID",
   "mosqueIdIsNotValid": "{mosqueId} Lütfen, geçerli Camii ID giriniz",
   "selectMosqueId": "Lütfen Cami ID giriniz ",
   "mawaqitWelcome": "MAWAQIT'e hoş geldiniz",
-  "mawaqitDesc": "2016'dan bu yana 85'ten fazla ülkede milyonlarca Müslüman tarafından kullanılan Dünyanın ilk ve 1 numaralı Akıllı Cami Ağı MAWAQIT'i tercih ettiğiniz için Esselamu Aleyküm ve Bereka'Allah fikom.\n\nKişisel verilerinizi toplamadan veya paylaşmadan, birden fazla Cihazda (Mobil, Akıllı Saat, TV Ekranları) kullanılabilen en gelişmiş Akıllı Cami Ekranını size sunuyoruz.\n\nLütfen bu kutlu projeyi buradan destekleyin: https://donate.mawaqit.net\n\nBiz kar amacı gütmeyen bir kuruluşuz ve bu proje bir \"Waqf fi'sabili Allah\" (Özel bağış).\n\nBağışlarınız bu projeyi herkese, her yerde, tamamen ÜCRETSİZ, REKLAMSIZ ve AYLIK ABONELİK OLMADAN erişilebilir kılıyor.\n\nBu proje, size mümkün olan en iyi hizmeti sunmak için gece gündüz çalışan yetenekli ve tutkulu gönüllülerden oluşan tutkulu bir topluluğu bir araya getiren Allah'ın yardımı ve 7/24 kullanılabilen son teknoloji bir sistem olmadan mümkün olamazdı.\n\nLütfen bu kutlu projenin devam etmesi için bağış yapmayı düşünün. Devam eden güveniniz ve desteğiniz için Baraka'Allah fikom.",
+  "mawaqitDesc": "Esselamu Aleyküm, MAWAQIT’i tercih ettiğiniz için Allah sizden razı olsun. MAWAQIT, 2016 yılından bu yana 170’ten fazla ülkede milyonlarca Müslüman tarafından kullanılan, dünyanın ilk ve 1 numaralı Akıllı Cami Ağıdır.\n\nKişisel verilerinizi toplamadan veya paylaşmadan; Mobil cihazlar, Akıllı Saatler ve TV ekranları gibi birçok platformda kullanılabilen en gelişmiş Akıllı Cami Ekranı hizmetini sunuyoruz.\n\nBu mübarek projeyi desteklemek için:\nhttps://donate.mawaqit.net\n\nBiz kâr amacı gütmeyen bir kuruluşuz ve bu proje bir “Vakf-ı fi sebilillah”tır (Allah yolunda adanmış vakıf).\n\nBağışlarınız sayesinde bu proje; reklamsız, aylık abonelik olmadan ve tamamen ÜCRETSİZ şekilde herkes için erişilebilir olmaya devam etmektedir.\n\nBu proje, Allah’ın yardımıyla bir araya gelen; gece gündüz çalışarak sizlere en iyi hizmeti ve 7/24 kesintisiz çalışan bir sistemi sunmaya gayret eden gönüllü topluluğu sayesinde mümkün olmuştur.\n\nLütfen bu hayırlı projenin devam etmesi ve büyümesi için bağış yapmayı değerlendirin.\n\nSürekli güveniniz ve desteğiniz için Allah sizden razı olsun.",
   "privacyPolicy": "Gizlilik politikası",
   "termsOfService": "Kullanım Şartları",
   "installationGuide": "Kurulum Kılavuzu",
@@ -56,59 +59,65 @@
   "maghrib": "Akşam",
   "isha": "Yatsı",
   "afterAdhanHadithTitle": "Ezandan sonra Duâ",
-  "afterSalahHadith": "Allāhümme rabbe hâzihi’d-da‘veti’t-tâmme ve’s-salâti’l-kāime âti Muhammeden el-vesîlete ve’l-fazîlete ve’b‘ashü makāmen mahmûdeni’llezî vaadteh",
+  "afterSalahHadith": "Allahumme Rabbe hâzihid-da'vetit-tâmme, vessalâtil-kâime, âti Muhammedenil-vesîlete vel-fadîleh, veb'ashu mekâmen mahmûdenillezî veadteh.",
   "alIqama": "İkâmet ",
   "alAdhan": "Ezan",
   "turnOfPhones": "Lütfen telefonlarınızı kapatın yada sessiz konumuna getirin",
   "iqamaIn": "İkamet kalan süre",
   "iqamaShowClock": "İkamet ekranında saat göster",
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
   "iqamaShowClockDesc": "İkamet geri sayım ekranında güncel saat ve tarihi göster",
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
   "alAthkar": "Zikir",
-  "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
+  "azkarList0": "Estağfirullah, Estağfirullah, Estağfirullah.\n\nAllahumme ente’s-selâm ve minke’s-selâm, tebârekte yâ zel-celâli vel-ikrâm.\n\nAllahumme e‘innî alâ zikrike ve şukrike ve husni ibâdetik.",
   "@azkarList0": {
     "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
   },
-  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
+  "azkarList1": "Sübhânallah, Elhamdülillah, Allahu Ekber (33 defa)\n\nLâ ilâhe illallah vahdehû lâ şerîke leh, lehül-mülkü ve lehül-hamdü ve hüve alâ külli şey’in kadîr.",
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
-  "azkarList2": "Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. 'Ilāhin-nās. Min sharri 'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.",
+  "azkarList2": "Bismillahirrahmânirrahîm. Kul eûzü birabbin nâs. Melikin nâs. İlâhin nâs. Min şerril vesvâsil hannâs. Ellezî yüvesvisü fî sudûrin nâs. Minel cinneti vennâs.",
   "@azkarList2": {
     "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس - Surah An-Nas"
   },
-  "azkarList3": "Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.",
+  "azkarList3": "Bismillahirrahmânirrahîm. Kul eûzü birabbil felak. Min şerri mâ halak. Ve min şerri ğâsikın izâ vekab. Ve min şerrin neffâsâti fil ukad. Ve min şerri hâsidin izâ hased.",
   "@azkarList3": {
     "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
-  "azkarList4": "Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.",
+  "azkarList4": "Bismillahirrahmânirrahîm. Kul hüvallâhü ehad. Allâhüs samed. Lem yelid ve lem yûled. Ve lem yekün lehû küfüven ehad.",
   "@azkarList4": {
     "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ - Surah Al-Ikhlas"
   },
-  "azkarList5": "Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa'u 'indahu illā bi'idhnih, ya'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay'im-min 'ilmihi illā bimā shā', wasi'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya'ūduhu ḥifẓuhumā, wa Huwal-'Aliyyul-'Aẓīm",
+  "azkarList5": "Allâhu lâ ilâhe illâ hüvel hayyül kayyûm. Lâ te’huzühû sinetün ve lâ nevm. Lehû mâ fis semâvâti ve mâ fil ard. Men zellezî yeşfeu indehû illâ bi iznih. Ya’lemu mâ beyne eydîhim ve mâ halfehüm. Ve lâ yuhîtûne bi şey’im min ilmihî illâ bimâ şâ’. Vesia kürsiyyühüs semâvâti vel ard. Ve lâ yeûdühû hıfzuhümâ. Ve hüvel aliyyül azîm.",
   "@azkarList5": {
     "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
-  "azkarList6": "Lā 'ilāha 'illallāh, waḥdahu lā sharīka lah, lahu 'l-mulku wa lahu 'l-ḥamd, wa huwa `alā kulli shay'in qadīr, Allāhumma lā māni`a limā 'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.",
+  "azkarList6": "Lâ ilâhe illallâhu vahdehû lâ şerîke leh, lehül-mülkü ve lehül-hamdü ve hüve alâ külli şey’in kadîr.",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
-  "azkarList7": "Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū'u laka bi ni`matika `alay, wa abū'u bidhanbī faghfir lī fa'innahu lā yaghfirudh-dhunūba illā ant.",
+  "azkarList7": "Allâhümme ente rabbî lâ ilâhe illâ ent. Halaktenî ve ene abdük. Ve ene alâ ahdike ve va‘dike mesteta‘t. Eûzü bike min şerri mâ sana‘t. Ebûü leke bi ni‘metike aleyye ve ebûü bi zenbî fağfir lî fe innehû lâ yağfiruz zünûbe illâ ent.",
   "@azkarList7": {
     "description": "Sayyid al-Istighfar (Master of Seeking Forgiveness)"
   },
-  "azkarList8": "Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay'in Qadīr. Rabbi as'aluka khayra mā fī hādha 'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha 'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.",
+  "azkarList8": "Asbahnâ ve asbahal mülkü lillâh, velhamdü lillâh. Lâ ilâhe illallâhü vahdehû lâ şerîke leh. Lehül mülkü ve lehül hamdü ve hüve alâ külli şey’in kadîr. Rabbi es’elüke hayra mâ fî hâzel yevmi ve hayra mâ ba‘dehû ve eûzü bike min şerri mâ fî hâzel yevmi ve şerri mâ ba‘dehû. Rabbi eûzü bike minel keseli ve sû’il kiber. Rabbi eûzü bike min azâbin fin nâri ve azâbin fil kabr.",
   "@azkarList8": {
     "description": "Morning supplication - Protection dua"
   },
-  "azkarList9": "Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]",
+  "azkarList9": "Allâhümme innî asbahtu üşhidüke ve üşhidü hamelete arşik, ve melâiketeke ve cemîa halkik, enneke entallâhü lâ ilâhe illâ ent, vahdeke lâ şerîke lek, ve enne Muhammeden abdüke ve resûlük. (Dört defa)\n\n[Akşam okunurken: “Allâhümme innî emseytü…” denir.]",
   "@azkarList9": {
     "description": "Morning testimony - 4 times"
   },
-  "azkarList10": "Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina 'l-kufri, wa 'l-faqr, wa a`ūdhu bika min `adhābi 'l-qabr, lā ilāha illā ant. (Thalātha marrāt)",
+  "azkarList10": "Allâhümme âfinî fî bedenî. Allâhümme âfinî fî sem‘î. Allâhümme âfinî fî basarî. Lâ ilâhe illâ ent. Allâhümme innî eûzü bike minel küfri vel fakr. Ve eûzü bike min azâbil kabr. Lâ ilâhe illâ ent. (Üç defa)",
   "@azkarList10": {
     "description": "Dua for wellbeing - 3 times"
   },
-  "azkarList11": "Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu 'l-`Arshi 'l-'Aẓīm. (Sab'a marrāt)",
+  "azkarList11": "Hasbiyallâhü lâ ilâhe illâ hüve, aleyhi tevekkeltü ve hüve rabbül arşil azîm. (Yedi defa)",
   "@azkarList11": {
     "description": "Hasbiya Allah - 7 times"
   },
@@ -116,19 +125,19 @@
   "@azkarList12": {
     "description": "Contentment with Allah - 3 times"
   },
-  "azkarList13": "Lā ilāha illallāh waḥdahu lā sharīka lah, lahu'l-mulku wa lahu'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay'in qadīr. ('Ashra marrāt)",
+  "azkarList13": "Lâ ilâhe illallâhü vahdehû lâ şerîke leh. Lehül mülkü ve lehül hamdü yuhyî ve yümît ve hüve alâ külli şey’in kadîr. (On defa)",
   "@azkarList13": {
     "description": "La ilaha illa Allah tawhid - 10 times"
   },
-  "azkarList14": "Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr. Rabbi as'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba'dahā, wa a'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba'dahā, wa a'ūdhu bika minal-kasal, wa sū'il-kibar, wa a'ūdhu bika min 'adhābin-nār, wa 'adhābil-qabr",
+  "azkarList14": "Amsaynâ ve amsel mülkü lillâh, velhamdülillâh. Ve lâ ilâhe illallâhü vahdehû lâ şerîke leh. Lehül mülkü ve lehül hamdü ve hüve alâ külli şey’in kadîr. Rabbi es’elüke hayra mâ fî hâzihil leyleti ve hayra mâ ba‘dehâ. Ve eûzü bike min şerri mâ fî hâzihil leyleti ve şerri mâ ba‘dehâ. Ve eûzü bike minel keseli ve sû’il kiber. Ve eûzü bike min azâbin nâr ve azâbil kabr",
   "@azkarList14": {
     "description": "Morning supplication - Protection from laziness"
   },
   "jumuaaScreenTitle": "Cuma Vakti",
-  "jumuaaHadith": "Ebû Hureyre radıyallahu anh'den rivayet edildiğine göre Resûlullah sallallahu aleyhi ve sellem şöyle buyurmuştur: \"Bir kişi güzelce abdest alır, cuma namazına gider, hutbeyi ses çıkarmadan dinlerse, iki cuma arasındaki ve fazla olarak üç günlük daha günahları bağışlanır. Kim hutbe okunurken çakıl taşlarıyla oynarsa, abesle iştiğal etmiş olur.\"",
+  "jumuaaHadith": "Peygamber Efendimiz (SAV) şöyle buyurmuştur: \" Bir kimse cuma günü cünüplükten temizleniyormuş gibi boy abdesti alır sonra cuma namazına ilk saatinde giderse bir deve kurban etmiş gibi sevap kazanır. İkinci saatte giderse bir inek kurban etmiş gibi sevap kazanır.\"",
   "shuruk": "Güneş",
   "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duhaTime": "Duha Vakti",
   "reset": "Sıfırla",
   "mosqueNotFoundMessage": "Üzgünüz, caminiz bulunamadı, eksik veya geçici olarak kullanım dışı olabilir.",
   "noInternetMessage": "İnternet bağlantısı yok. Lütfen internet bağlantınızı kontrol edin ve tekrar deneyin. Wi-Fi veya Ethernet bağlı mı?",
@@ -178,7 +187,7 @@
   "announcementOnlyMode": "Reklamlar modu",
   "normalMode": "Normal mod",
   "announcementOnlyModeEXPLINATION": "Ekranınızın her zaman duyuruları gösterip göstermeyeceğini seçin, örneğin ekranı girişe kurarsanız bu yararlı olabilir.",
-  "duaaElEftarText": "\"Allahümme leke sumtu ve bike âmentü ve aleyke tevekkeltü ve alâ rızkıke eftartü ve savme'l-Ğadi min şehri Ramazane neveytü, feğfirlî mâ kaddemtü ve mâ ahhartü.\"",
+  "duaaElEftarText": "Allahumme innî leke sumtu ve alâ rızkıke eftartu ve ileyke enebtu ve aleyke tevekkeltu.\n\nZehebe’z-zama’u vebtelleti’l-urûku ve sebetel-ecru inşâallah.",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -195,9 +204,9 @@
   "landscape": "Yatay",
   "landscapeBTNDescription": "Yatay yönlendirme için. Mawaqit TV uygulaması için ana düzen ve çoğu cami için önerilen düzen",
   "eidMubarak": "Bayram mübarek olsun",
-  "takbeerAleidText": "Allâhü ekber Allâhü ekber lâ ilâhe illallâhü vallâhü ekber Allâhü ekber ve lillâhi'l-hamd",
+  "takbeerAleidText": "Allahu Ekber, Allahu Ekber, Allahu Ekber.\n\nLâ ilâhe illallah, Allahu Ekber, Allahu Ekber ve lillâhi’l-hamd.",
   "settings": "Ayarlar",
-  "applicationModes": "Varsayılan başlatma modu",
+  "applicationModes": "Uygulama modları",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Uygulamayla ilgili bir sorunla karşılaşıyorsanız bu seçeneği etkinleştirin",
   "hijriAdjustments": "Yerel Hicri ayarlamalar",
   "hijriAdjustmentsDescription": "Hicri tarihi cihazınızda yerel olarak ayarlayın. Bu, çevrimiçi cami ayarlarını etkilemez.",
@@ -214,6 +223,7 @@
   "es": "İspanyolca",
   "pt": "Portekizce",
   "nl": "Felemenkçe",
+  "ta": "Tamilce",
   "fr_ar": "Fransızca & Arapça",
   "en_ar": "İngilizce & Arapça",
   "de_ar": "Almanca & Arapça",
@@ -270,7 +280,7 @@
   "checkInternetLegacyMode": "Eski modu kullanmak için internete bağlanmanız gerekir",
   "powerOnScreen": "Ekranı açmak",
   "powerOffScreen": "Ekranı kapatmak",
-  "deviceSettings": "Cihaz",
+  "deviceSettings": "Cihaz Ayarları",
   "later": "Sonra",
   "downloadQuran": "Kuran indir",
   "quran": "Kur'an",
@@ -389,9 +399,9 @@
   "rtspCameraSettings": "Kamera Ayarları",
   "invalidRtspUrl": "Geçersiz URL. Lütfen URL'yi kontrol edip tekrar deneyin.",
   "validRtspUrl": "URL başarıyla doğrulandı ve kaydedildi.",
-  "rtspCameraSettingTitle": "Canlı kamera",
-  "rtspCameraSettingDesc": "Yerel kameranıza bağlanın ve cuma namazı yayınının TV ekranında görüntülenmesini sağlayın.",
-  "rtspCameraSettingScreenDesc": "Buraya bir URL girerseniz, Cuma vakti geldiğinde ekranınız otomatik olarak video yayınına geçer",
+  "rtspCameraSettingTitle": "Canlı kamera bağlantısı",
+  "rtspCameraSettingDesc": "Yerel kameranıza bağlanın ve Cuma namazı yayınını TV ekranında gösterin.",
+  "rtspCameraSettingScreenDesc": "Buraya bir URL girerseniz, Cuma vakti geldiğinde ekranınız otomatik olarak video yayınına geçecektir.",
   "validatingStream": "Yayın doğrulanıyor...",
   "checkInternetLiveCamera": "Canlı kamera ayarlamak için internete bağlanmanız gerekir",
   "somethingWentWrong": "Bir hata oluştu! Lütfen tekrar deneyin",
@@ -428,14 +438,14 @@
     }
   },
   "ishaAndFajrOnly": "Sadece Sabah (Fecir) ve Yatsı (İşa) namazları",
-  "minutesBeforeFajrPrayer": "sabah namazı vaktinden önce dakika",
+  "minutesBeforeFajrPrayer": "sabah namazı vaktinden önceki dakikalar",
   "minutesAfterIshaPrayer": "yatsı namazı vaktinden sonra dakika",
   "scheduleSaved": "Programınız kaydedildi.",
   "completeAllFields": "Lütfen kaydetmeden önce tüm alanları doldurun.",
   "endTimeAfter": "Bitiş zamanı, başlangıç zamanından sonra olmalıdır.",
-  "scheduleListening": "Programlı Dinleme",
+  "scheduleListening": "Zamanlanmış Dinleme",
   "enableScheduling": "Planlamayı Etkinleştir",
-  "scheduleDesc": "Bu özelliği etkinleştirerek belirlenen saatlerde otomatik olarak bir Sure çalınmasını sağlayabilirsiniz.",
+  "scheduleDesc": "Bu özelliği etkinleştirerek belirlenen zamanlarda otomatik olarak bir sure oynatılmasını sağlayabilirsiniz.",
   "startTime": "Başlangıç Zamanı",
   "endTime": "Bitiş Zamanı",
   "selectReciter": "Bir Kâri seçin",
@@ -459,13 +469,22 @@
     }
   },
   "scheduleInOnlineMode": "Kur’an dinlemeyi planlamak için internete bağlanın",
-  "duaaBetweenAdhanAndIqamaaTitle": "Ezânla kâmet arasında yapılan dua reddedilmez",
+  "duaaBetweenAdhanAndIqamaaTitle": "Ezân ile İkamet arasında yapılan Dua reddedilmez.",
   "duaBetweenAdhanIqamah": "Ezân ve kâmet arasında yapılan dua reddedilmez.",
   "processingRequest": "İstek işleniyor...",
   "loadingStream": "Yayın yükleniyor...",
   "rtspUrlHint": "RTSP URL'si veya YouTube bağlantısı girin",
+  "urlManagedByMosqueAdmin": "Bağlantı cami yöneticisi tarafından yönetilmektedir",
   "replaceWorkflowWithStream": "Kamera yayınını otomatik olarak göster",
   "replaceAppWorkflowWithCameraStream": "Kamera kayda başladığında ekran otomatik olarak kamera yayınını gösterecek; durduğunda ekran tekrar namaz vakitleri ekranına dönecek",
+  "streamMode": "Yayın Modu",
+  "streamModeDisabled": "Devre Dışı",
+  "streamModeCamera": "Yayın kameraya bağlıdır",
+  "streamModeJumuaOnly": "Yayın sadece Cuma namazında çalışır",
+  "streamModeJumuaAndPrayers": "Yayın, Cuma ve 5 vakit namaz sırasında çalışır",
+  "streamRequiresSecondaryScreen": "Bu özellik, yalnızca ekran ikinci ekran olarak ayarlandığında kullanılabilir",
+  "rtspServerNotAvailable": "RTSP sunucusu kullanılamıyor. Lütfen bağlantınızı kontrol edin.",
+  "settingsSavedSuccessfully": "Ayarlar başarıyla kaydedildi",
   "streamError": "Yayın sırasında bir hata oluştu",
   "finish": "Bitir",
   "schedulingAlarms": "Açık/kapalı zamanlar programlanıyor...",
@@ -479,11 +498,129 @@
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
   },
+  "testCrowdinCI": "Develop sürümündeki Crowdin CI iş akışını doğrulamak için test metni",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Kur’an Modu",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Son okunan sayfadan başlayarak Kur’an okuma ekranını göster",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "appDisplayMode": "Göster",
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "appDisplayModeExplanation": "Ekranınızın içeriği nasıl göstereceğini seçin",
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Kur’an Modundan Çık",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Normal moda dönmek ister misiniz?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
   "settingsSectionGlobal": "Genel",
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
   "hijriDateAdjustment": "Hicri tarih ayarı",
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
   "interfaceLanguage": "Arayüz dili",
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
   "launchModeMainPrayer": "Ana namaz vakitleri",
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
   "launchModeSecondaryPrayer": "İkincil namaz vakitleri",
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
   "timezone": "Saat dilimi",
-  "wifi": "WiFi"
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "wifi": "WiFi",
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "4 basit adımda başlayın",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "Cami ID yok mu? İşte nasıl alacağınız:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "Mawaqit.net adresine gidin ve bir hesap oluşturun",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "Caminizi fotoğraflar ve adres bilgileriyle kaydedin",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "Kontrol panelinizden size özel Cami ID alın",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "TV ekranınızı bağlamak için Cami Id buraya girin",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "Adım {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "Kaydolmak için tarayın",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "Mawaqit.net üzerinde hesap oluşturmak için telefonunuzu kullanın",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "Tam Kılavuz",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "prayerTimeFontSize": "Metin ve ekran boyutu",
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "prayerTimeFontSizeDesc": "Metnin uygulama genelinde ne kadar büyük görüneceğini değiştirin",
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "fontSizeSmall": "Küçük",
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "fontSizeNormal": "Normal",
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "fontSizeLarge": "Large",
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "fontSizeXLarge": "Ekstra büyük",
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  }
 }
