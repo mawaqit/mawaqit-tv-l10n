@@ -1,134 +1,145 @@
 {
+  "thisIsATestFromIbrahim": "Detta är ett test från Masoud",
   "home": "Hem",
   "share": "Dela",
   "about": "Om",
   "rate": "Betygsätt oss",
   "languages": "Språk",
   "appLang": "Språk i appen",
-  "descLang": "Välj det språk du föredrar",
+  "descLang": "Välj önskat språk ",
   "hadithLangDesc": "Detta åsidosätter ditt val i administratörskonsolen, du kan välja ett annat språk för skärmen",
   "whoops": "Hoppsan!",
   "noInternet": "Ingen internetuppkoppling",
   "tryAgain": "Försök igen",
   "closeApp": "Stäng appen",
-  "quit": "Sluta med",
-  "disableStaging": "Övergång till produktion",
+  "quit": "Avsluta",
+  "forceStaging": "Byt till staging",
+  "forcePreProduction": "Förproduktion",
+  "disableStaging": "Byt till produktion läge",
+  "environmentSwitchSuccess": "Miljö har bytts",
+  "environmentSwitchFailed": "Det gick inte att byta miljö",
   "sureCloseApp": "Är du säker på att du vill avsluta programmet?",
   "ok": "OK",
-  "cancel": "CANCEL",
+  "cancel": "Avbryt",
   "darkMode": "Mörkt läge",
   "lightMode": "Ljusläge",
   "changeMosque": "Ändra moské",
-  "in1": "på",
-  "azanIn": "Azan i",
+  "in1": "om",
+  "azanIn": "Adhan om",
   "countdownPrayer": "Tid kvar till {name} Salah {time}",
   "countdownNonPrayer": "Tid kvar till {name} {time}",
-  "sec": "Sek",
+  "sec": "Sek.",
   "online": "Online",
   "missingMosqueId": "MAWAQIT #ID eller MOSQUE #ID saknas",
-  "mosqueIdIsNotValid": "Tyvärr, {mosqueId} är inte ett giltigt moské-ID.",
+  "mosqueIdIsNotValid": "Tyvärr, {mosqueId} är inte ett giltigt moské-ID",
   "selectMosqueId": "Ange ditt moské-id",
   "mawaqitWelcome": "Välkommen till MAWAQIT",
-  "mawaqitDesc": "Assalamu Alaikom och Baraka'Allah fikom för att du har valt MAWAQIT, världens första och främsta smarta moskénätverk, som används av miljontals muslimer världen över i över 85 länder sedan 2016.\n\nVi ger dig den mest avancerade Smart Mosque Display, tillgänglig på flera enheter (mobil, smartwatch, TV-skärmar), utan att samla in eller dela dina personuppgifter.\n\nStöd gärna detta välsignade projekt här: https://donate.mawaqit.net\n\nVi är en ideell organisation och detta projekt är en \"Waqf fi'sabili Allah\" (Dedikerad donation).\n\nDina donationer håller detta projekt tillgängligt för vem som helst, var som helst, helt GRATIS utan kostnad, utan reklam och utan månadsavgift.\n\nDetta projekt skulle inte vara möjligt utan Allahs hjälp som samlade en passionerad gemenskap av begåvade och passionerade volontärer som arbetar dag och natt för att ge dig bästa möjliga service och ett toppmodernt system som är tillgängligt dygnet runt.\n\nÖverväg att donera för att hålla detta välsignade projekt igång. Baraka'Allah fikom för ditt fortsatta förtroende och stöd.",
+  "mawaqitDesc": "Hej, Tack för att du har valt MAWAQIT, världens första samt #1 smarta moskénätverk, som används av miljontals muslimer runt om världen i över 85 länder sedan 2016.\n\nVi ger dig den mest avancerade Smart moské Display, tillgängligh på flera enheter (mobil, smart klockor, TV-skärmar), utan att samla in eller dela dina personuppgifter.\n\nStöd gärna detta välsignade projekt här: https://donate.mawaqit.net\n\nVi är en ideell organisation och detta projekt (Dedikerad donation).\n\nDina donationer håller detta projekt tillgängligt för vem som helst, var som helst, helt GRATIS utan kostnad, utan reklam och utan månadsavgift.\n\nDetta projekt skulle inte vara möjligt utan Allahs hjälp som samlade en passionerad gemenskap av begåvade och passionerade volontärer som arbetar dag och natt för att ge dig bästa möjliga service och ett toppmodernt system som är tillgängligt 24/7.\n\nÖverväg att donera för att hålla detta välsignade projekt igång. Tack för ditt fortsatta förtroende och stöd.",
   "privacyPolicy": "Integritetspolicy",
   "termsOfService": "Villkor för tjänsten",
   "installationGuide": "Installationsguide",
   "drawerTitle": "MAWAQIT",
-  "drawerDesc": "Att koppla samman muslimer med moskéer",
+  "drawerDesc": "Knyta muslimer till moskéer",
   "backendError": "Tyvärr kunde vi inte ansluta till servern.\nKontrollera att du har tillgång till Internet eller försök igen senare.",
-  "selectWithMosqueId": "Försök: 256, det är ID för \"Grande Mosquée de Paris\"",
-  "searchForMosque": "Vilken moské söker du (ID, namn, stad, postnummer...)?",
+  "selectWithMosqueId": "Försök: 256, det är identiteten på \"Moské de Paris\"",
+  "searchForMosque": "Vilken moské söker du (ID, namn, stad, postnummer...)",
   "searchMosque": "Sök efter en moské",
   "mosqueNameError": "Ange namnet på moskén",
   "slugError": "Är inte en giltig moskésnigel",
-  "doYouKnowMosqueId": "Känner du till ditt installations- eller moské-ID?",
+  "doYouKnowMosqueId": "Känner du till ditt installations ID eller moské-ID?",
   "yes": "Ja",
-  "no": "Ingen",
+  "no": "Nej",
   "networkStatus": "Nätverksstatus",
   "mosqueNoMore": "Inga fler resultat",
   "mosqueNoResults": "Inga resultat",
   "offline": "Offline",
-  "imsak": "Imsak",
-  "jumua": "Jumua",
-  "duhr": "Duhr",
-  "fajr": "Fajr",
-  "asr": "Asr",
-  "maghrib": "Maghrib",
-  "isha": "Isha",
-  "afterAdhanHadithTitle": "Efter adhan Du`aa",
-  "afterSalahHadith": "Allahumma Rabba hadhihid-da'wati-ttammati, was-salatil-qa'imati, ati Muhammadanil-wasilata wal-fadhilata, wab'athu maqaman mahmuda nilladhi wa 'adtahu [O Allah, Rubb av denna perfekta kallelse (Da'wah) och av den etablerade bönen (As-Salat), ge Muhammad Wasilah och överlägsenhet, och höj honom upp till en lovvärd position som Du har lovat honom].",
-  "alIqama": "Al Iqama",
-  "alAdhan": "Al Athan",
-  "turnOfPhones": "Vänligen sätt era telefoner i tyst läge",
-  "iqamaIn": "Iqama i",
-  "iqamaShowClock": "Visa klocka på iqama-skärmen",
-  "iqamaShowClockDesc": "Visa aktuell tid och datum på iqama-nedräkningsskärmen",
-  "alAthkar": "Al-Athkar",
-  "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
-  "@azkarList0": {
-    "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
+  "imsak": "Fasta\n إمساك",
+  "jumua": "Fredagsbön\nصلاة الجمعة",
+  "duhr": "Dhohr\nالظهر",
+  "fajr": "Fajr \nالفجر",
+  "asr": "Asr\nالعصر",
+  "maghrib": "Maghrib \nالمغرب",
+  "isha": "Isha\n العشاء",
+  "afterAdhanHadithTitle": "Dua efter Adhan \nدعاء بعد الأذان",
+  "afterSalahHadith": "اللهم رب هذه الدعوة التامة، والصلاة القائمة، آت محمدًا الوسيلة والفضيلة، وابعثه مقامًا محمودًا الذي وعدته\n\nO Allah, Rabb av denna fullkomliga kallelse (Da'wah) och den upprättade bönen (As-Salat), ge Muhammad al- Wasilah och överlägsenhet, och upphöj honom till den prisvärda positionen som Du har lovat honom",
+  "alIqama": "Iqama \nإقامه",
+  "alAdhan": "Adhan \nأذان",
+  "turnOfPhones": "Vänligen respektera bönen och sätt era telefoner på TYST läge, må Allah belöna er.\nيرجى إحترام الصلاة و وضع الهاتف على الصامت و عدم التشويش على المصلين… جزاكم الله خيراً",
+  "iqamaIn": "Iqama om \nإقامة بعد",
+  "iqamaShowClock": "Visa iqama tiden på skärmen",
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
   },
-  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
+  "iqamaShowClockDesc": "Visa aktuell tid och datum för iqama-nedräknings skärm",
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "alAthkar": "Al-Athkar efter bönen\n الأذكار بعد الصلاة",
+  "azkarList0": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله.\nاللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام \nاللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ\n\nAstaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah, Allahumma anta Assalam w minka Assalam, tabarakta ya dhal Jalali wal ikram Allahumma A`inni `ala dhikrika wa shukrika wa husni `ibadatik",
+  "@azkarList0": {
+    "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
+  },
+  "azkarList1": "Subhan Allah wal hamdu lillah wallahu akbar (33 gånger) La ilaha illa Allah, wahdahu la sharika lah, lahul mulku wa lahul hamdu, wa hua `ala kulli shay in kadir ( 100 gånger per dag)\n\nسبحان الله، والحمدلله، والله أكبر 33 مره. لا إِلَهَ إِلا اللهُ، وَحْدَهُ لا شَرِيكَ لَهُ، لَهُ المُلْكُ وَلَهُ الحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ 100 مره في اليوم",
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
-  "azkarList2": "Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. 'Ilāhin-nās. Min sharri 'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.",
+  "azkarList2": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\nقُلْ أَعُوذُ بِرَبِّ النَّاسِ\nمَلِكِ النَّاسِ\nإِلَٰهِ النَّاسِ\nمِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ\nالَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ\nمِنَ الْجِنَّةِ وَالنَّاسِ",
   "@azkarList2": {
     "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ، مَلِكِ ٱلنَّاسِ ، إِلَٰهِ ٱلنَّاسِ ، مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ، ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ، مِنَ ٱلۡجِنَّةِ وَٱلنَّاس - Surah An-Nas"
   },
-  "azkarList3": "Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.",
+  "azkarList3": "Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.\n\nبِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\nقُلْ أَعُوذُ بِرَبِّ الْفَلَقِ\nمِنْ شَرِّ مَا خَلَقَ\nوَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ\nوَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ\nوَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ",
   "@azkarList3": {
-    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
+    "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ، مِن شَرِّ مَا خَلَقَ ، وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ، وَمِن شَرِ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ، وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ - Surah Al-Falaq"
   },
-  "azkarList4": "Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.",
+  "azkarList4": "Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.\n\nبِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\nقُلْ هُوَ اللَّهُ أَحَدٌ\nاللَّهُ الصَّمَدُ\nلَمْ يَلِدْ وَلَمْ يُولَدْ\nوَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
   "@azkarList4": {
     "description": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ قُلۡ هُوَ ٱللَّهُ أَحَدٌ ، ٱللَّهُ ٱلصَّمَدُ ، لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ، وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ - Surah Al-Ikhlas"
   },
-  "azkarList5": "Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa'u 'indahu illā bi'idhnih, ya'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay'im-min 'ilmihi illā bimā shā', wasi'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya'ūduhu ḥifẓuhumā, wa Huwal-'Aliyyul-'Aẓīm",
+  "azkarList5": "بسم الله الرحمن الرحيم \n\nاللَّهُ لَا إِلٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ\n\nمَنْ قَرَأَهَا دُبُرَ كُلِّ صَلَاةٍ لَمْ يَمْنَعْهُ مِنْ دُخُولِ الْجَنَّةِ إِلَّا أَنْ يَمُوتَ\nتُقْرَأُ آيَةُ الْكُرْسِيِّ عَقِبَ كُلِّ صَلَاةٍ مَفْرُوضَةٍ\nرَوَاهُ النَّسَائِيُّ فِي عَمَلِ الْيَوْمِ وَاللَّيْلَةِ بِرَقْمِ ١٠٠، وَابْنُ السُّنِّيِّ بِرَقْمِ ١٢١، وَصَحَّحَهُ الْأَلْبَانِيُّ فِي صَحِيحِ الْجَامِعِ ٥/٣٣٩ وَسِلْسِلَةِ الْأَحَادِيثِ الصَّحِيحَةِ ٢/٦٩٧ بِرَقْمِ ٩٧٢\n\nTranslitteration:\nAllāhu lā ilāha illā huwal-ḥayyul-qayyūm, lā ta’khudhuhu sinatun wa lā nawm, lahū mā fis-samāwāti wa mā fil-arḍ, man dhal-ladhī yashfaʿu ʿindahū illā bi’idhnih, yaʿlamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay’in min ʿilmihī illā bimā shā’, wasiʿa kursiyyuhus-samāwāti wal-arḍ, wa lā ya’ūduhū ḥifẓuhumā wa huwal-ʿaliyyul-ʿaẓīm.\n\nDen som läser den efter varje obligatorisk bön hindras inte från att komma in i Paradiset annat än döden.\n\nBerättad av an-Nasā’ī i ʿAmal al-Yawm wa al-Laylah nr 100 och Ibn as-Sunnī nr 121. Autentiserad av al-Albānī i Ṣaḥīḥ al-Jāmiʿ 5/339 och Silsilat al-Aḥādīth aṣ-Ṣaḥīḥah 2/697 nr 972.",
   "@azkarList5": {
     "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
-  "azkarList6": "Lā 'ilāha 'illallāh, waḥdahu lā sharīka lah, lahu 'l-mulku wa lahu 'l-ḥamd, wa huwa `alā kulli shay'in qadīr, Allāhumma lā māni`a limā 'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.",
+  "azkarList6": "La ilaha illa Allah, wahdahu la charika lahu, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad\n\nلا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير. اللهم لا مانع لما أعطيت، ولا معطي لما منعت، ولا ينفع ذا الجد منك الجد",
   "@azkarList6": {
-    "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
+    "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
-  "azkarList7": "Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū'u laka bi ni`matika `alay, wa abū'u bidhanbī faghfir lī fa'innahu lā yaghfirudh-dhunūba illā ant.",
+  "azkarList7": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَٰهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَىٰ عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ.\n\nAllāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā ʿabduk, wa anā ʿalā ʿahdika wa waʿdika mastaṭaʿt, aʿūdhu bika min sharri mā ṣanaʿt, abū’u laka biniʿmatika ʿalayya, wa abū’u bidhanbī faghfir lī fa’innahu lā yaghfirudh-dhunūba illā ant.",
   "@azkarList7": {
     "description": "Sayyid al-Istighfar (Master of Seeking Forgiveness)"
   },
-  "azkarList8": "Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay'in Qadīr. Rabbi as'aluka khayra mā fī hādha 'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha 'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.",
+  "azkarList8": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ.\n\nرَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذَا الْيَوْمِ وَخَيْرَ مَا بَعْدَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذَا الْيَوْمِ وَشَرِّ مَا بَعْدَهُ.\n\nرَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ، رَبِّ أَعُوذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ.\n\nAṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa ʿalā kulli shay’in qadīr.\n\nRabbi as’aluka khayra mā fī hādhal-yawmi wa khayra mā baʿdah, wa aʿūdhu bika min sharri mā fī hādhal-yawmi wa sharri mā baʿdah.\n\nRabbi aʿūdhu bika minal-kasali wa sū’il-kibar, Rabbi aʿūdhu bika min ʿadhābin fin-nāri wa ʿadhābin fil-qabr.",
   "@azkarList8": {
     "description": "Morning supplication - Protection dua"
   },
-  "azkarList9": "Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (Arba'a marrāt) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]",
+  "azkarList9": "اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلَائِكَتَكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَٰهَ إِلَّا أَنْتَ، وَحْدَكَ لَا شَرِيكَ لَكَ، وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُولُكَ.\n\n(أَرْبَعَ مَرَّاتٍ)\n\nوَإِذَا أَمْسَى قَالَ:\n\nاللَّهُمَّ إِنِّي أَمْسَيْتُ\n\n\nAllāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata ʿarshik, wa malā’ikataka wa jamīʿa khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan ʿabduka wa rasūluk.\n\nSäg det 4 gånger \n",
   "@azkarList9": {
     "description": "Morning testimony - 4 times"
   },
-  "azkarList10": "Allāhumma `āfinī fī badanī, Allāhumma `āfinī fī sam`ī, Allāhumma `āfinī fī baṣarī, lā ilāha illā ant. Allāhumma innī a`ūdhu bika mina 'l-kufri, wa 'l-faqr, wa a`ūdhu bika min `adhābi 'l-qabr, lā ilāha illā ant. (Thalātha marrāt)",
+  "azkarList10": "اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ \n\nعَافِنِي فِي بَصَرِي، لَا إِلَٰهَ إِلَّا أَنْتَ\n\nاللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالْفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ \n\nالْقَبْرِ، لَا إِلَٰهَ إِلَّا أَنْتَ\n\n(ثَلَاثَ مَرَّاتٍ)\n\n\nAllāhumma ʿāfinī fī badanī, Allāhumma ʿāfinī fī samʿī, Allāhumma ʿāfinī fī baṣarī, lā ilāha illā ant.\n\nAllāhumma innī aʿūdhu bika mina l-kufri wal-faqr, wa aʿūdhu bika min ʿadhābil-qabr, lā ilāha illā ant.\n\nSäg det 3 gånger ",
   "@azkarList10": {
     "description": "Dua for wellbeing - 3 times"
   },
-  "azkarList11": "Ḥasbiyallāhu lā ilāha illā huwa `alayhi tawakkalt, wa huwa Rabbu 'l-`Arshi 'l-'Aẓīm. (Sab'a marrāt)",
+  "azkarList11": "حَسْبِيَ اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ، عَلَيْهِ تَوَكَّلْتُ، وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ.\n\n(سَبْعَ مَرَّاتٍ)\n\nḤasbiyallāhu lā ilāha illā huwa, ʿalayhi tawakkalt, wa huwa Rabbul-ʿArshil-ʿAẓīm.\n\nSäg det 7 gånger ",
   "@azkarList11": {
     "description": "Hasbiya Allah - 7 times"
   },
-  "azkarList12": "Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin (ṣallallāhu `alayhi wa sallama) nabiyya. (Thalātha marrāt)",
+  "azkarList12": "رَضِيتُ بِاللَّهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ ﷺ نَبِيًّا.\n\n(ثَلَاثَ مَرَّاتٍ)\n\nRaḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin ﷺ nabiyya.\n \nSäg det 3 gånger ",
   "@azkarList12": {
     "description": "Contentment with Allah - 3 times"
   },
-  "azkarList13": "Lā ilāha illallāh waḥdahu lā sharīka lah, lahu'l-mulku wa lahu'l-ḥamd yuḥyī wa yumīt wa huwa `alā kulli shay'in qadīr. ('Ashra marrāt)",
+  "azkarList13": "لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، يُحْيِي وَيُمِيتُ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ.\n\n(عَشْرَ مَرَّاتٍ)\n\nLā ilāha illallāh waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, yuḥyī wa yumīt, wa huwa ʿalā kulli shay’in qadīr.\n\nSäg det 10 gånger ",
   "@azkarList13": {
     "description": "La ilaha illa Allah tawhid - 10 times"
   },
-  "azkarList14": "Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr. Rabbi as'aluka khayra mā fī hādhihil-laylah, wa khayra mā ba'dahā, wa a'ūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā ba'dahā, wa a'ūdhu bika minal-kasal, wa sū'il-kibar, wa a'ūdhu bika min 'adhābin-nār, wa 'adhābil-qabr",
+  "azkarList14": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، وَلَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ.\n\nرَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذِهِ اللَّيْلَةِ، وَخَيْرَ مَا بَعْدَهَا، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذِهِ اللَّيْلَةِ، وَشَرِّ مَا بَعْدَهَا.\n\nرَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ، وَسُوءِ الْكِبَرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ النَّارِ، وَعَذَابِ الْقَبْرِ.\n\nAmsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa ʿalā kulli shay’in qadīr.\n\nRabbi as’aluka khayra mā fī hādhihil-laylah, wa khayra mā baʿdahā, wa aʿūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā baʿdahā.\n\nRabbi aʿūdhu bika minal-kasal, wa sū’il-kibar, wa aʿūdhu bika min ʿadhābin-nār, wa ʿadhābil-qabr.",
   "@azkarList14": {
     "description": "Morning supplication - Protection from laziness"
   },
-  "jumuaaScreenTitle": "Tid för Jumuaa",
-  "jumuaaHadith": "Profeten ﷺ (Allahs frid och välsignelser vare med honom) sade: \"Den som gör sina tvagningar perfekt och sedan går till jumua och sedan lyssnar och är tyst, han är förlåten vad som är mellan den tiden och följande fredag och ytterligare tre dagar och den som rör vid stenar har verkligen gjort en meningslöshet.\"",
-  "shuruk": "Shuruk",
-  "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "jumuaaScreenTitle": "Fredagsbönen börjar nu ",
+  "jumuaaHadith": "Profeten ﷺ sade: Den som gör sin Tvagning väl och går till fredagsbönen lyssnar och är tyst får Förlåtelse För synderna mellan denna fredag och nästa fredag samt ytterligare tre dagar. Den som rör vid småsten har gjort något meningslös\n\nقال رسولُ اللهِ ﷺ مَن تَوضَّأ فأحسَنَ الوُضوءَ، ثُمَّ أتى الجُمُعةَ، فاستَمع وأنصَتَ، غُفِرَ له ما بينَه وبينَ الجُمُعةِ، وزيادةُ ثَلاثةِ أيَّامٍ، ومَن مَسَّ الحَصى فقد لَغا",
+  "shuruk": "Soluppgång \nشروق",
+  "duha": "Dua",
+  "duhaTime": "Dua tid",
   "reset": "Återställ",
   "mosqueNotFoundMessage": "Tyvärr hittades inte din moské, den kanske saknas eller är tillfälligt inaktiverad.",
   "noInternetMessage": "Ingen internetuppkoppling. Kontrollera din internetuppkoppling och försök igen. Är ditt Wi-Fi eller Ethernet anslutet?",
@@ -136,54 +147,54 @@
   "mosqueErrorMessage": "Fel i moskén om du är moskéadministratör kontakta vår support för att åtgärda problemet.",
   "muharram": "Muharram",
   "safar": "Safar",
-  "rabiAlawwal": "Rabi' al-Awwal",
+  "rabiAlawwal": "Rabi' al-Awal",
   "rabiAlthani": "Rabi' al-Thani",
-  "jumadaAlula": "Jumada al-Ula",
-  "jumadaAlakhirah": "Jumada al-Akhirah",
+  "jumadaAlula": "Jumada al-Awal",
+  "jumadaAlakhirah": "Jumada al-Akhir",
   "rajab": "Rajab",
-  "shaban": "Sha`ban",
+  "shaban": "Shaban",
   "ramadan": "Ramadan",
-  "shawwal": "Shawwal",
+  "shawwal": "Shawal",
   "dhuAlqidah": "Dhu al-Qi'dah",
   "dhuAlhijjah": "Dhu al-Hijja",
-  "duaaBetweenSalahAndAdhan": "Anas ibn Malik berättade: Allahs sändebud ﷺ sade: \"Åkallelse (Du'a) avvisas inte mellan Adhan och Iqamah, så åkalla Allah.\" (Återberättad av at-Tirmidhi)",
-  "salatKhayrMinaNawm": "Assalatu khayrun mina nawm",
-  "salatElEid": "Salat El Eid",
-  "webView": "Aktivera Legacy Mode (gammalt läge)",
+  "duaaBetweenSalahAndAdhan": "Berättat av Anas ibn Malik \"må Allah vara nöjd med honom sa att Allahs budbärare Muhammad ﷺ sade: \"duaa\" avvisas inte mellan adhan och iqama.\n\nعن أنس بن مالك رضي الله عنه، قال رسول الله ﷺ: \"الدعاء لا يُرد بين الأذان والإقامة",
+  "salatKhayrMinaNawm": "Assalatu khayrun min al nawm",
+  "salatElEid": "Eid-Bönen \nصلاة العيد",
+  "webView": "Aktivera äldre läge",
   "developersHomeScreen": "Utvecklarens startskärm",
-  "onlineHome": "Hem på nätet",
+  "onlineHome": "Online hem",
   "prayerTimes": "Bönetider",
   "alerts": "Varning",
-  "iqamaaCountDown": "Iqamaa räknar ner",
-  "afterAdhanHadith": "Efter Adhan Hadith",
-  "afterSalahAzkar": "Efter Salah Azkar",
+  "iqamaaCountDown": "Nedräkning till iqama",
+  "afterAdhanHadith": "Hadith efter adhan",
+  "afterSalahAzkar": "Athkar efter bön",
   "iqama": "Iqama",
   "randomHadith": "Slumpmässig Hadith",
-  "announcement": "Meddelanden",
-  "jumuaaLive": "Jumuaa [Livestreaming]",
+  "announcement": "Meddelanden ",
+  "jumuaaLive": "Fredagsbön [Livesändning]",
   "showSecondaryScreen": "Används som en sekundär skärm (för meddelanden)",
   "normalScreen": "Använd som huvudskärm",
-  "duaaRemainder": "Påminnelse om Du'a",
-  "fajrWakeUp": "Fajr väcker upp",
+  "duaaRemainder": "Dua påminnelser",
+  "fajrWakeUp": "Fajr upp väckning",
   "changeLanguage": "Ändra språk",
   "forceScreen": "Tvångsskärmen",
-  "clear": "Klart",
+  "clear": "Rensa ",
   "changeTheme": "Ändra tema",
   "next": "Nästa",
-  "mainScreenOrSecondaryScreen": "Skärmens placering",
-  "mainScreenOrSecondaryScreenEXPLINATION": "Vill du installera den här skärmen i huvudbönrummet (böneutrymmet för män)?",
+  "mainScreenOrSecondaryScreen": "Skärm position",
+  "mainScreenOrSecondaryScreenEXPLINATION": "Vill du installera den här skärmen i huvud bönrummet (bönutrymmet för män)?",
   "mainScreen": "Huvudskärmen",
   "secondaryScreen": "Sekundär skärm",
-  "duaaElEftar": "Duaa El Eftar",
-  "announcementOnlyMode": "Läge för meddelanden",
+  "duaaElEftar": "Dua El -Iftar\nدعاء الإفطار",
+  "announcementOnlyMode": "Meddelande läge ",
   "normalMode": "Normalt läge ",
   "announcementOnlyModeEXPLINATION": "Välj om skärmen ska visa meddelanden hela tiden, detta kan vara användbart om du installerar skärmen vid ingången till exempel.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "اللهم إني لك صمت وبك آمنت وعليك توكلت وعلى رزقك أفطرت. ذهب الظمأ وابتلت العروق وثبت الأجر إن شاء الله\n“O Allah, jag fastade för Din skull, jag tror på Dig, jag förlitar mig på Dig, och med Din försörjning bryter jag min fasta.\nTörsten är borta, ådrorna har blivit fuktade och belöningen är fastställd, om Allah vill.”",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
-  "secondaryScreenExplanation": "För ett sekundärt bönerum (t.ex. ett kvinnorum eller en annan våning) visas jumua live-streaming på denna skärm.",
-  "mainScreenExplanation": "I moskéns huvudrum visas inte jumua-streamingen live på denna skärm.",
+  "secondaryScreenExplanation": "För sekundärt bönerum (t. ex. ett kvinnorum eller en annan våning) visas Fredagsbön live-sändning på denna skärm",
+  "mainScreenExplanation": "I moskéns huvudrum visas inte fredagsbön livesändning på denna skärm",
   "normalModeExplanation": "Visar den normala skärmen med bönetider och meddelanden.",
   "announcementOnlyModeExplanation": "Kommer att visa meddelanden hela tiden",
   "orientation": "Orientering",
@@ -193,18 +204,18 @@
   "portrait": "Porträtt",
   "portraitBTNDescription": "För vertikal orientering rekommenderas för moské med litet utrymme",
   "landscape": "Landskap",
-  "landscapeBTNDescription": "För horisontell orientering. Huvudlayouten för mawaqit tv app och rekommenderas en för de flesta moskéer",
-  "eidMubarak": "Eid Mubarak",
-  "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
+  "landscapeBTNDescription": "För horisontell orientering. Huvudlayouten för Mawaqit tv app och rekommenderas en för de flesta moskéer",
+  "eidMubarak": "Eid Mubarak- Må Allah acceptera våra goda gärningar.\n\nعيد مبارك تقبل الله منا ومنكم صالح الأعمال \n",
+  "takbeerAleidText": "الله أكبر، الله أكبر، الله أكبر، لا إله إلا الله، الله أكبر، الله أكبر، ولله الحمد، الله أكبر كبيرًا، والحمد لله كثيرًا، وسبحان الله بكرة وأصيلا، لا إله إلا الله وحده، صدق وعده، ونصر عبده، وأعز جنده، وهزم الأحزاب وحده، لا إله إلا الله، ولا نعبد إلا إيَّاه، مخلصين له الدين ولو كره الكافرون، اللهم صل على سيدنا محمد، وعلى آل سيدنا محمد، وعلى أصحاب سيدنا محمد، وعلى أنصار سيدنا محمد، وعلى أزواج سيدنا محمد، وعلى ذرية سيدنا محمد وسلم تسليمًا كثيرًا\nAllahu akbar, Allahu akbar, Allahu akbar, la ilaha illa Allah, Allahu akbar, Allahu akbar, wa lillahi al-hamd. Allahu akbar kabira, walhamdu lillahi kathira, wa subhanAllahi bukratan wa asila. La ilaha illa Allah wahdah, sadaqa wa’dah, wa nasara abdah, wa a’azza jundah, wa hazama al-ahzab wahdah. La ilaha illa Allah, wa la na’budu illa iyyah,\nmukhlisina lahud-din wa law karihal kafirun.\nAllahumma salli ala sayyidina Muhammad,\nwa ala aali sayyidina Muhammad,\nwa ala ashabi sayyidina Muhammad,\nwa ala ansari sayyidina Muhammad,\nwa ala azwaji sayyidina Muhammad,\nwa ala dhurriyyati sayyidina Muhammad,\nwa sallim tasliman kathira",
   "settings": "Inställningar",
-  "applicationModes": "Standardstartläge",
+  "applicationModes": "Tillämpningssätt",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "Om du stöter på problem med appen, aktivera detta alternativ",
   "hijriAdjustments": "Lokala Hijri justeringar",
-  "hijriAdjustmentsDescription": "Justera hijri datumet lokalt i din enhet. Detta kommer inte att påverka inställningarna för moskén online",
+  "hijriAdjustmentsDescription": "Justera Hijri datumet lokalt i din enhet. Detta kommer inte att påverka inställningarna för moskén online",
   "backoffice_default": "Standardvärden för backoffice",
   "recommended": "Rekommenderad",
-  "sabah": "Sabah",
-  "randomHadithLanguage": "Slumpmässigt hadithspråk",
+  "sabah": "Fajr bönen ",
+  "randomHadithLanguage": "Slumpmässigt hadith språk",
   "mosqueDefault": "Från din online-konfiguration",
   "en": "Engelska",
   "fr": "Franska",
@@ -214,21 +225,22 @@
   "es": "Spanska",
   "pt": "Portugisiska",
   "nl": "Holländska",
+  "ta": "Tamil",
   "fr_ar": "Franska & arabiska",
   "en_ar": "Engelska & arabiska",
-  "de_ar": "Tyska & arabiska",
-  "ta_ar": "Tamil & Arabic",
+  "de_ar": "Tyska & Arabiska",
+  "ta_ar": "Tamil & Arabiska",
   "tr_ar": "Turkiska & Arabiska",
   "es_ar": "Spanska & Arabiska",
   "pt_ar": "Portugisiska & Arabiska",
   "nl_ar": "Holländska & Arabiska",
-  "connectToChangeHadith": "Vänligen anslut till internet för att ändra hadithspråket.",
+  "connectToChangeHadith": "Vänligen anslut till internet för att ändra hadith språket.",
   "retry": "Försök igen",
   "reciterLoadError": "Det går inte att ladda recitatörer",
   "reciterNetworkError": "Kontrollera din internetanslutning och försök igen",
   "reciterServerError": "Servern är inte tillgänglig för tillfället. Försök igen senare",
   "reciterTimeoutError": "Begäran gick ut. Försök igen",
-  "surahLoadError": "Kan inte ladda surahs",
+  "surahLoadError": "Kunde inte ladda Suror",
   "timeSetting": "Konfigurera tiden",
   "timeSettingDesc": "Ange ett anpassat namn",
   "selectedTime": "Den aktuella valda tiden",
@@ -237,7 +249,7 @@
   "useDeviceTime": "Använd enhetens tid",
   "selectTime": "Välj tid",
   "previous": "Föregående",
-  "appTimezone": "App Timezone",
+  "appTimezone": "Appens tidszon",
   "descTimezone": "Välj din tidszon för att få korrekta bönetider.",
   "appWifi": "Anslut till wifi",
   "descWifi": "Vänligen anslut till ditt önskade wifi",
@@ -246,12 +258,13 @@
   "noScannedResultsFound": "Inga nära åtkomstpunkter hittades",
   "connect": "Anslut",
   "wifiPassword": "Lösenord",
-  "skip": "Hoppa",
-  "noSSID": "**Hidden SSID**",
+  "skip": "Hoppa över ",
+  "noSSID": "**Gömd SSID**",
   "close": "Stäng",
   "search": "Sök på",
   "wifiSuccess": "Lyckad anslutning till Wifi.",
   "wifiFailure": "Det gick inte att ansluta till Wifi.",
+  "wifiForgetNetwork": "Detta nätverk lades till i Android-inställningarna. Vänligen glöm det där och anslut sedan igen.",
   "timezoneSuccess": "Tidszon har angetts.",
   "timezoneFailure": "Det gick inte att ange tidszon.",
   "screenLock": "Skärm på/av",
@@ -270,20 +283,20 @@
   "checkInternetLegacyMode": "Du måste ansluta till internet för att använda äldre läge",
   "powerOnScreen": "Slå på skärmen",
   "powerOffScreen": "Stäng av skärmen",
-  "deviceSettings": "Enhet",
+  "deviceSettings": "Enhetens inställningar",
   "later": "Senare",
-  "downloadQuran": "Ladda ner Quran",
-  "quran": "Koranen",
+  "downloadQuran": "Ladda ner Koran",
+  "quran": "Koran",
   "askDownloadQuran": "Vill du ladda ner Koranen?",
-  "download": "Hämta",
+  "download": "Ladda ner ",
   "downloadingQuran": "Laddar ner Koranen",
   "extractingQuran": "Extraherar Koranen",
   "updatedQuran": "Koranen har uppdaterats",
-  "quranLatestVersion": "Quran är upptaderat",
-  "quranUpdatedVersion": "Quran uppdaterad version är: {version}",
-  "quranIsUpdated": "Quran är uppdaterad",
-  "quranDownloaded": "Quran hämtad",
-  "quranIsAlreadyDownloaded": "Quran är redan hämtad",
+  "quranLatestVersion": "Koranen är uppdaterat",
+  "quranUpdatedVersion": "Koran uppdaterings version är: {version}",
+  "quranIsUpdated": "Koranen är uppdaterad",
+  "quranDownloaded": "Koranen har laddats ner ",
+  "quranIsAlreadyDownloaded": "Koranen är redan nedladdad",
   "chooseReciter": "Välj Recitatör",
   "reciteType": "Recitation typ",
   "readingMode": "Jag vill läsa",
@@ -322,7 +335,7 @@
   },
   "chooseQuranPage": "Välj sida",
   "checkingForUpdates": "Söker efter uppdateringar...",
-  "chooseQuranType": "Välj quran",
+  "chooseQuranType": "Välj Koran",
   "hafs": "Hafs",
   "warsh": "Warsh",
   "favorites": "Favoriter",
@@ -354,8 +367,8 @@
   },
   "noReciterSearchResult": "Inga resultat hittades för din sökning",
   "searchForReciter": "Sök efter en recitatör",
-  "downloadAllSuwarSuccessfully": "Hela quranen laddas ner",
-  "noSuwarDownload": "Inga nya suwars att ladda ner",
+  "downloadAllSuwarSuccessfully": "Hela Koranen laddas ner",
+  "noSuwarDownload": "Inga nya Sura-kapitel att ladda ner",
   "connectDownloadQuran": "Anslut till Internet för att ladda ner",
   "playInOnlineModeQuran": "Anslut till internet för att spela",
   "downloaded": "Nedladdad",
@@ -369,7 +382,7 @@
       }
     }
   },
-  "surahSelector": "Välj Surah",
+  "surahSelector": "Välj Sura-kapitel",
   "checkForUpdates": "Sök efter uppdateringar",
   "checkForNewVersion": "Kontrollera om en ny version är tillgänglig",
   "wouldYouLikeToUpdate": "Vill du uppdatera appen?",
@@ -389,9 +402,9 @@
   "rtspCameraSettings": "Kamerainställningar",
   "invalidRtspUrl": "Ogiltig URL. Kontrollera URL:en och försök igen.",
   "validRtspUrl": "URL validerad och sparad.",
-  "rtspCameraSettingTitle": "Live-kamera",
-  "rtspCameraSettingDesc": "Anslut till din lokala kamera och visa jumua bön ström på TV-skärmen.",
-  "rtspCameraSettingScreenDesc": "Om du anger en URL här, kommer din skärm automatiskt växla till videoströmning när Jumua tid anländer",
+  "rtspCameraSettingTitle": "Anslutning till Live kamera",
+  "rtspCameraSettingDesc": "Anslut till din lokala kamera och visa Fredagsbönen på TV-skärmen.",
+  "rtspCameraSettingScreenDesc": "Om du anger en URL här, kommer din skärm automatiskt växla till videoströmning när Fredagsbön tiden anländer",
   "validatingStream": "Validerar stream...",
   "checkInternetLiveCamera": "Du måste ansluta till internet för att installera live-kameran",
   "somethingWentWrong": "Något gick snett! Försök igen",
@@ -413,7 +426,7 @@
       }
     }
   },
-  "quranUpdateDialogContent": "En ny uppdatering för {moshafName} Quran (version {version}) är tillgänglig.",
+  "quranUpdateDialogContent": "En ny uppdatering för {moshafName} Koran (version {version}) är tillgänglig.",
   "@quranUpdateDialogContent": {
     "description": "Message to display in the update available dialog with Quran name and version.",
     "placeholders": {
@@ -428,23 +441,23 @@
     }
   },
   "ishaAndFajrOnly": "Fajr och Isha böner endast",
-  "minutesBeforeFajrPrayer": "minuter före fajr bön tid",
-  "minutesAfterIshaPrayer": "minuter på avstånd isha bön tid",
+  "minutesBeforeFajrPrayer": "minuter före Fajr bön tid",
+  "minutesAfterIshaPrayer": "minuter på avstånd Isha bön tid",
   "scheduleSaved": "Ditt schema har sparats.",
   "completeAllFields": "Vänligen fyll i alla fält innan du sparar.",
   "endTimeAfter": "Sluttiden måste vara efter starttiden.",
   "scheduleListening": "Schemalagd lyssning",
   "enableScheduling": "Aktivera schemaläggning",
-  "scheduleDesc": "Aktivera denna funktion för att automatiskt spela en Surah vid schemalagda tider.",
+  "scheduleDesc": "Aktivera denna funktion för att automatiskt spela en Sura vid schemalagda tider.",
   "startTime": "Starttid",
   "endTime": "Sluttid",
   "selectReciter": "Välj en Recitatör",
-  "selectMoshaf": "Välj en mushaf",
-  "randomSurahSelection": "Slumpmässig Surah-val",
-  "selectSurah": "Välj en Surah",
+  "selectMoshaf": "Välj en Koran-Mushaf",
+  "randomSurahSelection": "Slumpmässig Sura-val",
+  "selectSurah": "Välj en Sura",
   "initializingAutoReading": "Initiering pågår...",
   "holdOkToStop": "Håll OK intryckt för att stoppa",
-  "prayerTimeNotification": "{salahName} tid ({prayerTime}) notifikation",
+  "prayerTimeNotification": "{salahName} Tid ({prayerTime}) notifikation",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",
     "placeholders": {
@@ -458,18 +471,30 @@
       }
     }
   },
-  "scheduleInOnlineMode": "Vänligen anslut till internet för att schemalägga Quran lyssnande",
-  "duaaBetweenAdhanAndIqamaaTitle": "Åkallelse (Du'a) avvisas inte mellan Adhan och Iqamah",
-  "duaBetweenAdhanIqamah": "Åkallelse (Du'a) avvisas inte mellan Adhan och Iqamah.",
+  "scheduleInOnlineMode": "Vänligen anslut till internet för att schemalägga Koran lyssnaren ",
+  "duaaBetweenAdhanAndIqamaaTitle": "عن أنس بن مالك رضي الله عنه قال: قال رسول الله ﷺ\nالدُّعاءُ لا يُرَدُّ بينَ الأذانِ والإقامةِ\n\nÅkallelse (Du'a) avvisas inte mellan Adhan och Iqama",
+  "duaBetweenAdhanIqamah": "عن أنس بن مالك رضي الله عنه قال: قال رسول الله ﷺ\nالدُّعاءُ لا يُرَدُّ بينَ الأذانِ والإقامةِ\n\nÅkallelse (Du'a) avvisas inte mellan Adhan och Iqama.",
   "processingRequest": "Bearbetar förfrågan...",
   "loadingStream": "Laddar stream...",
   "rtspUrlHint": "Ange RTSP-URL eller YouTube-länk",
+  "urlManagedByMosqueAdmin": "URL som hanteras av moskéadministratör",
   "replaceWorkflowWithStream": "Visa kameraströmmen automatiskt",
   "replaceAppWorkflowWithCameraStream": "Skärmen kommer automatiskt att visa kameraströmmen så snart kameran startar inspelningen; om det stannar, skärmen återgår till bönen gånger visas",
+  "streamMode": "Live sändnings läge ",
+  "streamModeDisabled": "Inaktiverad",
+  "streamModeCamera": "Strömmen beror på kameran",
+  "streamModeJumuaOnly": "Live-sändning endast under Fredagsbönen",
+  "streamModeJumuaAndPrayers": "Live-sändning under fredagsbön och fem dagliga bönerna",
+  "streamRequiresSecondaryScreen": "Den här funktionen fungerar endast när appen körs som en sekundär skärm. Så aktiverar du den:",
+  "streamSecondaryScreenStep1": "Gå till Skärm.",
+  "streamSecondaryScreenStep2": "Öppna \"Standardstartläge\".",
+  "streamSecondaryScreenStep3": "Välj \"Sekundär skärm\".",
+  "rtspServerNotAvailable": "RTSP-servern är inte tillgänglig. Kontrollera din anslutning.",
+  "settingsSavedSuccessfully": "Inställningar har sparats",
   "streamError": "Ett fel inträffade vid streaming",
-  "finish": "Avsluta",
+  "finish": "Klart ",
   "schedulingAlarms": "Schemalägger på/av tider...",
-  "alarmsSucessSchedule": "På/Av utlösare har schemalagts",
+  "alarmsSucessSchedule": "På/Av Utlösare har schemalagts",
   "alarmsScheduleFailure": "Det gick inte att schemalägga på / Av utlösare",
   "prayerTimeNotificationTitle": "Bönens Tidsmeddelanden",
   "prayerTimeNotificationDesc": "Få adhan i bönetider, även när appen är stängd",
@@ -479,11 +504,145 @@
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
   },
-  "settingsSectionGlobal": "Global",
+  "testCrowdinCI": "Testa strängen för att verifiera Crowdin CI arbetsflöde vid utveckling",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Koranläge",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Visa skärmen Koran läsning, med start från den senaste läsidan",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "appDisplayMode": "Skärm",
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "appDisplayModeExplanation": "Välj hur din skärm ska visa innehåll",
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Avsluta koranläge",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Vill du återgå till normalt läge?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "settingsSectionGlobal": "Globalt",
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
   "hijriDateAdjustment": "Justering av hijri-datum",
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
   "interfaceLanguage": "Gränssnittsspråk",
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
   "launchModeMainPrayer": "Huvudsakliga bönetider",
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
   "launchModeSecondaryPrayer": "Sekundära bönetider",
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
   "timezone": "Tidszon",
-  "wifi": "WiFi"
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "wifi": "WiFi",
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "Kom igång i 4 enkla steg",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "Har du inget moské-ID än? Så här gör du:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "Gå till mawaqit.net och skapa ett konto",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "Registrera din moské med foton och adress",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "Få ditt unika moské-ID från din instrumentpanel",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "Ange ID här för att ansluta din TV-skärm",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "Steg {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "Skanna för att registrera",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "Använd telefonen för att skapa ett konto på mawaqit.net",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "Fullständig handledning",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "prayerTimeFontSize": "Text & visningsstorlek",
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "prayerTimeFontSizeDesc": "Ändra hur stor texten ser ut i hela appen",
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "fontSizeSmall": "Liten",
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "fontSizeNormal": "Normal",
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "fontSizeLarge": "Stor",
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "fontSizeXLarge": "Extra stor",
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "athkarArabicFont": "Arabiskt typsnitt för Athkar",
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "athkarArabicFontDesc": "Välj det arabiska typsnitt som används för Athkar (efter bön, adhan, fredagsbön, hadith...)",
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "athkarFontKufi": "Kufi",
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "athkarFontUthmani": "Uthmani",
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  }
 }
