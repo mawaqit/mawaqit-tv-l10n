@@ -205,7 +205,7 @@ class MawaqitTvLocalizationsUr extends MawaqitTvLocalizations {
   String get alIqama => 'الاقامہ';
 
   @override
-  String get alAdhan => 'آذان';
+  String get alAdhan => 'اذان';
 
   @override
   String get turnOfPhones => 'براہ کرم اپنے فونز کو سائلنٹ موڈ میں رکھیں';
@@ -274,7 +274,7 @@ class MawaqitTvLocalizationsUr extends MawaqitTvLocalizations {
   String get jumuaaHadith => 'رسول اللہ صلی اللہ علیہ وسلم نے فرمایا جس نے اچھی طرح وضو کیا پھر جمعہ کو سن لیا اور خاموش رہا تو اس کے لیے اس وقت سے اگلے جمعہ کے درمیان اور مزید تین دن معاف کر دیے جاتے ہیں۔ جس نے پتھروں کو چھو لیا اس نے یقیناً فضول کام کیا\"';
 
   @override
-  String get shuruk => 'اشراق';
+  String get shuruk => 'طلوعِ آفتاب';
 
   @override
   String get duha => 'Duha';
