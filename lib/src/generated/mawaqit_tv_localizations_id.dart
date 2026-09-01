@@ -340,7 +340,7 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get salatKhayrMinaNawm => 'Assalatu khayrun mina nawm';
 
   @override
-  String get salatElEid => 'Salat Idul Fitri';
+  String get salatElEid => 'Salat Id';
 
   @override
   String get webView => 'Mengaktifkan Mode Lama';
