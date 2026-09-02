@@ -100,6 +100,22 @@
   "@iqamaShowClockDesc": {
     "description": "Subtitle for the iqama clock toggle setting"
   },
+  "perPrayerRollover": "Prayer time rollover",
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "perPrayerRolloverDesc": "Choose how prayer times switch to tomorrow's schedule",
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "perPrayerRolloverOptionPerPrayer": "Each prayer individually",
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "perPrayerRolloverOptionAfterIsha": "All together after Isha",
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {

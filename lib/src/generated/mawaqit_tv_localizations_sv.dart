@@ -220,6 +220,18 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Visa aktuell tid och datum för iqama-nedräknings skärm';
 
   @override
+  String get perPrayerRollover => 'Prayer time rollover';
+
+  @override
+  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+
+  @override
+  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+
+  @override
+  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+
+  @override
   String get alAthkar => 'Al-Athkar efter bönen\n الأذكار بعد الصلاة';
 
   @override

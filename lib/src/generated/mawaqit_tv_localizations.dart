@@ -609,6 +609,30 @@ abstract class MawaqitTvLocalizations {
   /// **'Display the current time and date on the Iqama countdown screen'**
   String get iqamaShowClockDesc;
 
+  /// Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends
+  ///
+  /// In en, this message translates to:
+  /// **'Prayer time rollover'**
+  String get perPrayerRollover;
+
+  /// Subtitle for the per-prayer rollover dropdown setting
+  ///
+  /// In en, this message translates to:
+  /// **'Choose how prayer times switch to tomorrow\'s schedule'**
+  String get perPrayerRolloverDesc;
+
+  /// Dropdown option: each prayer switches to tomorrow's time as soon as it ends
+  ///
+  /// In en, this message translates to:
+  /// **'Each prayer individually'**
+  String get perPrayerRolloverOptionPerPrayer;
+
+  /// Dropdown option: all prayer times switch to tomorrow together only after Isha ends
+  ///
+  /// In en, this message translates to:
+  /// **'All together after Isha'**
+  String get perPrayerRolloverOptionAfterIsha;
+
   /// No description provided for @alAthkar.
   ///
   /// In en, this message translates to:

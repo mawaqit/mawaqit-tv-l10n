@@ -220,6 +220,18 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Відображати поточний час і дату на екрані зворотного відліку іками';
 
   @override
+  String get perPrayerRollover => 'Prayer time rollover';
+
+  @override
+  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+
+  @override
+  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+
+  @override
+  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+
+  @override
   String get alAthkar => 'Азкар';
 
   @override
