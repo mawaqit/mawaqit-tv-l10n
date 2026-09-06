@@ -175,43 +175,43 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get offline => 'Offline';
 
   @override
-  String get imsak => 'Fasta\n إمساك';
+  String get imsak => 'Fasta';
 
   @override
-  String get jumua => 'Fredagsbön\nصلاة الجمعة';
+  String get jumua => 'Fredagsbön';
 
   @override
-  String get duhr => 'Dhohr\nالظهر';
+  String get duhr => 'Dhohr';
 
   @override
-  String get fajr => 'Fajr \nالفجر';
+  String get fajr => 'Fajr';
 
   @override
-  String get asr => 'Asr\nالعصر';
+  String get asr => 'Asr';
 
   @override
-  String get maghrib => 'Maghrib \nالمغرب';
+  String get maghrib => 'Maghrib';
 
   @override
-  String get isha => 'Isha\n العشاء';
+  String get isha => 'Isha';
 
   @override
-  String get afterAdhanHadithTitle => 'Dua efter Adhan \nدعاء بعد الأذان';
+  String get afterAdhanHadithTitle => 'Dua efter Adhan';
 
   @override
-  String get afterSalahHadith => 'اللهم رب هذه الدعوة التامة، والصلاة القائمة، آت محمدًا الوسيلة والفضيلة، وابعثه مقامًا محمودًا الذي وعدته\n\nO Allah, Rabb av denna fullkomliga kallelse (Da\'wah) och den upprättade bönen (As-Salat), ge Muhammad al- Wasilah och överlägsenhet, och upphöj honom till den prisvärda positionen som Du har lovat honom';
+  String get afterSalahHadith => 'O Allah, Rabb av denna fullkomliga kallelse (Da\'wah) och den upprättade bönen (As-Salat), ge Muhammad al- Wasilah och överlägsenhet, och upphöj honom till den prisvärda positionen som Du har lovat honom';
 
   @override
-  String get alIqama => 'Iqama \nإقامه';
+  String get alIqama => 'Iqama';
 
   @override
-  String get alAdhan => 'Adhan \nأذان';
+  String get alAdhan => 'Adhan';
 
   @override
-  String get turnOfPhones => 'Vänligen respektera bönen och sätt era telefoner på TYST läge, må Allah belöna er.\nيرجى إحترام الصلاة و وضع الهاتف على الصامت و عدم التشويش على المصلين… جزاكم الله خيراً';
+  String get turnOfPhones => 'Vänligen respektera bönen och sätt era telefoner på TYST läge, må Allah belöna er.';
 
   @override
-  String get iqamaIn => 'Iqama om \nإقامة بعد';
+  String get iqamaIn => 'Iqama om';
 
   @override
   String get iqamaShowClock => 'Visa iqama tiden på skärmen';
@@ -232,67 +232,67 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
 
   @override
-  String get alAthkar => 'Al-Athkar efter bönen\n الأذكار بعد الصلاة';
+  String get alAthkar => 'Al-Athkar efter bönen';
 
   @override
-  String get azkarList0 => 'أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله.\nاللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام \nاللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ\n\nAstaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah, Allahumma anta Assalam w minka Assalam, tabarakta ya dhal Jalali wal ikram Allahumma A`inni `ala dhikrika wa shukrika wa husni `ibadatik';
+  String get azkarList0 => 'Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah, Allahumma anta Assalam w minka Assalam, tabarakta ya dhal Jalali wal ikram Allahumma A`inni `ala dhikrika wa shukrika wa husni `ibadatik';
 
   @override
-  String get azkarList1 => 'Subhan Allah wal hamdu lillah wallahu akbar (33 gånger) La ilaha illa Allah, wahdahu la sharika lah, lahul mulku wa lahul hamdu, wa hua `ala kulli shay in kadir ( 100 gånger per dag)\n\nسبحان الله، والحمدلله، والله أكبر 33 مره. لا إِلَهَ إِلا اللهُ، وَحْدَهُ لا شَرِيكَ لَهُ، لَهُ المُلْكُ وَلَهُ الحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ 100 مره في اليوم';
+  String get azkarList1 => 'Subhan Allah wal hamdu lillah wallahu akbar (33 gånger) La ilaha illa Allah, wahdahu la sharika lah, lahul mulku wa lahul hamdu, wa hua `ala kulli shay in kadir ( 100 gånger per dag)';
 
   @override
-  String get azkarList2 => 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\nقُلْ أَعُوذُ بِرَبِّ النَّاسِ\nمَلِكِ النَّاسِ\nإِلَٰهِ النَّاسِ\nمِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ\nالَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ\nمِنَ الْجِنَّةِ وَالنَّاسِ';
+  String get azkarList2 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
 
   @override
-  String get azkarList3 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.\n\nبِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\nقُلْ أَعُوذُ بِرَبِّ الْفَلَقِ\nمِنْ شَرِّ مَا خَلَقَ\nوَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ\nوَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ\nوَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ';
+  String get azkarList3 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.';
 
   @override
-  String get azkarList4 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.\n\nبِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\nقُلْ هُوَ اللَّهُ أَحَدٌ\nاللَّهُ الصَّمَدُ\nلَمْ يَلِدْ وَلَمْ يُولَدْ\nوَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ';
+  String get azkarList4 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.';
 
   @override
-  String get azkarList5 => 'بسم الله الرحمن الرحيم \n\nاللَّهُ لَا إِلٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ\n\nمَنْ قَرَأَهَا دُبُرَ كُلِّ صَلَاةٍ لَمْ يَمْنَعْهُ مِنْ دُخُولِ الْجَنَّةِ إِلَّا أَنْ يَمُوتَ\nتُقْرَأُ آيَةُ الْكُرْسِيِّ عَقِبَ كُلِّ صَلَاةٍ مَفْرُوضَةٍ\nرَوَاهُ النَّسَائِيُّ فِي عَمَلِ الْيَوْمِ وَاللَّيْلَةِ بِرَقْمِ ١٠٠، وَابْنُ السُّنِّيِّ بِرَقْمِ ١٢١، وَصَحَّحَهُ الْأَلْبَانِيُّ فِي صَحِيحِ الْجَامِعِ ٥/٣٣٩ وَسِلْسِلَةِ الْأَحَادِيثِ الصَّحِيحَةِ ٢/٦٩٧ بِرَقْمِ ٩٧٢\n\nTranslitteration:\nAllāhu lā ilāha illā huwal-ḥayyul-qayyūm, lā ta’khudhuhu sinatun wa lā nawm, lahū mā fis-samāwāti wa mā fil-arḍ, man dhal-ladhī yashfaʿu ʿindahū illā bi’idhnih, yaʿlamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay’in min ʿilmihī illā bimā shā’, wasiʿa kursiyyuhus-samāwāti wal-arḍ, wa lā ya’ūduhū ḥifẓuhumā wa huwal-ʿaliyyul-ʿaẓīm.\n\nDen som läser den efter varje obligatorisk bön hindras inte från att komma in i Paradiset annat än döden.\n\nBerättad av an-Nasā’ī i ʿAmal al-Yawm wa al-Laylah nr 100 och Ibn as-Sunnī nr 121. Autentiserad av al-Albānī i Ṣaḥīḥ al-Jāmiʿ 5/339 och Silsilat al-Aḥādīth aṣ-Ṣaḥīḥah 2/697 nr 972.';
+  String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 => 'La ilaha illa Allah, wahdahu la charika lahu, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad\n\nلا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير. اللهم لا مانع لما أعطيت، ولا معطي لما منعت، ولا ينفع ذا الجد منك الجد';
+  String get azkarList6 => 'La ilaha illa Allah, wahdahu la charika lahu, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad';
 
   @override
-  String get azkarList7 => 'اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَٰهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَىٰ عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ.\n\nAllāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā ʿabduk, wa anā ʿalā ʿahdika wa waʿdika mastaṭaʿt, aʿūdhu bika min sharri mā ṣanaʿt, abū’u laka biniʿmatika ʿalayya, wa abū’u bidhanbī faghfir lī fa’innahu lā yaghfirudh-dhunūba illā ant.';
+  String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā ʿabduk, wa anā ʿalā ʿahdika wa waʿdika mastaṭaʿt, aʿūdhu bika min sharri mā ṣanaʿt, abū\'u laka biniʿmatika ʿalayya, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
 
   @override
-  String get azkarList8 => 'أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ.\n\nرَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذَا الْيَوْمِ وَخَيْرَ مَا بَعْدَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذَا الْيَوْمِ وَشَرِّ مَا بَعْدَهُ.\n\nرَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ، رَبِّ أَعُوذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ.\n\nAṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa ʿalā kulli shay’in qadīr.\n\nRabbi as’aluka khayra mā fī hādhal-yawmi wa khayra mā baʿdah, wa aʿūdhu bika min sharri mā fī hādhal-yawmi wa sharri mā baʿdah.\n\nRabbi aʿūdhu bika minal-kasali wa sū’il-kibar, Rabbi aʿūdhu bika min ʿadhābin fin-nāri wa ʿadhābin fil-qabr.';
+  String get azkarList8 => 'Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa ʿalā kulli shay\'in qadīr.\n\nRabbi as\'aluka khayra mā fī hādhal-yawmi wa khayra mā ba\'dah, wa aʿūdhu bika min sharri mā fī hādhal-yawmi wa sharri mā ba\'dah.\n\nRabbi aʿūdhu bika minal-kasali wa sū\'il-kibar, Rabbi aʿūdhu bika min ʿadhābin fin-nāri wa ʿadhābin fil-qabr.';
 
   @override
-  String get azkarList9 => 'اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلَائِكَتَكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَٰهَ إِلَّا أَنْتَ، وَحْدَكَ لَا شَرِيكَ لَكَ، وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُولُكَ.\n\n(أَرْبَعَ مَرَّاتٍ)\n\nوَإِذَا أَمْسَى قَالَ:\n\nاللَّهُمَّ إِنِّي أَمْسَيْتُ\n\n\nAllāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata ʿarshik, wa malā’ikataka wa jamīʿa khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan ʿabduka wa rasūluk.\n\nSäg det 4 gånger \n';
+  String get azkarList9 => 'Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata ʿarshik, wa malā\'ikataka wa jamīʿa khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan ʿabduka wa rasūluk.\n\nSäg det 4 gånger';
 
   @override
-  String get azkarList10 => 'اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ \n\nعَافِنِي فِي بَصَرِي، لَا إِلَٰهَ إِلَّا أَنْتَ\n\nاللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالْفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ \n\nالْقَبْرِ، لَا إِلَٰهَ إِلَّا أَنْتَ\n\n(ثَلَاثَ مَرَّاتٍ)\n\n\nAllāhumma ʿāfinī fī badanī, Allāhumma ʿāfinī fī samʿī, Allāhumma ʿāfinī fī baṣarī, lā ilāha illā ant.\n\nAllāhumma innī aʿūdhu bika mina l-kufri wal-faqr, wa aʿūdhu bika min ʿadhābil-qabr, lā ilāha illā ant.\n\nSäg det 3 gånger ';
+  String get azkarList10 => 'Allāhumma ʿāfinī fī badanī, Allāhumma ʿāfinī fī samʿī, Allāhumma ʿāfinī fī baṣarī, lā ilāha illā ant.\n\nAllāhumma innī aʿūdhu bika mina l-kufri wal-faqr, wa aʿūdhu bika min ʿadhābil-qabr, lā ilāha illā ant.\n\nSäg det 3 gånger';
 
   @override
-  String get azkarList11 => 'حَسْبِيَ اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ، عَلَيْهِ تَوَكَّلْتُ، وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ.\n\n(سَبْعَ مَرَّاتٍ)\n\nḤasbiyallāhu lā ilāha illā huwa, ʿalayhi tawakkalt, wa huwa Rabbul-ʿArshil-ʿAẓīm.\n\nSäg det 7 gånger ';
+  String get azkarList11 => 'Ḥasbiyallāhu lā ilāha illā huwa, ʿalayhi tawakkalt, wa huwa Rabbul-ʿArshil-ʿAẓīm.\n\nSäg det 7 gånger';
 
   @override
-  String get azkarList12 => 'رَضِيتُ بِاللَّهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ ﷺ نَبِيًّا.\n\n(ثَلَاثَ مَرَّاتٍ)\n\nRaḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin ﷺ nabiyya.\n \nSäg det 3 gånger ';
+  String get azkarList12 => 'Raḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin ﷺ nabiyya.\n\nSäg det 3 gånger';
 
   @override
-  String get azkarList13 => 'لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، يُحْيِي وَيُمِيتُ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ.\n\n(عَشْرَ مَرَّاتٍ)\n\nLā ilāha illallāh waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, yuḥyī wa yumīt, wa huwa ʿalā kulli shay’in qadīr.\n\nSäg det 10 gånger ';
+  String get azkarList13 => 'Lā ilāha illallāh waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, yuḥyī wa yumīt, wa huwa ʿalā kulli shay\'in qadīr.\n\nSäg det 10 gånger';
 
   @override
-  String get azkarList14 => 'أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، وَلَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ.\n\nرَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذِهِ اللَّيْلَةِ، وَخَيْرَ مَا بَعْدَهَا، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذِهِ اللَّيْلَةِ، وَشَرِّ مَا بَعْدَهَا.\n\nرَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ، وَسُوءِ الْكِبَرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ النَّارِ، وَعَذَابِ الْقَبْرِ.\n\nAmsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa ʿalā kulli shay’in qadīr.\n\nRabbi as’aluka khayra mā fī hādhihil-laylah, wa khayra mā baʿdahā, wa aʿūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā baʿdahā.\n\nRabbi aʿūdhu bika minal-kasal, wa sū’il-kibar, wa aʿūdhu bika min ʿadhābin-nār, wa ʿadhābil-qabr.';
+  String get azkarList14 => 'Amsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa ʿalā kulli shay\'in qadīr.\n\nRabbi as\'aluka khayra mā fī hādhihil-laylah, wa khayra mā baʿdahā, wa aʿūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā baʿdahā.\n\nRabbi aʿūdhu bika minal-kasal, wa sū\'il-kibar, wa aʿūdhu bika min ʿadhābin-nār, wa ʿadhābil-qabr.';
 
   @override
   String get jumuaaScreenTitle => 'Fredagsbönen börjar nu ';
 
   @override
-  String get jumuaaHadith => 'Profeten ﷺ sade: Den som gör sin Tvagning väl och går till fredagsbönen lyssnar och är tyst får Förlåtelse För synderna mellan denna fredag och nästa fredag samt ytterligare tre dagar. Den som rör vid småsten har gjort något meningslös\n\nقال رسولُ اللهِ ﷺ مَن تَوضَّأ فأحسَنَ الوُضوءَ، ثُمَّ أتى الجُمُعةَ، فاستَمع وأنصَتَ، غُفِرَ له ما بينَه وبينَ الجُمُعةِ، وزيادةُ ثَلاثةِ أيَّامٍ، ومَن مَسَّ الحَصى فقد لَغا';
+  String get jumuaaHadith => 'Profeten ﷺ sade: Den som gör sin Tvagning väl och går till fredagsbönen lyssnar och är tyst får Förlåtelse För synderna mellan denna fredag och nästa fredag samt ytterligare tre dagar. Den som rör vid småsten har gjort något meningslös';
 
   @override
-  String get shuruk => 'Soluppgång \nشروق';
+  String get shuruk => 'Soluppgång';
 
   @override
-  String get duha => 'Dua';
+  String get duha => 'Duha';
 
   @override
-  String get duhaTime => 'Dua tid';
+  String get duhaTime => 'Duha tid';
 
   @override
   String get reset => 'Återställ';
@@ -346,13 +346,13 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get dhuAlhijjah => 'Dhu al-Hijja';
 
   @override
-  String get duaaBetweenSalahAndAdhan => 'Berättat av Anas ibn Malik \"må Allah vara nöjd med honom sa att Allahs budbärare Muhammad ﷺ sade: \"duaa\" avvisas inte mellan adhan och iqama.\n\nعن أنس بن مالك رضي الله عنه، قال رسول الله ﷺ: \"الدعاء لا يُرد بين الأذان والإقامة';
+  String get duaaBetweenSalahAndAdhan => 'Anas ibn Malik berättade: Allahs sändebud ﷺ sade: \"Åkallelse (Du\'a) avvisas inte mellan Adhan och Iqamah, så åkalla Allah.\" (Återberättad av at-Tirmidhi)';
 
   @override
   String get salatKhayrMinaNawm => 'Assalatu khayrun min al nawm';
 
   @override
-  String get salatElEid => 'Eid-Bönen \nصلاة العيد';
+  String get salatElEid => 'Eid-Bönen';
 
   @override
   String get webView => 'Aktivera äldre läge';
@@ -430,7 +430,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get secondaryScreen => 'Sekundär skärm';
 
   @override
-  String get duaaElEftar => 'Dua El -Iftar\nدعاء الإفطار';
+  String get duaaElEftar => 'Dua El-Iftar';
 
   @override
   String get announcementOnlyMode => 'Meddelande läge ';
@@ -442,7 +442,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Välj om skärmen ska visa meddelanden hela tiden, detta kan vara användbart om du installerar skärmen vid ingången till exempel.';
 
   @override
-  String get duaaElEftarText => 'اللهم إني لك صمت وبك آمنت وعليك توكلت وعلى رزقك أفطرت. ذهب الظمأ وابتلت العروق وثبت الأجر إن شاء الله\n“O Allah, jag fastade för Din skull, jag tror på Dig, jag förlitar mig på Dig, och med Din försörjning bryter jag min fasta.\nTörsten är borta, ådrorna har blivit fuktade och belöningen är fastställd, om Allah vill.”';
+  String get duaaElEftarText => 'O Allah, jag fastade för Din skull, jag tror på Dig, jag förlitar mig på Dig, och med Din försörjning bryter jag min fasta.\nTörsten är borta, ådrorna har blivit fuktade och belöningen är fastställd, om Allah vill.';
 
   @override
   String get secondaryScreenExplanation => 'För sekundärt bönerum (t. ex. ett kvinnorum eller en annan våning) visas Fredagsbön live-sändning på denna skärm';
@@ -481,10 +481,10 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get landscapeBTNDescription => 'För horisontell orientering. Huvudlayouten för Mawaqit tv app och rekommenderas en för de flesta moskéer';
 
   @override
-  String get eidMubarak => 'Eid Mubarak- Må Allah acceptera våra goda gärningar.\n\nعيد مبارك تقبل الله منا ومنكم صالح الأعمال \n';
+  String get eidMubarak => 'Eid Mubarak - Må Allah acceptera våra goda gärningar.';
 
   @override
-  String get takbeerAleidText => 'الله أكبر، الله أكبر، الله أكبر، لا إله إلا الله، الله أكبر، الله أكبر، ولله الحمد، الله أكبر كبيرًا، والحمد لله كثيرًا، وسبحان الله بكرة وأصيلا، لا إله إلا الله وحده، صدق وعده، ونصر عبده، وأعز جنده، وهزم الأحزاب وحده، لا إله إلا الله، ولا نعبد إلا إيَّاه، مخلصين له الدين ولو كره الكافرون، اللهم صل على سيدنا محمد، وعلى آل سيدنا محمد، وعلى أصحاب سيدنا محمد، وعلى أنصار سيدنا محمد، وعلى أزواج سيدنا محمد، وعلى ذرية سيدنا محمد وسلم تسليمًا كثيرًا\nAllahu akbar, Allahu akbar, Allahu akbar, la ilaha illa Allah, Allahu akbar, Allahu akbar, wa lillahi al-hamd. Allahu akbar kabira, walhamdu lillahi kathira, wa subhanAllahi bukratan wa asila. La ilaha illa Allah wahdah, sadaqa wa’dah, wa nasara abdah, wa a’azza jundah, wa hazama al-ahzab wahdah. La ilaha illa Allah, wa la na’budu illa iyyah,\nmukhlisina lahud-din wa law karihal kafirun.\nAllahumma salli ala sayyidina Muhammad,\nwa ala aali sayyidina Muhammad,\nwa ala ashabi sayyidina Muhammad,\nwa ala ansari sayyidina Muhammad,\nwa ala azwaji sayyidina Muhammad,\nwa ala dhurriyyati sayyidina Muhammad,\nwa sallim tasliman kathira';
+  String get takbeerAleidText => 'Allahu akbar, Allahu akbar, Allahu akbar, la ilaha illa Allah, Allahu akbar, Allahu akbar, wa lillahi al-hamd. Allahu akbar kabira, walhamdu lillahi kathira, wa subhanAllahi bukratan wa asila. La ilaha illa Allah wahdah, sadaqa wa’dah, wa nasara abdah, wa a’azza jundah, wa hazama al-ahzab wahdah. La ilaha illa Allah, wa la na’budu illa iyyah,\nmukhlisina lahud-din wa law karihal kafirun.\nAllahumma salli ala sayyidina Muhammad,\nwa ala aali sayyidina Muhammad,\nwa ala ashabi sayyidina Muhammad,\nwa ala ansari sayyidina Muhammad,\nwa ala azwaji sayyidina Muhammad,\nwa ala dhurriyyati sayyidina Muhammad,\nwa sallim tasliman kathira';
 
   @override
   String get settings => 'Inställningar';
@@ -508,7 +508,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get recommended => 'Rekommenderad';
 
   @override
-  String get sabah => 'Fajr bönen ';
+  String get sabah => 'Sabah';
 
   @override
   String get randomHadithLanguage => 'Slumpmässigt hadith språk';
@@ -1003,10 +1003,10 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get scheduleInOnlineMode => 'Vänligen anslut till internet för att schemalägga Koran lyssnaren ';
 
   @override
-  String get duaaBetweenAdhanAndIqamaaTitle => 'عن أنس بن مالك رضي الله عنه قال: قال رسول الله ﷺ\nالدُّعاءُ لا يُرَدُّ بينَ الأذانِ والإقامةِ\n\nÅkallelse (Du\'a) avvisas inte mellan Adhan och Iqama';
+  String get duaaBetweenAdhanAndIqamaaTitle => 'Åkallelse (Du\'a) avvisas inte mellan Adhan och Iqama';
 
   @override
-  String get duaBetweenAdhanIqamah => 'عن أنس بن مالك رضي الله عنه قال: قال رسول الله ﷺ\nالدُّعاءُ لا يُرَدُّ بينَ الأذانِ والإقامةِ\n\nÅkallelse (Du\'a) avvisas inte mellan Adhan och Iqama.';
+  String get duaBetweenAdhanIqamah => 'Åkallelse (Du\'a) avvisas inte mellan Adhan och Iqama.';
 
   @override
   String get processingRequest => 'Bearbetar förfrågan...';
