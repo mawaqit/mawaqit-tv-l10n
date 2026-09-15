@@ -744,7 +744,7 @@ abstract class MawaqitTvLocalizations {
   /// No description provided for @shuruk.
   ///
   /// In en, this message translates to:
-  /// **'Shuruk'**
+  /// **'Sunrise'**
   String get shuruk;
 
   /// No description provided for @duha.
