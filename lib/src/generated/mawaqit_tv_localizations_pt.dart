@@ -286,7 +286,7 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get jumuaaHadith => 'The Prophet ﷺ (peace and blessings of Allah be upon him) said “Whoever does the ablutions perfectly then goes to jumua and then listens and is silent, he is forgiven what is between that time and the following Friday and three more days and the one who touches stones has certainly made a futility”';
 
   @override
-  String get shuruk => 'Shuruk';
+  String get shuruk => 'Sunrise';
 
   @override
   String get duha => 'Duha';
@@ -1099,10 +1099,10 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display';
+  String get appDisplayMode => 'Mostrar';
 
   @override
-  String get appDisplayModeExplanation => 'Choose how your screen will display content';
+  String get appDisplayModeExplanation => 'Escolha como o ecrã irá apresentar o conteúdo';
 
   @override
   String get exitQuranModeTitle => 'Exit Quran Mode';
@@ -1164,22 +1164,22 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get tutorialFullTutorial => 'Full tutorial';
 
   @override
-  String get prayerTimeFontSize => 'Text & display size';
+  String get prayerTimeFontSize => 'Tamanho do texto e do ecrã';
 
   @override
-  String get prayerTimeFontSizeDesc => 'Change how large the text appears throughout the app';
+  String get prayerTimeFontSizeDesc => 'Altere o tamanho do texto apresentado em toda a aplicação';
 
   @override
-  String get fontSizeSmall => 'Small';
+  String get fontSizeSmall => 'Pequeno';
 
   @override
   String get fontSizeNormal => 'Normal';
 
   @override
-  String get fontSizeLarge => 'Large';
+  String get fontSizeLarge => 'Grande';
 
   @override
-  String get fontSizeXLarge => 'Extra Large';
+  String get fontSizeXLarge => 'Muito grande';
 
   @override
   String get athkarArabicFont => 'Athkar Arabic font';
@@ -2213,6 +2213,12 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get testAITranslation => 'Este é um texto de teste para verificar se a tradução AI está funcionando corretamente';
 
   @override
+  String get appDisplayMode => 'Tela';
+
+  @override
+  String get appDisplayModeExplanation => 'Escolha como a tela vai exibir o conteúdo';
+
+  @override
   String get settingsSectionGlobal => 'Global';
 
   @override
@@ -2232,6 +2238,24 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
 
   @override
   String get wifi => 'WiFi';
+
+  @override
+  String get prayerTimeFontSize => 'Tamanho do texto e da tela';
+
+  @override
+  String get prayerTimeFontSizeDesc => 'Altere o tamanho do texto em todo o aplicativo';
+
+  @override
+  String get fontSizeSmall => 'Pequeno';
+
+  @override
+  String get fontSizeNormal => 'Normal';
+
+  @override
+  String get fontSizeLarge => 'Grande';
+
+  @override
+  String get fontSizeXLarge => 'Muito grande';
 }
 
 /// The translations for Portuguese, as used in Portugal (`pt_PT`).

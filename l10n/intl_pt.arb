@@ -11,5 +11,13 @@
   "wifi": "WiFi",
   "holdOkToStop": "Segure OK para parar",
   "countdownPrayer": "{name} Azán em {time}",
-  "countdownNonPrayer": "{name} em {time}"
+  "countdownNonPrayer": "{name} em {time}",
+  "appDisplayMode": "Mostrar",
+  "appDisplayModeExplanation": "Escolha como o ecrã irá apresentar o conteúdo",
+  "prayerTimeFontSize": "Tamanho do texto e do ecrã",
+  "prayerTimeFontSizeDesc": "Altere o tamanho do texto apresentado em toda a aplicação",
+  "fontSizeSmall": "Pequeno",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Grande",
+  "fontSizeXLarge": "Muito grande"
 }

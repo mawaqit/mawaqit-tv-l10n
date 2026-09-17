@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Waktu solat utama",
   "launchModeSecondaryPrayer": "Waktu solat sekunder",
   "timezone": "Zon masa",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Paparan",
+  "appDisplayModeExplanation": "Pilih cara skrin anda memaparkan kandungan",
+  "prayerTimeFontSize": "Saiz paparan dan teks",
+  "prayerTimeFontSizeDesc": "Tukar saiz teks di seluruh aplikasi",
+  "fontSizeSmall": "Kecil",
+  "fontSizeNormal": "Sederhana",
+  "fontSizeLarge": "Besar",
+  "fontSizeXLarge": "Sangat besar"
 }

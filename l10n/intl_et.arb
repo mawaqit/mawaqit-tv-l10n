@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Peamised palveajad",
   "launchModeSecondaryPrayer": "Sekundaarsed palveajad",
   "timezone": "Ajavöönd",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Ekraan",
+  "appDisplayModeExplanation": "Valige, kuidas ekraan sisu kuvab",
+  "prayerTimeFontSize": "Teksti ja kuvamissuurus",
+  "prayerTimeFontSizeDesc": "Muutke teksti suurust kogu rakenduses",
+  "fontSizeSmall": "Väike",
+  "fontSizeNormal": "Tavaline",
+  "fontSizeLarge": "Suur",
+  "fontSizeXLarge": "Väga suur"
 }

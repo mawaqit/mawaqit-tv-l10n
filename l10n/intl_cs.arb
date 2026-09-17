@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Hlavní časy modliteb",
   "launchModeSecondaryPrayer": "Vedlejší časy modliteb",
   "timezone": "Časové pásmo",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Displej",
+  "appDisplayModeExplanation": "Vyberte, jak bude obrazovka zobrazovat obsah",
+  "prayerTimeFontSize": "Velikost textu a zobrazení",
+  "prayerTimeFontSizeDesc": "Změňte velikost textu v celé aplikaci",
+  "fontSizeSmall": "Malé",
+  "fontSizeNormal": "Normální",
+  "fontSizeLarge": "Velké",
+  "fontSizeXLarge": "Velmi velké"
 }

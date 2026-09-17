@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "முக்கிய தொழுகை நேரங்கள்",
   "launchModeSecondaryPrayer": "இரண்டாம் நிலை தொழுகை நேரங்கள்",
   "timezone": "நேர மண்டலம்",
-  "wifi": "வைஃபை"
+  "wifi": "வைஃபை",
+  "appDisplayMode": "திரை அமைப்பு",
+  "appDisplayModeExplanation": "உங்கள் திரை உள்ளடக்கத்தை எப்படிக் காட்ட வேண்டும் எனத் தேர்ந்தெடுக்கவும்",
+  "prayerTimeFontSize": "காட்சி அளவும் எழுத்தளவும்",
+  "prayerTimeFontSizeDesc": "ஆப்ஸ் முழுவதும் எழுத்தின் அளவை மாற்றவும்",
+  "fontSizeSmall": "சிறியது",
+  "fontSizeNormal": "இயல்பு",
+  "fontSizeLarge": "பெரியது",
+  "fontSizeXLarge": "மிகப் பெரியது"
 }

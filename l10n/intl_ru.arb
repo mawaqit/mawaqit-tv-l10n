@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Основные времена намаза",
   "launchModeSecondaryPrayer": "Дополнительные времена намаза",
   "timezone": "Часовой пояс",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Экран",
+  "appDisplayModeExplanation": "Выберите, как экран будет отображать контент",
+  "prayerTimeFontSize": "Размер текста и экрана",
+  "prayerTimeFontSizeDesc": "Измените размер текста во всём приложении",
+  "fontSizeSmall": "Мелкий",
+  "fontSizeNormal": "Обычный",
+  "fontSizeLarge": "Крупный",
+  "fontSizeXLarge": "Очень крупный"
 }

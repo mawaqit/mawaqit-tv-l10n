@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Giờ cầu nguyện chính",
   "launchModeSecondaryPrayer": "Giờ cầu nguyện phụ",
   "timezone": "Múi giờ",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Màn hình",
+  "appDisplayModeExplanation": "Chọn cách màn hình hiển thị nội dung",
+  "prayerTimeFontSize": "Văn bản và kích thước hiển thị",
+  "prayerTimeFontSizeDesc": "Thay đổi cỡ chữ trong toàn bộ ứng dụng",
+  "fontSizeSmall": "Nhỏ",
+  "fontSizeNormal": "Vừa",
+  "fontSizeLarge": "Lớn",
+  "fontSizeXLarge": "Rất lớn"
 }

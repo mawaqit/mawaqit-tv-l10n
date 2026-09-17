@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Основні часи намазу",
   "launchModeSecondaryPrayer": "Додаткові часи намазу",
   "timezone": "Часовий пояс",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Екран",
+  "appDisplayModeExplanation": "Виберіть, як ваш екран показуватиме вміст",
+  "prayerTimeFontSize": "Розмір тексту та екрана",
+  "prayerTimeFontSizeDesc": "Змініть розмір тексту в усьому додатку",
+  "fontSizeSmall": "Малий",
+  "fontSizeNormal": "Звичайний",
+  "fontSizeLarge": "Великий",
+  "fontSizeXLarge": "Дуже великий"
 }

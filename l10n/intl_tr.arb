@@ -510,7 +510,7 @@
   "@quranModeExplanation": {
     "description": "Explanation text for the Quran mode option"
   },
-  "appDisplayMode": "Göster",
+  "appDisplayMode": "Ekran",
   "@appDisplayMode": {
     "description": "Title for the display mode setting"
   },
@@ -599,7 +599,7 @@
   "@tutorialFullTutorial": {
     "description": "Label for the full video tutorial section"
   },
-  "prayerTimeFontSize": "Metin ve ekran boyutu",
+  "prayerTimeFontSize": "Metin ve görüntü boyutu",
   "@prayerTimeFontSize": {
     "description": "Label for the app font size setting"
   },
@@ -615,7 +615,7 @@
   "@fontSizeNormal": {
     "description": "Normal font size option"
   },
-  "fontSizeLarge": "Large",
+  "fontSizeLarge": "Büyük",
   "@fontSizeLarge": {
     "description": "Large font size option"
   },

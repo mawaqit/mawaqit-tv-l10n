@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Orele principale de rugăciune",
   "launchModeSecondaryPrayer": "Orele secundare de rugăciune",
   "timezone": "Fus orar",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Afișaj",
+  "appDisplayModeExplanation": "Alegeți cum va afișa ecranul conținutul",
+  "prayerTimeFontSize": "Dimensiunea textului și a afișajului",
+  "prayerTimeFontSizeDesc": "Modificați dimensiunea textului în toată aplicația",
+  "fontSizeSmall": "Mică",
+  "fontSizeNormal": "Normală",
+  "fontSizeLarge": "Mare",
+  "fontSizeXLarge": "Foarte mare"
 }

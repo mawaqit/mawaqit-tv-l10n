@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Hoved bønnetider",
   "launchModeSecondaryPrayer": "Sekundære bønnetider",
   "timezone": "Tidszone",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Skærm",
+  "appDisplayModeExplanation": "Vælg, hvordan din skærm skal vise indhold",
+  "prayerTimeFontSize": "Tekst- og skærmstørrelse",
+  "prayerTimeFontSizeDesc": "Ændr, hvor stor teksten vises i hele appen",
+  "fontSizeSmall": "Lille",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Stor",
+  "fontSizeXLarge": "Ekstra stor"
 }

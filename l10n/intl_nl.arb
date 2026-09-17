@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Hoofd gebedsijden",
   "launchModeSecondaryPrayer": "Secundaire gebedsijden",
   "timezone": "Tijdzone",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Scherm",
+  "appDisplayModeExplanation": "Kies hoe uw scherm inhoud weergeeft",
+  "prayerTimeFontSize": "Tekst- en weergavegrootte",
+  "prayerTimeFontSizeDesc": "Wijzig hoe groot de tekst in de hele app wordt weergegeven",
+  "fontSizeSmall": "Klein",
+  "fontSizeNormal": "Normaal",
+  "fontSizeLarge": "Groot",
+  "fontSizeXLarge": "Zeer groot"
 }

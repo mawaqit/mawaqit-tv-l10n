@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "اہم نماز اوقات",
   "launchModeSecondaryPrayer": "ثانوی نماز اوقات",
   "timezone": "ٹائم زون",
-  "wifi": "وائی فائی"
+  "wifi": "وائی فائی",
+  "appDisplayMode": "ڈسپلے",
+  "appDisplayModeExplanation": "منتخب کریں کہ آپ کی اسکرین مواد کو کیسے دکھائے",
+  "prayerTimeFontSize": "متن اور ڈسپلے کا سائز",
+  "prayerTimeFontSizeDesc": "پوری ایپ میں متن کا سائز تبدیل کریں",
+  "fontSizeSmall": "چھوٹا",
+  "fontSizeNormal": "عام",
+  "fontSizeLarge": "بڑا",
+  "fontSizeXLarge": "بہت بڑا"
 }

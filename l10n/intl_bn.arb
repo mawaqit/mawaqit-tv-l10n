@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "প্রধান নামাজের সময়",
   "launchModeSecondaryPrayer": "মাধ্যমিক নামাজের সময়",
   "timezone": "সময় অঞ্চল",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "ডিসপ্লে",
+  "appDisplayModeExplanation": "আপনার স্ক্রিন কীভাবে কনটেন্ট দেখাবে তা বেছে নিন",
+  "prayerTimeFontSize": "টেক্সট ও ডিসপ্লে সাইজ",
+  "prayerTimeFontSizeDesc": "পুরো অ্যাপে টেক্সট কত বড় দেখাবে তা পরিবর্তন করুন",
+  "fontSizeSmall": "ছোট",
+  "fontSizeNormal": "সাধারণ",
+  "fontSizeLarge": "বড়",
+  "fontSizeXLarge": "খুব বড়"
 }

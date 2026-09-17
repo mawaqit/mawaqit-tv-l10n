@@ -183,5 +183,13 @@
   "launchModeSecondaryPrayer": "Horaris secundaris de pregària",
   "timezone": "Zona horària",
   "wifi": "WiFi",
-  "holdOkToStop": "Manteniu OK per aturar"
+  "holdOkToStop": "Manteniu OK per aturar",
+  "appDisplayMode": "Visualització",
+  "appDisplayModeExplanation": "Trieu com la pantalla mostrarà el contingut",
+  "prayerTimeFontSize": "Mida del text i de la visualització",
+  "prayerTimeFontSizeDesc": "Canvieu la mida del text a tota l'aplicació",
+  "fontSizeSmall": "Petit",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Gran",
+  "fontSizeXLarge": "Molt gran"
 }

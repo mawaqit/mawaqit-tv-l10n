@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "મુખ્ય નમાઝ સમય",
   "launchModeSecondaryPrayer": "ગૌણ નમાઝ સમય",
   "timezone": "સમય ઝોન",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "ડિસ્પ્લે",
+  "appDisplayModeExplanation": "તમારી સ્ક્રીન કન્ટેન્ટ કેવી રીતે બતાવશે તે પસંદ કરો",
+  "prayerTimeFontSize": "ટેક્સ્ટ અને ડિસ્પ્લેનું કદ",
+  "prayerTimeFontSizeDesc": "આખી ઍપમાં ટેક્સ્ટ કેટલું મોટું દેખાય તે બદલો",
+  "fontSizeSmall": "નાનું",
+  "fontSizeNormal": "સામાન્ય",
+  "fontSizeLarge": "મોટું",
+  "fontSizeXLarge": "ઘણું મોટું"
 }

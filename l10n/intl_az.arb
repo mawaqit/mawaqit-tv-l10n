@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Əsas namaz vaxtları",
   "launchModeSecondaryPrayer": "İkinci dərəcəli namaz vaxtları",
   "timezone": "Saat qurşağı",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Ekran",
+  "appDisplayModeExplanation": "Ekranınızın məzmunu necə göstərəcəyini seçin",
+  "prayerTimeFontSize": "Mətn və ekran ölçüsü",
+  "prayerTimeFontSizeDesc": "Tətbiq boyunca mətnin nə qədər böyük göründüyünü dəyişin",
+  "fontSizeSmall": "Kiçik",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Böyük",
+  "fontSizeXLarge": "Çox böyük"
 }

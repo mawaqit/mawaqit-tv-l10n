@@ -183,5 +183,13 @@
   "launchModeSecondaryPrayer": "Икенсел намаҙ ваҡыттары",
   "timezone": "Ваҡыт бүлкәте",
   "wifi": "WiFi",
-  "holdOkToStop": "OK тотоп туҡтатырға"
+  "holdOkToStop": "OK тотоп туҡтатырға",
+  "appDisplayMode": "Экран",
+  "appDisplayModeExplanation": "Экранығыҙҙың эстәлекте нисек күрһәтеүен һайлағыҙ",
+  "prayerTimeFontSize": "Текст һәм экран үлсәме",
+  "prayerTimeFontSizeDesc": "Ҡушымтала текстың күпме ҙур күренеүен үҙгәртегеҙ",
+  "fontSizeSmall": "Бәләкәй",
+  "fontSizeNormal": "Ғәҙәти",
+  "fontSizeLarge": "Ҙур",
+  "fontSizeXLarge": "Бик ҙур"
 }

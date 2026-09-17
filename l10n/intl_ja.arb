@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "主な礼拝時間",
   "launchModeSecondaryPrayer": "補助礼拝時間",
   "timezone": "タイムゾーン",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "ディスプレイ",
+  "appDisplayModeExplanation": "コンテンツの表示方法を選択します",
+  "prayerTimeFontSize": "表示サイズとテキスト",
+  "prayerTimeFontSizeDesc": "アプリ全体のテキストの大きさを変更します",
+  "fontSizeSmall": "小",
+  "fontSizeNormal": "中",
+  "fontSizeLarge": "大",
+  "fontSizeXLarge": "特大"
 }

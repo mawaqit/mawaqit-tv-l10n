@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Horarios principales de oración",
   "launchModeSecondaryPrayer": "Horarios secundarios de oración",
   "timezone": "Zona horaria",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Pantalla",
+  "appDisplayModeExplanation": "Elige cómo mostrará el contenido tu pantalla",
+  "prayerTimeFontSize": "Tamaño del texto y de visualización",
+  "prayerTimeFontSizeDesc": "Cambia el tamaño del texto en toda la aplicación",
+  "fontSizeSmall": "Pequeño",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Grande",
+  "fontSizeXLarge": "Muy grande"
 }

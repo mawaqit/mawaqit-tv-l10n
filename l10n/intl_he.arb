@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "זמני תפילה ראשיים",
   "launchModeSecondaryPrayer": "זמני תפילה משניים",
   "timezone": "אזור זמן",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "תצוגה",
+  "appDisplayModeExplanation": "בחר כיצד המסך יציג את התוכן",
+  "prayerTimeFontSize": "גודל טקסט ותצוגה",
+  "prayerTimeFontSizeDesc": "שנה את גודל הטקסט בכל האפליקציה",
+  "fontSizeSmall": "קטן",
+  "fontSizeNormal": "רגיל",
+  "fontSizeLarge": "גדול",
+  "fontSizeXLarge": "גדול מאוד"
 }

@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Главна времена намаза",
   "launchModeSecondaryPrayer": "Секундарна времена намаза",
   "timezone": "Временска зона",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Ekran",
+  "appDisplayModeExplanation": "Izaberite kako će vaš ekran prikazivati sadržaj",
+  "prayerTimeFontSize": "Veličina teksta i prikaza",
+  "prayerTimeFontSizeDesc": "Promenite veličinu teksta u celoj aplikaciji",
+  "fontSizeSmall": "Mala",
+  "fontSizeNormal": "Normalna",
+  "fontSizeLarge": "Velika",
+  "fontSizeXLarge": "Veoma velika"
 }

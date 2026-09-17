@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Oraret kryesore të namazit",
   "launchModeSecondaryPrayer": "Oraret dytësore të namazit",
   "timezone": "Zona kohore",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Ekrani",
+  "appDisplayModeExplanation": "Zgjidhni si do ta shfaqë përmbajtjen ekrani juaj",
+  "prayerTimeFontSize": "Madhësia e tekstit dhe e ekranit",
+  "prayerTimeFontSizeDesc": "Ndryshoni sa i madh shfaqet teksti në të gjithë aplikacionin",
+  "fontSizeSmall": "E vogël",
+  "fontSizeNormal": "Normale",
+  "fontSizeLarge": "E madhe",
+  "fontSizeXLarge": "Shumë e madhe"
 }

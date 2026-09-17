@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "اوقات نماز اصلی",
   "launchModeSecondaryPrayer": "اوقات نماز فرعی",
   "timezone": "منطقه زمانی",
-  "wifi": "وای‌فای"
+  "wifi": "وای‌فای",
+  "appDisplayMode": "صفحه‌نمایش",
+  "appDisplayModeExplanation": "انتخاب کنید صفحه‌نمایش شما چگونه محتوا را نشان دهد",
+  "prayerTimeFontSize": "اندازه متن و نمایش",
+  "prayerTimeFontSizeDesc": "اندازه متن را در سراسر برنامه تغییر دهید",
+  "fontSizeSmall": "کوچک",
+  "fontSizeNormal": "معمولی",
+  "fontSizeLarge": "بزرگ",
+  "fontSizeXLarge": "بسیار بزرگ"
 }

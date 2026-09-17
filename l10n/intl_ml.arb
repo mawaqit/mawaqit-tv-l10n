@@ -446,5 +446,13 @@
   },
   "scheduleInOnlineMode": "ഖുർആൻ ശ്രവണം ഷെഡ്യൂൾ ചെയ്യാൻ ഇന്റർനെറ്റിൽ കണക്‌ട് ചെയ്യൂ",
   "duaaBetweenAdhanAndIqamaaTitle": "അദാനും ഇഖാമയും തമ്മിൽ ദുആ നിരസ്‌തമാകുന്നില്ല",
-  "duaBetweenAdhanIqamah": "അദാനും ഇഖാമയും തമ്മിൽ ചെയ്യുന്ന ദുആ നിരസ്‌തമാകുന്നില്ല."
+  "duaBetweenAdhanIqamah": "അദാനും ഇഖാമയും തമ്മിൽ ചെയ്യുന്ന ദുആ നിരസ്‌തമാകുന്നില്ല.",
+  "appDisplayMode": "ഡിസ്‌പ്ലേ",
+  "appDisplayModeExplanation": "നിങ്ങളുടെ സ്‌ക്രീൻ ഉള്ളടക്കം എങ്ങനെ കാണിക്കണമെന്ന് തിരഞ്ഞെടുക്കൂ",
+  "prayerTimeFontSize": "ടെക്‌സ്റ്റ്, ഡിസ്‌പ്ലേ വലുപ്പം",
+  "prayerTimeFontSizeDesc": "ആപ്പിലുടനീളം ടെക്‌സ്റ്റിന്റെ വലുപ്പം മാറ്റൂ",
+  "fontSizeSmall": "ചെറുത്",
+  "fontSizeNormal": "സാധാരണം",
+  "fontSizeLarge": "വലുത്",
+  "fontSizeXLarge": "വളരെ വലുത്"
 }

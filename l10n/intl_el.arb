@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Κύριες ώρες προσευχής",
   "launchModeSecondaryPrayer": "Δευτερεύουσες ώρες προσευχής",
   "timezone": "Ζώνη ώρας",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Οθόνη",
+  "appDisplayModeExplanation": "Επιλέξτε πώς θα εμφανίζει το περιεχόμενο η οθόνη σας",
+  "prayerTimeFontSize": "Μέγεθος κειμένου και προβολής",
+  "prayerTimeFontSizeDesc": "Αλλάξτε πόσο μεγάλο εμφανίζεται το κείμενο σε όλη την εφαρμογή",
+  "fontSizeSmall": "Μικρό",
+  "fontSizeNormal": "Κανονικό",
+  "fontSizeLarge": "Μεγάλο",
+  "fontSizeXLarge": "Πολύ μεγάλο"
 }

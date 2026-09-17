@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "주요 기도 시간",
   "launchModeSecondaryPrayer": "보조 기도 시간",
   "timezone": "시간대",
-  "wifi": "와이파이"
+  "wifi": "와이파이",
+  "appDisplayMode": "디스플레이",
+  "appDisplayModeExplanation": "화면에 콘텐츠를 표시하는 방식을 선택하세요",
+  "prayerTimeFontSize": "디스플레이 크기 및 텍스트",
+  "prayerTimeFontSizeDesc": "앱 전체의 텍스트 크기를 변경합니다",
+  "fontSizeSmall": "작게",
+  "fontSizeNormal": "보통",
+  "fontSizeLarge": "크게",
+  "fontSizeXLarge": "아주 크게"
 }

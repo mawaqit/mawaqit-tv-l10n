@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "मुख्य नमाज़ समय",
   "launchModeSecondaryPrayer": "द्वितीयक नमाज़ समय",
   "timezone": "समय क्षेत्र",
-  "wifi": "वाईफाई"
+  "wifi": "वाईफाई",
+  "appDisplayMode": "डिसप्ले",
+  "appDisplayModeExplanation": "चुनें कि आपकी स्क्रीन कॉन्टेंट कैसे दिखाएगी",
+  "prayerTimeFontSize": "टेक्स्ट और डिसप्ले साइज़",
+  "prayerTimeFontSizeDesc": "पूरे ऐप में टेक्स्ट का साइज़ बदलें",
+  "fontSizeSmall": "छोटा",
+  "fontSizeNormal": "सामान्य",
+  "fontSizeLarge": "बड़ा",
+  "fontSizeXLarge": "बहुत बड़ा"
 }

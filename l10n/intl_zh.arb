@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "主要礼拜时间",
   "launchModeSecondaryPrayer": "次要礼拜时间",
   "timezone": "时区",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "显示",
+  "appDisplayModeExplanation": "选择屏幕显示内容的方式",
+  "prayerTimeFontSize": "显示大小和文字",
+  "prayerTimeFontSizeDesc": "更改应用内文字的显示大小",
+  "fontSizeSmall": "小",
+  "fontSizeNormal": "中",
+  "fontSizeLarge": "大",
+  "fontSizeXLarge": "超大"
 }

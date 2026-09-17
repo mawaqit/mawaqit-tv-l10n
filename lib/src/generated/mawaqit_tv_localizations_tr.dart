@@ -1099,7 +1099,7 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Son okunan sayfadan başlayarak Kur’an okuma ekranını göster';
 
   @override
-  String get appDisplayMode => 'Göster';
+  String get appDisplayMode => 'Ekran';
 
   @override
   String get appDisplayModeExplanation => 'Ekranınızın içeriği nasıl göstereceğini seçin';
@@ -1164,7 +1164,7 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get tutorialFullTutorial => 'Tam Kılavuz';
 
   @override
-  String get prayerTimeFontSize => 'Metin ve ekran boyutu';
+  String get prayerTimeFontSize => 'Metin ve görüntü boyutu';
 
   @override
   String get prayerTimeFontSizeDesc => 'Metnin uygulama genelinde ne kadar büyük görüneceğini değiştirin';
@@ -1176,7 +1176,7 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get fontSizeNormal => 'Normal';
 
   @override
-  String get fontSizeLarge => 'Large';
+  String get fontSizeLarge => 'Büyük';
 
   @override
   String get fontSizeXLarge => 'Ekstra büyük';

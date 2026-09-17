@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Fő imaidők",
   "launchModeSecondaryPrayer": "Másodlagos imaidők",
   "timezone": "Időzóna",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Megjelenítés",
+  "appDisplayModeExplanation": "Válaszd ki, hogyan jelenjen meg a tartalom a képernyőn",
+  "prayerTimeFontSize": "Szöveg- és megjelenítési méret",
+  "prayerTimeFontSizeDesc": "Módosítsd a szöveg méretét az egész alkalmazásban",
+  "fontSizeSmall": "Kicsi",
+  "fontSizeNormal": "Normál",
+  "fontSizeLarge": "Nagy",
+  "fontSizeXLarge": "Nagyon nagy"
 }

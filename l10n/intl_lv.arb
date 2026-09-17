@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Galvenie lūgšanu laiki",
   "launchModeSecondaryPrayer": "Sekundārie lūgšanu laiki",
   "timezone": "Laika zona",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Ekrāns",
+  "appDisplayModeExplanation": "Izvēlieties, kā ekrānā tiks rādīts saturs",
+  "prayerTimeFontSize": "Teksta un displeja lielums",
+  "prayerTimeFontSizeDesc": "Mainiet teksta lielumu visā lietotnē",
+  "fontSizeSmall": "Mazs",
+  "fontSizeNormal": "Parasts",
+  "fontSizeLarge": "Liels",
+  "fontSizeXLarge": "Ļoti liels"
 }

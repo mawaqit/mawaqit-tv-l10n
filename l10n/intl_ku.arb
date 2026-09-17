@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Demên nimêja sereke",
   "launchModeSecondaryPrayer": "Demên nimêja duyemîn",
   "timezone": "Herêma demê",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "شاشە",
+  "appDisplayModeExplanation": "هەڵبژێرە شاشەکەت چۆن ناوەڕۆک پیشان بدات",
+  "prayerTimeFontSize": "قەبارەی دەق و پیشاندان",
+  "prayerTimeFontSizeDesc": "قەبارەی دەق بگۆڕە لە هەموو بەرنامەکەدا",
+  "fontSizeSmall": "بچووک",
+  "fontSizeNormal": "ئاسایی",
+  "fontSizeLarge": "گەورە",
+  "fontSizeXLarge": "زۆر گەورە"
 }

@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Hauptgebetszeiten",
   "launchModeSecondaryPrayer": "Sekundäre Gebetszeiten",
   "timezone": "Zeitzone",
-  "wifi": "WLAN"
+  "wifi": "WLAN",
+  "appDisplayMode": "Display",
+  "appDisplayModeExplanation": "Wählen Sie, wie Ihr Bildschirm Inhalte anzeigt",
+  "prayerTimeFontSize": "Text- und Anzeigegröße",
+  "prayerTimeFontSizeDesc": "Ändern Sie, wie groß der Text in der gesamten App angezeigt wird",
+  "fontSizeSmall": "Klein",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Groß",
+  "fontSizeXLarge": "Sehr groß"
 }

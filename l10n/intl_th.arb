@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "เวลาละหมาดหลัก",
   "launchModeSecondaryPrayer": "เวลาละหมาดรอง",
   "timezone": "เขตเวลา",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "การแสดงผล",
+  "appDisplayModeExplanation": "เลือกวิธีแสดงเนื้อหาบนหน้าจอของคุณ",
+  "prayerTimeFontSize": "ขนาดการแสดงผลและข้อความ",
+  "prayerTimeFontSizeDesc": "เปลี่ยนขนาดข้อความทั้งแอป",
+  "fontSizeSmall": "เล็ก",
+  "fontSizeNormal": "ปานกลาง",
+  "fontSizeLarge": "ใหญ่",
+  "fontSizeXLarge": "ใหญ่มาก"
 }

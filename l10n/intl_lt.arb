@@ -485,5 +485,13 @@
   "launchModeMainPrayer": "Pagrindiniai maldų laikai",
   "launchModeSecondaryPrayer": "Antriniai maldų laikai",
   "timezone": "Laiko juosta",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Ekranas",
+  "appDisplayModeExplanation": "Pasirinkite, kaip ekrane bus rodomas turinys",
+  "prayerTimeFontSize": "Teksto ir ekrano dydis",
+  "prayerTimeFontSizeDesc": "Keiskite teksto dydį visoje programoje",
+  "fontSizeSmall": "Mažas",
+  "fontSizeNormal": "Įprastas",
+  "fontSizeLarge": "Didelis",
+  "fontSizeXLarge": "Labai didelis"
 }

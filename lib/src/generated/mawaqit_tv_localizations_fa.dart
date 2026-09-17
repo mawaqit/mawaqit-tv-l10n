@@ -1099,10 +1099,10 @@ class MawaqitTvLocalizationsFa extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display';
+  String get appDisplayMode => 'صفحه‌نمایش';
 
   @override
-  String get appDisplayModeExplanation => 'Choose how your screen will display content';
+  String get appDisplayModeExplanation => 'انتخاب کنید صفحه‌نمایش شما چگونه محتوا را نشان دهد';
 
   @override
   String get exitQuranModeTitle => 'Exit Quran Mode';
@@ -1164,22 +1164,22 @@ class MawaqitTvLocalizationsFa extends MawaqitTvLocalizations {
   String get tutorialFullTutorial => 'Full tutorial';
 
   @override
-  String get prayerTimeFontSize => 'Text & display size';
+  String get prayerTimeFontSize => 'اندازه متن و نمایش';
 
   @override
-  String get prayerTimeFontSizeDesc => 'Change how large the text appears throughout the app';
+  String get prayerTimeFontSizeDesc => 'اندازه متن را در سراسر برنامه تغییر دهید';
 
   @override
-  String get fontSizeSmall => 'Small';
+  String get fontSizeSmall => 'کوچک';
 
   @override
-  String get fontSizeNormal => 'Normal';
+  String get fontSizeNormal => 'معمولی';
 
   @override
-  String get fontSizeLarge => 'Large';
+  String get fontSizeLarge => 'بزرگ';
 
   @override
-  String get fontSizeXLarge => 'Extra Large';
+  String get fontSizeXLarge => 'بسیار بزرگ';
 
   @override
   String get athkarArabicFont => 'Athkar Arabic font';
