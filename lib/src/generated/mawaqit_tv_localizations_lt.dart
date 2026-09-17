@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsLt extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Rodyti dabartinį laiką ir datą ikamos atgalinės atskaitos ekrane';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'Maldų laikų perėjimas';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'Pasirinkite, kaip maldų laikai pereina prie rytojaus tvarkaraščio';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'Kiekviena malda atskirai';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'Visos kartu po Isha';
 
   @override
   String get alAthkar => 'Al-Athkar';
@@ -1099,10 +1099,10 @@ class MawaqitTvLocalizationsLt extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display';
+  String get appDisplayMode => 'Ekranas';
 
   @override
-  String get appDisplayModeExplanation => 'Choose how your screen will display content';
+  String get appDisplayModeExplanation => 'Pasirinkite, kaip ekrane bus rodomas turinys';
 
   @override
   String get exitQuranModeTitle => 'Exit Quran Mode';
@@ -1164,28 +1164,28 @@ class MawaqitTvLocalizationsLt extends MawaqitTvLocalizations {
   String get tutorialFullTutorial => 'Full tutorial';
 
   @override
-  String get prayerTimeFontSize => 'Text & display size';
+  String get prayerTimeFontSize => 'Teksto ir ekrano dydis';
 
   @override
-  String get prayerTimeFontSizeDesc => 'Change how large the text appears throughout the app';
+  String get prayerTimeFontSizeDesc => 'Keiskite teksto dydį visoje programoje';
 
   @override
-  String get fontSizeSmall => 'Small';
+  String get fontSizeSmall => 'Mažas';
 
   @override
-  String get fontSizeNormal => 'Normal';
+  String get fontSizeNormal => 'Įprastas';
 
   @override
-  String get fontSizeLarge => 'Large';
+  String get fontSizeLarge => 'Didelis';
 
   @override
-  String get fontSizeXLarge => 'Extra Large';
+  String get fontSizeXLarge => 'Labai didelis';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'Arabiškas Athkar šriftas';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'Pasirinkite arabišką šriftą, naudojamą Athkar (po maldos, adhano, Jumua, hadiso...)';
 
   @override
   String get athkarFontKufi => 'Kufi';

@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama tra",
   "iqamaShowClock": "Mostra orologio sulla schermata Iqama",
   "iqamaShowClockDesc": "Visualizza l'ora e la data attuali sulla schermata del conto alla rovescia dell'Iqama",
+  "perPrayerRollover": "Cambio orari di preghiera",
+  "perPrayerRolloverDesc": "Scegli come gli orari di preghiera passano a quelli di domani",
+  "perPrayerRolloverOptionPerPrayer": "Ogni preghiera singolarmente",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Orari principali di preghiera",
   "launchModeSecondaryPrayer": "Orari secondari di preghiera",
   "timezone": "Fuso orario",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Display",
+  "appDisplayModeExplanation": "Scegli come lo schermo mostrerà i contenuti",
+  "prayerTimeFontSize": "Dimensioni testo e display",
+  "prayerTimeFontSizeDesc": "Modifica la dimensione del testo in tutta l'app",
+  "fontSizeSmall": "Piccolo",
+  "fontSizeNormal": "Normale",
+  "fontSizeLarge": "Grande",
+  "fontSizeXLarge": "Molto grande",
+  "athkarArabicFont": "Font arabo degli Azkar",
+  "athkarArabicFontDesc": "Scegli il font arabo usato per gli Azkar (dopo la preghiera, l'adhan, la Jumua, il hadith...)",
+  "athkarFontKufi": "Cufico",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Tutte insieme dopo l'Isha"
 }

@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama in",
   "iqamaShowClock": "הצג שעון במסך איקאמה",
   "iqamaShowClockDesc": "הצג את השעה והתאריך הנוכחיים במסך ספירת האיקאמה",
+  "perPrayerRollover": "מעבר זמני התפילה",
+  "perPrayerRolloverDesc": "בחר כיצד זמני התפילה עוברים ללוח של מחר",
+  "perPrayerRolloverOptionPerPrayer": "כל תפילה בנפרד",
   "alAthkar": "Al-Athkar",
   "azkarList0": "אַסְתַּעְ'פִרוּ אַלְלָה, אַסְתַּעְ'פִרוּ אַלְלָה, אַסְתַּעְ'פִרוּ אַלְלָה. אַלְלָהוּמַּא אַנְתַּ אלְסַּלָאם, וּמִמְּךָ הַשַּׁלוֹם. תְּבוֹרַךְ יָא דהּ אל-גַ'לָאל וְהָאִכְרָאם. אַלְלָהוּמַּא עֵזְרֵנִי לְהַזְכִּירְךָ, לְהוֹדוֹת לְךָ וְלִשְׁפַּר אֶת עֲבוֹדַתִּי לְךָ.",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "זמני תפילה ראשיים",
   "launchModeSecondaryPrayer": "זמני תפילה משניים",
   "timezone": "אזור זמן",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "תצוגה",
+  "appDisplayModeExplanation": "בחר כיצד המסך יציג את התוכן",
+  "prayerTimeFontSize": "גודל טקסט ותצוגה",
+  "prayerTimeFontSizeDesc": "שנה את גודל הטקסט בכל האפליקציה",
+  "fontSizeSmall": "קטן",
+  "fontSizeNormal": "רגיל",
+  "fontSizeLarge": "גדול",
+  "fontSizeXLarge": "גדול מאוד",
+  "athkarArabicFont": "גופן ערבי לאזכאר",
+  "athkarArabicFontDesc": "בחר את הגופן הערבי לאזכאר (לאחר הסלאה, האד'אן, ג'ומועא, החדית'...)",
+  "athkarFontKufi": "כופי",
+  "athkarFontUthmani": "עות'מאני",
+  "perPrayerRolloverOptionAfterIsha": "כולם יחד לאחר עישאא"
 }

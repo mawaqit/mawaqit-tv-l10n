@@ -214,22 +214,22 @@ class MawaqitTvLocalizationsMl extends MawaqitTvLocalizations {
   String get iqamaIn => 'ഇഖാമ';
 
   @override
-  String get iqamaShowClock => 'Show clock on Iqama screen';
+  String get iqamaShowClock => 'ഇഖാമ സ്‌ക്രീനിൽ ക്ലോക്ക് കാണിക്കൂ';
 
   @override
-  String get iqamaShowClockDesc => 'Display the current time and date on the Iqama countdown screen';
+  String get iqamaShowClockDesc => 'ഇഖാമ കൗണ്ട്‌ഡൗൺ സ്‌ക്രീനിൽ നിലവിലെ സമയവും തീയതിയും കാണിക്കും';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'നമസ്കാര സമയ മാറ്റം';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'നമസ്കാര സമയങ്ങൾ നാളത്തെ സമയക്രമത്തിലേക്ക് എങ്ങനെ മാറണമെന്ന് തിരഞ്ഞെടുക്കൂ';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'ഓരോ നമസ്കാരവും വെവ്വേറെ';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'ഇശയ്ക്ക് ശേഷം എല്ലാം ഒന്നിച്ച്';
 
   @override
   String get alAthkar => 'അദ്കാർ';
@@ -1099,10 +1099,10 @@ class MawaqitTvLocalizationsMl extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display';
+  String get appDisplayMode => 'ഡിസ്‌പ്ലേ';
 
   @override
-  String get appDisplayModeExplanation => 'Choose how your screen will display content';
+  String get appDisplayModeExplanation => 'നിങ്ങളുടെ സ്‌ക്രീൻ ഉള്ളടക്കം എങ്ങനെ കാണിക്കണമെന്ന് തിരഞ്ഞെടുക്കൂ';
 
   @override
   String get exitQuranModeTitle => 'Exit Quran Mode';
@@ -1111,13 +1111,13 @@ class MawaqitTvLocalizationsMl extends MawaqitTvLocalizations {
   String get exitQuranModeMessage => 'Would you like to return to normal mode?';
 
   @override
-  String get settingsSectionGlobal => 'Global';
+  String get settingsSectionGlobal => 'പൊതുവായത്';
 
   @override
-  String get hijriDateAdjustment => 'Hijri date adjustment';
+  String get hijriDateAdjustment => 'ഹിജ്‌റ തീയതി ക്രമീകരണം';
 
   @override
-  String get interfaceLanguage => 'Interface language';
+  String get interfaceLanguage => 'ഇന്റർഫേസ് ഭാഷ';
 
   @override
   String get launchModeMainPrayer => 'Main prayer times';
@@ -1126,10 +1126,10 @@ class MawaqitTvLocalizationsMl extends MawaqitTvLocalizations {
   String get launchModeSecondaryPrayer => 'Secondary prayer times';
 
   @override
-  String get timezone => 'Timezone';
+  String get timezone => 'ടൈം സോൺ';
 
   @override
-  String get wifi => 'WIFI';
+  String get wifi => 'Wi-Fi';
 
   @override
   String get tutorialGetStarted => 'Get started in 4 simple steps';
@@ -1164,32 +1164,32 @@ class MawaqitTvLocalizationsMl extends MawaqitTvLocalizations {
   String get tutorialFullTutorial => 'Full tutorial';
 
   @override
-  String get prayerTimeFontSize => 'Text & display size';
+  String get prayerTimeFontSize => 'ടെക്‌സ്റ്റ്, ഡിസ്‌പ്ലേ വലുപ്പം';
 
   @override
-  String get prayerTimeFontSizeDesc => 'Change how large the text appears throughout the app';
+  String get prayerTimeFontSizeDesc => 'ആപ്പിലുടനീളം ടെക്‌സ്റ്റിന്റെ വലുപ്പം മാറ്റൂ';
 
   @override
-  String get fontSizeSmall => 'Small';
+  String get fontSizeSmall => 'ചെറുത്';
 
   @override
-  String get fontSizeNormal => 'Normal';
+  String get fontSizeNormal => 'സാധാരണം';
 
   @override
-  String get fontSizeLarge => 'Large';
+  String get fontSizeLarge => 'വലുത്';
 
   @override
-  String get fontSizeXLarge => 'Extra Large';
+  String get fontSizeXLarge => 'വളരെ വലുത്';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'അദ്കാറിന്റെ അറബി ഫോണ്ട്';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'അദ്കാറിന് ഉപയോഗിക്കുന്ന അറബി ഫോണ്ട് തിരഞ്ഞെടുക്കൂ (നമസ്കാരത്തിനു ശേഷം, അദാൻ, ജുമുഅ, ഹദീഥ്...)';
 
   @override
-  String get athkarFontKufi => 'Kufi';
+  String get athkarFontKufi => 'കൂഫി';
 
   @override
-  String get athkarFontUthmani => 'Uthmani';
+  String get athkarFontUthmani => 'ഉഥ്മാനി';
 }

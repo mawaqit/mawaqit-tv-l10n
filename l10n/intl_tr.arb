@@ -69,6 +69,9 @@
     "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
   },
   "iqamaShowClockDesc": "İkamet geri sayım ekranında güncel saat ve tarihi göster",
+  "perPrayerRollover": "Namaz vakti geçişi",
+  "perPrayerRolloverDesc": "Namaz vakitlerinin yarının programına nasıl geçeceğini seçin",
+  "perPrayerRolloverOptionPerPrayer": "Her namaz ayrı ayrı",
   "@iqamaShowClockDesc": {
     "description": "Subtitle for the iqama clock toggle setting"
   },
@@ -510,7 +513,7 @@
   "@quranModeExplanation": {
     "description": "Explanation text for the Quran mode option"
   },
-  "appDisplayMode": "Göster",
+  "appDisplayMode": "Ekran",
   "@appDisplayMode": {
     "description": "Title for the display mode setting"
   },
@@ -599,7 +602,7 @@
   "@tutorialFullTutorial": {
     "description": "Label for the full video tutorial section"
   },
-  "prayerTimeFontSize": "Metin ve ekran boyutu",
+  "prayerTimeFontSize": "Metin ve görüntü boyutu",
   "@prayerTimeFontSize": {
     "description": "Label for the app font size setting"
   },
@@ -615,12 +618,17 @@
   "@fontSizeNormal": {
     "description": "Normal font size option"
   },
-  "fontSizeLarge": "Large",
+  "fontSizeLarge": "Büyük",
   "@fontSizeLarge": {
     "description": "Large font size option"
   },
   "fontSizeXLarge": "Ekstra büyük",
+  "athkarArabicFont": "Zikir için Arapça yazı tipi",
+  "athkarArabicFontDesc": "Zikirler için kullanılan Arapça yazı tipini seçin (namazdan sonra, ezan, Cuma, hadis...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Osmani",
   "@fontSizeXLarge": {
     "description": "Extra large font size option"
-  }
+  },
+  "perPrayerRolloverOptionAfterIsha": "Yatsıdan sonra hepsi birlikte"
 }

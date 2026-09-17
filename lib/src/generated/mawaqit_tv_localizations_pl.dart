@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsPl extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Wyświetl aktualny czas i datę na ekranie odliczania ikamy';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'Przełączanie czasów modlitwy';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'Wybierz, jak czasy modlitwy przechodzą na jutrzejszy harmonogram';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'Każda modlitwa osobno';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'Wszystkie razem po modlitwie Isha';
 
   @override
   String get alAthkar => 'Al-Athkar';
@@ -1099,10 +1099,10 @@ class MawaqitTvLocalizationsPl extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display';
+  String get appDisplayMode => 'Wyświetlacz';
 
   @override
-  String get appDisplayModeExplanation => 'Choose how your screen will display content';
+  String get appDisplayModeExplanation => 'Wybierz, jak ekran ma wyświetlać treści';
 
   @override
   String get exitQuranModeTitle => 'Exit Quran Mode';
@@ -1164,28 +1164,28 @@ class MawaqitTvLocalizationsPl extends MawaqitTvLocalizations {
   String get tutorialFullTutorial => 'Full tutorial';
 
   @override
-  String get prayerTimeFontSize => 'Text & display size';
+  String get prayerTimeFontSize => 'Rozmiar tekstu i wyświetlania';
 
   @override
-  String get prayerTimeFontSizeDesc => 'Change how large the text appears throughout the app';
+  String get prayerTimeFontSizeDesc => 'Zmień wielkość tekstu w całej aplikacji';
 
   @override
-  String get fontSizeSmall => 'Small';
+  String get fontSizeSmall => 'Mały';
 
   @override
-  String get fontSizeNormal => 'Normal';
+  String get fontSizeNormal => 'Normalny';
 
   @override
-  String get fontSizeLarge => 'Large';
+  String get fontSizeLarge => 'Duży';
 
   @override
-  String get fontSizeXLarge => 'Extra Large';
+  String get fontSizeXLarge => 'Bardzo duży';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'Arabska czcionka dla Athkar';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'Wybierz arabską czcionkę używaną w Athkar (po modlitwie, adhanie, Jumua, hadisie...)';
 
   @override
   String get athkarFontKufi => 'Kufi';

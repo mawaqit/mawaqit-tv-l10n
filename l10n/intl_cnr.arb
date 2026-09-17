@@ -63,6 +63,9 @@
   "iqamaIn": "Ikamet za",
   "iqamaShowClock": "Prikaži sat na ekranu ikame",
   "iqamaShowClockDesc": "Prikaži trenutno vrijeme i datum na ekranu odbrojavanja ikame",
+  "perPrayerRollover": "Prelazak namaskih vremena",
+  "perPrayerRolloverDesc": "Odaberite kako namaska vremena prelaze na sutrašnji raspored",
+  "perPrayerRolloverOptionPerPrayer": "Svaki namaz zasebno",
   "alAthkar": "Dhikr",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -383,5 +386,22 @@
   "launchModeSecondaryPrayer": "Sekundarna vremena namaza",
   "timezone": "Vremenska zona",
   "wifi": "WiFi",
-  "holdOkToStop": "Pridržite OK za zaustavljanje"
+  "holdOkToStop": "Pridržite OK za zaustavljanje",
+  "appDisplayMode": "Ekran",
+  "appDisplayModeExplanation": "Odaberite kako će vaš ekran prikazivati sadržaj",
+  "prayerTimeFontSize": "Veličina teksta i prikaza",
+  "prayerTimeFontSizeDesc": "Promijenite veličinu teksta u cijeloj aplikaciji",
+  "fontSizeSmall": "Malo",
+  "fontSizeNormal": "Normalno",
+  "fontSizeLarge": "Veliko",
+  "fontSizeXLarge": "Vrlo veliko",
+  "athkarArabicFont": "Arapski font za dhikr",
+  "athkarArabicFontDesc": "Odaberite arapski font za dhikr (poslije namaza, ezana, džume, hadisa...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Sva zajedno poslije jacije",
+  "checkInternetLiveCamera": "Morate biti povezani na internet da biste podesili kameru uživo",
+  "checkInternetUpdate": "Morate biti povezani na internet da biste provjerili nova ažuriranja",
+  "rtspCameraSettingDesc": "Povežite se na svoju lokalnu kameru i prikažite prijenos džuma-namaza na TV ekranu.",
+  "rtspCameraSettingTitle": "Kamera uživo"
 }
