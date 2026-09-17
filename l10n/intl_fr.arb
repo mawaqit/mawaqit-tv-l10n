@@ -71,6 +71,8 @@
   "perPrayerRolloverDesc": "Choisissez comment les heures de prière basculent vers demain",
   "perPrayerRolloverOptionPerPrayer": "Chaque prière individuellement",
   "perPrayerRolloverOptionAfterIsha": "Toutes ensemble après l'Isha",
+  "duhaOffset": "Décalage du compte à rebours de la Duha",
+  "duhaOffsetDesc": "Minutes après le Shuruq marquant la fin de la Duha (10-30 min)",
   "alAthkar": "Al Adhkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {

@@ -633,6 +633,18 @@ abstract class MawaqitTvLocalizations {
   /// **'All together after Isha'**
   String get perPrayerRolloverOptionAfterIsha;
 
+  /// Stepper setting for how many minutes after Shuruq the Duha countdown ends
+  ///
+  /// In en, this message translates to:
+  /// **'Duha countdown offset'**
+  String get duhaOffset;
+
+  /// Subtitle for the Duha countdown offset stepper setting
+  ///
+  /// In en, this message translates to:
+  /// **'Minutes after Shuruq when Duha time ends (10-30 min)'**
+  String get duhaOffsetDesc;
+
   /// No description provided for @alAthkar.
   ///
   /// In en, this message translates to:

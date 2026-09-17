@@ -116,6 +116,14 @@
   "@perPrayerRolloverOptionAfterIsha": {
     "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
   },
+  "duhaOffset": "Duha countdown offset",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "Minutes after Shuruq when Duha time ends (10-30 min)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
+  },
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {

@@ -232,6 +232,12 @@ class MawaqitTvLocalizationsId extends MawaqitTvLocalizations {
   String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
 
   @override
+  String get duhaOffset => 'Duha countdown offset';
+
+  @override
+  String get duhaOffsetDesc => 'Minutes after Shuruq when Duha time ends (10-30 min)';
+
+  @override
   String get alAthkar => 'Zikir';
 
   @override
