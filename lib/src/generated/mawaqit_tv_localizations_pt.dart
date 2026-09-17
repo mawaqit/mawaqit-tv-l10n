@@ -232,6 +232,12 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
 
   @override
+  String get duhaOffset => 'Duha countdown offset';
+
+  @override
+  String get duhaOffsetDesc => 'Minutes after Shuruq when Duha time ends (10-30 min)';
+
+  @override
   String get alAthkar => 'Al-Athkar';
 
   @override
@@ -286,7 +292,7 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get jumuaaHadith => 'The Prophet ﷺ (peace and blessings of Allah be upon him) said “Whoever does the ablutions perfectly then goes to jumua and then listens and is silent, he is forgiven what is between that time and the following Friday and three more days and the one who touches stones has certainly made a futility”';
 
   @override
-  String get shuruk => 'Shuruk';
+  String get shuruk => 'Sunrise';
 
   @override
   String get duha => 'Duha';
