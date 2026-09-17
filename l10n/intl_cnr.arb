@@ -399,5 +399,9 @@
   "athkarArabicFontDesc": "Odaberite arapski font za dhikr (poslije namaza, ezana, džume, hadisa...)",
   "athkarFontKufi": "Kufi",
   "athkarFontUthmani": "Uthmani",
-  "perPrayerRolloverOptionAfterIsha": "Sva zajedno poslije jacije"
+  "perPrayerRolloverOptionAfterIsha": "Sva zajedno poslije jacije",
+  "checkInternetLiveCamera": "Morate biti povezani na internet da biste podesili kameru uživo",
+  "checkInternetUpdate": "Morate biti povezani na internet da biste provjerili nova ažuriranja",
+  "rtspCameraSettingDesc": "Povežite se na svoju lokalnu kameru i prikažite prijenos džuma-namaza na TV ekranu.",
+  "rtspCameraSettingTitle": "Kamera uživo"
 }

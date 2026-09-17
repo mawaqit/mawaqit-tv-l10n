@@ -31,7 +31,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get descLang => 'Зинһар, кәрәкле телде һайлап алығыҙ';
 
   @override
-  String get hadithLangDesc => 'This override  your choice in the admin console, you can chose a different language by screen';
+  String get hadithLangDesc => 'Был админ консолындағы һайлауығыҙҙы алмаштыра, һәр экран өсөн башҡа тел һайлай алаһығыҙ';
 
   @override
   String get whoops => 'Упс!';
@@ -355,7 +355,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get salatElEid => 'Salat El Eid';
 
   @override
-  String get webView => 'Enable Legacy Mode';
+  String get webView => 'Иҫке режимды ҡабыҙырға';
 
   @override
   String get developersHomeScreen => 'Developer\'s home screen';
@@ -385,7 +385,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get randomHadith => 'Random Hadith';
 
   @override
-  String get announcement => 'Announcements';
+  String get announcement => 'Иғландар';
 
   @override
   String get jumuaaLive => 'Jumuaa [Live Streaming]';
@@ -424,10 +424,10 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get mainScreenOrSecondaryScreenEXPLINATION => 'Do you want to install this screen in the main prayer room (men prayer room) ?';
 
   @override
-  String get mainScreen => 'Main screen';
+  String get mainScreen => 'Төп экран';
 
   @override
-  String get secondaryScreen => 'Secondary screen';
+  String get secondaryScreen => 'Икенсел экран';
 
   @override
   String get duaaElEftar => 'Duaa El Eftar';
@@ -457,10 +457,10 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get announcementOnlyModeExplanation => 'Will show announcements all time';
 
   @override
-  String get orientation => 'Orientation';
+  String get orientation => 'Йүнәлеш';
 
   @override
-  String get selectYourMawaqitTvAppOrientation => 'Select your mawaqit tv app orientation';
+  String get selectYourMawaqitTvAppOrientation => 'MAWAQIT TV ҡушымтаһының экран йүнәлешен һайлағыҙ';
 
   @override
   String get deviceDefault => 'Device Default';
@@ -487,19 +487,19 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get takbeerAleidText => 'Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd';
 
   @override
-  String get settings => 'Settings';
+  String get settings => 'Көйләүҙәр';
 
   @override
-  String get applicationModes => 'Default launch mode';
+  String get applicationModes => 'Ғәҙәти башлау режимы';
 
   @override
-  String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'If you are facing issues with the app, try to enable this option';
+  String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'Ҡушымта менән проблемалар булһа, был опцияны ҡабыҙып ҡарағыҙ';
 
   @override
   String get hijriAdjustments => 'Local Hijri adjustments';
 
   @override
-  String get hijriAdjustmentsDescription => 'Adjust the hijri date locally in your device. This will not affect the online mosque settings';
+  String get hijriAdjustmentsDescription => 'Хижри тарихын ҡоролмағыҙҙа урындағы рәүештә тәртипкә килтерегеҙ. Был онлайн мәсит көйләүҙәренә тәьҫир итмәй';
 
   @override
   String get backoffice_default => 'Backoffice Defaults';
@@ -511,7 +511,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get sabah => 'Sabah';
 
   @override
-  String get randomHadithLanguage => 'Random hadith language';
+  String get randomHadithLanguage => 'Осраҡлы хәҙис теле';
 
   @override
   String get mosqueDefault => 'From your online configuration';
@@ -568,7 +568,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get nl_ar => 'Dutch & Arabic';
 
   @override
-  String get connectToChangeHadith => 'Please connect to the internet to change the hadith language.';
+  String get connectToChangeHadith => 'Хәҙис телен алмаштырыу өсөн интернетҡа тоташығыҙ.';
 
   @override
   String get retry => 'Retry';
@@ -589,10 +589,10 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get surahLoadError => 'Unable to load surahs';
 
   @override
-  String get timeSetting => 'Configuring the time';
+  String get timeSetting => 'Ваҡытты көйләү';
 
   @override
-  String get timeSettingDesc => 'Set a custom name';
+  String get timeSettingDesc => 'Үҙ исемегеҙҙе ҡуйығыҙ';
 
   @override
   String get selectedTime => 'The current selected time';
@@ -616,13 +616,13 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get appTimezone => 'App Timezone';
 
   @override
-  String get descTimezone => 'Select your timezone to get accurate prayer times.';
+  String get descTimezone => 'Намаҙ ваҡыттары теүәл булһын өсөн ваҡыт бүлкәтегеҙҙе һайлағыҙ.';
 
   @override
   String get appWifi => 'Connect to wifi';
 
   @override
-  String get descWifi => 'Please connect to your preferred wifi';
+  String get descWifi => 'Зинһар, кәрәкле WiFi ауына тоташығыҙ';
 
   @override
   String get searchCountries => 'Search countries';
@@ -667,7 +667,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get timezoneFailure => 'Failed to set timezone.';
 
   @override
-  String get screenLock => 'Screen on/off';
+  String get screenLock => 'Экранды ҡабыҙыу/һүндереү';
 
   @override
   String get screenLockConfig => 'Configure screen on/off';
@@ -676,7 +676,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get screenLockMode => 'Screen on/off mode';
 
   @override
-  String get screenLockDesc => 'Turn on/off TV before and after each prayer to save energy';
+  String get screenLockDesc => 'Энергия һаҡлау өсөн һәр намаҙҙан алда һәм һуң телевизорҙы ҡабыҙығыҙ/һүндерегеҙ';
 
   @override
   String get screenLockDesc2 => 'This feature turn on/off the device before and after each prayer Athan';
@@ -700,13 +700,13 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get update => 'Ҡушымтаның Яңыртыуы';
 
   @override
-  String get automaticUpdate => 'Notify update';
+  String get automaticUpdate => 'Яңыртыу тураһында хәбәр итеү';
 
   @override
-  String get automaticUpdateDescription => 'Enable notify update to receive the latest features and improvements';
+  String get automaticUpdateDescription => 'Һуңғы мөмкинлектәрҙе һәм яҡшыртыуҙарҙы алыр өсөн яңыртыу хәбәрҙәрен ҡабыҙығыҙ';
 
   @override
-  String get checkInternetLegacyMode => 'You must connect to internet to use the legacy mode';
+  String get checkInternetLegacyMode => 'Иҫке режимды ҡулланыр өсөн интернетҡа тоташырға кәрәк';
 
   @override
   String get powerOnScreen => 'Power on the screen';
@@ -715,7 +715,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get powerOffScreen => 'Power off the screen';
 
   @override
-  String get deviceSettings => 'Device';
+  String get deviceSettings => 'Ҡоролма';
 
   @override
   String get later => 'Later';
@@ -724,7 +724,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get downloadQuran => 'Download Quran';
 
   @override
-  String get quran => 'Quran';
+  String get quran => 'Ҡөрьән';
 
   @override
   String get askDownloadQuran => 'Do you want to download the Quran?';
@@ -847,10 +847,10 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get surahSelector => 'Select Surah';
 
   @override
-  String get checkForUpdates => 'Check for Updates';
+  String get checkForUpdates => 'Яңыртыуҙарҙы тикшереү';
 
   @override
-  String get checkForNewVersion => 'Check if a new version is available';
+  String get checkForNewVersion => 'Яңы версия барлығын тикшерергә';
 
   @override
   String get wouldYouLikeToUpdate => 'Would you like to update the app?';
@@ -904,10 +904,10 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL validated and saved successfully.';
 
   @override
-  String get rtspCameraSettingTitle => 'Live camera';
+  String get rtspCameraSettingTitle => 'Тура эфир камераһы';
 
   @override
-  String get rtspCameraSettingDesc => 'Connect to your local camera and display jumua prayer stream on the TV screen.';
+  String get rtspCameraSettingDesc => 'Урындағы камерағыҙға тоташығыҙ һәм Jumua намаҙы тапшырыуын телевизор экранында күрһәтегеҙ.';
 
   @override
   String get rtspCameraSettingScreenDesc => 'If you enter a URL here, your screen will automatically switch to video streaming when Jumua time arrives';
@@ -916,7 +916,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get validatingStream => 'Validating Stream...';
 
   @override
-  String get checkInternetLiveCamera => 'You must connect to internet to setup the live camera';
+  String get checkInternetLiveCamera => 'Тура эфир камераһын көйләр өсөн интернетҡа тоташырға кәрәк';
 
   @override
   String get somethingWentWrong => 'Something went wrong! please try again';
@@ -931,7 +931,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get hintTextRtspUrl => 'rtsp://... or https://youtube.com/live/...';
 
   @override
-  String get checkInternetUpdate => 'You must connect to internet to check for new updates';
+  String get checkInternetUpdate => 'Яңыртыуҙарҙы тикшерер өсөн интернетҡа тоташырға кәрәк';
 
   @override
   String appUpdateAvailable(String currentVersion, String updatedVersion) {

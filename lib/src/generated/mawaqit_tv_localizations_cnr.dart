@@ -904,10 +904,10 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL validated and saved successfully.';
 
   @override
-  String get rtspCameraSettingTitle => 'Live camera';
+  String get rtspCameraSettingTitle => 'Kamera uživo';
 
   @override
-  String get rtspCameraSettingDesc => 'Connect to your local camera and display jumua prayer stream on the TV screen.';
+  String get rtspCameraSettingDesc => 'Povežite se na svoju lokalnu kameru i prikažite prijenos džuma-namaza na TV ekranu.';
 
   @override
   String get rtspCameraSettingScreenDesc => 'If you enter a URL here, your screen will automatically switch to video streaming when Jumua time arrives';
@@ -916,7 +916,7 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get validatingStream => 'Validating Stream...';
 
   @override
-  String get checkInternetLiveCamera => 'You must connect to internet to setup the live camera';
+  String get checkInternetLiveCamera => 'Morate biti povezani na internet da biste podesili kameru uživo';
 
   @override
   String get somethingWentWrong => 'Something went wrong! please try again';
@@ -931,7 +931,7 @@ class MawaqitTvLocalizationsCnr extends MawaqitTvLocalizations {
   String get hintTextRtspUrl => 'rtsp://... or https://youtube.com/live/...';
 
   @override
-  String get checkInternetUpdate => 'You must connect to internet to check for new updates';
+  String get checkInternetUpdate => 'Morate biti povezani na internet da biste provjerili nova ažuriranja';
 
   @override
   String appUpdateAvailable(String currentVersion, String updatedVersion) {

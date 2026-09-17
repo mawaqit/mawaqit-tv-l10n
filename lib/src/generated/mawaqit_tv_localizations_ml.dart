@@ -214,10 +214,10 @@ class MawaqitTvLocalizationsMl extends MawaqitTvLocalizations {
   String get iqamaIn => 'ഇഖാമ';
 
   @override
-  String get iqamaShowClock => 'Show clock on Iqama screen';
+  String get iqamaShowClock => 'ഇഖാമ സ്‌ക്രീനിൽ ക്ലോക്ക് കാണിക്കൂ';
 
   @override
-  String get iqamaShowClockDesc => 'Display the current time and date on the Iqama countdown screen';
+  String get iqamaShowClockDesc => 'ഇഖാമ കൗണ്ട്‌ഡൗൺ സ്‌ക്രീനിൽ നിലവിലെ സമയവും തീയതിയും കാണിക്കും';
 
   @override
   String get perPrayerRollover => 'നമസ്കാര സമയ മാറ്റം';
@@ -1111,13 +1111,13 @@ class MawaqitTvLocalizationsMl extends MawaqitTvLocalizations {
   String get exitQuranModeMessage => 'Would you like to return to normal mode?';
 
   @override
-  String get settingsSectionGlobal => 'Global';
+  String get settingsSectionGlobal => 'പൊതുവായത്';
 
   @override
-  String get hijriDateAdjustment => 'Hijri date adjustment';
+  String get hijriDateAdjustment => 'ഹിജ്‌റ തീയതി ക്രമീകരണം';
 
   @override
-  String get interfaceLanguage => 'Interface language';
+  String get interfaceLanguage => 'ഇന്റർഫേസ് ഭാഷ';
 
   @override
   String get launchModeMainPrayer => 'Main prayer times';
@@ -1126,10 +1126,10 @@ class MawaqitTvLocalizationsMl extends MawaqitTvLocalizations {
   String get launchModeSecondaryPrayer => 'Secondary prayer times';
 
   @override
-  String get timezone => 'Timezone';
+  String get timezone => 'ടൈം സോൺ';
 
   @override
-  String get wifi => 'WIFI';
+  String get wifi => 'Wi-Fi';
 
   @override
   String get tutorialGetStarted => 'Get started in 4 simple steps';
