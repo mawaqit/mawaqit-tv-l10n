@@ -86,6 +86,9 @@
   "iqamaIn": "Iqama in",
   "iqamaShowClock": "Mostra el rellotge a la pantalla de l'iqama",
   "iqamaShowClockDesc": "Mostra l'hora i la data actuals a la pantalla del compte enrere de l'iqama",
+  "perPrayerRollover": "Canvi d'horaris de pregària",
+  "perPrayerRolloverDesc": "Trieu com els horaris de pregària passen als de demà",
+  "perPrayerRolloverOptionPerPrayer": "Cada pregària individualment",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -191,5 +194,10 @@
   "fontSizeSmall": "Petit",
   "fontSizeNormal": "Normal",
   "fontSizeLarge": "Gran",
-  "fontSizeXLarge": "Molt gran"
+  "fontSizeXLarge": "Molt gran",
+  "athkarArabicFont": "Lletra àrab dels Athkar",
+  "athkarArabicFontDesc": "Trieu la lletra àrab dels Athkar (després de la pregària, l'adhan, la Jumua, el hadith...)",
+  "athkarFontKufi": "Cúfic",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Totes juntes després de l'Isha"
 }

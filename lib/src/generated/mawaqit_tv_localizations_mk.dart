@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsMk extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Прикажи го тековното време и датум на екранот за одбројување на икама';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'Префрлување на времињата на молитва';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'Изберете како времињата на молитва се префрлаат на утрешниот распоред';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'Секоја молитва поединечно';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'Сите заедно по Иша';
 
   @override
   String get alAthkar => 'Ал-Аthkar';
@@ -1182,14 +1182,14 @@ class MawaqitTvLocalizationsMk extends MawaqitTvLocalizations {
   String get fontSizeXLarge => 'Многу голема';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'Арапски фонт за азкарите';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'Изберете го арапскиот фонт за азкарите (по намаз, езан, џума, хадис...)';
 
   @override
-  String get athkarFontKufi => 'Kufi';
+  String get athkarFontKufi => 'Куфи';
 
   @override
-  String get athkarFontUthmani => 'Uthmani';
+  String get athkarFontUthmani => 'Усмани';
 }

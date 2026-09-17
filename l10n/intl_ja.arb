@@ -63,6 +63,9 @@
   "iqamaIn": "のイーカマ",
   "iqamaShowClock": "イカーマ画面に時計を表示",
   "iqamaShowClockDesc": "イカーマカウントダウン画面に現在の時刻と日付を表示する",
+  "perPrayerRollover": "礼拝時刻の翌日切り替え",
+  "perPrayerRolloverDesc": "礼拝時刻を翌日の予定に切り替える方法を選択します",
+  "perPrayerRolloverOptionPerPrayer": "礼拝ごとに個別",
   "alAthkar": "アルアトカール",
   "azkarList0": "アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ、アッラーに捧ぐ",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "小",
   "fontSizeNormal": "中",
   "fontSizeLarge": "大",
-  "fontSizeXLarge": "特大"
+  "fontSizeXLarge": "特大",
+  "athkarArabicFont": "アズカールのアラビア語フォント",
+  "athkarArabicFontDesc": "アズカール（礼拝後、アダン、ジュムア、ハディース…）に使用するアラビア語フォントを選択します",
+  "athkarFontKufi": "クーフィー",
+  "athkarFontUthmani": "ウスマーニー",
+  "perPrayerRolloverOptionAfterIsha": "イーシャ後にすべて同時"
 }

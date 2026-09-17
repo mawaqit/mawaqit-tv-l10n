@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama w",
   "iqamaShowClock": "Pokaż zegar na ekranie ikamy",
   "iqamaShowClockDesc": "Wyświetl aktualny czas i datę na ekranie odliczania ikamy",
+  "perPrayerRollover": "Przełączanie czasów modlitwy",
+  "perPrayerRolloverDesc": "Wybierz, jak czasy modlitwy przechodzą na jutrzejszy harmonogram",
+  "perPrayerRolloverOptionPerPrayer": "Każda modlitwa osobno",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "Mały",
   "fontSizeNormal": "Normalny",
   "fontSizeLarge": "Duży",
-  "fontSizeXLarge": "Bardzo duży"
+  "fontSizeXLarge": "Bardzo duży",
+  "athkarArabicFont": "Arabska czcionka dla Athkar",
+  "athkarArabicFontDesc": "Wybierz arabską czcionkę używaną w Athkar (po modlitwie, adhanie, Jumua, hadisie...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Wszystkie razem po modlitwie Isha"
 }

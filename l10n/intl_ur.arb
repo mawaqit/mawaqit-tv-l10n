@@ -63,6 +63,9 @@
   "iqamaIn": "اقامہ میں",
   "iqamaShowClock": "اقامت کی اسکرین پر گھڑی دکھائیں",
   "iqamaShowClockDesc": "اقامت کاؤنٹ ڈاؤن اسکرین پر موجودہ وقت اور تاریخ دکھائیں",
+  "perPrayerRollover": "نماز کے اوقات کی تبدیلی",
+  "perPrayerRolloverDesc": "منتخب کریں کہ نماز کے اوقات کل کے شیڈول پر کیسے منتقل ہوں",
+  "perPrayerRolloverOptionPerPrayer": "ہر نماز الگ الگ",
   "alAthkar": "الازکار",
   "azkarList0": "استغفیر اللہ، استغفی اللہ، استغفی اللہ اللہ تعالٰی انت السلام و منکا السلام، تبرکتہ یا ذل جلالی ول اکرام اللہم الذین علی ذکرک و شکرک و حسنی عبادت",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "چھوٹا",
   "fontSizeNormal": "عام",
   "fontSizeLarge": "بڑا",
-  "fontSizeXLarge": "بہت بڑا"
+  "fontSizeXLarge": "بہت بڑا",
+  "athkarArabicFont": "اذکار کا عربی فونٹ",
+  "athkarArabicFontDesc": "اذکار کے لیے عربی فونٹ منتخب کریں (نماز کے بعد، اذان، جمعہ، حدیث...)",
+  "athkarFontKufi": "کوفی",
+  "athkarFontUthmani": "عثمانی",
+  "perPrayerRolloverOptionAfterIsha": "سب ایک ساتھ عشاء کے بعد"
 }

@@ -63,6 +63,9 @@
   "iqamaIn": "İqaməyə qalan vaxt",
   "iqamaShowClock": "İqamə ekranında saatı göstər",
   "iqamaShowClockDesc": "İqamə geri sayım ekranında cari vaxtı və tarixi göstər",
+  "perPrayerRollover": "Namaz vaxtlarının keçidi",
+  "perPrayerRolloverDesc": "Namaz vaxtlarının sabahkı cədvələ necə keçdiyini seçin",
+  "perPrayerRolloverOptionPerPrayer": "Hər namaz ayrı-ayrılıqda",
   "alAthkar": "Zirk",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "Kiçik",
   "fontSizeNormal": "Normal",
   "fontSizeLarge": "Böyük",
-  "fontSizeXLarge": "Çox böyük"
+  "fontSizeXLarge": "Çox böyük",
+  "athkarArabicFont": "Zikr üçün ərəb şrifti",
+  "athkarArabicFontDesc": "Zikrlər üçün istifadə olunan ərəb şriftini seçin (namazdan sonra, azan, Cümə, hədis...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Osmani",
+  "perPrayerRolloverOptionAfterIsha": "İşadan sonra hamısı birlikdə"
 }

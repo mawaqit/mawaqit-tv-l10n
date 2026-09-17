@@ -63,6 +63,9 @@
   "iqamaIn": "Iqamat",
   "iqamaShowClock": "Tunjukkan jam di skrin Iqama",
   "iqamaShowClockDesc": "Paparkan masa dan tarikh semasa pada skrin kira detik Iqama",
+  "perPrayerRollover": "Peralihan waktu solat",
+  "perPrayerRolloverDesc": "Pilih cara waktu solat beralih ke jadual esok",
+  "perPrayerRolloverOptionPerPrayer": "Setiap solat satu persatu",
   "alAthkar": "Doa-doa",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "Kecil",
   "fontSizeNormal": "Sederhana",
   "fontSizeLarge": "Besar",
-  "fontSizeXLarge": "Sangat besar"
+  "fontSizeXLarge": "Sangat besar",
+  "athkarArabicFont": "Font Arab Azkar",
+  "athkarArabicFontDesc": "Pilih font Arab yang digunakan untuk Azkar (selepas solat, azan, Jumaat, hadis...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Semua sekali selepas Isyak"
 }

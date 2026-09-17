@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsRo extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Afișează ora și data curentă pe ecranul de numărătoare inversă Iqama';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'Trecerea orelor de rugăciune';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'Alegeți cum trec orele de rugăciune la programul de mâine';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'Fiecare rugăciune în parte';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'Toate împreună după Isha';
 
   @override
   String get alAthkar => 'Al-Athkar';
@@ -1182,10 +1182,10 @@ class MawaqitTvLocalizationsRo extends MawaqitTvLocalizations {
   String get fontSizeXLarge => 'Foarte mare';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'Font arab pentru Azkar';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'Alegeți fontul arab folosit pentru Azkar (după rugăciune, adhan, Jumua, hadith...)';
 
   @override
   String get athkarFontKufi => 'Kufi';

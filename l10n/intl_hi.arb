@@ -63,6 +63,9 @@
   "iqamaIn": "इकामा में",
   "iqamaShowClock": "इकामा स्क्रीन पर घड़ी दिखाएं",
   "iqamaShowClockDesc": "इकामा काउंटडाउन स्क्रीन पर वर्तमान समय और तारीख प्रदर्शित करें",
+  "perPrayerRollover": "नमाज़ के समय का बदलाव",
+  "perPrayerRolloverDesc": "नमाज़ के समय कल की समय-सारिणी पर कैसे बदलें, यह चुनें",
+  "perPrayerRolloverOptionPerPrayer": "हर नमाज़ अलग-अलग",
   "alAthkar": "अल अथकार",
   "azkarList0": "अस्तग़फिरु अल्लाह, अस्तग़फिरु अल्लाह, अस्तग़फिरु अल्लाह अल्लाहुम्मा अंत एस्सलाम वा मिनेका एस्सलाम, तबरक्त या ढल जलाली वेल इकराम अल्लाहुम्मा ए`इनी `अला धिक्रिका वा चुकरिका वा हुस्नी `इबादतिक",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "छोटा",
   "fontSizeNormal": "सामान्य",
   "fontSizeLarge": "बड़ा",
-  "fontSizeXLarge": "बहुत बड़ा"
+  "fontSizeXLarge": "बहुत बड़ा",
+  "athkarArabicFont": "अज़कार का अरबी फ़ॉन्ट",
+  "athkarArabicFontDesc": "अज़कार में इस्तेमाल होने वाला अरबी फ़ॉन्ट चुनें (नमाज़ के बाद, अज़ान, जुम्मा, हदीस...)",
+  "athkarFontKufi": "कूफ़ी",
+  "athkarFontUthmani": "उस्मानी",
+  "perPrayerRolloverOptionAfterIsha": "ईशा के बाद सभी एक साथ"
 }

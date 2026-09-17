@@ -63,6 +63,9 @@
   "iqamaIn": "Ikamet za",
   "iqamaShowClock": "Прикажи сат на екрану икаме",
   "iqamaShowClockDesc": "Прикажи тренутно време и датум на екрану одбројавања икаме",
+  "perPrayerRollover": "Prelazak vremena namaza",
+  "perPrayerRolloverDesc": "Izaberite kako vremena namaza prelaze na sutrašnji raspored",
+  "perPrayerRolloverOptionPerPrayer": "Svaki namaz pojedinačno",
   "alAthkar": "Al-Azkar",
   "azkarList0": "Astaghfirullah, Astaghfirullah, Astaghfirullah. Allahumme Ente Selam, ve minke’s-selam, tebarekte ja zel-dželali vel-ikram. Allahumme a’inni ‘ala zikrike ve šukrike ve husni ‘ibadetike.",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "Mala",
   "fontSizeNormal": "Normalna",
   "fontSizeLarge": "Velika",
-  "fontSizeXLarge": "Veoma velika"
+  "fontSizeXLarge": "Veoma velika",
+  "athkarArabicFont": "Arapski font za zikrove",
+  "athkarArabicFontDesc": "Izaberite arapski font za zikrove (posle namaza, ezana, džume, hadisa...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Usmani",
+  "perPrayerRolloverOptionAfterIsha": "Sve zajedno posle jacije"
 }

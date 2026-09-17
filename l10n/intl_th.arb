@@ -63,6 +63,9 @@
   "iqamaIn": "เวลาอีกอมะฮฺ",
   "iqamaShowClock": "แสดงนาฬิกาบนหน้าจออิกามะ",
   "iqamaShowClockDesc": "แสดงเวลาและวันที่ปัจจุบันบนหน้าจอนับถอยหลังอิกามะ",
+  "perPrayerRollover": "การเปลี่ยนเวลาละหมาดเป็นวันถัดไป",
+  "perPrayerRolloverDesc": "เลือกวิธีที่เวลาละหมาดเปลี่ยนไปเป็นตารางของวันพรุ่งนี้",
+  "perPrayerRolloverOptionPerPrayer": "แยกทีละละหมาด",
   "alAthkar": "อัล-อัซการ",
   "azkarList0": "Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "เล็ก",
   "fontSizeNormal": "ปานกลาง",
   "fontSizeLarge": "ใหญ่",
-  "fontSizeXLarge": "ใหญ่มาก"
+  "fontSizeXLarge": "ใหญ่มาก",
+  "athkarArabicFont": "ฟอนต์อาหรับสำหรับอัซการ",
+  "athkarArabicFontDesc": "เลือกฟอนต์อาหรับที่ใช้กับอัซการ (หลังละหมาด อาซาน ญุมอะฮฺ ฮาดีษ...)",
+  "athkarFontKufi": "กูฟี",
+  "athkarFontUthmani": "อุษมานี",
+  "perPrayerRolloverOptionAfterIsha": "เปลี่ยนพร้อมกันทั้งหมดหลังอิชาอ์"
 }

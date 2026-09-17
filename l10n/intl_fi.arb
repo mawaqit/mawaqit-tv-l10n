@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama vuonna",
   "iqamaShowClock": "Näytä kello iqama-näytöllä",
   "iqamaShowClockDesc": "Näytä nykyinen aika ja päivämäärä iqama-lähtölaskennan näytöllä",
+  "perPrayerRollover": "Rukousaikojen vaihtuminen",
+  "perPrayerRolloverDesc": "Valitse, miten rukousajat vaihtuvat huomisen aikatauluun",
+  "perPrayerRolloverOptionPerPrayer": "Jokainen rukous erikseen",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "Pieni",
   "fontSizeNormal": "Normaali",
   "fontSizeLarge": "Suuri",
-  "fontSizeXLarge": "Erittäin suuri"
+  "fontSizeXLarge": "Erittäin suuri",
+  "athkarArabicFont": "Athkarin arabialainen kirjasin",
+  "athkarArabicFontDesc": "Valitse Athkarissa käytettävä arabialainen kirjasin (rukouksen jälkeen, adhan, Jumua, hadith...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Kaikki yhdessä Ishan jälkeen"
 }

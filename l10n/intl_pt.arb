@@ -2,6 +2,9 @@
   "continueListening": "Continuar ouvindo",
   "iqamaShowClock": "Mostrar relógio na tela do Iqama",
   "iqamaShowClockDesc": "Exibir a hora e data atuais na tela de contagem regressiva do Iqama",
+  "perPrayerRollover": "Mudança dos horários de oração",
+  "perPrayerRolloverDesc": "Escolha como os horários de oração passam para os de amanhã",
+  "perPrayerRolloverOptionPerPrayer": "Cada oração individualmente",
   "settingsSectionGlobal": "Global",
   "hijriDateAdjustment": "Ajuste da data Hijri",
   "interfaceLanguage": "Idioma da interface",
@@ -19,5 +22,10 @@
   "fontSizeSmall": "Pequeno",
   "fontSizeNormal": "Normal",
   "fontSizeLarge": "Grande",
-  "fontSizeXLarge": "Muito grande"
+  "fontSizeXLarge": "Muito grande",
+  "athkarArabicFont": "Tipo de letra árabe dos Azkár",
+  "athkarArabicFontDesc": "Escolha o tipo de letra árabe usado nos Azkár (depois da oração, do Azán, da Jumu'ah, do hadith...)",
+  "athkarFontKufi": "Cúfico",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Todas em conjunto depois do Ishá"
 }

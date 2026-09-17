@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsCs extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Zobrazit aktuální čas a datum na obrazovce odpočítávání ikámy';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'Přechod časů modliteb';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'Vyberte, jak se časy modliteb přepnou na zítřejší rozvrh';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'Každá modlitba zvlášť';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'Všechny společně po modlitbě Isha';
 
   @override
   String get alAthkar => 'Al-Athkar';
@@ -1182,10 +1182,10 @@ class MawaqitTvLocalizationsCs extends MawaqitTvLocalizations {
   String get fontSizeXLarge => 'Velmi velké';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'Arabské písmo pro Athkar';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'Vyberte arabské písmo používané pro Athkar (po modlitbě, adhánu, Jumua, hadísu...)';
 
   @override
   String get athkarFontKufi => 'Kufi';

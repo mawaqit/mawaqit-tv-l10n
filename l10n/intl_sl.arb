@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama v",
   "iqamaShowClock": "Prikaži uro na zaslonu ikame",
   "iqamaShowClockDesc": "Prikaži trenutni čas in datum na zaslonu odštevanja ikame",
+  "perPrayerRollover": "Preklop časov molitve",
+  "perPrayerRolloverDesc": "Izberite, kako se časi molitve preklopijo na jutrišnji urnik",
+  "perPrayerRolloverOptionPerPrayer": "Vsaka molitev posebej",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "Majhna",
   "fontSizeNormal": "Normalna",
   "fontSizeLarge": "Velika",
-  "fontSizeXLarge": "Zelo velika"
+  "fontSizeXLarge": "Zelo velika",
+  "athkarArabicFont": "Arabska pisava za Athkar",
+  "athkarArabicFontDesc": "Izberite arabsko pisavo za Athkar (po molitvi, adhanu, Jumui, hadisu...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Vse skupaj po molitvi Isha"
 }

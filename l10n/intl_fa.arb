@@ -63,6 +63,9 @@
   "iqamaIn": "اقامه پس از",
   "iqamaShowClock": "نمایش ساعت در صفحه اقامه",
   "iqamaShowClockDesc": "نمایش زمان و تاریخ فعلی در صفحه شمارش معکوس اقامه",
+  "perPrayerRollover": "انتقال اوقات نماز",
+  "perPrayerRolloverDesc": "انتخاب کنید اوقات نماز چگونه به جدول فردا منتقل شود",
+  "perPrayerRolloverOptionPerPrayer": "هر نماز به‌طور جداگانه",
   "alAthkar": "اذکار",
   "azkarList0": "استغفر الله استغفر الله استغفر الله اللهم أنت السلام و منک السلام تبارکت یا ذا الجلال و الإکرام، اللَّهُمَّ أَعِنِّي عَلَی ذِكْرِكَ، وَشُكْرِكَ، وَحُسْنِ عِبَادَتِكَ",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "کوچک",
   "fontSizeNormal": "معمولی",
   "fontSizeLarge": "بزرگ",
-  "fontSizeXLarge": "بسیار بزرگ"
+  "fontSizeXLarge": "بسیار بزرگ",
+  "athkarArabicFont": "خط عربی اذکار",
+  "athkarArabicFontDesc": "خط عربی مورد استفاده برای اذکار را انتخاب کنید (بعد از نماز، اذان، جمعه، حدیث...)",
+  "athkarFontKufi": "کوفی",
+  "athkarFontUthmani": "عثمانی",
+  "perPrayerRolloverOptionAfterIsha": "همه با هم پس از عشا"
 }

@@ -63,6 +63,9 @@
   "iqamaIn": "Ikamet za",
   "iqamaShowClock": "Prikaži sat na ekranu ikame",
   "iqamaShowClockDesc": "Prikaži trenutno vrijeme i datum na ekranu odbrojavanje ikame",
+  "perPrayerRollover": "Prelazak namaskih vremena",
+  "perPrayerRolloverDesc": "Odaberite kako namaska vremena prelaze na sutrašnji raspored",
+  "perPrayerRolloverOptionPerPrayer": "Svaki namaz zasebno",
   "alAthkar": "Dhikr",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "Malo",
   "fontSizeNormal": "Normalno",
   "fontSizeLarge": "Veliko",
-  "fontSizeXLarge": "Vrlo veliko"
+  "fontSizeXLarge": "Vrlo veliko",
+  "athkarArabicFont": "Arapski font za dhikr",
+  "athkarArabicFontDesc": "Odaberite arapski font za dhikr (poslije namaza, ezana, džume, hadisa...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Sva zajedno poslije jacije"
 }

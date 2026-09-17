@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama i",
   "iqamaShowClock": "Vis ur på iqama-skærmen",
   "iqamaShowClockDesc": "Vis den aktuelle tid og dato på iqama-nedtællingsskærmen",
+  "perPrayerRollover": "Skift af bønnetider",
+  "perPrayerRolloverDesc": "Vælg, hvordan bønnetiderne skifter til morgendagens tider",
+  "perPrayerRolloverOptionPerPrayer": "Hver bøn for sig",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "Lille",
   "fontSizeNormal": "Normal",
   "fontSizeLarge": "Stor",
-  "fontSizeXLarge": "Ekstra stor"
+  "fontSizeXLarge": "Ekstra stor",
+  "athkarArabicFont": "Arabisk skrifttype til Athkar",
+  "athkarArabicFontDesc": "Vælg den arabiske skrifttype, der bruges til Athkar (efter salah, adhan, Jumua, hadith...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Alle samlet efter Isha"
 }

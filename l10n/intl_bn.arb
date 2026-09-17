@@ -63,6 +63,9 @@
   "iqamaIn": "জামাতের সময় বাকি",
   "iqamaShowClock": "ইকামা স্ক্রিনে ঘড়ি দেখান",
   "iqamaShowClockDesc": "ইকামা কাউন্টডাউন স্ক্রিনে বর্তমান সময় ও তারিখ প্রদর্শন করুন",
+  "perPrayerRollover": "নামাজের সময় পরিবর্তন",
+  "perPrayerRolloverDesc": "নামাজের সময় কীভাবে আগামীকালের সময়সূচিতে যাবে তা বেছে নিন",
+  "perPrayerRolloverOptionPerPrayer": "প্রতিটি নামাজ আলাদাভাবে",
   "alAthkar": "স্মরণ",
   "azkarList0": "আস্তাগফিরুল্লাহ, আস্তাগফিরুল্লাহ, আস্তাগফিরুল্লাহ।\nআল্লাহুম্মা আনতা আস-সালাম ওয়া মিনকা আস-সালাম, তাবারাকতা ইয়া যাল-জালালি ওয়াল ইকরাম।\nআল্লাহুম্মা আ’ইন্নি ‘আলা জিকরিকা ওয়া শুকরিকা ওয়া হুসনি ‘ইবাদাতিক।",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "ছোট",
   "fontSizeNormal": "সাধারণ",
   "fontSizeLarge": "বড়",
-  "fontSizeXLarge": "খুব বড়"
+  "fontSizeXLarge": "খুব বড়",
+  "athkarArabicFont": "আযকারের আরবি ফন্ট",
+  "athkarArabicFontDesc": "আযকারে ব্যবহৃত আরবি ফন্ট বেছে নিন (সালাতের পর, আজান, জুম'আ, হাদীস...)",
+  "athkarFontKufi": "কুফি",
+  "athkarFontUthmani": "উসমানি",
+  "perPrayerRolloverOptionAfterIsha": "এশার পর সবগুলো একসাথে"
 }

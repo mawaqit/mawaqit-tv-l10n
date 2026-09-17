@@ -63,6 +63,9 @@
   "iqamaIn": "이카마",
   "iqamaShowClock": "이카마 화면에 시계 표시",
   "iqamaShowClockDesc": "이카마 카운트다운 화면에 현재 시간과 날짜 표시",
+  "perPrayerRollover": "기도 시간 전환",
+  "perPrayerRolloverDesc": "기도 시간이 내일 일정으로 전환되는 방식을 선택하세요",
+  "perPrayerRolloverOptionPerPrayer": "기도별로 개별 전환",
   "alAthkar": "알-아트카르",
   "azkarList0": "아스타그피루 알라, 아스타그피루 알라, 아스타그피루 알라 알라훔마 안타 에살람과 광산 에살람, 타바락타 야 달 잘랄리와 이크람 알라훔마 A`inni `알라 디크리카와 추크리카와 후즈니 `아이바다틱.",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "작게",
   "fontSizeNormal": "보통",
   "fontSizeLarge": "크게",
-  "fontSizeXLarge": "아주 크게"
+  "fontSizeXLarge": "아주 크게",
+  "athkarArabicFont": "아즈카르 아랍어 글꼴",
+  "athkarArabicFontDesc": "아즈카르(기도 후, 아잔, 주무아, 하디스...)에 사용할 아랍어 글꼴을 선택하세요",
+  "athkarFontKufi": "쿠피",
+  "athkarFontUthmani": "우스마니",
+  "perPrayerRolloverOptionAfterIsha": "이샤 후 모두 함께"
 }

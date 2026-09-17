@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsHr extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Prikaži trenutno vrijeme i datum na ekranu odbrojavanja ikame';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'Prelazak vremena namaza';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'Odaberite kako vremena namaza prelaze na sutrašnji raspored';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'Svaki namaz zasebno';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'Sva zajedno nakon jacije';
 
   @override
   String get alAthkar => 'Al-Athkar';
@@ -1182,10 +1182,10 @@ class MawaqitTvLocalizationsHr extends MawaqitTvLocalizations {
   String get fontSizeXLarge => 'Vrlo velika';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'Arapski font za zikr';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'Odaberite arapski font za zikr (nakon namaza, ezana, džume, hadisa...)';
 
   @override
   String get athkarFontKufi => 'Kufi';

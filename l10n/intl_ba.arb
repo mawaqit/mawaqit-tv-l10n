@@ -86,6 +86,9 @@
   "iqamaIn": "Iqama in",
   "iqamaShowClock": "Иҡамәт экранында сәғәтте күрһәт",
   "iqamaShowClockDesc": "Иҡамәт сәғәтенең иҫәпләү экранында ағымдағы ваҡытты һәм датаны күрһәт",
+  "perPrayerRollover": "Намаҙ ваҡыттарын күсереү",
+  "perPrayerRolloverDesc": "Намаҙ ваҡыттарының иртәгеге графикка нисек күсеүен һайлағыҙ",
+  "perPrayerRolloverOptionPerPrayer": "Һәр намаҙ айырым",
   "alAthkar": "Al-Athkar",
   "azkarList0": "",
   "@azkarList0": {
@@ -191,5 +194,10 @@
   "fontSizeSmall": "Бәләкәй",
   "fontSizeNormal": "Ғәҙәти",
   "fontSizeLarge": "Ҙур",
-  "fontSizeXLarge": "Бик ҙур"
+  "fontSizeXLarge": "Бик ҙур",
+  "athkarArabicFont": "Al-Athkar өсөн ғәрәп шрифты",
+  "athkarArabicFontDesc": "Al-Athkar өсөн ҡулланылған ғәрәп шрифтын һайлағыҙ (намаҙдан һуң, азан, Jumua, хәҙис...)",
+  "athkarFontKufi": "Куфи",
+  "athkarFontUthmani": "Ғосмани",
+  "perPrayerRolloverOptionAfterIsha": "Isha-нан һуң барыһы бергә"
 }

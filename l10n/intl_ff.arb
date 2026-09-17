@@ -63,6 +63,9 @@
   "iqamaIn": "Wuurnaango ɗoo e",
   "iqamaShowClock": "Hollu aadoo to letnol Iqama",
   "iqamaShowClockDesc": "Hollu waktu e jamiroore to letnol ñaawoore Iqama",
+  "perPrayerRollover": "Waylugol waktuuji njuulu",
+  "perPrayerRolloverDesc": "Labo no waktuuji njuulu waylortoo e waktuuji janngo",
+  "perPrayerRolloverOptionPerPrayer": "Kala njuulu e hoore mum",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "Famɗum",
   "fontSizeNormal": "Hakkunde",
   "fontSizeLarge": "Mawnum",
-  "fontSizeXLarge": "Mawnum sanne"
+  "fontSizeXLarge": "Mawnum sanne",
+  "athkarArabicFont": "Binndi Aarabu ngam Al-Athkar",
+  "athkarArabicFontDesc": "Labo binndi Aarabu ɗi kuutoretee e Al-Athkar (ɓaawo njuulu, noddinaango, Aljumu'a, hadiis...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Fof denndaangal ɓaawo Geeƴe"
 }

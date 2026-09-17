@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsMl extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Display the current time and date on the Iqama countdown screen';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'നമസ്കാര സമയ മാറ്റം';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'നമസ്കാര സമയങ്ങൾ നാളത്തെ സമയക്രമത്തിലേക്ക് എങ്ങനെ മാറണമെന്ന് തിരഞ്ഞെടുക്കൂ';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'ഓരോ നമസ്കാരവും വെവ്വേറെ';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'ഇശയ്ക്ക് ശേഷം എല്ലാം ഒന്നിച്ച്';
 
   @override
   String get alAthkar => 'അദ്കാർ';
@@ -1182,14 +1182,14 @@ class MawaqitTvLocalizationsMl extends MawaqitTvLocalizations {
   String get fontSizeXLarge => 'വളരെ വലുത്';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'അദ്കാറിന്റെ അറബി ഫോണ്ട്';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'അദ്കാറിന് ഉപയോഗിക്കുന്ന അറബി ഫോണ്ട് തിരഞ്ഞെടുക്കൂ (നമസ്കാരത്തിനു ശേഷം, അദാൻ, ജുമുഅ, ഹദീഥ്...)';
 
   @override
-  String get athkarFontKufi => 'Kufi';
+  String get athkarFontKufi => 'കൂഫി';
 
   @override
-  String get athkarFontUthmani => 'Uthmani';
+  String get athkarFontUthmani => 'ഉഥ്മാനി';
 }

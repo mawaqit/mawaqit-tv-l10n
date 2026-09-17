@@ -63,6 +63,9 @@
   "iqamaIn": "Ikameti në",
   "iqamaShowClock": "Trego orën në ekranin e ikamës",
   "iqamaShowClockDesc": "Shfaq kohën dhe datën aktuale në ekranin e numërimit mbrapsht të ikamës",
+  "perPrayerRollover": "Kalimi i kohëve të namazit",
+  "perPrayerRolloverDesc": "Zgjidhni si kalojnë kohët e namazit në orarin e nesërm",
+  "perPrayerRolloverOptionPerPrayer": "Çdo namaz veç e veç",
   "alAthkar": "Dhikri",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -493,5 +496,10 @@
   "fontSizeSmall": "E vogël",
   "fontSizeNormal": "Normale",
   "fontSizeLarge": "E madhe",
-  "fontSizeXLarge": "Shumë e madhe"
+  "fontSizeXLarge": "Shumë e madhe",
+  "athkarArabicFont": "Fonti arab i Dhikrit",
+  "athkarArabicFontDesc": "Zgjidhni fontin arab të përdorur për Dhikrin (pas namazit, ezanit, Xhumasë, hadithit...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Të gjitha së bashku pas Jacisë"
 }

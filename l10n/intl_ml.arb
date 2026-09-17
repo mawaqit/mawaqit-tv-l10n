@@ -454,5 +454,13 @@
   "fontSizeSmall": "ചെറുത്",
   "fontSizeNormal": "സാധാരണം",
   "fontSizeLarge": "വലുത്",
-  "fontSizeXLarge": "വളരെ വലുത്"
+  "fontSizeXLarge": "വളരെ വലുത്",
+  "athkarArabicFont": "അദ്കാറിന്റെ അറബി ഫോണ്ട്",
+  "athkarArabicFontDesc": "അദ്കാറിന് ഉപയോഗിക്കുന്ന അറബി ഫോണ്ട് തിരഞ്ഞെടുക്കൂ (നമസ്കാരത്തിനു ശേഷം, അദാൻ, ജുമുഅ, ഹദീഥ്...)",
+  "athkarFontKufi": "കൂഫി",
+  "athkarFontUthmani": "ഉഥ്മാനി",
+  "perPrayerRollover": "നമസ്കാര സമയ മാറ്റം",
+  "perPrayerRolloverDesc": "നമസ്കാര സമയങ്ങൾ നാളത്തെ സമയക്രമത്തിലേക്ക് എങ്ങനെ മാറണമെന്ന് തിരഞ്ഞെടുക്കൂ",
+  "perPrayerRolloverOptionPerPrayer": "ഓരോ നമസ്കാരവും വെവ്വേറെ",
+  "perPrayerRolloverOptionAfterIsha": "ഇശയ്ക്ക് ശേഷം എല്ലാം ഒന്നിച്ച്"
 }

@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsNo extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Vis gjeldende tid og dato på iqama-nedtellingsskjermen';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'Bytte av bønnetider';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'Velg hvordan bønnetidene bytter til morgendagens tider';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'Hver bønn for seg';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'Alle samlet etter Isha';
 
   @override
   String get alAthkar => 'Al-ånder';
@@ -1182,10 +1182,10 @@ class MawaqitTvLocalizationsNo extends MawaqitTvLocalizations {
   String get fontSizeXLarge => 'Ekstra stor';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'Arabisk skrift for Athkar';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'Velg den arabiske skriften som brukes til Athkar (etter salah, adhan, Jumua, hadith...)';
 
   @override
   String get athkarFontKufi => 'Kufi';

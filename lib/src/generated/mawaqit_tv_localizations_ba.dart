@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Иҡамәт сәғәтенең иҫәпләү экранында ағымдағы ваҡытты һәм датаны күрһәт';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'Намаҙ ваҡыттарын күсереү';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'Намаҙ ваҡыттарының иртәгеге графикка нисек күсеүен һайлағыҙ';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'Һәр намаҙ айырым';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'Isha-нан һуң барыһы бергә';
 
   @override
   String get alAthkar => 'Al-Athkar';
@@ -1182,14 +1182,14 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get fontSizeXLarge => 'Бик ҙур';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'Al-Athkar өсөн ғәрәп шрифты';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'Al-Athkar өсөн ҡулланылған ғәрәп шрифтын һайлағыҙ (намаҙдан һуң, азан, Jumua, хәҙис...)';
 
   @override
-  String get athkarFontKufi => 'Kufi';
+  String get athkarFontKufi => 'Куфи';
 
   @override
-  String get athkarFontUthmani => 'Uthmani';
+  String get athkarFontUthmani => 'Ғосмани';
 }

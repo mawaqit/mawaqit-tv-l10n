@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'הצג את השעה והתאריך הנוכחיים במסך ספירת האיקאמה';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'מעבר זמני התפילה';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'בחר כיצד זמני התפילה עוברים ללוח של מחר';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'כל תפילה בנפרד';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'כולם יחד לאחר עישאא';
 
   @override
   String get alAthkar => 'Al-Athkar';
@@ -1182,14 +1182,14 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get fontSizeXLarge => 'גדול מאוד';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'גופן ערבי לאזכאר';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'בחר את הגופן הערבי לאזכאר (לאחר הסלאה, האד\'אן, ג\'ומועא, החדית\'...)';
 
   @override
-  String get athkarFontKufi => 'Kufi';
+  String get athkarFontKufi => 'כופי';
 
   @override
-  String get athkarFontUthmani => 'Uthmani';
+  String get athkarFontUthmani => 'עות\'מאני';
 }

@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsAz extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'İqamə geri sayım ekranında cari vaxtı və tarixi göstər';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'Namaz vaxtlarının keçidi';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'Namaz vaxtlarının sabahkı cədvələ necə keçdiyini seçin';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'Hər namaz ayrı-ayrılıqda';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'İşadan sonra hamısı birlikdə';
 
   @override
   String get alAthkar => 'Zirk';
@@ -1182,14 +1182,14 @@ class MawaqitTvLocalizationsAz extends MawaqitTvLocalizations {
   String get fontSizeXLarge => 'Çox böyük';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'Zikr üçün ərəb şrifti';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'Zikrlər üçün istifadə olunan ərəb şriftini seçin (namazdan sonra, azan, Cümə, hədis...)';
 
   @override
   String get athkarFontKufi => 'Kufi';
 
   @override
-  String get athkarFontUthmani => 'Uthmani';
+  String get athkarFontUthmani => 'Osmani';
 }

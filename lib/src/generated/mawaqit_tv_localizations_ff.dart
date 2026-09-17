@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Hollu waktu e jamiroore to letnol ñaawoore Iqama';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'Waylugol waktuuji njuulu';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'Labo no waktuuji njuulu waylortoo e waktuuji janngo';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'Kala njuulu e hoore mum';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'Fof denndaangal ɓaawo Geeƴe';
 
   @override
   String get alAthkar => 'Al-Athkar';
@@ -1182,10 +1182,10 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get fontSizeXLarge => 'Mawnum sanne';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'Binndi Aarabu ngam Al-Athkar';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'Labo binndi Aarabu ɗi kuutoretee e Al-Athkar (ɓaawo njuulu, noddinaango, Aljumu\'a, hadiis...)';
 
   @override
   String get athkarFontKufi => 'Kufi';

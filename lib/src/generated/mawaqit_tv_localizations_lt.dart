@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsLt extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Rodyti dabartinį laiką ir datą ikamos atgalinės atskaitos ekrane';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'Maldų laikų perėjimas';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'Pasirinkite, kaip maldų laikai pereina prie rytojaus tvarkaraščio';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'Kiekviena malda atskirai';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'Visos kartu po Isha';
 
   @override
   String get alAthkar => 'Al-Athkar';
@@ -1182,10 +1182,10 @@ class MawaqitTvLocalizationsLt extends MawaqitTvLocalizations {
   String get fontSizeXLarge => 'Labai didelis';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'Arabiškas Athkar šriftas';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'Pasirinkite arabišką šriftą, naudojamą Athkar (po maldos, adhano, Jumua, hadiso...)';
 
   @override
   String get athkarFontKufi => 'Kufi';

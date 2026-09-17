@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Az aktuális idő és dátum megjelenítése az ikáma visszaszámlálás képernyőn';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'Imaidők átváltása';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'Válaszd ki, hogyan váltanak át az imaidők a holnapi időpontokra';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'Minden ima külön';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'Mind együtt az \'Ishá után';
 
   @override
   String get alAthkar => 'Allah emlegetései';
@@ -1182,10 +1182,10 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get fontSizeXLarge => 'Nagyon nagy';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'Athkar arab betűtípusa';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'Válaszd ki az Athkarhoz használt arab betűtípust (ima után, adhán, dzsumu\'a, hadith...)';
 
   @override
   String get athkarFontKufi => 'Kufi';
