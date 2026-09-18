@@ -32,6 +32,7 @@ import 'mawaqit_tv_localizations_hu.dart';
 import 'mawaqit_tv_localizations_id.dart';
 import 'mawaqit_tv_localizations_it.dart';
 import 'mawaqit_tv_localizations_ja.dart';
+import 'mawaqit_tv_localizations_km.dart';
 import 'mawaqit_tv_localizations_ko.dart';
 import 'mawaqit_tv_localizations_ku.dart';
 import 'mawaqit_tv_localizations_lt.dart';
@@ -167,6 +168,7 @@ abstract class MawaqitTvLocalizations {
     Locale('id'),
     Locale('it'),
     Locale('ja'),
+    Locale('km'),
     Locale('ko'),
     Locale('ku'),
     Locale('lt'),
@@ -2527,7 +2529,7 @@ class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLoc
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['ar', 'az', 'ba', 'bg', 'bn', 'bs', 'ca', 'cnr', 'cs', 'da', 'de', 'el', 'en', 'es', 'et', 'fa', 'ff', 'fi', 'fr', 'gu', 'he', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'ku', 'lt', 'lv', 'mk', 'ml', 'ms', 'nl', 'no', 'pl', 'pt', 'ro', 'ru', 'sl', 'sq', 'sr', 'sv', 'ta', 'th', 'tr', 'uk', 'ur', 'vi', 'zh'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['ar', 'az', 'ba', 'bg', 'bn', 'bs', 'ca', 'cnr', 'cs', 'da', 'de', 'el', 'en', 'es', 'et', 'fa', 'ff', 'fi', 'fr', 'gu', 'he', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'km', 'ko', 'ku', 'lt', 'lv', 'mk', 'ml', 'ms', 'nl', 'no', 'pl', 'pt', 'ro', 'ru', 'sl', 'sq', 'sr', 'sv', 'ta', 'th', 'tr', 'uk', 'ur', 'vi', 'zh'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_MawaqitTvLocalizationsDelegate old) => false;
@@ -2575,6 +2577,7 @@ case 'PT': return MawaqitTvLocalizationsPtPt();
     case 'id': return MawaqitTvLocalizationsId();
     case 'it': return MawaqitTvLocalizationsIt();
     case 'ja': return MawaqitTvLocalizationsJa();
+    case 'km': return MawaqitTvLocalizationsKm();
     case 'ko': return MawaqitTvLocalizationsKo();
     case 'ku': return MawaqitTvLocalizationsKu();
     case 'lt': return MawaqitTvLocalizationsLt();
