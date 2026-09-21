@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama v",
   "iqamaShowClock": "Zobrazit hodiny na obrazovce ikámy",
   "iqamaShowClockDesc": "Zobrazit aktuální čas a datum na obrazovce odpočítávání ikámy",
+  "perPrayerRollover": "Přechod časů modliteb",
+  "perPrayerRolloverDesc": "Vyberte, jak se časy modliteb přepnou na zítřejší rozvrh",
+  "perPrayerRolloverOptionPerPrayer": "Každá modlitba zvlášť",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Hlavní časy modliteb",
   "launchModeSecondaryPrayer": "Vedlejší časy modliteb",
   "timezone": "Časové pásmo",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Displej",
+  "appDisplayModeExplanation": "Vyberte, jak bude obrazovka zobrazovat obsah",
+  "prayerTimeFontSize": "Velikost textu a zobrazení",
+  "prayerTimeFontSizeDesc": "Změňte velikost textu v celé aplikaci",
+  "fontSizeSmall": "Malé",
+  "fontSizeNormal": "Normální",
+  "fontSizeLarge": "Velké",
+  "fontSizeXLarge": "Velmi velké",
+  "athkarArabicFont": "Arabské písmo pro Athkar",
+  "athkarArabicFontDesc": "Vyberte arabské písmo používané pro Athkar (po modlitbě, adhánu, Jumua, hadísu...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Všechny společně po modlitbě Isha"
 }

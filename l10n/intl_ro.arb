@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama în",
   "iqamaShowClock": "Afișează ceasul pe ecranul Iqama",
   "iqamaShowClockDesc": "Afișează ora și data curentă pe ecranul de numărătoare inversă Iqama",
+  "perPrayerRollover": "Trecerea orelor de rugăciune",
+  "perPrayerRolloverDesc": "Alegeți cum trec orele de rugăciune la programul de mâine",
+  "perPrayerRolloverOptionPerPrayer": "Fiecare rugăciune în parte",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Orele principale de rugăciune",
   "launchModeSecondaryPrayer": "Orele secundare de rugăciune",
   "timezone": "Fus orar",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Afișaj",
+  "appDisplayModeExplanation": "Alegeți cum va afișa ecranul conținutul",
+  "prayerTimeFontSize": "Dimensiunea textului și a afișajului",
+  "prayerTimeFontSizeDesc": "Modificați dimensiunea textului în toată aplicația",
+  "fontSizeSmall": "Mică",
+  "fontSizeNormal": "Normală",
+  "fontSizeLarge": "Mare",
+  "fontSizeXLarge": "Foarte mare",
+  "athkarArabicFont": "Font arab pentru Azkar",
+  "athkarArabicFontDesc": "Alegeți fontul arab folosit pentru Azkar (după rugăciune, adhan, Jumua, hadith...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Toate împreună după Isha"
 }

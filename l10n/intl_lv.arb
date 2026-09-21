@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama in",
   "iqamaShowClock": "Rādīt pulksteni ikamas ekrānā",
   "iqamaShowClockDesc": "Rādīt pašreizējo laiku un datumu ikamas atpakaļskaitīšanas ekrānā",
+  "perPrayerRollover": "Lūgšanu laiku pāreja",
+  "perPrayerRolloverDesc": "Izvēlieties, kā lūgšanu laiki pāriet uz rītdienas grafiku",
+  "perPrayerRolloverOptionPerPrayer": "Katra lūgšana atsevišķi",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Galvenie lūgšanu laiki",
   "launchModeSecondaryPrayer": "Sekundārie lūgšanu laiki",
   "timezone": "Laika zona",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Ekrāns",
+  "appDisplayModeExplanation": "Izvēlieties, kā ekrānā tiks rādīts saturs",
+  "prayerTimeFontSize": "Teksta un displeja lielums",
+  "prayerTimeFontSizeDesc": "Mainiet teksta lielumu visā lietotnē",
+  "fontSizeSmall": "Mazs",
+  "fontSizeNormal": "Parasts",
+  "fontSizeLarge": "Liels",
+  "fontSizeXLarge": "Ļoti liels",
+  "athkarArabicFont": "Athkar arābu fonts",
+  "athkarArabicFontDesc": "Izvēlieties arābu fontu, ko lietot Athkar (pēc lūgšanas, adhāna, Jumua, hadīsa...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Visas kopā pēc Isha"
 }

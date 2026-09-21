@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => '이카마 카운트다운 화면에 현재 시간과 날짜 표시';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => '기도 시간 전환';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => '기도 시간이 내일 일정으로 전환되는 방식을 선택하세요';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => '기도별로 개별 전환';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => '이샤 후 모두 함께';
 
   @override
   String get alAthkar => '알-아트카르';
@@ -1099,10 +1099,10 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display';
+  String get appDisplayMode => '디스플레이';
 
   @override
-  String get appDisplayModeExplanation => 'Choose how your screen will display content';
+  String get appDisplayModeExplanation => '화면에 콘텐츠를 표시하는 방식을 선택하세요';
 
   @override
   String get exitQuranModeTitle => 'Exit Quran Mode';
@@ -1164,32 +1164,32 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   String get tutorialFullTutorial => 'Full tutorial';
 
   @override
-  String get prayerTimeFontSize => 'Text & display size';
+  String get prayerTimeFontSize => '디스플레이 크기 및 텍스트';
 
   @override
-  String get prayerTimeFontSizeDesc => 'Change how large the text appears throughout the app';
+  String get prayerTimeFontSizeDesc => '앱 전체의 텍스트 크기를 변경합니다';
 
   @override
-  String get fontSizeSmall => 'Small';
+  String get fontSizeSmall => '작게';
 
   @override
-  String get fontSizeNormal => 'Normal';
+  String get fontSizeNormal => '보통';
 
   @override
-  String get fontSizeLarge => 'Large';
+  String get fontSizeLarge => '크게';
 
   @override
-  String get fontSizeXLarge => 'Extra Large';
+  String get fontSizeXLarge => '아주 크게';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => '아즈카르 아랍어 글꼴';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => '아즈카르(기도 후, 아잔, 주무아, 하디스...)에 사용할 아랍어 글꼴을 선택하세요';
 
   @override
-  String get athkarFontKufi => 'Kufi';
+  String get athkarFontKufi => '쿠피';
 
   @override
-  String get athkarFontUthmani => 'Uthmani';
+  String get athkarFontUthmani => '우스마니';
 }

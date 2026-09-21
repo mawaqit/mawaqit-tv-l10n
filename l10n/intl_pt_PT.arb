@@ -69,6 +69,9 @@
     "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
   },
   "iqamaShowClockDesc": "Mostrar a hora e a data atuais no ecrã da contagem decrescente do Jamaat",
+  "perPrayerRollover": "Mudança dos horários das orações",
+  "perPrayerRolloverDesc": "Escolha como os horários das orações passam para os de amanhã",
+  "perPrayerRolloverOptionPerPrayer": "Cada oração individualmente",
   "@iqamaShowClockDesc": {
     "description": "Subtitle for the iqama clock toggle setting"
   },
@@ -620,7 +623,12 @@
     "description": "Large font size option"
   },
   "fontSizeXLarge": "Muito grande",
+  "athkarArabicFont": "Tipo de letra árabe dos Azkár",
+  "athkarArabicFontDesc": "Escolha o tipo de letra árabe usado nos Azkár (depois da oração, do Azán, da Jumu'ah, do hadith...)",
+  "athkarFontKufi": "Cúfico",
+  "athkarFontUthmani": "Uthmani",
   "@fontSizeXLarge": {
     "description": "Extra large font size option"
-  }
+  },
+  "perPrayerRolloverOptionAfterIsha": "Todas em conjunto depois do Ishá"
 }

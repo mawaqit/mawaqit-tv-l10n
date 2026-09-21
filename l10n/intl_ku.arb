@@ -63,6 +63,9 @@
   "iqamaIn": "قامەت لە دوای",
   "iqamaShowClock": "Saetê li ser ekrana iqameyê nîşan bide",
   "iqamaShowClockDesc": "Dema û mêjûya niha li ser ekrana hejmartina iqameyê nîşan bide",
+  "perPrayerRollover": "گۆڕینی کاتەکانی نوێژ",
+  "perPrayerRolloverDesc": "هەڵبژێرە کاتەکانی نوێژ چۆن بۆ خشتەی سبەینێ بگۆڕدرێن",
+  "perPrayerRolloverOptionPerPrayer": "هەر نوێژێک بە تەنها",
   "alAthkar": "ویردەکان",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Demên nimêja sereke",
   "launchModeSecondaryPrayer": "Demên nimêja duyemîn",
   "timezone": "Herêma demê",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "شاشە",
+  "appDisplayModeExplanation": "هەڵبژێرە شاشەکەت چۆن ناوەڕۆک پیشان بدات",
+  "prayerTimeFontSize": "قەبارەی دەق و پیشاندان",
+  "prayerTimeFontSizeDesc": "قەبارەی دەق بگۆڕە لە هەموو بەرنامەکەدا",
+  "fontSizeSmall": "بچووک",
+  "fontSizeNormal": "ئاسایی",
+  "fontSizeLarge": "گەورە",
+  "fontSizeXLarge": "زۆر گەورە",
+  "athkarArabicFont": "فۆنتی عەرەبی ویردەکان",
+  "athkarArabicFontDesc": "فۆنتی عەرەبی ویردەکان هەڵبژێرە (دوای نوێژ، بانگ، هەینی، فەرموودە...)",
+  "athkarFontKufi": "کوفی",
+  "athkarFontUthmani": "عوسمانی",
+  "perPrayerRolloverOptionAfterIsha": "هەموویان پێکەوە دوای عیشا"
 }

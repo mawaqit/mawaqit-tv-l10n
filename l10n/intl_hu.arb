@@ -63,6 +63,9 @@
   "iqamaIn": "Al Iqáma (az ima kezdete) in",
   "iqamaShowClock": "Óra megjelenítése az ikáma képernyőn",
   "iqamaShowClockDesc": "Az aktuális idő és dátum megjelenítése az ikáma visszaszámlálás képernyőn",
+  "perPrayerRollover": "Imaidők átváltása",
+  "perPrayerRolloverDesc": "Válaszd ki, hogyan váltanak át az imaidők a holnapi időpontokra",
+  "perPrayerRolloverOptionPerPrayer": "Minden ima külön",
   "alAthkar": "Allah emlegetései",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Fő imaidők",
   "launchModeSecondaryPrayer": "Másodlagos imaidők",
   "timezone": "Időzóna",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Megjelenítés",
+  "appDisplayModeExplanation": "Válaszd ki, hogyan jelenjen meg a tartalom a képernyőn",
+  "prayerTimeFontSize": "Szöveg- és megjelenítési méret",
+  "prayerTimeFontSizeDesc": "Módosítsd a szöveg méretét az egész alkalmazásban",
+  "fontSizeSmall": "Kicsi",
+  "fontSizeNormal": "Normál",
+  "fontSizeLarge": "Nagy",
+  "fontSizeXLarge": "Nagyon nagy",
+  "athkarArabicFont": "Athkar arab betűtípusa",
+  "athkarArabicFontDesc": "Válaszd ki az Athkarhoz használt arab betűtípust (ima után, adhán, dzsumu'a, hadith...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Mind együtt az 'Ishá után"
 }

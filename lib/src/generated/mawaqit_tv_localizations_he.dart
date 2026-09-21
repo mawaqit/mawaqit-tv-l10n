@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'הצג את השעה והתאריך הנוכחיים במסך ספירת האיקאמה';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'מעבר זמני התפילה';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'בחר כיצד זמני התפילה עוברים ללוח של מחר';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'כל תפילה בנפרד';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'כולם יחד לאחר עישאא';
 
   @override
   String get alAthkar => 'Al-Athkar';
@@ -1099,10 +1099,10 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
 
   @override
-  String get appDisplayMode => 'Display';
+  String get appDisplayMode => 'תצוגה';
 
   @override
-  String get appDisplayModeExplanation => 'Choose how your screen will display content';
+  String get appDisplayModeExplanation => 'בחר כיצד המסך יציג את התוכן';
 
   @override
   String get exitQuranModeTitle => 'Exit Quran Mode';
@@ -1164,32 +1164,32 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
   String get tutorialFullTutorial => 'Full tutorial';
 
   @override
-  String get prayerTimeFontSize => 'Text & display size';
+  String get prayerTimeFontSize => 'גודל טקסט ותצוגה';
 
   @override
-  String get prayerTimeFontSizeDesc => 'Change how large the text appears throughout the app';
+  String get prayerTimeFontSizeDesc => 'שנה את גודל הטקסט בכל האפליקציה';
 
   @override
-  String get fontSizeSmall => 'Small';
+  String get fontSizeSmall => 'קטן';
 
   @override
-  String get fontSizeNormal => 'Normal';
+  String get fontSizeNormal => 'רגיל';
 
   @override
-  String get fontSizeLarge => 'Large';
+  String get fontSizeLarge => 'גדול';
 
   @override
-  String get fontSizeXLarge => 'Extra Large';
+  String get fontSizeXLarge => 'גדול מאוד';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'גופן ערבי לאזכאר';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'בחר את הגופן הערבי לאזכאר (לאחר הסלאה, האד\'אן, ג\'ומועא, החדית\'...)';
 
   @override
-  String get athkarFontKufi => 'Kufi';
+  String get athkarFontKufi => 'כופי';
 
   @override
-  String get athkarFontUthmani => 'Uthmani';
+  String get athkarFontUthmani => 'עות\'מאני';
 }

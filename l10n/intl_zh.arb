@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama在",
   "iqamaShowClock": "在伊卡玛屏幕上显示时钟",
   "iqamaShowClockDesc": "在伊卡玛倒计时屏幕上显示当前时间和日期",
+  "perPrayerRollover": "礼拜时间跨日切换",
+  "perPrayerRolloverDesc": "选择礼拜时间切换到次日时刻表的方式",
+  "perPrayerRolloverOptionPerPrayer": "每个礼拜单独切换",
   "alAthkar": "Al-Athkar",
   "azkarList0": "阿拉善哉，阿拉善哉，阿拉善哉，阿拉善哉，阿拉善哉，阿拉善哉。",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "主要礼拜时间",
   "launchModeSecondaryPrayer": "次要礼拜时间",
   "timezone": "时区",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "显示",
+  "appDisplayModeExplanation": "选择屏幕显示内容的方式",
+  "prayerTimeFontSize": "显示大小和文字",
+  "prayerTimeFontSizeDesc": "更改应用内文字的显示大小",
+  "fontSizeSmall": "小",
+  "fontSizeNormal": "中",
+  "fontSizeLarge": "大",
+  "fontSizeXLarge": "超大",
+  "athkarArabicFont": "Athkar 阿拉伯文字体",
+  "athkarArabicFontDesc": "选择 Athkar（礼拜后、adhan、Jumua、圣训…）所用的阿拉伯文字体",
+  "athkarFontKufi": "库法体",
+  "athkarFontUthmani": "奥斯曼体",
+  "perPrayerRolloverOptionAfterIsha": "Isha 之后一起切换"
 }
