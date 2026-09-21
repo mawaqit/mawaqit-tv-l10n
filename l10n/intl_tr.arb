@@ -64,14 +64,6 @@
   "alAdhan": "Ezan",
   "turnOfPhones": "Lütfen telefonlarınızı kapatın yada sessiz konumuna getirin",
   "iqamaIn": "İkamet kalan süre",
-  "iqamaShowClock": "İkamet ekranında saat göster",
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "iqamaShowClockDesc": "İkamet geri sayım ekranında güncel saat ve tarihi göster",
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
-  },
   "alAthkar": "Zikir",
   "azkarList0": "Estağfirullah, Estağfirullah, Estağfirullah.\n\nAllahumme ente’s-selâm ve minke’s-selâm, tebârekte yâ zel-celâli vel-ikrâm.\n\nAllahumme e‘innî alâ zikrike ve şukrike ve husni ibâdetik.",
   "@azkarList0": {

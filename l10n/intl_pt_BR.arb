@@ -61,8 +61,6 @@
   "alAdhan": "Azán",
   "turnOfPhones": "Por favor, coloquem seus celulares no modo silencioso",
   "iqamaIn": "Jamaat em",
-  "iqamaShowClock": "Mostrar relógio na tela do Iqama",
-  "iqamaShowClockDesc": "Exibir a hora e data atuais na tela de contagem regressiva do Iqama",
   "alAthkar": "Zikr",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {

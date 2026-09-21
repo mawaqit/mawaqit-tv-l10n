@@ -65,8 +65,6 @@
   "alAdhan": "الأذان",
   "turnOfPhones": "الرجاء ضبط هاتفك على الوضع الصامت",
   "iqamaIn": "الإقامة بعد",
-  "iqamaShowClock": "عرض الساعة في شاشة الإقامة",
-  "iqamaShowClockDesc": "عرض الوقت والتاريخ الحالي في شاشة العد التنازلي للإقامة",
   "perPrayerRollover": "تبديل أوقات الصلاة",
   "perPrayerRolloverDesc": "اختر كيفية انتقال أوقات الصلاة إلى مواقيت الغد",
   "perPrayerRolloverOptionPerPrayer": "كل صلاة على حدة",

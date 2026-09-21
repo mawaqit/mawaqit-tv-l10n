@@ -64,14 +64,6 @@
   "alAdhan": "Azán",
   "turnOfPhones": "Por favor, coloque o seu telemóvel em Silêncio",
   "iqamaIn": "Jamaat em",
-  "iqamaShowClock": "Mostrar relógio no ecrã do Iqamah",
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "iqamaShowClockDesc": "Mostrar a hora e a data atuais no ecrã da contagem decrescente do Jamaat",
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
-  },
   "alAthkar": "Azkár",
   "azkarList0": "Peço perdão a Allah, peço perdão a Allah, peço perdão a Allah. Ó Allah, Vós sois Aquele que concede a paz, e a paz provém somente de Vós. Vós sois o Senhor das bênçãos, Ó Senhor da Majestade e Benevolência. Ó Allah, auxiliai-me na Vossa recordação, no Vosso agradecimento e na prática de uma adoração sincera e virtuosa.",
   "@azkarList0": {

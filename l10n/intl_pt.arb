@@ -1,7 +1,5 @@
 {"@@locale": "pt",
   "continueListening": "Continuar ouvindo",
-  "iqamaShowClock": "Mostrar relógio na tela do Iqama",
-  "iqamaShowClockDesc": "Exibir a hora e data atuais na tela de contagem regressiva do Iqama",
   "settingsSectionGlobal": "Global",
   "hijriDateAdjustment": "Ajuste da data Hijri",
   "interfaceLanguage": "Idioma da interface",
