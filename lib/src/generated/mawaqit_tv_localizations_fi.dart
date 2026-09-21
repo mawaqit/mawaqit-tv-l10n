@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsFi extends MawaqitTvLocalizations {
   String get iqamaIn => 'Iqama vuonna';
 
   @override
-  String get iqamaShowClock => 'Näytä kello iqama-näytöllä';
-
-  @override
-  String get iqamaShowClockDesc => 'Näytä nykyinen aika ja päivämäärä iqama-lähtölaskennan näytöllä';
-
-  @override
   String get perPrayerRollover => 'Prayer time rollover';
 
   @override

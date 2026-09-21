@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsBn extends MawaqitTvLocalizations {
   String get iqamaIn => 'জামাতের সময় বাকি';
 
   @override
-  String get iqamaShowClock => 'ইকামা স্ক্রিনে ঘড়ি দেখান';
-
-  @override
-  String get iqamaShowClockDesc => 'ইকামা কাউন্টডাউন স্ক্রিনে বর্তমান সময় ও তারিখ প্রদর্শন করুন';
-
-  @override
   String get perPrayerRollover => 'Prayer time rollover';
 
   @override

@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsAz extends MawaqitTvLocalizations {
   String get iqamaIn => 'İqaməyə qalan vaxt';
 
   @override
-  String get iqamaShowClock => 'İqamə ekranında saatı göstər';
-
-  @override
-  String get iqamaShowClockDesc => 'İqamə geri sayım ekranında cari vaxtı və tarixi göstər';
-
-  @override
   String get perPrayerRollover => 'Prayer time rollover';
 
   @override

@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get iqamaIn => 'のイーカマ';
 
   @override
-  String get iqamaShowClock => 'イカーマ画面に時計を表示';
-
-  @override
-  String get iqamaShowClockDesc => 'イカーマカウントダウン画面に現在の時刻と日付を表示する';
-
-  @override
   String get perPrayerRollover => 'Prayer time rollover';
 
   @override

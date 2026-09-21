@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get iqamaIn => 'Iqama in';
 
   @override
-  String get iqamaShowClock => 'Mostrar relógio na tela do Iqama';
-
-  @override
-  String get iqamaShowClockDesc => 'Exibir a hora e data atuais na tela de contagem regressiva do Iqama';
-
-  @override
   String get perPrayerRollover => 'Prayer time rollover';
 
   @override
@@ -286,7 +280,7 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get jumuaaHadith => 'The Prophet ﷺ (peace and blessings of Allah be upon him) said “Whoever does the ablutions perfectly then goes to jumua and then listens and is silent, he is forgiven what is between that time and the following Friday and three more days and the one who touches stones has certainly made a futility”';
 
   @override
-  String get shuruk => 'Shuruk';
+  String get shuruk => 'Sunrise';
 
   @override
   String get duha => 'Duha';
@@ -1391,12 +1385,6 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get iqamaIn => 'Jamaat em';
 
   @override
-  String get iqamaShowClock => 'Mostrar relógio na tela do Iqama';
-
-  @override
-  String get iqamaShowClockDesc => 'Exibir a hora e data atuais na tela de contagem regressiva do Iqama';
-
-  @override
   String get alAthkar => 'Zikr';
 
   @override
@@ -2431,12 +2419,6 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
 
   @override
   String get iqamaIn => 'Jamaat em';
-
-  @override
-  String get iqamaShowClock => 'Mostrar relógio no ecrã do Iqamah';
-
-  @override
-  String get iqamaShowClockDesc => 'Mostrar a hora e a data atuais no ecrã da contagem decrescente do Jamaat';
 
   @override
   String get alAthkar => 'Azkár';

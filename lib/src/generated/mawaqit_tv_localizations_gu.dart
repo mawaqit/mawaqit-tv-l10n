@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsGu extends MawaqitTvLocalizations {
   String get iqamaIn => 'જમાત ઊભી થવામાં બાકી મિનિટ ';
 
   @override
-  String get iqamaShowClock => 'ઇકામા સ્ક્રીન પર ઘડિયાળ બતાવો';
-
-  @override
-  String get iqamaShowClockDesc => 'ઇકામા કાઉન્ટડાઉન સ્ક્રીન પર વર્તમાન સમય અને તારીખ દર્શાવો';
-
-  @override
   String get perPrayerRollover => 'Prayer time rollover';
 
   @override

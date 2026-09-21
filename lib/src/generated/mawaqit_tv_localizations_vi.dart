@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsVi extends MawaqitTvLocalizations {
   String get iqamaIn => 'Ikamet za';
 
   @override
-  String get iqamaShowClock => 'Hiển thị đồng hồ trên màn hình Iqama';
-
-  @override
-  String get iqamaShowClockDesc => 'Hiển thị thời gian và ngày tháng hiện tại trên màn hình đếm ngược Iqama';
-
-  @override
   String get perPrayerRollover => 'Prayer time rollover';
 
   @override

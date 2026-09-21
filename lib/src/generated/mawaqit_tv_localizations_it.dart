@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsIt extends MawaqitTvLocalizations {
   String get iqamaIn => 'Iqama tra';
 
   @override
-  String get iqamaShowClock => 'Mostra orologio sulla schermata Iqama';
-
-  @override
-  String get iqamaShowClockDesc => 'Visualizza l\'ora e la data attuali sulla schermata del conto alla rovescia dell\'Iqama';
-
-  @override
   String get perPrayerRollover => 'Prayer time rollover';
 
   @override
