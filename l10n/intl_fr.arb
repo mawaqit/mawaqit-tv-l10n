@@ -65,8 +65,6 @@
   "alAdhan": "Al Adhan",
   "turnOfPhones": "Veuillez mettre vos téléphones en mode silencieux",
   "iqamaIn": "Iqama dans",
-  "iqamaShowClock": "Afficher l'horloge sur l'écran Iqama",
-  "iqamaShowClockDesc": "Afficher l'heure et la date actuelles sur l'écran de décompte de l'Iqama",
   "perPrayerRollover": "Basculement des heures de prière",
   "perPrayerRolloverDesc": "Choisissez comment les heures de prière basculent vers demain",
   "perPrayerRolloverOptionPerPrayer": "Chaque prière individuellement",

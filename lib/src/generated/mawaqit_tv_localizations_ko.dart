@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
   String get iqamaIn => '이카마';
 
   @override
-  String get iqamaShowClock => '이카마 화면에 시계 표시';
-
-  @override
-  String get iqamaShowClockDesc => '이카마 카운트다운 화면에 현재 시간과 날짜 표시';
-
-  @override
   String get perPrayerRollover => 'Prayer time rollover';
 
   @override

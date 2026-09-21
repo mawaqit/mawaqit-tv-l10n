@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get iqamaIn => 'Wuurnaango ɗoo e';
 
   @override
-  String get iqamaShowClock => 'Hollu aadoo to letnol Iqama';
-
-  @override
-  String get iqamaShowClockDesc => 'Hollu waktu e jamiroore to letnol ñaawoore Iqama';
-
-  @override
   String get perPrayerRollover => 'Prayer time rollover';
 
   @override

@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsHu extends MawaqitTvLocalizations {
   String get iqamaIn => 'Al Iqáma (az ima kezdete) in';
 
   @override
-  String get iqamaShowClock => 'Óra megjelenítése az ikáma képernyőn';
-
-  @override
-  String get iqamaShowClockDesc => 'Az aktuális idő és dátum megjelenítése az ikáma visszaszámlálás képernyőn';
-
-  @override
   String get perPrayerRollover => 'Prayer time rollover';
 
   @override

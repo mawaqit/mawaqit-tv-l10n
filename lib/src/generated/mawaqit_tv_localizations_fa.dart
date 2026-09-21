@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsFa extends MawaqitTvLocalizations {
   String get iqamaIn => 'اقامه پس از';
 
   @override
-  String get iqamaShowClock => 'نمایش ساعت در صفحه اقامه';
-
-  @override
-  String get iqamaShowClockDesc => 'نمایش زمان و تاریخ فعلی در صفحه شمارش معکوس اقامه';
-
-  @override
   String get perPrayerRollover => 'Prayer time rollover';
 
   @override

@@ -597,18 +597,6 @@ abstract class MawaqitTvLocalizations {
   /// **'Iqama in'**
   String get iqamaIn;
 
-  /// Toggle to show or hide the clock widget on the Iqama countdown screen
-  ///
-  /// In en, this message translates to:
-  /// **'Show clock on Iqama screen'**
-  String get iqamaShowClock;
-
-  /// Subtitle for the iqama clock toggle setting
-  ///
-  /// In en, this message translates to:
-  /// **'Display the current time and date on the Iqama countdown screen'**
-  String get iqamaShowClockDesc;
-
   /// Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends
   ///
   /// In en, this message translates to:

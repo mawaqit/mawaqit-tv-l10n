@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get iqamaIn => 'Iqamat';
 
   @override
-  String get iqamaShowClock => 'Tunjukkan jam di skrin Iqama';
-
-  @override
-  String get iqamaShowClockDesc => 'Paparkan masa dan tarikh semasa pada skrin kira detik Iqama';
-
-  @override
   String get perPrayerRollover => 'Prayer time rollover';
 
   @override

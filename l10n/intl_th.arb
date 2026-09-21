@@ -61,8 +61,6 @@
   "alAdhan": "อาซาน الأذان",
   "turnOfPhones": "กรุณาปิดมือถือ หรือเข้าสู่โหมดปิดเสียง ขณะละหมาด",
   "iqamaIn": "เวลาอีกอมะฮฺ",
-  "iqamaShowClock": "แสดงนาฬิกาบนหน้าจออิกามะ",
-  "iqamaShowClockDesc": "แสดงเวลาและวันที่ปัจจุบันบนหน้าจอนับถอยหลังอิกามะ",
   "alAthkar": "อัล-อัซการ",
   "azkarList0": "Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik",
   "@azkarList0": {

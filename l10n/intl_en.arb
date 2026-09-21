@@ -92,14 +92,6 @@
   "alAdhan": "Al Athan",
   "turnOfPhones": "Please put your phones into Silent Mode",
   "iqamaIn": "Iqama in",
-  "iqamaShowClock": "Show clock on Iqama screen",
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "iqamaShowClockDesc": "Display the current time and date on the Iqama countdown screen",
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
-  },
   "perPrayerRollover": "Prayer time rollover",
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

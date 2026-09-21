@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsEl extends MawaqitTvLocalizations {
   String get iqamaIn => 'Iqama σε';
 
   @override
-  String get iqamaShowClock => 'Εμφάνιση ρολογιού στην οθόνη ικάμα';
-
-  @override
-  String get iqamaShowClockDesc => 'Εμφάνιση τρέχουσας ώρας και ημερομηνίας στην οθόνη αντίστροφης μέτρησης ικάμα';
-
-  @override
   String get perPrayerRollover => 'Prayer time rollover';
 
   @override

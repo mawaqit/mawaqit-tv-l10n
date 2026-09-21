@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsMk extends MawaqitTvLocalizations {
   String get iqamaIn => 'Икама за';
 
   @override
-  String get iqamaShowClock => 'Прикажи часовник на екранот на икама';
-
-  @override
-  String get iqamaShowClockDesc => 'Прикажи го тековното време и датум на екранот за одбројување на икама';
-
-  @override
   String get perPrayerRollover => 'Prayer time rollover';
 
   @override
