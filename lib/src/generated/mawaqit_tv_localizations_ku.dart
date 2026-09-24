@@ -214,10 +214,10 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get iqamaIn => 'قامەت لە دوای';
 
   @override
-  String get iqamaShowClock => 'Saetê li ser ekrana iqameyê nîşan bide';
+  String get iqamaShowClock => 'کاتژمێر لەسەر شاشەی قامەت پیشان بدە';
 
   @override
-  String get iqamaShowClockDesc => 'Dema û mêjûya niha li ser ekrana hejmartina iqameyê nîşan bide';
+  String get iqamaShowClockDesc => 'کات و بەرواری ئێستا لەسەر شاشەی ژمارەی پێچەوانەی قامەت پیشان بدە';
 
   @override
   String get perPrayerRollover => 'گۆڕینی کاتەکانی نوێژ';
@@ -289,10 +289,10 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get shuruk => 'ڕۆژهەڵات';
 
   @override
-  String get duha => 'Duha';
+  String get duha => 'چێشتەنگاو';
 
   @override
-  String get duhaTime => 'Duha Time';
+  String get duhaTime => 'کاتی چێشتەنگاو';
 
   @override
   String get reset => 'فۆرمات';
@@ -490,7 +490,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get settings => 'رێکخستنەکان';
 
   @override
-  String get applicationModes => 'Moda destpêkirina xwerû';
+  String get applicationModes => 'دۆخی دەستپێکردنی بنەڕەت';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'ئەگەر ڕووبەڕووی کێشە بوویتەوە لەگەڵ بەرنامەکەدا، هەوڵبدە ئەم هەڵبژاردنە چالاک بکەیت';
@@ -715,7 +715,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get powerOffScreen => 'گوژاندنەوەی ڕوونما';
 
   @override
-  String get deviceSettings => 'Cîhaz';
+  String get deviceSettings => 'ئامێر';
 
   @override
   String get later => 'دواتر';
@@ -812,7 +812,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   }
 
   @override
-  String get continueListening => 'Guhdarîkirinê bidomînin';
+  String get continueListening => 'بەردەوام بە لە گوێگرتن';
 
   @override
   String get noFavoriteReciters => 'هیچ قورئانخوێنێکی دڵخواز بونی نیە. دانەیەک زیاد بکە';
@@ -904,7 +904,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get validRtspUrl => 'لینک گونجاوە و بە سەرکەوتوویی پاشەکەوت کرا.';
 
   @override
-  String get rtspCameraSettingTitle => 'Kamerayek zindî';
+  String get rtspCameraSettingTitle => 'کامێرای ڕاستەوخۆ';
 
   @override
   String get rtspCameraSettingDesc => 'پەیوەست ببە بە کامێرا نێوخۆییەکەتەوە و راستەوخۆی وتاری هەینی لە شاشەکەوە بگوازەوە.';
@@ -1111,22 +1111,22 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get exitQuranModeMessage => 'ئایا دەتەوێت بگەڕێیتەوە بۆ دۆخی ئاسایی؟';
 
   @override
-  String get settingsSectionGlobal => 'Giştî';
+  String get settingsSectionGlobal => 'گشتی';
 
   @override
-  String get hijriDateAdjustment => 'Sererastkirina mêjûya hicrî';
+  String get hijriDateAdjustment => 'ڕێکخستنی بەرواری هیجری';
 
   @override
-  String get interfaceLanguage => 'Zimanê navberê';
+  String get interfaceLanguage => 'زمانی ڕووکار';
 
   @override
-  String get launchModeMainPrayer => 'Demên nimêja sereke';
+  String get launchModeMainPrayer => 'کاتەکانی نوێژی سەرەکی';
 
   @override
-  String get launchModeSecondaryPrayer => 'Demên nimêja duyemîn';
+  String get launchModeSecondaryPrayer => 'کاتەکانی نوێژی لاوەکی';
 
   @override
-  String get timezone => 'Herêma demê';
+  String get timezone => 'ناوچەی کات';
 
   @override
   String get wifi => 'WiFi';
