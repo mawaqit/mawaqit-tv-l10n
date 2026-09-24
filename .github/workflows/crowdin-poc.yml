@@ -1,0 +1,106 @@
+name: Crowdin POC (one key)
+
+# End-to-end check of upload -> AI pre-translate -> approved-only download -> PR against the
+# real Crowdin project, using one key in its own file (l10n-poc/) and its own Crowdin branch
+# (`poc`), so the real intl_en.arb and its approvals are never touched.
+# Cleanup: delete Crowdin branch `poc`, then this git branch.
+
+on:
+  push:
+    branches:
+      - crowdin-poc
+
+permissions:
+  contents: write
+  pull-requests: write
+
+env:
+  CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+  CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+jobs:
+  upload-and-pretranslate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Upload source
+        uses: crowdin/github-action@v2
+        with:
+          config: crowdin-poc.yml
+          crowdin_branch_name: poc
+          upload_sources: true
+          upload_translations: false
+          download_translations: false
+
+      - name: Pre-translate with AI
+        uses: crowdin/github-action@v2
+        with:
+          command: 'pre-translate'
+          command_args: >-
+            --config crowdin-poc.yml --branch poc
+            --method ai --ai-prompt 332920
+            --translate-untranslated-only --auto-approve-option none --verbose
+
+  # Prints every translation, approved or not, so the AI output can be read in the log.
+  show-ai-drafts:
+    runs-on: ubuntu-latest
+    needs: upload-and-pretranslate
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download all translations
+        uses: crowdin/github-action@v2
+        with:
+          config: crowdin-poc.yml
+          crowdin_branch_name: poc
+          upload_sources: false
+          upload_translations: false
+          download_translations: true
+          skip_untranslated_strings: true
+          export_only_approved: false
+          push_translations: false
+
+      - name: Print drafts
+        run: for f in l10n-poc/intl_*.arb; do echo "$f $(tr -d '\n' < "$f")"; done
+
+  download-approved:
+    runs-on: ubuntu-latest
+    needs: upload-and-pretranslate
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download approved translations
+        uses: crowdin/github-action@v2
+        with:
+          config: crowdin-poc.yml
+          crowdin_branch_name: poc
+          upload_sources: false
+          upload_translations: false
+          download_translations: true
+          skip_untranslated_strings: true
+          export_only_approved: true
+          push_translations: false
+
+      - name: Print approved
+        run: for f in l10n-poc/intl_*.arb; do echo "$f $(tr -d '\n' < "$f")"; done
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.24.5'
+
+      - name: Regenerate localizations
+        run: flutter gen-l10n
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: l10n_crowdin_poc
+          base: crowdin-poc
+          add-paths: |
+            l10n-poc/*.arb
+            lib/src/generated/*.dart
+          commit-message: 'chore(l10n): POC sync from Crowdin'
+          title: 'POC: Crowdin one-key sync (do not merge)'
+          body: Approved translations for `crowdinPocCheck` from Crowdin branch `poc`.
+          delete-branch: true

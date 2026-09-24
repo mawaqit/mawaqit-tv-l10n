@@ -1,0 +1,13 @@
+# One-key POC of the Crowdin flow against the real project, isolated in Crowdin branch `poc`.
+project_id_env: CROWDIN_PROJECT_ID
+api_token_env: CROWDIN_PERSONAL_TOKEN
+
+preserve_hierarchy: true
+
+files:
+  - source: /l10n-poc/intl_en.arb
+    translation: /l10n-poc/intl_%two_letters_code%.arb
+    languages_mapping:
+      two_letters_code:
+        pt-BR: pt_BR
+        pt-PT: pt_PT
