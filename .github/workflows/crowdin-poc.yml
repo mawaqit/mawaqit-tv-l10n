@@ -67,11 +67,14 @@ jobs:
                {k: v for k, v in proj.items() if any(s in k.lower() for s in ("pre", "auto", "mt", "ai", "tm", "translat"))})
           uid = get("/user").get("data", {}).get("id")
           show(f"ai prompt 332920 (user {uid})", get(f"/users/{uid}/ai/prompts/332920"))
-          pres = get(f"/projects/{PID}/pre-translations?limit=5&orderBy=createdAt%20desc")
-          show("recent pre-translations", pres)
-          for row in (pres.get("data") or [])[:2]:
+          pres = get(f"/projects/{PID}/pre-translations?limit=1&orderBy=createdAt%20desc")
+          for row in (pres.get("data") or [])[:1]:
               pt = row["data"]["identifier"]
-              show(f"report {pt}", get(f"/projects/{PID}/pre-translations/{pt}/report"))
+              rep = get(f"/projects/{PID}/pre-translations/{pt}/report").get("data", {})
+              show(f"skip reasons {pt}", {l["id"]: l["skipped"] for l in rep.get("languages", []) if l["skipped"]})
+          # Which file name each target language exports to; two languages on one code overwrite each other.
+          for l in proj.get("targetLanguages", []):
+              print(f'{l["id"]:12} two_letters={l.get("twoLettersCode")!s:6} locale={l.get("locale")!s:8} {l.get("name")}')
           PY
 
   # Prints every translation, approved or not, so the AI output can be read in the log.
