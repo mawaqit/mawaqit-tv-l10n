@@ -35,19 +35,19 @@ jobs:
 
   # Stands in for AI pre-translate while Crowdin AI returns ai_payment_error: writes an
   # UNAPPROVED draft "[mock-ai <lang>] <source>" for every untranslated string, like the AI
-  # would. Then approves only ku + ckb to test the approved-only download, and to show which
-  # of the two Kurdish variants ends up in intl_ku.arb. Only ever touches Crowdin branch `poc`.
+  # would. Then approves a few languages to test the approved-only download and which Crowdin
+  # language lands in which intl_*.arb. Only ever touches Crowdin branch `poc`.
   mock-ai:
     runs-on: ubuntu-latest
     needs: upload-and-pretranslate
     steps:
-      - name: Mock AI drafts + approve ku/ckb
+      - name: Mock AI drafts + approve a few languages
         run: |
           python3 - <<'PY'
           import os, json, urllib.request
           BASE = "https://api.crowdin.com/api/v2"
           TOKEN, PID = os.environ["CROWDIN_PERSONAL_TOKEN"], os.environ["CROWDIN_PROJECT_ID"]
-          APPROVE = {"ku", "ckb"}
+          APPROVE = {"ku", "ckb", "sr-Cyrl-ME", "me", "pt-PT"}
           def call(method, path, body=None):
               req = urllib.request.Request(BASE + path, method=method,
                     data=json.dumps(body).encode() if body else None,
@@ -66,9 +66,13 @@ jobs:
                   if existing:
                       tid = existing[0]["data"]["id"]
                   else:
-                      tid = call("POST", f"/projects/{PID}/translations",
-                                 {"stringId": s["id"], "languageId": lang, "text": f"[mock-ai {lang}] {s['text']}"})["data"]["id"]
-                      made += 1
+                      try:
+                          tid = call("POST", f"/projects/{PID}/translations",
+                                     {"stringId": s["id"], "languageId": lang, "text": f"[mock-ai {lang}] {s['text']}"})["data"]["id"]
+                          made += 1
+                      except urllib.error.HTTPError as e:  # e.g. language excluded for this file
+                          print(f"draft {lang}: HTTP {e.code} {e.read().decode()[:150]}")
+                          continue
                   if lang in APPROVE:
                       try:
                           call("POST", f"/projects/{PID}/approvals", {"translationId": tid})
