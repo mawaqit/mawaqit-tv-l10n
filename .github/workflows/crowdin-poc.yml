@@ -42,6 +42,38 @@ jobs:
             --method ai --ai-prompt 332920
             --translate-untranslated-only --auto-approve-option none --verbose
 
+  # Read-only: why did AI pre-translate report 0 phrases / 52 skipped?
+  diagnose-ai:
+    runs-on: ubuntu-latest
+    needs: upload-and-pretranslate
+    steps:
+      - name: Query Crowdin
+        run: |
+          python3 - <<'PY'
+          import os, json, urllib.request
+          BASE = "https://api.crowdin.com/api/v2"
+          TOKEN, PID = os.environ["CROWDIN_PERSONAL_TOKEN"], os.environ["CROWDIN_PROJECT_ID"]
+          def get(path):
+              req = urllib.request.Request(BASE + path, headers={"Authorization": f"Bearer {TOKEN}"})
+              try:
+                  with urllib.request.urlopen(req) as r:
+                      return json.loads(r.read())
+              except urllib.error.HTTPError as e:
+                  return {"http_error": e.code, "body": e.read().decode()[:300]}
+          def show(title, obj):
+              print(f"### {title}\n{json.dumps(obj, ensure_ascii=False)[:3000]}\n")
+          proj = get(f"/projects/{PID}").get("data", {})
+          show("project settings (pre-translate / MT / AI related)",
+               {k: v for k, v in proj.items() if any(s in k.lower() for s in ("pre", "auto", "mt", "ai", "tm", "translat"))})
+          uid = get("/user").get("data", {}).get("id")
+          show(f"ai prompt 332920 (user {uid})", get(f"/users/{uid}/ai/prompts/332920"))
+          pres = get(f"/projects/{PID}/pre-translations?limit=5&orderBy=createdAt%20desc")
+          show("recent pre-translations", pres)
+          for row in (pres.get("data") or [])[:2]:
+              pt = row["data"]["identifier"]
+              show(f"report {pt}", get(f"/projects/{PID}/pre-translations/{pt}/report"))
+          PY
+
   # Prints every translation, approved or not, so the AI output can be read in the log.
   show-ai-drafts:
     runs-on: ubuntu-latest
