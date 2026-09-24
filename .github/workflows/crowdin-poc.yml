@@ -33,19 +33,54 @@ jobs:
           upload_translations: false
           download_translations: false
 
-      - name: Pre-translate with AI
-        uses: crowdin/github-action@v2
-        with:
-          command: 'pre-translate'
-          command_args: >-
-            --config crowdin-poc.yml --branch poc
-            --method ai --ai-prompt 332920
-            --translate-untranslated-only --auto-approve-option none --verbose
-
-  # Read-only: why did AI pre-translate report 0 phrases / 52 skipped?
-  diagnose-ai:
+  # Stands in for AI pre-translate while Crowdin AI returns ai_payment_error: writes an
+  # UNAPPROVED draft "[mock-ai <lang>] <source>" for every untranslated string, like the AI
+  # would. Then approves only ku + ckb to test the approved-only download, and to show which
+  # of the two Kurdish variants ends up in intl_ku.arb. Only ever touches Crowdin branch `poc`.
+  mock-ai:
     runs-on: ubuntu-latest
     needs: upload-and-pretranslate
+    steps:
+      - name: Mock AI drafts + approve ku/ckb
+        run: |
+          python3 - <<'PY'
+          import os, json, urllib.request
+          BASE = "https://api.crowdin.com/api/v2"
+          TOKEN, PID = os.environ["CROWDIN_PERSONAL_TOKEN"], os.environ["CROWDIN_PROJECT_ID"]
+          APPROVE = {"ku", "ckb"}
+          def call(method, path, body=None):
+              req = urllib.request.Request(BASE + path, method=method,
+                    data=json.dumps(body).encode() if body else None,
+                    headers={"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"})
+              with urllib.request.urlopen(req) as r:
+                  raw = r.read()
+                  return json.loads(raw) if raw else {}
+          branch = [b["data"] for b in call("GET", f"/projects/{PID}/branches?name=poc")["data"]]
+          assert len(branch) == 1 and branch[0]["name"] == "poc", branch
+          strings = [s["data"] for s in call("GET", f"/projects/{PID}/strings?branchId={branch[0]['id']}&limit=500")["data"]]
+          langs = [l["id"] for l in call("GET", f"/projects/{PID}")["data"]["targetLanguages"]]
+          made = approved = 0
+          for s in strings:
+              for lang in langs:
+                  existing = call("GET", f"/projects/{PID}/translations?stringId={s['id']}&languageId={lang}")["data"]
+                  if existing:
+                      tid = existing[0]["data"]["id"]
+                  else:
+                      tid = call("POST", f"/projects/{PID}/translations",
+                                 {"stringId": s["id"], "languageId": lang, "text": f"[mock-ai {lang}] {s['text']}"})["data"]["id"]
+                      made += 1
+                  if lang in APPROVE:
+                      try:
+                          call("POST", f"/projects/{PID}/approvals", {"translationId": tid})
+                          approved += 1
+                      except urllib.error.HTTPError as e:  # already approved on a re-run
+                          print(f"approve {lang}: HTTP {e.code} {e.read().decode()[:200]}")
+          print(f"strings={len(strings)} languages={len(langs)} mock drafts written={made} approved={approved} {sorted(APPROVE)}")
+          PY
+
+  # Read-only: which Kurdish / Serbian / Montenegrin variant holds the real work in the main file.
+  diagnose-languages:
+    runs-on: ubuntu-latest
     steps:
       - name: Query Crowdin
         run: |
@@ -55,32 +90,27 @@ jobs:
           TOKEN, PID = os.environ["CROWDIN_PERSONAL_TOKEN"], os.environ["CROWDIN_PROJECT_ID"]
           def get(path):
               req = urllib.request.Request(BASE + path, headers={"Authorization": f"Bearer {TOKEN}"})
-              try:
-                  with urllib.request.urlopen(req) as r:
-                      return json.loads(r.read())
-              except urllib.error.HTTPError as e:
-                  return {"http_error": e.code, "body": e.read().decode()[:300]}
-          def show(title, obj):
-              print(f"### {title}\n{json.dumps(obj, ensure_ascii=False)[:3000]}\n")
-          proj = get(f"/projects/{PID}").get("data", {})
-          show("project settings (pre-translate / MT / AI related)",
-               {k: v for k, v in proj.items() if any(s in k.lower() for s in ("pre", "auto", "mt", "ai", "tm", "translat"))})
-          uid = get("/user").get("data", {}).get("id")
-          show(f"ai prompt 332920 (user {uid})", get(f"/users/{uid}/ai/prompts/332920"))
-          pres = get(f"/projects/{PID}/pre-translations?limit=1&orderBy=createdAt%20desc")
-          for row in (pres.get("data") or [])[:1]:
-              pt = row["data"]["identifier"]
-              rep = get(f"/projects/{PID}/pre-translations/{pt}/report").get("data", {})
-              show(f"skip reasons {pt}", {l["id"]: l["skipped"] for l in rep.get("languages", []) if l["skipped"]})
-          # Which file name each target language exports to; two languages on one code overwrite each other.
-          for l in proj.get("targetLanguages", []):
-              print(f'{l["id"]:12} two_letters={l.get("twoLettersCode")!s:6} locale={l.get("locale")!s:8} {l.get("name")}')
+              with urllib.request.urlopen(req) as r:
+                  return json.loads(r.read())
+          branches = [b["data"] for b in get(f"/projects/{PID}/branches?limit=100")["data"]]
+          files = []
+          for b in branches:
+              files += [f["data"] for f in get(f"/projects/{PID}/files?branchId={b['id']}&limit=500")["data"]]
+          main = [f for f in files if f["path"].endswith("dev/l10n/intl_en.arb")]
+          print("main file:", [(f["id"], f["path"]) for f in main])
+          fid = main[0]["id"]
+          prog = {p["data"]["languageId"]: p["data"] for p in get(f"/projects/{PID}/files/{fid}/languages/progress?limit=100")["data"]}
+          for lang in ["ku", "ckb", "sr", "sr-CS", "sr-Cyrl-ME", "me", "pt-PT", "pt-BR"]:
+              ph = prog.get(lang, {}).get("phrases", {})
+              rows = get(f"/projects/{PID}/languages/{lang}/translations?fileId={fid}&limit=500")["data"]
+              sample = [r["data"].get("text") for r in rows if r["data"].get("text")][:3]
+              print(f"{lang:11} phrases total={ph.get('total')} translated={ph.get('translated')} approved={ph.get('approved')} sample={sample}")
           PY
 
   # Prints every translation, approved or not, so the AI output can be read in the log.
   show-ai-drafts:
     runs-on: ubuntu-latest
-    needs: upload-and-pretranslate
+    needs: mock-ai
     steps:
       - uses: actions/checkout@v4
 
@@ -101,7 +131,7 @@ jobs:
 
   download-approved:
     runs-on: ubuntu-latest
-    needs: upload-and-pretranslate
+    needs: mock-ai
     steps:
       - uses: actions/checkout@v4
 
