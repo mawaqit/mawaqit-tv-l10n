@@ -92,13 +92,8 @@ jobs:
               req = urllib.request.Request(BASE + path, headers={"Authorization": f"Bearer {TOKEN}"})
               with urllib.request.urlopen(req) as r:
                   return json.loads(r.read())
-          branches = [b["data"] for b in get(f"/projects/{PID}/branches?limit=100")["data"]]
-          files = []
-          for b in branches:
-              files += [f["data"] for f in get(f"/projects/{PID}/files?branchId={b['id']}&limit=500")["data"]]
-          main = [f for f in files if f["path"].endswith("dev/l10n/intl_en.arb")]
-          print("main file:", [(f["id"], f["path"]) for f in main])
-          fid = main[0]["id"]
+          fid = 278  # "/[YassinNouh21.mawaqit-tv-l10n] dev/l10n/intl_en.arb" (from the approval audit)
+          print("main file:", get(f"/projects/{PID}/files/{fid}")["data"]["path"])
           prog = {p["data"]["languageId"]: p["data"] for p in get(f"/projects/{PID}/files/{fid}/languages/progress?limit=100")["data"]}
           for lang in ["ku", "ckb", "sr", "sr-CS", "sr-Cyrl-ME", "me", "pt-PT", "pt-BR"]:
               ph = prog.get(lang, {}).get("phrases", {})
