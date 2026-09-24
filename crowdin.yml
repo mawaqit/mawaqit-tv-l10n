@@ -8,7 +8,11 @@ files:
     translation: /l10n/intl_%two_letters_code%.arb
     # Mark translations as unapproved when source changes (requires re-review)
     update_option: update_as_unapproved
+    # Several Crowdin languages share a two-letter code and overwrote each other's file.
+    # ku holds the approved Sorani work, sr-Cyrl-ME the approved Serbian; these are empty duplicates.
+    excluded_target_languages: [ckb, sr, sr-CS]
     languages_mapping:
       two_letters_code:
         pt-BR: pt_BR
         pt-PT: pt_PT
+        me: cnr
