@@ -49,19 +49,19 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get quit => 'دەرچوون';
 
   @override
-  String get forceStaging => 'Staging';
+  String get forceStaging => 'دۆخی تاقیکردنەوە';
 
   @override
-  String get forcePreProduction => 'Pre-production';
+  String get forcePreProduction => 'پێش بەرهەمهێنان';
 
   @override
   String get disableStaging => 'گۆڕین بۆ دۆخی بەرهەمهێنان';
 
   @override
-  String get environmentSwitchSuccess => 'Environment switched successfully';
+  String get environmentSwitchSuccess => 'گۆڕینی ژینگە سەرکەوتوو بوو';
 
   @override
-  String get environmentSwitchFailed => 'Failed to switch environment';
+  String get environmentSwitchFailed => 'گۆڕینی ژینگە سەرنەکەوت';
 
   @override
   String get sureCloseApp => 'ئایا دڵنیای کە دەتەوێت لە بەرنامەکە دەربچیت?';
@@ -214,10 +214,10 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get iqamaIn => 'قامەت لە دوای';
 
   @override
-  String get iqamaShowClock => 'Saetê li ser ekrana iqameyê nîşan bide';
+  String get iqamaShowClock => 'کاتژمێر لەسەر شاشەی قامەت پیشان بدە';
 
   @override
-  String get iqamaShowClockDesc => 'Dema û mêjûya niha li ser ekrana hejmartina iqameyê nîşan bide';
+  String get iqamaShowClockDesc => 'کات و بەرواری ئێستا لەسەر شاشەی ژمارەی پێچەوانەی قامەت پیشان بدە';
 
   @override
   String get perPrayerRollover => 'گۆڕینی کاتەکانی نوێژ';
@@ -289,10 +289,10 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get shuruk => 'ڕۆژهەڵات';
 
   @override
-  String get duha => 'Duha';
+  String get duha => 'چێشتەنگاو';
 
   @override
-  String get duhaTime => 'Duha Time';
+  String get duhaTime => 'کاتی چێشتەنگاو';
 
   @override
   String get reset => 'فۆرمات';
@@ -490,7 +490,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get settings => 'رێکخستنەکان';
 
   @override
-  String get applicationModes => 'Moda destpêkirina xwerû';
+  String get applicationModes => 'دۆخی دەستپێکردنی بنەڕەت';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'ئەگەر ڕووبەڕووی کێشە بوویتەوە لەگەڵ بەرنامەکەدا، هەوڵبدە ئەم هەڵبژاردنە چالاک بکەیت';
@@ -541,7 +541,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get nl => 'هۆڵەندی';
 
   @override
-  String get ta => 'Tamil';
+  String get ta => 'تامیل';
 
   @override
   String get fr_ar => 'فەڕەنسی و عەرەبی';
@@ -658,7 +658,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get wifiFailure => 'هەڵە ڕویدا لەکاتی پەیوەست بوون بە هێڵی ئینتەرنێتەوە.';
 
   @override
-  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+  String get wifiForgetNetwork => 'ئەم هێڵە لە ڕێکخستنەکانی ئەندرۆیددا زیادکراوە. تکایە لەوێ لەبیری بکەرەوە، پاشان دووبارە پەیوەست ببەرەوە.';
 
   @override
   String get timezoneSuccess => 'ناوچەی کات بەسەرکەوتووی دیاری کرا.';
@@ -715,7 +715,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get powerOffScreen => 'گوژاندنەوەی ڕوونما';
 
   @override
-  String get deviceSettings => 'Cîhaz';
+  String get deviceSettings => 'ئامێر';
 
   @override
   String get later => 'دواتر';
@@ -812,7 +812,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   }
 
   @override
-  String get continueListening => 'Guhdarîkirinê bidomînin';
+  String get continueListening => 'بەردەوام بە لە گوێگرتن';
 
   @override
   String get noFavoriteReciters => 'هیچ قورئانخوێنێکی دڵخواز بونی نیە. دانەیەک زیاد بکە';
@@ -904,7 +904,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get validRtspUrl => 'لینک گونجاوە و بە سەرکەوتوویی پاشەکەوت کرا.';
 
   @override
-  String get rtspCameraSettingTitle => 'Kamerayek zindî';
+  String get rtspCameraSettingTitle => 'کامێرای ڕاستەوخۆ';
 
   @override
   String get rtspCameraSettingDesc => 'پەیوەست ببە بە کامێرا نێوخۆییەکەتەوە و راستەوخۆی وتاری هەینی لە شاشەکەوە بگوازەوە.';
@@ -1018,7 +1018,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get rtspUrlHint => 'YouTube یان بەستەری RTSP URL داخیلکردنی بەستەری';
 
   @override
-  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
+  String get urlManagedByMosqueAdmin => 'بەستەرەکە لەلایەن بەڕێوەبەری مزگەوتەوە بەڕێوەدەبرێت';
 
   @override
   String get replaceWorkflowWithStream => 'نیشاندانی خۆکارانەی پەخشی کامێرا';
@@ -1027,37 +1027,37 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get replaceAppWorkflowWithCameraStream => 'شاشەکە بە شێوەیەکی ئۆتۆماتیکی پەخشی کامێرا پیشان دەدات هەر کە کامێرا دەستی بە تۆمارکردن کرد؛ ئەگەر وەستا، شاشەکە دەگەڕێتەوە بۆ پیشاندانی کاتەکانی نوێژ';
 
   @override
-  String get streamMode => 'Stream mode';
+  String get streamMode => 'دۆخی پەخش';
 
   @override
-  String get streamModeDisabled => 'Disabled';
+  String get streamModeDisabled => 'ناچالاک';
 
   @override
-  String get streamModeCamera => 'Stream depends on camera';
+  String get streamModeCamera => 'پەخش پشت بە کامێرا دەبەستێت';
 
   @override
-  String get streamModeJumuaOnly => 'Stream depends on Jumua only';
+  String get streamModeJumuaOnly => 'پەخش تەنها پشت بە هەینی دەبەستێت';
 
   @override
-  String get streamModeJumuaAndPrayers => 'Stream depends on Jumua and the 5 prayers';
+  String get streamModeJumuaAndPrayers => 'پەخش پشت بە هەینی و 5 نوێژەکە دەبەستێت';
 
   @override
-  String get streamRequiresSecondaryScreen => 'This feature only works when the app runs as a secondary screen. To enable it:';
+  String get streamRequiresSecondaryScreen => 'ئەم تایبەتمەندییە تەنها کاردەکات کاتێک بەرنامەکە وەک شاشەیەکی لاوەکی کاردەکات. بۆ چالاککردنی:';
 
   @override
-  String get streamSecondaryScreenStep1 => 'Go to Display.';
+  String get streamSecondaryScreenStep1 => 'بڕۆ بۆ شاشە.';
 
   @override
-  String get streamSecondaryScreenStep2 => 'Open \"Default launch mode\".';
+  String get streamSecondaryScreenStep2 => '\"دۆخی دەستپێکردنی بنەڕەت\" بکەرەوە.';
 
   @override
-  String get streamSecondaryScreenStep3 => 'Select \"Secondary screen\".';
+  String get streamSecondaryScreenStep3 => '\"شاشەی لاوەکی\" هەڵبژێرە.';
 
   @override
-  String get rtspServerNotAvailable => 'RTSP server is not available. Please check your connection.';
+  String get rtspServerNotAvailable => 'سێرڤەری RTSP بەردەست نیە. تکایە پەیوەندی ئینتەرنێتەکەت بپشکنە.';
 
   @override
-  String get settingsSavedSuccessfully => 'Settings saved successfully';
+  String get settingsSavedSuccessfully => 'ڕێکخستنەکان بە سەرکەوتووی پاشەکەوت کران';
 
   @override
   String get streamError => 'هەڵەیەک روویدا لەکاتی پەخشکردن';
@@ -1093,10 +1093,10 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
 
   @override
-  String get quranMode => 'Quran mode';
+  String get quranMode => 'دۆخی قورئان';
 
   @override
-  String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
+  String get quranModeExplanation => 'شاشەی خوێندنەوەی قورئان پیشان بدە، دەستپێبکە لە کۆتا پەڕەی خوێندراوە';
 
   @override
   String get appDisplayMode => 'شاشە';
@@ -1105,63 +1105,63 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get appDisplayModeExplanation => 'هەڵبژێرە شاشەکەت چۆن ناوەڕۆک پیشان بدات';
 
   @override
-  String get exitQuranModeTitle => 'Exit Quran Mode';
+  String get exitQuranModeTitle => 'دەرچوون لە دۆخی قورئان';
 
   @override
-  String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+  String get exitQuranModeMessage => 'ئایا دەتەوێت بگەڕێیتەوە بۆ دۆخی ئاسایی؟';
 
   @override
-  String get settingsSectionGlobal => 'Giştî';
+  String get settingsSectionGlobal => 'گشتی';
 
   @override
-  String get hijriDateAdjustment => 'Sererastkirina mêjûya hicrî';
+  String get hijriDateAdjustment => 'ڕێکخستنی بەرواری هیجری';
 
   @override
-  String get interfaceLanguage => 'Zimanê navberê';
+  String get interfaceLanguage => 'زمانی ڕووکار';
 
   @override
-  String get launchModeMainPrayer => 'Demên nimêja sereke';
+  String get launchModeMainPrayer => 'کاتەکانی نوێژی سەرەکی';
 
   @override
-  String get launchModeSecondaryPrayer => 'Demên nimêja duyemîn';
+  String get launchModeSecondaryPrayer => 'کاتەکانی نوێژی لاوەکی';
 
   @override
-  String get timezone => 'Herêma demê';
+  String get timezone => 'ناوچەی کات';
 
   @override
   String get wifi => 'WiFi';
 
   @override
-  String get tutorialGetStarted => 'Get started in 4 simple steps';
+  String get tutorialGetStarted => 'دەستپێبکە بە 4 هەنگاوی سادە';
 
   @override
-  String get tutorialDontHaveId => 'Don\'t have a Mosque ID yet? Here\'s how:';
+  String get tutorialDontHaveId => 'هێشتا ناسنامەی مزگەوتت نیە؟ ئەمە چۆنیەتییەکەیە:';
 
   @override
-  String get tutorialStep1 => 'Go to mawaqit.net and create an account';
+  String get tutorialStep1 => 'بڕۆ بۆ mawaqit.net و هەژمارێک دروستبکە';
 
   @override
-  String get tutorialStep2 => 'Register your mosque with photos & address';
+  String get tutorialStep2 => 'مزگەوتەکەت تۆمار بکە لەگەڵ وێنە و ناونیشان';
 
   @override
-  String get tutorialStep3 => 'Get your unique Mosque ID from your dashboard';
+  String get tutorialStep3 => 'ناسنامەی تایبەتی مزگەوتەکەت لە داشبۆردەکەتەوە وەربگرە';
 
   @override
-  String get tutorialStep4 => 'Enter the ID here to connect your TV display';
+  String get tutorialStep4 => 'ناسنامەکە لێرە بنووسە بۆ پەیوەستکردنی شاشەی تەلەفزیۆنەکەت';
 
   @override
   String tutorialStep(String step) {
-    return 'Step $step  ';
+    return 'هەنگاوی $step  ';
   }
 
   @override
-  String get tutorialScanToRegister => 'Scan to register';
+  String get tutorialScanToRegister => 'سکان بکە بۆ تۆمارکردن';
 
   @override
-  String get tutorialScanDescription => 'Use your phone to create an account on mawaqit.net';
+  String get tutorialScanDescription => 'مۆبایلەکەت بەکاربهێنە بۆ دروستکردنی هەژمار لە mawaqit.net';
 
   @override
-  String get tutorialFullTutorial => 'Full tutorial';
+  String get tutorialFullTutorial => 'فێرکاری تەواو';
 
   @override
   String get prayerTimeFontSize => 'قەبارەی دەق و پیشاندان';
