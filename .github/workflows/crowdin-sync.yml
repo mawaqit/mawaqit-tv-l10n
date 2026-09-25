@@ -114,6 +114,10 @@ jobs:
                   print(f"{path}: restored @@locale {old['@@locale']}")
           PY
 
+      # Before gen-l10n, so the summary is in the log even when gen-l10n fails.
+      - name: Summarize for the sync PR (AI-approved keys, changes vs repo)
+        run: python3 .github/scripts/crowdin_ai.py report "$RUNNER_TEMP/pr-body.md"
+
       # The app compiles against lib/src/generated, not the .arb files, so an .arb-only
       # PR would change nothing on device.
       - uses: subosito/flutter-action@v2
@@ -122,9 +126,6 @@ jobs:
 
       - name: Regenerate localizations
         run: flutter gen-l10n
-
-      - name: List AI translations not yet reviewed
-        run: python3 .github/scripts/crowdin_ai.py report "$RUNNER_TEMP/pr-body.md"
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v7
