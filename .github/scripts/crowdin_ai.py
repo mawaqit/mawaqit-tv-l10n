@@ -198,8 +198,24 @@ def breaks_build(text, source):
     return bool(set(PLACEHOLDER.findall(text)) - set(PLACEHOLDER.findall(source)))
 
 
-def ai_problem(text, source):
+ARABIC, CYRILLIC, LATIN = re.compile(r"[\u0600-\u06FF]"), re.compile(r"[\u0400-\u04FF]"), re.compile(r"[A-Za-zÀ-ž]")
+
+
+def wrong_script(lang, text):
+    # Crowdin's language names don't match what the app's files hold: `ku` is Sorani (Arabic
+    # script) and `sr-Cyrl-ME` is Serbian in Latin script, but the AI writes Kurmanji / Cyrillic.
+    plain = re.sub(r"\{[^{}]*\}", "", text)
+    if lang == "ku":
+        return len(LATIN.findall(plain)) >= len(ARABIC.findall(plain))
+    if lang == "sr-Cyrl-ME":
+        return bool(CYRILLIC.search(plain))
+    return False
+
+
+def ai_problem(text, source, lang):
     """Why AI output must not be approved, or None. Unapproved strings fall back to English."""
+    if wrong_script(lang, text):
+        return "wrong script for the app's file"
     if sorted(set(PLACEHOLDER.findall(text))) != sorted(set(PLACEHOLDER.findall(source))):
         return "placeholders differ from English"
     # Seen on Arabic: a correct sentence followed by hundreds of invisible direction marks.
@@ -215,7 +231,7 @@ def approve(file, langs):
         approved = set()
         for t in top_translations(file, lang, approved_only=True):
             source = strings.get(t["stringId"], {})
-            problem = t.get("provider") == "ai" and ai_problem(t["text"], source.get("text", ""))
+            problem = t.get("provider") == "ai" and ai_problem(t["text"], source.get("text", ""), lang)
             if not problem:
                 approved.add(t["stringId"])
                 continue
@@ -231,7 +247,7 @@ def approve(file, langs):
             if not ai:
                 continue
             source = strings.get(t["stringId"], {})
-            problem = ai_problem(ai["text"], source.get("text", ""))
+            problem = ai_problem(ai["text"], source.get("text", ""), lang)
             if problem:
                 print(f"{lang}: NOT approving {source.get('identifier')} ({problem})")
                 continue
