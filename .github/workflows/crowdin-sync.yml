@@ -1,6 +1,8 @@
 name: Crowdin Sync
 
 # English change -> AI translation -> approved automatically -> PR.
+# Crowdin is the source of truth for translations (since the one-time GitHub baseline,
+# crowdin-baseline.yml): fix translations in Crowdin, not in git — the next sync overwrites git.
 # A proofreader's approved edit in Crowdin replaces the AI text; crowdin-nightly.yml (on main)
 # starts this workflow every night so those edits reach GitHub without an English change.
 
@@ -35,8 +37,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # reconcile compares git change dates with Crowdin approval dates
 
       # This workflow is the only uploader. Crowdin's GitHub integration must stay
       # unconfigured: running both created a second, out-of-sync intl_en.arb (#60).
@@ -49,11 +49,6 @@ jobs:
           upload_translations: false
           download_translations: false
           crowdin_branch_name: ${{ env.CROWDIN_BRANCH }}
-
-      # People's work in git wins over AI and over older Crowdin text (e.g. a fix merged in git),
-      # so the AI below only fills what is really missing. Newer human work in Crowdin wins.
-      - name: Push repo translations Crowdin lacks or has older
-        run: python3 .github/scripts/crowdin_ai.py reconcile
 
       # Crowdin cannot auto-approve AI output, so the script does it: it AI-translates every
       # string without an approved translation, then approves only the AI ones (machine-
