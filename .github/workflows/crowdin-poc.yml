@@ -234,10 +234,15 @@ jobs:
               with urllib.request.urlopen(req) as r:
                   return json.loads(r.read())
           bid = get(f"/projects/{PID}/branches?name=poc")["data"][0]["data"]["id"]
-          for s in get(f"/projects/{PID}/strings?branchId={bid}&limit=50")["data"]:
-              s = s["data"]
-              for lang in ["ku", "fr", "cs", "de"]:
-                  for t in get(f"/projects/{PID}/translations?stringId={s['id']}&languageId={lang}")["data"]:
-                      t = t["data"]; t.pop("text", None)
-                      print(s["identifier"], lang, json.dumps(t, ensure_ascii=False))
+          fid = [f["data"] for f in get(f"/projects/{PID}/files?branchId={bid}")["data"]][0]
+          print("FILE", json.dumps({k: fid.get(k) for k in ("id","path","excludedTargetLanguages")}))
+          fid = fid["id"]
+          r = get(f"/projects/{PID}/languages/ku/translations?fileId={fid}&limit=5")
+          print("LANGTR", json.dumps(r["data"][:2], ensure_ascii=False)[:900])
+          r = get(f"/projects/{PID}/languages/ku/translations?fileId={fid}&approvedOnly=1&limit=5")
+          print("LANGTR_APPROVED", json.dumps(r["data"][:2], ensure_ascii=False)[:900])
+          r = get(f"/projects/{PID}/approvals?fileId={fid}&languageId=ku&limit=5")
+          print("APPROVALS", json.dumps(r["data"][:2], ensure_ascii=False)[:900])
+          r = get(f"/projects/{PID}/strings?fileId={fid}&limit=5")
+          print("STRINGS", json.dumps([{k: x["data"].get(k) for k in ("id","identifier","text")} for x in r["data"]], ensure_ascii=False))
           PY
