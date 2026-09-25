@@ -686,5 +686,9 @@
   "athkarFontUthmani": "Uthmani",
   "@athkarFontUthmani": {
     "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "Prayer times are shown for your mosque",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
   }
 }

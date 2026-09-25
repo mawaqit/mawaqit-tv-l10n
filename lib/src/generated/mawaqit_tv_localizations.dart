@@ -2518,6 +2518,12 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Uthmani'**
   String get athkarFontUthmani;
+
+  /// Test string for the Crowdin sync pipeline. Not used in the app; safe to remove.
+  ///
+  /// In en, this message translates to:
+  /// **'Prayer times are shown for your mosque'**
+  String get crowdinSyncCheck;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {
