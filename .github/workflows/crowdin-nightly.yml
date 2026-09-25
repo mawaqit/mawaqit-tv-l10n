@@ -1,0 +1,22 @@
+name: Crowdin Nightly Sync
+
+# Scheduled workflows only run from the default branch (main), but translation work happens
+# on dev. This starts crowdin-sync.yml on dev every night, so translations approved in Crowdin
+# (e.g. a proofreader's edit) reach GitHub without waiting for an English change.
+
+on:
+  schedule:
+    - cron: '30 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  start-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start Crowdin Sync on dev
+        run: gh workflow run crowdin-sync.yml --repo "$GITHUB_REPOSITORY" --ref dev
+        env:
+          GH_TOKEN: ${{ github.token }}
