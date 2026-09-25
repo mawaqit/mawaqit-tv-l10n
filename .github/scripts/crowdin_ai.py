@@ -212,14 +212,16 @@ def wrong_script(lang, text):
     return False
 
 
-def ai_problem(text, source, lang):
+def ai_problem(text, source, lang, check_length=True):
     """Why AI output must not be approved, or None. Unapproved strings fall back to English."""
     if wrong_script(lang, text):
         return "wrong script for the app's file"
     if sorted(set(PLACEHOLDER.findall(text))) != sorted(set(PLACEHOLDER.findall(source))):
         return "placeholders differ from English"
     # Seen on Arabic: a correct sentence followed by hundreds of invisible direction marks.
-    if len(text) > 3 * len(source) + 20:
+    # Only a gate for new output: a long approved text can be right (Tamil duaaElEftarText is the
+    # full dua while the "English" source is a short Arabic phrase).
+    if check_length and len(text) > 3 * len(source) + 20:
         return f"{len(text)} chars"
     return None
 
@@ -231,7 +233,7 @@ def approve(file, langs):
         approved = set()
         for t in top_translations(file, lang, approved_only=True):
             source = strings.get(t["stringId"], {})
-            problem = t.get("provider") == "ai" and ai_problem(t["text"], source.get("text", ""), lang)
+            problem = t.get("provider") == "ai" and ai_problem(t["text"], source.get("text", ""), lang, check_length=False)
             if not problem:
                 approved.add(t["stringId"])
                 continue
