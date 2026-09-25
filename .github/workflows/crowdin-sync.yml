@@ -94,6 +94,26 @@ jobs:
       - name: Keep the English source from the repo
         run: git checkout -- l10n/intl_en.arb
 
+      # Flutter can't tell some locales from the file name (intl_cnr.arb), so those files carry
+      # "@@locale". Crowdin's export drops it; put back the value the repo had.
+      - name: Keep @@locale tags from the repo
+        run: |
+          python3 - <<'PY'
+          import glob, json, os, subprocess
+          for path in glob.glob("l10n/intl_*.arb"):
+              try:
+                  old = json.loads(subprocess.check_output(["git", "show", f"HEAD:{path}"]))
+              except subprocess.CalledProcessError:
+                  continue  # new language file
+              new = json.load(open(path))
+              if "@@locale" in old and new.get("@@locale") != old["@@locale"]:
+                  new = {"@@locale": old["@@locale"], **{k: v for k, v in new.items() if k != "@@locale"}}
+                  os.remove(path)  # written by the Crowdin container as root
+                  with open(path, "w") as f:
+                      f.write(json.dumps(new, ensure_ascii=False, indent=2) + "\n")
+                  print(f"{path}: restored @@locale {old['@@locale']}")
+          PY
+
       # The app compiles against lib/src/generated, not the .arb files, so an .arb-only
       # PR would change nothing on device.
       - uses: subosito/flutter-action@v2
