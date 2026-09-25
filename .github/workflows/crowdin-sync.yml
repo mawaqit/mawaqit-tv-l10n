@@ -80,6 +80,11 @@ jobs:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
+      # The English source is owned by the repo. Never take it from Crowdin: an approved-only
+      # export of the `en` target would replace the template gen-l10n builds from.
+      - name: Keep the English source from the repo
+        run: git checkout -- l10n/intl_en.arb
+
       # The app compiles against lib/src/generated, not the .arb files, so an .arb-only
       # PR would change nothing on device.
       - uses: subosito/flutter-action@v2
