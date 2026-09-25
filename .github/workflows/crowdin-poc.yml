@@ -1,9 +1,6 @@
 name: Crowdin POC (one key)
 
-# End-to-end check of upload -> AI pre-translate -> approved-only download -> PR against the
-# real Crowdin project, using one key in its own file (l10n-poc/) and its own Crowdin branch
-# (`poc`), so the real intl_en.arb and its approvals are never touched.
-# Cleanup: delete Crowdin branch `poc`, then this git branch.
+# Same flow as crowdin-sync.yml, against Crowdin branch `poc` and l10n-poc/intl_en.arb.
 
 on:
   push:
@@ -15,158 +12,44 @@ permissions:
   pull-requests: write
 
 env:
+  CROWDIN_BRANCH: poc
+  CROWDIN_FILE: l10n-poc/intl_en.arb
+  CROWDIN_AI_PROMPT_ID: '332920'
   CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
   CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
 jobs:
-  upload-and-pretranslate:
-    if: false
+  sync-and-translate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Upload source
+      - name: Upload sources to Crowdin
         uses: crowdin/github-action@v2
         with:
           config: crowdin-poc.yml
-          crowdin_branch_name: poc
+          crowdin_branch_name: ${{ env.CROWDIN_BRANCH }}
           upload_sources: true
           upload_translations: false
           download_translations: false
 
-      - name: Pre-translate with AI
-        uses: crowdin/github-action@v2
-        with:
-          command: 'pre-translate'
-          command_args: >-
-            --config crowdin-poc.yml --branch poc
-            --method ai --ai-prompt 332920
-            --translate-untranslated-only --auto-approve-option none --verbose
+      - name: AI-translate strings without an approved translation
+        run: python3 .github/scripts/crowdin_ai.py pretranslate
 
-  # Stands in for AI pre-translate while Crowdin AI returns ai_payment_error: writes an
-  # UNAPPROVED draft "[mock-ai <lang>] <source>" for every untranslated string, like the AI
-  # would. Then approves a few languages to test the approved-only download and which Crowdin
-  # language lands in which intl_*.arb. Only ever touches Crowdin branch `poc`.
-  mock-ai:
-    if: false
-    runs-on: ubuntu-latest
-    needs: upload-and-pretranslate
-    steps:
-      - name: Mock AI drafts + approve a few languages
-        run: |
-          python3 - <<'PY'
-          import os, json, urllib.request
-          BASE = "https://api.crowdin.com/api/v2"
-          TOKEN, PID = os.environ["CROWDIN_PERSONAL_TOKEN"], os.environ["CROWDIN_PROJECT_ID"]
-          APPROVE = {"ku", "ckb", "sr-Cyrl-ME", "me", "pt-PT"}
-          def call(method, path, body=None):
-              req = urllib.request.Request(BASE + path, method=method,
-                    data=json.dumps(body).encode() if body else None,
-                    headers={"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"})
-              with urllib.request.urlopen(req) as r:
-                  raw = r.read()
-                  return json.loads(raw) if raw else {}
-          branch = [b["data"] for b in call("GET", f"/projects/{PID}/branches?name=poc")["data"]]
-          assert len(branch) == 1 and branch[0]["name"] == "poc", branch
-          strings = [s["data"] for s in call("GET", f"/projects/{PID}/strings?branchId={branch[0]['id']}&limit=500")["data"]]
-          langs = [l["id"] for l in call("GET", f"/projects/{PID}")["data"]["targetLanguages"]]
-          made = approved = 0
-          for s in strings:
-              for lang in langs:
-                  existing = call("GET", f"/projects/{PID}/translations?stringId={s['id']}&languageId={lang}")["data"]
-                  if existing:
-                      tid = existing[0]["data"]["id"]
-                  else:
-                      try:
-                          tid = call("POST", f"/projects/{PID}/translations",
-                                     {"stringId": s["id"], "languageId": lang, "text": f"[mock-ai {lang}] {s['text']}"})["data"]["id"]
-                          made += 1
-                      except urllib.error.HTTPError as e:  # e.g. language excluded for this file
-                          print(f"draft {lang}: HTTP {e.code} {e.read().decode()[:150]}")
-                          continue
-                  if lang in APPROVE:
-                      try:
-                          call("POST", f"/projects/{PID}/approvals", {"translationId": tid})
-                          approved += 1
-                      except urllib.error.HTTPError as e:  # already approved on a re-run
-                          print(f"approve {lang}: HTTP {e.code} {e.read().decode()[:200]}")
-          print(f"strings={len(strings)} languages={len(langs)} mock drafts written={made} approved={approved} {sorted(APPROVE)}")
-          PY
+      - name: Approve the AI translations
+        run: python3 .github/scripts/crowdin_ai.py approve
 
-  # Read-only: which Kurdish / Serbian / Montenegrin variant holds the real work in the main file.
-  diagnose-languages:
-    if: false
+  download-translations:
     runs-on: ubuntu-latest
-    needs: upload-and-pretranslate
-    steps:
-      - name: Query Crowdin
-        run: |
-          python3 - <<'PY'
-          import os, json, urllib.request
-          BASE = "https://api.crowdin.com/api/v2"
-          TOKEN, PID = os.environ["CROWDIN_PERSONAL_TOKEN"], os.environ["CROWDIN_PROJECT_ID"]
-          def get(path):
-              req = urllib.request.Request(BASE + path, headers={"Authorization": f"Bearer {TOKEN}"})
-              with urllib.request.urlopen(req) as r:
-                  return json.loads(r.read())
-          me = get("/user")["data"]
-          print("token owner:", me.get("username"), "| id", me.get("id"))
-          proj = get(f"/projects/{PID}")["data"]
-          print("project owner id:", proj.get("userId"))
-          for m in get(f"/projects/{PID}/members?limit=500")["data"]:
-              d = m["data"]; role = d.get("role") or [r.get("name") for r in d.get("roles", [])]
-              if d.get("id") == proj.get("userId") or "manager" in str(role) or "owner" in str(role):
-                  print(f"  member {d.get('username')} id={d.get('id')} role={role}")
-          pres = get(f"/projects/{PID}/pre-translations?limit=1&orderBy=createdAt%20desc")["data"][0]["data"]
-          rep = get(f"/projects/{PID}/pre-translations/{pres['identifier']}/report")["data"]
-          ok = {l["id"]: sum(f["statistics"]["phrases"] for f in l["files"]) for l in rep["languages"]}
-          print("AI pre-translation", pres["identifier"], pres["status"], "method", pres["attributes"]["method"])
-          print("  phrases translated per language:", {k: v for k, v in ok.items() if v})
-          print("  skipped:", {l["id"]: l["skipped"] for l in rep["languages"] if l["skipped"]})
-          fid = 278  # "/[YassinNouh21.mawaqit-tv-l10n] dev/l10n/intl_en.arb" (from the approval audit)
-          print("main file:", get(f"/projects/{PID}/files/{fid}")["data"]["path"])
-          prog = {p["data"]["languageId"]: p["data"] for p in get(f"/projects/{PID}/files/{fid}/languages/progress?limit=100")["data"]}
-          for lang in ["ku", "ckb", "sr", "sr-CS", "sr-Cyrl-ME", "me", "pt-PT", "pt-BR"]:
-              ph = prog.get(lang, {}).get("phrases", {})
-              rows = get(f"/projects/{PID}/languages/{lang}/translations?fileId={fid}&limit=500")["data"]
-              sample = [r["data"].get("text") for r in rows if r["data"].get("text")][:3]
-              print(f"{lang:11} phrases total={ph.get('total')} translated={ph.get('translated')} approved={ph.get('approved')} sample={sample}")
-          PY
-
-  # Prints every translation, approved or not, so the AI output can be read in the log.
-  show-ai-drafts:
-    if: false
-    runs-on: ubuntu-latest
-    needs: upload-and-pretranslate
+    needs: sync-and-translate
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download all translations
+      - name: Download translations from Crowdin
         uses: crowdin/github-action@v2
         with:
           config: crowdin-poc.yml
-          crowdin_branch_name: poc
-          upload_sources: false
-          upload_translations: false
-          download_translations: true
-          skip_untranslated_strings: true
-          export_only_approved: false
-          push_translations: false
-
-      - name: Print drafts
-        run: for f in l10n-poc/intl_*.arb; do echo "$f $(tr -d '\n' < "$f")"; done
-
-  download-approved:
-    if: false
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Download approved translations
-        uses: crowdin/github-action@v2
-        with:
-          config: crowdin-poc.yml
-          crowdin_branch_name: poc
+          crowdin_branch_name: ${{ env.CROWDIN_BRANCH }}
           upload_sources: false
           upload_translations: false
           download_translations: true
@@ -175,9 +58,9 @@ jobs:
           push_translations: false
 
       - name: Keep the English source from the repo
-        run: git checkout -- l10n-poc/intl_en.arb && git status --short l10n-poc/intl_en.arb && echo "en source restored" && cat l10n-poc/intl_en.arb
+        run: git checkout -- l10n-poc/intl_en.arb
 
-      - name: Print approved
+      - name: Print downloaded files
         run: for f in l10n-poc/intl_*.arb; do echo "$f $(tr -d '\n' < "$f")"; done
 
       - uses: subosito/flutter-action@v2
@@ -186,6 +69,9 @@ jobs:
 
       - name: Regenerate localizations
         run: flutter gen-l10n
+
+      - name: List AI translations not yet reviewed
+        run: python3 .github/scripts/crowdin_ai.py report "$RUNNER_TEMP/pr-body.md"
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v7
@@ -197,52 +83,5 @@ jobs:
             lib/src/generated/*.dart
           commit-message: 'chore(l10n): POC sync from Crowdin'
           title: 'POC: Crowdin one-key sync (do not merge)'
-          body: Approved translations for `crowdinPocCheck` from Crowdin branch `poc`.
+          body-path: ${{ runner.temp }}/pr-body.md
           delete-branch: true
-
-  # Read-only: what PR #82's crowdin.yml would upload/download on the real `dev` branch.
-  dryrun-pr82:
-    if: false
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: fix/crowdin-sync-pipeline
-      - name: Upload sources (dry run)
-        uses: crowdin/github-action@v2
-        with:
-          command: 'upload sources'
-          command_args: '--branch dev --dryrun'
-      - name: Download translations (dry run)
-        uses: crowdin/github-action@v2
-        with:
-          command: 'download'
-          command_args: '--branch dev --dryrun'
-
-  # Read-only: which fields tell AI vs MT vs human translations apart.
-  inspect-translations:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Query Crowdin
-        run: |
-          python3 - <<'PY'
-          import os, json, urllib.request
-          BASE = "https://api.crowdin.com/api/v2"
-          TOKEN, PID = os.environ["CROWDIN_PERSONAL_TOKEN"], os.environ["CROWDIN_PROJECT_ID"]
-          def get(path):
-              req = urllib.request.Request(BASE + path, headers={"Authorization": f"Bearer {TOKEN}"})
-              with urllib.request.urlopen(req) as r:
-                  return json.loads(r.read())
-          bid = get(f"/projects/{PID}/branches?name=poc")["data"][0]["data"]["id"]
-          fid = [f["data"] for f in get(f"/projects/{PID}/files?limit=500")["data"] if f["data"]["path"] == "/poc/l10n-poc/intl_en.arb"][0]
-          print("FILE", json.dumps({k: fid.get(k) for k in ("id","path","excludedTargetLanguages")}))
-          fid = fid["id"]
-          r = get(f"/projects/{PID}/languages/ku/translations?fileId={fid}&limit=5")
-          print("LANGTR", json.dumps(r["data"][:2], ensure_ascii=False)[:900])
-          r = get(f"/projects/{PID}/languages/ku/translations?fileId={fid}&approvedOnly=1&limit=5")
-          print("LANGTR_APPROVED", json.dumps(r["data"][:2], ensure_ascii=False)[:900])
-          r = get(f"/projects/{PID}/approvals?fileId={fid}&languageId=ku&limit=5")
-          print("APPROVALS", json.dumps(r["data"][:2], ensure_ascii=False)[:900])
-          r = get(f"/projects/{PID}/strings?fileId={fid}&limit=5")
-          print("STRINGS", json.dumps([{k: x["data"].get(k) for k in ("id","identifier","text")} for x in r["data"]], ensure_ascii=False))
-          PY
