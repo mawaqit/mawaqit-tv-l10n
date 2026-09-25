@@ -3,9 +3,10 @@
 
 Crowdin cannot auto-approve AI (or MT) pre-translations, so this script does it:
 
-  reconcile      push the repo's intl_<lang>.arb text to Crowdin (approved) where Crowdin has
-                 no approved translation, a broken one, an AI one (people's work wins), or one
-                 older than the last git change of that key. Newer human work in Crowdin wins
+  baseline MODE  one-time migration (crowdin-baseline.yml on main), MODE report|apply: make
+                 the repo's intl_<lang>.arb translations the approved ones in Crowdin and label
+                 those strings github-baseline-2026-09-25. Not part of the recurring sync: after
+                 it, Crowdin is the source of truth for translations
   pretranslate   AI-translate every string that has no approved translation yet
   approve        approve those AI translations (provider "ai"); machine-translation
                  drafts and people's suggestions are left alone. AI output with changed
@@ -28,7 +29,6 @@ import re
 import subprocess
 import sys
 import time
-from datetime import datetime
 import urllib.error
 import urllib.request
 
@@ -97,64 +97,64 @@ def top_translations(file, lang, approved_only=False):
     return paged(f"/projects/{PID}/languages/{lang}/translations?{query}")
 
 
-def git_changed_at(path):
-    """key -> unix time of the commit that last changed that key's line in the repo."""
-    out = subprocess.check_output(["git", "blame", "--line-porcelain", "HEAD", "--", path], text=True)
-    times, when = {}, 0
-    for line in out.splitlines():
-        if line.startswith("committer-time "):
-            when = int(line.split()[1])
-        elif line.startswith("\t"):
-            m = re.match(r'\s*"([^"@][^"]*)"\s*:', line[1:])
-            if m:
-                times[m.group(1)] = when
-    return times
+BASELINE_LABEL = "github-baseline-2026-09-25"
 
 
-def reconcile(file, langs):
+def baseline(file, langs, apply):
     english = json.load(open(FILE))
-    ids = {s["identifier"]: s["id"] for s in paged(f"/projects/{PID}/strings?fileId={file['id']}")
-           if not s.get("isHidden")}
+    ids = {s["identifier"]: s["id"] for s in paged(f"/projects/{PID}/strings?fileId={file['id']}")}
     codes = {l["id"]: l["twoLettersCode"] for l in call("GET", f"/projects/{PID}")["data"]["targetLanguages"]}
+    imported, failed, total = set(), [], 0
     for lang in langs:
         path = os.path.join(os.path.dirname(FILE), f"intl_{REPO_CODES.get(lang, codes[lang])}.arb")
         if not os.path.exists(path):
+            print(f"{lang}: no {path}, skipped")
             continue
-        changed_at = git_changed_at(path)
-        crowdin = {t["stringId"]: t for t in top_translations(file, lang, approved_only=True)}
-        approved_at = {}
-        for a in paged(f"/projects/{PID}/approvals?fileId={file['id']}&languageId={lang}"):
-            ts = datetime.fromisoformat(a["createdAt"]).timestamp()
-            approved_at[a["stringId"]] = max(ts, approved_at.get(a["stringId"], 0))
-        push = {}
+        approved = {t["stringId"]: t["text"] for t in top_translations(file, lang, approved_only=True)}
+        push, equal, skipped = {}, 0, {}
         for key, text in json.load(open(path)).items():
-            # Real translations only: not metadata, not an English copy, placeholders intact.
-            if (key.startswith("@") or key not in ids or not isinstance(text, str) or not text.strip()
-                    or text == english.get(key) or breaks_build(text, english[key])):
+            if key.startswith("@") or key not in ids:
                 continue
-            current = crowdin.get(ids[key])
-            if current and current["text"] == text:
-                continue
-            if (current is None or current.get("provider") == "ai" or breaks_build(current["text"], english[key])
-                    or changed_at.get(key, 0) > approved_at.get(ids[key], 0)):
+            # Real translations only: an empty value or an English copy is not a translation.
+            reason = ("empty" if not isinstance(text, str) or not text.strip()
+                      else "English copy" if text == english.get(key)
+                      else "breaks build" if breaks_build(text, english[key]) else None)
+            if reason:
+                skipped[reason] = skipped.get(reason, 0) + 1
+            elif approved.get(ids[key]) == text:
+                equal += 1
+            else:
                 push[key] = text
-        if not push:
+        print(f"{lang}: import {len(push)}, already approved {equal}, skipped {skipped or 0}")
+        total += len(push)
+        if not apply or not push:
             continue
         storage = call("POST", "/storages", raw=json.dumps(push, ensure_ascii=False).encode(),
-                       filename=f"repo_{lang}.arb")["data"]["id"]
+                       filename=f"github_baseline_{lang}.arb")["data"]["id"]
         call("POST", f"/projects/{PID}/translations/{lang}",
-             {"storageId": storage, "fileId": file["id"], "autoApproveImported": True, "importEqSuggestions": False})
-        # An identical translation that already exists is not re-imported: approve that one.
+             {"storageId": storage, "fileId": file["id"], "autoApproveImported": True,
+              "importEqSuggestions": False, "translateHidden": True})
+        # Check every key; an identical translation that already existed is not re-imported: approve it.
         after = {t["stringId"]: t["text"] for t in top_translations(file, lang, approved_only=True)}
         for key, text in push.items():
             if after.get(ids[key]) != text:
                 same = [t for t in paged(f"/projects/{PID}/translations?stringId={ids[key]}&languageId={lang}")
                         if t["text"] == text]
-                if same:
-                    call("POST", f"/projects/{PID}/approvals", {"translationId": same[0]["id"]})
-                else:
-                    print(f"{lang}: could not push {key}")
-        print(f"{lang}: pushed {len(push)} repo translations (Crowdin had none, a broken, AI or older one)")
+                if not same:
+                    failed.append(f"{lang}:{key}")
+                    continue
+                call("POST", f"/projects/{PID}/approvals", {"translationId": same[0]["id"]})
+            imported.add(ids[key])
+    print(f"{'imported' if apply else 'would import'} {total} translations")
+    if not apply:
+        return
+    labels = {l["title"]: l["id"] for l in paged(f"/projects/{PID}/labels")}
+    label = labels.get(BASELINE_LABEL) or call("POST", f"/projects/{PID}/labels", {"title": BASELINE_LABEL})["data"]["id"]
+    if imported:
+        call("POST", f"/projects/{PID}/labels/{label}/strings", {"stringIds": sorted(imported)})
+    print(f"labelled {len(imported)} strings {BASELINE_LABEL}")
+    if failed:
+        sys.exit(f"{len(failed)} translations not approved: {failed[:20]}")
 
 
 def pretranslate(file, langs):
@@ -355,7 +355,7 @@ def changes_vs_repo():
 
 
 if __name__ == "__main__":
-    commands = {"reconcile": 1, "pretranslate": 1, "approve": 1, "merge": 1, "report": 2}
+    commands = {"baseline": 2, "pretranslate": 1, "approve": 1, "merge": 1, "report": 2}
     if len(sys.argv) < 2 or len(sys.argv) - 1 != commands.get(sys.argv[1]):
         sys.exit(__doc__)
     if sys.argv[1] == "merge":  # local files only
@@ -363,8 +363,10 @@ if __name__ == "__main__":
         sys.exit()
     source = source_file()
     languages = target_languages(source)
-    if sys.argv[1] == "reconcile":
-        reconcile(source, languages)
+    if sys.argv[1] == "baseline":
+        if sys.argv[2] not in ("report", "apply"):
+            sys.exit(__doc__)
+        baseline(source, languages, apply=sys.argv[2] == "apply")
     elif sys.argv[1] == "pretranslate":
         pretranslate(source, languages)
     elif sys.argv[1] == "approve":
