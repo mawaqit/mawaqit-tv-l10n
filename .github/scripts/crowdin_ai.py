@@ -8,8 +8,10 @@ Crowdin cannot auto-approve AI (or MT) pre-translations, so this script does it:
                  AI never replaces people's existing work
   pretranslate   AI-translate every string that has no approved translation yet
   approve        approve those AI translations (provider "ai"); machine-translation
-                 drafts and people's suggestions are left alone
-  report FILE    write the sync PR body: strings whose approved text is still AI
+                 drafts and people's suggestions are left alone. AI output with changed
+                 {placeholders} is never approved, and loses its approval if it had one
+  report FILE    write the sync PR body: strings whose approved text is still AI, and
+                 what changed in each downloaded intl_*.arb compared with the repo
 
 When a proofreader edits a translation in Crowdin (with Auto-approve on), their
 version becomes the approved one (provider null), so it drops off the report.
@@ -17,8 +19,11 @@ version becomes the approved one (provider null), so it drops off the report.
 Env: CROWDIN_PERSONAL_TOKEN, CROWDIN_PROJECT_ID, CROWDIN_BRANCH, CROWDIN_FILE,
 CROWDIN_AI_PROMPT_ID.
 """
+import glob
 import json
 import os
+import re
+import subprocess
 import sys
 import time
 import urllib.error
@@ -143,17 +148,34 @@ def newest_ai_translation(string_id, lang):
     return max(ai, key=lambda t: t["createdAt"]) if ai else None
 
 
-def looks_broken(text, source):
-    # Seen on Arabic: a correct sentence followed by hundreds of invisible direction marks,
-    # which passed Crowdin's QA check. Leave such output unapproved (the app shows English).
-    return len(text) > 3 * len(source) + 20
+PLACEHOLDER = re.compile(r"\{\s*([^{}\s,]+)")
+
+
+def ai_problem(text, source):
+    """Why AI output must not be approved, or None. Unapproved strings fall back to English."""
+    # Seen on Hindi/Thai: "{name}" translated to "{नाम}", which breaks flutter gen-l10n.
+    if sorted(set(PLACEHOLDER.findall(text))) != sorted(set(PLACEHOLDER.findall(source))):
+        return "placeholders differ from English"
+    # Seen on Arabic: a correct sentence followed by hundreds of invisible direction marks.
+    if len(text) > 3 * len(source) + 20:
+        return f"{len(text)} chars"
+    return None
 
 
 def approve(file, langs):
     strings = {s["id"]: s for s in paged(f"/projects/{PID}/strings?fileId={file['id']}")}
     total = 0
     for lang in langs:
-        approved = {t["stringId"] for t in top_translations(file, lang, approved_only=True)}
+        approved = set()
+        for t in top_translations(file, lang, approved_only=True):
+            source = strings.get(t["stringId"], {})
+            problem = t.get("provider") == "ai" and ai_problem(t["text"], source.get("text", ""))
+            if not problem:
+                approved.add(t["stringId"])
+                continue
+            for a in paged(f"/projects/{PID}/approvals?translationId={t['translationId']}"):
+                call("DELETE", f"/projects/{PID}/approvals/{a['id']}")
+            print(f"{lang}: removed approval of {source.get('identifier')} ({problem})")
         count = 0
         for t in top_translations(file, lang):
             if t["stringId"] in approved or "translationId" not in t:
@@ -163,8 +185,9 @@ def approve(file, langs):
             if not ai:
                 continue
             source = strings.get(t["stringId"], {})
-            if looks_broken(ai["text"], source.get("text", "")):
-                print(f"{lang}: NOT approving {source.get('identifier')} (AI output {len(ai['text'])} chars)")
+            problem = ai_problem(ai["text"], source.get("text", ""))
+            if problem:
+                print(f"{lang}: NOT approving {source.get('identifier')} ({problem})")
                 continue
             call("POST", f"/projects/{PID}/approvals", {"translationId": ai["id"]})
             count += 1
@@ -193,10 +216,34 @@ def report(file, langs, out):
         "",
     ]
     lines += ["| Language | Count | Keys |", "|---|---|---|", *rows] if rows else ["None."]
+    lines += ["", "### Changes to existing translations", "",
+              "Compared with the repo. *Removed* keys fall back to English in the app.", ""]
+    lines += changes_vs_repo()
     body = "\n".join(lines) + "\n"
     with open(out, "w") as f:
         f.write(body)
     print(body)
+
+
+def changes_vs_repo():
+    rows = []
+    for path in sorted(glob.glob(os.path.join(os.path.dirname(FILE), "intl_*.arb"))):
+        new = {k: v for k, v in json.load(open(path)).items() if not k.startswith("@")}
+        try:
+            old = json.loads(subprocess.check_output(["git", "show", f"HEAD:{path}"], stderr=subprocess.DEVNULL))
+        except subprocess.CalledProcessError:
+            rows.append(f"| {os.path.basename(path)} | new file: {len(new)} keys | | |")
+            continue
+        old = {k: v for k, v in old.items() if not k.startswith("@")}
+        added = [k for k in new if k not in old]
+        changed = [k for k in new if k in old and new[k] != old[k]]
+        removed = [k for k in old if k not in new]
+        if added or changed or removed:
+            shown = ", ".join(f"`{k}`" for k in (removed + changed)[:8])
+            rows.append(f"| {os.path.basename(path)} | {len(added)} | {len(changed)} | {len(removed)} | {shown} |")
+    if not rows:
+        return ["No changes."]
+    return ["| File | Added | Changed | Removed | Changed/removed keys (first 8) |", "|---|---|---|---|---|", *rows]
 
 
 if __name__ == "__main__":
