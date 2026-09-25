@@ -157,6 +157,7 @@ jobs:
         run: for f in l10n-poc/intl_*.arb; do echo "$f $(tr -d '\n' < "$f")"; done
 
   download-approved:
+    if: false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -217,3 +218,26 @@ jobs:
         with:
           command: 'download'
           command_args: '--branch dev --dryrun'
+
+  # Read-only: which fields tell AI vs MT vs human translations apart.
+  inspect-translations:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Query Crowdin
+        run: |
+          python3 - <<'PY'
+          import os, json, urllib.request
+          BASE = "https://api.crowdin.com/api/v2"
+          TOKEN, PID = os.environ["CROWDIN_PERSONAL_TOKEN"], os.environ["CROWDIN_PROJECT_ID"]
+          def get(path):
+              req = urllib.request.Request(BASE + path, headers={"Authorization": f"Bearer {TOKEN}"})
+              with urllib.request.urlopen(req) as r:
+                  return json.loads(r.read())
+          bid = get(f"/projects/{PID}/branches?name=poc")["data"][0]["data"]["id"]
+          for s in get(f"/projects/{PID}/strings?branchId={bid}&limit=50")["data"]:
+              s = s["data"]
+              for lang in ["ku", "fr", "cs", "de"]:
+                  for t in get(f"/projects/{PID}/translations?stringId={s['id']}&languageId={lang}")["data"]:
+                      t = t["data"]; t.pop("text", None)
+                      print(s["identifier"], lang, json.dumps(t, ensure_ascii=False))
+          PY
