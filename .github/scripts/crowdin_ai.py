@@ -3,6 +3,9 @@
 
 Crowdin cannot auto-approve AI (or MT) pre-translations, so this script does it:
 
+  baseline       one-time: keep what the app ships today. For strings with no approved
+                 translation, import the repo's intl_<lang>.arb text and approve it, so the
+                 AI never replaces people's existing work
   pretranslate   AI-translate every string that has no approved translation yet
   approve        approve those AI translations (provider "ai"); machine-translation
                  drafts and people's suggestions are left alone
@@ -29,13 +32,16 @@ FILE = os.environ.get("CROWDIN_FILE", "l10n/intl_en.arb")
 PROMPT_ID = int(os.environ.get("CROWDIN_AI_PROMPT_ID") or 332920)
 
 
-def call(method, path, body=None):
+def call(method, path, body=None, raw=None, filename=None):
+    headers = {"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"}
+    if raw is not None:  # file upload to storage
+        headers.update({"Content-Type": "application/octet-stream", "Crowdin-API-FileName": filename})
     for attempt in range(6):
         req = urllib.request.Request(
             BASE + path,
             method=method,
-            data=json.dumps(body).encode() if body is not None else None,
-            headers={"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"},
+            data=raw if raw is not None else json.dumps(body).encode() if body is not None else None,
+            headers=headers,
         )
         try:
             with urllib.request.urlopen(req) as r:
@@ -68,6 +74,10 @@ def source_file():
     sys.exit(f"{path} not found in Crowdin")
 
 
+# Same as languages_mapping in crowdin.yml: Crowdin language id -> repo file code.
+REPO_CODES = {"pt-PT": "pt_PT", "pt-BR": "pt_BR", "me": "cnr"}
+
+
 def target_languages(file):
     excluded = file.get("excludedTargetLanguages") or []
     return [l for l in call("GET", f"/projects/{PID}")["data"]["targetLanguageIds"] if l not in excluded]
@@ -77,6 +87,28 @@ def top_translations(file, lang, approved_only=False):
     """One entry per translated string: the translation Crowdin shows on top (and exports)."""
     query = f"fileId={file['id']}" + ("&approvedOnly=1" if approved_only else "")
     return paged(f"/projects/{PID}/languages/{lang}/translations?{query}")
+
+
+def baseline(file, langs):
+    english = json.load(open(FILE))
+    ids = {s["identifier"]: s["id"] for s in paged(f"/projects/{PID}/strings?fileId={file['id']}")}
+    codes = {l["id"]: l["twoLettersCode"] for l in call("GET", f"/projects/{PID}")["data"]["targetLanguages"]}
+    for lang in langs:
+        path = os.path.join(os.path.dirname(FILE), f"intl_{REPO_CODES.get(lang, codes[lang])}.arb")
+        if not os.path.exists(path):
+            continue
+        approved = {t["stringId"] for t in top_translations(file, lang, approved_only=True)}
+        # Only strings Crowdin has no approval for, and only real translations (not English copies).
+        keep = {k: v for k, v in json.load(open(path)).items()
+                if not k.startswith("@") and isinstance(v, str) and v.strip() and v != english.get(k)
+                and k in ids and ids[k] not in approved}
+        if not keep:
+            continue
+        storage = call("POST", "/storages", raw=json.dumps(keep, ensure_ascii=False).encode(),
+                       filename=f"baseline_{lang}.arb")["data"]["id"]
+        call("POST", f"/projects/{PID}/translations/{lang}",
+             {"storageId": storage, "fileId": file["id"], "autoApproveImported": True, "importEqSuggestions": False})
+        print(f"{lang}: kept {len(keep)} existing translations from {path}")
 
 
 def pretranslate(file, langs):
@@ -168,12 +200,14 @@ def report(file, langs, out):
 
 
 if __name__ == "__main__":
-    commands = {"pretranslate": 1, "approve": 1, "report": 2}
+    commands = {"baseline": 1, "pretranslate": 1, "approve": 1, "report": 2}
     if len(sys.argv) < 2 or len(sys.argv) - 1 != commands.get(sys.argv[1]):
         sys.exit(__doc__)
     source = source_file()
     languages = target_languages(source)
-    if sys.argv[1] == "pretranslate":
+    if sys.argv[1] == "baseline":
+        baseline(source, languages)
+    elif sys.argv[1] == "pretranslate":
         pretranslate(source, languages)
     elif sys.argv[1] == "approve":
         approve(source, languages)

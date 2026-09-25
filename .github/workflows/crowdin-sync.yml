@@ -11,6 +11,11 @@ on:
     branches:
       - dev
   workflow_dispatch:
+    inputs:
+      baseline:
+        description: 'One-time: approve the translations the app ships today where Crowdin has no approval, before the AI runs'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -47,6 +52,12 @@ jobs:
           upload_translations: false
           download_translations: false
           crowdin_branch_name: ${{ env.CROWDIN_BRANCH }}
+
+      # Keep people's existing work. Before this pipeline, translations were exported without
+      # approval, so many are unapproved in Crowdin and the AI would replace them. Run once by hand.
+      - name: Keep existing translations (baseline)
+        if: inputs.baseline
+        run: python3 .github/scripts/crowdin_ai.py baseline
 
       # Crowdin cannot auto-approve AI output, so the script does it: it AI-translates every
       # string without an approved translation, then approves only the AI ones (machine-
