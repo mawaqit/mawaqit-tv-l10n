@@ -3,13 +3,15 @@
 
 Crowdin cannot auto-approve AI (or MT) pre-translations, so this script does it:
 
-  baseline       one-time: keep what the app ships today. For strings with no approved
-                 translation, import the repo's intl_<lang>.arb text and approve it, so the
-                 AI never replaces people's existing work
+  reconcile      push the repo's intl_<lang>.arb text to Crowdin (approved) where Crowdin has
+                 no approved translation, a broken one, an AI one (people's work wins), or one
+                 older than the last git change of that key. Newer human work in Crowdin wins
   pretranslate   AI-translate every string that has no approved translation yet
   approve        approve those AI translations (provider "ai"); machine-translation
                  drafts and people's suggestions are left alone. AI output with changed
                  {placeholders} is never approved, and loses its approval if it had one
+  merge          after download: keep the repo's text for keys Crowdin did not export or
+                 exported with broken {placeholders}, keep @@locale, skip new language files
   report FILE    write the sync PR body: strings whose approved text is still AI, and
                  what changed in each downloaded intl_*.arb compared with the repo
 
@@ -26,6 +28,7 @@ import re
 import subprocess
 import sys
 import time
+from datetime import datetime
 import urllib.error
 import urllib.request
 
@@ -94,26 +97,64 @@ def top_translations(file, lang, approved_only=False):
     return paged(f"/projects/{PID}/languages/{lang}/translations?{query}")
 
 
-def baseline(file, langs):
+def git_changed_at(path):
+    """key -> unix time of the commit that last changed that key's line in the repo."""
+    out = subprocess.check_output(["git", "blame", "--line-porcelain", "HEAD", "--", path], text=True)
+    times, when = {}, 0
+    for line in out.splitlines():
+        if line.startswith("committer-time "):
+            when = int(line.split()[1])
+        elif line.startswith("\t"):
+            m = re.match(r'\s*"([^"@][^"]*)"\s*:', line[1:])
+            if m:
+                times[m.group(1)] = when
+    return times
+
+
+def reconcile(file, langs):
     english = json.load(open(FILE))
-    ids = {s["identifier"]: s["id"] for s in paged(f"/projects/{PID}/strings?fileId={file['id']}")}
+    ids = {s["identifier"]: s["id"] for s in paged(f"/projects/{PID}/strings?fileId={file['id']}")
+           if not s.get("isHidden")}
     codes = {l["id"]: l["twoLettersCode"] for l in call("GET", f"/projects/{PID}")["data"]["targetLanguages"]}
     for lang in langs:
         path = os.path.join(os.path.dirname(FILE), f"intl_{REPO_CODES.get(lang, codes[lang])}.arb")
         if not os.path.exists(path):
             continue
-        approved = {t["stringId"] for t in top_translations(file, lang, approved_only=True)}
-        # Only strings Crowdin has no approval for, and only real translations (not English copies).
-        keep = {k: v for k, v in json.load(open(path)).items()
-                if not k.startswith("@") and isinstance(v, str) and v.strip() and v != english.get(k)
-                and k in ids and ids[k] not in approved}
-        if not keep:
+        changed_at = git_changed_at(path)
+        crowdin = {t["stringId"]: t for t in top_translations(file, lang, approved_only=True)}
+        approved_at = {}
+        for a in paged(f"/projects/{PID}/approvals?fileId={file['id']}&languageId={lang}"):
+            ts = datetime.fromisoformat(a["createdAt"]).timestamp()
+            approved_at[a["stringId"]] = max(ts, approved_at.get(a["stringId"], 0))
+        push = {}
+        for key, text in json.load(open(path)).items():
+            # Real translations only: not metadata, not an English copy, placeholders intact.
+            if (key.startswith("@") or key not in ids or not isinstance(text, str) or not text.strip()
+                    or text == english.get(key) or breaks_build(text, english[key])):
+                continue
+            current = crowdin.get(ids[key])
+            if current and current["text"] == text:
+                continue
+            if (current is None or current.get("provider") == "ai" or breaks_build(current["text"], english[key])
+                    or changed_at.get(key, 0) > approved_at.get(ids[key], 0)):
+                push[key] = text
+        if not push:
             continue
-        storage = call("POST", "/storages", raw=json.dumps(keep, ensure_ascii=False).encode(),
-                       filename=f"baseline_{lang}.arb")["data"]["id"]
+        storage = call("POST", "/storages", raw=json.dumps(push, ensure_ascii=False).encode(),
+                       filename=f"repo_{lang}.arb")["data"]["id"]
         call("POST", f"/projects/{PID}/translations/{lang}",
              {"storageId": storage, "fileId": file["id"], "autoApproveImported": True, "importEqSuggestions": False})
-        print(f"{lang}: kept {len(keep)} existing translations from {path}")
+        # An identical translation that already exists is not re-imported: approve that one.
+        after = {t["stringId"]: t["text"] for t in top_translations(file, lang, approved_only=True)}
+        for key, text in push.items():
+            if after.get(ids[key]) != text:
+                same = [t for t in paged(f"/projects/{PID}/translations?stringId={ids[key]}&languageId={lang}")
+                        if t["text"] == text]
+                if same:
+                    call("POST", f"/projects/{PID}/approvals", {"translationId": same[0]["id"]})
+                else:
+                    print(f"{lang}: could not push {key}")
+        print(f"{lang}: pushed {len(push)} repo translations (Crowdin had none, a broken, AI or older one)")
 
 
 def pretranslate(file, langs):
@@ -151,9 +192,14 @@ def newest_ai_translation(string_id, lang):
 PLACEHOLDER = re.compile(r"\{\s*([^{}\s,]+)")
 
 
+def breaks_build(text, source):
+    # A placeholder the English doesn't have fails flutter gen-l10n. Seen on Hindi/Thai:
+    # "{name}" translated to "{नाम}". A left-out placeholder is allowed (existing translations do it).
+    return bool(set(PLACEHOLDER.findall(text)) - set(PLACEHOLDER.findall(source)))
+
+
 def ai_problem(text, source):
     """Why AI output must not be approved, or None. Unapproved strings fall back to English."""
-    # Seen on Hindi/Thai: "{name}" translated to "{नाम}", which breaks flutter gen-l10n.
     if sorted(set(PLACEHOLDER.findall(text))) != sorted(set(PLACEHOLDER.findall(source))):
         return "placeholders differ from English"
     # Seen on Arabic: a correct sentence followed by hundreds of invisible direction marks.
@@ -225,14 +271,60 @@ def report(file, langs, out):
     print(body)
 
 
+def repo_version(path):
+    try:
+        return json.loads(subprocess.check_output(["git", "show", f"HEAD:{path}"], stderr=subprocess.DEVNULL))
+    except subprocess.CalledProcessError:
+        return None
+
+
+def merge():
+    english = json.load(open(FILE))
+    for path in sorted(glob.glob(os.path.join(os.path.dirname(FILE), "intl_*.arb"))):
+        if path == FILE:
+            continue
+        old = repo_version(path)
+        if old is None:
+            os.remove(path)  # a language the app does not ship yet: add intl_<code>.arb to the repo to enable it
+            print(f"{path}: new language file, not added")
+            continue
+        new = json.load(open(path))
+        kept = dropped = 0
+        for key, source in english.items():
+            if key.startswith("@"):
+                continue
+            if key in new and breaks_build(new[key], source):
+                del new[key]
+                dropped += 1
+            if key not in new and isinstance(old.get(key), str) and not breaks_build(old[key], source):
+                new[key] = old[key]  # Crowdin exported nothing (hidden/unapproved) or a broken version
+                kept += 1
+        # The repo's key order, @@locale and metadata (the Crowdin export drops them); new keys last.
+        merged = {}
+        for key, value in old.items():
+            if key.startswith("@"):
+                merged[key] = value
+            elif key in new:
+                merged[key] = new[key]
+        for key in english:
+            if key in new and key not in merged:
+                merged[key] = new[key]
+        for key, value in new.items():
+            merged.setdefault(key, value)
+        os.remove(path)  # written by the Crowdin container as root
+        with open(path, "w") as f:
+            f.write(json.dumps(merged, ensure_ascii=False, indent=2) + "\n")
+        if kept or dropped:
+            print(f"{path}: kept {kept} repo translations, dropped {dropped} that would break the build")
+
+
 def changes_vs_repo():
     rows = []
     for path in sorted(glob.glob(os.path.join(os.path.dirname(FILE), "intl_*.arb"))):
         new = {k: v for k, v in json.load(open(path)).items() if not k.startswith("@")}
-        try:
-            old = json.loads(subprocess.check_output(["git", "show", f"HEAD:{path}"], stderr=subprocess.DEVNULL))
-        except subprocess.CalledProcessError:
-            rows.append(f"| {os.path.basename(path)} | new file: {len(new)} keys | | |")
+        old = repo_version(path)
+        if old is None:
+            rows.append(f"| {os.path.basename(path)} | new file: {len(new)} keys | | | |")
             continue
         old = {k: v for k, v in old.items() if not k.startswith("@")}
         added = [k for k in new if k not in old]
@@ -247,13 +339,16 @@ def changes_vs_repo():
 
 
 if __name__ == "__main__":
-    commands = {"baseline": 1, "pretranslate": 1, "approve": 1, "report": 2}
+    commands = {"reconcile": 1, "pretranslate": 1, "approve": 1, "merge": 1, "report": 2}
     if len(sys.argv) < 2 or len(sys.argv) - 1 != commands.get(sys.argv[1]):
         sys.exit(__doc__)
+    if sys.argv[1] == "merge":  # local files only
+        merge()
+        sys.exit()
     source = source_file()
     languages = target_languages(source)
-    if sys.argv[1] == "baseline":
-        baseline(source, languages)
+    if sys.argv[1] == "reconcile":
+        reconcile(source, languages)
     elif sys.argv[1] == "pretranslate":
         pretranslate(source, languages)
     elif sys.argv[1] == "approve":
