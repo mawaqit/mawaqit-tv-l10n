@@ -33,7 +33,7 @@
   "privacyPolicy": "นโยบายความเป็นส่วนตัว",
   "termsOfService": "ข้อกำหนดในการให้บริการ",
   "installationGuide": "คู่มือการติดตั้ง",
-  "drawerTitle": "MAWAQIT",
+  "drawerTitle": "มาวากีต",
   "drawerDesc": "การเชื่อมโยงชาวมุสลิมเข้ากับมัสยิด",
   "backendError": "ขออภัย เราไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ได้ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตหรือลองอีกครั้งในภายหลัง",
   "selectWithMosqueId": "ลอง: 256 เป็นรหัสของ 'Grande Mosquée de Paris'",
@@ -130,8 +130,8 @@
   "jumuaaScreenTitle": "เวลายุมอะฮฺ",
   "jumuaaHadith": "The Prophet ﷺ (peace and blessings of Allah be upon him) said “Whoever does the ablutions perfectly then goes to jumua and then listens and is silent, he is forgiven what is between that time and the following Friday and three more days and the one who touches stones has certainly made a futility”",
   "shuruk": "ซุรุก الشروق",
-  "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duha": "ฎุฮา",
+  "duhaTime": "เวลาฎุฮา",
   "reset": "รีเซ็ต",
   "mosqueNotFoundMessage": "ขออภัย ไม่พบมัสยิดของคุณ ไม่เช่นนั้นมัสยิดอาจหายไปหรือปิดใช้งานชั่วคราว",
   "noInternetMessage": "ไม่มีอินเทอร์เน็ต โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณแล้วลองอีกครั้ง เชื่อมต่อ Wi-Fi หรือ Ethernet ของคุณแล้วหรือยัง?",
@@ -170,18 +170,18 @@
   "fajrWakeUp": "ตื่นละหมาดฟัจญรฺ",
   "changeLanguage": "เปลี่ยนภาษา",
   "forceScreen": "หน้าจอบังคับ",
-  "clear": "Clear",
+  "clear": "ชัดเจน",
   "changeTheme": "เปลี่ยนธีม",
-  "next": "Next",
+  "next": "ต่อไป",
   "mainScreenOrSecondaryScreen": "ตำแหน่งหน้าจอ",
   "mainScreenOrSecondaryScreenEXPLINATION": "คุณต้องการติดตั้งหน้าจอนี้ในห้องละหมาดหลัก (ห้องละหมาดชาย) หรือไม่?",
   "mainScreen": "หน้าจอหลัก",
-  "secondaryScreen": "Secondary screen",
+  "secondaryScreen": "หน้าจอรอง",
   "duaaElEftar": "ดูอาเปิดบวช",
   "announcementOnlyMode": "โหมดประกาศ",
-  "normalMode": "Normal mode ",
+  "normalMode": "โหมดปกติ ",
   "announcementOnlyModeEXPLINATION": "เลือกว่าหน้าจอของคุณจะแสดงประกาศตลอดเวลาหรือไม่ ซึ่งจะมีประโยชน์หากคุณติดตั้งหน้าจอที่ทางเข้า เป็นต้น",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -280,7 +280,7 @@
   "askDownloadQuran": "คุณต้องการดาวน์โหลดอัลกุรอาน?",
   "download": "ดาวน์โหลด",
   "downloadingQuran": "กำลังดาวน์โหลดอัลกุรอาน",
-  "extractingQuran": "Extracting Quran",
+  "extractingQuran": "ซูเราะห์อัลกุรอาน",
   "updatedQuran": "อัลกุรอานอัปเดต",
   "quranLatestVersion": "อัลกุรอานข้อมูลล่าสุด",
   "quranUpdatedVersion": "เวอร์ชันที่อัปเดตของอัลกุรอานคือ: {version}",
@@ -501,5 +501,194 @@
   "athkarArabicFontDesc": "เลือกฟอนต์อาหรับที่ใช้กับอัซการ (หลังละหมาด อาซาน ญุมอะฮฺ ฮาดีษ...)",
   "athkarFontKufi": "กูฟี",
   "athkarFontUthmani": "อุษมานี",
-  "perPrayerRolloverOptionAfterIsha": "เปลี่ยนพร้อมกันทั้งหมดหลังอิชาอ์"
+  "perPrayerRolloverOptionAfterIsha": "เปลี่ยนพร้อมกันทั้งหมดหลังอิชาอ์",
+  "thisIsATestFromIbrahim": "นี่คือการทดสอบจากอิบราฮิม",
+  "forceStaging": "สเตจจิ้ง",
+  "forcePreProduction": "ก่อนเปิดใช้งานจริง",
+  "environmentSwitchSuccess": "เปลี่ยนสภาพแวดล้อมสำเร็จแล้ว",
+  "environmentSwitchFailed": "เปลี่ยนสภาพแวดล้อมไม่สำเร็จ",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "ta": "ทมิฬ",
+  "wifiForgetNetwork": "เครือข่ายนี้ถูกเพิ่มจากการตั้งค่า Android โปรดลืมเครือข่ายนี้ที่นั่น แล้วเชื่อมต่อใหม่อีกครั้ง",
+  "urlManagedByMosqueAdmin": "URL จัดการโดยผู้ดูแลมัสยิด",
+  "streamMode": "โหมดสตรีม",
+  "streamModeDisabled": "ปิดการใช้งาน",
+  "streamModeCamera": "สตรีมขึ้นอยู่กับกล้อง",
+  "streamModeJumuaOnly": "สตรีมสำหรับญุมอะฮฺเท่านั้น",
+  "streamModeJumuaAndPrayers": "สตรีมสำหรับญุมอะฮฺและ 5 เวลาละหมาด",
+  "streamRequiresSecondaryScreen": "คุณสมบัตินี้ใช้ได้เมื่อแอปทำงานบนหน้าจอรองเท่านั้น เพื่อเปิดใช้งาน:",
+  "streamSecondaryScreenStep1": "ไปที่แสดงผล",
+  "streamSecondaryScreenStep2": "เปิด \"โหมดเริ่มต้นเริ่มตั้งต้น\".",
+  "streamSecondaryScreenStep3": "เลือก \"หน้าจอรอง\".",
+  "rtspServerNotAvailable": "เซิร์ฟเวอร์ RTSP ไม่พร้อมใช้งาน กรุณาตรวจสอบการเชื่อมต่อของคุณ",
+  "settingsSavedSuccessfully": "บันทึกการตั้งค่าสำเร็จแล้ว",
+  "testCrowdinCI": "สตริงทดสอบเพื่อยืนยันกระบวนการทำงาน Crowdin CI บน develop",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "โหมดกุรอาน",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "แสดงหน้าจออ่านกุรอาน เริ่มจากหน้าที่อ่านล่าสุด",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "ออกจากโหมดกุรอาน",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "ต้องการกลับสู่โหมดปกติหรือไม่?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "เริ่มต้นง่าย ๆ ใน 4 ขั้นตอน",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "ยังไม่มีหมายเลขมัสยิดใช่ไหม? วิธีการมีดังนี้:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "ไปที่ mawaqit.net และสร้างบัญชีผู้ใช้",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "ลงทะเบียนมัสยิดของคุณ พร้อมรูปภาพ & ที่อยู่",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "รับหมายเลขมัสยิดเฉพาะของคุณจากแดชบอร์ด",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "ป้อนหมายเลขนี้ที่นี่เพื่อเชื่อมต่อหน้าจอทีวีของคุณ",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "ขั้นตอนที่ {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "สแกนเพื่อลงทะเบียน",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "ใช้โทรศัพท์ของคุณเพื่อสร้างบัญชีบน mawaqit.net",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "บทช่วยสอนฉบับเต็ม",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "เวลาละหมาดจะแสดงสำหรับมัสยิดของคุณ",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

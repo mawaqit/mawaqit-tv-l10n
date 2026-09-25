@@ -24,7 +24,7 @@
   "countdownPrayer": "{name} dalam {time}",
   "countdownNonPrayer": "{name} dalam {time}",
   "sec": "Detik",
-  "online": "Online",
+  "online": "Online/Aktif",
   "missingMosqueId": "Hilang MAWAQIT #ID atau MOSQUE #ID",
   "mosqueIdIsNotValid": "Maaf, {mosqueId} bukan ID Masjid yang benar",
   "selectMosqueId": "Silahkan masukkan ID Masjid Anda",
@@ -67,11 +67,11 @@
   "perPrayerRolloverDesc": "Pilih cara waktu sholat beralih ke jadwal besok",
   "perPrayerRolloverOptionPerPrayer": "Setiap sholat satu per satu",
   "alAthkar": "Zikir",
-  "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
+  "azkarList0": "Astaghfirullah, Astaghfirullah, Astaghfirullah, Astaghfirullah Allahumma anta assalam wa minkassalam tabarakta ya dzal jalali wal ikram, Allahumma a'inni 'ala dzikrika wa chukrika wa husni 'ibadatik",
   "@azkarList0": {
     "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
   },
-  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
+  "azkarList1": "Subhanallah wal hamdu lillah wallahu akbar (33 kali) La ilaha illa Allah, wahdahu la syarika lah, lahul mulku wa lahul hamdu, wa huwa 'ala kulli syai'in qadir",
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
@@ -91,7 +91,7 @@
   "@azkarList5": {
     "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
-  "azkarList6": "Lā 'ilāha 'illallāh, waḥdahu lā sharīka lah, lahu 'l-mulku wa lahu 'l-ḥamd, wa huwa `alā kulli shay'in qadīr, Allāhumma lā māni`a limā 'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.",
+  "azkarList6": "Lailahaillallah wahdahula syarikalah lahul mulku walahul hamdu yuhyi wayumitu wahuwa ala kulli syai-in qadir, Allahumma laa maani'a lima a'taita walaa mu'tiya lima mana'ta wala radda lima qadhaita wa laa yanfa'u dzaljadda minkaljadd",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
@@ -130,8 +130,8 @@
   "jumuaaScreenTitle": "Waktu Shalat Jumat",
   "jumuaaHadith": "Nabi ﷺ bersabda, \"Barangsiapa berwudhu dengan sempurna, kemudian pergi ke jumatan, lalu mendengarkan dan diam, maka diampuni baginya apa yang ada di antara waktu tersebut hingga Jumat berikutnya dan tiga hari berikutnya, dan barangsiapa yang menyentuh batu, maka sungguh ia telah berbuat sia-sia.\"",
   "shuruk": "Syuruk",
-  "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duha": "Dhuha",
+  "duhaTime": "Waktu Shalat Dhuha",
   "reset": "Mengatur ulang",
   "mosqueNotFoundMessage": "Maaf, masjid Anda tidak ditemukan, atau mungkin masjid tersebut hilang atau dinonaktifkan untuk sementara.",
   "noInternetMessage": "Tidak ada akses internet. Harap verifikasi konektivitas internet Anda dan coba lagi. Apakah Wi-Fi atau Ethernet Anda Tersambung?",
@@ -181,7 +181,7 @@
   "announcementOnlyMode": "Mode pengumuman",
   "normalMode": "Mode normal ",
   "announcementOnlyModeEXPLINATION": "Pilih apakah layar Anda akan menampilkan pengumuman sepanjang waktu, ini dapat berguna jika Anda memasang layar di pintu masuk misalnya.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "Artinya: \"Ya Allah, untuk-Mu aku berpuasa, kepadamu-Mu aku beriman, dan atas rezeki-Mu aku berbuka (puasa), dengan rahmat-Mu Ya Allah Tuhan Maha Pengasih.\"",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -501,5 +501,194 @@
   "athkarArabicFontDesc": "Pilih font Arab yang digunakan untuk Zikir (setelah sholat, adzan, Jumat, hadis...)",
   "athkarFontKufi": "Kufi",
   "athkarFontUthmani": "Utsmani",
-  "perPrayerRolloverOptionAfterIsha": "Semua bersamaan setelah Isya'"
+  "perPrayerRolloverOptionAfterIsha": "Semua bersamaan setelah Isya'",
+  "thisIsATestFromIbrahim": "Ini adalah tes dari Ibrahim",
+  "forceStaging": "Beralih ke pementasan",
+  "forcePreProduction": "Pra-produksi",
+  "environmentSwitchSuccess": "Lingkungan berhasil diubah",
+  "environmentSwitchFailed": "Gagal mengubah lingkungan",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "ta": "Tamil",
+  "wifiForgetNetwork": "Jaringan ini ditambahkan di pengaturan Android. Silakan hapus dari sana, lalu hubungkan kembali.",
+  "urlManagedByMosqueAdmin": "URL dikelola oleh pengurus masjid",
+  "streamMode": "Mode streaming",
+  "streamModeDisabled": "Nonaktif",
+  "streamModeCamera": "Streaming tergantung pada kamera",
+  "streamModeJumuaOnly": "Streaming hanya tergantung pada Jumua",
+  "streamModeJumuaAndPrayers": "Streaming tergantung pada Jumua dan 5 waktu shalat",
+  "streamRequiresSecondaryScreen": "Fitur ini hanya berfungsi saat aplikasi berjalan sebagai layar sekunder. Untuk mengaktifkannya:",
+  "streamSecondaryScreenStep1": "Buka Tampilan.",
+  "streamSecondaryScreenStep2": "Buka \"Mode peluncuran default\".",
+  "streamSecondaryScreenStep3": "Pilih \"Layar kedua\".",
+  "rtspServerNotAvailable": "Server RTSP tidak tersedia. Silakan periksa koneksi Anda.",
+  "settingsSavedSuccessfully": "Pengaturan berhasil disimpan",
+  "testCrowdinCI": "String uji untuk memverifikasi alur kerja Crowdin CI di develop",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Mode Quran",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Tampilkan layar pembacaan Quran, mulai dari halaman terakhir yang dibaca",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Keluar dari Mode Quran",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Apakah Anda ingin kembali ke mode normal?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "Mulai dalam 4 langkah sederhana",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "Belum memiliki ID Masjid? Berikut caranya:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "Kunjungi mawaqit.net dan buat akun",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "Daftarkan masjid Anda dengan foto dan alamat",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "Dapatkan ID Masjid unik Anda dari dasbor",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "Masukkan ID di sini untuk menghubungkan tampilan TV Anda",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "Langkah {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "Pindai untuk mendaftar",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "Gunakan ponsel Anda untuk membuat akun di mawaqit.net",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "Tutorial lengkap",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "Waktu shalat ditampilkan untuk masjid Anda",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

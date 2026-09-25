@@ -1,5 +1,5 @@
 {
-  "thisIsATestFromIbrahim": "This is a test from Ibrahim",
+  "thisIsATestFromIbrahim": "Bu İbrahim'den bir testtir",
   "home": "Ana Sayfa",
   "share": "Paylaş",
   "about": "Hakkında",
@@ -630,5 +630,65 @@
   "@fontSizeXLarge": {
     "description": "Extra large font size option"
   },
-  "perPrayerRolloverOptionAfterIsha": "Yatsıdan sonra hepsi birlikte"
+  "perPrayerRolloverOptionAfterIsha": "Yatsıdan sonra hepsi birlikte",
+  "countdownPrayer": "{name} Kalan Süre {time}",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "countdownNonPrayer": "{name} Kalan Süre {time}",
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "wifiForgetNetwork": "Bu ağ Android ayarlarında eklendi. Lütfen orada unutun, ardından tekrar bağlanın.",
+  "streamSecondaryScreenStep1": "Ekrana gidin.",
+  "streamSecondaryScreenStep2": "\"Varsayılan başlatma modu\"nu açın.",
+  "streamSecondaryScreenStep3": "\"İkincil ekran\"ı seçin.",
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "Namaz vakitleri caminiz için gösteriliyor",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

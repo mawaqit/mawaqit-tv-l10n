@@ -67,11 +67,11 @@
   "perPrayerRolloverDesc": "Labo no waktuuji njuulu waylortoo e waktuuji janngo",
   "perPrayerRolloverOptionPerPrayer": "Kala njuulu e hoore mum",
   "alAthkar": "Al-Athkar",
-  "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
+  "azkarList0": "Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik",
   "@azkarList0": {
     "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
   },
-  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
+  "azkarList1": "Subhan Allah wal hamdu lillah wallahu akbar (laabi 33) La ilaha illa Allah, wahdahu la charika lah, lahu elmoulku wa lahu elhamdu, wa hua `ala kulli chay in kadir",
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
@@ -91,7 +91,7 @@
   "@azkarList5": {
     "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
-  "azkarList6": "Lā 'ilāha 'illallāh, waḥdahu lā sharīka lah, lahu 'l-mulku wa lahu 'l-ḥamd, wa huwa `alā kulli shay'in qadīr, Allāhumma lā māni`a limā 'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.",
+  "azkarList6": "Laa ilaha illaa Allah, wahdahuu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala kulli shayin kadiir, Allahumma laa mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
@@ -131,7 +131,7 @@
   "jumuaaHadith": "Nulaaɗo ﷺ (Yoo weluya Alla won e makko) wiyi \"Kala calliginiiɗo haa selli kisa yehi jamaa, heɗii tawa ena deƴƴi, oon yaafaama hakkunde oon sahaa e Aljumaa dewɗo heen oo kam e balɗe tati goɗɗe kadi kala memɗo haayre waɗaani ko fuuyi\"",
   "shuruk": "Puɗal",
   "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duhaTime": "Waktu Duha",
   "reset": "Firlit",
   "mosqueNotFoundMessage": "Accu hakke, jamaa maa yiytaake, walla ena ŋakki walla koko daaƴii oo sahaa.",
   "noInternetMessage": "Alaa ceŋol Enternet. Tiiɗno ƴeewto ceŋateeri maa kisa puɗɗito-ɗaa. Mbar Wi-Fi walla Ethernert maa ena ceŋii?",
@@ -181,7 +181,7 @@
   "announcementOnlyMode": "Mbayka tintine",
   "normalMode": "Mbayka ngoowaaka ",
   "announcementOnlyModeEXPLINATION": "Suɓo so yaynirde maa yaltinat tintine sahaa kala, ɗum ena himmi so tawii mbaɗ-ɗaa yaynirde ndee ko e naatirde, yeru.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "Nyaaɗi arii, ndiyam fuɗɗani, e looga moƴƴi, so Alla jogii reward, inshallah.",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -200,7 +200,7 @@
   "eidMubarak": "Njuulee mo wuuri",
   "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
   "settings": "Teelte",
-  "applicationModes": "Default launch mode",
+  "applicationModes": "Mbayka Jaaɓngal",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "So a heɓii caɗeele e ngal jaaɓngal, eto hurminde ndee suɓre",
   "hijriAdjustments": "Ponnditgol Hijri Nokku",
   "hijriAdjustmentsDescription": "Fonndit ñalngu Hijiri nokkuure ndee e kaɓirgol maa. Ɗuum alaa baɗte e teelte Enternet jamaa oo",
@@ -400,7 +400,7 @@
   "somethingWentWrong": "Won ko feewaani! Tiiɗno fuɗɗito",
   "somethingWrong": "Won ko feewaani",
   "tryAgainLater": "Tiiɗno fuɗɗito ɗoo e yeeso",
-  "hintTextRtspUrl": "rtsp://... or https://youtube.com/live/...",
+  "hintTextRtspUrl": "rtsp://... walla https://youtube.com/live/...",
   "checkInternetUpdate": "Maa ceŋo-ɗaa e Enternet ngam yuurnaade kesɗitine kese",
   "appUpdateAvailable": "Jaaɓngal maa dogata heen ko yamre {currentVersion}. Kesɗitinal kesal (yamre {updatedVersion}) ena woodi wonndude e fannuuji e ƴellitine kesi.",
   "@appUpdateAvailable": {
@@ -446,7 +446,7 @@
   "randomSurahSelection": "Labagol Simoore Ñugget",
   "selectSurah": "Suɓo Simoore",
   "initializingAutoReading": "Kurminirgol ena jokki...",
-  "holdOkToStop": "Hold OK to Stop",
+  "holdOkToStop": "Yaltu OK jooni e naamnude",
   "prayerTimeNotification": "Tintinol {salahName} waktu ({prayerTime})",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",
@@ -499,7 +499,196 @@
   "fontSizeXLarge": "Mawnum sanne",
   "athkarArabicFont": "Binndi Aarabu ngam Al-Athkar",
   "athkarArabicFontDesc": "Labo binndi Aarabu ɗi kuutoretee e Al-Athkar (ɓaawo njuulu, noddinaango, Aljumu'a, hadiis...)",
-  "athkarFontKufi": "Kufi",
-  "athkarFontUthmani": "Uthmani",
-  "perPrayerRolloverOptionAfterIsha": "Fof denndaangal ɓaawo Geeƴe"
+  "athkarFontKufi": "Kuufi",
+  "athkarFontUthmani": "Usmaani",
+  "perPrayerRolloverOptionAfterIsha": "Fof denndaangal ɓaawo Geeƴe",
+  "thisIsATestFromIbrahim": "Ko jango jogi Ibraahiima",
+  "forceStaging": "Waatu lowre ƴeewndorde",
+  "forcePreProduction": "Mbindi kaɗowol bayyaniinde",
+  "environmentSwitchSuccess": "Mbindi kaɗowol jokki e jam",
+  "environmentSwitchFailed": "Mbindi kaɗowol jokkii waawaa",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "ta": "Taamil",
+  "wifiForgetNetwork": "Reseau ngol ina seɗinii e teelte Android. Soomru hoore e koɗɗo, so tawii wattu.",
+  "urlManagedByMosqueAdmin": "URL-en ngol jogii e laawol moƴƴoɗo masallaji",
+  "streamMode": "Mbayka streaming",
+  "streamModeDisabled": "Danndaaɓo",
+  "streamModeCamera": "Mbayka streaming so tawii kamara moƴƴi",
+  "streamModeJumuaOnly": "Mbayka streaming so tawii Jumua tan",
+  "streamModeJumuaAndPrayers": "Streaming mbaydi so tawii Jumua e jibbinaaɗi 5",
+  "streamRequiresSecondaryScreen": "Moƴƴi ko e jamɗe suɓi ecran baali. Naatude moƴƴum:",
+  "streamSecondaryScreenStep1": "Yah e Hollu.",
+  "streamSecondaryScreenStep2": "Uddit \"Mode de demarrage defawol\".",
+  "streamSecondaryScreenStep3": "Suubo \"Ecran ɓurnde\".",
+  "rtspServerNotAvailable": "RTSP server alaa. Huutor e jamfaama maa.",
+  "settingsSavedSuccessfully": "Teelte jiibii waawde dannde",
+  "testCrowdinCI": "Test string ngol ngam foppude Crowdin CI workflow on develop",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Mbayka Qur'aan",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Hollu ecran gootorde Qur'aan, fuɗɗit e ñoowi do tawɗii jange",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Yaltu Mbayka Qur'aan",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Aɗa yiɗi yo a vaya e mbayka ngoowaaka?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "Fuɗɗi e etap nayi 4 ɗiɗi",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "A alaa Mosque ID kam yettude? Andi no waɗde:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "Yah mawaqit.net e sootir account maa",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "Siwta masalla maa e photoji e address",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "Ndoggol Mosque ID mawɗo e dashboard maa",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "Naatnu ID kono haa toŋtin ecran TV maa",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "Etap {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "Scan e jokkude",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "Huutor telefoon maa e sootirde account e mawaqit.net",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "Tinndinoore puɓɓol",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "Waktu suutorgo ina njiɗɗi e masallaji maa",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

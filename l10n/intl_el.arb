@@ -58,7 +58,7 @@
   "afterAdhanHadithTitle": "Μετά το adhan Du`aa",
   "afterSalahHadith": "Allahumma Rabba hadhihid-da'wati-ttammati, was-salatil-qa'imati, ati Muhammadanil-wasilata wal-fadhilata, wab'athu maqaman mahmuda nilladhi wa 'adtahu [Ω Αλλάχ, Rubb αυτού του τέλειου καλέσματος (Da'wah) και της καθιερωμένης προσευχής (As-Salat), δώσε στον Μωάμεθ την Wasilah και την ανωτερότητα, και ανύψωσέ τον σε μια αξιέπαινη θέση που του έχεις υποσχεθεί].",
   "alIqama": "Al Iqama",
-  "alAdhan": "Al Athan",
+  "alAdhan": "Al Adan",
   "turnOfPhones": "Παρακαλούμε βάλτε τα τηλέφωνά σας σε αθόρυβη λειτουργία",
   "iqamaIn": "Iqama σε",
   "iqamaShowClock": "Εμφάνιση ρολογιού στην οθόνη ικάμα",
@@ -130,8 +130,8 @@
   "jumuaaScreenTitle": "Ώρα Jumuaa",
   "jumuaaHadith": "Ο Προφήτης ﷺ (η ειρήνη και οι ευλογίες του Αλλάχ να είναι επάνω του) είπε \"Όποιος κάνει τις πλύσεις τέλεια και μετά πηγαίνει στο τζουμούα και μετά ακούει και σιωπά, του συγχωρείται ό, τι είναι μεταξύ εκείνης της ώρας και της επόμενης Παρασκευής και τριών ακόμη ημερών και αυτός που αγγίζει πέτρες έχει σίγουρα κάνει μια ματαιότητα\"",
   "shuruk": "Shuruk",
-  "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duha": "Ντύχα",
+  "duhaTime": "Ώρα Ντύχα",
   "reset": "Επαναφορά",
   "mosqueNotFoundMessage": "Λυπούμαστε, το τζαμί σας δεν βρέθηκε, ή μπορεί να λείπει ή να είναι προσωρινά απενεργοποιημένο.",
   "noInternetMessage": "Δεν υπάρχει πρόσβαση στο διαδίκτυο. Παρακαλούμε επαληθεύστε τη συνδεσιμότητά σας στο διαδίκτυο και προσπαθήστε ξανά. Είναι συνδεδεμένο το Wi-Fi ή το Ethernet σας;",
@@ -181,7 +181,7 @@
   "announcementOnlyMode": "Λειτουργία ανακοινώσεων",
   "normalMode": "Κανονική λειτουργία ",
   "announcementOnlyModeEXPLINATION": "Επιλέξτε αν η οθόνη σας θα εμφανίζει ανακοινώσεις όλη την ώρα, αυτό μπορεί να είναι χρήσιμο αν εγκαταστήσετε την οθόνη στην είσοδο, για παράδειγμα.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "Έφυγε η δίψα, διαπότισθηκαν οι φλέβες και εδραιώθηκε η ανταμοιβή, αν το θελήσει ο Αλλάχ.",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -206,7 +206,7 @@
   "hijriAdjustmentsDescription": "Προσαρμόστε την ημερομηνία hijri τοπικά στη συσκευή σας. Αυτό δεν θα επηρεάσει τις ρυθμίσεις του online τζαμιού",
   "backoffice_default": "Προεπιλογές Διαχείρισης",
   "recommended": "Προτεινόμενο",
-  "sabah": "Sabah",
+  "sabah": "Σαμπάχ",
   "randomHadithLanguage": "Τυχαία γλώσσα hadith",
   "mosqueDefault": "Από τις online ρυθμίσεις σας",
   "en": "Αγγλικά",
@@ -220,7 +220,7 @@
   "fr_ar": "Γαλλικά & Αραβικά",
   "en_ar": "Αγγλικά & Αραβικά",
   "de_ar": "Γερμανικά & Αραβικά",
-  "ta_ar": "Tamil & Arabic",
+  "ta_ar": "Ταμίλ & Αραβικά",
   "tr_ar": "Τουρκικά & Αραβικά",
   "es_ar": "Ισπανικά & Αραβικά",
   "pt_ar": "Πορτογαλικά & Αραβικά",
@@ -240,7 +240,7 @@
   "useDeviceTime": "Χρήση χρόνου συσκευής",
   "selectTime": "Επιλογή Ώρας",
   "previous": "Προηγούμενο",
-  "appTimezone": "App Timezone",
+  "appTimezone": "Ζώνη ώρας εφαρμογής",
   "descTimezone": "Επιλέξτε τη ζώνη ώρας σας για να λάβετε ακριβείς ώρες προσευχής.",
   "appWifi": "Συνδεθείτε στο wifi",
   "descWifi": "Παρακαλώ συνδεθείτε στο προτιμώμενο wifi σας",
@@ -250,7 +250,7 @@
   "connect": "Σύνδεση",
   "wifiPassword": "Κωδικός",
   "skip": "Παράλειψη",
-  "noSSID": "**Hidden SSID**",
+  "noSSID": "**Κρυφό SSID**",
   "close": "Κλείσιμο",
   "search": "Αναζήτηση",
   "wifiSuccess": "Επιτυχής σύνδεση με Wifi.",
@@ -288,7 +288,7 @@
   "quranDownloaded": "Το Κοράνι κατέβηκε",
   "quranIsAlreadyDownloaded": "Το Κοράνι έχει ήδη κατεβάσει",
   "chooseReciter": "Επιλογή Reciter",
-  "reciteType": "Recite Type",
+  "reciteType": "Τύπος απαγγελίας",
   "readingMode": "Θέλω να διαβάσω",
   "listeningMode": "Θέλω να ακούσω",
   "quranReadingPage": "Σελίδα {leftPage} - {rightPage} / {totalPages}",
@@ -326,8 +326,8 @@
   "chooseQuranPage": "Επιλέξτε τη σελίδα",
   "checkingForUpdates": "Έλεγχος για ενημερώσεις...",
   "chooseQuranType": "Επιλέξτε quran",
-  "hafs": "Hafs",
-  "warsh": "Warsh",
+  "hafs": "Χαφς",
+  "warsh": "Ουάρς",
   "favorites": "Αγαπημένα",
   "allReciters": "Όλοι Οι Reciters",
   "reciterAddedToFavorites": "Reciter {name} προστέθηκε στα αγαπημένα",
@@ -372,7 +372,7 @@
       }
     }
   },
-  "surahSelector": "Select Surah",
+  "surahSelector": "Επιλέξτε Σούρα",
   "checkForUpdates": "Έλεγχος για ενημερώσεις",
   "checkForNewVersion": "Ελέγξτε αν μια νέα έκδοση είναι διαθέσιμη",
   "wouldYouLikeToUpdate": "Θα θέλατε να ενημερώσετε την εφαρμογή?",
@@ -447,7 +447,7 @@
   "selectSurah": "Επιλέξτε ένα Surah",
   "initializingAutoReading": "Αρχικοποίηση σε εξέλιξη...",
   "holdOkToStop": "Κρατήστε πατημένο το OK για διακοπή",
-  "prayerTimeNotification": "{salahName} time ({prayerTime}) notification",
+  "prayerTimeNotification": "Ειδοποίηση για την ώρα {salahName} ({prayerTime})",
   "@prayerTimeNotification": {
     "description": "Notifcation that will be displayed when app is backgrounded.",
     "placeholders": {
@@ -501,5 +501,185 @@
   "athkarArabicFontDesc": "Επιλέξτε την αραβική γραμματοσειρά για τα Athkar (μετά το Salah, το Adhan, το Jumua, το Hadith...)",
   "athkarFontKufi": "Κουφί",
   "athkarFontUthmani": "Ουθμάνι",
-  "perPrayerRolloverOptionAfterIsha": "Όλες μαζί μετά το Isha"
+  "perPrayerRolloverOptionAfterIsha": "Όλες μαζί μετά το Isha",
+  "thisIsATestFromIbrahim": "Αυτό είναι ένα τεστ από τον Ιμπραΐμ",
+  "forceStaging": "Πειραματικό περιβάλλον",
+  "forcePreProduction": "Προ-παραγωγή",
+  "environmentSwitchSuccess": "Το περιβάλλον άλλαξε με επιτυχία.",
+  "environmentSwitchFailed": "Αποτυχία αλλαγής περιβάλλοντος",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "ta": "Ταμίλ",
+  "wifiForgetNetwork": "Αυτό το δίκτυο προστέθηκε στις ρυθμίσεις Android. Παρακαλώ διαγράψτε το εκεί και ξανασυνδεθείτε.",
+  "urlManagedByMosqueAdmin": "Το URL διαχειρίζεται ο διαχειριστής του τεμένους",
+  "streamMode": "Κανονική λειτουργία",
+  "streamModeDisabled": "Απενεργοποιήθηκε",
+  "streamModeJumuaOnly": "Η ροή εξαρτάται μόνο από τη Τζουμά",
+  "streamModeJumuaAndPrayers": "Η ροή εξαρτάται από τη Τζουμά και τις 5 προσευχές",
+  "streamRequiresSecondaryScreen": "Αυτή η λειτουργία λειτουργεί μόνο όταν η εφαρμογή τρέχει ως δευτερεύουσα οθόνη. Για να την ενεργοποιήσετε:",
+  "streamSecondaryScreenStep1": "Μεταβείτε στην Εμφάνιση.",
+  "streamSecondaryScreenStep2": "Ανοίξτε \"Προεπιλεγμένη λειτουργία εκκίνησης\".",
+  "streamSecondaryScreenStep3": "Δευτερεύουσα οθόνη\".",
+  "rtspServerNotAvailable": "Ο διακομιστής RTSP δεν είναι διαθέσιμος. Παρακαλώ ελέγξτε τη σύνδεσή σας.",
+  "settingsSavedSuccessfully": "Οι ρυθμίσεις αποθηκεύτηκαν με επιτυχία",
+  "testCrowdinCI": "Δοκιμαστικό κείμενο για επαλήθευση του Crowdin CI στη develop",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Κανονική λειτουργία",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Εμφανίζει την οθόνη ανάγνωσης του Κορανίου, ξεκινώντας από την τελευταία διαβασμένη σελίδα",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Έξοδος από τη λειτουργία Κορανίου",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Θέλετε να επιστρέψετε στην κανονική λειτουργία;",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialDontHaveId": "Δεν έχετε ακόμη Mosque ID; Δείτε πώς:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "Μεταβείτε στο mawaqit.net και δημιουργήστε λογαριασμό",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "Καταχωρήστε το τέμενος σας με φωτογραφίες και διεύθυνση",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "Λάβετε το μοναδικό σας Mosque ID από τον πίνακα ελέγχου σας",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "Εισάγετε το ID εδώ για να συνδέσετε την οθόνη της τηλεόρασής σας",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "Βήμα {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "Σαρώστε για εγγραφή",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "Χρησιμοποιήστε το τηλέφωνό σας για να δημιουργήσετε λογαριασμό στο mawaqit.net",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "Οι ώρες προσευχής εμφανίζονται για το τέμενός σας",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

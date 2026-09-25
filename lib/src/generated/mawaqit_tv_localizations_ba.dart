@@ -7,7 +7,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsBa([String locale = 'ba']) : super(locale);
 
   @override
-  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+  String get thisIsATestFromIbrahim => 'Был Ибраһимдан тест';
 
   @override
   String get home => 'Төп';
@@ -49,19 +49,19 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get quit => 'Сығырға';
 
   @override
-  String get forceStaging => 'Staging';
+  String get forceStaging => 'Сынау мөхите';
 
   @override
-  String get forcePreProduction => 'Pre-production';
+  String get forcePreProduction => 'Өңдәрҙән алдасы мөхит';
 
   @override
-  String get disableStaging => 'Switch to production mode';
+  String get disableStaging => 'Етештереү режимына күсергә';
 
   @override
-  String get environmentSwitchSuccess => 'Environment switched successfully';
+  String get environmentSwitchSuccess => 'Мөхит уңышлы үҙгәртелде';
 
   @override
-  String get environmentSwitchFailed => 'Failed to switch environment';
+  String get environmentSwitchFailed => 'Мөхитте үҙгәртеү уңышһыҙлыҡҡа осраны';
 
   @override
   String get sureCloseApp => 'Һеҙ ысынлап та сыҡҡыһы килә ме?';
@@ -85,7 +85,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get in1 => 'һуң';
 
   @override
-  String get azanIn => 'Athan in';
+  String get azanIn => 'Әҙән тиклем';
 
   @override
   String countdownPrayer(String name, String time) {
@@ -205,13 +205,13 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get alIqama => 'Al Iqama\n';
 
   @override
-  String get alAdhan => 'Al Athan';
+  String get alAdhan => 'Аҙан';
 
   @override
   String get turnOfPhones => 'Please turn of your mobile phones!';
 
   @override
-  String get iqamaIn => 'Iqama in';
+  String get iqamaIn => 'Агамат дараа';
 
   @override
   String get iqamaShowClock => 'Иҡамәт экранында сәғәтте күрһәт';
@@ -235,10 +235,10 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get alAthkar => 'Al-Athkar';
 
   @override
-  String get azkarList0 => '';
+  String get azkarList0 => 'Key: AlAthkar_0\n-> AlAthkar_0\nأَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله \\nاللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ';
 
   @override
-  String get azkarList1 => '';
+  String get azkarList1 => 'Key: AlAthkar_0\n-> AlAthkar_0\nأَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله \\nاللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ';
 
   @override
   String get azkarList2 => '';
@@ -253,7 +253,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get azkarList5 => '';
 
   @override
-  String get azkarList6 => '';
+  String get azkarList6 => 'Key: AlAthkar_0\n-> AlAthkar_0\nأَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله \\nاللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ';
 
   @override
   String get azkarList7 => '';
@@ -289,10 +289,10 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get shuruk => 'Shuruk';
 
   @override
-  String get duha => 'Duha';
+  String get duha => 'Духа';
 
   @override
-  String get duhaTime => 'Duha Time';
+  String get duhaTime => 'Духа ваҡыты';
 
   @override
   String get reset => 'Ташлау';
@@ -358,70 +358,70 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get webView => 'Иҫке режимды ҡабыҙырға';
 
   @override
-  String get developersHomeScreen => 'Developer\'s home screen';
+  String get developersHomeScreen => 'Программисттың баш экраны';
 
   @override
-  String get onlineHome => 'Online Home';
+  String get onlineHome => 'Онлайн Өй';
 
   @override
-  String get prayerTimes => 'Prayer Times';
+  String get prayerTimes => 'Намаҙ Ваҡыты';
 
   @override
-  String get alerts => 'Alert';
+  String get alerts => 'Белдереү';
 
   @override
-  String get iqamaaCountDown => 'Iqamaa Count Down';
+  String get iqamaaCountDown => 'Иҡамаға иҫәпләү';
 
   @override
-  String get afterAdhanHadith => 'After Athan Hadith';
+  String get afterAdhanHadith => 'Әҙәнанан һуң хәҙис';
 
   @override
-  String get afterSalahAzkar => 'After Salah Azkar';
+  String get afterSalahAzkar => 'Намаҙҙан һуң Әзкар';
 
   @override
-  String get iqama => 'Iqama';
+  String get iqama => 'Иқама';
 
   @override
-  String get randomHadith => 'Random Hadith';
+  String get randomHadith => 'Осраҡлы хәҙис';
 
   @override
   String get announcement => 'Иғландар';
 
   @override
-  String get jumuaaLive => 'Jumuaa [Live Streaming]';
+  String get jumuaaLive => 'Йома [Тура эфир]';
 
   @override
-  String get showSecondaryScreen => 'Use as a secondary screen (For Announcements)';
+  String get showSecondaryScreen => 'Икенсе экран итеп ҡулланыу (Иғлан өсөн)';
 
   @override
-  String get normalScreen => 'Use as Main Screen';
+  String get normalScreen => 'Төп экран итеп ҡулланыу';
 
   @override
-  String get duaaRemainder => 'Duaa Remainder';
+  String get duaaRemainder => 'Дуа хәтерләткесе';
 
   @override
-  String get fajrWakeUp => 'Fajr Wake Up';
+  String get fajrWakeUp => 'Фәжергә уяныу';
 
   @override
-  String get changeLanguage => 'Change language';
+  String get changeLanguage => 'Телде үҙгәртергә';
 
   @override
-  String get forceScreen => 'Force screen';
+  String get forceScreen => 'Экранды мәжбүри күрһәтеү';
 
   @override
-  String get clear => 'Clear';
+  String get clear => 'Таҙартыу';
 
   @override
   String get changeTheme => 'Теманы Алмаштырырға';
 
   @override
-  String get next => 'Next';
+  String get next => 'Киләһе';
 
   @override
-  String get mainScreenOrSecondaryScreen => 'Screen location';
+  String get mainScreenOrSecondaryScreen => 'Экрандың урынлашыуы';
 
   @override
-  String get mainScreenOrSecondaryScreenEXPLINATION => 'Do you want to install this screen in the main prayer room (men prayer room) ?';
+  String get mainScreenOrSecondaryScreenEXPLINATION => 'Экранды төп намаҙ бүлмәһендә (ирҙәр намаҙ бүлмәһе) ҡуйырға теләйһегеҙме?';
 
   @override
   String get mainScreen => 'Төп экран';
@@ -430,31 +430,31 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get secondaryScreen => 'Икенсел экран';
 
   @override
-  String get duaaElEftar => 'Duaa El Eftar';
+  String get duaaElEftar => 'Ифтар доғаһы';
 
   @override
-  String get announcementOnlyMode => 'Announcements mode';
+  String get announcementOnlyMode => 'Иғлан режимы';
 
   @override
-  String get normalMode => 'Normal mode ';
+  String get normalMode => 'Нормаль режимы ';
 
   @override
-  String get announcementOnlyModeEXPLINATION => 'Choose if your screen will display announcements all time, this can be useful if you install the screen at the entrance for example.';
+  String get announcementOnlyModeEXPLINATION => 'Экранда иғландарҙы һәр ваҡыт күрһәтергә һайлағыҙ, был, мәҫәлән, инеү урынында ҡуйылғанда файҙалы булыуы мөмкин.';
 
   @override
-  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'Зәһәбә ҙҙама уәбтәләт әлъуруҡ өсөн вәсәбәт әләжр ин ша Аллаһ';
 
   @override
-  String get secondaryScreenExplanation => 'For a secondary prayer room (women room or an other floor for example), this screen will show jumua live-streaming';
+  String get secondaryScreenExplanation => 'Икенсе намаҙ бүлмәһе өсөн (ҡатын-ҡыҙҙар бүлмәһе йәки башҡа ҡат), был экран йома тура эфирын күрһәтәсәк';
 
   @override
-  String get mainScreenExplanation => 'For the main mosque room, this screen will not show the jumua live-streaming';
+  String get mainScreenExplanation => 'Төп мәсет бүлмәһе өсөн был экран йома тура эфирын күрһәтмәйәсәк';
 
   @override
-  String get normalModeExplanation => 'Will show the normal screen with the prayer times and the announcements.';
+  String get normalModeExplanation => 'Экранда даими намаҙ ваҡыттары һәм иғландар күрһәтелә.';
 
   @override
-  String get announcementOnlyModeExplanation => 'Will show announcements all time';
+  String get announcementOnlyModeExplanation => 'Иғландар һәр ваҡыт күрһәтеләсәк';
 
   @override
   String get orientation => 'Йүнәлеш';
@@ -463,28 +463,28 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get selectYourMawaqitTvAppOrientation => 'MAWAQIT TV ҡушымтаһының экран йүнәлешен һайлағыҙ';
 
   @override
-  String get deviceDefault => 'Device Default';
+  String get deviceDefault => 'Ҡоролма үҙе буйынса';
 
   @override
-  String get deviceDefaultBTNDescription => 'Mawaqit will auto select the default orientation based on the screen orientation';
+  String get deviceDefaultBTNDescription => 'Mawaqit экран йүнәлешенә ҡарап стандарт йүнәлеште автоматик һайлаясаҡ';
 
   @override
-  String get portrait => 'Portrait';
+  String get portrait => 'Портрет';
 
   @override
-  String get portraitBTNDescription => 'For vertical orientation recommended for mosque with small space';
+  String get portraitBTNDescription => 'Кәңейме урындарҙа мәсет өсөн вертикаль йүнәлеш тәҡдим ителә';
 
   @override
-  String get landscape => 'Landscape';
+  String get landscape => 'Пейзаж';
 
   @override
-  String get landscapeBTNDescription => 'For Horizontal orientation. The main layout for mawaqit tv app and recommended one for most mosques';
+  String get landscapeBTNDescription => 'Горизонталь йүнәлеш өсөн. MAWAQIT ТВ ҡушымтаһы өсөн төп макет һәм күпселек мәсеттәргә тәҡдим ителә.';
 
   @override
-  String get eidMubarak => 'Eid Mubarak';
+  String get eidMubarak => 'Ғәйет мөбәрәк';
 
   @override
-  String get takbeerAleidText => 'Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd';
+  String get takbeerAleidText => 'Аллаһу Әкбәр, Аллаһу Әкбәр, Аллаһу Әкбәр, лә иләһә иллә Аллаһ, Аллаһу Әкбәр, Аллаһу Әкбәр, вә лилләәһи әл-һәм';
 
   @override
   String get settings => 'Көйләүҙәр';
@@ -496,97 +496,97 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'Ҡушымта менән проблемалар булһа, был опцияны ҡабыҙып ҡарағыҙ';
 
   @override
-  String get hijriAdjustments => 'Local Hijri adjustments';
+  String get hijriAdjustments => 'Урындағы Хижри төҙәтмәләре';
 
   @override
   String get hijriAdjustmentsDescription => 'Хижри тарихын ҡоролмағыҙҙа урындағы рәүештә тәртипкә килтерегеҙ. Был онлайн мәсит көйләүҙәренә тәьҫир итмәй';
 
   @override
-  String get backoffice_default => 'Backoffice Defaults';
+  String get backoffice_default => 'Административ көйләүҙәр буйынса';
 
   @override
-  String get recommended => 'Recommended';
+  String get recommended => 'Тәҡдим ителә';
 
   @override
-  String get sabah => 'Sabah';
+  String get sabah => 'Сәфәр';
 
   @override
   String get randomHadithLanguage => 'Осраҡлы хәҙис теле';
 
   @override
-  String get mosqueDefault => 'From your online configuration';
+  String get mosqueDefault => 'Интернет конфигурацияғыҙҙан';
 
   @override
-  String get en => 'English';
+  String get en => 'Инглиз';
 
   @override
-  String get fr => 'French';
+  String get fr => 'Француз';
 
   @override
-  String get ar => 'Arabic';
+  String get ar => 'Ғәрәп';
 
   @override
-  String get tr => 'Turkish';
+  String get tr => 'Төрөк';
 
   @override
-  String get de => 'German';
+  String get de => 'Немец';
 
   @override
-  String get es => 'Spanish';
+  String get es => 'Испан';
 
   @override
-  String get pt => 'Portuguese';
+  String get pt => 'Португал';
 
   @override
-  String get nl => 'Dutch';
+  String get nl => 'Голланд';
 
   @override
-  String get ta => 'Tamil';
+  String get ta => 'Тамил';
 
   @override
-  String get fr_ar => 'French & Arabic';
+  String get fr_ar => 'Француз & Ғәрәп';
 
   @override
-  String get en_ar => 'English & Arabic';
+  String get en_ar => 'Инглиз & Ғәрәп';
 
   @override
-  String get de_ar => 'German & Arabic';
+  String get de_ar => 'Немец & Ғәрәп';
 
   @override
-  String get ta_ar => 'Tamil & Arabic';
+  String get ta_ar => 'Тамил & Ғәрәп';
 
   @override
-  String get tr_ar => 'Turkish & Arabic';
+  String get tr_ar => 'Төрөк & Ғәрәп';
 
   @override
-  String get es_ar => 'Spanish & Arabic';
+  String get es_ar => 'Испан & Ғәрәп';
 
   @override
-  String get pt_ar => 'Portuguese & Arabic';
+  String get pt_ar => 'Португал & Ғәрәп';
 
   @override
-  String get nl_ar => 'Dutch & Arabic';
+  String get nl_ar => 'Голланд & Ғәрәп';
 
   @override
   String get connectToChangeHadith => 'Хәҙис телен алмаштырыу өсөн интернетҡа тоташығыҙ.';
 
   @override
-  String get retry => 'Retry';
+  String get retry => 'Ҡабатларға';
 
   @override
-  String get reciterLoadError => 'Unable to load reciters';
+  String get reciterLoadError => 'Қариларҙы йөкләп булманы';
 
   @override
-  String get reciterNetworkError => 'Please check your internet connection and try again';
+  String get reciterNetworkError => 'Интернетҡа тоташыуҙы тикшерегеҙ һәм яңынан ҡарап ҡарағыҙ';
 
   @override
-  String get reciterServerError => 'Server is temporarily unavailable. Please try again later';
+  String get reciterServerError => 'Сервер ваҡытлыса ҡаралмай. Һуңыраҡ ҡабатлап ҡарағыҙ';
 
   @override
-  String get reciterTimeoutError => 'Request timed out. Please try again';
+  String get reciterTimeoutError => 'Һорау ваҡыты сыҡты. Ҡабатлап ҡарағыҙ';
 
   @override
-  String get surahLoadError => 'Unable to load surahs';
+  String get surahLoadError => 'Сүрәләрҙе йөкләп булманы';
 
   @override
   String get timeSetting => 'Ваҡытты көйләү';
@@ -595,106 +595,106 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get timeSettingDesc => 'Үҙ исемегеҙҙе ҡуйығыҙ';
 
   @override
-  String get selectedTime => 'The current selected time';
+  String get selectedTime => 'Һайланған ваҡыт';
 
   @override
-  String get confirmation => 'Confirmation';
+  String get confirmation => 'Рәсмиләштереү';
 
   @override
-  String get confirmationMessage => 'Are you sure you want to use device time?';
+  String get confirmationMessage => 'Айпараттың ваҡыты менән ҡулланырға ысынлап та теләйһегеҙме?';
 
   @override
-  String get useDeviceTime => 'Use device time';
+  String get useDeviceTime => 'Айпараттың ваҡытын ҡулланыу';
 
   @override
-  String get selectTime => 'Select Time';
+  String get selectTime => 'Ваҡытты һайлағыҙ';
 
   @override
-  String get previous => 'Previous';
+  String get previous => 'Алдағыһы';
 
   @override
-  String get appTimezone => 'App Timezone';
+  String get appTimezone => 'Ҡушымта ваҡыт бүлкәте';
 
   @override
   String get descTimezone => 'Намаҙ ваҡыттары теүәл булһын өсөн ваҡыт бүлкәтегеҙҙе һайлағыҙ.';
 
   @override
-  String get appWifi => 'Connect to wifi';
+  String get appWifi => 'Wi-Fi-ға тоташырға';
 
   @override
   String get descWifi => 'Зинһар, кәрәкле WiFi ауына тоташығыҙ';
 
   @override
-  String get searchCountries => 'Search countries';
+  String get searchCountries => 'Илдәрҙе эҙләү';
 
   @override
-  String get scanAgain => 'Scan Again';
+  String get scanAgain => 'Яңынан сканерларға';
 
   @override
-  String get noScannedResultsFound => 'No near access points found';
+  String get noScannedResultsFound => 'Яҡындағы тоташыу нөктәләре табылманы';
 
   @override
-  String get connect => 'Connect';
+  String get connect => 'Тоташтырырға';
 
   @override
-  String get wifiPassword => 'Password';
+  String get wifiPassword => 'Пароль';
 
   @override
-  String get skip => 'Skip';
+  String get skip => 'Үтәү';
 
   @override
-  String get noSSID => '**Hidden SSID**';
+  String get noSSID => '**Яшерен SSID**';
 
   @override
-  String get close => 'Close';
+  String get close => 'Ябыу';
 
   @override
-  String get search => 'Search';
+  String get search => 'Эҙләү';
 
   @override
-  String get wifiSuccess => 'Successfully connected to Wifi.';
+  String get wifiSuccess => 'Wi-Fi-ға уңышлы тоташты.';
 
   @override
-  String get wifiFailure => 'Failed to connect to Wifi.';
+  String get wifiFailure => 'Wi-Fi-ға тоташыу уңышһыҙ.';
 
   @override
-  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+  String get wifiForgetNetwork => 'Был селтәр Android көйләүҙәрендә өҫтәлгән. Уны онотоп, яңынан тоташтырығыҙ.';
 
   @override
-  String get timezoneSuccess => 'Timezone set successfully.';
+  String get timezoneSuccess => 'Ваҡыт бүлкәте уңышлы ҡуйылды.';
 
   @override
-  String get timezoneFailure => 'Failed to set timezone.';
+  String get timezoneFailure => 'Ваҡыт бүлкәте ҡуйыу уңышһыҙлыҡҡа осраны.';
 
   @override
   String get screenLock => 'Экранды ҡабыҙыу/һүндереү';
 
   @override
-  String get screenLockConfig => 'Configure screen on/off';
+  String get screenLockConfig => 'Экранды ҡабыҙыу/һүндереүҙе көйләү';
 
   @override
-  String get screenLockMode => 'Screen on/off mode';
+  String get screenLockMode => 'Экранды ҡабыҙыу/һүндереү режими';
 
   @override
   String get screenLockDesc => 'Энергия һаҡлау өсөн һәр намаҙҙан алда һәм һуң телевизорҙы ҡабыҙығыҙ/һүндерегеҙ';
 
   @override
-  String get screenLockDesc2 => 'This feature turn on/off the device before and after each prayer Athan';
+  String get screenLockDesc2 => 'Был функция һәр намаҙҙың Әҙәненән алда һәм һуңынан айпаратты ҡабыҙа/һүндерә';
 
   @override
-  String get before => 'minutes before each prayer time';
+  String get before => 'һәр намаҙ ваҡытынан алда минуттар';
 
   @override
-  String get after => 'minutes after each prayer time';
+  String get after => 'һәр намаҙ ваҡытынан һуң минуттар';
 
   @override
-  String get updateAvailable => 'Update available';
+  String get updateAvailable => 'Яңыртыу бар';
 
   @override
-  String get seeMore => 'See more';
+  String get seeMore => 'Күберәк ҡарау';
 
   @override
-  String get whatIsNew => 'What\'s new';
+  String get whatIsNew => 'Яңылыҡтар';
 
   @override
   String get update => 'Ҡушымтаның Яңыртыуы';
@@ -709,142 +709,142 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get checkInternetLegacyMode => 'Иҫке режимды ҡулланыр өсөн интернетҡа тоташырға кәрәк';
 
   @override
-  String get powerOnScreen => 'Power on the screen';
+  String get powerOnScreen => 'Экранды ҡабыҙырға';
 
   @override
-  String get powerOffScreen => 'Power off the screen';
+  String get powerOffScreen => 'Экранды һүндерергә';
 
   @override
   String get deviceSettings => 'Ҡоролма';
 
   @override
-  String get later => 'Later';
+  String get later => 'Һуңыраҡ';
 
   @override
-  String get downloadQuran => 'Download Quran';
+  String get downloadQuran => 'Ҡөрьәнде йөкләп алыу';
 
   @override
   String get quran => 'Ҡөрьән';
 
   @override
-  String get askDownloadQuran => 'Do you want to download the Quran?';
+  String get askDownloadQuran => 'Ҡөрьәнде йөкләп алырға теләйһегеҙме?';
 
   @override
-  String get download => 'Download';
+  String get download => 'Йөкләп алырға';
 
   @override
-  String get downloadingQuran => 'Downloading Quran';
+  String get downloadingQuran => 'Ҡөрьән йөкләнә';
 
   @override
-  String get extractingQuran => 'Extracting Quran';
+  String get extractingQuran => 'Ҡөрьән тарҡатыла';
 
   @override
-  String get updatedQuran => 'Quran updated';
+  String get updatedQuran => 'Ҡөрьән яңыртылды';
 
   @override
-  String get quranLatestVersion => 'Quran is up to date';
+  String get quranLatestVersion => 'Ҡөрьән һуңғы версияла';
 
   @override
   String quranUpdatedVersion(Object version) {
-    return 'Quran updated version is: $version';
+    return 'Ҡөрьәндең яңыртылған версияһы: $version';
   }
 
   @override
-  String get quranIsUpdated => 'Quran is updated';
+  String get quranIsUpdated => 'Ҡөрьән яңыртылды';
 
   @override
-  String get quranDownloaded => 'Quran downloaded';
+  String get quranDownloaded => 'Ҡөрьән йөкләп алынған';
 
   @override
-  String get quranIsAlreadyDownloaded => 'Quran is already downloaded';
+  String get quranIsAlreadyDownloaded => 'Ҡөрьән инде йөкләп алынған';
 
   @override
-  String get chooseReciter => 'Choose Reciter';
+  String get chooseReciter => 'Ҡарилы һайлау';
 
   @override
-  String get reciteType => 'Recite Type';
+  String get reciteType => 'Ҡөрьән уҡыу төрө';
 
   @override
-  String get readingMode => 'I want to read';
+  String get readingMode => 'Уҡырға теләйем';
 
   @override
-  String get listeningMode => 'I want to listen';
+  String get listeningMode => 'Тыңларға теләйем';
 
   @override
   String quranReadingPage(int leftPage, int rightPage, int totalPages) {
-    return 'Page $leftPage - $rightPage / $totalPages';
+    return 'Бит $leftPage - $rightPage / $totalPages';
   }
 
   @override
   String quranReadingPagePortrait(int currentPage, int totalPages) {
-    return 'Page $currentPage / $totalPages';
+    return 'Бит $currentPage / $totalPages';
   }
 
   @override
-  String get chooseQuranPage => 'Choose the page';
+  String get chooseQuranPage => 'Битте һайлау';
 
   @override
-  String get checkingForUpdates => 'Checking for updates...';
+  String get checkingForUpdates => 'Яңыртыуҙарҙы тикшереү...';
 
   @override
-  String get chooseQuranType => 'Choose quran';
+  String get chooseQuranType => 'Ҡөрьәнде һайлағыҙ';
 
   @override
-  String get hafs => 'Hafs';
+  String get hafs => 'Хафс';
 
   @override
-  String get warsh => 'Warsh';
+  String get warsh => 'Уорш';
 
   @override
-  String get favorites => 'Favorites';
+  String get favorites => 'Яратҡандар';
 
   @override
-  String get allReciters => 'All Reciters';
+  String get allReciters => 'Барлыҡ қариҙар';
 
   @override
   String reciterAddedToFavorites(String name) {
-    return 'Reciter $name added to favorites';
+    return 'Ҡари $name яратҡандарға өҫтәлде';
   }
 
   @override
   String reciterRemovedFromFavorites(String name) {
-    return 'Reciter $name removed from favorites';
+    return 'Ҡари $name яратҡандарҙан алынды';
   }
 
   @override
   String get continueListening => 'Артабан тыңлау';
 
   @override
-  String get noFavoriteReciters => 'No favorite reciters. Try adding one to the list';
+  String get noFavoriteReciters => 'Яратҡан қариҙар юҡ. Рәткә өҫтөргә тырышығыҙ';
 
   @override
-  String get noReciterSearchResult => 'No results found for your search';
+  String get noReciterSearchResult => 'Эҙләү буйынса һөҙөмтәләр табылманы';
 
   @override
-  String get searchForReciter => 'Search for a reciter';
+  String get searchForReciter => 'Қариҙы эҙләү';
 
   @override
-  String get downloadAllSuwarSuccessfully => 'The whole quran is downloaded';
+  String get downloadAllSuwarSuccessfully => 'Ҡөрьән тулыһынса йөкләп алынған';
 
   @override
-  String get noSuwarDownload => 'No new suwars to download';
+  String get noSuwarDownload => 'Йөкләп алырға яңы сүрәләр юҡ';
 
   @override
-  String get connectDownloadQuran => 'Please connect to Internet to download';
+  String get connectDownloadQuran => 'Йөкләп алыу өсөн интернетҡа тоташығыҙ';
 
   @override
-  String get playInOnlineModeQuran => 'Please connect to internet to play';
+  String get playInOnlineModeQuran => 'Уйнатыу өсөн интернетҡа тоташығыҙ';
 
   @override
-  String get downloaded => 'Downloaded';
+  String get downloaded => 'Йөкләп алынған';
 
   @override
   String switchQuranType(String name) {
-    return 'Go to $name';
+    return '$name-ға күсергә';
   }
 
   @override
-  String get surahSelector => 'Select Surah';
+  String get surahSelector => 'Сүрәне һайларға';
 
   @override
   String get checkForUpdates => 'Яңыртыуҙарҙы тикшереү';
@@ -853,55 +853,55 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get checkForNewVersion => 'Яңы версия барлығын тикшерергә';
 
   @override
-  String get wouldYouLikeToUpdate => 'Would you like to update the app?';
+  String get wouldYouLikeToUpdate => 'Ҡушымтаны яңыртырға теләйһегеҙме?';
 
   @override
-  String get updateCompleted => 'Update completed successfully!';
+  String get updateCompleted => 'Яңыртыу уңышлы тамамланды!';
 
   @override
-  String get noUpdates => 'No Updates';
+  String get noUpdates => 'Яңыртыуҙар юҡ';
 
   @override
-  String get usingLatestVersion => 'You are using the latest version.';
+  String get usingLatestVersion => 'Һеҙ иң һуңғы версияны ҡулланаһығыҙ.';
 
   @override
-  String get updateCancelled => 'Update cancelled';
+  String get updateCancelled => 'Яңыртыу юҡҡа сығарылды';
 
   @override
-  String get checkingUpdates => 'Checking updates...';
+  String get checkingUpdates => 'Яңыртыуҙарҙы тикшереү...';
 
   @override
-  String get downloadingUpdate => 'Downloading update...';
+  String get downloadingUpdate => 'Яңыртыу йөкләнә...';
 
   @override
-  String get installingUpdate => 'Installing update...';
+  String get installingUpdate => 'Яңыртыу ҡуйыла...';
 
   @override
-  String get updateCompletedSuccessfully => 'Update completed successfully';
+  String get updateCompletedSuccessfully => 'Яңыртыу уңышлы тамамланды';
 
   @override
-  String get updateFailed => 'Update failed';
+  String get updateFailed => 'Яңыртыу уңышһыҙлыҡҡа осраны';
 
   @override
-  String get save => 'Save';
+  String get save => 'Һаҡларға';
 
   @override
-  String get enterRtspUrl => 'Enter RTSP or Youtube Live URL';
+  String get enterRtspUrl => 'RTSP йәки Youtube Live URL индерегеҙ';
 
   @override
-  String get addRtspUrl => 'Add your camera stream URL below';
+  String get addRtspUrl => 'Камера ағымы URL-ы ошоға өҫтәгеҙ';
 
   @override
-  String get enableRtspCamera => 'Enable Camera Streaming';
+  String get enableRtspCamera => 'Камераны тура эфирға ҡушығыҙ';
 
   @override
-  String get rtspCameraSettings => 'Camera Settings';
+  String get rtspCameraSettings => 'Камера көйләүҙәре';
 
   @override
-  String get invalidRtspUrl => 'Invalid URL. Please check the URL and try again.';
+  String get invalidRtspUrl => 'Дөрөҫ булмаған URL. URL-ды тикшереп яңынан индерегеҙ.';
 
   @override
-  String get validRtspUrl => 'URL validated and saved successfully.';
+  String get validRtspUrl => 'URL тикшерелде һәм уңышлы һаҡланды.';
 
   @override
   String get rtspCameraSettingTitle => 'Тура эфир камераһы';
@@ -910,193 +910,193 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get rtspCameraSettingDesc => 'Урындағы камерағыҙға тоташығыҙ һәм Jumua намаҙы тапшырыуын телевизор экранында күрһәтегеҙ.';
 
   @override
-  String get rtspCameraSettingScreenDesc => 'If you enter a URL here, your screen will automatically switch to video streaming when Jumua time arrives';
+  String get rtspCameraSettingScreenDesc => 'URL ошо урында индерһәгеҙ, йома ваҡыты еткәндә экран автоматик рәвештә видео ағымына күсә';
 
   @override
-  String get validatingStream => 'Validating Stream...';
+  String get validatingStream => 'Ағым тикшерелә...';
 
   @override
   String get checkInternetLiveCamera => 'Тура эфир камераһын көйләр өсөн интернетҡа тоташырға кәрәк';
 
   @override
-  String get somethingWentWrong => 'Something went wrong! please try again';
+  String get somethingWentWrong => 'Нимәлер дөрөҫ түгел! яңынан ҡабатлап ҡарағыҙ';
 
   @override
-  String get somethingWrong => 'Something went wrong';
+  String get somethingWrong => 'Нимәлер дөрөҫ түгел';
 
   @override
-  String get tryAgainLater => 'Please try again later';
+  String get tryAgainLater => 'Һуңыраҡ ҡабатлап ҡарағыҙ';
 
   @override
-  String get hintTextRtspUrl => 'rtsp://... or https://youtube.com/live/...';
+  String get hintTextRtspUrl => 'rtsp://... йәки https://youtube.com/live/...';
 
   @override
   String get checkInternetUpdate => 'Яңыртыуҙарҙы тикшерер өсөн интернетҡа тоташырға кәрәк';
 
   @override
   String appUpdateAvailable(String currentVersion, String updatedVersion) {
-    return 'Your app is running version $currentVersion. A new update (version $updatedVersion) is available with the latest features and improvements.';
+    return 'Ҡушымтағыҙҙың версияһы — $currentVersion. Яңы яңыртыу бар (версия $updatedVersion), һуңғы үҙгәрештәр һәм яҡшыртмалар менән.';
   }
 
   @override
   String quranUpdateDialogContent(String moshafName, String version) {
-    return 'A new update for the $moshafName Quran (version $version) is available.';
+    return '$moshafName Ҡөрьән өсөн яңы яңыртыу бар (версия $version).';
   }
 
   @override
-  String get ishaAndFajrOnly => 'Fajr and Isha prayers only';
+  String get ishaAndFajrOnly => 'Тик Фәжер һәм Иша намаҙҙары';
 
   @override
-  String get minutesBeforeFajrPrayer => 'minutes before fajr prayer time';
+  String get minutesBeforeFajrPrayer => 'фәжер намаҙы ваҡытына тиклем минуттар';
 
   @override
-  String get minutesAfterIshaPrayer => 'minutes afer isha prayer time';
+  String get minutesAfterIshaPrayer => 'иша намаҙы ваҡытынан һуң минуттар';
 
   @override
-  String get scheduleSaved => 'Your schedule has been saved.';
+  String get scheduleSaved => 'Расписаниеғыҙ һаҡланды.';
 
   @override
-  String get completeAllFields => 'Please complete all fields before saving.';
+  String get completeAllFields => 'Һаҡлар алдынан бөтә күләмдә тултырығыҙ.';
 
   @override
-  String get endTimeAfter => 'The end time must be after the start time.';
+  String get endTimeAfter => 'Тәмамланыу ваҡыты башланыу ваҡытынан һуң булырға тейеш.';
 
   @override
-  String get scheduleListening => 'Scheduled Listening';
+  String get scheduleListening => 'Расписаниена тыңлау';
 
   @override
-  String get enableScheduling => 'Enable Scheduling';
+  String get enableScheduling => 'Расписаниены ҡулығыҙға алығыҙ';
 
   @override
-  String get scheduleDesc => 'Enable this feature to automatically play a Surah at scheduled times.';
+  String get scheduleDesc => 'Был функцияны ҡуеп, билдәләнгән ваҡытта сүрә автоматик уйнатыласаҡ.';
 
   @override
-  String get startTime => 'Start Time';
+  String get startTime => 'Башлау ваҡыты';
 
   @override
-  String get endTime => 'End Time';
+  String get endTime => 'Тәмамланыу ваҡыты';
 
   @override
-  String get selectReciter => 'Select a Reciter';
+  String get selectReciter => 'Ҡариҙы һайларға';
 
   @override
-  String get selectMoshaf => 'Select a Mushaf';
+  String get selectMoshaf => 'Мушаф һайларға';
 
   @override
-  String get randomSurahSelection => 'Random Surah Selection';
+  String get randomSurahSelection => 'Осраҡлы сүрә һайлау';
 
   @override
-  String get selectSurah => 'Select a Surah';
+  String get selectSurah => 'Сүрә һайларға';
 
   @override
-  String get initializingAutoReading => 'Initializing in progress...';
+  String get initializingAutoReading => 'Инициализация бара...';
 
   @override
   String get holdOkToStop => 'OK тотоп туҡтатырға';
 
   @override
   String prayerTimeNotification(String salahName, String prayerTime) {
-    return '$salahName time ($prayerTime) notification';
+    return '$salahName ваҡыты ($prayerTime) тураһында хәбәр';
   }
 
   @override
-  String get scheduleInOnlineMode => 'Please connect to the internet to schedule Quran listening';
+  String get scheduleInOnlineMode => 'Ҡөрьән тыңлауҙы билдәләр өсөн интернетҡа тоташығыҙ';
 
   @override
-  String get duaaBetweenAdhanAndIqamaaTitle => 'Supplication (Du\'a) is not rejected between the Athan and Iqamah';
+  String get duaaBetweenAdhanAndIqamaaTitle => 'Дуға (<b>Du\'a</b>) Әҙан менән Иҡама араһында кире ҡағылмай';
 
   @override
-  String get duaBetweenAdhanIqamah => 'Supplication (Du\'a) is not rejected between the Athan and Iqamah.';
+  String get duaBetweenAdhanIqamah => 'Дуға (<b>Du\'a</b>) Әҙан менән Иҡама араһында кире ҡағылмай.';
 
   @override
-  String get processingRequest => 'Processing request...';
+  String get processingRequest => 'Һорау эшкәртелә...';
 
   @override
-  String get loadingStream => 'Loading stream...';
+  String get loadingStream => 'Ағым йөкләнә...';
 
   @override
-  String get rtspUrlHint => 'Enter RTSP URL or YouTube link';
+  String get rtspUrlHint => 'RTSP URL йәки YouTube һылтанмаһын индерегеҙ';
 
   @override
-  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
+  String get urlManagedByMosqueAdmin => 'URL мәсет администраторы тарафынан идара ителә';
 
   @override
-  String get replaceWorkflowWithStream => 'Automatically display the camera stream';
+  String get replaceWorkflowWithStream => 'Камера ағымын автоматик күрһәтеү';
 
   @override
-  String get replaceAppWorkflowWithCameraStream => 'The screen will automatically display the camera stream as soon as the camera starts recording; if it stops, the screen returns to the prayer times display';
+  String get replaceAppWorkflowWithCameraStream => 'Камера яҙҙыра башлаһа, экран автоматик камера ағымын күрһәтәсәк; туҡтағанда экран намаҙ ваҡыттарына ҡайта';
 
   @override
-  String get streamMode => 'Stream mode';
+  String get streamMode => 'Ағым режимы';
 
   @override
-  String get streamModeDisabled => 'Disabled';
+  String get streamModeDisabled => 'Сүндерелгән';
 
   @override
-  String get streamModeCamera => 'Stream depends on camera';
+  String get streamModeCamera => 'Ағым камераға бәйле';
 
   @override
-  String get streamModeJumuaOnly => 'Stream depends on Jumua only';
+  String get streamModeJumuaOnly => 'Ағым тик йомаға бәйле';
 
   @override
-  String get streamModeJumuaAndPrayers => 'Stream depends on Jumua and the 5 prayers';
+  String get streamModeJumuaAndPrayers => 'Ағым йомаға һәм 5 намаҙға бәйле';
 
   @override
-  String get streamRequiresSecondaryScreen => 'This feature only works when the app runs as a secondary screen. To enable it:';
+  String get streamRequiresSecondaryScreen => 'Был функция тик ҡушымта икенсе экранда эшләгәндә генә эшләй. Ҡуяр өсөн:';
 
   @override
-  String get streamSecondaryScreenStep1 => 'Go to Display.';
+  String get streamSecondaryScreenStep1 => 'Экран көйләүҙәренә күсегеҙ.';
 
   @override
-  String get streamSecondaryScreenStep2 => 'Open \"Default launch mode\".';
+  String get streamSecondaryScreenStep2 => '\"Ғәҙәти башлау режимы\"-н асығыҙ.';
 
   @override
-  String get streamSecondaryScreenStep3 => 'Select \"Secondary screen\".';
+  String get streamSecondaryScreenStep3 => '\"Икенсе экран\"-ды һайлағыҙ.';
 
   @override
-  String get rtspServerNotAvailable => 'RTSP server is not available. Please check your connection.';
+  String get rtspServerNotAvailable => 'RTSP серверы юҡ. Тоташыуҙы тикшерегеҙ.';
 
   @override
-  String get settingsSavedSuccessfully => 'Settings saved successfully';
+  String get settingsSavedSuccessfully => 'Көйләүҙәр уңышлы һаҡланды';
 
   @override
-  String get streamError => 'An error occurred while streaming';
+  String get streamError => 'Ағым ваҡытында хата сығыш яһаны';
 
   @override
-  String get finish => 'Finish';
+  String get finish => 'Тәмамларға';
 
   @override
-  String get schedulingAlarms => 'Scheduling on/off times...';
+  String get schedulingAlarms => 'Күсереп ҡуйыу ваҡыттары планлаштырыла...';
 
   @override
-  String get alarmsSucessSchedule => 'On/Off triggers scheduled successfully';
+  String get alarmsSucessSchedule => 'Ҡабыҙыу/һүндереү триггерҙары уңышлы планлаштырылды';
 
   @override
-  String get alarmsScheduleFailure => 'Failed to schedule On/Off triggers';
+  String get alarmsScheduleFailure => 'Ҡабыҙыу/һүндереү триггерҙарын планлаштырыу уңышһыҙлыҡҡа осраны';
 
   @override
-  String get prayerTimeNotificationTitle => 'Prayer Time Notifications';
+  String get prayerTimeNotificationTitle => 'Намаҙ ваҡыты белдереүҙәре';
 
   @override
-  String get prayerTimeNotificationDesc => 'Get the Athan at prayer times, even when the app is closed';
+  String get prayerTimeNotificationDesc => 'Апп ябылғанда ла намаҙ ваҡытында азан алығыҙ';
 
   @override
-  String get enablePrayerReminders => 'Enable Prayer Reminders';
+  String get enablePrayerReminders => 'Намаҙ ваҡытын хәтерләтеүҙәрҙе ҡуярға';
 
   @override
-  String get enablePrayerRemindersDesc => 'Works automatically in the background';
+  String get enablePrayerRemindersDesc => 'Фондағы автоматик эшләй';
 
   @override
-  String get testAITranslation => 'This is a test string to verify AI translation is working correctly';
+  String get testAITranslation => 'AI тәржемәһенең дөрөҫ эшләүен тикшереү өсөн тест юлмасы';
 
   @override
-  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
+  String get testCrowdinCI => 'Crowdin CI workflow-ны тикшереү өсөн тест юлмасы';
 
   @override
-  String get quranMode => 'Quran mode';
+  String get quranMode => 'Ҡөрьән режими';
 
   @override
-  String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
+  String get quranModeExplanation => 'Ҡөрьән уҡыу экранын күрһәтеү, һуңғы уҡыған биттән башлап';
 
   @override
   String get appDisplayMode => 'Экран';
@@ -1105,10 +1105,10 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get appDisplayModeExplanation => 'Экранығыҙҙың эстәлекте нисек күрһәтеүен һайлағыҙ';
 
   @override
-  String get exitQuranModeTitle => 'Exit Quran Mode';
+  String get exitQuranModeTitle => 'Ҡөрьән режимынан сығыу';
 
   @override
-  String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+  String get exitQuranModeMessage => 'Нормаль режимға ҡайтырға теләйһегеҙме?';
 
   @override
   String get settingsSectionGlobal => 'Дөйөм';
@@ -1132,36 +1132,36 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get wifi => 'WiFi';
 
   @override
-  String get tutorialGetStarted => 'Get started in 4 simple steps';
+  String get tutorialGetStarted => '4 ябай аҙымда башлап ебәреү';
 
   @override
-  String get tutorialDontHaveId => 'Don\'t have a Mosque ID yet? Here\'s how:';
+  String get tutorialDontHaveId => 'Мәсет ID-һығыҙ юҡмы әле? Бына нисек:';
 
   @override
-  String get tutorialStep1 => 'Go to mawaqit.net and create an account';
+  String get tutorialStep1 => 'MAWAQIT.net сайтына инеп, аккаунт булдырығыҙ';
 
   @override
-  String get tutorialStep2 => 'Register your mosque with photos & address';
+  String get tutorialStep2 => 'Мәсетегеҙҙе фото һәм адресы менән теркәгеҙ';
 
   @override
-  String get tutorialStep3 => 'Get your unique Mosque ID from your dashboard';
+  String get tutorialStep3 => 'Дашбордтан үҙенсә Мәсет ID алығыҙ';
 
   @override
-  String get tutorialStep4 => 'Enter the ID here to connect your TV display';
+  String get tutorialStep4 => 'ID-ны ошонда индереп, ТВ экранығыҙҙы тоташтырығыҙ';
 
   @override
   String tutorialStep(String step) {
-    return 'Step $step  ';
+    return '$step-аҙым  ';
   }
 
   @override
-  String get tutorialScanToRegister => 'Scan to register';
+  String get tutorialScanToRegister => 'Сканерлап теркәлергә';
 
   @override
-  String get tutorialScanDescription => 'Use your phone to create an account on mawaqit.net';
+  String get tutorialScanDescription => 'Телефонығыҙҙы ҡулланып, mawaqit.net сайтында аккаунт булдырығыҙ';
 
   @override
-  String get tutorialFullTutorial => 'Full tutorial';
+  String get tutorialFullTutorial => 'Тулы дәреслек';
 
   @override
   String get prayerTimeFontSize => 'Текст һәм экран үлсәме';
@@ -1194,5 +1194,5 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get athkarFontUthmani => 'Ғосмани';
 
   @override
-  String get crowdinSyncCheck => 'Prayer times are shown for your mosque';
+  String get crowdinSyncCheck => 'Намаҙ ваҡыттары мәсетегеҙ өсөн күрһәтелә';
 }

@@ -49,7 +49,7 @@ class MawaqitTvLocalizationsSr extends MawaqitTvLocalizations {
   String get quit => 'Izađi';
 
   @override
-  String get forceStaging => 'Staging';
+  String get forceStaging => 'Prebaci na testni režim';
 
   @override
   String get forcePreProduction => 'Pre-production';

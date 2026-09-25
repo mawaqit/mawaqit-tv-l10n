@@ -58,7 +58,7 @@
   "afterAdhanHadithTitle": "Po adhánu Du`aa",
   "afterSalahHadith": "Allahumma Rabba hadhihid-da'wati-ttammati, was-salatil-qa'imati, ati Muhammadanil-wasilata wal-fadhilata, wab'athu maqaman mahmuda nilladhi wa 'adtahu [Ó Alláhu, Rubb této dokonalé výzvy (Da'wah) a zavedené modlitby (As-Salat), uděl Muhammadovi Wasilu a převahu a pozvedni ho do chvályhodného postavení, které jsi mu slíbil].",
   "alIqama": "Al Iqama",
-  "alAdhan": "Al Athan",
+  "alAdhan": "Al Adan",
   "turnOfPhones": "Přepněte prosím své telefony do tichého režimu",
   "iqamaIn": "Iqama v",
   "iqamaShowClock": "Zobrazit hodiny na obrazovce ikámy",
@@ -67,11 +67,11 @@
   "perPrayerRolloverDesc": "Vyberte, jak se časy modliteb přepnou na zítřejší rozvrh",
   "perPrayerRolloverOptionPerPrayer": "Každá modlitba zvlášť",
   "alAthkar": "Al-Athkar",
-  "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
+  "azkarList0": "Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik",
   "@azkarList0": {
     "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
   },
-  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
+  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33krát). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
@@ -91,7 +91,7 @@
   "@azkarList5": {
     "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
-  "azkarList6": "Lā 'ilāha 'illallāh, waḥdahu lā sharīka lah, lahu 'l-mulku wa lahu 'l-ḥamd, wa huwa `alā kulli shay'in qadīr, Allāhumma lā māni`a limā 'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.",
+  "azkarList6": "La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
@@ -131,7 +131,7 @@
   "jumuaaHadith": "Prorok ﷺ (mír a Alláhovo požehnání s ním) řekl: \"Kdo dokonale vykoná očistu, pak jde na džumuu a pak poslouchá a mlčí, tomu je odpuštěno to, co je mezi tímto časem a následujícím pátkem a dalšími třemi dny, a ten, kdo se dotýká kamenů, se jistě dopustil marnosti.\"",
   "shuruk": "Shuruk",
   "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duhaTime": "Čas Duha",
   "reset": "Obnovení",
   "mosqueNotFoundMessage": "Omlouváme se, ale vaše mešita nebyla nalezena, případně je nezvěstná nebo dočasně vypnutá.",
   "noInternetMessage": "Žádný přístup k internetu. Ověřte prosím své připojení k internetu a zkuste to znovu. Je vaše připojení Wi-Fi nebo Ethernet připojeno?",
@@ -181,7 +181,7 @@
   "announcementOnlyMode": "Režim oznámení",
   "normalMode": "Normální režim ",
   "announcementOnlyModeEXPLINATION": "Zvolte, zda se na obrazovce budou neustále zobrazovat oznámení, což může být užitečné, pokud obrazovku instalujete například u vchodu.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "Žízeň byla uhašena, žíly zvlhčeny a odměna potvrzena, inšáAlláh",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -206,7 +206,7 @@
   "hijriAdjustmentsDescription": "Upravte místní datum ve vašem zařízení. To neovlivní nastavení online mešity",
   "backoffice_default": "Výchozí nastavení Backoffice",
   "recommended": "Doporučené",
-  "sabah": "Sabah",
+  "sabah": "Sabah\"",
   "randomHadithLanguage": "Náhodný jazyk",
   "mosqueDefault": "Ze své online konfigurace",
   "en": "Angličtina",
@@ -220,7 +220,7 @@
   "fr_ar": "Francouzština a arabština",
   "en_ar": "Anglické a arabské",
   "de_ar": "Němčina a arabština",
-  "ta_ar": "Tamil & Arabic",
+  "ta_ar": "Tamil a arabský",
   "tr_ar": "Turecký a arabský",
   "es_ar": "Španělština a arabština",
   "pt_ar": "Portugalština a arabština",
@@ -240,7 +240,7 @@
   "useDeviceTime": "Použít čas zařízení",
   "selectTime": "Vyberte čas",
   "previous": "Předchozí",
-  "appTimezone": "App Timezone",
+  "appTimezone": "Časové pásmo aplikace",
   "descTimezone": "Vyberte časové pásmo pro přesné modlitby.",
   "appWifi": "Připojit k WiFi",
   "descWifi": "Připojte se k preferovanému wifi",
@@ -250,7 +250,7 @@
   "connect": "Připojit",
   "wifiPassword": "Heslo",
   "skip": "Přeskočit",
-  "noSSID": "**Hidden SSID**",
+  "noSSID": "**Skrytá SSID**",
   "close": "Zavřít",
   "search": "Vyhledávání",
   "wifiSuccess": "Úspěšně připojeno k síti Wifi.",
@@ -276,7 +276,7 @@
   "deviceSettings": "Zařízení",
   "later": "Později",
   "downloadQuran": "Stáhnout Quran",
-  "quran": "Quran",
+  "quran": "Korán",
   "askDownloadQuran": "Chcete stáhnout Quran?",
   "download": "Stáhnout",
   "downloadingQuran": "Stahování Quranu",
@@ -288,7 +288,7 @@
   "quranDownloaded": "Quran stažen",
   "quranIsAlreadyDownloaded": "Quran je již stažen",
   "chooseReciter": "Vybrat Reciter",
-  "reciteType": "Recite Type",
+  "reciteType": "Typ recitace",
   "readingMode": "Chci přečíst",
   "listeningMode": "Chci naslouchat",
   "quranReadingPage": "Strana {leftPage} - {rightPage} / {totalPages}",
@@ -327,7 +327,7 @@
   "checkingForUpdates": "Kontrola aktualizací...",
   "chooseQuranType": "Vyberte quran",
   "hafs": "Háky",
-  "warsh": "Warsh",
+  "warsh": "Warš",
   "favorites": "Oblíbené položky",
   "allReciters": "Všichni čtenáři",
   "reciterAddedToFavorites": "Reciter {name} přidán do oblíbených",
@@ -372,7 +372,7 @@
       }
     }
   },
-  "surahSelector": "Select Surah",
+  "surahSelector": "Vyberte súru",
   "checkForUpdates": "Zkontrolovat aktualizace",
   "checkForNewVersion": "Zkontrolujte, zda je dostupná nová verze",
   "wouldYouLikeToUpdate": "Chcete aplikaci aktualizovat?",
@@ -499,7 +499,183 @@
   "fontSizeXLarge": "Velmi velké",
   "athkarArabicFont": "Arabské písmo pro Athkar",
   "athkarArabicFontDesc": "Vyberte arabské písmo používané pro Athkar (po modlitbě, adhánu, Jumua, hadísu...)",
-  "athkarFontKufi": "Kufi",
-  "athkarFontUthmani": "Uthmani",
-  "perPrayerRolloverOptionAfterIsha": "Všechny společně po modlitbě Isha"
+  "athkarFontKufi": "Kufí",
+  "athkarFontUthmani": "Uthmánský",
+  "perPrayerRolloverOptionAfterIsha": "Všechny společně po modlitbě Isha",
+  "thisIsATestFromIbrahim": "Toto je test od Ibrahima",
+  "forceStaging": "Staging",
+  "forcePreProduction": "Předprodukce",
+  "environmentSwitchSuccess": "Prostředí bylo úspěšně přepnuto",
+  "environmentSwitchFailed": "Nepodařilo se přepnout prostředí",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "ta": "Tamilština",
+  "wifiForgetNetwork": "Tato síť byla přidána v nastavení Androidu. Prosím zapomeňte ji tam, poté se znovu připojte.",
+  "urlManagedByMosqueAdmin": "URL spravována správcem mešity",
+  "streamMode": "Režim streamu",
+  "streamModeDisabled": "Deaktivováno",
+  "streamModeCamera": "Stream závisí na kameře",
+  "streamModeJumuaOnly": "Stream pouze pro Džumuu",
+  "streamModeJumuaAndPrayers": "Stream podle Džumuy a 5 modliteb",
+  "streamRequiresSecondaryScreen": "Tato funkce funguje pouze, když aplikace běží jako sekundární obrazovka. Pro aktivaci:",
+  "streamSecondaryScreenStep1": "Přejděte do zobrazení.",
+  "streamSecondaryScreenStep2": "Otevřete \"Výchozí režim spuštění\".",
+  "streamSecondaryScreenStep3": "Vyberte \"Sekundární obrazovka\".",
+  "rtspServerNotAvailable": "RTSP server není dostupný. Zkontrolujte prosím své připojení.",
+  "settingsSavedSuccessfully": "Nastavení úspěšně uloženo",
+  "testCrowdinCI": "Testovací řetězec pro ověření CI workflow Crowdin na develop",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Režim Koránu",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Zobrazí se obrazovka s čtením Koránu, začínající na poslední čtené stránce",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Ukončit režim Koránu",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Chcete se vrátit do běžného režimu?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialDontHaveId": "Ještě nemáte ID mešity? Zde je postup:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "Přejděte na mawaqit.net a vytvořte si účet",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "Zaregistrujte mešitu s fotografiemi a adresou",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "Získejte své jedinečné ID mešity z panelu",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "Zadejte zde ID pro připojení televizní obrazovky",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialScanToRegister": "Naskenujte pro registraci",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "Použijte svůj telefon pro vytvoření účtu na mawaqit.net",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "Celý tutoriál",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "Časy modliteb jsou zobrazeny pro vaši mešitu",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

@@ -58,7 +58,7 @@
   "afterAdhanHadithTitle": "After adhan Du`a",
   "afterSalahHadith": "Allahumma Rabba hadhihid-da'wati-ttammati, was-salatil-qa'imati, ati Muhammadanil-wasilata wal-fadhilata, wab'athu maqaman mahmuda nilladhi wa 'adtahu [O Allah, Rubb of this perfect call (Da'wah) and of the established prayer (As-Salat), grant Muhammad the Wasilah and superiority, and raise him up to a praiseworthy position which You have promised him]",
   "alIqama": "Al Iqama",
-  "alAdhan": "Al Athan",
+  "alAdhan": "Al Adan",
   "turnOfPhones": "Please turn of your mobile phones!",
   "iqamaIn": "Iqama in",
   "iqamaShowClock": "הצג שעון במסך איקאמה",
@@ -130,8 +130,8 @@
   "jumuaaScreenTitle": "Jumuaa Time",
   "jumuaaHadith": "The Prophet (peace and blessings of Allah be upon him) said \"Whoever does the ablutions perfectly then goes to jumua and then listens and is silent, he is forgiven what is between that time and the following Friday and three more days and the one who touches stones has certainly made a futility\"",
   "shuruk": "Shuruk",
-  "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duha": "אל-דֻחַא",
+  "duhaTime": "זמן דֻחַא",
   "reset": "איפוס",
   "mosqueNotFoundMessage": "Your mosque not found. it might be missing or removed from the server",
   "noInternetMessage": "it seems you have no internet access. checkout your internet and try again",
@@ -181,7 +181,7 @@
   "announcementOnlyMode": "מצב הודעות",
   "normalMode": "מצב רגיל",
   "announcementOnlyModeEXPLINATION": "בחר אם ברצונך שהמסך יציג הודעות כל הזמן, זה יכול להיות שימושי אם התקנת את המסך בכניסה לדוגמה.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "הלך הצמא ונרטבו העורקים ונקבע השכר, אם ירצה ה'",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -501,5 +501,194 @@
   "athkarArabicFontDesc": "בחר את הגופן הערבי לאזכאר (לאחר הסלאה, האד'אן, ג'ומועא, החדית'...)",
   "athkarFontKufi": "כופי",
   "athkarFontUthmani": "עות'מאני",
-  "perPrayerRolloverOptionAfterIsha": "כולם יחד לאחר עישאא"
+  "perPrayerRolloverOptionAfterIsha": "כולם יחד לאחר עישאא",
+  "thisIsATestFromIbrahim": "זהו מבחן מאיבראהים",
+  "forceStaging": "העבר לסביבת בדיקות",
+  "forcePreProduction": "קדם-הפקה",
+  "environmentSwitchSuccess": "הסביבה הוחלפה בהצלחה",
+  "environmentSwitchFailed": "נכשל במעבר סביבה",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "ta": "טמילית",
+  "wifiForgetNetwork": "רשת זו נוספה בהגדרות האנדרואיד. נא לשכוח אותה שם ואז להתחבר מחדש.",
+  "urlManagedByMosqueAdmin": "כתובת URL מנוהלת על ידי מנהל המסגד",
+  "streamMode": "מצב הזרמה",
+  "streamModeDisabled": "מושבת",
+  "streamModeCamera": "הזרמה תלויה במצלמה",
+  "streamModeJumuaOnly": "הזרמה תלויה רק בג'ומעה",
+  "streamModeJumuaAndPrayers": "הזרמה תלויה בג'ומעה וב-<b>5</b> התפילות",
+  "streamRequiresSecondaryScreen": "פונקציה זו פועלת רק כאשר האפליקציה רצה כמסך משני. להפעלה:",
+  "streamSecondaryScreenStep1": "גשו לתצוגה.",
+  "streamSecondaryScreenStep2": "פתחו \"מצב הפעלה ברירת מחדל\".",
+  "streamSecondaryScreenStep3": "בחרו \"מסך משני\".",
+  "rtspServerNotAvailable": "שרת RTSP אינו זמין. נא לבדוק את החיבור שלך.",
+  "settingsSavedSuccessfully": "ההגדרות נשמרו בהצלחה",
+  "testCrowdinCI": "מחרוזת בדיקה לאימות Crowdin CI על develop",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "מצב קוראן",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "הצג את מסך קריאת הקוראן, החל מהעמוד האחרון שנקרא",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "יציאה ממצב קוראן",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "האם ברצונך לחזור למצב רגיל?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "התחילו ב-4 שלבים פשוטים",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "עדיין אין לכם מזהה מסגד? כך תעשו זאת:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "גשו ל-mawaqit.net וצרו חשבון",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "הירשמו את המסגד עם תמונות וכתובת",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "קבלו את מזהה המסגד הייחודי מהדשבורד שלכם",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "הכניסו את המזהה כאן כדי לחבר את תצוגת ה-TV שלכם",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "שלב {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "סרקו להרשמה",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "השתמשו בטלפון שלכם כדי ליצור חשבון ב-mawaqit.net",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "הדרכה מלאה",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "זמני תפילה מוצגים עבור המסגד שלך",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }
