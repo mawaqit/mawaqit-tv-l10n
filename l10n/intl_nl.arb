@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama in",
   "iqamaShowClock": "Klok weergeven op iqama-scherm",
   "iqamaShowClockDesc": "Huidige tijd en datum weergeven op het iqama-aftelscherm",
+  "perPrayerRollover": "Omschakeling van gebedstijden",
+  "perPrayerRolloverDesc": "Kies hoe de gebedstijden overschakelen naar die van morgen",
+  "perPrayerRolloverOptionPerPrayer": "Elk gebed afzonderlijk",
   "alAthkar": "Al-Atkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Hoofd gebedsijden",
   "launchModeSecondaryPrayer": "Secundaire gebedsijden",
   "timezone": "Tijdzone",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Scherm",
+  "appDisplayModeExplanation": "Kies hoe uw scherm inhoud weergeeft",
+  "prayerTimeFontSize": "Tekst- en weergavegrootte",
+  "prayerTimeFontSizeDesc": "Wijzig hoe groot de tekst in de hele app wordt weergegeven",
+  "fontSizeSmall": "Klein",
+  "fontSizeNormal": "Normaal",
+  "fontSizeLarge": "Groot",
+  "fontSizeXLarge": "Zeer groot",
+  "athkarArabicFont": "Arabisch lettertype voor Athkar",
+  "athkarArabicFontDesc": "Kies het Arabische lettertype voor Athkar (na het gebed, adhan, Djoemoe’ah, hadith...)",
+  "athkarFontKufi": "Koefi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Allemaal samen na ‘Ishaa"
 }

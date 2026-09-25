@@ -7,7 +7,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsKu([String locale = 'ku']) : super(locale);
 
   @override
-  String get thisIsATestFromIbrahim => 'ئەمە تاقیکردنەوەیەکە لە ئیبراهیمەوە';
+  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
 
   @override
   String get home => 'سەرەکی\n';
@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'Dema û mêjûya niha li ser ekrana hejmartina iqameyê nîşan bide';
 
   @override
-  String get perPrayerRollover => 'گواستنەوەی کاتەکانی نوێژ';
+  String get perPrayerRollover => 'گۆڕینی کاتەکانی نوێژ';
 
   @override
-  String get perPrayerRolloverDesc => 'هەڵبژێرە چۆنیەتی گواستنەوەی کاتەکانی نوێژ بۆ خشتەی بەیانی';
+  String get perPrayerRolloverDesc => 'هەڵبژێرە کاتەکانی نوێژ چۆن بۆ خشتەی سبەینێ بگۆڕدرێن';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'هەر نوێژێک بە جیا';
+  String get perPrayerRolloverOptionPerPrayer => 'هەر نوێژێک بە تەنها';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'هەمووی پێکەوە دوای عیشا';
+  String get perPrayerRolloverOptionAfterIsha => 'هەموویان پێکەوە دوای عیشا';
 
   @override
   String get alAthkar => 'ویردەکان';
@@ -1090,7 +1090,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get testAITranslation => 'ئەمە تاقیکردنەوەیە بۆ دڵنیابوون لە کارکردنی وەرگێڕانی ئەیای';
 
   @override
-  String get testCrowdinCI => 'دەقی تاقیکردنەوە بۆ پشتڕاستکردنەوەی وۆرکفلۆی Crowdin CI لە develop';
+  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
 
   @override
   String get quranMode => 'دۆخی قورئان';
@@ -1099,7 +1099,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'شاشەی خوێندنەوەی قورئان پیشان بدە، دەستپێبکە لە کۆتا پەڕەی خوێندراوە';
 
   @override
-  String get appDisplayMode => 'پیشاندان';
+  String get appDisplayMode => 'شاشە';
 
   @override
   String get appDisplayModeExplanation => 'هەڵبژێرە شاشەکەت چۆن ناوەڕۆک پیشان بدات';
@@ -1167,7 +1167,7 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get prayerTimeFontSize => 'قەبارەی دەق و پیشاندان';
 
   @override
-  String get prayerTimeFontSizeDesc => 'گۆڕینی گەورەیی دەق لە هەموو بەرنامەکەدا';
+  String get prayerTimeFontSizeDesc => 'قەبارەی دەق بگۆڕە لە هەموو بەرنامەکەدا';
 
   @override
   String get fontSizeSmall => 'بچووک';
@@ -1182,10 +1182,10 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get fontSizeXLarge => 'زۆر گەورە';
 
   @override
-  String get athkarArabicFont => 'فۆنتی عەرەبی بۆ ویرد';
+  String get athkarArabicFont => 'فۆنتی عەرەبی ویردەکان';
 
   @override
-  String get athkarArabicFontDesc => 'ئەو فۆنتە عەرەبییە هەڵبژێرە کە بۆ ویرد بەکاردێت (دوای نوێژ، بانگ، هەینی، فەرموودە...)';
+  String get athkarArabicFontDesc => 'فۆنتی عەرەبی ویردەکان هەڵبژێرە (دوای نوێژ، بانگ، هەینی، فەرموودە...)';
 
   @override
   String get athkarFontKufi => 'کوفی';

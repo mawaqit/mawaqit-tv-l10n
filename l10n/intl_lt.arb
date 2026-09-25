@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama in",
   "iqamaShowClock": "Rodyti laikrodį ikamos ekrane",
   "iqamaShowClockDesc": "Rodyti dabartinį laiką ir datą ikamos atgalinės atskaitos ekrane",
+  "perPrayerRollover": "Maldų laikų perėjimas",
+  "perPrayerRolloverDesc": "Pasirinkite, kaip maldų laikai pereina prie rytojaus tvarkaraščio",
+  "perPrayerRolloverOptionPerPrayer": "Kiekviena malda atskirai",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Pagrindiniai maldų laikai",
   "launchModeSecondaryPrayer": "Antriniai maldų laikai",
   "timezone": "Laiko juosta",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Ekranas",
+  "appDisplayModeExplanation": "Pasirinkite, kaip ekrane bus rodomas turinys",
+  "prayerTimeFontSize": "Teksto ir ekrano dydis",
+  "prayerTimeFontSizeDesc": "Keiskite teksto dydį visoje programoje",
+  "fontSizeSmall": "Mažas",
+  "fontSizeNormal": "Įprastas",
+  "fontSizeLarge": "Didelis",
+  "fontSizeXLarge": "Labai didelis",
+  "athkarArabicFont": "Arabiškas Athkar šriftas",
+  "athkarArabicFontDesc": "Pasirinkite arabišką šriftą, naudojamą Athkar (po maldos, adhano, Jumua, hadiso...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Visos kartu po Isha"
 }

@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'İkamet geri sayım ekranında güncel saat ve tarihi göster';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'Namaz vakti geçişi';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'Namaz vakitlerinin yarının programına nasıl geçeceğini seçin';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'Her namaz ayrı ayrı';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'Yatsıdan sonra hepsi birlikte';
 
   @override
   String get alAthkar => 'Zikir';
@@ -1099,7 +1099,7 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Son okunan sayfadan başlayarak Kur’an okuma ekranını göster';
 
   @override
-  String get appDisplayMode => 'Göster';
+  String get appDisplayMode => 'Ekran';
 
   @override
   String get appDisplayModeExplanation => 'Ekranınızın içeriği nasıl göstereceğini seçin';
@@ -1164,7 +1164,7 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get tutorialFullTutorial => 'Tam Kılavuz';
 
   @override
-  String get prayerTimeFontSize => 'Metin ve ekran boyutu';
+  String get prayerTimeFontSize => 'Metin ve görüntü boyutu';
 
   @override
   String get prayerTimeFontSizeDesc => 'Metnin uygulama genelinde ne kadar büyük görüneceğini değiştirin';
@@ -1176,20 +1176,20 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get fontSizeNormal => 'Normal';
 
   @override
-  String get fontSizeLarge => 'Large';
+  String get fontSizeLarge => 'Büyük';
 
   @override
   String get fontSizeXLarge => 'Ekstra büyük';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'Zikir için Arapça yazı tipi';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'Zikirler için kullanılan Arapça yazı tipini seçin (namazdan sonra, ezan, Cuma, hadis...)';
 
   @override
   String get athkarFontKufi => 'Kufi';
 
   @override
-  String get athkarFontUthmani => 'Uthmani';
+  String get athkarFontUthmani => 'Osmani';
 }

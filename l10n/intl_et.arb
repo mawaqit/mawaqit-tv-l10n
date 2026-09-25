@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama in",
   "iqamaShowClock": "Näita kella ikama ekraanil",
   "iqamaShowClockDesc": "Näita praegust aega ja kuupäeva ikama loenduri ekraanil",
+  "perPrayerRollover": "Palveaegade üleminek",
+  "perPrayerRolloverDesc": "Valige, kuidas palveajad lähevad üle homsele ajakavale",
+  "perPrayerRolloverOptionPerPrayer": "Iga palve eraldi",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Peamised palveajad",
   "launchModeSecondaryPrayer": "Sekundaarsed palveajad",
   "timezone": "Ajavöönd",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Ekraan",
+  "appDisplayModeExplanation": "Valige, kuidas ekraan sisu kuvab",
+  "prayerTimeFontSize": "Teksti ja kuvamissuurus",
+  "prayerTimeFontSizeDesc": "Muutke teksti suurust kogu rakenduses",
+  "fontSizeSmall": "Väike",
+  "fontSizeNormal": "Tavaline",
+  "fontSizeLarge": "Suur",
+  "fontSizeXLarge": "Väga suur",
+  "athkarArabicFont": "Athkari araabia font",
+  "athkarArabicFontDesc": "Valige Athkari jaoks kasutatav araabia font (pärast palvet, adhaani, Jumuad, hadithi...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Kõik koos pärast Ishat"
 }

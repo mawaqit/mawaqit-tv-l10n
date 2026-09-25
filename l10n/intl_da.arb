@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama i",
   "iqamaShowClock": "Vis ur på iqama-skærmen",
   "iqamaShowClockDesc": "Vis den aktuelle tid og dato på iqama-nedtællingsskærmen",
+  "perPrayerRollover": "Skift af bønnetider",
+  "perPrayerRolloverDesc": "Vælg, hvordan bønnetiderne skifter til morgendagens tider",
+  "perPrayerRolloverOptionPerPrayer": "Hver bøn for sig",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Hoved bønnetider",
   "launchModeSecondaryPrayer": "Sekundære bønnetider",
   "timezone": "Tidszone",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Skærm",
+  "appDisplayModeExplanation": "Vælg, hvordan din skærm skal vise indhold",
+  "prayerTimeFontSize": "Tekst- og skærmstørrelse",
+  "prayerTimeFontSizeDesc": "Ændr, hvor stor teksten vises i hele appen",
+  "fontSizeSmall": "Lille",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Stor",
+  "fontSizeXLarge": "Ekstra stor",
+  "athkarArabicFont": "Arabisk skrifttype til Athkar",
+  "athkarArabicFontDesc": "Vælg den arabiske skrifttype, der bruges til Athkar (efter salah, adhan, Jumua, hadith...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Alle samlet efter Isha"
 }

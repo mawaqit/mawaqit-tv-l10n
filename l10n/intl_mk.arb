@@ -63,6 +63,9 @@
   "iqamaIn": "Икама за",
   "iqamaShowClock": "Прикажи часовник на екранот на икама",
   "iqamaShowClockDesc": "Прикажи го тековното време и датум на екранот за одбројување на икама",
+  "perPrayerRollover": "Префрлување на времињата на молитва",
+  "perPrayerRolloverDesc": "Изберете како времињата на молитва се префрлаат на утрешниот распоред",
+  "perPrayerRolloverOptionPerPrayer": "Секоја молитва поединечно",
   "alAthkar": "Ал-Аthkar",
   "azkarList0": "Астагфирула, Астагфирула, Астагфирула. Аллахумма Анта ес-салам, и од Тебе е сé благословено, о Достојен на величие и чест. Аллахумма помогни ми да Те спомнувам, да Ти се заблагодарам и да Ти служам на најдобар начин.",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Главни времиња за молитва",
   "launchModeSecondaryPrayer": "Секундарни времиња за молитва",
   "timezone": "Временска зона",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Приказ",
+  "appDisplayModeExplanation": "Изберете како вашиот екран ќе ја прикажува содржината",
+  "prayerTimeFontSize": "Големина на текст и приказ",
+  "prayerTimeFontSizeDesc": "Променете ја големината на текстот во целата апликација",
+  "fontSizeSmall": "Мала",
+  "fontSizeNormal": "Нормална",
+  "fontSizeLarge": "Голема",
+  "fontSizeXLarge": "Многу голема",
+  "athkarArabicFont": "Арапски фонт за азкарите",
+  "athkarArabicFontDesc": "Изберете го арапскиот фонт за азкарите (по намаз, езан, џума, хадис...)",
+  "athkarFontKufi": "Куфи",
+  "athkarFontUthmani": "Усмани",
+  "perPrayerRolloverOptionAfterIsha": "Сите заедно по Иша"
 }

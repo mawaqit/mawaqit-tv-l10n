@@ -107,7 +107,7 @@ class MawaqitTvLocaleUtils {
               ].contains(locale.languageCode))
           .toList(),
       'Asian': MawaqitTvLocaleConstants.supportedLocales
-          .where((locale) => ['zh', 'ja', 'ko', 'th', 'vi', 'hi', 'bn', 'ta'].contains(locale.languageCode))
+          .where((locale) => ['zh', 'ja', 'ko', 'km', 'th', 'vi', 'hi', 'bn', 'ta'].contains(locale.languageCode))
           .toList(),
       'Other': MawaqitTvLocaleConstants.supportedLocales
           .where((locale) =>
@@ -138,6 +138,7 @@ class MawaqitTvLocaleUtils {
                 'zh',
                 'ja',
                 'ko',
+                'km',
                 'th',
                 'vi',
                 'hi',

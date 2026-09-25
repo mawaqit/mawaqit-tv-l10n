@@ -63,6 +63,9 @@
   "iqamaIn": "Ikamet za",
   "iqamaShowClock": "Hiển thị đồng hồ trên màn hình Iqama",
   "iqamaShowClockDesc": "Hiển thị thời gian và ngày tháng hiện tại trên màn hình đếm ngược Iqama",
+  "perPrayerRollover": "Chuyển giờ cầu nguyện sang ngày mai",
+  "perPrayerRolloverDesc": "Chọn cách giờ cầu nguyện chuyển sang lịch của ngày mai",
+  "perPrayerRolloverOptionPerPrayer": "Từng buổi cầu nguyện riêng",
   "alAthkar": "Dhikr",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Giờ cầu nguyện chính",
   "launchModeSecondaryPrayer": "Giờ cầu nguyện phụ",
   "timezone": "Múi giờ",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Màn hình",
+  "appDisplayModeExplanation": "Chọn cách màn hình hiển thị nội dung",
+  "prayerTimeFontSize": "Văn bản và kích thước hiển thị",
+  "prayerTimeFontSizeDesc": "Thay đổi cỡ chữ trong toàn bộ ứng dụng",
+  "fontSizeSmall": "Nhỏ",
+  "fontSizeNormal": "Vừa",
+  "fontSizeLarge": "Lớn",
+  "fontSizeXLarge": "Rất lớn",
+  "athkarArabicFont": "Phông chữ Ả Rập cho Athkar",
+  "athkarArabicFontDesc": "Chọn phông chữ Ả Rập dùng cho Athkar (sau khi cầu nguyện, adhan, Jumua, hadith...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Tất cả cùng lúc sau Isha"
 }

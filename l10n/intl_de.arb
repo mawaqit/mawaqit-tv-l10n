@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama in",
   "iqamaShowClock": "Uhr auf dem Iqama-Bildschirm anzeigen",
   "iqamaShowClockDesc": "Aktuelle Uhrzeit und Datum auf dem Iqama-Countdown-Bildschirm anzeigen",
+  "perPrayerRollover": "Wechsel der Gebetszeiten",
+  "perPrayerRolloverDesc": "Wählen Sie, wie die Gebetszeiten auf morgen umschalten",
+  "perPrayerRolloverOptionPerPrayer": "Jedes Gebet einzeln",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Hauptgebetszeiten",
   "launchModeSecondaryPrayer": "Sekundäre Gebetszeiten",
   "timezone": "Zeitzone",
-  "wifi": "WLAN"
+  "wifi": "WLAN",
+  "appDisplayMode": "Display",
+  "appDisplayModeExplanation": "Wählen Sie, wie Ihr Bildschirm Inhalte anzeigt",
+  "prayerTimeFontSize": "Text- und Anzeigegröße",
+  "prayerTimeFontSizeDesc": "Ändern Sie, wie groß der Text in der gesamten App angezeigt wird",
+  "fontSizeSmall": "Klein",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Groß",
+  "fontSizeXLarge": "Sehr groß",
+  "athkarArabicFont": "Arabische Schrift für Athkar",
+  "athkarArabicFontDesc": "Wählen Sie die arabische Schrift für Athkar (nach dem Gebet, Adhan, Freitagsgebet, Hadith...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Uthmani",
+  "perPrayerRolloverOptionAfterIsha": "Alle zusammen nach Ishaa"
 }

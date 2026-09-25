@@ -71,6 +71,9 @@
     "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
   },
   "iqamaShowClockDesc": "Visa aktuell tid och datum för iqama-nedräknings skärm",
+  "perPrayerRollover": "Byte av bönetider",
+  "perPrayerRolloverDesc": "Välj hur bönetiderna växlar till morgondagens tider",
+  "perPrayerRolloverOptionPerPrayer": "Varje bön för sig",
   "@iqamaShowClockDesc": {
     "description": "Subtitle for the iqama clock toggle setting"
   },
@@ -644,5 +647,6 @@
   "athkarFontUthmani": "Uthmani",
   "@athkarFontUthmani": {
     "description": "Label for the Uthmani Arabic font option"
-  }
+  },
+  "perPrayerRolloverOptionAfterIsha": "Alla tillsammans efter Isha"
 }

@@ -63,6 +63,9 @@
   "iqamaIn": "Икама в",
   "iqamaShowClock": "Показать часы на экране икамы",
   "iqamaShowClockDesc": "Отображать текущее время и дату на экране обратного отсчёта икамы",
+  "perPrayerRollover": "Переход времени молитв",
+  "perPrayerRolloverDesc": "Выберите, как времена молитв переходят на завтрашний день",
+  "perPrayerRolloverOptionPerPrayer": "Каждая молитва отдельно",
   "alAthkar": "Азкары",
   "azkarList0": "Астагфируллах, Астагфируллах, Астагфируллах, Аллахумма Анта ас-Салям ва минка ас-Салям, табарокта йа Заль-джаляли валь-икрам, Аллахумма а‘инни ‘аля зикрика ва шукрика ва хусни ‘ибадатика.",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Основные времена намаза",
   "launchModeSecondaryPrayer": "Дополнительные времена намаза",
   "timezone": "Часовой пояс",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Экран",
+  "appDisplayModeExplanation": "Выберите, как экран будет отображать контент",
+  "prayerTimeFontSize": "Размер текста и экрана",
+  "prayerTimeFontSizeDesc": "Измените размер текста во всём приложении",
+  "fontSizeSmall": "Мелкий",
+  "fontSizeNormal": "Обычный",
+  "fontSizeLarge": "Крупный",
+  "fontSizeXLarge": "Очень крупный",
+  "athkarArabicFont": "Арабский шрифт азкаров",
+  "athkarArabicFontDesc": "Выберите арабский шрифт для азкаров (после намаза, азана, джумуа, хадиса...)",
+  "athkarFontKufi": "Куфи",
+  "athkarFontUthmani": "Усмани",
+  "perPrayerRolloverOptionAfterIsha": "Все вместе после Иша"
 }

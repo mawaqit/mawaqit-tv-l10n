@@ -1,5 +1,4 @@
 {
-  "thisIsATestFromIbrahim": "ئەمە تاقیکردنەوەیەکە لە ئیبراهیمەوە",
   "home": "سەرەکی\n",
   "share": "هاوبەشکردن",
   "about": "دەربارە",
@@ -13,11 +12,7 @@
   "tryAgain": "دواتر هەوڵبدەرەوە",
   "closeApp": "داخستنی بەرنامە",
   "quit": "دەرچوون",
-  "forceStaging": "دۆخی تاقیکردنەوە",
-  "forcePreProduction": "پێش بەرهەمهێنان",
   "disableStaging": "گۆڕین بۆ دۆخی بەرهەمهێنان",
-  "environmentSwitchSuccess": "گۆڕینی ژینگە سەرکەوتوو بوو",
-  "environmentSwitchFailed": "گۆڕینی ژینگە سەرنەکەوت",
   "sureCloseApp": "ئایا دڵنیای کە دەتەوێت لە بەرنامەکە دەربچیت?",
   "ok": "باشە",
   "cancel": "ڕەتکردنەوە",
@@ -68,22 +63,9 @@
   "iqamaIn": "قامەت لە دوای",
   "iqamaShowClock": "Saetê li ser ekrana iqameyê nîşan bide",
   "iqamaShowClockDesc": "Dema û mêjûya niha li ser ekrana hejmartina iqameyê nîşan bide",
-  "perPrayerRollover": "گواستنەوەی کاتەکانی نوێژ",
-  "@perPrayerRollover": {
-    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
-  },
-  "perPrayerRolloverDesc": "هەڵبژێرە چۆنیەتی گواستنەوەی کاتەکانی نوێژ بۆ خشتەی بەیانی",
-  "@perPrayerRolloverDesc": {
-    "description": "Subtitle for the per-prayer rollover dropdown setting"
-  },
-  "perPrayerRolloverOptionPerPrayer": "هەر نوێژێک بە جیا",
-  "@perPrayerRolloverOptionPerPrayer": {
-    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
-  },
-  "perPrayerRolloverOptionAfterIsha": "هەمووی پێکەوە دوای عیشا",
-  "@perPrayerRolloverOptionAfterIsha": {
-    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
-  },
+  "perPrayerRollover": "گۆڕینی کاتەکانی نوێژ",
+  "perPrayerRolloverDesc": "هەڵبژێرە کاتەکانی نوێژ چۆن بۆ خشتەی سبەینێ بگۆڕدرێن",
+  "perPrayerRolloverOptionPerPrayer": "هەر نوێژێک بە تەنها",
   "alAthkar": "ویردەکان",
   "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
   "@azkarList0": {
@@ -235,7 +217,6 @@
   "es": "ئیسپانی",
   "pt": "پۆرتوگالی",
   "nl": "هۆڵەندی",
-  "ta": "تامیل",
   "fr_ar": "فەڕەنسی و عەرەبی",
   "en_ar": "ئینگلیزی و عەرەبی",
   "de_ar": "ئەڵمانی و عەرەبی",
@@ -274,7 +255,6 @@
   "search": "گەڕان",
   "wifiSuccess": "بە سەرکەوتووی پەیوەست بوویت بە هێڵی ئینتەرنێتەوە.",
   "wifiFailure": "هەڵە ڕویدا لەکاتی پەیوەست بوون بە هێڵی ئینتەرنێتەوە.",
-  "wifiForgetNetwork": "ئەم هێڵە لە ڕێکخستنەکانی ئەندرۆیددا زیادکراوە. تکایە لەوێ لەبیری بکەرەوە، پاشان دووبارە پەیوەست ببەرەوە.",
   "timezoneSuccess": "ناوچەی کات بەسەرکەوتووی دیاری کرا.",
   "timezoneFailure": "هەڵە ڕویدا لە دیاریکردنی ناوچەی کات.",
   "screenLock": "هەڵکردن/گوژاندنەوە ی ڕوونما",
@@ -487,20 +467,8 @@
   "processingRequest": "داواکاری ئەنجامدان",
   "loadingStream": "بارکردنی پەخش ",
   "rtspUrlHint": "YouTube یان بەستەری RTSP URL داخیلکردنی بەستەری",
-  "urlManagedByMosqueAdmin": "بەستەرەکە لەلایەن بەڕێوەبەری مزگەوتەوە بەڕێوەدەبرێت",
   "replaceWorkflowWithStream": "نیشاندانی خۆکارانەی پەخشی کامێرا",
   "replaceAppWorkflowWithCameraStream": "شاشەکە بە شێوەیەکی ئۆتۆماتیکی پەخشی کامێرا پیشان دەدات هەر کە کامێرا دەستی بە تۆمارکردن کرد؛ ئەگەر وەستا، شاشەکە دەگەڕێتەوە بۆ پیشاندانی کاتەکانی نوێژ",
-  "streamMode": "دۆخی پەخش",
-  "streamModeDisabled": "ناچالاک",
-  "streamModeCamera": "پەخش پشت بە کامێرا دەبەستێت",
-  "streamModeJumuaOnly": "پەخش تەنها پشت بە هەینی دەبەستێت",
-  "streamModeJumuaAndPrayers": "پەخش پشت بە هەینی و 5 نوێژەکە دەبەستێت",
-  "streamRequiresSecondaryScreen": "ئەم تایبەتمەندییە تەنها کاردەکات کاتێک بەرنامەکە وەک شاشەیەکی لاوەکی کاردەکات. بۆ چالاککردنی:",
-  "streamSecondaryScreenStep1": "بڕۆ بۆ شاشە.",
-  "streamSecondaryScreenStep2": "\"دۆخی دەستپێکردنی بنەڕەت\" بکەرەوە.",
-  "streamSecondaryScreenStep3": "\"شاشەی لاوەکی\" هەڵبژێرە.",
-  "rtspServerNotAvailable": "سێرڤەری RTSP بەردەست نیە. تکایە پەیوەندی ئینتەرنێتەکەت بپشکنە.",
-  "settingsSavedSuccessfully": "ڕێکخستنەکان بە سەرکەوتووی پاشەکەوت کران",
   "streamError": "هەڵەیەک روویدا لەکاتی پەخشکردن",
   "finish": "کۆتای",
   "schedulingAlarms": "...دانانەوەی کات هەڵکردن/کوژاندونەوە",
@@ -514,10 +482,44 @@
   "@testAITranslation": {
     "description": "Test string for AI translation verification - can be deleted after testing"
   },
-  "testCrowdinCI": "دەقی تاقیکردنەوە بۆ پشتڕاستکردنەوەی وۆرکفلۆی Crowdin CI لە develop",
-  "@testCrowdinCI": {
-    "description": "Test string for Crowdin CI verification - can be deleted after testing"
-  },
+  "settingsSectionGlobal": "Giştî",
+  "hijriDateAdjustment": "Sererastkirina mêjûya hicrî",
+  "interfaceLanguage": "Zimanê navberê",
+  "launchModeMainPrayer": "Demên nimêja sereke",
+  "launchModeSecondaryPrayer": "Demên nimêja duyemîn",
+  "timezone": "Herêma demê",
+  "wifi": "WiFi",
+  "appDisplayMode": "شاشە",
+  "appDisplayModeExplanation": "هەڵبژێرە شاشەکەت چۆن ناوەڕۆک پیشان بدات",
+  "prayerTimeFontSize": "قەبارەی دەق و پیشاندان",
+  "prayerTimeFontSizeDesc": "قەبارەی دەق بگۆڕە لە هەموو بەرنامەکەدا",
+  "fontSizeSmall": "بچووک",
+  "fontSizeNormal": "ئاسایی",
+  "fontSizeLarge": "گەورە",
+  "fontSizeXLarge": "زۆر گەورە",
+  "athkarArabicFont": "فۆنتی عەرەبی ویردەکان",
+  "athkarArabicFontDesc": "فۆنتی عەرەبی ویردەکان هەڵبژێرە (دوای نوێژ، بانگ، هەینی، فەرموودە...)",
+  "athkarFontKufi": "کوفی",
+  "athkarFontUthmani": "عوسمانی",
+  "perPrayerRolloverOptionAfterIsha": "هەموویان پێکەوە دوای عیشا",
+  "forceStaging": "دۆخی تاقیکردنەوە",
+  "forcePreProduction": "پێش بەرهەمهێنان",
+  "environmentSwitchSuccess": "گۆڕینی ژینگە سەرکەوتوو بوو",
+  "environmentSwitchFailed": "گۆڕینی ژینگە سەرنەکەوت",
+  "ta": "تامیل",
+  "wifiForgetNetwork": "ئەم هێڵە لە ڕێکخستنەکانی ئەندرۆیددا زیادکراوە. تکایە لەوێ لەبیری بکەرەوە، پاشان دووبارە پەیوەست ببەرەوە.",
+  "urlManagedByMosqueAdmin": "بەستەرەکە لەلایەن بەڕێوەبەری مزگەوتەوە بەڕێوەدەبرێت",
+  "streamMode": "دۆخی پەخش",
+  "streamModeDisabled": "ناچالاک",
+  "streamModeCamera": "پەخش پشت بە کامێرا دەبەستێت",
+  "streamModeJumuaOnly": "پەخش تەنها پشت بە هەینی دەبەستێت",
+  "streamModeJumuaAndPrayers": "پەخش پشت بە هەینی و 5 نوێژەکە دەبەستێت",
+  "streamRequiresSecondaryScreen": "ئەم تایبەتمەندییە تەنها کاردەکات کاتێک بەرنامەکە وەک شاشەیەکی لاوەکی کاردەکات. بۆ چالاککردنی:",
+  "streamSecondaryScreenStep1": "بڕۆ بۆ شاشە.",
+  "streamSecondaryScreenStep2": "\"دۆخی دەستپێکردنی بنەڕەت\" بکەرەوە.",
+  "streamSecondaryScreenStep3": "\"شاشەی لاوەکی\" هەڵبژێرە.",
+  "rtspServerNotAvailable": "سێرڤەری RTSP بەردەست نیە. تکایە پەیوەندی ئینتەرنێتەکەت بپشکنە.",
+  "settingsSavedSuccessfully": "ڕێکخستنەکان بە سەرکەوتووی پاشەکەوت کران",
   "quranMode": "دۆخی قورئان",
   "@quranMode": {
     "description": "Label for Quran mode option in display mode settings"
@@ -525,14 +527,6 @@
   "quranModeExplanation": "شاشەی خوێندنەوەی قورئان پیشان بدە، دەستپێبکە لە کۆتا پەڕەی خوێندراوە",
   "@quranModeExplanation": {
     "description": "Explanation text for the Quran mode option"
-  },
-  "appDisplayMode": "پیشاندان",
-  "@appDisplayMode": {
-    "description": "Title for the display mode setting"
-  },
-  "appDisplayModeExplanation": "هەڵبژێرە شاشەکەت چۆن ناوەڕۆک پیشان بدات",
-  "@appDisplayModeExplanation": {
-    "description": "Subtitle for the display mode setting"
   },
   "exitQuranModeTitle": "دەرچوون لە دۆخی قورئان",
   "@exitQuranModeTitle": {
@@ -542,13 +536,6 @@
   "@exitQuranModeMessage": {
     "description": "Message body for the exit Quran mode confirmation dialog"
   },
-  "settingsSectionGlobal": "Giştî",
-  "hijriDateAdjustment": "Sererastkirina mêjûya hicrî",
-  "interfaceLanguage": "Zimanê navberê",
-  "launchModeMainPrayer": "Demên nimêja sereke",
-  "launchModeSecondaryPrayer": "Demên nimêja duyemîn",
-  "timezone": "Herêma demê",
-  "wifi": "WiFi",
   "tutorialGetStarted": "دەستپێبکە بە 4 هەنگاوی سادە",
   "@tutorialGetStarted": {
     "description": "Title for the mosque ID tutorial section"
@@ -593,45 +580,5 @@
   "tutorialFullTutorial": "فێرکاری تەواو",
   "@tutorialFullTutorial": {
     "description": "Label for the full video tutorial section"
-  },
-  "prayerTimeFontSize": "قەبارەی دەق و پیشاندان",
-  "@prayerTimeFontSize": {
-    "description": "Label for the app font size setting"
-  },
-  "prayerTimeFontSizeDesc": "گۆڕینی گەورەیی دەق لە هەموو بەرنامەکەدا",
-  "@prayerTimeFontSizeDesc": {
-    "description": "Description for the app font size setting"
-  },
-  "fontSizeSmall": "بچووک",
-  "@fontSizeSmall": {
-    "description": "Small font size option"
-  },
-  "fontSizeNormal": "ئاسایی",
-  "@fontSizeNormal": {
-    "description": "Normal font size option"
-  },
-  "fontSizeLarge": "گەورە",
-  "@fontSizeLarge": {
-    "description": "Large font size option"
-  },
-  "fontSizeXLarge": "زۆر گەورە",
-  "@fontSizeXLarge": {
-    "description": "Extra large font size option"
-  },
-  "athkarArabicFont": "فۆنتی عەرەبی بۆ ویرد",
-  "@athkarArabicFont": {
-    "description": "Title of the display setting that selects the Arabic font for Athkar content"
-  },
-  "athkarArabicFontDesc": "ئەو فۆنتە عەرەبییە هەڵبژێرە کە بۆ ویرد بەکاردێت (دوای نوێژ، بانگ، هەینی، فەرموودە...)",
-  "@athkarArabicFontDesc": {
-    "description": "Subtitle describing the Athkar Arabic font setting"
-  },
-  "athkarFontKufi": "کوفی",
-  "@athkarFontKufi": {
-    "description": "Label for the Kufi Arabic font option (default)"
-  },
-  "athkarFontUthmani": "عوسمانی",
-  "@athkarFontUthmani": {
-    "description": "Label for the Uthmani Arabic font option"
   }
 }

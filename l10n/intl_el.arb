@@ -63,6 +63,9 @@
   "iqamaIn": "Iqama σε",
   "iqamaShowClock": "Εμφάνιση ρολογιού στην οθόνη ικάμα",
   "iqamaShowClockDesc": "Εμφάνιση τρέχουσας ώρας και ημερομηνίας στην οθόνη αντίστροφης μέτρησης ικάμα",
+  "perPrayerRollover": "Αλλαγή ωρών προσευχής",
+  "perPrayerRolloverDesc": "Επιλέξτε πώς οι ώρες προσευχής περνούν στο αυριανό πρόγραμμα",
+  "perPrayerRolloverOptionPerPrayer": "Κάθε προσευχή ξεχωριστά",
   "alAthkar": "Al-Athkar",
   "azkarList0": "Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Κύριες ώρες προσευχής",
   "launchModeSecondaryPrayer": "Δευτερεύουσες ώρες προσευχής",
   "timezone": "Ζώνη ώρας",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Οθόνη",
+  "appDisplayModeExplanation": "Επιλέξτε πώς θα εμφανίζει το περιεχόμενο η οθόνη σας",
+  "prayerTimeFontSize": "Μέγεθος κειμένου και προβολής",
+  "prayerTimeFontSizeDesc": "Αλλάξτε πόσο μεγάλο εμφανίζεται το κείμενο σε όλη την εφαρμογή",
+  "fontSizeSmall": "Μικρό",
+  "fontSizeNormal": "Κανονικό",
+  "fontSizeLarge": "Μεγάλο",
+  "fontSizeXLarge": "Πολύ μεγάλο",
+  "athkarArabicFont": "Αραβική γραμματοσειρά για τα Athkar",
+  "athkarArabicFontDesc": "Επιλέξτε την αραβική γραμματοσειρά για τα Athkar (μετά το Salah, το Adhan, το Jumua, το Hadith...)",
+  "athkarFontKufi": "Κουφί",
+  "athkarFontUthmani": "Ουθμάνι",
+  "perPrayerRolloverOptionAfterIsha": "Όλες μαζί μετά το Isha"
 }

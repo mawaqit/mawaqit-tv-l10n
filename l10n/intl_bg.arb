@@ -63,6 +63,9 @@
   "iqamaIn": "Икамет след",
   "iqamaShowClock": "Показване на часовник на екрана на икама",
   "iqamaShowClockDesc": "Показване на текущото време и дата на екрана за обратно броене на икама",
+  "perPrayerRollover": "Превключване на времената за намаз",
+  "perPrayerRolloverDesc": "Изберете как времената за намаз преминават към утрешния ден",
+  "perPrayerRolloverOptionPerPrayer": "Всеки намаз поотделно",
   "alAthkar": "Зикрове след задължителния намаз",
   "azkarList0": "Естегфируллах, Естегфируллах, Естегфируллах !Аллахумме ентес-Селяму уе минекес-Селяму, Тебееракте йе зел джелели уел икрам. Аллахумме Еинни  але зикрике уе шукрике уе хусни ибадетик",
   "@azkarList0": {
@@ -485,5 +488,18 @@
   "launchModeMainPrayer": "Основни времена за молитва",
   "launchModeSecondaryPrayer": "Вторични времена за молитва",
   "timezone": "Часова зона",
-  "wifi": "WiFi"
+  "wifi": "WiFi",
+  "appDisplayMode": "Дисплей",
+  "appDisplayModeExplanation": "Изберете как екранът ви да показва съдържанието",
+  "prayerTimeFontSize": "Размер на текста и дисплея",
+  "prayerTimeFontSizeDesc": "Променете размера на текста в цялото приложение",
+  "fontSizeSmall": "Малък",
+  "fontSizeNormal": "Нормален",
+  "fontSizeLarge": "Голям",
+  "fontSizeXLarge": "Много голям",
+  "athkarArabicFont": "Арабски шрифт за зикровете",
+  "athkarArabicFontDesc": "Изберете арабския шрифт за зикровете (след намаз, езан, джума, хадис...)",
+  "athkarFontKufi": "Куфи",
+  "athkarFontUthmani": "Усмани",
+  "perPrayerRolloverOptionAfterIsha": "Всички заедно след Ятсия"
 }
