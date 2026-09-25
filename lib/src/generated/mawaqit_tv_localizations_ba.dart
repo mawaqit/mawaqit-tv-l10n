@@ -1192,4 +1192,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
 
   @override
   String get athkarFontUthmani => 'Ғосмани';
+
+  @override
+  String get crowdinSyncCheck => 'Prayer times are shown for your mosque';
 }

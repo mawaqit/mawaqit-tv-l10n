@@ -1192,6 +1192,9 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
 
   @override
   String get athkarFontUthmani => 'Uthmani';
+
+  @override
+  String get crowdinSyncCheck => 'Prayer times are shown for your mosque';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
