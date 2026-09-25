@@ -157,7 +157,6 @@ jobs:
         run: for f in l10n-poc/intl_*.arb; do echo "$f $(tr -d '\n' < "$f")"; done
 
   download-approved:
-    if: false
     runs-on: ubuntu-latest
     needs: upload-and-pretranslate
     steps:
@@ -174,7 +173,9 @@ jobs:
           skip_untranslated_strings: true
           export_only_approved: true
           push_translations: false
-          download_translations_args: '--verbose'
+
+      - name: Keep the English source from the repo
+        run: git checkout -- l10n-poc/intl_en.arb && git status --short l10n-poc/intl_en.arb && echo "en source restored" && cat l10n-poc/intl_en.arb
 
       - name: Print approved
         run: for f in l10n-poc/intl_*.arb; do echo "$f $(tr -d '\n' < "$f")"; done
@@ -201,6 +202,7 @@ jobs:
 
   # Read-only: what PR #82's crowdin.yml would upload/download on the real `dev` branch.
   dryrun-pr82:
+    if: false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
