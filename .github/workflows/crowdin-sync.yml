@@ -1,5 +1,9 @@
 name: Crowdin Sync
 
+# English change -> AI translation -> approved automatically -> PR.
+# A proofreader's approved edit in Crowdin replaces the AI text; crowdin-nightly.yml (on main)
+# starts this workflow every night so those edits reach GitHub without an English change.
+
 on:
   push:
     paths:
@@ -12,46 +16,57 @@ permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: crowdin-sync
+
+env:
+  # Crowdin branch `dev` mirrors git `dev` and holds every existing translation and approval.
+  CROWDIN_BRANCH: dev
+  CROWDIN_FILE: l10n/intl_en.arb
+  CROWDIN_AI_PROMPT_ID: ${{ vars.CROWDIN_AI_PROMPT_ID || '332920' }}
+  CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+  CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
 jobs:
-  sync-and-pretranslate:
+  sync-and-translate:
     runs-on: ubuntu-latest
+    # Only dev: the Crowdin branch mirrors it, so a run on main would upload older English.
+    if: github.ref == 'refs/heads/dev'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Sources are uploaded by Crowdin's own GitHub VCS integration (Integrations tab),
-      # not here — running both created a duplicate, out-of-sync source file in Crowdin.
-      #
-      # Translations are never uploaded from the repo back to Crowdin either — Crowdin
-      # is the one-way source of truth for translation text. Re-uploading the repo's
-      # own (possibly stale) files on every dev merge overwrote human approvals in
-      # Crowdin with old committed text, which is what happened repeatedly to the
-      # pt-PT translations in issue #2289 (and, before auto_approve_imported was
-      # turned off in a8e6ff5, the same round trip is what let a reversed-meaning
-      # Swedish hadith sit "Approved" in issue #2154).
-      - name: Wait for Crowdin's native VCS sync to pick up the new sources
-        run: sleep 60
-
-      - name: Pre-translate with AI
+      # This workflow is the only uploader. Crowdin's GitHub integration must stay
+      # unconfigured: running both created a second, out-of-sync intl_en.arb (#60).
+      # Translations are never uploaded — Crowdin is the source of truth for them, and
+      # re-uploading stale repo text overwrote human approvals (#2289, #2154).
+      - name: Upload sources to Crowdin
         uses: crowdin/github-action@v2
         with:
-          command: 'pre-translate'
-          # --auto-approve-option none is already the CLI default; pinned so a future
-          # edit can't quietly promote machine output to approved. --label lets us
-          # filter and bulk-review everything the AI wrote.
-          command_args: '--method ai --ai-prompt 332920 --translate-untranslated-only --auto-approve-option none --label ai'
-        env:
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+          upload_sources: true
+          upload_translations: false
+          download_translations: false
+          crowdin_branch_name: ${{ env.CROWDIN_BRANCH }}
+
+      # Crowdin cannot auto-approve AI output, so the script does it: it AI-translates every
+      # string without an approved translation, then approves only the AI ones (machine-
+      # translation drafts and people's suggestions stay unapproved).
+      - name: AI-translate strings without an approved translation
+        run: python3 .github/scripts/crowdin_ai.py pretranslate
+
+      - name: Approve the AI translations
+        run: python3 .github/scripts/crowdin_ai.py approve
 
   download-translations:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev'
-    needs: sync-and-pretranslate
+    if: github.ref == 'refs/heads/dev'
+    needs: sync-and-translate
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Only approved text reaches the app: AI translations approved above, or people's.
+      # With skip_untranslated_strings, anything else is left out and Flutter falls back to English.
       - name: Download translations from Crowdin
         uses: crowdin/github-action@v2
         with:
@@ -59,20 +74,36 @@ jobs:
           upload_translations: false
           download_translations: true
           skip_untranslated_strings: true
-          # Only human-approved text reaches the app. Combined with
-          # skip_untranslated_strings, unapproved strings are omitted from the .arb
-          # and Flutter falls back to English — preferable to shipping a wrong hadith.
           export_only_approved: true
-          localization_branch_name: l10n_crowdin_translations
-          create_pull_request: true
-          pull_request_title: 'chore(l10n): sync translations from Crowdin'
-          pull_request_body: |
-            This PR syncs the latest translations from Crowdin.
+          push_translations: false
+          crowdin_branch_name: ${{ env.CROWDIN_BRANCH }}
 
-            - Auto-generated by Crowdin GitHub Action
-            - Pre-translated strings using AI (GPT-4.1)
-          pull_request_base_branch_name: ${{ github.ref_name }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
-          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+      # The English source is owned by the repo. Never take it from Crowdin: an approved-only
+      # export of the `en` target would replace the template gen-l10n builds from.
+      - name: Keep the English source from the repo
+        run: git checkout -- l10n/intl_en.arb
+
+      # The app compiles against lib/src/generated, not the .arb files, so an .arb-only
+      # PR would change nothing on device.
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.24.5'
+
+      - name: Regenerate localizations
+        run: flutter gen-l10n
+
+      - name: List AI translations not yet reviewed
+        run: python3 .github/scripts/crowdin_ai.py report "$RUNNER_TEMP/pr-body.md"
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: l10n_crowdin_translations
+          base: ${{ github.ref_name }}
+          add-paths: |
+            l10n/*.arb
+            lib/src/generated/*.dart
+          commit-message: 'chore(l10n): sync translations from Crowdin'
+          title: 'chore(l10n): sync translations from Crowdin'
+          body-path: ${{ runner.temp }}/pr-body.md
+          delete-branch: true
