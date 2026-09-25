@@ -20,6 +20,7 @@ env:
 
 jobs:
   upload-and-pretranslate:
+    if: false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -47,7 +48,7 @@ jobs:
   # would. Then approves a few languages to test the approved-only download and which Crowdin
   # language lands in which intl_*.arb. Only ever touches Crowdin branch `poc`.
   mock-ai:
-    if: false  # billing fixed: real AI step runs instead
+    if: false
     runs-on: ubuntu-latest
     needs: upload-and-pretranslate
     steps:
@@ -94,6 +95,7 @@ jobs:
 
   # Read-only: which Kurdish / Serbian / Montenegrin variant holds the real work in the main file.
   diagnose-languages:
+    if: false
     runs-on: ubuntu-latest
     needs: upload-and-pretranslate
     steps:
@@ -133,6 +135,7 @@ jobs:
 
   # Prints every translation, approved or not, so the AI output can be read in the log.
   show-ai-drafts:
+    if: false
     runs-on: ubuntu-latest
     needs: upload-and-pretranslate
     steps:
@@ -154,6 +157,7 @@ jobs:
         run: for f in l10n-poc/intl_*.arb; do echo "$f $(tr -d '\n' < "$f")"; done
 
   download-approved:
+    if: false
     runs-on: ubuntu-latest
     needs: upload-and-pretranslate
     steps:
@@ -194,3 +198,21 @@ jobs:
           title: 'POC: Crowdin one-key sync (do not merge)'
           body: Approved translations for `crowdinPocCheck` from Crowdin branch `poc`.
           delete-branch: true
+
+  # Read-only: what PR #82's crowdin.yml would upload/download on the real `dev` branch.
+  dryrun-pr82:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/crowdin-sync-pipeline
+      - name: Upload sources (dry run)
+        uses: crowdin/github-action@v2
+        with:
+          command: 'upload sources'
+          command_args: '--branch dev --dryrun'
+      - name: Download translations (dry run)
+        uses: crowdin/github-action@v2
+        with:
+          command: 'download'
+          command_args: '--branch dev --dryrun'
