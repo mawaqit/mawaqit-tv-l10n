@@ -96,6 +96,14 @@ jobs:
               req = urllib.request.Request(BASE + path, headers={"Authorization": f"Bearer {TOKEN}"})
               with urllib.request.urlopen(req) as r:
                   return json.loads(r.read())
+          me = get("/user")["data"]
+          print("token owner:", me.get("username"), "| id", me.get("id"))
+          proj = get(f"/projects/{PID}")["data"]
+          print("project owner id:", proj.get("userId"))
+          for m in get(f"/projects/{PID}/members?limit=500")["data"]:
+              d = m["data"]; role = d.get("role") or [r.get("name") for r in d.get("roles", [])]
+              if d.get("id") == proj.get("userId") or "manager" in str(role) or "owner" in str(role):
+                  print(f"  member {d.get('username')} id={d.get('id')} role={role}")
           fid = 278  # "/[YassinNouh21.mawaqit-tv-l10n] dev/l10n/intl_en.arb" (from the approval audit)
           print("main file:", get(f"/projects/{PID}/files/{fid}")["data"]["path"])
           prog = {p["data"]["languageId"]: p["data"] for p in get(f"/projects/{PID}/files/{fid}/languages/progress?limit=100")["data"]}
