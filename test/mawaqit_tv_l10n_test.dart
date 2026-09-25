@@ -11,7 +11,7 @@ void main() {
   group('MawaqitTvLocaleConstants', () {
     test('should have all required supported locales', () {
       expect(MawaqitTvLocaleConstants.supportedLocales, isNotEmpty);
-      expect(MawaqitTvLocaleConstants.supportedLocales.length, equals(46));
+      expect(MawaqitTvLocaleConstants.supportedLocales.length, equals(47));
 
       // Check that English and Arabic are included
       expect(
@@ -130,7 +130,7 @@ void main() {
       expect(codes, contains('en'));
       expect(codes, contains('ar'));
       expect(codes, contains('fr'));
-      expect(codes.length, equals(46));
+      expect(codes.length, equals(47));
     });
 
     test('should create locale from string', () {

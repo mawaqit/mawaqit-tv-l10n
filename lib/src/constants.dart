@@ -33,6 +33,7 @@ class MawaqitTvLocaleConstants {
     Locale('id'), // Indonesian
     Locale('it'), // Italian
     Locale('ja'), // Japanese
+    Locale('km'), // Khmer
     Locale('ko'), // Korean
     Locale('ku'), // Kurdish
     Locale('lt'), // Lithuanian
@@ -83,6 +84,7 @@ class MawaqitTvLocaleConstants {
     'id': 'Bahasa Indonesia',
     'it': 'Italiano',
     'ja': '日本語',
+    'km': 'ខ្មែរ',
     'ko': '한국어',
     'ku': 'کوردی', // Kurdish in Kurdish script
     'lt': 'Lietuvių',
