@@ -58,7 +58,7 @@
   "afterAdhanHadithTitle": "Po adhanu Du`aa",
   "afterSalahHadith": "Allahumma Rabba hadhihid-da'wati-ttammati, was-salatil-qa'imati, ati Muhammadanil-wasilata wal-fadhilata, wab'athu maqaman mahmuda nilladhi wa 'adtahu [O Allah, Rubb tega popolnega poziva (Da'wah) in uveljavljene molitve (As-Salat), podeli Muhammedu Wasilah in superiornost ter ga povzdigni na hvalevreden položaj, ki si mu ga obljubil]",
   "alIqama": "Al Iqama",
-  "alAdhan": "Al Athan",
+  "alAdhan": "Al Adan",
   "turnOfPhones": "Prosimo, da telefone preklopite v tihi način",
   "iqamaIn": "Iqama v",
   "iqamaShowClock": "Prikaži uro na zaslonu ikame",
@@ -67,11 +67,11 @@
   "perPrayerRolloverDesc": "Izberite, kako se časi molitve preklopijo na jutrišnji urnik",
   "perPrayerRolloverOptionPerPrayer": "Vsaka molitev posebej",
   "alAthkar": "Al-Athkar",
-  "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
+  "azkarList0": "Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik",
   "@azkarList0": {
     "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
   },
-  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
+  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33-krat). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
@@ -91,7 +91,7 @@
   "@azkarList5": {
     "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
-  "azkarList6": "Lā 'ilāha 'illallāh, waḥdahu lā sharīka lah, lahu 'l-mulku wa lahu 'l-ḥamd, wa huwa `alā kulli shay'in qadīr, Allāhumma lā māni`a limā 'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.",
+  "azkarList6": "La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
@@ -131,7 +131,7 @@
   "jumuaaHadith": "Prophet ﷺ (mir in blagoslov Alaha naj bo z njim) je dejal: \"Kdor naredi ablutions popolnoma potem gre na jumua in nato posluša in je tiho, mu je odpuščeno, kar je med tem časom in naslednji petek in še tri dni in tisti, ki se dotika kamnov je zagotovo naredil jalovost \"",
   "shuruk": "Shuruk",
   "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duhaTime": "Čas Duha",
   "reset": "Ponastavitev",
   "mosqueNotFoundMessage": "Žal vaše mošeje ni bilo mogoče najti, morda manjka ali je začasno onemogočena.",
   "noInternetMessage": "Brez dostopa do interneta. Preverite svojo internetno povezavo in poskusite znova. Ali je vaš Wi-Fi ali ethernet povezan?",
@@ -181,7 +181,7 @@
   "announcementOnlyMode": "Način objav",
   "normalMode": "Običajni način ",
   "announcementOnlyModeEXPLINATION": "Izberite, ali bo zaslon ves čas prikazoval obvestila, kar je lahko koristno, če zaslon namestite na primer ob vhodu.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -327,7 +327,7 @@
   "checkingForUpdates": "Preverjanje posodobitev...",
   "chooseQuranType": "Izberite Koran",
   "hafs": "Hafs",
-  "warsh": "Warsh",
+  "warsh": "Warš",
   "favorites": "Priljubljene strani",
   "allReciters": "Vsi recitatorji",
   "reciterAddedToFavorites": "Recitator {name} je dodan med priljubljene",
@@ -501,5 +501,194 @@
   "athkarArabicFontDesc": "Izberite arabsko pisavo za Athkar (po molitvi, adhanu, Jumui, hadisu...)",
   "athkarFontKufi": "Kufi",
   "athkarFontUthmani": "Uthmani",
-  "perPrayerRolloverOptionAfterIsha": "Vse skupaj po molitvi Isha"
+  "perPrayerRolloverOptionAfterIsha": "Vse skupaj po molitvi Isha",
+  "thisIsATestFromIbrahim": "To je test od Ibrahima",
+  "forceStaging": "Staging (preizkusno okolje)",
+  "forcePreProduction": "Predprodukcija",
+  "environmentSwitchSuccess": "Okolje je bilo uspešno preklopljeno",
+  "environmentSwitchFailed": "Preklop okolja ni uspel",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "ta": "Tamilščina",
+  "wifiForgetNetwork": "To omrežje je bilo dodano v nastavitvah Android. Tam ga pozabite, nato se znova povežite.",
+  "urlManagedByMosqueAdmin": "URL upravlja upravitelj mošeje",
+  "streamMode": "Način prenosa",
+  "streamModeDisabled": "Onemogočeno",
+  "streamModeCamera": "Prenos je odvisen od kamere",
+  "streamModeJumuaOnly": "Prenos je odvisen samo od Džume",
+  "streamModeJumuaAndPrayers": "Prenos je odvisen od Džume in 5 molitev",
+  "streamRequiresSecondaryScreen": "Ta funkcija deluje le, ko aplikacija deluje kot sekundarni zaslon. Za omogočitev:",
+  "streamSecondaryScreenStep1": "Pojdite na Zaslon.",
+  "streamSecondaryScreenStep2": "Odprite \"Privzeti način zagona\".",
+  "streamSecondaryScreenStep3": "Izberite \"Sekundarni zaslon\".",
+  "rtspServerNotAvailable": "RTSP strežnik ni na voljo. Preverite povezavo.",
+  "settingsSavedSuccessfully": "Nastavitve so bile uspešno shranjene",
+  "testCrowdinCI": "Preizkusna vrstica za preverjanje Crowdin CI delovnega toka na develop",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Način Kur'an",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Prikaži zaslon za branje Kur'ana, začni na zadnji prebrani strani",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Izhod iz načina Kur'an",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Ali želite nazaj na običajni način?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "Začnite v 4 enostavnih korakih",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "Še nimate identifikacijske številke mošeje? Tako lahko to storite:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "Pojdite na mawaqit.net in ustvarite račun",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "Registrirajte svojo mošejo s fotografijami in naslovom",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "Pridobite svojo edinstveno identifikacijsko številko mošeje iz nadzorne plošče",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "Vnesite ID tukaj za povezavo TV zaslona",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "Korak {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "Skeniraj za registracijo",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "Uporabite telefon za ustvarjanje računa na mawaqit.net",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "Celoten vodnik",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "Časi molitev so prikazani za vašo mošejo",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

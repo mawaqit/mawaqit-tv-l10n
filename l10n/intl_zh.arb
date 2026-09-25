@@ -58,7 +58,7 @@
   "afterAdhanHadithTitle": "在adhan Du`aa之后",
   "afterSalahHadith": "Allahumma Rabba hadhihid-da'wati-ttammati, was-salatil-qa'imati, ati Muhammadanil-wasilata wal-fadhilata, wab'athu maqaman mahmuda nilladhi wa 'adtahu [O Allah, Rubb of this perfect call (Da'wah) and of the established prayer (As-Salat) , grant Muhammad the Wasilah and superiority, and raise him up to a praiseworthy position that You have promised him]",
   "alIqama": "身份证",
-  "alAdhan": "Al Athan",
+  "alAdhan": "Al Adan",
   "turnOfPhones": "请将您的手机调至静音模式",
   "iqamaIn": "Iqama在",
   "iqamaShowClock": "在伊卡玛屏幕上显示时钟",
@@ -130,8 +130,8 @@
   "jumuaaScreenTitle": "Jumuaa时间",
   "jumuaaHadith": "Assalamu Alaikom, and Baraka'Allah fikom for choosing MAWAQIT, the World's first and #1 Smart Mosque Network, used by millions of Muslims worldwide across 85+ countries since 2016. 我们为您提供最先进的智能清真寺显示，可在多种设备（手机、智能手表、电视屏幕）上使用，不收集或分享您的个人数据。我们是一个非营利组织，这个项目是一个 \"Waqf fi'sabili Allah\"（专门的捐赠）。请支持这个受祝福的项目，https://donate.mawaqit.net。您的捐款使这个项目对任何人、任何地方都是免费的，没有任何广告，也没有月度订阅费用。如果没有真主的帮助，这个项目是不可能实现的，因为真主把一群有才华和热情的志愿者聚集在一起，日以继夜地为你提供最好的服务，以及一个24/7的高端系统。请考虑捐款，让这个有福的项目继续下去。Baraka'Allah fikum感谢您的持续信任和支持。",
   "shuruk": "舒鲁克",
-  "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duha": "杜哈拜",
+  "duhaTime": "杜哈拜时间",
   "reset": "复位",
   "mosqueNotFoundMessage": "对不起，没有找到你的清真寺，或者它可能失踪或暂时失效。",
   "noInternetMessage": "没有互联网接入。请验证您的互联网连接并重试。你的Wi-Fi或以太网是否已连接？",
@@ -181,7 +181,7 @@
   "announcementOnlyMode": "公告模式",
   "normalMode": "正常模式 ",
   "announcementOnlyModeEXPLINATION": "选择你的屏幕是否会一直显示公告，如果你把屏幕安装在入口处，这可能很有用，例如。",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "口渴已解，血脉已润，赏赐已定， إن شاء الله。",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -206,7 +206,7 @@
   "hijriAdjustmentsDescription": "在您的设备上调整本地的 hirri 日期。这不会影响在线清真寺设置",
   "backoffice_default": "后台默认值",
   "recommended": "推荐的",
-  "sabah": "Sabah",
+  "sabah": "晨礼",
   "randomHadithLanguage": "随机hadith语言",
   "mosqueDefault": "从您的在线配置",
   "en": "英语",
@@ -220,7 +220,7 @@
   "fr_ar": "法语和阿拉伯语",
   "en_ar": "英语和阿拉伯语",
   "de_ar": "德语和阿拉伯语",
-  "ta_ar": "Tamil & Arabic",
+  "ta_ar": "泰米尔语和阿拉伯语",
   "tr_ar": "土耳其语和阿拉伯语",
   "es_ar": "西班牙语和阿拉伯语",
   "pt_ar": "葡萄牙语和阿拉伯语",
@@ -240,7 +240,7 @@
   "useDeviceTime": "使用设备时间",
   "selectTime": "选择时间",
   "previous": "上一个",
-  "appTimezone": "App Timezone",
+  "appTimezone": "应用时区",
   "descTimezone": "选择您的时区以获得准确的祈祷时间。",
   "appWifi": "连接到 wifi",
   "descWifi": "请连接到您喜欢的无线网络",
@@ -250,7 +250,7 @@
   "connect": "连接",
   "wifiPassword": "密码",
   "skip": "跳过",
-  "noSSID": "**Hidden SSID**",
+  "noSSID": "**隐藏SSID**",
   "close": "关闭",
   "search": "搜索",
   "wifiSuccess": "连接到 Wifi 成功。",
@@ -288,7 +288,7 @@
   "quranDownloaded": "Quran 已下载",
   "quranIsAlreadyDownloaded": "Quran 已经下载",
   "chooseReciter": "选择接收者",
-  "reciteType": "Recite Type",
+  "reciteType": "朗读类型",
   "readingMode": "我想阅读一下。",
   "listeningMode": "我想要收听的",
   "quranReadingPage": "{leftPage} - {rightPage} / {totalPages} 页",
@@ -372,7 +372,7 @@
       }
     }
   },
-  "surahSelector": "Select Surah",
+  "surahSelector": "选择苏拉",
   "checkForUpdates": "检查更新",
   "checkForNewVersion": "检查新版本是否可用",
   "wouldYouLikeToUpdate": "您想要更新应用程序吗？",
@@ -501,5 +501,188 @@
   "athkarArabicFontDesc": "选择 Athkar（礼拜后、adhan、Jumua、圣训…）所用的阿拉伯文字体",
   "athkarFontKufi": "库法体",
   "athkarFontUthmani": "奥斯曼体",
-  "perPrayerRolloverOptionAfterIsha": "Isha 之后一起切换"
+  "perPrayerRolloverOptionAfterIsha": "Isha 之后一起切换",
+  "thisIsATestFromIbrahim": "这是来自伊布拉欣的测试",
+  "forceStaging": "预发布环境",
+  "forcePreProduction": "预生产环境",
+  "environmentSwitchFailed": "环境切换失败",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "ta": "泰米尔语",
+  "wifiForgetNetwork": "该网络已在Android设置中添加。请先在设置中遗忘此网络，再重新连接。",
+  "urlManagedByMosqueAdmin": "由清真寺管理员管理的网址",
+  "streamMode": "流媒体模式",
+  "streamModeCamera": "流媒体依赖于摄像头",
+  "streamModeJumuaOnly": "流媒体仅限主麻",
+  "streamModeJumuaAndPrayers": "流媒体依赖主麻及五次拜功",
+  "streamRequiresSecondaryScreen": "该功能仅在应用作为副屏运行时有效。启用方法：",
+  "streamSecondaryScreenStep1": "进入显示设置。",
+  "streamSecondaryScreenStep2": "打开“默认启动模式”。",
+  "streamSecondaryScreenStep3": "选择“副屏”。",
+  "rtspServerNotAvailable": "RTSP 服务器不可用。请检查您的连接。",
+  "settingsSavedSuccessfully": "设置已成功保存",
+  "testCrowdinCI": "测试字符串，用于验证 Crowdin CI 流程",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "古兰经模式",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "显示古兰经阅读界面，从上次阅读页开始",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "退出古兰经模式",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "您要返回正常模式吗？",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "通过4个简单步骤开始",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "还没有清真寺ID？操作方法如下：",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "前往 mawaqit.net 创建账户",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "注册您的清真寺并上传照片与地址",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "在仪表板获取您唯一的清真寺ID",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "在此输入ID以连接您的电视显示屏",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "步骤 {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "扫码注册",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "请使用手机在 mawaqit.net 创建账户",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "此处显示的是您清真寺的礼拜时间",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

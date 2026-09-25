@@ -7,7 +7,7 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsMs([String locale = 'ms']) : super(locale);
 
   @override
-  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+  String get thisIsATestFromIbrahim => 'Ini ujian daripada Ibrahim';
 
   @override
   String get home => 'Paparan Utama';
@@ -49,19 +49,19 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get quit => 'Keluar';
 
   @override
-  String get forceStaging => 'Staging';
+  String get forceStaging => 'Mod ujian';
 
   @override
-  String get forcePreProduction => 'Pre-production';
+  String get forcePreProduction => 'Pra-pengeluaran';
 
   @override
   String get disableStaging => 'Beralih kepada mod pengeluaran';
 
   @override
-  String get environmentSwitchSuccess => 'Environment switched successfully';
+  String get environmentSwitchSuccess => 'Persekitaran berjaya ditukar';
 
   @override
-  String get environmentSwitchFailed => 'Failed to switch environment';
+  String get environmentSwitchFailed => 'Gagal menukar persekitaran';
 
   @override
   String get sureCloseApp => 'Adakah anda pasti untuk membatalkan permohonan?';
@@ -235,10 +235,10 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get alAthkar => 'Doa-doa';
 
   @override
-  String get azkarList0 => 'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
+  String get azkarList0 => 'Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma antassalam wa minkassalam, tabarakta ya zhal djalali wal ikram Allahumma A`inni `ala dhikrika wa zhukrika wa husni `ibadatik';
 
   @override
-  String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
+  String get azkarList1 => 'Subhan Allah wal hamdu lillah wallahu akbar (33 Kali) \nLa ilaha illa Allah, wahdahu la sharika lah, lahu lmulku wa lahulhamdu, wa hua `ala kulli shai in kadir';
 
   @override
   String get azkarList2 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
@@ -253,7 +253,7 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 => 'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
+  String get azkarList6 => 'La ilaha illal-lahu wahdahu la shareeka lah, lahul-mulku walahul-hamd, wahuwa ‘ala kulli shayin qadeer, allahumma la mani’a lima a’tayt, wa la mu’tiya lima mana’t, wala yanfa’u thal-jaddi minkal-jad';
 
   @override
   String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
@@ -292,7 +292,7 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get duha => 'Duha';
 
   @override
-  String get duhaTime => 'Duha Time';
+  String get duhaTime => 'Masa Solat Duha';
 
   @override
   String get reset => 'Set Semula';
@@ -442,7 +442,7 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Pilih sama ada skrin anda akan memaparkan pengumuman sepanjang masa, ini berguna sekiranya anda memasang skrin di pintu masuk.';
 
   @override
-  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Untuk ruang solat kedua (contohnya bilik wanita atau tingkat lain), skrin ini akan menunjukkan siaran langsung solat Jumaat';
@@ -658,7 +658,7 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get wifiFailure => 'Gagal sambung ke Wifi.';
 
   @override
-  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+  String get wifiForgetNetwork => 'Rangkaian ini telah ditambah dalam tetapan Android. Sila lupakan rangkaian tersebut di sana, kemudian sambung semula.';
 
   @override
   String get timezoneSuccess => 'Zon waktu berjaya ditetapkan.';
@@ -922,7 +922,7 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get somethingWentWrong => 'Ada masalah! Sila cuba lagi';
 
   @override
-  String get somethingWrong => 'Something went wrong';
+  String get somethingWrong => 'Ada masalah berlaku';
 
   @override
   String get tryAgainLater => 'Sila cuba sebentar lagi';
@@ -1018,7 +1018,7 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get rtspUrlHint => 'Masukkan URL RTSP atau pautan YouTube';
 
   @override
-  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
+  String get urlManagedByMosqueAdmin => 'URL diuruskan oleh pentadbir masjid';
 
   @override
   String get replaceWorkflowWithStream => 'Paparan penstriman kamera secara automatik';
@@ -1027,37 +1027,37 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get replaceAppWorkflowWithCameraStream => 'Skrin akan memaparkan penstriman kamera secara automatik sebaik sahaja rakaman dimulakan; jika berhenti, skrin kembali memaparkan waktu solat';
 
   @override
-  String get streamMode => 'Stream mode';
+  String get streamMode => 'Mod Strim';
 
   @override
-  String get streamModeDisabled => 'Disabled';
+  String get streamModeDisabled => 'Dilumpuhkan';
 
   @override
-  String get streamModeCamera => 'Stream depends on camera';
+  String get streamModeCamera => 'Strim bergantung pada kamera';
 
   @override
-  String get streamModeJumuaOnly => 'Stream depends on Jumua only';
+  String get streamModeJumuaOnly => 'Strim hanya bergantung pada Jumua';
 
   @override
-  String get streamModeJumuaAndPrayers => 'Stream depends on Jumua and the 5 prayers';
+  String get streamModeJumuaAndPrayers => 'Strim bergantung pada Jumua dan 5 waktu solat';
 
   @override
-  String get streamRequiresSecondaryScreen => 'This feature only works when the app runs as a secondary screen. To enable it:';
+  String get streamRequiresSecondaryScreen => 'Ciri ini hanya berfungsi apabila aplikasi berjalan sebagai skrin sekunder. Untuk mengaktifkannya:';
 
   @override
-  String get streamSecondaryScreenStep1 => 'Go to Display.';
+  String get streamSecondaryScreenStep1 => 'Pergi ke Paparan.';
 
   @override
-  String get streamSecondaryScreenStep2 => 'Open \"Default launch mode\".';
+  String get streamSecondaryScreenStep2 => 'Buka \"Mod pelancaran lalai\".';
 
   @override
-  String get streamSecondaryScreenStep3 => 'Select \"Secondary screen\".';
+  String get streamSecondaryScreenStep3 => 'Pilih \"Skrin Kedua\".';
 
   @override
-  String get rtspServerNotAvailable => 'RTSP server is not available. Please check your connection.';
+  String get rtspServerNotAvailable => 'Pelayan RTSP tidak tersedia. Sila periksa sambungan anda.';
 
   @override
-  String get settingsSavedSuccessfully => 'Settings saved successfully';
+  String get settingsSavedSuccessfully => 'Tetapan berjaya disimpan';
 
   @override
   String get streamError => 'Ralat berlaku semasa penstriman';
@@ -1090,13 +1090,13 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get testAITranslation => 'Ini adalah teks ujian untuk mengesahkan terjemahan AI berfungsi dengan betul';
 
   @override
-  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
+  String get testCrowdinCI => 'Rentetan ujian untuk mengesahkan aliran kerja Crowdin CI pada develop';
 
   @override
-  String get quranMode => 'Quran mode';
+  String get quranMode => 'Mod Quran';
 
   @override
-  String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
+  String get quranModeExplanation => 'Papar skrin pembacaan Quran, bermula dari halaman terakhir dibaca';
 
   @override
   String get appDisplayMode => 'Paparan';
@@ -1105,10 +1105,10 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get appDisplayModeExplanation => 'Pilih cara skrin anda memaparkan kandungan';
 
   @override
-  String get exitQuranModeTitle => 'Exit Quran Mode';
+  String get exitQuranModeTitle => 'Keluar Mod Quran';
 
   @override
-  String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+  String get exitQuranModeMessage => 'Adakah anda ingin kembali ke mod normal?';
 
   @override
   String get settingsSectionGlobal => 'Umum';
@@ -1132,36 +1132,36 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get wifi => 'WiFi';
 
   @override
-  String get tutorialGetStarted => 'Get started in 4 simple steps';
+  String get tutorialGetStarted => 'Mulakan dengan 4 langkah mudah';
 
   @override
-  String get tutorialDontHaveId => 'Don\'t have a Mosque ID yet? Here\'s how:';
+  String get tutorialDontHaveId => 'Belum ada ID Masjid? Ini caranya:';
 
   @override
-  String get tutorialStep1 => 'Go to mawaqit.net and create an account';
+  String get tutorialStep1 => 'Pergi ke mawaqit.net dan cipta akaun';
 
   @override
-  String get tutorialStep2 => 'Register your mosque with photos & address';
+  String get tutorialStep2 => 'Daftar masjid anda dengan gambar & alamat';
 
   @override
-  String get tutorialStep3 => 'Get your unique Mosque ID from your dashboard';
+  String get tutorialStep3 => 'Dapatkan ID Masjid unik anda dari papan pemuka anda';
 
   @override
-  String get tutorialStep4 => 'Enter the ID here to connect your TV display';
+  String get tutorialStep4 => 'Masukkan ID di sini untuk sambungkan paparan TV anda';
 
   @override
   String tutorialStep(String step) {
-    return 'Step $step  ';
+    return 'Langkah $step  ';
   }
 
   @override
-  String get tutorialScanToRegister => 'Scan to register';
+  String get tutorialScanToRegister => 'Imbas untuk daftar';
 
   @override
-  String get tutorialScanDescription => 'Use your phone to create an account on mawaqit.net';
+  String get tutorialScanDescription => 'Gunakan telefon anda untuk membuat akaun di mawaqit.net';
 
   @override
-  String get tutorialFullTutorial => 'Full tutorial';
+  String get tutorialFullTutorial => 'Tutorial penuh';
 
   @override
   String get prayerTimeFontSize => 'Saiz paparan dan teks';
@@ -1194,5 +1194,5 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get athkarFontUthmani => 'Uthmani';
 
   @override
-  String get crowdinSyncCheck => 'Prayer times are shown for your mosque';
+  String get crowdinSyncCheck => 'Waktu solat dipaparkan untuk masjid anda';
 }

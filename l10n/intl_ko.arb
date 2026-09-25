@@ -130,8 +130,8 @@
   "jumuaaScreenTitle": "주무아 시간",
   "jumuaaHadith": "예언자 ﷺ(알라의 평화와 축복이 그에게 있을 것임)는 \"누구든지 완벽하게 금식을 한 다음 주무아에 가서 듣고 침묵하는 사람은 그 시간부터 다음 주 금요일까지 사흘 동안의 일을 용서받으며 돌을 만지는 사람은 확실히 헛된 일을 한 것이다\"라고 말했습니다.",
   "shuruk": "슈룩",
-  "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duha": "두하",
+  "duhaTime": "두하 시간",
   "reset": "초기화",
   "mosqueNotFoundMessage": "모스크를 찾을 수 없거나 누락되었거나 일시적으로 비활성화되었을 수 있습니다.",
   "noInternetMessage": "인터넷에 접속할 수 없습니다. 인터넷 연결을 확인한 후 다시 시도하세요. Wi-Fi 또는 이더넷이 연결되어 있나요?",
@@ -181,7 +181,7 @@
   "announcementOnlyMode": "공지 사항 모드",
   "normalMode": "일반 모드 ",
   "announcementOnlyModeEXPLINATION": "화면에 항상 공지사항을 표시할지 여부를 선택하면 예를 들어 입구에 화면을 설치하는 경우에 유용할 수 있습니다.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -501,5 +501,194 @@
   "athkarArabicFontDesc": "아즈카르(기도 후, 아잔, 주무아, 하디스...)에 사용할 아랍어 글꼴을 선택하세요",
   "athkarFontKufi": "쿠피",
   "athkarFontUthmani": "우스마니",
-  "perPrayerRolloverOptionAfterIsha": "이샤 후 모두 함께"
+  "perPrayerRolloverOptionAfterIsha": "이샤 후 모두 함께",
+  "thisIsATestFromIbrahim": "이것은 이브라힘의 테스트입니다.",
+  "forceStaging": "스테이징으로 전환",
+  "forcePreProduction": "사전 테스트 환경",
+  "environmentSwitchSuccess": "환경이 성공적으로 전환되었습니다",
+  "environmentSwitchFailed": "환경 전환에 실패했습니다",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "ta": "타밀어",
+  "wifiForgetNetwork": "이 네트워크는 안드로이드 설정에서 추가되었습니다. 그곳에서 삭제 후 다시 연결해 주세요.",
+  "urlManagedByMosqueAdmin": "모스크 관리자에 의해 관리되는 URL",
+  "streamMode": "스트림 모드",
+  "streamModeDisabled": "비활성화됨",
+  "streamModeCamera": "스트림은 카메라에 따라 결정됩니다",
+  "streamModeJumuaOnly": "스트림은 주무아에만 적용됩니다",
+  "streamModeJumuaAndPrayers": "스트림은 주무아와 5번의 기도에 적용됩니다",
+  "streamRequiresSecondaryScreen": "이 기능은 앱이 보조 화면으로 실행될 때만 작동합니다. 활성화하려면:",
+  "streamSecondaryScreenStep1": "디스플레이로 이동하세요.",
+  "streamSecondaryScreenStep2": "\"기본 실행 모드\"를 여세요.",
+  "streamSecondaryScreenStep3": "\"보조 화면\"을 선택하세요.",
+  "rtspServerNotAvailable": "RTSP 서버를 사용할 수 없습니다. 연결을 확인해 주세요.",
+  "settingsSavedSuccessfully": "설정이 성공적으로 저장되었습니다",
+  "testCrowdinCI": "Crowdin CI 워크플로우를 개발에서 확인하는 테스트 문자열",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "꾸란 모드",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "마지막으로 읽은 페이지부터 꾸란 읽기 화면이 표시됩니다",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "꾸란 모드 종료",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "일반 모드로 돌아가시겠습니까?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "간단한 4단계로 시작하세요",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "아직 마스지드 ID가 없으신가요? 이렇게 하세요:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "mawaqit.net에 접속해 계정을 만드세요",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "사진과 주소와 함께 마스지드를 등록하세요",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "대시보드에서 고유한 마스지드 ID를 확인하세요",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "여기에 ID를 입력해서 TV 디스플레이를 연결하세요",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "{step}단계  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "스캔하여 등록하기",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "휴대폰으로 mawaqit.net에 계정을 만드세요",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "전체 튜토리얼",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "기도 시간이 귀하의 마스지드에 표시됩니다",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }
