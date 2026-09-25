@@ -3,7 +3,7 @@
 
 Crowdin cannot auto-approve AI (or MT) pre-translations, so this script does it:
 
-  baseline MODE  one-time migration (crowdin-baseline.yml on main), MODE report|apply: make
+  baseline MODE  one-time migration (run 2026-09-25 from a temporary workflow), MODE report|apply: make
                  the repo's intl_<lang>.arb translations the approved ones in Crowdin and label
                  those strings github-baseline-2026-09-25. Not part of the recurring sync: after
                  it, Crowdin is the source of truth for translations
