@@ -158,7 +158,6 @@ jobs:
 
   download-approved:
     runs-on: ubuntu-latest
-    needs: upload-and-pretranslate
     steps:
       - uses: actions/checkout@v4
 
