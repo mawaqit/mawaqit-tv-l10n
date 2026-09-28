@@ -47,7 +47,7 @@
   "networkStatus": "Состояние сети",
   "mosqueNoMore": "Больше никаких результатов",
   "mosqueNoResults": "Нет результатов",
-  "offline": "Offline",
+  "offline": "Оффлайн",
   "imsak": "Имсак",
   "jumua": "Джумуа",
   "duhr": "Зухр",
@@ -130,8 +130,8 @@
   "jumuaaScreenTitle": "Время джумуа",
   "jumuaaHadith": "Пророк ﷺ (да благословит его Аллах и приветствует) сказал: \"Кто совершит омовение в совершенстве, затем отправится на джумуа, а потом будет слушать и молчать, тому прощается то, что находится между этим временем и следующей пятницей и еще три дня, а тот, кто прикоснется к камням, непременно совершит тщету\"",
   "shuruk": "Шурук",
-  "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duha": "Духа",
+  "duhaTime": "Время духа",
   "reset": "Сброс",
   "mosqueNotFoundMessage": "К сожалению, Ваша мечеть не найдена, возможно, она отсутствует или временно отключена.",
   "noInternetMessage": "Нет доступа к интернету. Пожалуйста, проверьте подключение к Интернету и повторите попытку. Подключен ли Ваш Wi-Fi или Ethernet?",
@@ -181,7 +181,7 @@
   "announcementOnlyMode": "Режим объявлений",
   "normalMode": "Нормальный режим ",
   "announcementOnlyModeEXPLINATION": "Выберите, будет ли Ваш экран постоянно показывать объявления, это может быть полезно, если Вы установите экран, например, у входа.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "Захаб аз-зама’у ва-ибталлат аль-‘урук ва-сабат аль-аджр, ин ша Аллах",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -240,7 +240,7 @@
   "useDeviceTime": "Использовать время устройства",
   "selectTime": "Выберите время",
   "previous": "Предыдущий",
-  "appTimezone": "App Timezone",
+  "appTimezone": "Часовой пояс приложения",
   "descTimezone": "Выберите свой часовой пояс для получения корректного времени молитвы.",
   "appWifi": "Подключиться к Wi-Fi",
   "descWifi": "Пожалуйста, подключитесь к предпочитаемой wifi",
@@ -250,7 +250,7 @@
   "connect": "Подключиться",
   "wifiPassword": "Пароль",
   "skip": "Пропустить",
-  "noSSID": "**Hidden SSID**",
+  "noSSID": "**Скрытый SSID**",
   "close": "Закрыть",
   "search": "Поиск",
   "wifiSuccess": "Успешно подключено к Wifi.",
@@ -288,7 +288,7 @@
   "quranDownloaded": "Коран загружен",
   "quranIsAlreadyDownloaded": "Коран уже загружен",
   "chooseReciter": "Выберите получателя",
-  "reciteType": "Recite Type",
+  "reciteType": "Тип чтения",
   "readingMode": "Я хочу прочитать",
   "listeningMode": "Я хочу слушать",
   "quranReadingPage": "Страница {leftPage} - {rightPage} / {totalPages}",
@@ -372,7 +372,7 @@
       }
     }
   },
-  "surahSelector": "Select Surah",
+  "surahSelector": "Выбор суры",
   "checkForUpdates": "Проверить обновления",
   "checkForNewVersion": "Проверить наличие новой версии",
   "wouldYouLikeToUpdate": "Вы хотите обновить приложение?",
@@ -501,5 +501,184 @@
   "athkarArabicFontDesc": "Выберите арабский шрифт для азкаров (после намаза, азана, джумуа, хадиса...)",
   "athkarFontKufi": "Куфи",
   "athkarFontUthmani": "Усмани",
-  "perPrayerRolloverOptionAfterIsha": "Все вместе после Иша"
+  "perPrayerRolloverOptionAfterIsha": "Все вместе после Иша",
+  "thisIsATestFromIbrahim": "Это тест от Ибрахима",
+  "forceStaging": "Переход к постановке",
+  "forcePreProduction": "Пре-продакшн",
+  "environmentSwitchSuccess": "Среда успешно переключена",
+  "environmentSwitchFailed": "Не удалось переключить среду",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "ta": "Тамильский",
+  "wifiForgetNetwork": "Эта сеть была добавлена в настройках Android. Пожалуйста, забудьте её там, а затем подключитесь снова.",
+  "urlManagedByMosqueAdmin": "URL управляется администратором мечети",
+  "streamMode": "Режим трансляции",
+  "streamModeDisabled": "Выключено",
+  "streamModeCamera": "Трансляция зависит от камеры",
+  "streamModeJumuaOnly": "Трансляция только во время Джума",
+  "streamModeJumuaAndPrayers": "Трансляция во время Джума и 5 молитв",
+  "streamRequiresSecondaryScreen": "Эта функция работает только когда приложение запущено как второй экран. Чтобы включить:",
+  "streamSecondaryScreenStep1": "Перейдите к экрану.",
+  "streamSecondaryScreenStep2": "Откройте «Режим запуска по умолчанию».",
+  "streamSecondaryScreenStep3": "Выберите \"Второй экран\".",
+  "rtspServerNotAvailable": "RTSP-сервер недоступен. Пожалуйста, проверьте подключение.",
+  "testCrowdinCI": "Тестовая строка для проверки CI Crowdin на develop",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Коран-режим",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Показывать экран чтения Корана, начиная с последней прочитанной страницы",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Выйти из режима Корана",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Вы хотите вернуться в обычный режим?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "Начните в 4 простых шага",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "Ещё нет идентификатора мечети? Вот как:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "Перейдите на mawaqit.net и создайте аккаунт",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "Зарегистрируйте вашу мечеть с фотографиями и адресом",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "Получите уникальный ID мечети в вашей панели управления",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "Введите этот ID здесь, чтобы подключить ваш ТВ-дисплей",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialScanToRegister": "Отсканируйте для регистрации",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "Используйте телефон для создания аккаунта на mawaqit.net",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "Полное руководство",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "Время молитвы отображается для вашей мечети",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

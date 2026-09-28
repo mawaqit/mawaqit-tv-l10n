@@ -7,7 +7,7 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsTr([String locale = 'tr']) : super(locale);
 
   @override
-  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+  String get thisIsATestFromIbrahim => 'Bu İbrahim\'den bir testtir';
 
   @override
   String get home => 'Ana Sayfa';
@@ -89,12 +89,12 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
 
   @override
   String countdownPrayer(String name, String time) {
-    return '$name Athan in $time';
+    return '$name Kalan Süre $time';
   }
 
   @override
   String countdownNonPrayer(String name, String time) {
-    return '$name in $time';
+    return '$name Kalan Süre $time';
   }
 
   @override
@@ -658,7 +658,7 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get wifiFailure => 'Wifi\'ye bağlanılamadı.';
 
   @override
-  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+  String get wifiForgetNetwork => 'Bu ağ Android ayarlarında eklendi. Lütfen orada unutun, ardından tekrar bağlanın.';
 
   @override
   String get timezoneSuccess => 'Saat dilimi başarıyla ayarlandı.';
@@ -1045,13 +1045,13 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get streamRequiresSecondaryScreen => 'Bu özellik, yalnızca ekran ikinci ekran olarak ayarlandığında kullanılabilir';
 
   @override
-  String get streamSecondaryScreenStep1 => 'Go to Display.';
+  String get streamSecondaryScreenStep1 => 'Ekrana gidin.';
 
   @override
-  String get streamSecondaryScreenStep2 => 'Open \"Default launch mode\".';
+  String get streamSecondaryScreenStep2 => '\"Varsayılan başlatma modu\"nu açın.';
 
   @override
-  String get streamSecondaryScreenStep3 => 'Select \"Secondary screen\".';
+  String get streamSecondaryScreenStep3 => '\"İkincil ekran\"ı seçin.';
 
   @override
   String get rtspServerNotAvailable => 'RTSP sunucusu kullanılamıyor. Lütfen bağlantınızı kontrol edin.';
@@ -1194,5 +1194,5 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get athkarFontUthmani => 'Osmani';
 
   @override
-  String get crowdinSyncCheck => 'Prayer times are shown for your mosque';
+  String get crowdinSyncCheck => 'Namaz vakitleri caminiz için gösteriliyor';
 }

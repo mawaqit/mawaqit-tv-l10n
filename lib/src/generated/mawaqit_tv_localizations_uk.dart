@@ -7,7 +7,7 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsUk([String locale = 'uk']) : super(locale);
 
   @override
-  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+  String get thisIsATestFromIbrahim => 'Це тест від Ібрагіма';
 
   @override
   String get home => 'Головна';
@@ -49,19 +49,19 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   String get quit => 'Звільнися.';
 
   @override
-  String get forceStaging => 'Staging';
+  String get forceStaging => 'Тестове середовище';
 
   @override
-  String get forcePreProduction => 'Pre-production';
+  String get forcePreProduction => 'Передвиробниче середовище';
 
   @override
   String get disableStaging => 'Перемкнутись у робочий режим';
 
   @override
-  String get environmentSwitchSuccess => 'Environment switched successfully';
+  String get environmentSwitchSuccess => 'Середовище успішно змінено';
 
   @override
-  String get environmentSwitchFailed => 'Failed to switch environment';
+  String get environmentSwitchFailed => 'Не вдалося перемкнути середовище';
 
   @override
   String get sureCloseApp => 'Ви впевнені, що хочете вийти з програми?';
@@ -289,10 +289,10 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   String get shuruk => 'Шурук';
 
   @override
-  String get duha => 'Duha';
+  String get duha => 'Духа';
 
   @override
-  String get duhaTime => 'Duha Time';
+  String get duhaTime => 'Час Духа';
 
   @override
   String get reset => 'Перезавантаження';
@@ -442,7 +442,7 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Виберіть, чи будуть на екрані постійно показуватися оголошення, це може бути корисно, якщо ви встановите екран, наприклад, біля входу.';
 
   @override
-  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'Захаба-з-зама’у ва-абтиллаті-ль-‘урук, ва сабата-ль-аджр, ін шаа Аллах';
 
   @override
   String get secondaryScreenExplanation => 'Для додаткового молитовного приміщення (наприклад, жіночої кімнати або іншого поверху) на цьому екрані буде показана пряма трансляція Джума';
@@ -541,7 +541,7 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   String get nl => 'Нідерландська';
 
   @override
-  String get ta => 'Tamil';
+  String get ta => 'Тамільська';
 
   @override
   String get fr_ar => 'Французька та арабська';
@@ -658,7 +658,7 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   String get wifiFailure => 'Не вдалося приєднатися до Wi-Fi.';
 
   @override
-  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+  String get wifiForgetNetwork => 'Ця мережа була додана в налаштуваннях Android. Будь ласка, видаліть її там, а потім підключіться знову.';
 
   @override
   String get timezoneSuccess => 'Часовий пояс успішно встановлено.';
@@ -1018,7 +1018,7 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   String get rtspUrlHint => 'Введіть посилання RTSP або YouTube';
 
   @override
-  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
+  String get urlManagedByMosqueAdmin => 'URL керується адміністратором мечеті';
 
   @override
   String get replaceWorkflowWithStream => 'Автоматично відображати потік камери';
@@ -1027,34 +1027,34 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   String get replaceAppWorkflowWithCameraStream => 'Екран автоматично буде відображати потік камери, як тільки камера почне записуватися; якщо воно зупиняється, екран повертається до показу молитви';
 
   @override
-  String get streamMode => 'Stream mode';
+  String get streamMode => 'Режим потоку';
 
   @override
   String get streamModeDisabled => 'Disabled';
 
   @override
-  String get streamModeCamera => 'Stream depends on camera';
+  String get streamModeCamera => 'Трансляція залежить від камери';
 
   @override
-  String get streamModeJumuaOnly => 'Stream depends on Jumua only';
+  String get streamModeJumuaOnly => 'Трансляція лише під час Джума';
 
   @override
-  String get streamModeJumuaAndPrayers => 'Stream depends on Jumua and the 5 prayers';
+  String get streamModeJumuaAndPrayers => 'Трансляція під час Джума і 5 намазів';
 
   @override
-  String get streamRequiresSecondaryScreen => 'This feature only works when the app runs as a secondary screen. To enable it:';
+  String get streamRequiresSecondaryScreen => 'Ця функція працює лише коли застосунок запускається як другий екран. Щоб увімкнути:';
 
   @override
-  String get streamSecondaryScreenStep1 => 'Go to Display.';
+  String get streamSecondaryScreenStep1 => 'Перейдіть до Дисплея.';
 
   @override
-  String get streamSecondaryScreenStep2 => 'Open \"Default launch mode\".';
+  String get streamSecondaryScreenStep2 => 'Відкрийте \"Типовий режим запуску\".';
 
   @override
-  String get streamSecondaryScreenStep3 => 'Select \"Secondary screen\".';
+  String get streamSecondaryScreenStep3 => 'Оберіть \"Додатковий екран\".';
 
   @override
-  String get rtspServerNotAvailable => 'RTSP server is not available. Please check your connection.';
+  String get rtspServerNotAvailable => 'RTSP-сервер недоступний. Будь ласка, перевірте з\'єднання.';
 
   @override
   String get settingsSavedSuccessfully => 'Settings saved successfully';
@@ -1090,13 +1090,13 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   String get testAITranslation => 'Це тестовий рядок, щоб перевірити правильність роботи з перекладом AI';
 
   @override
-  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
+  String get testCrowdinCI => 'Тестовий рядок для перевірки Crowdin CI у develop';
 
   @override
-  String get quranMode => 'Quran mode';
+  String get quranMode => 'Режим Кур\'ану';
 
   @override
-  String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
+  String get quranModeExplanation => 'Відобразити екран читання Кур\'ану, починаючи з останньої прочитаної сторінки';
 
   @override
   String get appDisplayMode => 'Екран';
@@ -1105,10 +1105,10 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   String get appDisplayModeExplanation => 'Виберіть, як ваш екран показуватиме вміст';
 
   @override
-  String get exitQuranModeTitle => 'Exit Quran Mode';
+  String get exitQuranModeTitle => 'Вийти з режиму Кур\'ану';
 
   @override
-  String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+  String get exitQuranModeMessage => 'Бажаєте повернутися до звичайного режиму?';
 
   @override
   String get settingsSectionGlobal => 'Загальні';
@@ -1132,36 +1132,36 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   String get wifi => 'WiFi';
 
   @override
-  String get tutorialGetStarted => 'Get started in 4 simple steps';
+  String get tutorialGetStarted => 'Почніть у 4 простих кроки';
 
   @override
-  String get tutorialDontHaveId => 'Don\'t have a Mosque ID yet? Here\'s how:';
+  String get tutorialDontHaveId => 'Ще не маєте ідентифікатора мечеті? Ось як:';
 
   @override
-  String get tutorialStep1 => 'Go to mawaqit.net and create an account';
+  String get tutorialStep1 => 'Перейдіть на mawaqit.net та створіть обліковий запис';
 
   @override
-  String get tutorialStep2 => 'Register your mosque with photos & address';
+  String get tutorialStep2 => 'Зареєструйте свою мечеть із фото та адресою';
 
   @override
-  String get tutorialStep3 => 'Get your unique Mosque ID from your dashboard';
+  String get tutorialStep3 => 'Отримайте унікальний ідентифікатор мечеті на вашій панелі управління';
 
   @override
-  String get tutorialStep4 => 'Enter the ID here to connect your TV display';
+  String get tutorialStep4 => 'Введіть ідентифікатор тут, щоб підключити телевізор';
 
   @override
   String tutorialStep(String step) {
-    return 'Step $step  ';
+    return 'Крок $step  ';
   }
 
   @override
-  String get tutorialScanToRegister => 'Scan to register';
+  String get tutorialScanToRegister => 'Скануйте для реєстрації';
 
   @override
-  String get tutorialScanDescription => 'Use your phone to create an account on mawaqit.net';
+  String get tutorialScanDescription => 'Використайте телефон, щоб створити обліковий запис на mawaqit.net';
 
   @override
-  String get tutorialFullTutorial => 'Full tutorial';
+  String get tutorialFullTutorial => 'Повний підручник';
 
   @override
   String get prayerTimeFontSize => 'Розмір тексту та екрана';
@@ -1194,5 +1194,5 @@ class MawaqitTvLocalizationsUk extends MawaqitTvLocalizations {
   String get athkarFontUthmani => 'Усмані';
 
   @override
-  String get crowdinSyncCheck => 'Prayer times are shown for your mosque';
+  String get crowdinSyncCheck => 'Час молитви показаний для вашої мечеті';
 }

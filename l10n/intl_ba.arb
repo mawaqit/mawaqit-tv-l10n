@@ -7,7 +7,6 @@
   "automaticUpdate": "Яңыртыу тураһында хәбәр итеү",
   "automaticUpdateDescription": "Һуңғы мөмкинлектәрҙе һәм яҡшыртыуҙарҙы алыр өсөн яңыртыу хәбәрҙәрен ҡабыҙығыҙ",
   "checkInternetLegacyMode": "Иҫке режимды ҡулланыр өсөн интернетҡа тоташырға кәрәк",
-  "notification": "Белдереүҙәр",
   "languages": "Njoftim",
   "appLang": "Ҡушымтаның Теле",
   "descLang": "Зинһар, кәрәкле телде һайлап алығыҙ",
@@ -21,34 +20,14 @@
   "ok": "ЯРАЙ",
   "cancel": "КИРЕ ҠАЙТАРЫУ",
   "changeTheme": "Теманы Алмаштырырға",
-  "customizeYourOwnWay": "Үҙ опцияғыҙҙы көйләгеҙ",
-  "navigationBarStyle": "Навигация панельдарҙың стиле",
-  "headerType": "Атаманың төрө",
-  "leftButtonOption": "Борғостарҙың Опциялары (һулдан)",
-  "rightButtonOption": "Борғостарҙың Опциялары (уңдан)",
-  "colorGradient": "Төҫлө Градиент",
-  "colorSolid": "Тотош Төҫлө",
-  "loadingAnimation": "Анимацияны йөкләү",
-  "backToHomePage": "Төпбиткә Ҡайтырға",
   "darkMode": "Ҡара режим",
   "lightMode": "Яҡты режим",
-  "facebook": "Facebook",
-  "instagram": "Instagram",
-  "youtube": "Youtube",
-  "skype": "Skype",
-  "twitter": "Twitter",
-  "whatsApp": "WhatsApp",
-  "messenger": "messenger",
-  "snapchat": "Snapchat",
   "changeMosque": "Мәситте Алмаштырырға",
-  "mosque": "Мәсит",
   "in1": "һуң",
   "countdownPrayer": "{name} һуң {time}",
   "countdownNonPrayer": "{name} һуң {time}",
   "sec": "Уст",
   "online": "Онлайн",
-  "enterMosqueId": "Зинһар, Мәситтең ID индерегеҙ :",
-  "mosqueId": "Мәситтең ID",
   "missingMosqueId": "Юғалтылған Мәситтең ID",
   "mosqueIdIsNotValid": "Кисерегеҙ, {mosqueId} мәситтең ысын ID түгел",
   "selectMosqueId": "Зинһар, үҙ Мәситтең ID индерегеҙ",
@@ -60,11 +39,9 @@
   "drawerTitle": "MAWAQIT",
   "drawerDesc": "Мәситкә Мөсөлмәндәр ҡушылыуы",
   "backendError": "Кисерегеҙ, беҙ серверға бәйләнеп алманыҡ. Зинһар, Интернет бәйләнеште тикшерегеҙ йәки аҙағыраҡ яңынан ҡабатлағыҙ.",
-  "mosqueInput": "Мәситкә Кереү",
   "selectWithMosqueId": "Һынап ҡарағыҙ: 256, 'Парижтың Мәсите' ID-һы",
   "searchForMosque": "Ниндәй Мәситте эҙләйһегеҙ? (ID, Исеме, Ҡала, Индекс...)",
   "searchMosque": "Мәситте Эҙләү",
-  "gpsError": "Cannot access current device location, please check that your device GPS is enabled\n",
   "mosqueNameError": "Мәситтең исемең индерегеҙ",
   "slugError": "Isn't a valid mosque slug",
   "doYouKnowMosqueId": "Do you know your installation ID or your Mosque ID?\n",
@@ -81,24 +58,23 @@
   "asr": "Asr",
   "maghrib": "Maghrib",
   "isha": "Isha",
-  "afterSalahHadithTitle": "Намаҙдан һуң Доға",
   "afterAdhanHadithTitle": "Намаҙдан һуң Доға",
   "afterSalahHadith": "Allahumma Rabba hadhihid-da'wati-ttammati, was-salatil-qa'imati, ati Muhammadanil-wasilata wal-fadhilata, wab'athu maqaman mahmuda nilladhi wa 'adtahu [O Allah, Rubb of this perfect call (Da'wah) and of the established prayer (As-Salat), grant Muhammad the Wasilah and superiority, and raise him up to a praiseworthy position which You have promised him]\n",
   "alIqama": "Al Iqama\n",
-  "alAdhan": "Al Athan",
+  "alAdhan": "Аҙан",
   "turnOfPhones": "Please turn of your mobile phones!",
-  "iqamaIn": "Iqama in",
+  "iqamaIn": "Агамат дараа",
   "iqamaShowClock": "Иҡамәт экранында сәғәтте күрһәт",
   "iqamaShowClockDesc": "Иҡамәт сәғәтенең иҫәпләү экранында ағымдағы ваҡытты һәм датаны күрһәт",
   "perPrayerRollover": "Намаҙ ваҡыттарын күсереү",
   "perPrayerRolloverDesc": "Намаҙ ваҡыттарының иртәгеге графикка нисек күсеүен һайлағыҙ",
   "perPrayerRolloverOptionPerPrayer": "Һәр намаҙ айырым",
   "alAthkar": "Al-Athkar",
-  "azkarList0": "",
+  "azkarList0": "Key: AlAthkar_0\n-> AlAthkar_0\nأَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله \\nاللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
   "@azkarList0": {
     "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
   },
-  "azkarList1": "",
+  "azkarList1": "Key: AlAthkar_0\n-> AlAthkar_0\nأَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله \\nاللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
@@ -118,7 +94,7 @@
   "@azkarList5": {
     "description": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ"
   },
-  "azkarList6": "",
+  "azkarList6": "Key: AlAthkar_0\n-> AlAthkar_0\nأَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله \\nاللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
@@ -157,10 +133,8 @@
   "jumuaaScreenTitle": "Jumuaa Time",
   "jumuaaHadith": "The Prophet (peace and blessings of Allah be upon him) said \"Whoever does the ablutions perfectly then goes to jumua and then listens and is silent, he is forgiven what is between that time and the following Friday and three more days and the one who touches stones has certainly made a futility\"",
   "shuruk": "Shuruk",
-  "duha": "Duha",
-  "duhaTime": "Duha Time",
-  "thisFeatureIsNotSupportedRightNow": "Sorry, this feature (search by Mosque ID) is no longer supported by MAWAQIT.\n",
-  "searchByGps": "Search by GPS",
+  "duha": "Духа",
+  "duhaTime": "Духа ваҡыты",
   "reset": "Ташлау",
   "mosqueNotFoundMessage": "Таны сүм олдсонгүй. Энэ нь байхгүй эсвэл серверээс хасагдсан байж магадгүй",
   "noInternetMessage": "та интернетэд холбогдоогүй бололтой. интернетээ шалгаад дахин оролдоно уу",
@@ -180,8 +154,7 @@
   "dhuAlhijjah": "Ҙу әл-Хижжаһ",
   "duaaBetweenSalahAndAdhan": "Anas bin Malik said: The Messenger of Allah (ﷺ) said: The supplication does not return between the call to prayer and the standing for prayer.",
   "salatKhayrMinaNawm": "Әссәләтү Хәйрүм Минән Нәүм",
-  "salatElEid": "Salat El Eid"
-,
+  "salatElEid": "Salat El Eid",
   "webView": "Иҫке режимды ҡабыҙырға",
   "continueListening": "Артабан тыңлау",
   "settingsSectionGlobal": "Дөйөм",
@@ -229,5 +202,493 @@
   "screenLockDesc": "Энергия һаҡлау өсөн һәр намаҙҙан алда һәм һуң телевизорҙы ҡабыҙығыҙ/һүндерегеҙ",
   "settings": "Көйләүҙәр",
   "timeSetting": "Ваҡытты көйләү",
-  "timeSettingDesc": "Үҙ исемегеҙҙе ҡуйығыҙ"
+  "timeSettingDesc": "Үҙ исемегеҙҙе ҡуйығыҙ",
+  "thisIsATestFromIbrahim": "Был Ибраһимдан тест",
+  "forceStaging": "Сынау мөхите",
+  "forcePreProduction": "Өңдәрҙән алдасы мөхит",
+  "disableStaging": "Етештереү режимына күсергә",
+  "environmentSwitchSuccess": "Мөхит уңышлы үҙгәртелде",
+  "environmentSwitchFailed": "Мөхитте үҙгәртеү уңышһыҙлыҡҡа осраны",
+  "azanIn": "Әҙән тиклем",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "developersHomeScreen": "Программисттың баш экраны",
+  "onlineHome": "Онлайн Өй",
+  "prayerTimes": "Намаҙ Ваҡыты",
+  "alerts": "Белдереү",
+  "iqamaaCountDown": "Иҡамаға иҫәпләү",
+  "afterAdhanHadith": "Әҙәнанан һуң хәҙис",
+  "afterSalahAzkar": "Намаҙҙан һуң Әзкар",
+  "iqama": "Иқама",
+  "randomHadith": "Осраҡлы хәҙис",
+  "jumuaaLive": "Йома [Тура эфир]",
+  "showSecondaryScreen": "Икенсе экран итеп ҡулланыу (Иғлан өсөн)",
+  "normalScreen": "Төп экран итеп ҡулланыу",
+  "duaaRemainder": "Дуа хәтерләткесе",
+  "fajrWakeUp": "Фәжергә уяныу",
+  "changeLanguage": "Телде үҙгәртергә",
+  "forceScreen": "Экранды мәжбүри күрһәтеү",
+  "clear": "Таҙартыу",
+  "next": "Киләһе",
+  "mainScreenOrSecondaryScreen": "Экрандың урынлашыуы",
+  "mainScreenOrSecondaryScreenEXPLINATION": "Экранды төп намаҙ бүлмәһендә (ирҙәр намаҙ бүлмәһе) ҡуйырға теләйһегеҙме?",
+  "duaaElEftar": "Ифтар доғаһы",
+  "announcementOnlyMode": "Иғлан режимы",
+  "normalMode": "Нормаль режимы ",
+  "announcementOnlyModeEXPLINATION": "Экранда иғландарҙы һәр ваҡыт күрһәтергә һайлағыҙ, был, мәҫәлән, инеү урынында ҡуйылғанда файҙалы булыуы мөмкин.",
+  "duaaElEftarText": "Зәһәбә ҙҙама уәбтәләт әлъуруҡ өсөн вәсәбәт әләжр ин ша Аллаһ",
+  "@duaaElEftarText": {
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
+  },
+  "secondaryScreenExplanation": "Икенсе намаҙ бүлмәһе өсөн (ҡатын-ҡыҙҙар бүлмәһе йәки башҡа ҡат), был экран йома тура эфирын күрһәтәсәк",
+  "mainScreenExplanation": "Төп мәсет бүлмәһе өсөн был экран йома тура эфирын күрһәтмәйәсәк",
+  "normalModeExplanation": "Экранда даими намаҙ ваҡыттары һәм иғландар күрһәтелә.",
+  "announcementOnlyModeExplanation": "Иғландар һәр ваҡыт күрһәтеләсәк",
+  "deviceDefault": "Ҡоролма үҙе буйынса",
+  "deviceDefaultBTNDescription": "Mawaqit экран йүнәлешенә ҡарап стандарт йүнәлеште автоматик һайлаясаҡ",
+  "portrait": "Портрет",
+  "portraitBTNDescription": "Кәңейме урындарҙа мәсет өсөн вертикаль йүнәлеш тәҡдим ителә",
+  "landscape": "Пейзаж",
+  "landscapeBTNDescription": "Горизонталь йүнәлеш өсөн. MAWAQIT ТВ ҡушымтаһы өсөн төп макет һәм күпселек мәсеттәргә тәҡдим ителә.",
+  "eidMubarak": "Ғәйет мөбәрәк",
+  "takbeerAleidText": "Аллаһу Әкбәр, Аллаһу Әкбәр, Аллаһу Әкбәр, лә иләһә иллә Аллаһ, Аллаһу Әкбәр, Аллаһу Әкбәр, вә лилләәһи әл-һәм",
+  "hijriAdjustments": "Урындағы Хижри төҙәтмәләре",
+  "backoffice_default": "Административ көйләүҙәр буйынса",
+  "recommended": "Тәҡдим ителә",
+  "sabah": "Сәфәр",
+  "mosqueDefault": "Интернет конфигурацияғыҙҙан",
+  "en": "Инглиз",
+  "fr": "Француз",
+  "ar": "Ғәрәп",
+  "tr": "Төрөк",
+  "de": "Немец",
+  "es": "Испан",
+  "pt": "Португал",
+  "nl": "Голланд",
+  "ta": "Тамил",
+  "fr_ar": "Француз & Ғәрәп",
+  "en_ar": "Инглиз & Ғәрәп",
+  "de_ar": "Немец & Ғәрәп",
+  "ta_ar": "Тамил & Ғәрәп",
+  "tr_ar": "Төрөк & Ғәрәп",
+  "es_ar": "Испан & Ғәрәп",
+  "pt_ar": "Португал & Ғәрәп",
+  "nl_ar": "Голланд & Ғәрәп",
+  "retry": "Ҡабатларға",
+  "reciterLoadError": "Қариларҙы йөкләп булманы",
+  "reciterNetworkError": "Интернетҡа тоташыуҙы тикшерегеҙ һәм яңынан ҡарап ҡарағыҙ",
+  "reciterServerError": "Сервер ваҡытлыса ҡаралмай. Һуңыраҡ ҡабатлап ҡарағыҙ",
+  "reciterTimeoutError": "Һорау ваҡыты сыҡты. Ҡабатлап ҡарағыҙ",
+  "surahLoadError": "Сүрәләрҙе йөкләп булманы",
+  "selectedTime": "Һайланған ваҡыт",
+  "confirmation": "Рәсмиләштереү",
+  "confirmationMessage": "Айпараттың ваҡыты менән ҡулланырға ысынлап та теләйһегеҙме?",
+  "useDeviceTime": "Айпараттың ваҡытын ҡулланыу",
+  "selectTime": "Ваҡытты һайлағыҙ",
+  "previous": "Алдағыһы",
+  "appTimezone": "Ҡушымта ваҡыт бүлкәте",
+  "appWifi": "Wi-Fi-ға тоташырға",
+  "searchCountries": "Илдәрҙе эҙләү",
+  "scanAgain": "Яңынан сканерларға",
+  "noScannedResultsFound": "Яҡындағы тоташыу нөктәләре табылманы",
+  "connect": "Тоташтырырға",
+  "wifiPassword": "Пароль",
+  "skip": "Үтәү",
+  "noSSID": "**Яшерен SSID**",
+  "close": "Ябыу",
+  "search": "Эҙләү",
+  "wifiSuccess": "Wi-Fi-ға уңышлы тоташты.",
+  "wifiFailure": "Wi-Fi-ға тоташыу уңышһыҙ.",
+  "wifiForgetNetwork": "Был селтәр Android көйләүҙәрендә өҫтәлгән. Уны онотоп, яңынан тоташтырығыҙ.",
+  "timezoneSuccess": "Ваҡыт бүлкәте уңышлы ҡуйылды.",
+  "timezoneFailure": "Ваҡыт бүлкәте ҡуйыу уңышһыҙлыҡҡа осраны.",
+  "screenLockConfig": "Экранды ҡабыҙыу/һүндереүҙе көйләү",
+  "screenLockMode": "Экранды ҡабыҙыу/һүндереү режими",
+  "screenLockDesc2": "Был функция һәр намаҙҙың Әҙәненән алда һәм һуңынан айпаратты ҡабыҙа/һүндерә",
+  "before": "һәр намаҙ ваҡытынан алда минуттар",
+  "after": "һәр намаҙ ваҡытынан һуң минуттар",
+  "updateAvailable": "Яңыртыу бар",
+  "seeMore": "Күберәк ҡарау",
+  "whatIsNew": "Яңылыҡтар",
+  "powerOnScreen": "Экранды ҡабыҙырға",
+  "powerOffScreen": "Экранды һүндерергә",
+  "later": "Һуңыраҡ",
+  "downloadQuran": "Ҡөрьәнде йөкләп алыу",
+  "askDownloadQuran": "Ҡөрьәнде йөкләп алырға теләйһегеҙме?",
+  "download": "Йөкләп алырға",
+  "downloadingQuran": "Ҡөрьән йөкләнә",
+  "extractingQuran": "Ҡөрьән тарҡатыла",
+  "updatedQuran": "Ҡөрьән яңыртылды",
+  "quranLatestVersion": "Ҡөрьән һуңғы версияла",
+  "quranUpdatedVersion": "Ҡөрьәндең яңыртылған версияһы: {version}",
+  "quranIsUpdated": "Ҡөрьән яңыртылды",
+  "quranDownloaded": "Ҡөрьән йөкләп алынған",
+  "quranIsAlreadyDownloaded": "Ҡөрьән инде йөкләп алынған",
+  "chooseReciter": "Ҡарилы һайлау",
+  "reciteType": "Ҡөрьән уҡыу төрө",
+  "readingMode": "Уҡырға теләйем",
+  "listeningMode": "Тыңларға теләйем",
+  "quranReadingPage": "Бит {leftPage} - {rightPage} / {totalPages}",
+  "@quranReadingPage": {
+    "description": "Placeholder text for displaying Quran reading page numbers",
+    "placeholders": {
+      "leftPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "rightPage": {
+        "type": "int",
+        "example": "2"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "quranReadingPagePortrait": "Бит {currentPage} / {totalPages}",
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "chooseQuranPage": "Битте һайлау",
+  "checkingForUpdates": "Яңыртыуҙарҙы тикшереү...",
+  "chooseQuranType": "Ҡөрьәнде һайлағыҙ",
+  "hafs": "Хафс",
+  "warsh": "Уорш",
+  "favorites": "Яратҡандар",
+  "allReciters": "Барлыҡ қариҙар",
+  "reciterAddedToFavorites": "Ҡари {name} яратҡандарға өҫтәлде",
+  "@reciterAddedToFavorites": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "reciterRemovedFromFavorites": "Ҡари {name} яратҡандарҙан алынды",
+  "@reciterRemovedFromFavorites": {
+    "description": "Message shown when a reciter is removed from favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "noFavoriteReciters": "Яратҡан қариҙар юҡ. Рәткә өҫтөргә тырышығыҙ",
+  "@noFavoriteReciters": {
+    "description": "Message shown when there are no favorite reciters"
+  },
+  "noReciterSearchResult": "Эҙләү буйынса һөҙөмтәләр табылманы",
+  "searchForReciter": "Қариҙы эҙләү",
+  "downloadAllSuwarSuccessfully": "Ҡөрьән тулыһынса йөкләп алынған",
+  "noSuwarDownload": "Йөкләп алырға яңы сүрәләр юҡ",
+  "connectDownloadQuran": "Йөкләп алыу өсөн интернетҡа тоташығыҙ",
+  "playInOnlineModeQuran": "Уйнатыу өсөн интернетҡа тоташығыҙ",
+  "downloaded": "Йөкләп алынған",
+  "switchQuranType": "{name}-ға күсергә",
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "surahSelector": "Сүрәне һайларға",
+  "wouldYouLikeToUpdate": "Ҡушымтаны яңыртырға теләйһегеҙме?",
+  "updateCompleted": "Яңыртыу уңышлы тамамланды!",
+  "noUpdates": "Яңыртыуҙар юҡ",
+  "usingLatestVersion": "Һеҙ иң һуңғы версияны ҡулланаһығыҙ.",
+  "updateCancelled": "Яңыртыу юҡҡа сығарылды",
+  "checkingUpdates": "Яңыртыуҙарҙы тикшереү...",
+  "downloadingUpdate": "Яңыртыу йөкләнә...",
+  "installingUpdate": "Яңыртыу ҡуйыла...",
+  "updateCompletedSuccessfully": "Яңыртыу уңышлы тамамланды",
+  "updateFailed": "Яңыртыу уңышһыҙлыҡҡа осраны",
+  "save": "Һаҡларға",
+  "enterRtspUrl": "RTSP йәки Youtube Live URL индерегеҙ",
+  "addRtspUrl": "Камера ағымы URL-ы ошоға өҫтәгеҙ",
+  "enableRtspCamera": "Камераны тура эфирға ҡушығыҙ",
+  "rtspCameraSettings": "Камера көйләүҙәре",
+  "invalidRtspUrl": "Дөрөҫ булмаған URL. URL-ды тикшереп яңынан индерегеҙ.",
+  "validRtspUrl": "URL тикшерелде һәм уңышлы һаҡланды.",
+  "rtspCameraSettingScreenDesc": "URL ошо урында индерһәгеҙ, йома ваҡыты еткәндә экран автоматик рәвештә видео ағымына күсә",
+  "validatingStream": "Ағым тикшерелә...",
+  "somethingWentWrong": "Нимәлер дөрөҫ түгел! яңынан ҡабатлап ҡарағыҙ",
+  "somethingWrong": "Нимәлер дөрөҫ түгел",
+  "tryAgainLater": "Һуңыраҡ ҡабатлап ҡарағыҙ",
+  "hintTextRtspUrl": "rtsp://... йәки https://youtube.com/live/...",
+  "appUpdateAvailable": "Ҡушымтағыҙҙың версияһы — {currentVersion}. Яңы яңыртыу бар (версия {updatedVersion}), һуңғы үҙгәрештәр һәм яҡшыртмалар менән.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "{moshafName} Ҡөрьән өсөн яңы яңыртыу бар (версия {version}).",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "Тик Фәжер һәм Иша намаҙҙары",
+  "minutesBeforeFajrPrayer": "фәжер намаҙы ваҡытына тиклем минуттар",
+  "minutesAfterIshaPrayer": "иша намаҙы ваҡытынан һуң минуттар",
+  "scheduleSaved": "Расписаниеғыҙ һаҡланды.",
+  "completeAllFields": "Һаҡлар алдынан бөтә күләмдә тултырығыҙ.",
+  "endTimeAfter": "Тәмамланыу ваҡыты башланыу ваҡытынан һуң булырға тейеш.",
+  "scheduleListening": "Расписаниена тыңлау",
+  "enableScheduling": "Расписаниены ҡулығыҙға алығыҙ",
+  "scheduleDesc": "Был функцияны ҡуеп, билдәләнгән ваҡытта сүрә автоматик уйнатыласаҡ.",
+  "startTime": "Башлау ваҡыты",
+  "endTime": "Тәмамланыу ваҡыты",
+  "selectReciter": "Ҡариҙы һайларға",
+  "selectMoshaf": "Мушаф һайларға",
+  "randomSurahSelection": "Осраҡлы сүрә һайлау",
+  "selectSurah": "Сүрә һайларға",
+  "initializingAutoReading": "Инициализация бара...",
+  "prayerTimeNotification": "{salahName} ваҡыты ({prayerTime}) тураһында хәбәр",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Ҡөрьән тыңлауҙы билдәләр өсөн интернетҡа тоташығыҙ",
+  "duaaBetweenAdhanAndIqamaaTitle": "Дуға (<b>Du'a</b>) Әҙан менән Иҡама араһында кире ҡағылмай",
+  "duaBetweenAdhanIqamah": "Дуға (<b>Du'a</b>) Әҙан менән Иҡама араһында кире ҡағылмай.",
+  "processingRequest": "Һорау эшкәртелә...",
+  "loadingStream": "Ағым йөкләнә...",
+  "rtspUrlHint": "RTSP URL йәки YouTube һылтанмаһын индерегеҙ",
+  "urlManagedByMosqueAdmin": "URL мәсет администраторы тарафынан идара ителә",
+  "replaceWorkflowWithStream": "Камера ағымын автоматик күрһәтеү",
+  "replaceAppWorkflowWithCameraStream": "Камера яҙҙыра башлаһа, экран автоматик камера ағымын күрһәтәсәк; туҡтағанда экран намаҙ ваҡыттарына ҡайта",
+  "streamMode": "Ағым режимы",
+  "streamModeDisabled": "Сүндерелгән",
+  "streamModeCamera": "Ағым камераға бәйле",
+  "streamModeJumuaOnly": "Ағым тик йомаға бәйле",
+  "streamModeJumuaAndPrayers": "Ағым йомаға һәм 5 намаҙға бәйле",
+  "streamRequiresSecondaryScreen": "Был функция тик ҡушымта икенсе экранда эшләгәндә генә эшләй. Ҡуяр өсөн:",
+  "streamSecondaryScreenStep1": "Экран көйләүҙәренә күсегеҙ.",
+  "streamSecondaryScreenStep2": "\"Ғәҙәти башлау режимы\"-н асығыҙ.",
+  "streamSecondaryScreenStep3": "\"Икенсе экран\"-ды һайлағыҙ.",
+  "rtspServerNotAvailable": "RTSP серверы юҡ. Тоташыуҙы тикшерегеҙ.",
+  "settingsSavedSuccessfully": "Көйләүҙәр уңышлы һаҡланды",
+  "streamError": "Ағым ваҡытында хата сығыш яһаны",
+  "finish": "Тәмамларға",
+  "schedulingAlarms": "Күсереп ҡуйыу ваҡыттары планлаштырыла...",
+  "alarmsSucessSchedule": "Ҡабыҙыу/һүндереү триггерҙары уңышлы планлаштырылды",
+  "alarmsScheduleFailure": "Ҡабыҙыу/һүндереү триггерҙарын планлаштырыу уңышһыҙлыҡҡа осраны",
+  "prayerTimeNotificationTitle": "Намаҙ ваҡыты белдереүҙәре",
+  "prayerTimeNotificationDesc": "Апп ябылғанда ла намаҙ ваҡытында азан алығыҙ",
+  "enablePrayerReminders": "Намаҙ ваҡытын хәтерләтеүҙәрҙе ҡуярға",
+  "enablePrayerRemindersDesc": "Фондағы автоматик эшләй",
+  "testAITranslation": "AI тәржемәһенең дөрөҫ эшләүен тикшереү өсөн тест юлмасы",
+  "@testAITranslation": {
+    "description": "Test string for AI translation verification - can be deleted after testing"
+  },
+  "testCrowdinCI": "Crowdin CI workflow-ны тикшереү өсөн тест юлмасы",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Ҡөрьән режими",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Ҡөрьән уҡыу экранын күрһәтеү, һуңғы уҡыған биттән башлап",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Ҡөрьән режимынан сығыу",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Нормаль режимға ҡайтырға теләйһегеҙме?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "4 ябай аҙымда башлап ебәреү",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "Мәсет ID-һығыҙ юҡмы әле? Бына нисек:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "MAWAQIT.net сайтына инеп, аккаунт булдырығыҙ",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "Мәсетегеҙҙе фото һәм адресы менән теркәгеҙ",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "Дашбордтан үҙенсә Мәсет ID алығыҙ",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "ID-ны ошонда индереп, ТВ экранығыҙҙы тоташтырығыҙ",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "{step}-аҙым  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "Сканерлап теркәлергә",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "Телефонығыҙҙы ҡулланып, mawaqit.net сайтында аккаунт булдырығыҙ",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "Тулы дәреслек",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "Намаҙ ваҡыттары мәсетегеҙ өсөн күрһәтелә",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

@@ -13,8 +13,8 @@
   "tryAgain": "ព្យាយាមម្តងទៀត",
   "closeApp": "បិទកម្មវិធី",
   "quit": "ចាកចេញ",
-  "forceStaging": "Staging",
-  "forcePreProduction": "Pre-production",
+  "forceStaging": "បណ្ដោះអាសន្នសាកល្បង",
+  "forcePreProduction": "ដំណាក់កាលមុនផលិតកម្ម",
   "disableStaging": "ប្តូរទៅរបៀបផលិតកម្ម",
   "environmentSwitchSuccess": "បានប្តូរបរិយាកាសដោយជោគជ័យ",
   "environmentSwitchFailed": "បរាជ័យក្នុងការប្តូរបរិយាកាស",
@@ -73,13 +73,13 @@
   "perPrayerRolloverOptionPerPrayer": "សឡាតនីមួយៗដាច់ដោយឡែក",
   "perPrayerRolloverOptionAfterIsha": "ទាំងអស់រួមគ្នាបន្ទាប់ពីអ៊ីស្សា",
   "alAthkar": "អាល់អាហ្សការ៍",
-  "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
+  "azkarList0": "អាស្តាហ្គូឌឺរល្លោះ អាស្តាហ្គូឌឺរល្លោះ អាស្តាហ្គូឌឺរល្លោះ។ អាល់ឡោះុម្ម៉ា អាន់ថាស់-ស៉ាឡាម វ៉ា មិនខៈ-ស៉ាឡាម ថបារកតា យ៉ា ឌួល-ជាឡាលី វ៉ាល់-អិក រាម។ អាល់ឡោះុម្ម៉ា អា'ុញ្ញី 'អាឡា ធិគ្រីក៉ា វ៉ា ស៊ុករិក៉ា វ៉ា ហ៊ុសនី 'អិបាដាតិកៈ။",
   "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (៣៣ ដង). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
   "azkarList2": "Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. 'Ilāhin-nās. Min sharri 'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.",
   "azkarList3": "Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.",
   "azkarList4": "Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.",
   "azkarList5": "Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa'u 'indahu illā bi'idhnih, ya'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay'im-min 'ilmihi illā bimā shā', wasi'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya'ūduhu ḥifẓuhumā, wa Huwal-'Aliyyul-'Aẓīm",
-  "azkarList6": "Lā 'ilāha 'illallāh, waḥdahu lā sharīka lah, lahu 'l-mulku wa lahu 'l-ḥamd, wa huwa `alā kulli shay'in qadīr, Allāhumma lā māni`a limā 'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.",
+  "azkarList6": "ឡា​អ៊ីលាហា​អិលឡាល់ឡោះ វ៉ាហ្កដោះ​ឡា​សារីកៈ​ឡៈ ឡៈហ៊ុល​ម៊ុលគុ​វ៉ា​ឡៈហ៊ុល​ហាំដ យ៉ា​ហ៊ូវ៉ា 'អាឡា​គុលលិ​សៃ'អីន​ក្ដលីរ អាល់ឡោះុម្ម៉ា ឡា​ម៉ានិអា​លីម៉ា​អា'តៃត វ៉ា​ឡា​មុអ់ទីយ៉ា​លីម៉ា​ម៉ាណៈ យ៉ា​ឡា​យ៉ានផា'ួ​ដ័ល​ជ៉ាដិ​មិនខៈល​ជ៉ាដ។",
   "azkarList7": "Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū'u laka bi ni`matika `alay, wa abū'u bidhanbī faghfir lī fa'innahu lā yaghfirudh-dhunūba illā ant.",
   "azkarList8": "Aṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa `alā kulli shay'in Qadīr. Rabbi as'aluka khayra mā fī hādha 'l-yawmi wa khayra mā ba`dahu wa a`ūdhu bika min sharri mā fī hātha 'l-yawmi wa sharri mā ba`dahu, Rabbi a`ūdhu bika minal-kasali, wa sū'il-kibar, Rabbi a`ūdhu bika min `adhābin fin-nāri wa `adhābin fil-qabr.",
   "azkarList9": "Allāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata `arshik, wa malā'ikataka wajamī`a khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan `abduka wa rasūluk. (៤ ដង) [Wa idhā amsā qāla: Allāhumma innī amsaytu...]",
@@ -111,7 +111,7 @@
   "dhuAlqidah": "ឌូអាល់គីដះ",
   "dhuAlhijjah": "ឌូអាល់ហ៊ីជះ",
   "duaaBetweenSalahAndAdhan": "អាណាស ប៊ិន ម៉ាលិក បានមានប្រសាសន៍ថា៖ សាសនទូតរបស់អល់ឡោះ ﷺ បានមានប្រសាសន៍ថា៖ ការបួងសួងមិនត្រូវបានបដិសេធរវាងអាហ្សង់ និងការឈរសម្រាប់សឡាតឡើយ។",
-  "salatKhayrMinaNawm": "Assalatu khayrun mina nawm",
+  "salatKhayrMinaNawm": "អាស្សាឡាតូ ខៃរូន មីណា នៅម",
   "salatElEid": "សឡាតអ៊ីទ",
   "webView": "បើកដំណើរការរបៀបចាស់ (Legacy Mode)",
   "developersHomeScreen": "អេក្រង់ដើមអ្នកអភិវឌ្ឍន៍",
@@ -142,7 +142,7 @@
   "announcementOnlyMode": "របៀបសេចក្តីជូនដំណឹងតែប៉ុណ្ណោះ",
   "normalMode": "របៀបធម្មតា",
   "announcementOnlyModeEXPLINATION": "ជ្រើសរើសប្រសិនបើអេក្រង់របស់អ្នកនឹងបង្ហាញសេចក្តីជូនដំណឹងជានិច្ច វាមានប្រយោជន៍ប្រសិនបើអ្នកដំឡើងអេក្រង់នៅច្រកចូលជាឧទាហរណ៍។",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "បានផុតការស្ងួត ហើយសរសៃឈាមបានជូតផប់ ហើយសុទិដ្ឋិនិយមបានត្រឹម តាមព្រះបំណងរបស់អាល់ឡោះ។",
   "secondaryScreenExplanation": "សម្រាប់បន្ទប់សឡាតទីពីរ (បន្ទប់ស្ត្រី ឬជាន់ផ្សេង ជាឧទាហរណ៍) អេក្រង់នេះនឹងបង្ហាញការផ្សាយផ្ទាល់ជុមុអះ",
   "mainScreenExplanation": "សម្រាប់បន្ទប់ម៉ោស្កេចម្បង អេក្រង់នេះនឹងមិនបង្ហាញការផ្សាយផ្ទាល់ជុមុអះទេ",
   "normalModeExplanation": "នឹងបង្ហាញអេក្រង់ធម្មតាជាមួយម៉ោងសឡាត និងសេចក្តីជូនដំណឹង។",
@@ -156,7 +156,7 @@
   "landscape": "ផ្ដេក",
   "landscapeBTNDescription": "សម្រាប់ទិសដៅផ្ដេក។ ជាប្លង់ចម្បងសម្រាប់កម្មវិធី mawaqit tv និងត្រូវបានណែនាំសម្រាប់ម៉ោស្កេភាគច្រើន",
   "eidMubarak": "អ៊ីទ មូបារ៉ក់",
-  "takbeerAleidText": "Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd",
+  "takbeerAleidText": "អាល់ឡោះអកបារ អាល់ឡោះអកបារ អាល់ឡោះអកបារ ឡា អិឡាហ៉ា អិលឡាល់ឡាហ ឣាល់ឡោះអកបារ អាល់ឡោះអកបារ វ៉ា លិល្លាហិ អលហាំដ",
   "settings": "ការកំណត់",
   "applicationModes": "របៀបចាប់ផ្តើមលំនាំដើម",
   "ifYouAreFacingAnIssueWithTheAppActivateThis": "ប្រសិនបើអ្នកជួបប្រទះបញ្ហាជាមួយកម្មវិធី សូមព្យាយាមបើកជម្រើសនេះ",
@@ -385,5 +385,289 @@
   "athkarArabicFont": "ពុម្ពអក្សរអារ៉ាប់អាហ្សការ៍",
   "athkarArabicFontDesc": "ជ្រើសរើសពុម្ពអក្សរអារ៉ាប់ដែលប្រើសម្រាប់អាហ្សការ៍ (បន្ទាប់ពីសឡាត អាហ្សង់ ជុមុអះ ហាទីស...)",
   "athkarFontKufi": "គូហ្វី (Kufi)",
-  "athkarFontUthmani": "អ៊ូតម៉ានី (Uthmani)"
+  "athkarFontUthmani": "អ៊ូតម៉ានី (Uthmani)",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "@azkarList0": {
+    "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
+  },
+  "@azkarList1": {
+    "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
+  },
+  "@azkarList6": {
+    "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
+  },
+  "@azkarList9": {
+    "description": "Morning testimony - 4 times"
+  },
+  "@azkarList10": {
+    "description": "Dua for wellbeing - 3 times"
+  },
+  "@azkarList11": {
+    "description": "Hasbiya Allah - 7 times"
+  },
+  "@azkarList12": {
+    "description": "Contentment with Allah - 3 times"
+  },
+  "@azkarList13": {
+    "description": "La ilaha illa Allah tawhid - 10 times"
+  },
+  "@duaaElEftarText": {
+    "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
+  },
+  "@quranReadingPage": {
+    "description": "Placeholder text for displaying Quran reading page numbers",
+    "placeholders": {
+      "leftPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "rightPage": {
+        "type": "int",
+        "example": "2"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "@quranReadingPagePortrait": {
+    "description": "Placeholder text for displaying Quran reading page portrait numbers",
+    "placeholders": {
+      "currentPage": {
+        "type": "int",
+        "example": "1"
+      },
+      "totalPages": {
+        "type": "int",
+        "example": "604"
+      }
+    }
+  },
+  "@reciterAddedToFavorites": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "@reciterRemovedFromFavorites": {
+    "description": "Message shown when a reciter is removed from favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Abdul Basit"
+      }
+    }
+  },
+  "@noFavoriteReciters": {
+    "description": "Message shown when there are no favorite reciters"
+  },
+  "@switchQuranType": {
+    "description": "Message shown when a reciter is added to favorites",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Warsh"
+      }
+    }
+  },
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "@testAITranslation": {
+    "description": "Test string for AI translation verification - can be deleted after testing"
+  },
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "ពេលបួសត្រូវបានបង្ហាញសម្រាប់មស្សជិតរបស់អ្នក",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

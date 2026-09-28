@@ -67,11 +67,11 @@
   "perPrayerRolloverDesc": "Válaszd ki, hogyan váltanak át az imaidők a holnapi időpontokra",
   "perPrayerRolloverOptionPerPrayer": "Minden ima külön",
   "alAthkar": "Allah emlegetései",
-  "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
+  "azkarList0": "Bűnbocsánatot kérek Allahtól (háromszor).\nÓ, Allah! Te vagy a Béke, és Tőled van a béke. Áldott vagy, Ó, Magasztos és Méltóságteljes. Ó Allah! Segíts nekem, hogy megemlékezzek Rólad, hálás legyek Neked, és jól szolgáljalak Téged!",
   "@azkarList0": {
     "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
   },
-  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
+  "azkarList1": "Magasztaltassék Allah (Szubhán Allah), és Hála Allahnak (Alhamdulilláh), és Allah a Leghatalmasabb (Alláhu Akbar) (mindegyiket 33-szor), Nincs más jogosan imádható isten Allahon kívül, Ő egyedül létezik, nincs Neki társa, Övé a tulajdon és Övé a hála és Ő minden dologra képes.",
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
@@ -91,7 +91,7 @@
   "@azkarList5": {
     "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
-  "azkarList6": "Lā 'ilāha 'illallāh, waḥdahu lā sharīka lah, lahu 'l-mulku wa lahu 'l-ḥamd, wa huwa `alā kulli shay'in qadīr, Allāhumma lā māni`a limā 'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.",
+  "azkarList6": "Nincs más jogosan imádható isten Allahon kívül, Ő egyedül létezik, nincs Neki társa, Övé a tulajdon és Őt illeti a hála és Ő minden dologra képes. Ó Allah! senki sem képes visszatartani attól, amit Te adsz, és senki sem képes megadni azt, amit Te megakadályozol. Nem használ a hatalommal bíró embernek a hatalma, mivel Tőled származik (minden) hatalom.",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
@@ -131,7 +131,7 @@
   "jumuaaHadith": "A Próféta (Allah békéje és áldása legyen vele) azt mondta: “Aki tökéletesen elvégzi a wudu'-t (tisztálkodást), majd elmegy a pénteki imára, leül és csendben hallgatja (a szónoklatot), annak Allah megbocsátja azt, ami az adott idő és a következő péntek között történt, plusz három nap. És aki megérinti akár a kavicsokat is, az bizony Laghá-t (haszontalan cselekvést) követett el\"",
   "shuruk": "Napfelkelte",
   "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duhaTime": "Duha imaidő",
   "reset": "Visszaállítás",
   "mosqueNotFoundMessage": "Sajnáljuk, de a mecsetét nem találtuk meg, lehet, hogy hiányzik vagy ideiglenesen le van tiltva.",
   "noInternetMessage": "Nincs internet-hozzáférés. Kérjük, ellenőrizd internetkapcsolatodat, és próbáld meg újra. Wi-Fi vagy Ethernet csatlakoztatva van?",
@@ -499,7 +499,196 @@
   "fontSizeXLarge": "Nagyon nagy",
   "athkarArabicFont": "Athkar arab betűtípusa",
   "athkarArabicFontDesc": "Válaszd ki az Athkarhoz használt arab betűtípust (ima után, adhán, dzsumu'a, hadith...)",
-  "athkarFontKufi": "Kufi",
+  "athkarFontKufi": "Kúfi",
   "athkarFontUthmani": "Uthmani",
-  "perPrayerRolloverOptionAfterIsha": "Mind együtt az 'Ishá után"
+  "perPrayerRolloverOptionAfterIsha": "Mind együtt az 'Ishá után",
+  "thisIsATestFromIbrahim": "Ez egy teszt Ibrahímtól",
+  "forceStaging": "Váltás tesztkörnyezetre",
+  "forcePreProduction": "Előzetes verzió",
+  "environmentSwitchSuccess": "Környezet sikeresen váltva",
+  "environmentSwitchFailed": "Nem sikerült váltani a környezetet",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "ta": "Tamil",
+  "wifiForgetNetwork": "Ez a hálózat az Android beállításokban lett hozzáadva. Kérjük, felejtsd el ott, majd csatlakozz újra.",
+  "urlManagedByMosqueAdmin": "Az URL-t a mecset rendszergazdája kezeli",
+  "streamMode": "Stream mód",
+  "streamModeDisabled": "Kikapcsolva",
+  "streamModeCamera": "A közvetítés a kamerától függ",
+  "streamModeJumuaOnly": "A közvetítés csak a Dzsumaára vonatkozik",
+  "streamModeJumuaAndPrayers": "A közvetítés a Dzsumaára és az 5 imára vonatkozik",
+  "streamRequiresSecondaryScreen": "Ez a funkció csak akkor működik, ha az alkalmazás másodlagos képernyőként fut. Engedélyezéséhez:",
+  "streamSecondaryScreenStep1": "Menj a Kijelző menüponthoz.",
+  "streamSecondaryScreenStep2": "Nyisd meg az \"Alapértelmezett indítási mód\"-ot.",
+  "streamSecondaryScreenStep3": "Válaszd ki a \"Másodlagos képernyő\"-t.",
+  "rtspServerNotAvailable": "Az RTSP szerver nem elérhető. Kérjük, ellenőrizd a kapcsolatot.",
+  "settingsSavedSuccessfully": "Beállítások sikeresen elmentve",
+  "testCrowdinCI": "Teszt szöveg a Crowdin CI workflow ellenőrzéséhez a fejlesztői ágon",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Korán mód",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Megjeleníti a Korán olvasási képernyőt, az utoljára olvasott oldaltól kezdve",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Kilépés a Korán módból",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Vissza szeretnél térni a normál módba?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "Kezdd el 4 egyszerű lépésben",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "Még nincs Mecset azonosítód? Így szerezheted be:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "Nyisd meg a mawaqit.net oldalt és hozz létre egy fiókot",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "Regisztráld a mecsetedet fényképekkel és címmel",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "Szerezd meg az egyedi Mecset azonosítódat a műszerfalról",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "Írd be ide az azonosítót a TV kijelző csatlakoztatásához",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "{step}. lépés  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "Szkenneld be a regisztrációhoz",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "Használd a telefonodat a fiók létrehozásához a mawaqit.net oldalon",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "Teljes oktatóvideó",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "Az imaidők a saját mecsetedhez vannak megjelenítve",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

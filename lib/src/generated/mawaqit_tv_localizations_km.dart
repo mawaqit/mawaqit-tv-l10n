@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsKm extends MawaqitTvLocalizations {
   String get quit => 'ចាកចេញ';
 
   @override
-  String get forceStaging => 'Staging';
+  String get forceStaging => 'បណ្ដោះអាសន្នសាកល្បង';
 
   @override
-  String get forcePreProduction => 'Pre-production';
+  String get forcePreProduction => 'ដំណាក់កាលមុនផលិតកម្ម';
 
   @override
   String get disableStaging => 'ប្តូរទៅរបៀបផលិតកម្ម';
@@ -235,7 +235,7 @@ class MawaqitTvLocalizationsKm extends MawaqitTvLocalizations {
   String get alAthkar => 'អាល់អាហ្សការ៍';
 
   @override
-  String get azkarList0 => 'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
+  String get azkarList0 => 'អាស្តាហ្គូឌឺរល្លោះ អាស្តាហ្គូឌឺរល្លោះ អាស្តាហ្គូឌឺរល្លោះ។ អាល់ឡោះុម្ម៉ា អាន់ថាស់-ស៉ាឡាម វ៉ា មិនខៈ-ស៉ាឡាម ថបារកតា យ៉ា ឌួល-ជាឡាលី វ៉ាល់-អិក រាម។ អាល់ឡោះុម្ម៉ា អា\'ុញ្ញី \'អាឡា ធិគ្រីក៉ា វ៉ា ស៊ុករិក៉ា វ៉ា ហ៊ុសនី \'អិបាដាតិកៈ။';
 
   @override
   String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (៣៣ ដង). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
@@ -253,7 +253,7 @@ class MawaqitTvLocalizationsKm extends MawaqitTvLocalizations {
   String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 => 'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
+  String get azkarList6 => 'ឡា​អ៊ីលាហា​អិលឡាល់ឡោះ វ៉ាហ្កដោះ​ឡា​សារីកៈ​ឡៈ ឡៈហ៊ុល​ម៊ុលគុ​វ៉ា​ឡៈហ៊ុល​ហាំដ យ៉ា​ហ៊ូវ៉ា \'អាឡា​គុលលិ​សៃ\'អីន​ក្ដលីរ អាល់ឡោះុម្ម៉ា ឡា​ម៉ានិអា​លីម៉ា​អា\'តៃត វ៉ា​ឡា​មុអ់ទីយ៉ា​លីម៉ា​ម៉ាណៈ យ៉ា​ឡា​យ៉ានផា\'ួ​ដ័ល​ជ៉ាដិ​មិនខៈល​ជ៉ាដ។';
 
   @override
   String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
@@ -349,7 +349,7 @@ class MawaqitTvLocalizationsKm extends MawaqitTvLocalizations {
   String get duaaBetweenSalahAndAdhan => 'អាណាស ប៊ិន ម៉ាលិក បានមានប្រសាសន៍ថា៖ សាសនទូតរបស់អល់ឡោះ ﷺ បានមានប្រសាសន៍ថា៖ ការបួងសួងមិនត្រូវបានបដិសេធរវាងអាហ្សង់ និងការឈរសម្រាប់សឡាតឡើយ។';
 
   @override
-  String get salatKhayrMinaNawm => 'Assalatu khayrun mina nawm';
+  String get salatKhayrMinaNawm => 'អាស្សាឡាតូ ខៃរូន មីណា នៅម';
 
   @override
   String get salatElEid => 'សឡាតអ៊ីទ';
@@ -442,7 +442,7 @@ class MawaqitTvLocalizationsKm extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'ជ្រើសរើសប្រសិនបើអេក្រង់របស់អ្នកនឹងបង្ហាញសេចក្តីជូនដំណឹងជានិច្ច វាមានប្រយោជន៍ប្រសិនបើអ្នកដំឡើងអេក្រង់នៅច្រកចូលជាឧទាហរណ៍។';
 
   @override
-  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'បានផុតការស្ងួត ហើយសរសៃឈាមបានជូតផប់ ហើយសុទិដ្ឋិនិយមបានត្រឹម តាមព្រះបំណងរបស់អាល់ឡោះ។';
 
   @override
   String get secondaryScreenExplanation => 'សម្រាប់បន្ទប់សឡាតទីពីរ (បន្ទប់ស្ត្រី ឬជាន់ផ្សេង ជាឧទាហរណ៍) អេក្រង់នេះនឹងបង្ហាញការផ្សាយផ្ទាល់ជុមុអះ';
@@ -484,7 +484,7 @@ class MawaqitTvLocalizationsKm extends MawaqitTvLocalizations {
   String get eidMubarak => 'អ៊ីទ មូបារ៉ក់';
 
   @override
-  String get takbeerAleidText => 'Allahu Akbar, Allahu Akbar, Allahu Akbar, la ilaha illa Allah, Allahu Akbar, Allahu Akbar, wa lillahi al-hamd';
+  String get takbeerAleidText => 'អាល់ឡោះអកបារ អាល់ឡោះអកបារ អាល់ឡោះអកបារ ឡា អិឡាហ៉ា អិលឡាល់ឡាហ ឣាល់ឡោះអកបារ អាល់ឡោះអកបារ វ៉ា លិល្លាហិ អលហាំដ';
 
   @override
   String get settings => 'ការកំណត់';
@@ -1194,5 +1194,5 @@ class MawaqitTvLocalizationsKm extends MawaqitTvLocalizations {
   String get athkarFontUthmani => 'អ៊ូតម៉ានី (Uthmani)';
 
   @override
-  String get crowdinSyncCheck => 'Prayer times are shown for your mosque';
+  String get crowdinSyncCheck => 'ពេលបួសត្រូវបានបង្ហាញសម្រាប់មស្សជិតរបស់អ្នក';
 }

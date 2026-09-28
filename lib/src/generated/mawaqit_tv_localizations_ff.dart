@@ -7,7 +7,7 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsFf([String locale = 'ff']) : super(locale);
 
   @override
-  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+  String get thisIsATestFromIbrahim => 'Ko jango jogi Ibraahiima';
 
   @override
   String get home => 'Jaɓɓorgo';
@@ -49,19 +49,19 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get quit => 'Yaltu';
 
   @override
-  String get forceStaging => 'Staging';
+  String get forceStaging => 'Waatu lowre ƴeewndorde';
 
   @override
-  String get forcePreProduction => 'Pre-production';
+  String get forcePreProduction => 'Mbindi kaɗowol bayyaniinde';
 
   @override
   String get disableStaging => 'Waɗtu lowre huutorde';
 
   @override
-  String get environmentSwitchSuccess => 'Environment switched successfully';
+  String get environmentSwitchSuccess => 'Mbindi kaɗowol jokki e jam';
 
   @override
-  String get environmentSwitchFailed => 'Failed to switch environment';
+  String get environmentSwitchFailed => 'Mbindi kaɗowol jokkii waawaa';
 
   @override
   String get sureCloseApp => 'Aɗa yenanaa yiɗde yaltude jaaɓngal ngal?';
@@ -235,10 +235,10 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get alAthkar => 'Al-Athkar';
 
   @override
-  String get azkarList0 => 'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
+  String get azkarList0 => 'Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik';
 
   @override
-  String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
+  String get azkarList1 => 'Subhan Allah wal hamdu lillah wallahu akbar (laabi 33) La ilaha illa Allah, wahdahu la charika lah, lahu elmoulku wa lahu elhamdu, wa hua `ala kulli chay in kadir';
 
   @override
   String get azkarList2 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
@@ -253,7 +253,7 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 => 'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
+  String get azkarList6 => 'Laa ilaha illaa Allah, wahdahuu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala kulli shayin kadiir, Allahumma laa mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad';
 
   @override
   String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
@@ -292,7 +292,7 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get duha => 'Duha';
 
   @override
-  String get duhaTime => 'Duha Time';
+  String get duhaTime => 'Waktu Duha';
 
   @override
   String get reset => 'Firlit';
@@ -442,7 +442,7 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Suɓo so yaynirde maa yaltinat tintine sahaa kala, ɗum ena himmi so tawii mbaɗ-ɗaa yaynirde ndee ko e naatirde, yeru.';
 
   @override
-  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'Nyaaɗi arii, ndiyam fuɗɗani, e looga moƴƴi, so Alla jogii reward, inshallah.';
 
   @override
   String get secondaryScreenExplanation => 'E suudu ɗiɗaɓuru njuulu (suudu rewɓe walla toggere woɗnde, yeru), ndee yaynirde hollirta ko njuulu Aljumaa tolbec';
@@ -490,7 +490,7 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get settings => 'Teelte';
 
   @override
-  String get applicationModes => 'Default launch mode';
+  String get applicationModes => 'Mbayka Jaaɓngal';
 
   @override
   String get ifYouAreFacingAnIssueWithTheAppActivateThis => 'So a heɓii caɗeele e ngal jaaɓngal, eto hurminde ndee suɓre';
@@ -541,7 +541,7 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get nl => 'Holandiire';
 
   @override
-  String get ta => 'Tamil';
+  String get ta => 'Taamil';
 
   @override
   String get fr_ar => 'Farayseere & Aarabeere';
@@ -658,7 +658,7 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get wifiFailure => 'Horiima seŋaade e Wifi.';
 
   @override
-  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+  String get wifiForgetNetwork => 'Reseau ngol ina seɗinii e teelte Android. Soomru hoore e koɗɗo, so tawii wattu.';
 
   @override
   String get timezoneSuccess => 'Diiwaan wakktu labaama no haaniri.';
@@ -928,7 +928,7 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get tryAgainLater => 'Tiiɗno fuɗɗito ɗoo e yeeso';
 
   @override
-  String get hintTextRtspUrl => 'rtsp://... or https://youtube.com/live/...';
+  String get hintTextRtspUrl => 'rtsp://... walla https://youtube.com/live/...';
 
   @override
   String get checkInternetUpdate => 'Maa ceŋo-ɗaa e Enternet ngam yuurnaade kesɗitine kese';
@@ -992,7 +992,7 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get initializingAutoReading => 'Kurminirgol ena jokki...';
 
   @override
-  String get holdOkToStop => 'Hold OK to Stop';
+  String get holdOkToStop => 'Yaltu OK jooni e naamnude';
 
   @override
   String prayerTimeNotification(String salahName, String prayerTime) {
@@ -1018,7 +1018,7 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get rtspUrlHint => 'Naatnu RTSP URL walla link YouTube';
 
   @override
-  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
+  String get urlManagedByMosqueAdmin => 'URL-en ngol jogii e laawol moƴƴoɗo masallaji';
 
   @override
   String get replaceWorkflowWithStream => 'Jokku tooto camara mo balol zurgo';
@@ -1027,37 +1027,37 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get replaceAppWorkflowWithCameraStream => 'Windirde wiɗii jokki balol camara mo zurgo so camara mo feɗi waɗtude; so mo welta, windirde wiɗii ummi to jokku lesdi juulndi.';
 
   @override
-  String get streamMode => 'Stream mode';
+  String get streamMode => 'Mbayka streaming';
 
   @override
-  String get streamModeDisabled => 'Disabled';
+  String get streamModeDisabled => 'Danndaaɓo';
 
   @override
-  String get streamModeCamera => 'Stream depends on camera';
+  String get streamModeCamera => 'Mbayka streaming so tawii kamara moƴƴi';
 
   @override
-  String get streamModeJumuaOnly => 'Stream depends on Jumua only';
+  String get streamModeJumuaOnly => 'Mbayka streaming so tawii Jumua tan';
 
   @override
-  String get streamModeJumuaAndPrayers => 'Stream depends on Jumua and the 5 prayers';
+  String get streamModeJumuaAndPrayers => 'Streaming mbaydi so tawii Jumua e jibbinaaɗi 5';
 
   @override
-  String get streamRequiresSecondaryScreen => 'This feature only works when the app runs as a secondary screen. To enable it:';
+  String get streamRequiresSecondaryScreen => 'Moƴƴi ko e jamɗe suɓi ecran baali. Naatude moƴƴum:';
 
   @override
-  String get streamSecondaryScreenStep1 => 'Go to Display.';
+  String get streamSecondaryScreenStep1 => 'Yah e Hollu.';
 
   @override
-  String get streamSecondaryScreenStep2 => 'Open \"Default launch mode\".';
+  String get streamSecondaryScreenStep2 => 'Uddit \"Mode de demarrage defawol\".';
 
   @override
-  String get streamSecondaryScreenStep3 => 'Select \"Secondary screen\".';
+  String get streamSecondaryScreenStep3 => 'Suubo \"Ecran ɓurnde\".';
 
   @override
-  String get rtspServerNotAvailable => 'RTSP server is not available. Please check your connection.';
+  String get rtspServerNotAvailable => 'RTSP server alaa. Huutor e jamfaama maa.';
 
   @override
-  String get settingsSavedSuccessfully => 'Settings saved successfully';
+  String get settingsSavedSuccessfully => 'Teelte jiibii waawde dannde';
 
   @override
   String get streamError => 'Cillal arani e dowiniral balol';
@@ -1090,13 +1090,13 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get testAITranslation => 'Eyi feewu tawa heɓtude jeytaa AI nder ɗaƴƴude firtaande ngal mowli.';
 
   @override
-  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
+  String get testCrowdinCI => 'Test string ngol ngam foppude Crowdin CI workflow on develop';
 
   @override
-  String get quranMode => 'Quran mode';
+  String get quranMode => 'Mbayka Qur\'aan';
 
   @override
-  String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
+  String get quranModeExplanation => 'Hollu ecran gootorde Qur\'aan, fuɗɗit e ñoowi do tawɗii jange';
 
   @override
   String get appDisplayMode => 'Yaynirde';
@@ -1105,10 +1105,10 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get appDisplayModeExplanation => 'Suɓo no yaynirde maa hollirta loowdi ndii';
 
   @override
-  String get exitQuranModeTitle => 'Exit Quran Mode';
+  String get exitQuranModeTitle => 'Yaltu Mbayka Qur\'aan';
 
   @override
-  String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+  String get exitQuranModeMessage => 'Aɗa yiɗi yo a vaya e mbayka ngoowaaka?';
 
   @override
   String get settingsSectionGlobal => 'Hakkunde';
@@ -1132,36 +1132,36 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get wifi => 'WiFi';
 
   @override
-  String get tutorialGetStarted => 'Get started in 4 simple steps';
+  String get tutorialGetStarted => 'Fuɗɗi e etap nayi 4 ɗiɗi';
 
   @override
-  String get tutorialDontHaveId => 'Don\'t have a Mosque ID yet? Here\'s how:';
+  String get tutorialDontHaveId => 'A alaa Mosque ID kam yettude? Andi no waɗde:';
 
   @override
-  String get tutorialStep1 => 'Go to mawaqit.net and create an account';
+  String get tutorialStep1 => 'Yah mawaqit.net e sootir account maa';
 
   @override
-  String get tutorialStep2 => 'Register your mosque with photos & address';
+  String get tutorialStep2 => 'Siwta masalla maa e photoji e address';
 
   @override
-  String get tutorialStep3 => 'Get your unique Mosque ID from your dashboard';
+  String get tutorialStep3 => 'Ndoggol Mosque ID mawɗo e dashboard maa';
 
   @override
-  String get tutorialStep4 => 'Enter the ID here to connect your TV display';
+  String get tutorialStep4 => 'Naatnu ID kono haa toŋtin ecran TV maa';
 
   @override
   String tutorialStep(String step) {
-    return 'Step $step  ';
+    return 'Etap $step  ';
   }
 
   @override
-  String get tutorialScanToRegister => 'Scan to register';
+  String get tutorialScanToRegister => 'Scan e jokkude';
 
   @override
-  String get tutorialScanDescription => 'Use your phone to create an account on mawaqit.net';
+  String get tutorialScanDescription => 'Huutor telefoon maa e sootirde account e mawaqit.net';
 
   @override
-  String get tutorialFullTutorial => 'Full tutorial';
+  String get tutorialFullTutorial => 'Tinndinoore puɓɓol';
 
   @override
   String get prayerTimeFontSize => 'Ɓetol binndi e yaynirde';
@@ -1188,11 +1188,11 @@ class MawaqitTvLocalizationsFf extends MawaqitTvLocalizations {
   String get athkarArabicFontDesc => 'Labo binndi Aarabu ɗi kuutoretee e Al-Athkar (ɓaawo njuulu, noddinaango, Aljumu\'a, hadiis...)';
 
   @override
-  String get athkarFontKufi => 'Kufi';
+  String get athkarFontKufi => 'Kuufi';
 
   @override
-  String get athkarFontUthmani => 'Uthmani';
+  String get athkarFontUthmani => 'Usmaani';
 
   @override
-  String get crowdinSyncCheck => 'Prayer times are shown for your mosque';
+  String get crowdinSyncCheck => 'Waktu suutorgo ina njiɗɗi e masallaji maa';
 }

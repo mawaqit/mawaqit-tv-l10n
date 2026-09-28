@@ -319,7 +319,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get rabiAlawwal => 'Rabi\' al-Awal';
 
   @override
-  String get rabiAlthani => 'Rabi\' al-Thani';
+  String get rabiAlthani => 'Rabiul-Thani';
 
   @override
   String get jumadaAlula => 'Jumada al-Awal';
@@ -340,10 +340,10 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get shawwal => 'Shawal';
 
   @override
-  String get dhuAlqidah => 'Dhu al-Qi\'dah';
+  String get dhuAlqidah => 'Dhul-Qi\'dah';
 
   @override
-  String get dhuAlhijjah => 'Dhu al-Hijja';
+  String get dhuAlhijjah => 'Dhul-Hijja';
 
   @override
   String get duaaBetweenSalahAndAdhan => 'Berättat av Anas ibn Malik \"må Allah vara nöjd med honom sa att Allahs budbärare Muhammad ﷺ sade: \"duaa\" avvisas inte mellan adhan och iqama.\n\nعن أنس بن مالك رضي الله عنه، قال رسول الله ﷺ: \"الدعاء لا يُرد بين الأذان والإقامة';
@@ -379,7 +379,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get afterSalahAzkar => 'Athkar efter bön';
 
   @override
-  String get iqama => 'Iqama';
+  String get iqama => 'Iqama الإِقَامَة';
 
   @override
   String get randomHadith => 'Slumpmässig Hadith';
@@ -1194,5 +1194,5 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get athkarFontUthmani => 'Uthmani';
 
   @override
-  String get crowdinSyncCheck => 'Prayer times are shown for your mosque';
+  String get crowdinSyncCheck => 'Bönetider visas för din moské';
 }

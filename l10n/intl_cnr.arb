@@ -67,11 +67,11 @@
   "perPrayerRolloverDesc": "Odaberite kako namaska vremena prelaze na sutrašnji raspored",
   "perPrayerRolloverOptionPerPrayer": "Svaki namaz zasebno",
   "alAthkar": "Dhikr",
-  "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
+  "azkarList0": "Estagfirullah, Estagfirullah, Estagfirullah. \n\nAllahumme entes-selamu ve minkes-selam, tebarekte ja zel-dželali vel-ikram!\n\n''Gospodaru naš, Ti si izvor spasa i od Tebe je spas. Uzvišen si Ti, o Gospodaru veličine i plemenitosti''\n(Muslim, Ebu Davud, Tirmizi, Nesa’i, Ibn Madže, Taberani, Darimi)",
   "@azkarList0": {
     "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
   },
-  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
+  "azkarList1": "Subhanellahi – 33 puta; El-Hamdu lillahi – 33 puta; Allahu ekber – 33 puta (Buhari, Muslim, Nesa’i); ili svaku od ove tri riječi po 11 puta.\nLa ilahe illellahu vahdehu la šerike leh, lehu-l-mulku ve lehu-l-hamdu ve huve ‘ala kulli šej-in kadir",
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
@@ -91,7 +91,7 @@
   "@azkarList5": {
     "description": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلۡحَيُّ ٱلۡقَيُّومُۚ لَا تَأۡخُذُهُۥ سِنَةٞ وَلَا نَوۡمٞۚ لَّهُۥ مَا فِي ٱلسَّمَٰوَٰتِ وَمَا فِي ٱلۡأَرۡضِۗ مَن ذَا ٱلَّذِي يَشۡفَعُ عِندَهُۥٓ إِلَّا بِإِذۡنِهِۦۚ يَعۡلَمُ مَا بَيۡنَ أَيۡدِيهِمۡ وَمَا خَلۡفَهُمۡۖ وَلَا يُحِيطُونَ بِشَيۡءٖ مِّنۡ عِلۡمِهِۦٓ إِلَّا بِمَا شَآءَۚ وَسِعَ كُرۡسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلۡأَرۡضَۖ وَلَا يَ‍ُٔودُهُۥ حِفۡظُهُمَاۚ وَهُوَ ٱلۡعَلِيُّ ٱلۡعَظِيمُ"
   },
-  "azkarList6": "Lā 'ilāha 'illallāh, waḥdahu lā sharīka lah, lahu 'l-mulku wa lahu 'l-ḥamd, wa huwa `alā kulli shay'in qadīr, Allāhumma lā māni`a limā 'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.",
+  "azkarList6": "La ilahe illellahu vahdehu la šerike leh, lehu-l-mulku ve lehu-l-hamdu ve huve ‘ala kulli šej-in kadir",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
@@ -131,7 +131,7 @@
   "jumuaaHadith": "Allahov Poslanik s. a. vs., je rekao: „Ko opere svoju glavu i okupa se petkom, potom porani na džumu-namaz idući pješice, ne koristeći prijevozno sredstvo, zatim se približi imamu i pažljivo sluša, imaće nagradu za svaki učinjeni korak godinu dana posta i namaza.“\n\nHadis-Sabirači Sunena",
   "shuruk": "Izlazak sunca",
   "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duhaTime": "Vrijeme duha namaza",
   "reset": "Resetiraj",
   "mosqueNotFoundMessage": "Žao nam je, vaša džamija nije pronađena ili je privremeno neaktivna.",
   "noInternetMessage": "Nemate pristup internetu. Provjerite svoju internetsku vezu i pokušajte ponovo. Da li je vaš Wi-Fi ili Internet povezan?",
@@ -181,7 +181,7 @@
   "announcementOnlyMode": "Režim obavještenja",
   "normalMode": "Normalni način ",
   "announcementOnlyModeEXPLINATION": "Odaberite hoće li vaš ekran stalno prikazivati ​​najave i obavještenja, ovo može biti korisno ako na primjer instalirate ekran na ulazu.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "Nestala je žeđ, navlažile su se žile i upisan je sevap, inšallah",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -303,7 +303,7 @@
       }
     }
   },
-  "quranReadingPagePortrait": "Page {currentPage} / {totalPages}",
+  "quranReadingPagePortrait": "Strana {currentPage} / {totalPages}",
   "@quranReadingPagePortrait": {
     "description": "Placeholder text for displaying Quran reading page portrait numbers",
     "placeholders": {
@@ -349,14 +349,14 @@
   "@noFavoriteReciters": {
     "description": "Message shown when there are no favorite reciters"
   },
-  "noReciterSearchResult": "No results found for your search",
-  "searchForReciter": "Search for a reciter",
-  "downloadAllSuwarSuccessfully": "The whole quran is downloaded",
-  "noSuwarDownload": "No new suwars to download",
-  "connectDownloadQuran": "Please connect to Internet to download",
-  "playInOnlineModeQuran": "Please connect to internet to play",
-  "downloaded": "Downloaded",
-  "switchQuranType": "Go to {name}",
+  "noReciterSearchResult": "Nema rezultata za vašu pretragu",
+  "searchForReciter": "Pretražite učača",
+  "downloadAllSuwarSuccessfully": "Cijeli Kur'an je preuzet",
+  "noSuwarDownload": "Nema novih sura za preuzimanje",
+  "connectDownloadQuran": "Povežite se na internet za preuzimanje",
+  "playInOnlineModeQuran": "Povežite se na internet za reprodukciju",
+  "downloaded": "Preuzeto",
+  "switchQuranType": "Idi na {name}",
   "@switchQuranType": {
     "description": "Message shown when a reciter is added to favorites",
     "placeholders": {
@@ -366,19 +366,19 @@
       }
     }
   },
-  "surahSelector": "Select Surah",
-  "checkForUpdates": "Check for Updates",
-  "checkForNewVersion": "Check if a new version is available",
-  "wouldYouLikeToUpdate": "Would you like to update the app?",
-  "updateCompleted": "Update completed successfully!",
-  "noUpdates": "No Updates",
-  "usingLatestVersion": "You are using the latest version.",
-  "updateCancelled": "Update cancelled",
-  "checkingUpdates": "Checking updates...",
-  "downloadingUpdate": "Downloading update...",
-  "installingUpdate": "Installing update...",
-  "updateCompletedSuccessfully": "Update completed successfully",
-  "updateFailed": "Update failed",
+  "surahSelector": "Odaberi suru",
+  "checkForUpdates": "Provjeri ažuriranja",
+  "checkForNewVersion": "Provjerite da li je dostupna nova verzija",
+  "wouldYouLikeToUpdate": "Želite li ažurirati aplikaciju?",
+  "updateCompleted": "Ažuriranje je uspješno završeno!",
+  "noUpdates": "Nema ažuriranja",
+  "usingLatestVersion": "Koristite najnoviju verziju.",
+  "updateCancelled": "Ažuriranje otkazano",
+  "checkingUpdates": "Provjeravam ažuriranja...",
+  "downloadingUpdate": "Preuzimam ažuriranje...",
+  "installingUpdate": "Instaliram ažuriranje...",
+  "updateCompletedSuccessfully": "Ažuriranje je uspješno završeno",
+  "updateFailed": "Ažuriranje nije uspjelo",
   "settingsSectionGlobal": "Globalno",
   "hijriDateAdjustment": "Podešavanje hidžretskog datuma",
   "interfaceLanguage": "Jezik interfejsa",
@@ -403,5 +403,293 @@
   "checkInternetLiveCamera": "Morate biti povezani na internet da biste podesili kameru uživo",
   "checkInternetUpdate": "Morate biti povezani na internet da biste provjerili nova ažuriranja",
   "rtspCameraSettingDesc": "Povežite se na svoju lokalnu kameru i prikažite prijenos džuma-namaza na TV ekranu.",
-  "rtspCameraSettingTitle": "Kamera uživo"
+  "rtspCameraSettingTitle": "Kamera uživo",
+  "thisIsATestFromIbrahim": "Ovo je test od Ibrahima",
+  "forceStaging": "Prijeđite na prikaz",
+  "forcePreProduction": "Pre-produkcija",
+  "environmentSwitchSuccess": "Okruženje je uspješno promijenjeno",
+  "environmentSwitchFailed": "Neuspješno prebacivanje okruženja",
+  "azanIn": "Ezan za",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "mosqueDefault": "Iz vaše online konfiguracije",
+  "ta": "Tamilski",
+  "reciterLoadError": "Nije moguće učitati učače",
+  "reciterNetworkError": "Provjerite internet vezu i pokušajte ponovo",
+  "reciterServerError": "Server je privremeno nedostupan. Pokušajte kasnije",
+  "reciterTimeoutError": "Zahtjev je istekao. Pokušajte ponovo",
+  "surahLoadError": "Nije moguće učitati sure",
+  "wifiForgetNetwork": "Ova mreža je dodata u Android podešavanjima. Zaboravite je tamo, pa se ponovo povežite.",
+  "save": "Sačuvaj",
+  "enterRtspUrl": "Unesite RTSP ili Youtube Live URL",
+  "addRtspUrl": "Dodajte URL za prenos sa vaše kamere ispod",
+  "enableRtspCamera": "Omogući kameru uživo",
+  "rtspCameraSettings": "Podešavanja kamere",
+  "invalidRtspUrl": "Neispravan URL. Provjerite URL i pokušajte ponovo.",
+  "validRtspUrl": "URL je uspješno potvrđen i sačuvan.",
+  "rtspCameraSettingScreenDesc": "Ako ovdje unesete URL, ekran će se automatski prebaciti na video prijenos kada nastupi vrijeme džuma-namaza",
+  "validatingStream": "Validacija prenosa...",
+  "somethingWentWrong": "Nešto je pošlo po zlu! Molimo pokušajte ponovo",
+  "somethingWrong": "Nešto je pošlo po zlu",
+  "tryAgainLater": "Pokušajte ponovo kasnije",
+  "hintTextRtspUrl": "rtsp://... ili https://youtube.com/live/...",
+  "appUpdateAvailable": "Vaša aplikacija koristi verziju {currentVersion}. Dostupno je novo ažuriranje (verzija {updatedVersion}) sa najnovijim funkcijama i unapređenjima.",
+  "@appUpdateAvailable": {
+    "description": "Placeholder text for displaying update available message",
+    "placeholders": {
+      "currentVersion": {
+        "type": "String",
+        "example": "1"
+      },
+      "updatedVersion": {
+        "type": "String",
+        "example": "604"
+      }
+    }
+  },
+  "quranUpdateDialogContent": "Novo ažuriranje za {moshafName} Kur'an (verzija {version}) je dostupno.",
+  "@quranUpdateDialogContent": {
+    "description": "Message to display in the update available dialog with Quran name and version.",
+    "placeholders": {
+      "moshafName": {
+        "type": "String",
+        "example": "Hafs"
+      },
+      "version": {
+        "type": "String",
+        "example": "2.0"
+      }
+    }
+  },
+  "ishaAndFajrOnly": "Samo sabah i jacija namazi",
+  "minutesBeforeFajrPrayer": "minuta prije sabah namaza",
+  "minutesAfterIshaPrayer": "minuta nakon jacija namaza",
+  "scheduleSaved": "Vaš raspored je sačuvan.",
+  "completeAllFields": "Molimo popunite sva polja prije spremanja.",
+  "endTimeAfter": "Vrijeme završetka mora biti nakon vremena početka.",
+  "scheduleListening": "Zakazano slušanje",
+  "enableScheduling": "Omogući zakazivanje",
+  "scheduleDesc": "Omogućite ovu opciju za automatsko puštanje sure u određeno vrijeme.",
+  "startTime": "Vrijeme početka",
+  "endTime": "Vrijeme završetka",
+  "selectReciter": "Odaberi učača",
+  "selectMoshaf": "Odaberi Mushaf",
+  "randomSurahSelection": "Nasumičan izbor sure",
+  "selectSurah": "Odaberi suru",
+  "initializingAutoReading": "Pokretanje u toku...",
+  "prayerTimeNotification": "Obavještenje o vremenu za {salahName} namaz ({prayerTime})",
+  "@prayerTimeNotification": {
+    "description": "Notifcation that will be displayed when app is backgrounded.",
+    "placeholders": {
+      "salahName": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "prayerTime": {
+        "type": "String",
+        "example": "16:00"
+      }
+    }
+  },
+  "scheduleInOnlineMode": "Povežite se na internet kako biste zakazali slušanje Kur'ana",
+  "duaaBetweenAdhanAndIqamaaTitle": "Dova (Du'a) nije odbijena između ezana i ikameta",
+  "duaBetweenAdhanIqamah": "Dova (Du'a) nije odbijena između ezana i ikameta.",
+  "processingRequest": "Obrađujem zahtjev...",
+  "loadingStream": "Učitavam prijenos...",
+  "rtspUrlHint": "Unesite RTSP URL ili YouTube link",
+  "urlManagedByMosqueAdmin": "URL upravlja administrator džamije",
+  "replaceWorkflowWithStream": "Automatski prikaži prijenos kamere",
+  "replaceAppWorkflowWithCameraStream": "Ekran će automatski prikazati prijenos kamere čim kamera počne sa snimanjem. Ako se zaustavi, ekran se vraća na prikaz vremena namaza",
+  "streamMode": "Način prenosa",
+  "streamModeDisabled": "Onemogućeno",
+  "streamModeCamera": "Prenos zavisi od kamere",
+  "streamModeJumuaOnly": "Prenos samo za džumu",
+  "streamModeJumuaAndPrayers": "Prenos za džumu i 5 namaza",
+  "streamRequiresSecondaryScreen": "Ova funkcija radi samo kada je aplikacija pokrenuta kao sekundarni ekran. Da omogućite:",
+  "streamSecondaryScreenStep1": "Idite na Prikaz.",
+  "streamSecondaryScreenStep2": "Otvorite \"Podrazumijevani način pokretanja\".",
+  "streamSecondaryScreenStep3": "Izaberite \"Sekundarni ekran\".",
+  "rtspServerNotAvailable": "RTSP server nije dostupan. Provjerite vašu konekciju.",
+  "settingsSavedSuccessfully": "Podešavanja su uspješno sačuvana",
+  "streamError": "Došlo je do greške pri prenosu",
+  "finish": "Završi",
+  "schedulingAlarms": "Zakazujem uključivanje/isključivanje...",
+  "alarmsSucessSchedule": "Uključivanje/isključivanje uspješno zakazano",
+  "alarmsScheduleFailure": "Zakazivanje uključivanja/isključivanja nije uspjelo",
+  "prayerTimeNotificationTitle": "Obavještenja o vremenima namaza",
+  "prayerTimeNotificationDesc": "Dobijte ezan u vrijeme namaza, čak i kada je aplikacija zatvorena",
+  "enablePrayerReminders": "Omogući podsjetnike za namaz",
+  "enablePrayerRemindersDesc": "Radi automatski u pozadini",
+  "testAITranslation": "Ovo je testna rečenica za provjeru da AI prevod ispravno radi",
+  "@testAITranslation": {
+    "description": "Test string for AI translation verification - can be deleted after testing"
+  },
+  "testCrowdinCI": "Test string za provjeru Crowdin CI tok rada na develop",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Kuran način",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Prikažite ekran za čitanje Kur'ana, počevši od posljednje čitane stranice",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Izađi iz Kur’an načina",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Želite li da se vratite na normalni način?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "Započnite u 4 jednostavna koraka",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "Još uvijek nemate ID džamije? Evo kako:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "Idite na mawaqit.net i napravite nalog",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "Registrujte vašu džamiju sa fotografijama i adresom",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "Preuzmite vaš jedinstveni ID džamije sa vaše kontrolne table",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "Unesite ID ovdje da povežete TV ekran",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "Korak {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "Skeniraj za registraciju",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "Koristite vaš telefon za kreiranje naloga na mawaqit.net",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "Kompletan vodič",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "Vremena namaza su prikazana za vašu džamiju",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

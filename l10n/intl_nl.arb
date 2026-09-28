@@ -67,11 +67,11 @@
   "perPrayerRolloverDesc": "Kies hoe de gebedstijden overschakelen naar die van morgen",
   "perPrayerRolloverOptionPerPrayer": "Elk gebed afzonderlijk",
   "alAthkar": "Al-Atkar",
-  "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
+  "azkarList0": "Ik zoek vergeving bij Allah, ik zoek vergeving bij Allah, ik zoek vergeving bij Allah. O Allah, U bent vrede en van U komt vrede. Gezegend bent U, O Bezitter van majesteit en eer. O Allah, help mij om U te herinneren, U te bedanken en U op de beste manier te aanbidden",
   "@azkarList0": {
     "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
   },
-  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
+  "azkarList1": "Glorieus is Allah, en alle lof is voor Allah, en Allah is de grootste, (33 keer). Er is geen god dan Allah, Hij is de Enige zonder enige partner. Hij heeft alle macht en alle lof komt Hem toe, en Hij is almachtig over alles",
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
@@ -91,7 +91,7 @@
   "@azkarList5": {
     "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
-  "azkarList6": "Lā 'ilāha 'illallāh, waḥdahu lā sharīka lah, lahu 'l-mulku wa lahu 'l-ḥamd, wa huwa `alā kulli shay'in qadīr, Allāhumma lā māni`a limā 'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.",
+  "azkarList6": "Er is geen god dan Allah, Hij is Enig zonder enige partner. Aan Hem behoort de heerschappij en alle lof, en Hij is almachtig over alles. O Allah, er is niemand die kan tegenhouden wat U geeft en er is niemand die kan geven wat U tegenhoudt. En de rijkdom van deze wereld kan ons niet helpen zonder Uw hulp",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
@@ -130,15 +130,15 @@
   "jumuaaScreenTitle": "Jumuaa Tijd",
   "jumuaaHadith": "De Profeet ﷺ (vrede en zegeningen van Allah zij met hem) zei: \"Wie de wassing perfect verricht en dan naar jumua gaat en dan luistert en zwijgt, hem is vergeven wat er tussen dat tijdstip en de volgende vrijdag en nog drie dagen ligt en degene die stenen aanraakt heeft zeker een nutteloosheid begaan.\"",
   "shuruk": "Zonsopkomst",
-  "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duha": "Doha",
+  "duhaTime": "Duha tijd",
   "reset": "Reset",
   "mosqueNotFoundMessage": "Sorry, uw moskee werd niet gevonden, of is misschien verdwenen of tijdelijk uitgeschakeld.",
   "noInternetMessage": "Geen internettoegang. Controleer uw internetverbinding en probeer het opnieuw. Is uw Wi-Fi of Ethernet aangesloten?",
   "error": "Foutmelding",
   "mosqueErrorMessage": "Moskee fout als u moskee admin bent, neem contact op met onze support om dit probleem op te lossen",
   "muharram": "Muharram",
-  "safar": "Safar",
+  "safar": "Veilig",
   "rabiAlawwal": "Rabi' al-Awwal",
   "rabiAlthani": "Rabi' al-Thani",
   "jumadaAlula": "Jumada al-Ula",
@@ -181,7 +181,7 @@
   "announcementOnlyMode": "Mededelingen modus",
   "normalMode": "Normale modus ",
   "announcementOnlyModeEXPLINATION": "Kies of je scherm de mededelingen de hele tijd zal weergeven. Dit kan handig zijn als je het scherm bijvoorbeeld bij de ingang installeert.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "De dorst is verdwenen, de aderen zijn bevochtigd en de beloning is bevestigd, als Allah het wil.",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -220,7 +220,7 @@
   "fr_ar": "Frans en Arabisch",
   "en_ar": "Engels & Arabisch",
   "de_ar": "Duits & Arabisch",
-  "ta_ar": "Tamil & Arabic",
+  "ta_ar": "Tamil & Arabisch",
   "tr_ar": "Turks en Arabisch",
   "es_ar": "Spaans & Arabisch",
   "pt_ar": "Portugees en Arabisch",
@@ -240,7 +240,7 @@
   "useDeviceTime": "Apparaattijd gebruiken",
   "selectTime": "Selecteer tijd",
   "previous": "Vorige",
-  "appTimezone": "App Timezone",
+  "appTimezone": "Tijdzone van de app",
   "descTimezone": "Selecteer je tijdzone om nauwkeurige gebedstijden te krijgen.",
   "appWifi": "Verbinden met wifi",
   "descWifi": "Maak verbinding met je gewenste wifi",
@@ -250,7 +250,7 @@
   "connect": "Verbinden",
   "wifiPassword": "Wachtwoord",
   "skip": "Overslaan",
-  "noSSID": "**Hidden SSID**",
+  "noSSID": "**Verborgen SSID**",
   "close": "Afsluiten",
   "search": "Zoeken",
   "wifiSuccess": "Succesvol verbonden met Wifi.",
@@ -288,7 +288,7 @@
   "quranDownloaded": "Koran gedownload",
   "quranIsAlreadyDownloaded": "Koran is al gedownload",
   "chooseReciter": "Kies Reciter",
-  "reciteType": "Recite Type",
+  "reciteType": "Recitatie type",
   "readingMode": "Ik wil lezen",
   "listeningMode": "Ik wil luisteren",
   "quranReadingPage": "Pagina {leftPage} - {rightPage} / {totalPages}",
@@ -326,7 +326,7 @@
   "chooseQuranPage": "Kies de pagina",
   "checkingForUpdates": "Controleren op updates...",
   "chooseQuranType": "Kies quran",
-  "hafs": "Hafs",
+  "hafs": "Mushaf Hafs",
   "warsh": "Oorlog",
   "favorites": "Favoriten",
   "allReciters": "Alle Reciters",
@@ -372,7 +372,7 @@
       }
     }
   },
-  "surahSelector": "Select Surah",
+  "surahSelector": "Selecteer soera",
   "checkForUpdates": "Controleren op updates",
   "checkForNewVersion": "Controleer of er een nieuwe versie beschikbaar is",
   "wouldYouLikeToUpdate": "Wilt u de app bijwerken?",
@@ -392,7 +392,7 @@
   "rtspCameraSettings": "Camera instellingen",
   "invalidRtspUrl": "Ongeldige URL. Controleer de URL en probeer het opnieuw.",
   "validRtspUrl": "URL gevalideerd en met succes opgeslagen.",
-  "rtspCameraSettingTitle": "Live camera",
+  "rtspCameraSettingTitle": "Livecamera",
   "rtspCameraSettingDesc": "Maak verbinding met uw lokale camera en toon de jumua gebed stream op het TV-scherm.",
   "rtspCameraSettingScreenDesc": "Als je hier een URL invoert, zal je scherm automatisch overschakelen naar video streaming wanneer Jumua tijd aankomt",
   "validatingStream": "Stream valideren...",
@@ -500,6 +500,176 @@
   "athkarArabicFont": "Arabisch lettertype voor Athkar",
   "athkarArabicFontDesc": "Kies het Arabische lettertype voor Athkar (na het gebed, adhan, Djoemoe’ah, hadith...)",
   "athkarFontKufi": "Koefi",
-  "athkarFontUthmani": "Uthmani",
-  "perPrayerRolloverOptionAfterIsha": "Allemaal samen na ‘Ishaa"
+  "athkarFontUthmani": "Oethmaans",
+  "perPrayerRolloverOptionAfterIsha": "Allemaal samen na ‘Ishaa",
+  "forceStaging": "Overschakelen naar staging",
+  "environmentSwitchSuccess": "Omgeving succesvol gewijzigd",
+  "environmentSwitchFailed": "Omgeving wisselen mislukt",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "wifiForgetNetwork": "Dit netwerk is toegevoegd in de Android-instellingen. Vergeet het daar, en maak dan opnieuw verbinding.",
+  "urlManagedByMosqueAdmin": "URL beheerd door moskeebeheerder",
+  "streamMode": "Streammodus",
+  "streamModeCamera": "Stream afhankelijk van camera",
+  "streamModeJumuaOnly": "Stream alleen afhankelijk van Djumu'a",
+  "streamModeJumuaAndPrayers": "Stream afhankelijk van Djumu'a en de 5 gebeden",
+  "streamRequiresSecondaryScreen": "Deze functie werkt alleen wanneer de app wordt uitgevoerd als een secundair scherm. Om deze in te schakelen:",
+  "streamSecondaryScreenStep1": "Ga naar Beeldscherm.",
+  "streamSecondaryScreenStep3": "Selecteer \"Tweede scherm\".",
+  "rtspServerNotAvailable": "RTSP-server is niet beschikbaar. Controleer uw verbinding.",
+  "testCrowdinCI": "Test string om Crowdin CI workflow op develop te verifiëren",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Koranmodus",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Toon het Koran-leesscherm, beginnend vanaf de laatst gelezen pagina",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Koranmodus verlaten",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Wilt u terugkeren naar de normale modus?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "Begin in 4 eenvoudige stappen",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "Nog geen Moskee-ID? Zo werkt het:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep2": "Registreer uw moskee met foto's en adres",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "Haal uw unieke Moskee-ID uit uw dashboard",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "Voer de ID hier in om uw tv-scherm te verbinden",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialScanToRegister": "Scannen om te registreren",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "Gebruik uw telefoon om een account op mawaqit.net aan te maken",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "Volledige handleiding",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "Gebedstijden worden getoond voor uw moskee",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

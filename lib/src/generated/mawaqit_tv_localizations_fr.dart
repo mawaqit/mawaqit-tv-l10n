@@ -7,7 +7,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsFr([String locale = 'fr']) : super(locale);
 
   @override
-  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+  String get thisIsATestFromIbrahim => 'Ceci est un test de Ibrahim';
 
   @override
   String get home => 'Accueil';
@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get quit => 'Quitter';
 
   @override
-  String get forceStaging => 'Staging';
+  String get forceStaging => 'Passer en préproduction';
 
   @override
-  String get forcePreProduction => 'Pre-production';
+  String get forcePreProduction => 'Pré-production';
 
   @override
   String get disableStaging => 'Passer en mode production';
@@ -235,7 +235,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get alAthkar => 'Al Adhkar';
 
   @override
-  String get azkarList0 => 'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
+  String get azkarList0 => 'Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik';
 
   @override
   String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 fois). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
@@ -253,7 +253,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 => 'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
+  String get azkarList6 => 'La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad';
 
   @override
   String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
@@ -289,7 +289,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get shuruk => 'Chourouk';
 
   @override
-  String get duha => 'Duha';
+  String get duha => 'Douha';
 
   @override
   String get duhaTime => 'Heure du Duha';
@@ -322,7 +322,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get rabiAlthani => 'Rabi\' al-akhir';
 
   @override
-  String get jumadaAlula => 'Jumada al-Ula';
+  String get jumadaAlula => 'Joumada al-oula';
 
   @override
   String get jumadaAlakhirah => 'Joumada al-akhirah';
@@ -337,13 +337,13 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get ramadan => 'Ramadan';
 
   @override
-  String get shawwal => 'Shawwal';
+  String get shawwal => 'Chaoual';
 
   @override
-  String get dhuAlqidah => 'Dhu al-Qi\'dah';
+  String get dhuAlqidah => 'Dhou al-Qi\'dah';
 
   @override
-  String get dhuAlhijjah => 'Dhu al-Hijja';
+  String get dhuAlhijjah => 'Dhou al-Hijja';
 
   @override
   String get duaaBetweenSalahAndAdhan => '    Selon Anas Ibn Mâlik, le Prophète (ﷺ) a dit : \"Les invocations entre l’Adhan et l’Iqâmah ne sont pas rejetées\"';
@@ -1018,7 +1018,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get rtspUrlHint => 'Entrez l\'URL RTSP ou lien YouTube';
 
   @override
-  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
+  String get urlManagedByMosqueAdmin => 'URL gérée par l\'administrateur de la mosquée';
 
   @override
   String get replaceWorkflowWithStream => 'Afficher le flux caméra automatiquement';
@@ -1090,7 +1090,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get testAITranslation => 'Ceci est une chaîne de test pour vérifier que la traduction de l\'IA fonctionne correctement';
 
   @override
-  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
+  String get testCrowdinCI => 'Tester la chaîne de caractères pour vérifier le workflow CI de Crowdin lors du développement';
 
   @override
   String get quranMode => 'Mode Coran';
@@ -1111,7 +1111,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get exitQuranModeMessage => 'Souhaitez-vous revenir au mode normal ?';
 
   @override
-  String get settingsSectionGlobal => 'Global';
+  String get settingsSectionGlobal => 'Globale';
 
   @override
   String get hijriDateAdjustment => 'Ajustement de la date hijri';
@@ -1173,7 +1173,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get fontSizeSmall => 'Petit';
 
   @override
-  String get fontSizeNormal => 'Normal';
+  String get fontSizeNormal => 'Normale';
 
   @override
   String get fontSizeLarge => 'Grand';
@@ -1191,8 +1191,8 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get athkarFontKufi => 'Koufi';
 
   @override
-  String get athkarFontUthmani => 'Uthmani';
+  String get athkarFontUthmani => 'Othmani';
 
   @override
-  String get crowdinSyncCheck => 'Prayer times are shown for your mosque';
+  String get crowdinSyncCheck => 'Les horaires de prière sont affichés pour votre mosquée';
 }

@@ -130,8 +130,8 @@
   "jumuaaScreenTitle": "ジュムアアタイム",
   "jumuaaHadith": "預言者ﷺ（かれに平安とアッラーのご加護を）は、「アブレーションを完璧に行い、ジュムアに行き、耳を傾けて沈黙する者は、その時から次の金曜日とさらに3日間の間にあるものを許される、石に触れる者は確実に無駄なことをした」と言った。",
   "shuruk": "シュルック",
-  "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duha": "ドゥハー",
+  "duhaTime": "ドゥハータイム",
   "reset": "リセット",
   "mosqueNotFoundMessage": "申し訳ありませんが、あなたのモスクは見つかりませんでした、または行方不明か一時的に無効になっている可能性があります。",
   "noInternetMessage": "インターネットに接続できない。インターネット接続を確認し、再度お試しください。Wi-Fiまたはイーサネットは接続されていますか？",
@@ -181,7 +181,7 @@
   "announcementOnlyMode": "アナウンスメントモード",
   "normalMode": "ノーマルモード ",
   "announcementOnlyModeEXPLINATION": "スクリーンに常時アナウンスを表示するかどうかを選択します。例えば、エントランスにスクリーンを設置する場合に便利です。",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "喉の渇きが癒え、血管が潤い、報酬が確かになります、インシャーアッラー。 ",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -205,8 +205,8 @@
   "hijriAdjustments": "ローカルHijriの調整",
   "hijriAdjustmentsDescription": "お使いの端末でhijri日付をローカルに調整してください。これはオンラインのモスクの設定には影響しません",
   "backoffice_default": "バックオフィスのデフォルト",
-  "recommended": "Recommended",
-  "sabah": "Sabah",
+  "recommended": "おすすめ",
+  "sabah": "サバフ",
   "randomHadithLanguage": "ランダムハディース言語",
   "mosqueDefault": "オンライン設定から",
   "en": "イングリッシュ",
@@ -220,7 +220,7 @@
   "fr_ar": "フランス語とアラビア語",
   "en_ar": "英語とアラビア語",
   "de_ar": "ドイツ語とアラビア語",
-  "ta_ar": "Tamil & Arabic",
+  "ta_ar": "タミル語とアラビア語",
   "tr_ar": "トルコ語とアラビア語format@@0",
   "es_ar": "スペイン語とアラビア語",
   "pt_ar": "ポルトガル語 & アラビア文字",
@@ -240,7 +240,7 @@
   "useDeviceTime": "端末の時間を使用",
   "selectTime": "時間を選択",
   "previous": "前",
-  "appTimezone": "App Timezone",
+  "appTimezone": "アプリのタイムゾーン",
   "descTimezone": "正確な祈りの時間を得るためにあなたのタイムゾーンを選びなさい。",
   "appWifi": "Wi-Fiに接続",
   "descWifi": "ご希望のWi-Fiに接続してください",
@@ -250,7 +250,7 @@
   "connect": "接続する",
   "wifiPassword": "パスワード",
   "skip": "スキップ",
-  "noSSID": "**Hidden SSID**",
+  "noSSID": "**SSID非表示**",
   "close": "閉じる",
   "search": "検索",
   "wifiSuccess": "Wi-Fiに接続しました。",
@@ -288,7 +288,7 @@
   "quranDownloaded": "クルアーンがダウンロードされました",
   "quranIsAlreadyDownloaded": "クルアーンは既にダウンロードされています",
   "chooseReciter": "再入力を選択",
-  "reciteType": "Recite Type",
+  "reciteType": "朗誦タイプ",
   "readingMode": "読みたいです",
   "listeningMode": "聞きたいです",
   "quranReadingPage": "ページ {leftPage} - {rightPage} / {totalPages}",
@@ -327,7 +327,7 @@
   "checkingForUpdates": "アップデートを確認しています...",
   "chooseQuranType": "コーランを選択",
   "hafs": "ハフ",
-  "warsh": "Warsh",
+  "warsh": "ワルシュ",
   "favorites": "お気に入り",
   "allReciters": "すべてのリサイター",
   "reciterAddedToFavorites": "Reciter {name} がお気に入りに追加されました",
@@ -372,7 +372,7 @@
       }
     }
   },
-  "surahSelector": "Select Surah",
+  "surahSelector": "スーラを選択",
   "checkForUpdates": "アップデートの確認",
   "checkForNewVersion": "新しいバージョンが利用可能か確認してください",
   "wouldYouLikeToUpdate": "アプリを更新しますか？",
@@ -501,5 +501,192 @@
   "athkarArabicFontDesc": "アズカール（礼拝後、アダン、ジュムア、ハディース…）に使用するアラビア語フォントを選択します",
   "athkarFontKufi": "クーフィー",
   "athkarFontUthmani": "ウスマーニー",
-  "perPrayerRolloverOptionAfterIsha": "イーシャ後にすべて同時"
+  "perPrayerRolloverOptionAfterIsha": "イーシャ後にすべて同時",
+  "thisIsATestFromIbrahim": "これはIbrahimからのテストです",
+  "forceStaging": "ステージングに切り替える",
+  "forcePreProduction": "プレプロダクション",
+  "environmentSwitchSuccess": "環境が正常に切り替えられました",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "ta": "タミル語",
+  "wifiForgetNetwork": "このネットワークはAndroid設定で追加されました。そこからネットワークを削除し、再度接続してください。",
+  "urlManagedByMosqueAdmin": "URLはモスク管理者によって管理されています",
+  "streamModeDisabled": "無効化",
+  "streamModeCamera": "ストリームはカメラに依存します",
+  "streamModeJumuaOnly": "ストリームはジュムアのみで作動します",
+  "streamModeJumuaAndPrayers": "ストリームはジュムアと5回の礼拝時のみ作動します",
+  "streamRequiresSecondaryScreen": "この機能はアプリがセカンダリースクリーンとして実行されている時のみ有効です。有効にする手順：",
+  "streamSecondaryScreenStep1": "ディスプレイに移動。",
+  "streamSecondaryScreenStep2": "「デフォルト起動モード」を開く。",
+  "streamSecondaryScreenStep3": "「セカンダリースクリーン」を選択。",
+  "rtspServerNotAvailable": "RTSPサーバーは利用できません。接続を確認してください。",
+  "settingsSavedSuccessfully": "設定を正常に保存しました",
+  "testCrowdinCI": "Crowdin CI ワークフロー検証用のテスト文字列",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "“クルアーンモード”",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "クルアーン読書画面を、最後に読んだページから表示します",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "コーランモードを終了",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "ノーマルモードに戻りますか？",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "4つの簡単なステップで始める",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "まだモスクIDをお持ちでありませんか？方法はこちら：",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "Mawaqit.netにアクセスしてアカウントを作成してください",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "写真と住所を登録して、モスクを登録しましょう",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "ダッシュボードからユニークなモスクIDを取得してください",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "ここにIDを入力して、テレビディスプレイと接続してください",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "ステップ{step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "登録するためにスキャンしてください",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "スマートフォンでmawaqit.netのアカウントを作成してください",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "フルチュートリアル",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "モスクの礼拝時刻が表示されています",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

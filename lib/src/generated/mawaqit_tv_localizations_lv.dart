@@ -7,7 +7,7 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsLv([String locale = 'lv']) : super(locale);
 
   @override
-  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+  String get thisIsATestFromIbrahim => 'Šis ir tests no Ibrāhīma';
 
   @override
   String get home => 'Sākums';
@@ -49,19 +49,19 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get quit => 'Pārtraukt';
 
   @override
-  String get forceStaging => 'Staging';
+  String get forceStaging => 'Testēšanas vide';
 
   @override
-  String get forcePreProduction => 'Pre-production';
+  String get forcePreProduction => 'Priekšražošana';
 
   @override
   String get disableStaging => 'Pāreja uz ražošanu';
 
   @override
-  String get environmentSwitchSuccess => 'Environment switched successfully';
+  String get environmentSwitchSuccess => 'Vide veiksmīgi pārslēgta';
 
   @override
-  String get environmentSwitchFailed => 'Failed to switch environment';
+  String get environmentSwitchFailed => 'Neizdevās pārslēgt vidi';
 
   @override
   String get sureCloseApp => 'Vai esat pārliecināts, ka vēlaties beigt lietotni?';
@@ -205,7 +205,7 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get alIqama => 'Al Iqama';
 
   @override
-  String get alAdhan => 'Al Athan';
+  String get alAdhan => 'Al Adan';
 
   @override
   String get turnOfPhones => 'Lūdzu, pārslēdziet tālruņus klusajā režīmā';
@@ -235,10 +235,10 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get alAthkar => 'Al-Athkar';
 
   @override
-  String get azkarList0 => 'Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a\'innī \'alā dhikrika wa shukrika wa ḥusni \'ibādatik';
+  String get azkarList0 => 'Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik';
 
   @override
-  String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
+  String get azkarList1 => 'Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 reizes). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa \'alā kulli shay\'in Qadīr';
 
   @override
   String get azkarList2 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbin-nās. Malikin-nās. \'Ilāhin-nās. Min sharri \'l-waswāsil-khannās. Alladhī yuwaswisu fī ṣudūrin-nās. Minal-jinnati wannās.';
@@ -253,7 +253,7 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get azkarList5 => 'Allāhu lā ilāha illā Huwal-Ḥayyul-Qayyūm, lā ta\'khudhuhu sinatun wa lā nawm, lahu mā fis-samāwāti wa mā fil-arḍ, man dhalladhī yashfa\'u \'indahu illā bi\'idhnih, ya\'lamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay\'im-min \'ilmihi illā bimā shā\', wasi\'a Kursiyyuhus-samāwāti wal-arḍ, wa lā ya\'ūduhu ḥifẓuhumā, wa Huwal-\'Aliyyul-\'Aẓīm';
 
   @override
-  String get azkarList6 => 'Lā \'ilāha \'illallāh, waḥdahu lā sharīka lah, lahu \'l-mulku wa lahu \'l-ḥamd, wa huwa `alā kulli shay\'in qadīr, Allāhumma lā māni`a limā \'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.';
+  String get azkarList6 => 'La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad';
 
   @override
   String get azkarList7 => 'Allāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā `abduk, wa anā `alā `ahdika wa wa`dika mastaṭa`t, a`ūdhu bika min sharri mā ṣana`t, abū\'u laka bi ni`matika `alay, wa abū\'u bidhanbī faghfir lī fa\'innahu lā yaghfirudh-dhunūba illā ant.';
@@ -292,7 +292,7 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get duha => 'Duha';
 
   @override
-  String get duhaTime => 'Duha Time';
+  String get duhaTime => 'Duha laiks';
 
   @override
   String get reset => 'Atiestatīt';
@@ -442,7 +442,7 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Izvēlieties, vai ekrānā visu laiku tiks rādīti paziņojumi; tas var būt noderīgi, ja ekrāns ir uzstādīts, piemēram, pie ieejas.';
 
   @override
-  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله';
 
   @override
   String get secondaryScreenExplanation => 'Otrajā lūgšanu telpā (piemēram, sieviešu istabā vai citā stāvā) šajā ekrānā tiks rādīta jumua tiešraide.';
@@ -508,7 +508,7 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get recommended => 'Ieteicamais';
 
   @override
-  String get sabah => 'Sabah';
+  String get sabah => 'Sabahs';
 
   @override
   String get randomHadithLanguage => 'Gadījuma hadīsa valoda';
@@ -541,7 +541,7 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get nl => 'Holandiešu';
 
   @override
-  String get ta => 'Tamil';
+  String get ta => 'Tamilu';
 
   @override
   String get fr_ar => 'Franču un arābu';
@@ -658,7 +658,7 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get wifiFailure => 'Neizdevās pieslēgties Wi-Fi.';
 
   @override
-  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+  String get wifiForgetNetwork => 'Šis tīkls tika pievienots Android iestatījumos. Lūdzu, aizmirstiet to tur un pieslēdzieties vēlreiz.';
 
   @override
   String get timezoneSuccess => 'Laika josla veiksmīgi iestatīta.';
@@ -1018,7 +1018,7 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get rtspUrlHint => 'Ievadiet RTSP URL vai YouTube saiti';
 
   @override
-  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
+  String get urlManagedByMosqueAdmin => 'URL pārvalda mošejas administrators';
 
   @override
   String get replaceWorkflowWithStream => 'Automātiski rādīt kameras tiešraidi';
@@ -1027,37 +1027,37 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get replaceAppWorkflowWithCameraStream => 'Ekrāns automātiski rādīs kameras tiešraidi, tikko kamera sāks ierakstīšanu; ja apstājas, ekrānā tiks atkal rādīti lūgšanu laiki';
 
   @override
-  String get streamMode => 'Stream mode';
+  String get streamMode => 'Straumēšanas režīms';
 
   @override
-  String get streamModeDisabled => 'Disabled';
+  String get streamModeDisabled => 'Atspējots';
 
   @override
-  String get streamModeCamera => 'Stream depends on camera';
+  String get streamModeCamera => 'Straumēšana atkarīga no kameras';
 
   @override
-  String get streamModeJumuaOnly => 'Stream depends on Jumua only';
+  String get streamModeJumuaOnly => 'Straumēšana tikai piektdienas lūgšanas laikā';
 
   @override
-  String get streamModeJumuaAndPrayers => 'Stream depends on Jumua and the 5 prayers';
+  String get streamModeJumuaAndPrayers => 'Straumēšana piektdienas un 5 lūgšanu laikā';
 
   @override
-  String get streamRequiresSecondaryScreen => 'This feature only works when the app runs as a secondary screen. To enable it:';
+  String get streamRequiresSecondaryScreen => 'Šī funkcija darbojas tikai tad, ja lietotne darbojas kā sekundārais ekrāns. Lai to iespējotu:';
 
   @override
-  String get streamSecondaryScreenStep1 => 'Go to Display.';
+  String get streamSecondaryScreenStep1 => 'Dodieties uz Displeju.';
 
   @override
-  String get streamSecondaryScreenStep2 => 'Open \"Default launch mode\".';
+  String get streamSecondaryScreenStep2 => 'Atveriet \"Noklusējuma palaišanas režīms\".';
 
   @override
-  String get streamSecondaryScreenStep3 => 'Select \"Secondary screen\".';
+  String get streamSecondaryScreenStep3 => 'Izvēlieties \"Sekundārais ekrāns\".';
 
   @override
-  String get rtspServerNotAvailable => 'RTSP server is not available. Please check your connection.';
+  String get rtspServerNotAvailable => 'RTSP serveris nav pieejams. Lūdzu, pārbaudiet savu savienojumu.';
 
   @override
-  String get settingsSavedSuccessfully => 'Settings saved successfully';
+  String get settingsSavedSuccessfully => 'Iestatījumi veiksmīgi saglabāti';
 
   @override
   String get streamError => 'Notika kļūda tiešraides laikā';
@@ -1090,13 +1090,13 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get testAITranslation => 'Šī ir testa virkne, lai pārbaudītu, vai mākslīgā intelekta tulkošana darbojas pareizi.';
 
   @override
-  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
+  String get testCrowdinCI => 'Pārbaudes virkne, lai pārbaudītu Crowdin CI darba plūsmu izstrādes vidē';
 
   @override
-  String get quranMode => 'Quran mode';
+  String get quranMode => 'Korāna režīms';
 
   @override
-  String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
+  String get quranModeExplanation => 'Rādīt Korāna lasīšanas ekrānu, sākot no pēdējās lasītās lapas';
 
   @override
   String get appDisplayMode => 'Ekrāns';
@@ -1105,10 +1105,10 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get appDisplayModeExplanation => 'Izvēlieties, kā ekrānā tiks rādīts saturs';
 
   @override
-  String get exitQuranModeTitle => 'Exit Quran Mode';
+  String get exitQuranModeTitle => 'Iziet no Korāna režīma';
 
   @override
-  String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+  String get exitQuranModeMessage => 'Vai vēlaties atgriezties parastajā režīmā?';
 
   @override
   String get settingsSectionGlobal => 'Vispārīgi';
@@ -1132,36 +1132,36 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get wifi => 'WiFi';
 
   @override
-  String get tutorialGetStarted => 'Get started in 4 simple steps';
+  String get tutorialGetStarted => 'Sāciet ar 4 vienkāršiem soļiem';
 
   @override
-  String get tutorialDontHaveId => 'Don\'t have a Mosque ID yet? Here\'s how:';
+  String get tutorialDontHaveId => 'Vēl nav mošejas ID? Lūk, kā rīkoties:';
 
   @override
-  String get tutorialStep1 => 'Go to mawaqit.net and create an account';
+  String get tutorialStep1 => 'Dodieties uz mawaqit.net un izveidojiet kontu';
 
   @override
-  String get tutorialStep2 => 'Register your mosque with photos & address';
+  String get tutorialStep2 => 'Reģistrējiet savu mošeju ar fotogrāfijām un adresi';
 
   @override
-  String get tutorialStep3 => 'Get your unique Mosque ID from your dashboard';
+  String get tutorialStep3 => 'Saņemiet savu unikālo mošejas ID no sava informācijas paneļa';
 
   @override
-  String get tutorialStep4 => 'Enter the ID here to connect your TV display';
+  String get tutorialStep4 => 'Ievadiet ID šeit, lai savienotu TV displeju';
 
   @override
   String tutorialStep(String step) {
-    return 'Step $step  ';
+    return 'Solis $step  ';
   }
 
   @override
-  String get tutorialScanToRegister => 'Scan to register';
+  String get tutorialScanToRegister => 'Skenējiet, lai reģistrētos';
 
   @override
-  String get tutorialScanDescription => 'Use your phone to create an account on mawaqit.net';
+  String get tutorialScanDescription => 'Izmantojiet savu tālruni, lai izveidotu kontu vietnē mawaqit.net';
 
   @override
-  String get tutorialFullTutorial => 'Full tutorial';
+  String get tutorialFullTutorial => 'Pilna pamācība';
 
   @override
   String get prayerTimeFontSize => 'Teksta un displeja lielums';
@@ -1194,5 +1194,5 @@ class MawaqitTvLocalizationsLv extends MawaqitTvLocalizations {
   String get athkarFontUthmani => 'Uthmani';
 
   @override
-  String get crowdinSyncCheck => 'Prayer times are shown for your mosque';
+  String get crowdinSyncCheck => 'Lūgšanu laiki tiek parādīti jūsu mošejai';
 }

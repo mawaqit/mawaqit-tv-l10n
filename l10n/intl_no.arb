@@ -58,7 +58,7 @@
   "afterAdhanHadithTitle": "Etter adhan Du`aa",
   "afterSalahHadith": "Allahumma Rabba hadhihid-da'wati-ttammati, was-salatil-qa'imati, ati Muhammadanil-wasilata wal-fadhilata, wab'athu maqaman mahmuda nilladhi wa 'adtahu' Allah, Gummi i dette perfekte påkall (Da'wa) og for etablert bønn (As-Salat), Gi Muhammad fra Wasila og Ovor og reis ham op til en bønn som du har lovt ham!",
   "alIqama": "Al Iqama",
-  "alAdhan": "Al Athan",
+  "alAdhan": "Al Adan",
   "turnOfPhones": "Vennligst sett telefonene dine i stillemodus",
   "iqamaIn": "Iqama i",
   "iqamaShowClock": "Vis klokke på iqama-skjermen",
@@ -67,11 +67,11 @@
   "perPrayerRolloverDesc": "Velg hvordan bønnetidene bytter til morgendagens tider",
   "perPrayerRolloverOptionPerPrayer": "Hver bønn for seg",
   "alAthkar": "Al-ånder",
-  "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
+  "azkarList0": "Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik",
   "@azkarList0": {
     "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
   },
-  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
+  "azkarList1": "Subhan Allah wal hamdu lillah wallahu akbar (33 times) La ilaha illa Allah, wahdahu la charika lah, lahu elmoulku wa lahu elhamdu, wa hua `ala kulli chay in kadir",
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
@@ -91,7 +91,7 @@
   "@azkarList5": {
     "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
-  "azkarList6": "Lā 'ilāha 'illallāh, waḥdahu lā sharīka lah, lahu 'l-mulku wa lahu 'l-ḥamd, wa huwa `alā kulli shay'in qadīr, Allāhumma lā māni`a limā 'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.",
+  "azkarList6": "La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
@@ -131,7 +131,7 @@
   "jumuaaHadith": "The Prophet φ εεεεεεεεεεεεε∙∙(peace and blessings of Allah be on him), sa ”Whoever does the ablutions perfekt then går til jumua og så lyttes og er stille, Han er planta mellom kvar dag og neste fredag og tre dagar, og den som rører stener har sjølv gjort ein fusjon”",
   "shuruk": "Shuruk",
   "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duhaTime": "Duha-tid",
   "reset": "Reset",
   "mosqueNotFoundMessage": "Beklager, moskeen din ikke ble funnet, eller den kan mangle eller bli midlertidig deaktivert.",
   "noInternetMessage": "Ingen Internett-tilgang. Kontroller internettilkoblingen din og prøv igjen. Er Wi-Fi eller Ethernet ditt tilkoblet?",
@@ -181,7 +181,7 @@
   "announcementOnlyMode": "Annonserings modus",
   "normalMode": "Normal modus ",
   "announcementOnlyModeEXPLINATION": "Velg om skjermen vil vise kunngjøringer hele tiden, dette kan være nyttig hvis du installerer skjermen for eksempel.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "Tørsten er borte, blodårene er blitt fuktet, og belønningen er sikret, in shaa Allah",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -220,7 +220,7 @@
   "fr_ar": "Fransk og arabisk",
   "en_ar": "Engelsk og arabisk",
   "de_ar": "Tysk og arabisk",
-  "ta_ar": "Tamil & Arabic",
+  "ta_ar": "Tamil og arabisk",
   "tr_ar": "Tyrkisk og arabisk",
   "es_ar": "Spansk og arabisk",
   "pt_ar": "Portugisisk og arabisk",
@@ -240,7 +240,7 @@
   "useDeviceTime": "Bruk enhetens tid",
   "selectTime": "Velg tid",
   "previous": "Forrige",
-  "appTimezone": "App Timezone",
+  "appTimezone": "App-tidssone",
   "descTimezone": "Velg tidssone for å få nøyaktig bønn ganger.",
   "appWifi": "Koble til wifi",
   "descWifi": "Vennligst koble til din foretrukne Wi-Fi",
@@ -250,7 +250,7 @@
   "connect": "Nettverk",
   "wifiPassword": "Passord",
   "skip": "Hopp",
-  "noSSID": "**Hidden SSID**",
+  "noSSID": "**Skjult SSID**",
   "close": "Lukk",
   "search": "Søk",
   "wifiSuccess": "Koblet til Wifi.",
@@ -288,7 +288,7 @@
   "quranDownloaded": "Quran lastet ned",
   "quranIsAlreadyDownloaded": "Quran er allerede lastet ned",
   "chooseReciter": "Velg opptaker",
-  "reciteType": "Recite Type",
+  "reciteType": "Resitasjonstype",
   "readingMode": "Jeg vil lese",
   "listeningMode": "Jeg vil lytte",
   "quranReadingPage": "Side {leftPage} – {rightPage} / {totalPages}",
@@ -372,7 +372,7 @@
       }
     }
   },
-  "surahSelector": "Select Surah",
+  "surahSelector": "Velg surah",
   "checkForUpdates": "Se etter oppdateringer",
   "checkForNewVersion": "Sjekk om en ny versjon er tilgjengelig",
   "wouldYouLikeToUpdate": "Ønsker du å oppdatere appen?",
@@ -501,5 +501,180 @@
   "athkarArabicFontDesc": "Velg den arabiske skriften som brukes til Athkar (etter salah, adhan, Jumua, hadith...)",
   "athkarFontKufi": "Kufi",
   "athkarFontUthmani": "Uthmani",
-  "perPrayerRolloverOptionAfterIsha": "Alle samlet etter Isha"
+  "perPrayerRolloverOptionAfterIsha": "Alle samlet etter Isha",
+  "forceStaging": "Bytt til testmiljø",
+  "forcePreProduction": "Pre-produksjon",
+  "environmentSwitchSuccess": "Miljøet ble byttet vellykket",
+  "environmentSwitchFailed": "Kunne ikke bytte miljø",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "wifiForgetNetwork": "Dette nettverket ble lagt til i Android-innstillinger. Vennligst glem det der, og koble deretter til på nytt.",
+  "urlManagedByMosqueAdmin": "URL administrert av moskéadministrator",
+  "streamMode": "Strømmemodus",
+  "streamModeCamera": "Strøm avhenger av kamera",
+  "streamModeJumuaOnly": "Strøm kun basert på Jumu'a",
+  "streamModeJumuaAndPrayers": "Strøm avhenger av Jumua og de <b>5</b> bønnene",
+  "streamRequiresSecondaryScreen": "Denne funksjonen fungerer kun når appen kjøres som en sekundær skjerm. For å aktivere den:",
+  "streamSecondaryScreenStep1": "Gå til Skjerm.",
+  "streamSecondaryScreenStep2": "Åpne \"Standard oppstartsmodus\".",
+  "rtspServerNotAvailable": "RTSP-server er ikke tilgjengelig. Vennligst sjekk tilkoblingen.",
+  "settingsSavedSuccessfully": "Innstillinger lagret vellykket",
+  "testCrowdinCI": "Teststreng for å verifisere Crowdin CI-arbeidsflyt på develop",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Quran-modus",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Vis leseskjerm for Quran, fra siste leste side",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Avslutt Quran-modus",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Vil du gå tilbake til normal modus?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "Kom i gang på 4 enkle trinn",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "Har du ikke en moské-ID ennå? Slik gjør du:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep2": "Registrer moskeen din med bilder og adresse",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "Hent din unike moské-ID fra ditt dashbord",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "Skriv inn ID-en her for å koble til TV-skjermen",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "Steg {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "Skann for å registrere deg",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "Bruk mobilen din til å opprette en konto på mawaqit.net",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "Full opplæring",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "crowdinSyncCheck": "Bønnetidene vises for din moské",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

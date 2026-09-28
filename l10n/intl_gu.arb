@@ -130,8 +130,8 @@
   "jumuaaScreenTitle": "જુમ્મા ટાઇમ ",
   "jumuaaHadith": "\"જે શખ્સ સારી રીતે વુઝૂ કરે, પછી જુમ્મા પઢવા આવે અને ધ્યાન દઈને (ખુત્બો) સાંભળે અને ચૂપ રહે, તો તેના આ જુમ્માથી લઈને બીજા જુમ્મા સુધીના અને (ઉપરાંત) વધારાના ત્રણ દિવસના ગુના માફ કરી દેવામાં આવે છે.\nઅને જે શખ્સે કાંકરીઓને હાથ લગાડ્યો (રમત કરી), તેણે નકામું કામ કર્યું.\"\n(સંદર્ભ: સહીહ મુસ્લિમ)",
   "shuruk": "ઇશરાક ",
-  "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duha": "દુહા",
+  "duhaTime": "દુહા સમય",
   "reset": "રીસૅટ ",
   "mosqueNotFoundMessage": "\"માફ કરશો, તમારી મસ્જિદ મળી શકી નથી, અથવા તે લિસ્ટમાં નથી (missing) અથવા કામચલાઉ રીતે નિષ્ક્રિય (disabled) કરવામાં આવી છે.\"",
   "noInternetMessage": "ઇન્ટરનેટ કનેક્શન ઉપલબ્ધ નથી. કૃપા કરીને તમારું ઇન્ટરનેટ કનેક્ટિવિટી તપાસો અને ફરી પ્રયાસ કરો. શું તમારૂ tv  Wi-Fi અથવા ઇથરનેટ જોડાયેલ છે?",
@@ -501,5 +501,194 @@
   "athkarArabicFontDesc": "અઝકાર માટે વપરાતો અરબી ફોન્ટ પસંદ કરો (નમાઝ પછી, અઝાન, જુમ્મા, હદીસ...)",
   "athkarFontKufi": "કૂફી",
   "athkarFontUthmani": "ઉસ્માની",
-  "perPrayerRolloverOptionAfterIsha": "ઈશા પછી બધા સાથે"
+  "perPrayerRolloverOptionAfterIsha": "ઈશા પછી બધા સાથે",
+  "thisIsATestFromIbrahim": "આ ઈબ્રાહિમ તરફથી પરીક્ષણ છે",
+  "forceStaging": "સ્ટેજિંગ",
+  "forcePreProduction": "પ્રી-પ્રોડક્શન",
+  "environmentSwitchSuccess": "લા-માહોલ સફળતાપૂર્વક બદલાયું.",
+  "environmentSwitchFailed": "લા-માહોલ બદલવામાં નિષ્ફળતા આવી.",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "ta": "તમિલ",
+  "wifiForgetNetwork": "આ નેટવર્ક એન્ડ્રોઇડ સેટિંગ્સમાં ઉમેરાયું હતું. કૃપા કરીને ત્યાં ભૂલી જાવ, પછી ફરીથી કનેક્ટ કરો.",
+  "urlManagedByMosqueAdmin": "URL મસ્જિદ સંચાલક દ્વારા નિયંત્રિત",
+  "streamMode": "સ્ટ્રીમ મોડ",
+  "streamModeDisabled": "નિષ્ક્રિય",
+  "streamModeCamera": "સ્ટ્રીમ કેમેરા પર આધાર રાખે છે",
+  "streamModeJumuaOnly": "સ્ટ્રીમ ફક્ત જુમુઆ પર આધાર રાખે છે",
+  "streamModeJumuaAndPrayers": "સ્ટ્રીમ જુમુઆ અને 5 નમાઝ પર આધાર રાખે છે",
+  "streamRequiresSecondaryScreen": "આ વિશેષતા ફક્ત მაშინ જ કાર્ય કરે છે જ્યારે એપ્લિકેશન દ્વિતીય સ્ક્રીન તરીકે ચાલે છે. તેને સક્રિય કરવા માટે:",
+  "streamSecondaryScreenStep1": "ડિસ્પ્લે પર જાઓ.",
+  "streamSecondaryScreenStep2": "\"ડિફૉલ્ટ લૉન્ચ મોડ\" ખોલો.",
+  "streamSecondaryScreenStep3": "\"સેકન્ડરી સ્ક્રીન\" પસંદ કરો.",
+  "rtspServerNotAvailable": "RTSP સર્વર પ્રાપ્ત નથી. મહેરબાની કરીને તમારી કનેક્શન તપાસો.",
+  "settingsSavedSuccessfully": "સેટિંગ્સ સફળતાપૂર્વક સાચવી",
+  "testCrowdinCI": "Crowdin CI વર્કફ્લો ડેવલપ પર ચકાસવા માટે ટેસ્ટ સ્ટ્રિંગ",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "કુરઆન મોડ",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "કુરઆન વાંચન સ્ક્રીન બતાવીશે, છેલ્લી વાંચેલી પેજથી શરૂ કરીને",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "કુરઆન મોડમાંથી બહાર નીકળો",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "શું તમે સામાન્ય મોડ પર પાછા શકો માંગો છો?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "4 સરળ પગલાંમાં શરૂ કરો",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "હજી મસ્જિદ ID નથી? અહીં કેવી રીતે:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "mawaqit.net પર જાઓ અને એકાઉન્ટ બનાવો",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "તમારી મસ્જિદને ફોટા અને સરનામા સાથે નોંધણ કરો",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "તમારા ડેશબોર્ડમાંથી અનન્ય મસ્જિદ ID મેળવો",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "આઈડી અહીં દાખલ કરો તમારા ટીવી ડિસ્પ્લે જોડવા માટે",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "પગલું {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "સ્કેન કરો નોંધણી માટે",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "તમારા ફોનનો ઉપયોગ કરીને mawaqit.net પર ખાતું બનાવો",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "પૂર્ણ ટ્યૂટોરીયલ",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "તમારી મસ્જિદ માટે નમાઝના સમય દર્શાવવામાં આવે છે",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

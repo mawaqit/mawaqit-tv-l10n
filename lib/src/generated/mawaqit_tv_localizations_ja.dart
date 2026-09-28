@@ -7,7 +7,7 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsJa([String locale = 'ja']) : super(locale);
 
   @override
-  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+  String get thisIsATestFromIbrahim => 'これはIbrahimからのテストです';
 
   @override
   String get home => 'ホーム';
@@ -49,16 +49,16 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get quit => 'やめる';
 
   @override
-  String get forceStaging => 'Staging';
+  String get forceStaging => 'ステージングに切り替える';
 
   @override
-  String get forcePreProduction => 'Pre-production';
+  String get forcePreProduction => 'プレプロダクション';
 
   @override
   String get disableStaging => '生産への切り替え';
 
   @override
-  String get environmentSwitchSuccess => 'Environment switched successfully';
+  String get environmentSwitchSuccess => '環境が正常に切り替えられました';
 
   @override
   String get environmentSwitchFailed => 'Failed to switch environment';
@@ -289,10 +289,10 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get shuruk => 'シュルック';
 
   @override
-  String get duha => 'Duha';
+  String get duha => 'ドゥハー';
 
   @override
-  String get duhaTime => 'Duha Time';
+  String get duhaTime => 'ドゥハータイム';
 
   @override
   String get reset => 'リセット';
@@ -442,7 +442,7 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'スクリーンに常時アナウンスを表示するかどうかを選択します。例えば、エントランスにスクリーンを設置する場合に便利です。';
 
   @override
-  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => '喉の渇きが癒え、血管が潤い、報酬が確かになります、インシャーアッラー。 ';
 
   @override
   String get secondaryScreenExplanation => '第二礼拝室（女子トイレや別フロアなど）の場合、この画面でジュムアライブ配信が行われます。';
@@ -505,10 +505,10 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get backoffice_default => 'バックオフィスのデフォルト';
 
   @override
-  String get recommended => 'Recommended';
+  String get recommended => 'おすすめ';
 
   @override
-  String get sabah => 'Sabah';
+  String get sabah => 'サバフ';
 
   @override
   String get randomHadithLanguage => 'ランダムハディース言語';
@@ -541,7 +541,7 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get nl => 'オランダ語';
 
   @override
-  String get ta => 'Tamil';
+  String get ta => 'タミル語';
 
   @override
   String get fr_ar => 'フランス語とアラビア語';
@@ -553,7 +553,7 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get de_ar => 'ドイツ語とアラビア語';
 
   @override
-  String get ta_ar => 'Tamil & Arabic';
+  String get ta_ar => 'タミル語とアラビア語';
 
   @override
   String get tr_ar => 'トルコ語とアラビア語format@@0';
@@ -613,7 +613,7 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get previous => '前';
 
   @override
-  String get appTimezone => 'App Timezone';
+  String get appTimezone => 'アプリのタイムゾーン';
 
   @override
   String get descTimezone => '正確な祈りの時間を得るためにあなたのタイムゾーンを選びなさい。';
@@ -643,7 +643,7 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get skip => 'スキップ';
 
   @override
-  String get noSSID => '**Hidden SSID**';
+  String get noSSID => '**SSID非表示**';
 
   @override
   String get close => '閉じる';
@@ -658,7 +658,7 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get wifiFailure => 'Wi-Fiに接続できませんでした。';
 
   @override
-  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+  String get wifiForgetNetwork => 'このネットワークはAndroid設定で追加されました。そこからネットワークを削除し、再度接続してください。';
 
   @override
   String get timezoneSuccess => 'タイムゾーンの設定に成功しました。';
@@ -762,7 +762,7 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get chooseReciter => '再入力を選択';
 
   @override
-  String get reciteType => 'Recite Type';
+  String get reciteType => '朗誦タイプ';
 
   @override
   String get readingMode => '読みたいです';
@@ -793,7 +793,7 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get hafs => 'ハフ';
 
   @override
-  String get warsh => 'Warsh';
+  String get warsh => 'ワルシュ';
 
   @override
   String get favorites => 'お気に入り';
@@ -844,7 +844,7 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   }
 
   @override
-  String get surahSelector => 'Select Surah';
+  String get surahSelector => 'スーラを選択';
 
   @override
   String get checkForUpdates => 'アップデートの確認';
@@ -1018,7 +1018,7 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get rtspUrlHint => 'RTSP URLまたはYouTubeリンクを入力';
 
   @override
-  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
+  String get urlManagedByMosqueAdmin => 'URLはモスク管理者によって管理されています';
 
   @override
   String get replaceWorkflowWithStream => 'カメラストリームを自動的に表示';
@@ -1030,34 +1030,34 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get streamMode => 'Stream mode';
 
   @override
-  String get streamModeDisabled => 'Disabled';
+  String get streamModeDisabled => '無効化';
 
   @override
-  String get streamModeCamera => 'Stream depends on camera';
+  String get streamModeCamera => 'ストリームはカメラに依存します';
 
   @override
-  String get streamModeJumuaOnly => 'Stream depends on Jumua only';
+  String get streamModeJumuaOnly => 'ストリームはジュムアのみで作動します';
 
   @override
-  String get streamModeJumuaAndPrayers => 'Stream depends on Jumua and the 5 prayers';
+  String get streamModeJumuaAndPrayers => 'ストリームはジュムアと5回の礼拝時のみ作動します';
 
   @override
-  String get streamRequiresSecondaryScreen => 'This feature only works when the app runs as a secondary screen. To enable it:';
+  String get streamRequiresSecondaryScreen => 'この機能はアプリがセカンダリースクリーンとして実行されている時のみ有効です。有効にする手順：';
 
   @override
-  String get streamSecondaryScreenStep1 => 'Go to Display.';
+  String get streamSecondaryScreenStep1 => 'ディスプレイに移動。';
 
   @override
-  String get streamSecondaryScreenStep2 => 'Open \"Default launch mode\".';
+  String get streamSecondaryScreenStep2 => '「デフォルト起動モード」を開く。';
 
   @override
-  String get streamSecondaryScreenStep3 => 'Select \"Secondary screen\".';
+  String get streamSecondaryScreenStep3 => '「セカンダリースクリーン」を選択。';
 
   @override
-  String get rtspServerNotAvailable => 'RTSP server is not available. Please check your connection.';
+  String get rtspServerNotAvailable => 'RTSPサーバーは利用できません。接続を確認してください。';
 
   @override
-  String get settingsSavedSuccessfully => 'Settings saved successfully';
+  String get settingsSavedSuccessfully => '設定を正常に保存しました';
 
   @override
   String get streamError => 'ストリーミング中にエラーが発生しました';
@@ -1090,13 +1090,13 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get testAITranslation => 'これはAI翻訳が正常に動作していることを確認するためのテスト文字列';
 
   @override
-  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
+  String get testCrowdinCI => 'Crowdin CI ワークフロー検証用のテスト文字列';
 
   @override
-  String get quranMode => 'Quran mode';
+  String get quranMode => '“クルアーンモード”';
 
   @override
-  String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
+  String get quranModeExplanation => 'クルアーン読書画面を、最後に読んだページから表示します';
 
   @override
   String get appDisplayMode => 'ディスプレイ';
@@ -1105,10 +1105,10 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get appDisplayModeExplanation => 'コンテンツの表示方法を選択します';
 
   @override
-  String get exitQuranModeTitle => 'Exit Quran Mode';
+  String get exitQuranModeTitle => 'コーランモードを終了';
 
   @override
-  String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+  String get exitQuranModeMessage => 'ノーマルモードに戻りますか？';
 
   @override
   String get settingsSectionGlobal => 'グローバル';
@@ -1132,36 +1132,36 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get wifi => 'WiFi';
 
   @override
-  String get tutorialGetStarted => 'Get started in 4 simple steps';
+  String get tutorialGetStarted => '4つの簡単なステップで始める';
 
   @override
-  String get tutorialDontHaveId => 'Don\'t have a Mosque ID yet? Here\'s how:';
+  String get tutorialDontHaveId => 'まだモスクIDをお持ちでありませんか？方法はこちら：';
 
   @override
-  String get tutorialStep1 => 'Go to mawaqit.net and create an account';
+  String get tutorialStep1 => 'Mawaqit.netにアクセスしてアカウントを作成してください';
 
   @override
-  String get tutorialStep2 => 'Register your mosque with photos & address';
+  String get tutorialStep2 => '写真と住所を登録して、モスクを登録しましょう';
 
   @override
-  String get tutorialStep3 => 'Get your unique Mosque ID from your dashboard';
+  String get tutorialStep3 => 'ダッシュボードからユニークなモスクIDを取得してください';
 
   @override
-  String get tutorialStep4 => 'Enter the ID here to connect your TV display';
+  String get tutorialStep4 => 'ここにIDを入力して、テレビディスプレイと接続してください';
 
   @override
   String tutorialStep(String step) {
-    return 'Step $step  ';
+    return 'ステップ$step  ';
   }
 
   @override
-  String get tutorialScanToRegister => 'Scan to register';
+  String get tutorialScanToRegister => '登録するためにスキャンしてください';
 
   @override
-  String get tutorialScanDescription => 'Use your phone to create an account on mawaqit.net';
+  String get tutorialScanDescription => 'スマートフォンでmawaqit.netのアカウントを作成してください';
 
   @override
-  String get tutorialFullTutorial => 'Full tutorial';
+  String get tutorialFullTutorial => 'フルチュートリアル';
 
   @override
   String get prayerTimeFontSize => '表示サイズとテキスト';
@@ -1194,5 +1194,5 @@ class MawaqitTvLocalizationsJa extends MawaqitTvLocalizations {
   String get athkarFontUthmani => 'ウスマーニー';
 
   @override
-  String get crowdinSyncCheck => 'Prayer times are shown for your mosque';
+  String get crowdinSyncCheck => 'モスクの礼拝時刻が表示されています';
 }

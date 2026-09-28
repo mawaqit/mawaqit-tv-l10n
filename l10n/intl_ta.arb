@@ -130,8 +130,8 @@
   "jumuaaScreenTitle": "வெள்ளிக்கிழமை நேரம்",
   "jumuaaHadith": "நபி (ஸல்) கூறினார்கள்: “யாராவது வுழூவை அழகாக செய்து விட்டு, பிறகு ஜும்ஆவுக்கு வந்து, மொளனமாக இருந்து, காது தாழ்த்தி கேட்டால் அந்த ஜும்ஆவுக்கும் அடுத்த ஜும்ஆவுக்கும் இடைப்பட்ட நாட்களினதும், மேலும் மூன்று நாட்களினதும் பாவம் மன்னிக்கப்படும்” (முஸ்லிம்)",
   "shuruk": "சூரிய உதயம்",
-  "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duha": "துஹா",
+  "duhaTime": "துஹா நேரம்",
   "reset": "மீட்டமை",
   "mosqueNotFoundMessage": "உங்கள் மசூதி கிடைக்கவில்லை. அது காணாமல் போயிருக்கலாம் அல்லது சேவையகத்திலிருந்து அகற்றப்படலாம்",
   "noInternetMessage": "உங்களிடம் இணைய அணுகல் இல்லை என்று தெரிகிறது. உங்கள் இணையத்தைப் பார்த்துவிட்டு மீண்டும் முயற்சிக்கவும்",
@@ -501,5 +501,194 @@
   "athkarArabicFontDesc": "அத்காருக்குப் பயன்படும் அரபி எழுத்துருவைத் தேர்வு செய்யவும் (தொழுகைக்குப் பின், அதான், ஜும்ஆ, ஹதீஸ்...)",
   "athkarFontKufi": "கூஃபி",
   "athkarFontUthmani": "உஸ்மானி",
-  "perPrayerRolloverOptionAfterIsha": "இஷாவுக்குப் பின் அனைத்தும் ஒன்றாக"
+  "perPrayerRolloverOptionAfterIsha": "இஷாவுக்குப் பின் அனைத்தும் ஒன்றாக",
+  "thisIsATestFromIbrahim": "இது இப்ராஹிமில் இருந்து ஒரு சோதனைச் செய்தி",
+  "forceStaging": "ஸ்டேஜிங் முறைக்கு மாற்றவும்",
+  "forcePreProduction": "முன்னை உற்பத்திக்கு முன்",
+  "environmentSwitchSuccess": "சுற்றுச்சூழல் வெற்றிகரமாக மாற்றப்பட்டது",
+  "environmentSwitchFailed": "சுற்றுச்சூழலை மாற்றுவதில் தோல்வி",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "ta": "தமிழ்",
+  "wifiForgetNetwork": "இந்த பிணையம் Android அமைப்புகளில் சேர்க்கப்பட்டது. அதில் மறந்து, பின்னர் மீண்டும் சேர்கவும்.",
+  "urlManagedByMosqueAdmin": "URL பள்ளி நிர்வாகியால் நிர்வகிக்கப்படுகிறது",
+  "streamMode": "ஒலிபரப்பு முறை",
+  "streamModeDisabled": "இயலாமைப்படுத்தப்பட்டது",
+  "streamModeCamera": "ஒலிபரப்பு கேமராக்கு சார்ந்தது",
+  "streamModeJumuaOnly": "ஒலிபரப்பு ஜுமுஆவு மட்டுமே சார்ந்தது",
+  "streamModeJumuaAndPrayers": "ஒலிபரப்பு ஜுமுஆவும் 5 தவறுபடுகைகள் உட்பட சார்ந்தது",
+  "streamRequiresSecondaryScreen": "இந்த அம்சம் பயன்படும் போது செயலி இரண்டாம் திரையில் இயங்க வேண்டும். இது செயல்படுத்த:",
+  "streamSecondaryScreenStep1": "டிஸ்பிளேக்கு செல்லவும்.",
+  "streamSecondaryScreenStep2": "\"இயல்புநிலை தொடக்க முறை\" திறக்கவும்.",
+  "streamSecondaryScreenStep3": "\"இரண்டாம் திரை\" தேர்ந்தெடுக்கவும்.",
+  "rtspServerNotAvailable": "RTSP சேவையகம் கிடைக்கவில்லை. உங்கள் இணைப்பை சரிபார்க்கவும்.",
+  "settingsSavedSuccessfully": "அமைப்புகள் வெற்றிகரமாக சேமிக்கப்பட்டது",
+  "testCrowdinCI": "Crowdin CI பணிப் பாய்வை develop இல் சரிபார்க்கும் சோதனை சரம் ",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "குர்ஆன் முறை",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "கடைசியாக படித்த பக்கத்திலிருந்து குர்ஆன் வாசிப்பு திரையை காட்டும்",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "குர்ஆன் முறையிலிருந்து வெளியேறு",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "சாதாரண முறைக்குத் திரும்ப விரும்புகிறீர்களா?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "4 எளிய படிகளில் தொடங்குங்கள்",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "உங்களிடம் பள்ளி அடையாள எண் இல்லையா? இங்கே எப்படி:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "mawaqit.net-க்கு சென்று கணக்கு ஒன்றை உருவாக்கவும்",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "உங்கள் பள்ளியினை புகைப்படங்கள் மற்றும் முகவரியுடன் பதிவு செய்யவும்",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "உங்கள் தனிப்பட்ட பள்ளி அடையாள எண்ணை கட்டுப்பாட்டு மையத்தில் பெறுங்கள்",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "உங்கள் டிவி திரையை இணைக்க இந்த ஐடியை உள்ளிடவும்",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "படி {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "பதிவுக்கு ஸ்கேன் செய்யவும்",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "உங்கள் கைபேசியைப் பயன்படுத்தி mawaqit.net-இல் கணக்கு ஒன்றை உருவாக்கவும்",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "முழு பயிலரங்கம்",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "உங்கள் பள்ளிக்கான தொழுகை நேரங்கள் காட்டப்படுகின்றன",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

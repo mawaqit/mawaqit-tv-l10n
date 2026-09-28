@@ -58,7 +58,7 @@
   "afterAdhanHadithTitle": "Después del adhan Du`aa",
   "afterSalahHadith": "O Allah, maestro del llamado perfecto, y la oración que estamos próximos a ofrecer, otorgarle a Muhammad el poder\n para interceder (el día de juicio final) y el lugar de honor (en el Paraíso) y resusítalo en la posición loable que le has prometido",
   "alIqama": "Al Iqama",
-  "alAdhan": "Al Athan",
+  "alAdhan": "Al Adhan",
   "turnOfPhones": "Por favor, pongan sus teléfonos en modo silencio",
   "iqamaIn": "Iqama en",
   "iqamaShowClock": "Mostrar reloj en la pantalla de Iqama",
@@ -67,11 +67,11 @@
   "perPrayerRolloverDesc": "Elige cómo los horarios de oración pasan a los de mañana",
   "perPrayerRolloverOptionPerPrayer": "Cada oración individualmente",
   "alAthkar": "Al-Athkar",
-  "azkarList0": "Astaghfirullāh, Astaghfirullāh, Astaghfirullāh. Allāhumma Antas-Salām, wa minkas-Salām, tabārakta yā Dhal-Jalāli wal-Ikrām. Allāhumma a'innī 'alā dhikrika wa shukrika wa ḥusni 'ibādatik",
+  "azkarList0": "Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik",
   "@azkarList0": {
     "description": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ"
   },
-  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 marrā). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
+  "azkarList1": "Subḥānallāh, Alḥamdulillāh, Allāhu Akbar (33 veces). Lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa 'alā kulli shay'in Qadīr",
   "@azkarList1": {
     "description": "سُـبْحانَ اللهِ، والحَمْـدُ لله، واللهُ أكْـبَر 33 مرة لا إِلَٰهَ إلاّ اللّهُ وَحْـدَهُ لا شريكَ لهُ، لهُ الملكُ ولهُ الحَمْد، وهُوَ على كُلّ شَيءٍ قَـدير"
   },
@@ -91,7 +91,7 @@
   "@azkarList5": {
     "description": "Ayat Al-Kursi (The Throne Verse) - Surah Al-Baqarah 2:255"
   },
-  "azkarList6": "Lā 'ilāha 'illallāh, waḥdahu lā sharīka lah, lahu 'l-mulku wa lahu 'l-ḥamd, wa huwa `alā kulli shay'in qadīr, Allāhumma lā māni`a limā 'a`tayt, wa lā mu`tiya limā mana`t, wa lā yanfa`u dhal-jaddi minkal-jadd.",
+  "azkarList6": "La ilaha illa Allah, wahdahu la charika lah, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad",
   "@azkarList6": {
     "description": "لا إِلَٰهَ إلاّ اللّهُ وحدَهُ لا شريكَ لهُ، لهُ المُـلْكُ ولهُ الحَمْد، وهوَ على كلّ شَيءٍ قَدير، اللّهُـمَّ لا مانِعَ لِما أَعْطَـيْت، وَلا مُعْطِـيَ لِما مَنَـعْت، وَلا يَنْفَـعُ ذا الجَـدِّ مِنْـكَ الجَـد"
   },
@@ -131,7 +131,7 @@
   "jumuaaHadith": "El Profeta ﷺ (la paz y las bendiciones de Allah sean con él) dijo \"Quien haga las abluciones perfectamente y luego vaya al jumua y luego escuche y guarde silencio, se le perdona lo que haya entre ese momento y el viernes siguiente y tres días más y el que toque piedras ciertamente ha hecho una futilidad\"",
   "shuruk": "Shuruq",
   "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duhaTime": "Hora de Duha",
   "reset": "Reset",
   "mosqueNotFoundMessage": "Lo sentimos, no se ha encontrado su mezquita, o puede que haya desaparecido o esté temporalmente desactivada.",
   "noInternetMessage": "No hay acceso a Internet. Por favor, verifique su conectividad a Internet e inténtelo de nuevo. ¿Está conectado su Wi-Fi o Ethernet?",
@@ -181,7 +181,7 @@
   "announcementOnlyMode": "Modo de anuncios",
   "normalMode": "Modo normal ",
   "announcementOnlyModeEXPLINATION": "Elija si su pantalla mostrará anuncios todo el tiempo, esto puede ser útil si instala la pantalla en la entrada, por ejemplo.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "Se ha ido la sed, se han humedecido las venas y se ha confirmado la recompensa si Allah quiere",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -220,7 +220,7 @@
   "fr_ar": "Francés & Árabe",
   "en_ar": "Inglés y Árabe",
   "de_ar": "Alemán y Árabe",
-  "ta_ar": "Tamil & Arabic",
+  "ta_ar": "Tamil y árabe",
   "tr_ar": "Turco y Árabe",
   "es_ar": "Spanish & Arabic",
   "pt_ar": "Portugués y Árabe",
@@ -288,7 +288,7 @@
   "quranDownloaded": "Corán descargado",
   "quranIsAlreadyDownloaded": "El Corán ya se ha descargado",
   "chooseReciter": "Elegir recetario",
-  "reciteType": "Recite Type",
+  "reciteType": "Tipo de recitación",
   "readingMode": "Quiero leer",
   "listeningMode": "Quiero escuchar",
   "quranReadingPage": "Página {leftPage} - {rightPage} / {totalPages}",
@@ -326,7 +326,7 @@
   "chooseQuranPage": "Elija la página",
   "checkingForUpdates": "Buscando actualizaciones...",
   "chooseQuranType": "Elegir quran",
-  "hafs": "Hafs",
+  "hafs": "Hafs de Mushaf",
   "warsh": "Bravo",
   "favorites": "Favoritos",
   "allReciters": "Todos los recetarios",
@@ -372,7 +372,7 @@
       }
     }
   },
-  "surahSelector": "Select Surah",
+  "surahSelector": "Seleccionar sura",
   "checkForUpdates": "Buscar actualizaciones",
   "checkForNewVersion": "Comprobar si hay una nueva versión disponible",
   "wouldYouLikeToUpdate": "¿Te gustaría actualizar la aplicación?",
@@ -400,7 +400,7 @@
   "somethingWentWrong": "¡Algo salió mal! Por favor, inténtalo de nuevo",
   "somethingWrong": "Algo salió mal",
   "tryAgainLater": "Inténtalo de nuevo más tarde",
-  "hintTextRtspUrl": "rtsp://... or https://youtube.com/live/...",
+  "hintTextRtspUrl": "rtsp://... o https://youtube.com/live/...",
   "checkInternetUpdate": "Debe conectarse a internet para comprobar si hay nuevas actualizaciones",
   "appUpdateAvailable": "Tu aplicación está ejecutando la versión {currentVersion}. Una nueva actualización (versión {updatedVersion}) está disponible con las últimas características y mejoras.",
   "@appUpdateAvailable": {
@@ -501,5 +501,174 @@
   "athkarArabicFontDesc": "Elige la fuente árabe usada para los Azkar (después de la oración, el adhan, el Yumu'ah, el hadiz...)",
   "athkarFontKufi": "Cúfico",
   "athkarFontUthmani": "Uthmani",
-  "perPrayerRolloverOptionAfterIsha": "Todas juntas después del Isha"
+  "perPrayerRolloverOptionAfterIsha": "Todas juntas después del Isha",
+  "thisIsATestFromIbrahim": "Este es un test de Ibrahim",
+  "forceStaging": "Preparación",
+  "forcePreProduction": "Preproducción",
+  "environmentSwitchSuccess": "El entorno se cambió correctamente",
+  "environmentSwitchFailed": "No se pudo cambiar el entorno",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "wifiForgetNetwork": "Esta red fue agregada en los ajustes de Android. Por favor, olvídala ahí y vuelve a conectarte.",
+  "urlManagedByMosqueAdmin": "URL gestionada por el administrador de la mezquita",
+  "streamMode": "Modo de transmisión",
+  "streamModeDisabled": "Desactivado",
+  "streamModeCamera": "La transmisión depende de la cámara",
+  "streamModeJumuaOnly": "La transmisión depende solo del Yumua",
+  "streamModeJumuaAndPrayers": "La transmisión depende de Yumu'a y las 5 oraciones",
+  "streamRequiresSecondaryScreen": "Esta función solo funciona cuando la aplicación se ejecuta como pantalla secundaria. Para habilitarla:",
+  "streamSecondaryScreenStep1": "Ve a Pantalla.",
+  "streamSecondaryScreenStep2": "Abre \"Modo de inicio predeterminado\".",
+  "streamSecondaryScreenStep3": "Seleccionar \"Pantalla secundaria\".",
+  "rtspServerNotAvailable": "El servidor RTSP no está disponible. Por favor, verifique su conexión.",
+  "settingsSavedSuccessfully": "Configuración guardada con éxito",
+  "testCrowdinCI": "Cadena de prueba para verificar el flujo de trabajo de Crowdin CI en develop",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Modo Coránico",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Muestra la pantalla de lectura del Corán, comenzando desde la última página leída",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Salir del Modo Corán",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "¿Desea volver al modo normal?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "Comienza en 4 pasos sencillos",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "¿Aún no tienes un ID de mezquita? Aquí te explicamos cómo:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "Ve a mawaqit.net y crea una cuenta",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "Registre su mezquita con fotos y dirección",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "Obtén tu ID de mezquita único desde tu panel de control",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "Ingresa el ID aquí para conectar la pantalla de tu televisor",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialScanToRegister": "Escanea para registrarte",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "Utilice su teléfono para crear una cuenta en mawaqit.net",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "crowdinSyncCheck": "Los horarios de oración se muestran para tu mezquita",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }

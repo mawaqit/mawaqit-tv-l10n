@@ -130,8 +130,8 @@
   "jumuaaScreenTitle": "Настъпи времето за Джума",
   "jumuaaHadith": "Пророкът ﷺ  е казал: \"Който вземе абдест по най-добрия начин, след това отиде на джума и слуша внимателно хутбето и не говори, греховете му ще бъдата опростени, каквото има между тази джума до следващата и още три дни. А този, който се занимава със странични неща по време на хутбето, със сигурност се е лишил от наградата\".",
   "shuruk": "Изгрев",
-  "duha": "Duha",
-  "duhaTime": "Duha Time",
+  "duha": "Духа",
+  "duhaTime": "Време за Духа",
   "reset": "Рестартирайте",
   "mosqueNotFoundMessage": "Съжаляваме, вашата джамия не беше намерена или може би липсва или е временно деактивирана.",
   "noInternetMessage": "Няма достъп до интернет. Моля, проверете връзката си с интернет и опитайте отново. Свързан ли е вашият Wi-Fi или Ethernet?",
@@ -181,7 +181,7 @@
   "announcementOnlyMode": "Режим на съобщения",
   "normalMode": "Нормален режим",
   "announcementOnlyModeEXPLINATION": "Изберете дали вашият екран да показва съобщения през цялото време, това може да бъде полезно, ако инсталирате екрана на входа на джамията.",
-  "duaaElEftarText": "ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله",
+  "duaaElEftarText": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر انشاء الله",
   "@duaaElEftarText": {
     "description": "اللهم اني لگ صمت وعلى رزقك افطرت واليك انبت وعليگ توكلت ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله"
   },
@@ -501,5 +501,194 @@
   "athkarArabicFontDesc": "Изберете арабския шрифт за зикровете (след намаз, езан, джума, хадис...)",
   "athkarFontKufi": "Куфи",
   "athkarFontUthmani": "Усмани",
-  "perPrayerRolloverOptionAfterIsha": "Всички заедно след Ятсия"
+  "perPrayerRolloverOptionAfterIsha": "Всички заедно след Ятсия",
+  "thisIsATestFromIbrahim": "Това е тест от Ибрахим",
+  "forceStaging": "Преминаване към постановка",
+  "forcePreProduction": "Пре-продукция",
+  "environmentSwitchSuccess": "Околната среда беше успешно сменена",
+  "environmentSwitchFailed": "Неуспешна смяна на околната среда",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@iqamaShowClock": {
+    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
+  },
+  "@iqamaShowClockDesc": {
+    "description": "Subtitle for the iqama clock toggle setting"
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "ta": "Тамилски",
+  "wifiForgetNetwork": "Тази мрежа беше добавена в настройките на Android. Моля, премахнете я от там, след което се свържете отново.",
+  "urlManagedByMosqueAdmin": "URL се управлява от администратор на джамията",
+  "streamMode": "Стрийм режим",
+  "streamModeDisabled": "Деактивирано",
+  "streamModeCamera": "Стриймът зависи от камерата",
+  "streamModeJumuaOnly": "Стрийм само по време на Джума",
+  "streamModeJumuaAndPrayers": "Стрийм по време на Джума и 5-те молитви",
+  "streamRequiresSecondaryScreen": "Тази функция работи само когато приложението е стартирано като вторичен екран. За да я активирате:",
+  "streamSecondaryScreenStep1": "Отидете на Дисплей.",
+  "streamSecondaryScreenStep2": "Отворете \"Режим на стартиране по подразбиране\".",
+  "streamSecondaryScreenStep3": "Изберете \"Вторичен екран\".",
+  "rtspServerNotAvailable": "RTSP сървърът не е наличен. Моля, проверете връзката си.",
+  "settingsSavedSuccessfully": "Настройките са успешно запазени",
+  "testCrowdinCI": "Тестов низ за проверка на Crowdin CI workflow на develop",
+  "@testCrowdinCI": {
+    "description": "Test string for Crowdin CI verification - can be deleted after testing"
+  },
+  "quranMode": "Коран режим",
+  "@quranMode": {
+    "description": "Label for Quran mode option in display mode settings"
+  },
+  "quranModeExplanation": "Показва екрана за четене на Корана, започвайки от последната прочетена страница",
+  "@quranModeExplanation": {
+    "description": "Explanation text for the Quran mode option"
+  },
+  "@appDisplayMode": {
+    "description": "Title for the display mode setting"
+  },
+  "@appDisplayModeExplanation": {
+    "description": "Subtitle for the display mode setting"
+  },
+  "exitQuranModeTitle": "Изход от Коран режим",
+  "@exitQuranModeTitle": {
+    "description": "Title for the exit Quran mode confirmation dialog"
+  },
+  "exitQuranModeMessage": "Искате ли да се върнете към нормален режим?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
+  },
+  "@settingsSectionGlobal": {
+    "description": "Title for the Global settings section"
+  },
+  "@hijriDateAdjustment": {
+    "description": "Title for the Hijri date adjustment setting item"
+  },
+  "@interfaceLanguage": {
+    "description": "Title for the interface language setting item"
+  },
+  "@launchModeMainPrayer": {
+    "description": "Dropdown label for main prayer times launch mode"
+  },
+  "@launchModeSecondaryPrayer": {
+    "description": "Dropdown label for secondary prayer times launch mode"
+  },
+  "@timezone": {
+    "description": "Title for the timezone setting item"
+  },
+  "@wifi": {
+    "description": "Title for the WIFI setting item"
+  },
+  "tutorialGetStarted": "Започнете в 4 лесни стъпки",
+  "@tutorialGetStarted": {
+    "description": "Title for the mosque ID tutorial section"
+  },
+  "tutorialDontHaveId": "Още нямате ID на Джамия? Ето как:",
+  "@tutorialDontHaveId": {
+    "description": "Subtitle for the mosque ID tutorial section"
+  },
+  "tutorialStep1": "Отидете на mawaqit.net и създайте акаунт",
+  "@tutorialStep1": {
+    "description": "Tutorial step 1 instruction"
+  },
+  "tutorialStep2": "Регистрирайте своята джамия със снимки и адрес",
+  "@tutorialStep2": {
+    "description": "Tutorial step 2 instruction"
+  },
+  "tutorialStep3": "Вземете своето уникално ID на Джамия от таблото си",
+  "@tutorialStep3": {
+    "description": "Tutorial step 3 instruction"
+  },
+  "tutorialStep4": "Въведете ID тук, за да свържете вашия ТВ дисплей",
+  "@tutorialStep4": {
+    "description": "Tutorial step 4 instruction"
+  },
+  "tutorialStep": "Стъпка {step}  ",
+  "@tutorialStep": {
+    "description": "Step label prefix with step number",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialScanToRegister": "Сканирайте за регистрация",
+  "@tutorialScanToRegister": {
+    "description": "Label next to QR code for registration"
+  },
+  "tutorialScanDescription": "Използвайте телефона си, за да създадете акаунт в mawaqit.net",
+  "@tutorialScanDescription": {
+    "description": "Description below the scan to register label"
+  },
+  "tutorialFullTutorial": "Пълен урок",
+  "@tutorialFullTutorial": {
+    "description": "Label for the full video tutorial section"
+  },
+  "@prayerTimeFontSize": {
+    "description": "Label for the app font size setting"
+  },
+  "@prayerTimeFontSizeDesc": {
+    "description": "Description for the app font size setting"
+  },
+  "@fontSizeSmall": {
+    "description": "Small font size option"
+  },
+  "@fontSizeNormal": {
+    "description": "Normal font size option"
+  },
+  "@fontSizeLarge": {
+    "description": "Large font size option"
+  },
+  "@fontSizeXLarge": {
+    "description": "Extra large font size option"
+  },
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "Времето за молитва се показва за вашата джамия",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  }
 }
