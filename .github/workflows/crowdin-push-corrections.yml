@@ -1,0 +1,197 @@
+name: Crowdin Push Corrections
+
+# Crowdin — not this repo — is what `download-translations` exports from. When a
+# translation is corrected here by PR (sv in #72, after #70 embedded Arabic in
+# strings the app interpolates inline), Crowdin still holds the old text. The fix
+# then survives only until the next successful sync, which is how the Swedish
+# hadith in mawaqit/android-tv-app#2154 outlived #2213, #58 and #35.
+#
+# This workflow pushes repo .arb values INTO Crowdin for one language, so the two
+# agree. #60 removed the blanket `upload_translations` because it re-imported repo
+# text for every language and stamped it approved under the token owner. This is
+# the deliberate counterpart: one language, dry-run by default, the full diff
+# printed before anything is written, and approval off unless explicitly asked for.
+#
+# Default mode is `report` — read-only. `push` requires typing the confirm word.
+
+on:
+  workflow_dispatch:
+    inputs:
+      language:
+        description: 'Crowdin language id or two-letter code (e.g. sv, sv-SE, pt-PT)'
+        required: true
+        default: 'sv'
+      mode:
+        description: 'report (read-only diff) or push (write to Crowdin)'
+        required: true
+        default: 'report'
+        type: choice
+        options: [report, push]
+      keys:
+        description: 'Optional comma-separated key filter (default: every diverging key)'
+        required: false
+        default: ''
+      approve:
+        description: 'push: also approve the translations this run writes'
+        required: false
+        default: false
+        type: boolean
+      arb_file:
+        description: 'Override the repo .arb path (default: l10n/intl_<two-letter>.arb)'
+        required: false
+        default: ''
+      confirm:
+        description: 'push: type PUSH to proceed'
+        required: false
+        default: ''
+
+jobs:
+  push-corrections:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Reconcile Crowdin with repo
+        env:
+          TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+          PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
+          LANG_ID: ${{ inputs.language }}
+          MODE: ${{ inputs.mode }}
+          KEYS: ${{ inputs.keys }}
+          APPROVE: ${{ inputs.approve }}
+          ARB_FILE: ${{ inputs.arb_file }}
+          CONFIRM: ${{ inputs.confirm }}
+        run: |
+          python3 - <<'PY'
+          import os, sys, json, urllib.request, urllib.error, urllib.parse
+
+          BASE = "https://api.crowdin.com/api/v2"
+          TOKEN, PID = os.environ["TOKEN"], os.environ["PROJECT_ID"]
+          LANG, MODE = os.environ["LANG_ID"], os.environ["MODE"]
+          KEYS = [k.strip() for k in os.environ.get("KEYS", "").split(",") if k.strip()]
+          APPROVE = str(os.environ.get("APPROVE", "")).lower() == "true"
+          ARB_FILE = os.environ.get("ARB_FILE", "").strip()
+
+          def call(method, path, params=None, body=None):
+              url = f"{BASE}{path}"
+              if params:
+                  url += "?" + urllib.parse.urlencode(params)
+              data = json.dumps(body).encode() if body is not None else None
+              req = urllib.request.Request(url, method=method, data=data)
+              req.add_header("Authorization", f"Bearer {TOKEN}")
+              if data is not None:
+                  req.add_header("Content-Type", "application/json")
+              try:
+                  with urllib.request.urlopen(req) as r:
+                      raw = r.read()
+              except urllib.error.HTTPError as e:
+                  sys.exit(f"{method} {path} -> HTTP {e.code}\n{e.read().decode()[:400]}")
+              return json.loads(raw) if raw else None
+
+          def paged(path, params):
+              out, offset = [], 0
+              while True:
+                  p2 = dict(params); p2.update({"limit": 500, "offset": offset})
+                  rows = call("GET", path, p2).get("data", [])
+                  out += [r["data"] for r in rows]
+                  if len(rows) < 500:
+                      break
+                  offset += 500
+              return out
+
+          proj = call("GET", f"/projects/{PID}")["data"]
+          print(f"project: {proj.get('name')} (id={proj.get('id')})")
+
+          # Accept a short code and resolve it, so callers need not know the exact spelling.
+          langs = proj.get("targetLanguages") or []
+          match = [l for l in langs
+                   if LANG in (l.get("id"), l.get("locale"), l.get("twoLettersCode"))]
+          if not match:
+              print("available: " + ", ".join(sorted(l["id"] for l in langs)))
+              sys.exit(f"language '{LANG}' not in this project")
+          lang = match[0]
+          LANG = lang["id"]
+          print(f"language: {lang.get('name')} -> {LANG}")
+
+          arb = ARB_FILE or f"l10n/intl_{lang.get('twoLettersCode')}.arb"
+          if not os.path.exists(arb):
+              sys.exit(f"repo file not found: {arb} (set arb_file to override)")
+          with open(arb, encoding="utf-8") as fh:
+              repo = json.load(fh)
+          repo = {k: v for k, v in repo.items()
+                  if not k.startswith("@") and isinstance(v, str)}
+          print(f"repo file: {arb} ({len(repo)} string values)")
+
+          # The source .arb can live under a Crowdin branch node, so look in both places.
+          files = paged(f"/projects/{PID}/files", {})
+          for b in paged(f"/projects/{PID}/branches", {}):
+              files += paged(f"/projects/{PID}/files", {"branchId": b["id"]})
+          seen, uniq = set(), []
+          for f in files:
+              if f["id"] not in seen:
+                  seen.add(f["id"]); uniq.append(f)
+          sources = [f for f in uniq if str(f.get("path", "")).endswith("intl_en.arb")]
+          if not sources:
+              print("arb files seen: " + ", ".join(str(f.get("path")) for f in uniq))
+              sys.exit("no intl_en.arb source file found in this Crowdin project")
+          print("source file(s): " + ", ".join(f"{f['id']}:{f.get('path')}" for f in sources))
+
+          ids, current = {}, {}
+          for f in sources:
+              for s in paged(f"/projects/{PID}/strings", {"fileId": f["id"]}):
+                  key = s.get("identifier") or s.get("key")
+                  if key:
+                      ids[key] = s["id"]
+              for t in paged(f"/projects/{PID}/languages/{LANG}/translations",
+                             {"fileId": f["id"]}):
+                  current[t["stringId"]] = t
+          print(f"crowdin: {len(ids)} strings, {len(current)} translated into {LANG}\n")
+
+          diverged, missing = [], []
+          for key, want in sorted(repo.items()):
+              if KEYS and key not in KEYS:
+                  continue
+              sid = ids.get(key)
+              if sid is None:
+                  missing.append(key)
+                  continue
+              have = (current.get(sid) or {}).get("text")
+              if have != want:
+                  diverged.append((key, sid, have, want))
+
+          if missing:
+              print(f"{len(missing)} repo key(s) absent from Crowdin, skipped: "
+                    + ", ".join(missing[:12]) + (" ..." if len(missing) > 12 else "") + "\n")
+
+          print(f"{len(diverged)} key(s) where Crowdin disagrees with the repo:\n")
+          for key, sid, have, want in diverged:
+              print(f"  {key}  (string {sid})")
+              print(f"    crowdin: {have!r}")
+              print(f"    repo   : {want!r}")
+
+          if MODE != "push":
+              print("\nreport mode — nothing written.")
+              sys.exit(0)
+
+          if os.environ.get("CONFIRM") != "PUSH":
+              sys.exit("\nrefusing to push: confirm input was not PUSH")
+          if not diverged:
+              print("\nnothing to push — Crowdin already matches the repo.")
+              sys.exit(0)
+
+          print(f"\npushing {len(diverged)} translation(s) to {LANG}"
+                + (" and approving them" if APPROVE else "") + "\n")
+          written = 0
+          for key, sid, _have, want in diverged:
+              res = call("POST", f"/projects/{PID}/translations",
+                         body={"stringId": sid, "languageId": LANG, "text": want})
+              written += 1
+              print(f"  wrote {key}")
+              if APPROVE:
+                  tid = (res or {}).get("data", {}).get("id")
+                  if tid:
+                      call("POST", f"/projects/{PID}/approvals", body={"translationId": tid})
+                      print(f"  approved {key}")
+          print(f"\ndone — {written} translation(s) written for {LANG} from {arb}")
+          PY
