@@ -682,5 +682,13 @@
   "crowdinSyncCheck": "Времената за молитва се прикажани за вашата џамија",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "Одбројување за Духа - одложување",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "Минути по зајдисонце кога започнува времето за Духа (10-30 мин)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }

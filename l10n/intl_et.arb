@@ -682,5 +682,13 @@
   "crowdinSyncCheck": "Palveajad kuvatakse teie mošee jaoks",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "Duha tagasiloenduse nihke kestus minutites pärast šuruq'i",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "Minutid pärast šuruq'i, millal Duha aeg algab (10–30 min)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }

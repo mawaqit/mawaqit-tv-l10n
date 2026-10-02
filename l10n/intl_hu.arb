@@ -682,5 +682,13 @@
   "crowdinSyncCheck": "Az imaidők a saját mecsetedhez vannak megjelenítve",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "Duha visszaszámlálás eltolás",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "Percben a Shuruq után, amikor a Duha idő kezdődik (10-30 perc)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }

@@ -69,8 +69,8 @@
   "perPrayerRolloverDesc": "Choisissez comment les heures de prière basculent vers demain",
   "perPrayerRolloverOptionPerPrayer": "Chaque prière individuellement",
   "perPrayerRolloverOptionAfterIsha": "Toutes ensemble après l'Isha",
-  "duhaOffset": "Décalage du compte à rebours de la Duha",
-  "duhaOffsetDesc": "Minutes après le Shuruq marquant le début de la Duha (10-30 min)",
+  "duhaOffset": "Décalage du compte à rebours Duha",
+  "duhaOffsetDesc": "Minutes après Al-Shurûq quand commence l’heure Duha (10-30 min)",
   "alAthkar": "Al Adhkar",
   "azkarList0": "Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik",
   "@azkarList0": {
@@ -684,5 +684,11 @@
   "crowdinSyncCheck": "Les horaires de prière sont affichés pour votre mosquée",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }

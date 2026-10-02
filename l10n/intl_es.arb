@@ -662,5 +662,9 @@
   "crowdinSyncCheck": "Los horarios de oración se muestran para tu mezquita",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "Compensación de cuenta regresiva Duha",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
   }
 }

@@ -650,5 +650,17 @@
   "crowdinSyncCheck": "Gli orari delle preghiere sono mostrati per la tua moschea",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "Compensazione conto alla rovescia Duha",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "Minuti dopo Shuruq quando inizia il tempo Duha (10-30 min)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
+  },
+  "exitQuranModeMessage": "Desideri tornare alla modalità normale?",
+  "@exitQuranModeMessage": {
+    "description": "Message body for the exit Quran mode confirmation dialog"
   }
 }

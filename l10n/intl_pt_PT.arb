@@ -7,7 +7,7 @@
   "languages": "Idiomas",
   "appLang": "Idioma da aplicação",
   "descLang": "Selecione o seu idioma preferido",
-  "hadithLangDesc": "Isto substitui a escolha feita no backoffice; pode escolher um idioma diferente para cada ecrã",
+  "hadithLangDesc": "Isto substitui a escolha feita no backoffice; pode escolher um idioma diferente para cada dispositivo",
   "whoops": "Ops!",
   "noInternet": "Sem ligação à internet",
   "tryAgain": "Tente novamente",
@@ -65,8 +65,8 @@
   "turnOfPhones": "Por favor, coloque o seu telemóvel em Silêncio",
   "iqamaIn": "Jamaat em",
   "perPrayerRollover": "Mudança dos horários das orações",
-  "perPrayerRolloverDesc": "Escolha como os horários das orações passam para os de amanhã",
-  "perPrayerRolloverOptionPerPrayer": "Cada oração individualmente",
+  "perPrayerRolloverDesc": "Escolha como os horários das orações passam para o horário de amanhã",
+  "perPrayerRolloverOptionPerPrayer": "Individualmente para cada oração",
   "alAthkar": "Azkár",
   "azkarList0": "Peço perdão a Allah, peço perdão a Allah, peço perdão a Allah. Ó Allah, Vós sois Aquele que concede a paz, e a paz provém somente de Vós. Vós sois o Senhor das bênçãos, Ó Senhor da Majestade e Benevolência. Ó Allah, auxiliai-me na Vossa recordação, no Vosso agradecimento e na prática de uma adoração sincera e virtuosa.",
   "@azkarList0": {
@@ -477,7 +477,7 @@
   "streamModeCamera": "A transmissão depende da câmara",
   "streamModeJumuaOnly": "A transmissão depende apenas do Jumu‘ah",
   "streamModeJumuaAndPrayers": "A transmissão depende do Jumu‘ah e das 5 orações",
-  "streamRequiresSecondaryScreen": "Esta funcionalidade apenas está disponível quando o ecrã está configurado como ecrã secundário (necessário para o tipo de mesquita)",
+  "streamRequiresSecondaryScreen": "Esta funcionalidade só funciona quando a aplicação está configurada como ecrã secundário. Para a ativar:",
   "rtspServerNotAvailable": "O servidor RTSP não está disponível. Verifique a sua ligação.",
   "settingsSavedSuccessfully": "Definições guardadas com sucesso",
   "streamError": "Ocorreu um erro durante a transmissão",
@@ -505,7 +505,7 @@
   "@quranModeExplanation": {
     "description": "Explanation text for the Quran mode option"
   },
-  "appDisplayMode": "Mostrar",
+  "appDisplayMode": "Visualização",
   "@appDisplayMode": {
     "description": "Title for the display mode setting"
   },
@@ -525,7 +525,7 @@
   "@settingsSectionGlobal": {
     "description": "Title for the Global settings section"
   },
-  "hijriDateAdjustment": "Ajuste da data Hijri",
+  "hijriDateAdjustment": "Ajuste da data islâmica",
   "@hijriDateAdjustment": {
     "description": "Title for the Hijri date adjustment setting item"
   },
@@ -616,13 +616,13 @@
   },
   "fontSizeXLarge": "Muito grande",
   "athkarArabicFont": "Tipo de letra árabe dos Azkár",
-  "athkarArabicFontDesc": "Escolha o tipo de letra árabe usado nos Azkár (depois da oração, do Azán, da Jumu'ah, do hadith...)",
-  "athkarFontKufi": "Cúfico",
+  "athkarArabicFontDesc": "Escolha o tipo de letra árabe para os Azkár (após a oração, Azán, Jumu'ah, Hadith...)",
+  "athkarFontKufi": "Kufi",
   "athkarFontUthmani": "Uthmani",
   "@fontSizeXLarge": {
     "description": "Extra large font size option"
   },
-  "perPrayerRolloverOptionAfterIsha": "Todas em conjunto depois do Ishá",
+  "perPrayerRolloverOptionAfterIsha": "Todos juntos após o Ishá",
   "thisIsATestFromIbrahim": "Este é um teste de Ibrahim",
   "countdownPrayer": "{name} Azán em {time}",
   "@countdownPrayer": {
@@ -680,8 +680,16 @@
   "@athkarFontUthmani": {
     "description": "Label for the Uthmani Arabic font option"
   },
-  "crowdinSyncCheck": "Os horários de oração são exibidos para sua mesquita",
+  "crowdinSyncCheck": "Os horários das orações apresentados são os da sua mesquita",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "Deslocamento da contagem regressiva do Duha",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "Minutos após o Shuruq quando o tempo do Duha começa (10-30 min)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }
