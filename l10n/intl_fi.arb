@@ -672,5 +672,13 @@
   "crowdinSyncCheck": "Rukousajat näkyvät moskeijallesi",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "Duha-ajastuksen viive",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "Minuuttia Shuruqin jälkeen, kun Duha-aika alkaa (10-30 min)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }

@@ -226,10 +226,10 @@ class MawaqitTvLocalizationsIt extends MawaqitTvLocalizations {
   String get perPrayerRolloverOptionAfterIsha => 'Tutte insieme dopo l\'Isha';
 
   @override
-  String get duhaOffset => 'Duha countdown offset';
+  String get duhaOffset => 'Compensazione conto alla rovescia Duha';
 
   @override
-  String get duhaOffsetDesc => 'Minutes after Shuruq when Duha time starts (10-30 min)';
+  String get duhaOffsetDesc => 'Minuti dopo Shuruq quando inizia il tempo Duha (10-30 min)';
 
   @override
   String get alAthkar => 'Al-Athkar';
@@ -1108,7 +1108,7 @@ class MawaqitTvLocalizationsIt extends MawaqitTvLocalizations {
   String get exitQuranModeTitle => 'Esci dalla modalità Corano';
 
   @override
-  String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+  String get exitQuranModeMessage => 'Desideri tornare alla modalità normale?';
 
   @override
   String get settingsSectionGlobal => 'Globale';

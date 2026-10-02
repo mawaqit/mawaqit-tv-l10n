@@ -69,8 +69,8 @@
   "perPrayerRolloverDesc": "اختر كيفية انتقال أوقات الصلاة إلى مواقيت الغد",
   "perPrayerRolloverOptionPerPrayer": "كل صلاة على حدة",
   "perPrayerRolloverOptionAfterIsha": "جميعها معًا بعد العشاء",
-  "duhaOffset": "مدة العد التنازلي للضحى",
-  "duhaOffsetDesc": "عدد الدقائق بعد الشروق لبدء وقت الضحى (10-30 دقيقة)",
+  "duhaOffset": "تعويض العد التنازلي لوقت الضحى",
+  "duhaOffsetDesc": "الدقائق بعد الشروق التي يبدأ فيها وقت الضحى (10-30 دقيقة)",
   "alAthkar": "الأذكار",
   "azkarList0": "أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله اللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
   "@azkarList0": {
@@ -683,5 +683,11 @@
   "crowdinSyncCheck": "يتم عرض أوقات الصلاة لمسجدك",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }

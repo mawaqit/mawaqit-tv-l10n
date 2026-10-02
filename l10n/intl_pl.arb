@@ -672,5 +672,13 @@
   "crowdinSyncCheck": "Czasy modlitw wyświetlane są dla Twojego meczetu",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "Przesunięcie odliczania Duha",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "Minuty po Shuruq, kiedy zaczyna się czas Duha (10-30 min)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }

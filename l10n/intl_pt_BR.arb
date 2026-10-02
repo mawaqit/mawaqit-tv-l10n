@@ -666,5 +666,13 @@
   "crowdinSyncCheck": "Os horários das orações são exibidos para sua mesquita",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "Compensação da contagem regressiva do Duha",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "Minutos após o Shuruq quando começa o tempo do Duha (10-30 min)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }

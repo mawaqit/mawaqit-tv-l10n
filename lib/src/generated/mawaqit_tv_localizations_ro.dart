@@ -52,7 +52,7 @@ class MawaqitTvLocalizationsRo extends MawaqitTvLocalizations {
   String get forceStaging => 'Staging';
 
   @override
-  String get forcePreProduction => 'Pre-production';
+  String get forcePreProduction => 'Pre-producţie';
 
   @override
   String get disableStaging => 'Trecerea la producție';
@@ -226,10 +226,10 @@ class MawaqitTvLocalizationsRo extends MawaqitTvLocalizations {
   String get perPrayerRolloverOptionAfterIsha => 'Toate împreună după Isha';
 
   @override
-  String get duhaOffset => 'Duha countdown offset';
+  String get duhaOffset => 'Compensare numărătoare inversă Duha';
 
   @override
-  String get duhaOffsetDesc => 'Minutes after Shuruq when Duha time starts (10-30 min)';
+  String get duhaOffsetDesc => 'Minute după Shuruq când începe timpul Duha (10-30 min)';
 
   @override
   String get alAthkar => 'Al-Athkar';

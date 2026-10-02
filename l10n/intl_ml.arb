@@ -682,5 +682,13 @@
   "crowdinSyncCheck": "നിങ്ങളുടെ മസ്ജിദ് ഇൻ വേണ്ടി പ്രാർത്ഥന സമയങ്ങൾ കാണിക്കുന്നു",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "ദുഹാ കൗണ്ട്ഡൗൺ ഓഫ്‌സെറ്റ്",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "ഷുരൂഖിന് ശേഷം ദുഹാ സമയമാരംഭിക്കുന്ന മിനിറ്റുകള്‍ (10-30 മിനിറ്റ്)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }
