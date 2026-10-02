@@ -644,7 +644,7 @@ abstract class MawaqitTvLocalizations {
   /// Subtitle for the Duha countdown offset stepper setting
   ///
   /// In en, this message translates to:
-  /// **'Minutes after Shuruq when Duha time ends (10-30 min)'**
+  /// **'Minutes after Shuruq when Duha time starts (10-30 min)'**
   String get duhaOffsetDesc;
 
   /// No description provided for @alAthkar.

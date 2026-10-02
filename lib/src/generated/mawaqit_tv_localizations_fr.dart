@@ -235,7 +235,7 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
   String get duhaOffset => 'Décalage du compte à rebours de la Duha';
 
   @override
-  String get duhaOffsetDesc => 'Minutes après le Shuruq marquant la fin de la Duha (10-30 min)';
+  String get duhaOffsetDesc => 'Minutes après le Shuruq marquant le début de la Duha (10-30 min)';
 
   @override
   String get alAthkar => 'Al Adhkar';

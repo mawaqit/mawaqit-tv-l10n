@@ -120,7 +120,7 @@
   "@duhaOffset": {
     "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
   },
-  "duhaOffsetDesc": "Minutes after Shuruq when Duha time ends (10-30 min)",
+  "duhaOffsetDesc": "Minutes after Shuruq when Duha time starts (10-30 min)",
   "@duhaOffsetDesc": {
     "description": "Subtitle for the Duha countdown offset stepper setting"
   },

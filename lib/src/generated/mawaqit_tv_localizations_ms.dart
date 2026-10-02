@@ -235,7 +235,7 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get duhaOffset => 'Duha countdown offset';
 
   @override
-  String get duhaOffsetDesc => 'Minutes after Shuruq when Duha time ends (10-30 min)';
+  String get duhaOffsetDesc => 'Minutes after Shuruq when Duha time starts (10-30 min)';
 
   @override
   String get alAthkar => 'Doa-doa';
