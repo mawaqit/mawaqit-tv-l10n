@@ -61,8 +61,6 @@
   "alAdhan": "Al Adan",
   "turnOfPhones": "Laittakaa puhelimenne äänettömään tilaan",
   "iqamaIn": "Iqama vuonna",
-  "iqamaShowClock": "Näytä kello iqama-näytöllä",
-  "iqamaShowClockDesc": "Näytä nykyinen aika ja päivämäärä iqama-lähtölaskennan näytöllä",
   "perPrayerRollover": "Rukousaikojen vaihtuminen",
   "perPrayerRolloverDesc": "Valitse, miten rukousajat vaihtuvat huomisen aikatauluun",
   "perPrayerRolloverOptionPerPrayer": "Jokainen rukous erikseen",
@@ -532,12 +530,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

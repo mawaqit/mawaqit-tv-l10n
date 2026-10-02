@@ -61,8 +61,6 @@
   "alAdhan": "Azan",
   "turnOfPhones": "Harap setel ponsel Anda ke Mode Senyap",
   "iqamaIn": "Iqomah dalam",
-  "iqamaShowClock": "Tampilkan jam di layar Iqama",
-  "iqamaShowClockDesc": "Tampilkan waktu dan tanggal saat ini di layar hitung mundur Iqama",
   "perPrayerRollover": "Pergantian waktu sholat",
   "perPrayerRolloverDesc": "Pilih cara waktu sholat beralih ke jadwal besok",
   "perPrayerRolloverOptionPerPrayer": "Setiap sholat satu per satu",
@@ -532,12 +530,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsKu extends MawaqitTvLocalizations {
   String get iqamaIn => 'قامەت لە دوای';
 
   @override
-  String get iqamaShowClock => 'کاتژمێر لەسەر شاشەی قامەت پیشان بدە';
-
-  @override
-  String get iqamaShowClockDesc => 'کات و بەرواری ئێستا لەسەر شاشەی ژمارەی پێچەوانەی قامەت پیشان بدە';
-
-  @override
   String get perPrayerRollover => 'گۆڕینی کاتەکانی نوێژ';
 
   @override

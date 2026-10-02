@@ -61,8 +61,6 @@
   "alAdhan": "Азан",
   "turnOfPhones": "Будь ласка, переведіть ваші телефони в беззвучний режим",
   "iqamaIn": "Iqama в",
-  "iqamaShowClock": "Показати годинник на екрані іками",
-  "iqamaShowClockDesc": "Відображати поточний час і дату на екрані зворотного відліку іками",
   "perPrayerRollover": "Перехід часу молитов",
   "perPrayerRolloverDesc": "Оберіть, як час молитов переходить на завтрашній розклад",
   "perPrayerRolloverOptionPerPrayer": "Кожна молитва окремо",
@@ -532,12 +530,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

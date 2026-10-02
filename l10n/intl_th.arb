@@ -61,8 +61,6 @@
   "alAdhan": "อาซาน الأذان",
   "turnOfPhones": "กรุณาปิดมือถือ หรือเข้าสู่โหมดปิดเสียง ขณะละหมาด",
   "iqamaIn": "เวลาอีกอมะฮฺ",
-  "iqamaShowClock": "แสดงนาฬิกาบนหน้าจออิกามะ",
-  "iqamaShowClockDesc": "แสดงเวลาและวันที่ปัจจุบันบนหน้าจอนับถอยหลังอิกามะ",
   "perPrayerRollover": "การเปลี่ยนเวลาละหมาดเป็นวันถัดไป",
   "perPrayerRolloverDesc": "เลือกวิธีที่เวลาละหมาดเปลี่ยนไปเป็นตารางของวันพรุ่งนี้",
   "perPrayerRolloverOptionPerPrayer": "แยกทีละละหมาด",
@@ -532,12 +530,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

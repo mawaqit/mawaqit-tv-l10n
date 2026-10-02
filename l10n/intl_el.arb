@@ -61,8 +61,6 @@
   "alAdhan": "Al Adan",
   "turnOfPhones": "Παρακαλούμε βάλτε τα τηλέφωνά σας σε αθόρυβη λειτουργία",
   "iqamaIn": "Iqama σε",
-  "iqamaShowClock": "Εμφάνιση ρολογιού στην οθόνη ικάμα",
-  "iqamaShowClockDesc": "Εμφάνιση τρέχουσας ώρας και ημερομηνίας στην οθόνη αντίστροφης μέτρησης ικάμα",
   "perPrayerRollover": "Αλλαγή ωρών προσευχής",
   "perPrayerRolloverDesc": "Επιλέξτε πώς οι ώρες προσευχής περνούν στο αυριανό πρόγραμμα",
   "perPrayerRolloverOptionPerPrayer": "Κάθε προσευχή ξεχωριστά",
@@ -532,12 +530,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

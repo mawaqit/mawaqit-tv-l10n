@@ -61,8 +61,6 @@
   "alAdhan": "பிரார்த்தனைக்கான அழைப்பு",
   "turnOfPhones": "உங்கள் மொபைல் போன்களை சைலண்டில் வைக்கவும்!",
   "iqamaIn": "இகாமத் பிறகு",
-  "iqamaShowClock": "இக்காமா திரையில் கடிகாரத்தை காட்டு",
-  "iqamaShowClockDesc": "இக்காமா கவுண்ட்டவுன் திரையில் தற்போதைய நேரம் மற்றும் தேதியை காட்டு",
   "perPrayerRollover": "தொழுகை நேர மாற்றம்",
   "perPrayerRolloverDesc": "தொழுகை நேரங்கள் நாளைய அட்டவணைக்கு எப்படி மாற வேண்டும் என்பதைத் தேர்வு செய்யவும்",
   "perPrayerRolloverOptionPerPrayer": "ஒவ்வொரு தொழுகையும் தனித்தனியாக",
@@ -532,12 +530,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

@@ -61,8 +61,6 @@
   "alAdhan": "Al Adan",
   "turnOfPhones": "Vennligst sett telefonene dine i stillemodus",
   "iqamaIn": "Iqama i",
-  "iqamaShowClock": "Vis klokke på iqama-skjermen",
-  "iqamaShowClockDesc": "Vis gjeldende tid og dato på iqama-nedtellingsskjermen",
   "perPrayerRollover": "Bytte av bønnetider",
   "perPrayerRolloverDesc": "Velg hvordan bønnetidene bytter til morgendagens tider",
   "perPrayerRolloverOptionPerPrayer": "Hver bønn for seg",
@@ -531,12 +529,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

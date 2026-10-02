@@ -61,8 +61,6 @@
   "alAdhan": "Al आदान",
   "turnOfPhones": "कृपया अपने फोन को साइलेंट मोड में रखें",
   "iqamaIn": "इकामा में",
-  "iqamaShowClock": "इकामा स्क्रीन पर घड़ी दिखाएं",
-  "iqamaShowClockDesc": "इकामा काउंटडाउन स्क्रीन पर वर्तमान समय और तारीख प्रदर्शित करें",
   "perPrayerRollover": "नमाज़ के समय का बदलाव",
   "perPrayerRolloverDesc": "नमाज़ के समय कल की समय-सारिणी पर कैसे बदलें, यह चुनें",
   "perPrayerRolloverOptionPerPrayer": "हर नमाज़ अलग-अलग",
@@ -532,12 +530,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

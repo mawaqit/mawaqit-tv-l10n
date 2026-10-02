@@ -64,8 +64,6 @@
   "alAdhan": "Аҙан",
   "turnOfPhones": "Please turn of your mobile phones!",
   "iqamaIn": "Агамат дараа",
-  "iqamaShowClock": "Иҡамәт экранында сәғәтте күрһәт",
-  "iqamaShowClockDesc": "Иҡамәт сәғәтенең иҫәпләү экранында ағымдағы ваҡытты һәм датаны күрһәт",
   "perPrayerRollover": "Намаҙ ваҡыттарын күсереү",
   "perPrayerRolloverDesc": "Намаҙ ваҡыттарының иртәгеге графикка нисек күсеүен һайлағыҙ",
   "perPrayerRolloverOptionPerPrayer": "Һәр намаҙ айырым",
@@ -235,12 +233,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

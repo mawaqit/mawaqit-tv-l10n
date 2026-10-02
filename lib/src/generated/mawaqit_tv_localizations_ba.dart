@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get iqamaIn => 'Агамат дараа';
 
   @override
-  String get iqamaShowClock => 'Иҡамәт экранында сәғәтте күрһәт';
-
-  @override
-  String get iqamaShowClockDesc => 'Иҡамәт сәғәтенең иҫәпләү экранында ағымдағы ваҡытты һәм датаны күрһәт';
-
-  @override
   String get perPrayerRollover => 'Намаҙ ваҡыттарын күсереү';
 
   @override

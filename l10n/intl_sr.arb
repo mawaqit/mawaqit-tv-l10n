@@ -61,8 +61,6 @@
   "alAdhan": "El Ezan",
   "turnOfPhones": "Molimo prebacite telefone na tihi mod",
   "iqamaIn": "Ikamet za",
-  "iqamaShowClock": "Прикажи сат на екрану икаме",
-  "iqamaShowClockDesc": "Прикажи тренутно време и датум на екрану одбројавања икаме",
   "perPrayerRollover": "Prelazak vremena namaza",
   "perPrayerRolloverDesc": "Izaberite kako vremena namaza prelaze na sutrašnji raspored",
   "perPrayerRolloverOptionPerPrayer": "Svaki namaz pojedinačno",
@@ -528,12 +526,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

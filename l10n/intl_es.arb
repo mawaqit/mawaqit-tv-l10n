@@ -61,8 +61,6 @@
   "alAdhan": "Al Adhan",
   "turnOfPhones": "Por favor, pongan sus teléfonos en modo silencio",
   "iqamaIn": "Iqama en",
-  "iqamaShowClock": "Mostrar reloj en la pantalla de Iqama",
-  "iqamaShowClockDesc": "Mostrar la hora y fecha actuales en la pantalla de cuenta regresiva de Iqama",
   "perPrayerRollover": "Cambio de horarios de oración",
   "perPrayerRolloverDesc": "Elige cómo los horarios de oración pasan a los de mañana",
   "perPrayerRolloverOptionPerPrayer": "Cada oración individualmente",
@@ -532,12 +530,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

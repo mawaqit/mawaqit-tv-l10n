@@ -61,8 +61,6 @@
   "alAdhan": "Al-Athan",
   "turnOfPhones": "Zet uw telefoon in de stille modus",
   "iqamaIn": "Iqama in",
-  "iqamaShowClock": "Klok weergeven op iqama-scherm",
-  "iqamaShowClockDesc": "Huidige tijd en datum weergeven op het iqama-aftelscherm",
   "perPrayerRollover": "Omschakeling van gebedstijden",
   "perPrayerRolloverDesc": "Kies hoe de gebedstijden overschakelen naar die van morgen",
   "perPrayerRolloverOptionPerPrayer": "Elk gebed afzonderlijk",
@@ -530,12 +528,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

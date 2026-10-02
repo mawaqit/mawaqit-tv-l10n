@@ -66,8 +66,6 @@
   "alAdhan": "អាហ្សង់",
   "turnOfPhones": "សូមបិទសំឡេងទូរស័ព្ទរបស់អ្នក",
   "iqamaIn": "អ៊ីកម៉ះក្នុងរយៈពេល",
-  "iqamaShowClock": "បង្ហាញនាឡិកានៅលើអេក្រង់អ៊ីកម៉ះ",
-  "iqamaShowClockDesc": "បង្ហាញពេលវេលា និងកាលបរិច្ឆេទបច្ចុប្បន្ននៅលើអេក្រង់រាប់ថយក្រោយអ៊ីកម៉ះ",
   "perPrayerRollover": "ការផ្លាស់ប្តូរម៉ោងសឡាត",
   "perPrayerRolloverDesc": "ជ្រើសរើសរបៀបដែលម៉ោងសឡាតផ្លាស់ប្តូរទៅកាលវិភាគថ្ងៃស្អែក",
   "perPrayerRolloverOptionPerPrayer": "សឡាតនីមួយៗដាច់ដោយឡែក",
@@ -411,12 +409,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

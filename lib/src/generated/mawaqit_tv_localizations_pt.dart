@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
   String get iqamaIn => 'Iqama in';
 
   @override
-  String get iqamaShowClock => 'Mostrar relógio na tela do Iqama';
-
-  @override
-  String get iqamaShowClockDesc => 'Exibir a hora e data atuais na tela de contagem regressiva do Iqama';
-
-  @override
   String get perPrayerRollover => 'Mudança dos horários de oração';
 
   @override
@@ -1412,12 +1406,6 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get iqamaIn => 'Jamaat em';
 
   @override
-  String get iqamaShowClock => 'Mostrar relógio na tela do Iqama';
-
-  @override
-  String get iqamaShowClockDesc => 'Exibir a hora e data atuais na tela de contagem regressiva do Iqama';
-
-  @override
   String get perPrayerRollover => 'Mudança dos horários de oração';
 
   @override
@@ -2596,12 +2584,6 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
 
   @override
   String get iqamaIn => 'Jamaat em';
-
-  @override
-  String get iqamaShowClock => 'Mostrar relógio no ecrã do Iqamah';
-
-  @override
-  String get iqamaShowClockDesc => 'Mostrar a hora e a data atuais no ecrã da contagem decrescente do Jamaat';
 
   @override
   String get perPrayerRollover => 'Mudança dos horários das orações';

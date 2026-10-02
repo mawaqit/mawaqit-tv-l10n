@@ -61,8 +61,6 @@
   "alAdhan": "アル・アダン",
   "turnOfPhones": "携帯電話をサイレントモードにしてください",
   "iqamaIn": "のイーカマ",
-  "iqamaShowClock": "イカーマ画面に時計を表示",
-  "iqamaShowClockDesc": "イカーマカウントダウン画面に現在の時刻と日付を表示する",
   "perPrayerRollover": "礼拝時刻の翌日切り替え",
   "perPrayerRolloverDesc": "礼拝時刻を翌日の予定に切り替える方法を選択します",
   "perPrayerRolloverOptionPerPrayer": "礼拝ごとに個別",
@@ -531,12 +529,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

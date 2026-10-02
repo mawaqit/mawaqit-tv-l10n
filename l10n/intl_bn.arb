@@ -61,8 +61,6 @@
   "alAdhan": "আজান",
   "turnOfPhones": "দয়া করে মোবাইল বন্ধ রাখুন!",
   "iqamaIn": "জামাতের সময় বাকি",
-  "iqamaShowClock": "ইকামা স্ক্রিনে ঘড়ি দেখান",
-  "iqamaShowClockDesc": "ইকামা কাউন্টডাউন স্ক্রিনে বর্তমান সময় ও তারিখ প্রদর্শন করুন",
   "perPrayerRollover": "নামাজের সময় পরিবর্তন",
   "perPrayerRolloverDesc": "নামাজের সময় কীভাবে আগামীকালের সময়সূচিতে যাবে তা বেছে নিন",
   "perPrayerRolloverOptionPerPrayer": "প্রতিটি নামাজ আলাদাভাবে",
@@ -532,12 +530,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

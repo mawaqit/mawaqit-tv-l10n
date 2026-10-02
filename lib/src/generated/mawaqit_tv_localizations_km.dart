@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsKm extends MawaqitTvLocalizations {
   String get iqamaIn => 'អ៊ីកម៉ះក្នុងរយៈពេល';
 
   @override
-  String get iqamaShowClock => 'បង្ហាញនាឡិកានៅលើអេក្រង់អ៊ីកម៉ះ';
-
-  @override
-  String get iqamaShowClockDesc => 'បង្ហាញពេលវេលា និងកាលបរិច្ឆេទបច្ចុប្បន្ននៅលើអេក្រង់រាប់ថយក្រោយអ៊ីកម៉ះ';
-
-  @override
   String get perPrayerRollover => 'ការផ្លាស់ប្តូរម៉ោងសឡាត';
 
   @override

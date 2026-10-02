@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsMl extends MawaqitTvLocalizations {
   String get iqamaIn => 'ഇഖാമ';
 
   @override
-  String get iqamaShowClock => 'ഇഖാമ സ്‌ക്രീനിൽ ക്ലോക്ക് കാണിക്കൂ';
-
-  @override
-  String get iqamaShowClockDesc => 'ഇഖാമ കൗണ്ട്‌ഡൗൺ സ്‌ക്രീനിൽ നിലവിലെ സമയവും തീയതിയും കാണിക്കും';
-
-  @override
   String get perPrayerRollover => 'നമസ്കാര സമയ മാറ്റം';
 
   @override

@@ -61,8 +61,6 @@
   "alAdhan": "Noddinaango",
   "turnOfPhones": "Tiiɗno-ɗee mbaɗee cinnde mon e mbayka muumal",
   "iqamaIn": "Wuurnaango ɗoo e",
-  "iqamaShowClock": "Hollu aadoo to letnol Iqama",
-  "iqamaShowClockDesc": "Hollu waktu e jamiroore to letnol ñaawoore Iqama",
   "perPrayerRollover": "Waylugol waktuuji njuulu",
   "perPrayerRolloverDesc": "Labo no waktuuji njuulu waylortoo e waktuuji janngo",
   "perPrayerRolloverOptionPerPrayer": "Kala njuulu e hoore mum",
@@ -532,12 +530,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

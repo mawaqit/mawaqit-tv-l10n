@@ -59,8 +59,6 @@
   "alAdhan": "അദാൻ",
   "turnOfPhones": "ദയവായി നിങ്ങളുടെ ഫോണുകൾ സൈലന്റ് മോഡിലിടൂ",
   "iqamaIn": "ഇഖാമ",
-  "iqamaShowClock": "ഇഖാമ സ്‌ക്രീനിൽ ക്ലോക്ക് കാണിക്കൂ",
-  "iqamaShowClockDesc": "ഇഖാമ കൗണ്ട്‌ഡൗൺ സ്‌ക്രീനിൽ നിലവിലെ സമയവും തീയതിയും കാണിക്കും",
   "alAthkar": "അദ്കാർ",
   "azkarList0": "Astaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah Allahumma anta Essalam wa mineka Essalam, tabarakta ya dhal djalali wel ikram Allahumma A`inni `ala dhikrika wa chukrika wa husni `ibadatik",
   "@azkarList0": {
@@ -502,12 +500,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

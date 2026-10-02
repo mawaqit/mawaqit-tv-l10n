@@ -61,8 +61,6 @@
   "alAdhan": "Al Adanas",
   "turnOfPhones": "Perjunkite telefonus į tylųjį režimą",
   "iqamaIn": "Iqama in",
-  "iqamaShowClock": "Rodyti laikrodį ikamos ekrane",
-  "iqamaShowClockDesc": "Rodyti dabartinį laiką ir datą ikamos atgalinės atskaitos ekrane",
   "perPrayerRollover": "Maldų laikų perėjimas",
   "perPrayerRolloverDesc": "Pasirinkite, kaip maldų laikai pereina prie rytojaus tvarkaraščio",
   "perPrayerRolloverOptionPerPrayer": "Kiekviena malda atskirai",
@@ -532,12 +530,6 @@
         "example": "01:23"
       }
     }
-  },
-  "@iqamaShowClock": {
-    "description": "Toggle to show or hide the clock widget on the Iqama countdown screen"
-  },
-  "@iqamaShowClockDesc": {
-    "description": "Subtitle for the iqama clock toggle setting"
   },
   "@perPrayerRollover": {
     "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"

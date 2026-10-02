@@ -214,12 +214,6 @@ class MawaqitTvLocalizationsUr extends MawaqitTvLocalizations {
   String get iqamaIn => 'اقامہ میں';
 
   @override
-  String get iqamaShowClock => 'اقامت کی اسکرین پر گھڑی دکھائیں';
-
-  @override
-  String get iqamaShowClockDesc => 'اقامت کاؤنٹ ڈاؤن اسکرین پر موجودہ وقت اور تاریخ دکھائیں';
-
-  @override
   String get perPrayerRollover => 'نماز کے اوقات کی تبدیلی';
 
   @override
