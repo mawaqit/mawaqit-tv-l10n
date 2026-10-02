@@ -7,7 +7,7 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsTr([String locale = 'tr']) : super(locale);
 
   @override
-  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+  String get thisIsATestFromIbrahim => 'Bu İbrahim\'den bir testtir';
 
   @override
   String get home => 'Ana Sayfa';
@@ -89,12 +89,12 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
 
   @override
   String countdownPrayer(String name, String time) {
-    return '$name Athan in $time';
+    return '$name Kalan Süre $time';
   }
 
   @override
   String countdownNonPrayer(String name, String time) {
-    return '$name in $time';
+    return '$name Kalan Süre $time';
   }
 
   @override
@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => 'İkamet geri sayım ekranında güncel saat ve tarihi göster';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'Namaz vakti geçişi';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'Namaz vakitlerinin yarının programına nasıl geçeceğini seçin';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'Her namaz ayrı ayrı';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'Yatsıdan sonra hepsi birlikte';
 
   @override
   String get duhaOffset => 'Duha countdown offset';
@@ -664,7 +664,7 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get wifiFailure => 'Wifi\'ye bağlanılamadı.';
 
   @override
-  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+  String get wifiForgetNetwork => 'Bu ağ Android ayarlarında eklendi. Lütfen orada unutun, ardından tekrar bağlanın.';
 
   @override
   String get timezoneSuccess => 'Saat dilimi başarıyla ayarlandı.';
@@ -1051,13 +1051,13 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get streamRequiresSecondaryScreen => 'Bu özellik, yalnızca ekran ikinci ekran olarak ayarlandığında kullanılabilir';
 
   @override
-  String get streamSecondaryScreenStep1 => 'Go to Display.';
+  String get streamSecondaryScreenStep1 => 'Ekrana gidin.';
 
   @override
-  String get streamSecondaryScreenStep2 => 'Open \"Default launch mode\".';
+  String get streamSecondaryScreenStep2 => '\"Varsayılan başlatma modu\"nu açın.';
 
   @override
-  String get streamSecondaryScreenStep3 => 'Select \"Secondary screen\".';
+  String get streamSecondaryScreenStep3 => '\"İkincil ekran\"ı seçin.';
 
   @override
   String get rtspServerNotAvailable => 'RTSP sunucusu kullanılamıyor. Lütfen bağlantınızı kontrol edin.';
@@ -1105,7 +1105,7 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get quranModeExplanation => 'Son okunan sayfadan başlayarak Kur’an okuma ekranını göster';
 
   @override
-  String get appDisplayMode => 'Göster';
+  String get appDisplayMode => 'Ekran';
 
   @override
   String get appDisplayModeExplanation => 'Ekranınızın içeriği nasıl göstereceğini seçin';
@@ -1170,7 +1170,7 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get tutorialFullTutorial => 'Tam Kılavuz';
 
   @override
-  String get prayerTimeFontSize => 'Metin ve ekran boyutu';
+  String get prayerTimeFontSize => 'Metin ve görüntü boyutu';
 
   @override
   String get prayerTimeFontSizeDesc => 'Metnin uygulama genelinde ne kadar büyük görüneceğini değiştirin';
@@ -1182,20 +1182,23 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   String get fontSizeNormal => 'Normal';
 
   @override
-  String get fontSizeLarge => 'Large';
+  String get fontSizeLarge => 'Büyük';
 
   @override
   String get fontSizeXLarge => 'Ekstra büyük';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'Zikir için Arapça yazı tipi';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => 'Zikirler için kullanılan Arapça yazı tipini seçin (namazdan sonra, ezan, Cuma, hadis...)';
 
   @override
   String get athkarFontKufi => 'Kufi';
 
   @override
-  String get athkarFontUthmani => 'Uthmani';
+  String get athkarFontUthmani => 'Osmani';
+
+  @override
+  String get crowdinSyncCheck => 'Namaz vakitleri caminiz için gösteriliyor';
 }

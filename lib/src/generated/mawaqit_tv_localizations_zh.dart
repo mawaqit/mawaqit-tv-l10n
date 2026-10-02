@@ -7,7 +7,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
-  String get thisIsATestFromIbrahim => 'This is a test from Ibrahim';
+  String get thisIsATestFromIbrahim => '这是来自伊布拉欣的测试';
 
   @override
   String get home => '首页';
@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get quit => '辞职';
 
   @override
-  String get forceStaging => 'Staging';
+  String get forceStaging => '预发布环境';
 
   @override
-  String get forcePreProduction => 'Pre-production';
+  String get forcePreProduction => '预生产环境';
 
   @override
   String get disableStaging => '转为生产';
@@ -61,7 +61,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get environmentSwitchSuccess => 'Environment switched successfully';
 
   @override
-  String get environmentSwitchFailed => 'Failed to switch environment';
+  String get environmentSwitchFailed => '环境切换失败';
 
   @override
   String get sureCloseApp => '你确定要退出申请吗？';
@@ -205,7 +205,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get alIqama => '身份证';
 
   @override
-  String get alAdhan => 'Al Athan';
+  String get alAdhan => 'Al Adan';
 
   @override
   String get turnOfPhones => '请将您的手机调至静音模式';
@@ -220,16 +220,16 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get iqamaShowClockDesc => '在伊卡玛倒计时屏幕上显示当前时间和日期';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => '礼拜时间跨日切换';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => '选择礼拜时间切换到次日时刻表的方式';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => '每个礼拜单独切换';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'Isha 之后一起切换';
 
   @override
   String get duhaOffset => 'Duha countdown offset';
@@ -295,10 +295,10 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get shuruk => '舒鲁克';
 
   @override
-  String get duha => 'Duha';
+  String get duha => '杜哈拜';
 
   @override
-  String get duhaTime => 'Duha Time';
+  String get duhaTime => '杜哈拜时间';
 
   @override
   String get reset => '复位';
@@ -448,7 +448,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => '选择你的屏幕是否会一直显示公告，如果你把屏幕安装在入口处，这可能很有用，例如。';
 
   @override
-  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => '口渴已解，血脉已润，赏赐已定， إن شاء الله。';
 
   @override
   String get secondaryScreenExplanation => '对于一个次要的祈祷室（例如，妇女室或其他楼层），这个屏幕将显示jumua的现场直播';
@@ -514,7 +514,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get recommended => '推荐的';
 
   @override
-  String get sabah => 'Sabah';
+  String get sabah => '晨礼';
 
   @override
   String get randomHadithLanguage => '随机hadith语言';
@@ -547,7 +547,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get nl => '荷兰语';
 
   @override
-  String get ta => 'Tamil';
+  String get ta => '泰米尔语';
 
   @override
   String get fr_ar => '法语和阿拉伯语';
@@ -559,7 +559,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get de_ar => '德语和阿拉伯语';
 
   @override
-  String get ta_ar => 'Tamil & Arabic';
+  String get ta_ar => '泰米尔语和阿拉伯语';
 
   @override
   String get tr_ar => '土耳其语和阿拉伯语';
@@ -619,7 +619,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get previous => '上一个';
 
   @override
-  String get appTimezone => 'App Timezone';
+  String get appTimezone => '应用时区';
 
   @override
   String get descTimezone => '选择您的时区以获得准确的祈祷时间。';
@@ -649,7 +649,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get skip => '跳过';
 
   @override
-  String get noSSID => '**Hidden SSID**';
+  String get noSSID => '**隐藏SSID**';
 
   @override
   String get close => '关闭';
@@ -664,7 +664,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get wifiFailure => '连接到 Wifi 失败。';
 
   @override
-  String get wifiForgetNetwork => 'This network was added in Android settings. Please forget it there, then connect again.';
+  String get wifiForgetNetwork => '该网络已在Android设置中添加。请先在设置中遗忘此网络，再重新连接。';
 
   @override
   String get timezoneSuccess => '时区设置成功。';
@@ -768,7 +768,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get chooseReciter => '选择接收者';
 
   @override
-  String get reciteType => 'Recite Type';
+  String get reciteType => '朗读类型';
 
   @override
   String get readingMode => '我想阅读一下。';
@@ -850,7 +850,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   }
 
   @override
-  String get surahSelector => 'Select Surah';
+  String get surahSelector => '选择苏拉';
 
   @override
   String get checkForUpdates => '检查更新';
@@ -1024,7 +1024,7 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get rtspUrlHint => '输入 RTSP URL 或 YouTube 链接';
 
   @override
-  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
+  String get urlManagedByMosqueAdmin => '由清真寺管理员管理的网址';
 
   @override
   String get replaceWorkflowWithStream => '自动显示相机流';
@@ -1033,37 +1033,37 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get replaceAppWorkflowWithCameraStream => '当摄像头开始录制时，屏幕将自动显示相机流； 如果它停止，屏幕返回祈祷时间';
 
   @override
-  String get streamMode => 'Stream mode';
+  String get streamMode => '流媒体模式';
 
   @override
   String get streamModeDisabled => 'Disabled';
 
   @override
-  String get streamModeCamera => 'Stream depends on camera';
+  String get streamModeCamera => '流媒体依赖于摄像头';
 
   @override
-  String get streamModeJumuaOnly => 'Stream depends on Jumua only';
+  String get streamModeJumuaOnly => '流媒体仅限主麻';
 
   @override
-  String get streamModeJumuaAndPrayers => 'Stream depends on Jumua and the 5 prayers';
+  String get streamModeJumuaAndPrayers => '流媒体依赖主麻及五次拜功';
 
   @override
-  String get streamRequiresSecondaryScreen => 'This feature only works when the app runs as a secondary screen. To enable it:';
+  String get streamRequiresSecondaryScreen => '该功能仅在应用作为副屏运行时有效。启用方法：';
 
   @override
-  String get streamSecondaryScreenStep1 => 'Go to Display.';
+  String get streamSecondaryScreenStep1 => '进入显示设置。';
 
   @override
-  String get streamSecondaryScreenStep2 => 'Open \"Default launch mode\".';
+  String get streamSecondaryScreenStep2 => '打开“默认启动模式”。';
 
   @override
-  String get streamSecondaryScreenStep3 => 'Select \"Secondary screen\".';
+  String get streamSecondaryScreenStep3 => '选择“副屏”。';
 
   @override
-  String get rtspServerNotAvailable => 'RTSP server is not available. Please check your connection.';
+  String get rtspServerNotAvailable => 'RTSP 服务器不可用。请检查您的连接。';
 
   @override
-  String get settingsSavedSuccessfully => 'Settings saved successfully';
+  String get settingsSavedSuccessfully => '设置已成功保存';
 
   @override
   String get streamError => '流媒体时出错';
@@ -1096,25 +1096,25 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get testAITranslation => '这是验证AI 翻译正常工作的测试字符串';
 
   @override
-  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
+  String get testCrowdinCI => '测试字符串，用于验证 Crowdin CI 流程';
 
   @override
-  String get quranMode => 'Quran mode';
+  String get quranMode => '古兰经模式';
 
   @override
-  String get quranModeExplanation => 'Display the Quran reading screen, starting from the last read page';
+  String get quranModeExplanation => '显示古兰经阅读界面，从上次阅读页开始';
 
   @override
-  String get appDisplayMode => 'Display';
+  String get appDisplayMode => '显示';
 
   @override
-  String get appDisplayModeExplanation => 'Choose how your screen will display content';
+  String get appDisplayModeExplanation => '选择屏幕显示内容的方式';
 
   @override
-  String get exitQuranModeTitle => 'Exit Quran Mode';
+  String get exitQuranModeTitle => '退出古兰经模式';
 
   @override
-  String get exitQuranModeMessage => 'Would you like to return to normal mode?';
+  String get exitQuranModeMessage => '您要返回正常模式吗？';
 
   @override
   String get settingsSectionGlobal => '全局';
@@ -1138,64 +1138,67 @@ class MawaqitTvLocalizationsZh extends MawaqitTvLocalizations {
   String get wifi => 'WiFi';
 
   @override
-  String get tutorialGetStarted => 'Get started in 4 simple steps';
+  String get tutorialGetStarted => '通过4个简单步骤开始';
 
   @override
-  String get tutorialDontHaveId => 'Don\'t have a Mosque ID yet? Here\'s how:';
+  String get tutorialDontHaveId => '还没有清真寺ID？操作方法如下：';
 
   @override
-  String get tutorialStep1 => 'Go to mawaqit.net and create an account';
+  String get tutorialStep1 => '前往 mawaqit.net 创建账户';
 
   @override
-  String get tutorialStep2 => 'Register your mosque with photos & address';
+  String get tutorialStep2 => '注册您的清真寺并上传照片与地址';
 
   @override
-  String get tutorialStep3 => 'Get your unique Mosque ID from your dashboard';
+  String get tutorialStep3 => '在仪表板获取您唯一的清真寺ID';
 
   @override
-  String get tutorialStep4 => 'Enter the ID here to connect your TV display';
+  String get tutorialStep4 => '在此输入ID以连接您的电视显示屏';
 
   @override
   String tutorialStep(String step) {
-    return 'Step $step  ';
+    return '步骤 $step  ';
   }
 
   @override
-  String get tutorialScanToRegister => 'Scan to register';
+  String get tutorialScanToRegister => '扫码注册';
 
   @override
-  String get tutorialScanDescription => 'Use your phone to create an account on mawaqit.net';
+  String get tutorialScanDescription => '请使用手机在 mawaqit.net 创建账户';
 
   @override
   String get tutorialFullTutorial => 'Full tutorial';
 
   @override
-  String get prayerTimeFontSize => 'Text & display size';
+  String get prayerTimeFontSize => '显示大小和文字';
 
   @override
-  String get prayerTimeFontSizeDesc => 'Change how large the text appears throughout the app';
+  String get prayerTimeFontSizeDesc => '更改应用内文字的显示大小';
 
   @override
-  String get fontSizeSmall => 'Small';
+  String get fontSizeSmall => '小';
 
   @override
-  String get fontSizeNormal => 'Normal';
+  String get fontSizeNormal => '中';
 
   @override
-  String get fontSizeLarge => 'Large';
+  String get fontSizeLarge => '大';
 
   @override
-  String get fontSizeXLarge => 'Extra Large';
+  String get fontSizeXLarge => '超大';
 
   @override
-  String get athkarArabicFont => 'Athkar Arabic font';
+  String get athkarArabicFont => 'Athkar 阿拉伯文字体';
 
   @override
-  String get athkarArabicFontDesc => 'Choose the Arabic font used for Athkar (after salah, adhan, Jumua, hadith...)';
+  String get athkarArabicFontDesc => '选择 Athkar（礼拜后、adhan、Jumua、圣训…）所用的阿拉伯文字体';
 
   @override
-  String get athkarFontKufi => 'Kufi';
+  String get athkarFontKufi => '库法体';
 
   @override
-  String get athkarFontUthmani => 'Uthmani';
+  String get athkarFontUthmani => '奥斯曼体';
+
+  @override
+  String get crowdinSyncCheck => '此处显示的是您清真寺的礼拜时间';
 }

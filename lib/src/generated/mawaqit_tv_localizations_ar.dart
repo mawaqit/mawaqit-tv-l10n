@@ -49,10 +49,10 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get quit => 'خروج';
 
   @override
-  String get forceStaging => 'Staging';
+  String get forceStaging => 'الانتقال إلى وضع التهيئة';
 
   @override
-  String get forcePreProduction => 'Pre-production';
+  String get forcePreProduction => 'بيئة ما قبل الإنتاج';
 
   @override
   String get disableStaging => 'الانتقال إلى بيئة الاختبار';
@@ -448,7 +448,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'اختر إذا كنت تود أن تعرض شاشة الإعلانات طوال الوقت، هذا يمكن أن يكون مفيداً إذا قمت بتثبيت الشاشة على سبيل المثال في المدخل.';
 
   @override
-  String get duaaElEftarText => 'ذهب الظما وابتلت العروق وثبت الاجر ان شاء الله';
+  String get duaaElEftarText => 'اللهم اني لك صمت وعلى رزقك افطرت واليك انبت وعليك توكلت ذهب الظمأ وابتلت العروق وثبت الأجر إن شاء الله';
 
   @override
   String get secondaryScreenExplanation => 'غرفة الصلاة الثانوية (غرفة النساء أو طابق آخر على سبيل المثال)، ستظهر هذه الشاشة البث المباشر للجمعة إذا تم تفعيله على حساب MAWAQIT';
@@ -547,7 +547,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get nl => 'الهولندية';
 
   @override
-  String get ta => 'Tamil';
+  String get ta => 'التاميلية';
 
   @override
   String get fr_ar => 'الفرنسية والعربية';
@@ -1024,7 +1024,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get rtspUrlHint => 'أدخل رابط RTSP أو رابط يوتيوب';
 
   @override
-  String get urlManagedByMosqueAdmin => 'URL managed by mosque administrator';
+  String get urlManagedByMosqueAdmin => 'الرابط يُدار بواسطة مسؤول المسجد';
 
   @override
   String get replaceWorkflowWithStream => 'عرض بث الكاميرا تلقائيًا';
@@ -1096,7 +1096,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
   String get testAITranslation => 'هذه سلسلة اختبار للتحقق من أن ترجمة الذكاء الاصطناعي تعمل بشكل صحيح';
 
   @override
-  String get testCrowdinCI => 'Test string to verify Crowdin CI workflow on develop';
+  String get testCrowdinCI => 'سلسلة اختبار للتحقق من سير عمل كرودن في التطوير';
 
   @override
   String get quranMode => 'وضع القرآن';
@@ -1198,4 +1198,7 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
 
   @override
   String get athkarFontUthmani => 'العثماني';
+
+  @override
+  String get crowdinSyncCheck => 'يتم عرض أوقات الصلاة لمسجدك';
 }
