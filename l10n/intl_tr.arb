@@ -1,5 +1,5 @@
 {
-  "thisIsATestFromIbrahim": "This is a test from Ibrahim",
+  "thisIsATestFromIbrahim": "Bu İbrahim'den bir testtir",
   "home": "Ana Sayfa",
   "share": "Paylaş",
   "about": "Hakkında",
@@ -64,6 +64,9 @@
   "alAdhan": "Ezan",
   "turnOfPhones": "Lütfen telefonlarınızı kapatın yada sessiz konumuna getirin",
   "iqamaIn": "İkamet kalan süre",
+  "perPrayerRollover": "Namaz vakti geçişi",
+  "perPrayerRolloverDesc": "Namaz vakitlerinin yarının programına nasıl geçeceğini seçin",
+  "perPrayerRolloverOptionPerPrayer": "Her namaz ayrı ayrı",
   "alAthkar": "Zikir",
   "azkarList0": "Estağfirullah, Estağfirullah, Estağfirullah.\n\nAllahumme ente’s-selâm ve minke’s-selâm, tebârekte yâ zel-celâli vel-ikrâm.\n\nAllahumme e‘innî alâ zikrike ve şukrike ve husni ibâdetik.",
   "@azkarList0": {
@@ -502,7 +505,7 @@
   "@quranModeExplanation": {
     "description": "Explanation text for the Quran mode option"
   },
-  "appDisplayMode": "Göster",
+  "appDisplayMode": "Ekran",
   "@appDisplayMode": {
     "description": "Title for the display mode setting"
   },
@@ -591,7 +594,7 @@
   "@tutorialFullTutorial": {
     "description": "Label for the full video tutorial section"
   },
-  "prayerTimeFontSize": "Metin ve ekran boyutu",
+  "prayerTimeFontSize": "Metin ve görüntü boyutu",
   "@prayerTimeFontSize": {
     "description": "Label for the app font size setting"
   },
@@ -607,12 +610,77 @@
   "@fontSizeNormal": {
     "description": "Normal font size option"
   },
-  "fontSizeLarge": "Large",
+  "fontSizeLarge": "Büyük",
   "@fontSizeLarge": {
     "description": "Large font size option"
   },
   "fontSizeXLarge": "Ekstra büyük",
+  "athkarArabicFont": "Zikir için Arapça yazı tipi",
+  "athkarArabicFontDesc": "Zikirler için kullanılan Arapça yazı tipini seçin (namazdan sonra, ezan, Cuma, hadis...)",
+  "athkarFontKufi": "Kufi",
+  "athkarFontUthmani": "Osmani",
   "@fontSizeXLarge": {
     "description": "Extra large font size option"
+  },
+  "perPrayerRolloverOptionAfterIsha": "Yatsıdan sonra hepsi birlikte",
+  "countdownPrayer": "{name} Kalan Süre {time}",
+  "@countdownPrayer": {
+    "description": "Countdown text for obligatory prayers (Fajr, Duhr, Asr, Maghrib, Isha, Jumua). Renders e.g. 'Fajr Athan in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Fajr"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "countdownNonPrayer": "{name} Kalan Süre {time}",
+  "@countdownNonPrayer": {
+    "description": "Countdown text for non-obligatory events (Shuruq, Duha). Renders e.g. 'Shuruq in 01:23'",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Shuruq"
+      },
+      "time": {
+        "type": "String",
+        "example": "01:23"
+      }
+    }
+  },
+  "@perPrayerRollover": {
+    "description": "Dropdown for choosing whether each prayer/iqama/shuruq time switches to tomorrow's value on its own once that prayer ends, or all switch together after Isha ends"
+  },
+  "@perPrayerRolloverDesc": {
+    "description": "Subtitle for the per-prayer rollover dropdown setting"
+  },
+  "@perPrayerRolloverOptionPerPrayer": {
+    "description": "Dropdown option: each prayer switches to tomorrow's time as soon as it ends"
+  },
+  "@perPrayerRolloverOptionAfterIsha": {
+    "description": "Dropdown option: all prayer times switch to tomorrow together only after Isha ends"
+  },
+  "wifiForgetNetwork": "Bu ağ Android ayarlarında eklendi. Lütfen orada unutun, ardından tekrar bağlanın.",
+  "streamSecondaryScreenStep1": "Ekrana gidin.",
+  "streamSecondaryScreenStep2": "\"Varsayılan başlatma modu\"nu açın.",
+  "streamSecondaryScreenStep3": "\"İkincil ekran\"ı seçin.",
+  "@athkarArabicFont": {
+    "description": "Title of the display setting that selects the Arabic font for Athkar content"
+  },
+  "@athkarArabicFontDesc": {
+    "description": "Subtitle describing the Athkar Arabic font setting"
+  },
+  "@athkarFontKufi": {
+    "description": "Label for the Kufi Arabic font option (default)"
+  },
+  "@athkarFontUthmani": {
+    "description": "Label for the Uthmani Arabic font option"
+  },
+  "crowdinSyncCheck": "Namaz vakitleri caminiz için gösteriliyor",
+  "@crowdinSyncCheck": {
+    "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
   }
 }

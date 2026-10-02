@@ -214,16 +214,16 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get iqamaIn => 'Iqama om \nإقامة بعد';
 
   @override
-  String get perPrayerRollover => 'Prayer time rollover';
+  String get perPrayerRollover => 'Byte av bönetider';
 
   @override
-  String get perPrayerRolloverDesc => 'Choose how prayer times switch to tomorrow\'s schedule';
+  String get perPrayerRolloverDesc => 'Välj hur bönetiderna växlar till morgondagens tider';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Each prayer individually';
+  String get perPrayerRolloverOptionPerPrayer => 'Varje bön för sig';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'All together after Isha';
+  String get perPrayerRolloverOptionAfterIsha => 'Alla tillsammans efter Isha';
 
   @override
   String get alAthkar => 'Al-Athkar efter bönen\n الأذكار بعد الصلاة';
@@ -313,7 +313,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get rabiAlawwal => 'Rabi\' al-Awal';
 
   @override
-  String get rabiAlthani => 'Rabi\' al-Thani';
+  String get rabiAlthani => 'Rabiul-Thani';
 
   @override
   String get jumadaAlula => 'Jumada al-Awal';
@@ -334,10 +334,10 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get shawwal => 'Shawal';
 
   @override
-  String get dhuAlqidah => 'Dhu al-Qi\'dah';
+  String get dhuAlqidah => 'Dhul-Qi\'dah';
 
   @override
-  String get dhuAlhijjah => 'Dhu al-Hijja';
+  String get dhuAlhijjah => 'Dhul-Hijja';
 
   @override
   String get duaaBetweenSalahAndAdhan => 'Berättat av Anas ibn Malik \"må Allah vara nöjd med honom sa att Allahs budbärare Muhammad ﷺ sade: \"duaa\" avvisas inte mellan adhan och iqama.\n\nعن أنس بن مالك رضي الله عنه، قال رسول الله ﷺ: \"الدعاء لا يُرد بين الأذان والإقامة';
@@ -373,7 +373,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get afterSalahAzkar => 'Athkar efter bön';
 
   @override
-  String get iqama => 'Iqama';
+  String get iqama => 'Iqama الإِقَامَة';
 
   @override
   String get randomHadith => 'Slumpmässig Hadith';
@@ -1186,4 +1186,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
 
   @override
   String get athkarFontUthmani => 'Uthmani';
+
+  @override
+  String get crowdinSyncCheck => 'Bönetider visas för din moské';
 }

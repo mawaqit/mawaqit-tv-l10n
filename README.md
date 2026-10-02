@@ -31,6 +31,7 @@ The package includes translations for the following languages:
 | Hindi | `hi` | हिन्दी | |
 | Chinese | `zh` | 中文 | |
 | Japanese | `ja` | 日本語 | |
+| Khmer | `km` | ខ្មែរ | |
 | Korean | `ko` | 한국어 | |
 | Russian | `ru` | Русский | |
 | Portuguese | `pt` | Português | |
