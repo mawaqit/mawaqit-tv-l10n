@@ -682,5 +682,13 @@
   "crowdinSyncCheck": "Waktu solat dipaparkan untuk masjid anda",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "Pemalar kira detik Duha",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "Minit selepas Shuruq apabila waktu Duha bermula (10-30 min)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }

@@ -1418,6 +1418,12 @@ class MawaqitTvLocalizationsPtBr extends MawaqitTvLocalizationsPt {
   String get perPrayerRolloverOptionAfterIsha => 'Todos juntos depois do Ishá';
 
   @override
+  String get duhaOffset => 'Compensação da contagem regressiva do Duha';
+
+  @override
+  String get duhaOffsetDesc => 'Minutos após o Shuruq quando começa o tempo do Duha (10-30 min)';
+
+  @override
   String get alAthkar => 'Zikr';
 
   @override
@@ -2403,7 +2409,7 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
   String get descLang => 'Selecione o seu idioma preferido';
 
   @override
-  String get hadithLangDesc => 'Isto substitui a escolha feita no backoffice; pode escolher um idioma diferente para cada ecrã';
+  String get hadithLangDesc => 'Isto substitui a escolha feita no backoffice; pode escolher um idioma diferente para cada dispositivo';
 
   @override
   String get whoops => 'Ops!';
@@ -2589,13 +2595,19 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
   String get perPrayerRollover => 'Mudança dos horários das orações';
 
   @override
-  String get perPrayerRolloverDesc => 'Escolha como os horários das orações passam para os de amanhã';
+  String get perPrayerRolloverDesc => 'Escolha como os horários das orações passam para o horário de amanhã';
 
   @override
-  String get perPrayerRolloverOptionPerPrayer => 'Cada oração individualmente';
+  String get perPrayerRolloverOptionPerPrayer => 'Individualmente para cada oração';
 
   @override
-  String get perPrayerRolloverOptionAfterIsha => 'Todas em conjunto depois do Ishá';
+  String get perPrayerRolloverOptionAfterIsha => 'Todos juntos após o Ishá';
+
+  @override
+  String get duhaOffset => 'Deslocamento da contagem regressiva do Duha';
+
+  @override
+  String get duhaOffsetDesc => 'Minutos após o Shuruq quando o tempo do Duha começa (10-30 min)';
 
   @override
   String get alAthkar => 'Azkár';
@@ -3408,7 +3420,7 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
   String get streamModeJumuaAndPrayers => 'A transmissão depende do Jumu‘ah e das 5 orações';
 
   @override
-  String get streamRequiresSecondaryScreen => 'Esta funcionalidade apenas está disponível quando o ecrã está configurado como ecrã secundário (necessário para o tipo de mesquita)';
+  String get streamRequiresSecondaryScreen => 'Esta funcionalidade só funciona quando a aplicação está configurada como ecrã secundário. Para a ativar:';
 
   @override
   String get streamSecondaryScreenStep1 => 'Aceda a «Ecrã».';
@@ -3465,7 +3477,7 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
   String get quranModeExplanation => 'Mostrar o ecrã de leitura do Alcorão a partir da última página lida';
 
   @override
-  String get appDisplayMode => 'Mostrar';
+  String get appDisplayMode => 'Visualização';
 
   @override
   String get appDisplayModeExplanation => 'Escolha como o ecrã irá apresentar o conteúdo';
@@ -3480,7 +3492,7 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
   String get settingsSectionGlobal => 'Geral';
 
   @override
-  String get hijriDateAdjustment => 'Ajuste da data Hijri';
+  String get hijriDateAdjustment => 'Ajuste da data islâmica';
 
   @override
   String get interfaceLanguage => 'Idioma da interface';
@@ -3551,14 +3563,14 @@ class MawaqitTvLocalizationsPtPt extends MawaqitTvLocalizationsPt {
   String get athkarArabicFont => 'Tipo de letra árabe dos Azkár';
 
   @override
-  String get athkarArabicFontDesc => 'Escolha o tipo de letra árabe usado nos Azkár (depois da oração, do Azán, da Jumu\'ah, do hadith...)';
+  String get athkarArabicFontDesc => 'Escolha o tipo de letra árabe para os Azkár (após a oração, Azán, Jumu\'ah, Hadith...)';
 
   @override
-  String get athkarFontKufi => 'Cúfico';
+  String get athkarFontKufi => 'Kufi';
 
   @override
   String get athkarFontUthmani => 'Uthmani';
 
   @override
-  String get crowdinSyncCheck => 'Os horários de oração são exibidos para sua mesquita';
+  String get crowdinSyncCheck => 'Os horários das orações apresentados são os da sua mesquita';
 }

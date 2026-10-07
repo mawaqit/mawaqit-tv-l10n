@@ -682,5 +682,13 @@
   "crowdinSyncCheck": "기도 시간이 귀하의 마스지드에 표시됩니다",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "두하 카운트다운 오프셋",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "두하 시간이 시작되는 슈루크 후 분 단위 (10-30분)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }

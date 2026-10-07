@@ -682,5 +682,13 @@
   "crowdinSyncCheck": "Намаҙ ваҡыттары мәсетегеҙ өсөн күрһәтелә",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "Дуһа иҫәбенең һуңлауы",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "Шәрыҡ нурынан һуң Дуһа ваҡыты башлана торған минуттар (10-30 минут)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }

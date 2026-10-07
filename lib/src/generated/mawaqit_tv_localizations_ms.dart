@@ -226,10 +226,10 @@ class MawaqitTvLocalizationsMs extends MawaqitTvLocalizations {
   String get perPrayerRolloverOptionAfterIsha => 'Semua sekali selepas Isyak';
 
   @override
-  String get duhaOffset => 'Duha countdown offset';
+  String get duhaOffset => 'Pemalar kira detik Duha';
 
   @override
-  String get duhaOffsetDesc => 'Minutes after Shuruq when Duha time starts (10-30 min)';
+  String get duhaOffsetDesc => 'Minit selepas Shuruq apabila waktu Duha bermula (10-30 min)';
 
   @override
   String get alAthkar => 'Doa-doa';

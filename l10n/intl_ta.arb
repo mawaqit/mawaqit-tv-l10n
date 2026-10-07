@@ -682,5 +682,13 @@
   "crowdinSyncCheck": "உங்கள் பள்ளிக்கான தொழுகை நேரங்கள் காட்டப்படுகின்றன",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "துஹா கணக்கெடுப்பு இடைவேளை",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "சூரிய உதயத்துக்குப் பிறகு துஹா நேரம் துவங்கும் நிமிடங்கள் (10-30 நிமிடம்)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }

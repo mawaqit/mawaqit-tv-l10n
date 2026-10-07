@@ -680,5 +680,13 @@
   "crowdinSyncCheck": "Час молитви показаний для вашої мечеті",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "Зсув відліку часу Духа",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "Хвилин після сходу сонця, коли починається час Духа (10–30 хв)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }

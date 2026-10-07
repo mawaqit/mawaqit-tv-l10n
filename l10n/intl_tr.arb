@@ -682,5 +682,13 @@
   "crowdinSyncCheck": "Namaz vakitleri caminiz için gösteriliyor",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "Duha geri sayımı kaydırması",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "Duha vaktinin başladığı Şuruq sonrası dakika (10-30 dk)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }

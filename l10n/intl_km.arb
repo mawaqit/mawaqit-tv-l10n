@@ -661,5 +661,13 @@
   "crowdinSyncCheck": "ពេលបួសត្រូវបានបង្ហាញសម្រាប់មស្សជិតរបស់អ្នក",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "duhaOffset": "ការផ្លាស់ទីរាប់ថយសម័យឌូហា",
+  "@duhaOffset": {
+    "description": "Stepper setting for how many minutes after Shuruq the Duha countdown ends"
+  },
+  "duhaOffsetDesc": "នាទីបន្ទាប់ពីព្រះអាទិត្យឡើងនៅពេលដែលពេលឌូហាដាក់ចាប់ផ្តើម (១០-៣០ នាទី)",
+  "@duhaOffsetDesc": {
+    "description": "Subtitle for the Duha countdown offset stepper setting"
   }
 }
