@@ -98,7 +98,7 @@ class MawaqitTvLocalizationsTr extends MawaqitTvLocalizations {
   }
 
   @override
-  String get sec => 'İkinci';
+  String get sec => 'Saniye';
 
   @override
   String get online => 'Çevrimiçi';
