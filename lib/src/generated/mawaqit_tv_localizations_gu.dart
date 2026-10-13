@@ -178,7 +178,7 @@ class MawaqitTvLocalizationsGu extends MawaqitTvLocalizations {
   String get imsak => 'ઇમસાક';
 
   @override
-  String get jumua => 'જુ';
+  String get jumua => 'જુમ્મા';
 
   @override
   String get duhr => 'ઝોહર';
