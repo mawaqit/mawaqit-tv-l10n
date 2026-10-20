@@ -7,7 +7,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   MawaqitTvLocalizationsSv([String locale = 'sv']) : super(locale);
 
   @override
-  String get thisIsATestFromIbrahim => 'Detta är ett test från Masoud';
+  String get thisIsATestFromIbrahim => 'Översättning av Masod';
 
   @override
   String get home => 'Hem';
@@ -28,7 +28,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get appLang => 'Språk i appen';
 
   @override
-  String get descLang => 'Välj önskat språk ';
+  String get descLang => 'Välj språk ';
 
   @override
   String get hadithLangDesc => 'Detta åsidosätter ditt val i administratörskonsolen, du kan välja ett annat språk för skärmen';
@@ -89,19 +89,19 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
 
   @override
   String countdownPrayer(String name, String time) {
-    return 'Tid kvar till $name Salah $time';
+    return '$name Adhan om $time';
   }
 
   @override
   String countdownNonPrayer(String name, String time) {
-    return 'Tid kvar till $name $time';
+    return '$name  om $time';
   }
 
   @override
-  String get sec => 'Sek.';
+  String get sec => 'Sek ';
 
   @override
-  String get online => 'Online';
+  String get online => 'Ansluten ';
 
   @override
   String get missingMosqueId => 'MAWAQIT #ID eller MOSQUE #ID saknas';
@@ -118,7 +118,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get mawaqitWelcome => 'Välkommen till MAWAQIT';
 
   @override
-  String get mawaqitDesc => 'Hej, Tack för att du har valt MAWAQIT, världens första samt #1 smarta moskénätverk, som används av miljontals muslimer runt om världen i över 85 länder sedan 2016.\n\nVi ger dig den mest avancerade Smart moské Display, tillgängligh på flera enheter (mobil, smart klockor, TV-skärmar), utan att samla in eller dela dina personuppgifter.\n\nStöd gärna detta välsignade projekt här: https://donate.mawaqit.net\n\nVi är en ideell organisation och detta projekt (Dedikerad donation).\n\nDina donationer håller detta projekt tillgängligt för vem som helst, var som helst, helt GRATIS utan kostnad, utan reklam och utan månadsavgift.\n\nDetta projekt skulle inte vara möjligt utan Allahs hjälp som samlade en passionerad gemenskap av begåvade och passionerade volontärer som arbetar dag och natt för att ge dig bästa möjliga service och ett toppmodernt system som är tillgängligt 24/7.\n\nÖverväg att donera för att hålla detta välsignade projekt igång. Tack för ditt fortsatta förtroende och stöd.';
+  String get mawaqitDesc => 'Assalamu Alaikom, and Baraka\'Allah fikom Tack för att du har valt MAWAQIT, världens första samt #1 smarta moskénätverk, som används av miljontals muslimer runt om världen i över 85 länder sedan 2016.\n\nVi ger dig den mest avancerade Smart moské Display, tillgängligh på flera enheter (mobil, smart klockor, TV-skärmar), utan att samla in eller dela dina personuppgifter.\n\nStöd gärna detta välsignade projekt här: https://donate.mawaqit.net\n\nVi är en ideell organisation och detta projekt (Dedikerad donation).\n\nDina donationer håller detta projekt tillgängligt för vem som helst, var som helst, helt GRATIS utan kostnad, utan reklam och utan månadsavgift.\n\nDetta projekt skulle inte vara möjligt utan Allahs hjälp som samlade en passionerad gemenskap av begåvade och passionerade volontärer som arbetar dag och natt för att ge dig bästa möjliga service och ett toppmodernt system som är tillgängligt 24/7.\n\nÖverväg att donera för att hålla detta välsignade projekt igång. Tack för ditt fortsatta förtroende och stöd.';
 
   @override
   String get privacyPolicy => 'Integritetspolicy';
@@ -172,46 +172,46 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get mosqueNoResults => 'Inga resultat';
 
   @override
-  String get offline => 'Offline';
+  String get offline => 'Frånkopplad';
 
   @override
-  String get imsak => 'Fasta\n إمساك';
+  String get imsak => 'Imsak\nالْإِمْسَاك';
 
   @override
-  String get jumua => 'Fredagsbön\nصلاة الجمعة';
+  String get jumua => 'Fredagsbön \n  صَلَاةُ الْجُمُعَة';
 
   @override
-  String get duhr => 'Dhohr\nالظهر';
+  String get duhr => 'Dhohr\n الظُّهْر';
 
   @override
-  String get fajr => 'Fajr \nالفجر';
+  String get fajr => 'Fajr \nالْفَجْر';
 
   @override
-  String get asr => 'Asr\nالعصر';
+  String get asr => '  Asr\nالْعَصْر';
 
   @override
-  String get maghrib => 'Maghrib \nالمغرب';
+  String get maghrib => 'Maghrib \n  الْمَغْرِب';
 
   @override
-  String get isha => 'Isha\n العشاء';
+  String get isha => 'Isha\nالْعِشَاء';
 
   @override
-  String get afterAdhanHadithTitle => 'Dua efter Adhan \nدعاء بعد الأذان';
+  String get afterAdhanHadithTitle => '🤲Åkallan efter adhan🤲';
 
   @override
-  String get afterSalahHadith => 'اللهم رب هذه الدعوة التامة، والصلاة القائمة، آت محمدًا الوسيلة والفضيلة، وابعثه مقامًا محمودًا الذي وعدته\n\nO Allah, Rabb av denna fullkomliga kallelse (Da\'wah) och den upprättade bönen (As-Salat), ge Muhammad al- Wasilah och överlägsenhet, och upphöj honom till den prisvärda positionen som Du har lovat honom';
+  String get afterSalahHadith => 'O Allah, Rabb av denna fullkomliga kallelse (Da\'wah) och den upprättade bönen (As-Salat), ge Muhammad al- Wasilah och överlägsenhet, och upphöj honom till den prisvärda positionen som Du har lovat honom';
 
   @override
-  String get alIqama => 'Iqama \nإقامه';
+  String get alIqama => 'Iqama\n الْإِقَامَة';
 
   @override
-  String get alAdhan => 'Adhan \nأذان';
+  String get alAdhan => 'Adhan \n  الْأَذَان';
 
   @override
-  String get turnOfPhones => 'Vänligen respektera bönen och sätt era telefoner på TYST läge, må Allah belöna er.\nيرجى إحترام الصلاة و وضع الهاتف على الصامت و عدم التشويش على المصلين… جزاكم الله خيراً';
+  String get turnOfPhones => 'Vänligen RESPEKTERA bönen, sätt era mobiler på TYST läge och stör inte dem som ber. Må Allah belöna er.\nالرَّجَاءُ احْتِرَامُ الصَّلَاةِ، وَوَضْعُ هَوَاتِفِكُمْ عَلَى الْوَضْعِ الصَّامِتِ، وَعَدَمُ التَّشْوِيشِ عَلَى الْمُصَلِّينَ، جَزَاكُمُ اللَّهُ خَيْرًا.';
 
   @override
-  String get iqamaIn => 'Iqama om \nإقامة بعد';
+  String get iqamaIn => 'Iqama om \n  الْإِقَامَةُ بَعْد';
 
   @override
   String get perPrayerRollover => 'Byte av bönetider';
@@ -232,67 +232,67 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get duhaOffsetDesc => 'Minuter efter Shuruq när Duha-tiden börjar (10–30 min)';
 
   @override
-  String get alAthkar => 'Al-Athkar efter bönen\n الأذكار بعد الصلاة';
+  String get alAthkar => 'Åminnelser efter bönen';
 
   @override
-  String get azkarList0 => 'أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله.\nاللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام \nاللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ\n\nAstaghfiru Allah, Astaghfiru Allah, Astaghfiru Allah, Allahumma anta Assalam w minka Assalam, tabarakta ya dhal Jalali wal ikram Allahumma A`inni `ala dhikrika wa shukrika wa husni `ibadatik';
+  String get azkarList0 => '\"Jag ber Allah om förlåtelse (3 gånger). O Allah, Du är Freden (Källan till fred) och från Dig kommer freden. Välsignad är Du, O Ägaren av Majestät och Heder.O Allah, hjälp mig att minnas Dig, att tacka Dig och att tillbe Dig på bästa sätt.\"\n\n\n';
 
   @override
-  String get azkarList1 => 'Subhan Allah wal hamdu lillah wallahu akbar (33 gånger) La ilaha illa Allah, wahdahu la sharika lah, lahul mulku wa lahul hamdu, wa hua `ala kulli shay in kadir ( 100 gånger per dag)\n\nسبحان الله، والحمدلله، والله أكبر 33 مره. لا إِلَهَ إِلا اللهُ، وَحْدَهُ لا شَرِيكَ لَهُ، لَهُ المُلْكُ وَلَهُ الحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ 100 مره في اليوم';
+  String get azkarList1 => 'Allah är fri från brister (33 gånger). All lovprisning tillkommer Allah (33 gånger). Allah är störst (33 gånger) och sedan fullbordar den 100 gången med att säga: Det finns ingen sann gud utom Allah, han är den enda utan någon vid sin sida, honom tillhör herraväldet och honom tillhör all lovprisning, och han har makt över allt. efter varje obligatorisk bön.';
 
   @override
-  String get azkarList2 => 'بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\nقُلْ أَعُوذُ بِرَبِّ النَّاسِ\nمَلِكِ النَّاسِ\nإِلَٰهِ النَّاسِ\nمِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ\nالَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ\nمِنَ الْجِنَّةِ وَالنَّاسِ';
+  String get azkarList2 => '( I Allahs namn, den Nåderike, den Benådande)\n1.Säg: \"Jag tar skydd hos människornas Herre, \n2.Människornas Konung, 3.Människornas Gud,\n4.Mot ondskan hos den viskande smitaren,\n5.Han som viskar i människornas bröst,\n6.Bland (både) djinnerna och människorna,\"';
 
   @override
-  String get azkarList3 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul a`ūdhu birabbil-falaq. Min sharri mā khalaq. Wa min sharri ghāsiqin idhā waqab. Wa min sharrin-naffāthāti fil-`uqad. Wa min sharri ḥāsidin idhā ḥasad.\n\nبِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\nقُلْ أَعُوذُ بِرَبِّ الْفَلَقِ\nمِنْ شَرِّ مَا خَلَقَ\nوَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ\nوَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ\nوَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ';
+  String get azkarList3 => '( I Allahs namn, den Nåderike, den Benådande)\n1.Säg: \"Jag tar skydd hos dagbräckningens Herre, 2. Mot ondskan hos det Han skapat,\n3. Och mot ondskan hos den mörknande (natten) när den faller på, 4. Och mot ondskan hos de som blåser på knutar,\n5. Och mot ondskan hos den avundsamme när han avundas.\"\n';
 
   @override
-  String get azkarList4 => 'Bismillāhir-Raḥmānir-Raḥīm. Qul huwallāhu aḥad. Allāhuṣ-ṣamad. Lam yalid wa lam yūlad. Wa lam yakun lahu kufuwan aḥad.\n\nبِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n\nقُلْ هُوَ اللَّهُ أَحَدٌ\nاللَّهُ الصَّمَدُ\nلَمْ يَلِدْ وَلَمْ يُولَدْ\nوَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ';
+  String get azkarList4 => '( I Allahs namn, den Nåderike, den Benådande)\n1. Säg: \"Han är Allah, (och Han är) en.\n2. Allah är den Suveräne.\n3. Inte har Han avlat och inte heller är Han avlad,\n4. Och det finns ingen som är Honom lik.\"';
 
   @override
-  String get azkarList5 => 'بسم الله الرحمن الرحيم \n\nاللَّهُ لَا إِلٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لَا تَأْخُذُهُ سِنَةٌ وَلَا نَوْمٌ ۚ لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ ۗ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَئُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ\n\nمَنْ قَرَأَهَا دُبُرَ كُلِّ صَلَاةٍ لَمْ يَمْنَعْهُ مِنْ دُخُولِ الْجَنَّةِ إِلَّا أَنْ يَمُوتَ\nتُقْرَأُ آيَةُ الْكُرْسِيِّ عَقِبَ كُلِّ صَلَاةٍ مَفْرُوضَةٍ\nرَوَاهُ النَّسَائِيُّ فِي عَمَلِ الْيَوْمِ وَاللَّيْلَةِ بِرَقْمِ ١٠٠، وَابْنُ السُّنِّيِّ بِرَقْمِ ١٢١، وَصَحَّحَهُ الْأَلْبَانِيُّ فِي صَحِيحِ الْجَامِعِ ٥/٣٣٩ وَسِلْسِلَةِ الْأَحَادِيثِ الصَّحِيحَةِ ٢/٦٩٧ بِرَقْمِ ٩٧٢\n\nTranslitteration:\nAllāhu lā ilāha illā huwal-ḥayyul-qayyūm, lā ta’khudhuhu sinatun wa lā nawm, lahū mā fis-samāwāti wa mā fil-arḍ, man dhal-ladhī yashfaʿu ʿindahū illā bi’idhnih, yaʿlamu mā bayna aydīhim wa mā khalfahum, wa lā yuḥīṭūna bishay’in min ʿilmihī illā bimā shā’, wasiʿa kursiyyuhus-samāwāti wal-arḍ, wa lā ya’ūduhū ḥifẓuhumā wa huwal-ʿaliyyul-ʿaẓīm.\n\nDen som läser den efter varje obligatorisk bön hindras inte från att komma in i Paradiset annat än döden.\n\nBerättad av an-Nasā’ī i ʿAmal al-Yawm wa al-Laylah nr 100 och Ibn as-Sunnī nr 121. Autentiserad av al-Albānī i Ṣaḥīḥ al-Jāmiʿ 5/339 och Silsilat al-Aḥādīth aṣ-Ṣaḥīḥah 2/697 nr 972.';
+  String get azkarList5 => '( I Allahs namn, den Nåderike, den Benådande)\nAllah - ingen (sann) gud finns (ingen har rätt att dyrkas) utom Han, den Levande (al-Hayy) Vidmakthållaren (al-Qayyum). Han grips inte av slummer och inte heller av sömn. Honom tillhör allt som finns i himlarna och allt som finns på jorden. Vem är den som kan medla hos Honom utan Hans tillåtelse? Han vet allt som finns framför dem och allt som finns bakom dem. De kan inte omfatta något av Hans kunskap utom det Han vill. Hans kursi (fotpall) omsluter himlarna och jorden, och det tynger Honom inte att bevara dem. Han är den Höge (al-Ali), den Väldige (al-Azim).\nDen som läser detta vers efter varje obligatorisk bön hindras inte från att komma in i Paradiset annat än döden.';
 
   @override
-  String get azkarList6 => 'La ilaha illa Allah, wahdahu la charika lahu, lahu elmulku wa lahu elhamdu, wa hua `ala koulli chayin kadir, Allahumma la mani`a lima a`atayte, wa la mu`atia lima `ate, wa la yanefa`u dhal djaddi mineka eldjad\n\nلا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير. اللهم لا مانع لما أعطيت، ولا معطي لما منعت، ولا ينفع ذا الجد منك الجد';
+  String get azkarList6 => '\"Det finns ingen annan gud värd att dyrkas utom Allah, Den Ene utan partner. Till Honom hör herraväldet och till Honom hör lovprisen, och Han har makt över allting. O Allah, ingen kan hålla tillbaka det Du ger, och ingen kan ge det Du håller tillbaka, och ingen rikedom eller storhet kan hjälpa ägaren av den mot Dig.\"';
 
   @override
-  String get azkarList7 => 'اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَٰهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَىٰ عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ.\n\nAllāhumma anta Rabbī lā ilāha illā ant, khalaqtanī wa anā ʿabduk, wa anā ʿalā ʿahdika wa waʿdika mastaṭaʿt, aʿūdhu bika min sharri mā ṣanaʿt, abū’u laka biniʿmatika ʿalayya, wa abū’u bidhanbī faghfir lī fa’innahu lā yaghfirudh-dhunūba illā ant.';
+  String get azkarList7 => '\"O Allah, Du är min Herre. Det finns ingen gud utom Du. Du har skapat mig och jag är Din tjänare, och jag håller fast vid mitt förbund och min lära till den bästa av min förmåga. Jag söker skydd hos Dig från det onda jag har gjort. Jag erkänner de välsignelser Du har gett mig, och jag erkänner mina synder. Förlåt mig, för ingen förlåter synder utom Du.\"';
 
   @override
-  String get azkarList8 => 'أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ.\n\nرَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذَا الْيَوْمِ وَخَيْرَ مَا بَعْدَهُ، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذَا الْيَوْمِ وَشَرِّ مَا بَعْدَهُ.\n\nرَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ، رَبِّ أَعُوذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ.\n\nAṣbaḥnā wa aṣbaḥal-mulku lillāh, walḥamdu lillāh, lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa ʿalā kulli shay’in qadīr.\n\nRabbi as’aluka khayra mā fī hādhal-yawmi wa khayra mā baʿdah, wa aʿūdhu bika min sharri mā fī hādhal-yawmi wa sharri mā baʿdah.\n\nRabbi aʿūdhu bika minal-kasali wa sū’il-kibar, Rabbi aʿūdhu bika min ʿadhābin fin-nāri wa ʿadhābin fil-qabr.';
+  String get azkarList8 => '\"Vi har gått in i morgonen och med det tillhör allt herravälde Allah, och all lovprisning tillhör Allah...\"\n \"Det finns ingen gud utom Allah, Den Ene, som inte har någon partner. Hans är herravälde och Hans är lovprisning, och Han har makt över allting. \"O Allah, jag ber Dig om det goda som finns i denna dag och det goda som kommer efter den, och jag söker skydd hos Dig från det onda som finns i denna dag och det onda som kommer efter den. \n \"O Allah, jag söker skydd hos Dig från lättja och ålderdomssvaghet (senilitet). Min Herre, jag söker skydd hos Dig från straffet i Elden och straffet i graven.';
 
   @override
-  String get azkarList9 => 'اللَّهُمَّ إِنِّي أَصْبَحْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلَائِكَتَكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللَّهُ لَا إِلَٰهَ إِلَّا أَنْتَ، وَحْدَكَ لَا شَرِيكَ لَكَ، وَأَنَّ مُحَمَّدًا عَبْدُكَ وَرَسُولُكَ.\n\n(أَرْبَعَ مَرَّاتٍ)\n\nوَإِذَا أَمْسَى قَالَ:\n\nاللَّهُمَّ إِنِّي أَمْسَيْتُ\n\n\nAllāhumma innī aṣbaḥtu ush-hiduka wa ush-hidu ḥamalata ʿarshik, wa malā’ikataka wa jamīʿa khalqik, annaka antallāhu lā ilāha illā ant, waḥdaka lā sharīka lak, wa anna Muḥammadan ʿabduka wa rasūluk.\n\nSäg det 4 gånger \n';
+  String get azkarList9 => '\"O Allah, jag har nått morgonen och jag tar Dig som vittne, och jag tar bärarna av Din tron, Dina änglar och hela Din skapelse som vittne, om att Du är Allah, det finns ingen gud utom Du, Du är Ensam utan partner, och att Muhammed är Din tjänare och Ditt sändebud.\" (säg det 4 gånger)\n';
 
   @override
-  String get azkarList10 => 'اللَّهُمَّ عَافِنِي فِي بَدَنِي، اللَّهُمَّ عَافِنِي فِي سَمْعِي، اللَّهُمَّ \n\nعَافِنِي فِي بَصَرِي، لَا إِلَٰهَ إِلَّا أَنْتَ\n\nاللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْكُفْرِ، وَالْفَقْرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ \n\nالْقَبْرِ، لَا إِلَٰهَ إِلَّا أَنْتَ\n\n(ثَلَاثَ مَرَّاتٍ)\n\n\nAllāhumma ʿāfinī fī badanī, Allāhumma ʿāfinī fī samʿī, Allāhumma ʿāfinī fī baṣarī, lā ilāha illā ant.\n\nAllāhumma innī aʿūdhu bika mina l-kufri wal-faqr, wa aʿūdhu bika min ʿadhābil-qabr, lā ilāha illā ant.\n\nSäg det 3 gånger ';
+  String get azkarList10 => ' \"O Allah, ge min kropp hälsa. O Allah, ge min hörsel hälsa. O Allah, ge min syn hälsa. Det finns ingen gud utom Du. O Allah, jag söker skydd hos Dig från otro (kufr) och fattigdom (faqr), och jag söker skydd hos Dig från gravens straff. Det finns ingen gud utom Du.\" (säg det 3 gånger)';
 
   @override
-  String get azkarList11 => 'حَسْبِيَ اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ، عَلَيْهِ تَوَكَّلْتُ، وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ.\n\n(سَبْعَ مَرَّاتٍ)\n\nḤasbiyallāhu lā ilāha illā huwa, ʿalayhi tawakkalt, wa huwa Rabbul-ʿArshil-ʿAẓīm.\n\nSäg det 7 gånger ';
+  String get azkarList11 => '\"Mig räcker Allah! Det finns ingen gud utom Han; till Han lägger jag min tillit och Han är den Mäktiga Tronens Herre.\"\n(Säg det 7 gånger)';
 
   @override
-  String get azkarList12 => 'رَضِيتُ بِاللَّهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ ﷺ نَبِيًّا.\n\n(ثَلَاثَ مَرَّاتٍ)\n\nRaḍītu billāhi Rabba, wa bil-Islāmi dīna, wa bi-Muḥammadin ﷺ nabiyya.\n \nSäg det 3 gånger ';
+  String get azkarList12 => '\"Jag är nöjd med Allah som [min] Herre, med islam som [min] religion och med Muhammed (må Allahs frid och välsignelser vara över honom) som [mitt] sändebud [eller profet].\" Säg det 3 gånger varje morgon och kväll.';
 
   @override
-  String get azkarList13 => 'لَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، يُحْيِي وَيُمِيتُ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ.\n\n(عَشْرَ مَرَّاتٍ)\n\nLā ilāha illallāh waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, yuḥyī wa yumīt, wa huwa ʿalā kulli shay’in qadīr.\n\nSäg det 10 gånger ';
+  String get azkarList13 => '\"Det finns ingen gud utom Allah, Ensam utan partner. Honom tillhör allt herravälde och Honom tillhör all lovprisning. Han ger liv och Han skänker död, och Han har makt över allt.\" Säg det 10 gånger  på morgonen och kvällen';
 
   @override
-  String get azkarList14 => 'أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، وَلَا إِلَٰهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ.\n\nرَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذِهِ اللَّيْلَةِ، وَخَيْرَ مَا بَعْدَهَا، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذِهِ اللَّيْلَةِ، وَشَرِّ مَا بَعْدَهَا.\n\nرَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ، وَسُوءِ الْكِبَرِ، وَأَعُوذُ بِكَ مِنْ عَذَابِ النَّارِ، وَعَذَابِ الْقَبْرِ.\n\nAmsaynā wa amsal-mulku lillāh, walḥamdulillāh, wa lā ilāha illallāhu waḥdahu lā sharīka lah, lahul-mulku wa lahul-ḥamd, wa huwa ʿalā kulli shay’in qadīr.\n\nRabbi as’aluka khayra mā fī hādhihil-laylah, wa khayra mā baʿdahā, wa aʿūdhu bika min sharri mā fī hādhihil-laylah, wa sharri mā baʿdahā.\n\nRabbi aʿūdhu bika minal-kasal, wa sū’il-kibar, wa aʿūdhu bika min ʿadhābin-nār, wa ʿadhābil-qabr.';
+  String get azkarList14 => '\"Vi har nått kvällen och allt herravälde tillhör Allah. All lovprisning tillhör Allah. Det finns ingen gud utom Allah, Ensam utan partner. Honom tillhör allt herravälde och Honom tillhör all lovprisning, och Han har makt över allt. Min Herre, jag ber Dig om det goda som finns i denna natt och det goda som kommer efter den, och jag söker skydd hos Dig från det onda i denna natt och det onda som kommer efter den. Min Herre, jag söker skydd hos Dig från lättja och ålderdomens svagheter, och jag söker skydd hos Dig från eldens straff och gravens straff.\"  säg det 1 gång varje kväll';
 
   @override
-  String get jumuaaScreenTitle => 'Fredagsbönen börjar nu ';
+  String get jumuaaScreenTitle => 'Fredagsbönen börjar nu \n  حَانَ الْآنَ مَوْعِدُ صَلَاةِ الْجُمُعَة';
 
   @override
-  String get jumuaaHadith => 'Profeten ﷺ sade: Den som gör sin Tvagning väl och går till fredagsbönen lyssnar och är tyst får Förlåtelse För synderna mellan denna fredag och nästa fredag samt ytterligare tre dagar. Den som rör vid småsten har gjort något meningslös\n\nقال رسولُ اللهِ ﷺ مَن تَوضَّأ فأحسَنَ الوُضوءَ، ثُمَّ أتى الجُمُعةَ، فاستَمع وأنصَتَ، غُفِرَ له ما بينَه وبينَ الجُمُعةِ، وزيادةُ ثَلاثةِ أيَّامٍ، ومَن مَسَّ الحَصى فقد لَغا';
+  String get jumuaaHadith => 'Profeten ﷺ sade: Den som gör sin Tvagning väl och går till fredagsbönen lyssnar och är tyst får Förlåtelse För synderna mellan denna fredag och nästa fredag samt ytterligare tre dagar. Den som rör vid småsten har gjort något meningslös.';
 
   @override
-  String get shuruk => 'Soluppgång \nشروق';
+  String get shuruk => 'Soluppgång \n     الشُّرُوق';
 
   @override
-  String get duha => 'Dua';
+  String get duha => 'Åkallan';
 
   @override
-  String get duhaTime => 'Dua tid';
+  String get duhaTime => 'Dags för åkallan';
 
   @override
   String get reset => 'Återställ';
@@ -346,13 +346,13 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get dhuAlhijjah => 'Dhul-Hijja';
 
   @override
-  String get duaaBetweenSalahAndAdhan => 'Berättat av Anas ibn Malik \"må Allah vara nöjd med honom sa att Allahs budbärare Muhammad ﷺ sade: \"duaa\" avvisas inte mellan adhan och iqama.\n\nعن أنس بن مالك رضي الله عنه، قال رسول الله ﷺ: \"الدعاء لا يُرد بين الأذان والإقامة';
+  String get duaaBetweenSalahAndAdhan => 'Berättat av Anas ibn Malik \"må Allah vara nöjd med honom sa att Allahs budbärare Muhammad ﷺ sade: \"duaa\" Åkallan  avvisas inte mellan adhan och iqama.\n';
 
   @override
-  String get salatKhayrMinaNawm => 'Assalatu khayrun min al nawm';
+  String get salatKhayrMinaNawm => 'Assalatu khayrun min al nawm\n   Bönen är bättre än sömnen';
 
   @override
-  String get salatElEid => 'Eid-Bönen \nصلاة العيد';
+  String get salatElEid => 'Eid-Bönen \n  صَلَاةُ الْعِيد';
 
   @override
   String get webView => 'Aktivera äldre läge';
@@ -376,10 +376,10 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get afterAdhanHadith => 'Hadith efter adhan';
 
   @override
-  String get afterSalahAzkar => 'Athkar efter bön';
+  String get afterSalahAzkar => 'Åminnelse efter bön';
 
   @override
-  String get iqama => 'Iqama الإِقَامَة';
+  String get iqama => 'Iqama  الإِقَامَة';
 
   @override
   String get randomHadith => 'Slumpmässig Hadith';
@@ -430,7 +430,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get secondaryScreen => 'Sekundär skärm';
 
   @override
-  String get duaaElEftar => 'Dua El -Iftar\nدعاء الإفطار';
+  String get duaaElEftar => '🤲Iftar åkallan🤲\n       دُعَاءُ الْإِفْطَار';
 
   @override
   String get announcementOnlyMode => 'Meddelande läge ';
@@ -442,7 +442,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get announcementOnlyModeEXPLINATION => 'Välj om skärmen ska visa meddelanden hela tiden, detta kan vara användbart om du installerar skärmen vid ingången till exempel.';
 
   @override
-  String get duaaElEftarText => 'اللهم إني لك صمت وبك آمنت وعليك توكلت وعلى رزقك أفطرت. ذهب الظمأ وابتلت العروق وثبت الأجر إن شاء الله\n“O Allah, jag fastade för Din skull, jag tror på Dig, jag förlitar mig på Dig, och med Din försörjning bryter jag min fasta.\nTörsten är borta, ådrorna har blivit fuktade och belöningen är fastställd, om Allah vill.”';
+  String get duaaElEftarText => '“O Allah, jag fastade för Din skull, jag tror på Dig, jag förlitar mig på Dig, och med Din försörjning bryter jag min fasta.\nTörsten är borta, ådrorna har blivit fuktade och belöningen är fastställd, om Allah vill.”\n';
 
   @override
   String get secondaryScreenExplanation => 'För sekundärt bönerum (t. ex. ett kvinnorum eller en annan våning) visas Fredagsbön live-sändning på denna skärm';
@@ -481,10 +481,10 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get landscapeBTNDescription => 'För horisontell orientering. Huvudlayouten för Mawaqit tv app och rekommenderas en för de flesta moskéer';
 
   @override
-  String get eidMubarak => 'Eid Mubarak- Må Allah acceptera våra goda gärningar.\n\nعيد مبارك تقبل الله منا ومنكم صالح الأعمال \n';
+  String get eidMubarak => '                      🌙 Eid Mubarak🌙\n     Må Allah acceptera era goda gärningar.\n                                 عِيدٌ مُبَارَكٌ\n                     تَقَبَّلَ اللَّهُ مِنْكُمْ صَالِحَ الْأَعْمَالِ\n';
 
   @override
-  String get takbeerAleidText => 'الله أكبر، الله أكبر، الله أكبر، لا إله إلا الله، الله أكبر، الله أكبر، ولله الحمد، الله أكبر كبيرًا، والحمد لله كثيرًا، وسبحان الله بكرة وأصيلا، لا إله إلا الله وحده، صدق وعده، ونصر عبده، وأعز جنده، وهزم الأحزاب وحده، لا إله إلا الله، ولا نعبد إلا إيَّاه، مخلصين له الدين ولو كره الكافرون، اللهم صل على سيدنا محمد، وعلى آل سيدنا محمد، وعلى أصحاب سيدنا محمد، وعلى أنصار سيدنا محمد، وعلى أزواج سيدنا محمد، وعلى ذرية سيدنا محمد وسلم تسليمًا كثيرًا\nAllahu akbar, Allahu akbar, Allahu akbar, la ilaha illa Allah, Allahu akbar, Allahu akbar, wa lillahi al-hamd. Allahu akbar kabira, walhamdu lillahi kathira, wa subhanAllahi bukratan wa asila. La ilaha illa Allah wahdah, sadaqa wa’dah, wa nasara abdah, wa a’azza jundah, wa hazama al-ahzab wahdah. La ilaha illa Allah, wa la na’budu illa iyyah,\nmukhlisina lahud-din wa law karihal kafirun.\nAllahumma salli ala sayyidina Muhammad,\nwa ala aali sayyidina Muhammad,\nwa ala ashabi sayyidina Muhammad,\nwa ala ansari sayyidina Muhammad,\nwa ala azwaji sayyidina Muhammad,\nwa ala dhurriyyati sayyidina Muhammad,\nwa sallim tasliman kathira';
+  String get takbeerAleidText => 'Allahu akbar, Allahu akbar, Allahu akbar, la ilaha illa Allah, Allahu akbar, Allahu akbar, wa lillahi al-hamd. Allahu akbar kabira, walhamdu lillahi kathira, wa subhanAllahi bukratan wa asila. La ilaha illa Allah wahdah, sadaqa wa’dah, wa nasara abdah, wa a’azza jundah, wa hazama al-ahzab wahdah. La ilaha illa Allah, wa la na’budu illa iyyah,\nmukhlisina lahud-din wa law karihal kafirun.\nAllahumma salli ala sayyidina Muhammad,\nwa ala aali sayyidina Muhammad,\nwa ala ashabi sayyidina Muhammad';
 
   @override
   String get settings => 'Inställningar';
@@ -508,7 +508,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get recommended => 'Rekommenderad';
 
   @override
-  String get sabah => 'Fajr bönen ';
+  String get sabah => 'Fajr \nالْفَجْر\n';
 
   @override
   String get randomHadithLanguage => 'Slumpmässigt hadith språk';
@@ -619,7 +619,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get descTimezone => 'Välj din tidszon för att få korrekta bönetider.';
 
   @override
-  String get appWifi => 'Anslut till wifi';
+  String get appWifi => 'Koppla till wifi';
 
   @override
   String get descWifi => 'Vänligen anslut till ditt önskade wifi';
@@ -649,7 +649,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get close => 'Stäng';
 
   @override
-  String get search => 'Sök på';
+  String get search => 'Sök';
 
   @override
   String get wifiSuccess => 'Lyckad anslutning till Wifi.';
@@ -715,7 +715,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get powerOffScreen => 'Stäng av skärmen';
 
   @override
-  String get deviceSettings => 'Enhetens inställningar';
+  String get deviceSettings => 'Enhet';
 
   @override
   String get later => 'Senare';
@@ -904,7 +904,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get validRtspUrl => 'URL validerad och sparad.';
 
   @override
-  String get rtspCameraSettingTitle => 'Anslutning till Live kamera';
+  String get rtspCameraSettingTitle => 'Live kamera';
 
   @override
   String get rtspCameraSettingDesc => 'Anslut till din lokala kamera och visa Fredagsbönen på TV-skärmen.';
@@ -944,13 +944,13 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   }
 
   @override
-  String get ishaAndFajrOnly => 'Fajr och Isha böner endast';
+  String get ishaAndFajrOnly => 'Endast Fajr och Isha böner ';
 
   @override
-  String get minutesBeforeFajrPrayer => 'minuter före Fajr bön tid';
+  String get minutesBeforeFajrPrayer => 'minuter före Fajr bönens tid';
 
   @override
-  String get minutesAfterIshaPrayer => 'minuter på avstånd Isha bön tid';
+  String get minutesAfterIshaPrayer => 'minuter efter Isha bönens tid';
 
   @override
   String get scheduleSaved => 'Ditt schema har sparats.';
@@ -986,7 +986,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get randomSurahSelection => 'Slumpmässig Sura-val';
 
   @override
-  String get selectSurah => 'Välj en Sura';
+  String get selectSurah => 'Välj sura';
 
   @override
   String get initializingAutoReading => 'Initiering pågår...';
@@ -1003,10 +1003,10 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get scheduleInOnlineMode => 'Vänligen anslut till internet för att schemalägga Koran lyssnaren ';
 
   @override
-  String get duaaBetweenAdhanAndIqamaaTitle => 'عن أنس بن مالك رضي الله عنه قال: قال رسول الله ﷺ\nالدُّعاءُ لا يُرَدُّ بينَ الأذانِ والإقامةِ\n\nÅkallelse (Du\'a) avvisas inte mellan Adhan och Iqama';
+  String get duaaBetweenAdhanAndIqamaaTitle => '';
 
   @override
-  String get duaBetweenAdhanIqamah => 'عن أنس بن مالك رضي الله عنه قال: قال رسول الله ﷺ\nالدُّعاءُ لا يُرَدُّ بينَ الأذانِ والإقامةِ\n\nÅkallelse (Du\'a) avvisas inte mellan Adhan och Iqama.';
+  String get duaBetweenAdhanIqamah => 'Berättat av Anas ibn Malik \"må Allah vara nöjd med honom sa att Allahs budbärare Muhammad ﷺ sade: \"duaa\" avvisas inte mellan adhan och iqama.';
 
   @override
   String get processingRequest => 'Bearbetar förfrågan...';
@@ -1015,7 +1015,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get loadingStream => 'Laddar stream...';
 
   @override
-  String get rtspUrlHint => 'Ange RTSP-URL eller YouTube-länk';
+  String get rtspUrlHint => 'Ange RTSP URL eller YouTube-länk';
 
   @override
   String get urlManagedByMosqueAdmin => 'URL som hanteras av moskéadministratör';
@@ -1024,7 +1024,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get replaceWorkflowWithStream => 'Visa kameraströmmen automatiskt';
 
   @override
-  String get replaceAppWorkflowWithCameraStream => 'Skärmen kommer automatiskt att visa kameraströmmen så snart kameran startar inspelningen; om det stannar, skärmen återgår till bönen gånger visas';
+  String get replaceAppWorkflowWithCameraStream => 'Skärmen kommer automatiskt att visa kameraströmmen så snart kameran startar inspelningen; om det stannar, skärmen återgår till bönetider ';
 
   @override
   String get streamMode => 'Live sändnings läge ';
@@ -1048,7 +1048,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get streamSecondaryScreenStep1 => 'Gå till Skärm.';
 
   @override
-  String get streamSecondaryScreenStep2 => 'Öppna \"Standardstartläge\".';
+  String get streamSecondaryScreenStep2 => 'Öppna \"Standard startläge';
 
   @override
   String get streamSecondaryScreenStep3 => 'Välj \"Sekundär skärm\".';
@@ -1078,7 +1078,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get prayerTimeNotificationTitle => 'Bönens Tidsmeddelanden';
 
   @override
-  String get prayerTimeNotificationDesc => 'Få adhan i bönetider, även när appen är stängd';
+  String get prayerTimeNotificationDesc => 'Få adhan, även när appen är stängd';
 
   @override
   String get enablePrayerReminders => 'Aktivera Bönpåminnelser';
@@ -1129,7 +1129,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get timezone => 'Tidszon';
 
   @override
-  String get wifi => 'WiFi';
+  String get wifi => 'WIFI ';
 
   @override
   String get tutorialGetStarted => 'Kom igång i 4 enkla steg';
@@ -1195,4 +1195,10 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
 
   @override
   String get crowdinSyncCheck => 'Bönetider visas för din moské';
+
+  @override
+  String get wrongDeviceClock => 'The date and time of this TV are wrong, so it cannot sync with the back office. Enable automatic date and time in the TV settings.';
+
+  @override
+  String get wrongDeviceClockTitle => 'Wrong date and time';
 }

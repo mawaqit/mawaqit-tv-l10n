@@ -1195,4 +1195,10 @@ class MawaqitTvLocalizationsMk extends MawaqitTvLocalizations {
 
   @override
   String get crowdinSyncCheck => 'Времената за молитва се прикажани за вашата џамија';
+
+  @override
+  String get wrongDeviceClock => 'The date and time of this TV are wrong, so it cannot sync with the back office. Enable automatic date and time in the TV settings.';
+
+  @override
+  String get wrongDeviceClockTitle => 'Wrong date and time';
 }

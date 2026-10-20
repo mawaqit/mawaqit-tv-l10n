@@ -690,5 +690,13 @@
   "crowdinSyncCheck": "Prayer times are shown for your mosque",
   "@crowdinSyncCheck": {
     "description": "Test string for the Crowdin sync pipeline. Not used in the app; safe to remove."
+  },
+  "wrongDeviceClock": "The date and time of this TV are wrong, so it cannot sync with the back office. Enable automatic date and time in the TV settings.",
+  "@wrongDeviceClock": {
+    "description": "Banner shown when HTTPS fails because the device date/time is wrong"
+  },
+  "wrongDeviceClockTitle": "Wrong date and time",
+  "@wrongDeviceClockTitle": {
+    "description": "Title of the full screen error shown when the device date/time is wrong"
   }
 }

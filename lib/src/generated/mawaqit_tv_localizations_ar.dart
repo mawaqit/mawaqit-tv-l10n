@@ -1195,4 +1195,10 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
 
   @override
   String get crowdinSyncCheck => 'يتم عرض أوقات الصلاة لمسجدك';
+
+  @override
+  String get wrongDeviceClock => 'تاريخ ووقت هذا التلفاز غير صحيحين، لذلك لا يمكنه المزامنة مع لوحة التحكم. فعّل التاريخ والوقت التلقائيين في إعدادات التلفاز.';
+
+  @override
+  String get wrongDeviceClockTitle => 'التاريخ والوقت غير صحيحين';
 }

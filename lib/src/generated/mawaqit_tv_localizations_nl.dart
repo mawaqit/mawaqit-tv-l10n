@@ -313,7 +313,7 @@ class MawaqitTvLocalizationsNl extends MawaqitTvLocalizations {
   String get muharram => 'Muharram';
 
   @override
-  String get safar => 'Veilig';
+  String get safar => 'Safar';
 
   @override
   String get rabiAlawwal => 'Rabi\' al-Awwal';
@@ -1195,4 +1195,10 @@ class MawaqitTvLocalizationsNl extends MawaqitTvLocalizations {
 
   @override
   String get crowdinSyncCheck => 'Gebedstijden worden getoond voor uw moskee';
+
+  @override
+  String get wrongDeviceClock => 'The date and time of this TV are wrong, so it cannot sync with the back office. Enable automatic date and time in the TV settings.';
+
+  @override
+  String get wrongDeviceClockTitle => 'Wrong date and time';
 }
