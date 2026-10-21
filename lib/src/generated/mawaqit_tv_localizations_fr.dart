@@ -1195,4 +1195,10 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
 
   @override
   String get crowdinSyncCheck => 'Les horaires de prière sont affichés pour votre mosquée';
+
+  @override
+  String get wrongDeviceClock => 'La date et l\'heure de cette TV sont incorrectes, elle ne peut donc pas se synchroniser avec le back office. Activez la date et l\'heure automatiques dans les paramètres de la TV.';
+
+  @override
+  String get wrongDeviceClockTitle => 'Date et heure incorrectes';
 }

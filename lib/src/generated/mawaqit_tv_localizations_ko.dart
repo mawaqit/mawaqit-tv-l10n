@@ -1195,4 +1195,10 @@ class MawaqitTvLocalizationsKo extends MawaqitTvLocalizations {
 
   @override
   String get crowdinSyncCheck => '기도 시간이 귀하의 마스지드에 표시됩니다';
+
+  @override
+  String get wrongDeviceClock => 'The date and time of this TV are wrong, so it cannot sync with the back office. Enable automatic date and time in the TV settings.';
+
+  @override
+  String get wrongDeviceClockTitle => 'Wrong date and time';
 }
