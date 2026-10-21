@@ -175,43 +175,43 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get offline => 'Frånkopplad';
 
   @override
-  String get imsak => 'Imsak\nالْإِمْسَاك';
+  String get imsak => 'Imsak';
 
   @override
-  String get jumua => 'Fredagsbön \n  صَلَاةُ الْجُمُعَة';
+  String get jumua => 'Fredagsbön';
 
   @override
-  String get duhr => 'Dhohr\n الظُّهْر';
+  String get duhr => 'Dhohr';
 
   @override
-  String get fajr => 'Fajr \nالْفَجْر';
+  String get fajr => 'Fajr';
 
   @override
-  String get asr => '  Asr\nالْعَصْر';
+  String get asr => 'Asr';
 
   @override
-  String get maghrib => 'Maghrib \n  الْمَغْرِب';
+  String get maghrib => 'Maghrib';
 
   @override
-  String get isha => 'Isha\nالْعِشَاء';
+  String get isha => 'Isha';
 
   @override
-  String get afterAdhanHadithTitle => '🤲Åkallan efter adhan🤲';
+  String get afterAdhanHadithTitle => 'Åkallan efter adhan';
 
   @override
   String get afterSalahHadith => 'O Allah, Rabb av denna fullkomliga kallelse (Da\'wah) och den upprättade bönen (As-Salat), ge Muhammad al- Wasilah och överlägsenhet, och upphöj honom till den prisvärda positionen som Du har lovat honom';
 
   @override
-  String get alIqama => 'Iqama\n الْإِقَامَة';
+  String get alIqama => 'Iqama';
 
   @override
-  String get alAdhan => 'Adhan \n  الْأَذَان';
+  String get alAdhan => 'Adhan';
 
   @override
-  String get turnOfPhones => 'Vänligen RESPEKTERA bönen, sätt era mobiler på TYST läge och stör inte dem som ber. Må Allah belöna er.\nالرَّجَاءُ احْتِرَامُ الصَّلَاةِ، وَوَضْعُ هَوَاتِفِكُمْ عَلَى الْوَضْعِ الصَّامِتِ، وَعَدَمُ التَّشْوِيشِ عَلَى الْمُصَلِّينَ، جَزَاكُمُ اللَّهُ خَيْرًا.';
+  String get turnOfPhones => 'Vänligen RESPEKTERA bönen, sätt era mobiler på TYST läge och stör inte dem som ber. Må Allah belöna er.';
 
   @override
-  String get iqamaIn => 'Iqama om \n  الْإِقَامَةُ بَعْد';
+  String get iqamaIn => 'Iqama om';
 
   @override
   String get perPrayerRollover => 'Byte av bönetider';
@@ -280,13 +280,13 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get azkarList14 => '\"Vi har nått kvällen och allt herravälde tillhör Allah. All lovprisning tillhör Allah. Det finns ingen gud utom Allah, Ensam utan partner. Honom tillhör allt herravälde och Honom tillhör all lovprisning, och Han har makt över allt. Min Herre, jag ber Dig om det goda som finns i denna natt och det goda som kommer efter den, och jag söker skydd hos Dig från det onda i denna natt och det onda som kommer efter den. Min Herre, jag söker skydd hos Dig från lättja och ålderdomens svagheter, och jag söker skydd hos Dig från eldens straff och gravens straff.\"  säg det 1 gång varje kväll';
 
   @override
-  String get jumuaaScreenTitle => 'Fredagsbönen börjar nu \n  حَانَ الْآنَ مَوْعِدُ صَلَاةِ الْجُمُعَة';
+  String get jumuaaScreenTitle => 'Fredagsbönen börjar nu';
 
   @override
   String get jumuaaHadith => 'Profeten ﷺ sade: Den som gör sin Tvagning väl och går till fredagsbönen lyssnar och är tyst får Förlåtelse För synderna mellan denna fredag och nästa fredag samt ytterligare tre dagar. Den som rör vid småsten har gjort något meningslös.';
 
   @override
-  String get shuruk => 'Soluppgång \n     الشُّرُوق';
+  String get shuruk => 'Soluppgång';
 
   @override
   String get duha => 'Åkallan';
@@ -352,7 +352,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get salatKhayrMinaNawm => 'Assalatu khayrun min al nawm\n   Bönen är bättre än sömnen';
 
   @override
-  String get salatElEid => 'Eid-Bönen \n  صَلَاةُ الْعِيد';
+  String get salatElEid => 'Eid-Bönen';
 
   @override
   String get webView => 'Aktivera äldre läge';
@@ -379,7 +379,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get afterSalahAzkar => 'Åminnelse efter bön';
 
   @override
-  String get iqama => 'Iqama  الإِقَامَة';
+  String get iqama => 'Iqama';
 
   @override
   String get randomHadith => 'Slumpmässig Hadith';
@@ -430,7 +430,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get secondaryScreen => 'Sekundär skärm';
 
   @override
-  String get duaaElEftar => '🤲Iftar åkallan🤲\n       دُعَاءُ الْإِفْطَار';
+  String get duaaElEftar => 'Iftar åkallan';
 
   @override
   String get announcementOnlyMode => 'Meddelande läge ';
@@ -481,7 +481,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get landscapeBTNDescription => 'För horisontell orientering. Huvudlayouten för Mawaqit tv app och rekommenderas en för de flesta moskéer';
 
   @override
-  String get eidMubarak => '                      🌙 Eid Mubarak🌙\n     Må Allah acceptera era goda gärningar.\n                                 عِيدٌ مُبَارَكٌ\n                     تَقَبَّلَ اللَّهُ مِنْكُمْ صَالِحَ الْأَعْمَالِ\n';
+  String get eidMubarak => 'Eid Mubarak\nMå Allah acceptera era goda gärningar.';
 
   @override
   String get takbeerAleidText => 'Allahu akbar, Allahu akbar, Allahu akbar, la ilaha illa Allah, Allahu akbar, Allahu akbar, wa lillahi al-hamd. Allahu akbar kabira, walhamdu lillahi kathira, wa subhanAllahi bukratan wa asila. La ilaha illa Allah wahdah, sadaqa wa’dah, wa nasara abdah, wa a’azza jundah, wa hazama al-ahzab wahdah. La ilaha illa Allah, wa la na’budu illa iyyah,\nmukhlisina lahud-din wa law karihal kafirun.\nAllahumma salli ala sayyidina Muhammad,\nwa ala aali sayyidina Muhammad,\nwa ala ashabi sayyidina Muhammad';
@@ -508,7 +508,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get recommended => 'Rekommenderad';
 
   @override
-  String get sabah => 'Fajr \nالْفَجْر\n';
+  String get sabah => 'Fajr';
 
   @override
   String get randomHadithLanguage => 'Slumpmässigt hadith språk';
@@ -1003,7 +1003,7 @@ class MawaqitTvLocalizationsSv extends MawaqitTvLocalizations {
   String get scheduleInOnlineMode => 'Vänligen anslut till internet för att schemalägga Koran lyssnaren ';
 
   @override
-  String get duaaBetweenAdhanAndIqamaaTitle => '';
+  String get duaaBetweenAdhanAndIqamaaTitle => 'Åkallan (Du\'a) avvisas inte mellan adhan och iqama';
 
   @override
   String get duaBetweenAdhanIqamah => 'Berättat av Anas ibn Malik \"må Allah vara nöjd med honom sa att Allahs budbärare Muhammad ﷺ sade: \"duaa\" avvisas inte mellan adhan och iqama.';
