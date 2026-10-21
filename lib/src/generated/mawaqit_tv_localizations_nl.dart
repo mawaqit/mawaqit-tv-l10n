@@ -313,7 +313,7 @@ class MawaqitTvLocalizationsNl extends MawaqitTvLocalizations {
   String get muharram => 'Muharram';
 
   @override
-  String get safar => 'Veilig';
+  String get safar => 'Safar';
 
   @override
   String get rabiAlawwal => 'Rabi\' al-Awwal';
