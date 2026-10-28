@@ -235,10 +235,10 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get alAthkar => 'Al-Athkar';
 
   @override
-  String get azkarList0 => 'Key: AlAthkar_0\n-> AlAthkar_0\nأَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله \\nاللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ';
+  String get azkarList0 => '';
 
   @override
-  String get azkarList1 => 'Key: AlAthkar_0\n-> AlAthkar_0\nأَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله \\nاللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ';
+  String get azkarList1 => '';
 
   @override
   String get azkarList2 => '';
@@ -253,7 +253,7 @@ class MawaqitTvLocalizationsBa extends MawaqitTvLocalizations {
   String get azkarList5 => '';
 
   @override
-  String get azkarList6 => 'Key: AlAthkar_0\n-> AlAthkar_0\nأَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله، أَسْـتَغْفِرُ الله \\nاللّهُـمَّ أَنْـتَ السَّلامُ ، وَمِـنْكَ السَّلام ، تَبارَكْتَ يا ذا الجَـلالِ وَالإِكْـرام اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ';
+  String get azkarList6 => '';
 
   @override
   String get azkarList7 => '';
