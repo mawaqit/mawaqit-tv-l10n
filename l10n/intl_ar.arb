@@ -689,5 +689,7 @@
   },
   "@duhaOffsetDesc": {
     "description": "Subtitle for the Duha countdown offset stepper setting"
-  }
+  },
+  "wrongDeviceClock": "تاريخ ووقت هذا التلفاز غير صحيحين، لذلك لا يمكنه المزامنة مع لوحة التحكم. فعّل التاريخ والوقت التلقائيين في إعدادات التلفاز.",
+  "wrongDeviceClockTitle": "التاريخ والوقت غير صحيحين"
 }

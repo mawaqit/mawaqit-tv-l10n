@@ -690,5 +690,7 @@
   },
   "@duhaOffsetDesc": {
     "description": "Subtitle for the Duha countdown offset stepper setting"
-  }
+  },
+  "wrongDeviceClock": "La date et l'heure de cette TV sont incorrectes, elle ne peut donc pas se synchroniser avec le back office. Activez la date et l'heure automatiques dans les paramètres de la TV.",
+  "wrongDeviceClockTitle": "Date et heure incorrectes"
 }

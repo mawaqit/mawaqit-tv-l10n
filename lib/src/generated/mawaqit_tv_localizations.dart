@@ -2524,6 +2524,18 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Prayer times are shown for your mosque'**
   String get crowdinSyncCheck;
+
+  /// Banner shown when HTTPS fails because the device date/time is wrong
+  ///
+  /// In en, this message translates to:
+  /// **'The date and time of this TV are wrong, so it cannot sync with the back office. Enable automatic date and time in the TV settings.'**
+  String get wrongDeviceClock;
+
+  /// Title of the full screen error shown when the device date/time is wrong
+  ///
+  /// In en, this message translates to:
+  /// **'Wrong date and time'**
+  String get wrongDeviceClockTitle;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {
