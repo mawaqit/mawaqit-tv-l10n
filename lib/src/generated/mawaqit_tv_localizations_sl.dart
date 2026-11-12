@@ -1201,4 +1201,10 @@ class MawaqitTvLocalizationsSl extends MawaqitTvLocalizations {
 
   @override
   String get wrongDeviceClockTitle => 'Wrong date and time';
+
+  @override
+  String get hayyaAlaSalah => 'حَيَّ عَلَى الصَّلَاةِ';
+
+  @override
+  String get qadQamatiSalah => 'قَدْ قَامَتِ الصَّلَاةُ';
 }
