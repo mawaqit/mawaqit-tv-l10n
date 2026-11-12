@@ -2536,6 +2536,90 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Wrong date and time'**
   String get wrongDeviceClockTitle;
+
+  /// Onboarding (v2): small line above each step title.
+  ///
+  /// In en, this message translates to:
+  /// **'Step {current} of {total}'**
+  String onboardingStepOf(int current, int total);
+
+  /// Onboarding (v2): small line above the last screen title.
+  ///
+  /// In en, this message translates to:
+  /// **'All set'**
+  String get onboardingAllSet;
+
+  /// Onboarding (v2): step name in the progress rail.
+  ///
+  /// In en, this message translates to:
+  /// **'Language'**
+  String get onboardingLanguage;
+
+  /// Onboarding (v2): step name in the progress rail.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome'**
+  String get onboardingWelcome;
+
+  /// Onboarding (v2): step name in the progress rail.
+  ///
+  /// In en, this message translates to:
+  /// **'Country'**
+  String get onboardingCountry;
+
+  /// Onboarding (v2): step name in the progress rail.
+  ///
+  /// In en, this message translates to:
+  /// **'Mosque'**
+  String get onboardingMosque;
+
+  /// Onboarding (v2): step name in the progress rail.
+  ///
+  /// In en, this message translates to:
+  /// **'Screen location'**
+  String get onboardingScreenLocation;
+
+  /// Onboarding (v2): under "Yes" when asked if the mosque ID is known.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the installation ID or the Mosque ID with the remote'**
+  String get onboardingKnowsMosqueId;
+
+  /// Onboarding (v2): under "No" when asked if the mosque ID is known.
+  ///
+  /// In en, this message translates to:
+  /// **'Search by name, city or postal code'**
+  String get onboardingSearchMosque;
+
+  /// Onboarding (v2): number of Wi-Fi networks found.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 network} other{{count} networks}}'**
+  String wifiNetworksCount(int count);
+
+  /// Onboarding (v2): while looking for Wi-Fi networks.
+  ///
+  /// In en, this message translates to:
+  /// **'Scanning…'**
+  String get wifiScanning;
+
+  /// Onboarding (v2): next to the Wi-Fi network in use.
+  ///
+  /// In en, this message translates to:
+  /// **'Connected'**
+  String get wifiConnected;
+
+  /// Onboarding (v2): title of the last screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Baraka’Allah fikom'**
+  String get onboardingDoneTitle;
+
+  /// Onboarding (v2): text of the last screen, shown just before the home screen opens.
+  ///
+  /// In en, this message translates to:
+  /// **'Your screen is ready. Opening the prayer times…'**
+  String get onboardingDoneMessage;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {

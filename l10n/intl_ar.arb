@@ -691,5 +691,19 @@
     "description": "Subtitle for the Duha countdown offset stepper setting"
   },
   "wrongDeviceClock": "تاريخ ووقت هذا التلفاز غير صحيحين، لذلك لا يمكنه المزامنة مع لوحة التحكم. فعّل التاريخ والوقت التلقائيين في إعدادات التلفاز.",
-  "wrongDeviceClockTitle": "التاريخ والوقت غير صحيحين"
+  "wrongDeviceClockTitle": "التاريخ والوقت غير صحيحين",
+  "onboardingStepOf": "الخطوة {current} من {total}",
+  "onboardingAllSet": "كل شيء جاهز",
+  "onboardingLanguage": "اللغة",
+  "onboardingWelcome": "مرحبًا",
+  "onboardingCountry": "البلد",
+  "onboardingMosque": "المسجد",
+  "onboardingScreenLocation": "موقع الشاشة",
+  "onboardingKnowsMosqueId": "أدخل رقم التثبيت أو رقم المسجد بجهاز التحكم",
+  "onboardingSearchMosque": "ابحث بالاسم أو المدينة أو الرمز البريدي",
+  "wifiNetworksCount": "{count, plural, =0{لا توجد شبكات} =1{شبكة واحدة} =2{شبكتان} few{{count} شبكات} other{{count} شبكة}}",
+  "wifiScanning": "جارٍ البحث…",
+  "wifiConnected": "متصل",
+  "onboardingDoneTitle": "بارك الله فيكم",
+  "onboardingDoneMessage": "شاشتك جاهزة. جارٍ فتح أوقات الصلاة…"
 }
