@@ -1201,6 +1201,12 @@ class MawaqitTvLocalizationsPt extends MawaqitTvLocalizations {
 
   @override
   String get wrongDeviceClockTitle => 'Wrong date and time';
+
+  @override
+  String get hayyaAlaSalah => 'حَيَّ عَلَى الصَّلَاةِ';
+
+  @override
+  String get qadQamatiSalah => 'قَدْ قَامَتِ الصَّلَاةُ';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
