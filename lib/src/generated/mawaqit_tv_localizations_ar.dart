@@ -1,3 +1,5 @@
+import 'package:intl/intl.dart' as intl;
+
 import 'mawaqit_tv_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -1201,4 +1203,59 @@ class MawaqitTvLocalizationsAr extends MawaqitTvLocalizations {
 
   @override
   String get wrongDeviceClockTitle => 'التاريخ والوقت غير صحيحين';
+
+  @override
+  String onboardingStepOf(int current, int total) {
+    return 'الخطوة $current من $total';
+  }
+
+  @override
+  String get onboardingAllSet => 'كل شيء جاهز';
+
+  @override
+  String get onboardingLanguage => 'اللغة';
+
+  @override
+  String get onboardingWelcome => 'مرحبًا';
+
+  @override
+  String get onboardingCountry => 'البلد';
+
+  @override
+  String get onboardingMosque => 'المسجد';
+
+  @override
+  String get onboardingScreenLocation => 'موقع الشاشة';
+
+  @override
+  String get onboardingKnowsMosqueId => 'أدخل رقم التثبيت أو رقم المسجد بجهاز التحكم';
+
+  @override
+  String get onboardingSearchMosque => 'ابحث بالاسم أو المدينة أو الرمز البريدي';
+
+  @override
+  String wifiNetworksCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count شبكة',
+      few: '$count شبكات',
+      two: 'شبكتان',
+      one: 'شبكة واحدة',
+      zero: 'لا توجد شبكات',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get wifiScanning => 'جارٍ البحث…';
+
+  @override
+  String get wifiConnected => 'متصل';
+
+  @override
+  String get onboardingDoneTitle => 'بارك الله فيكم';
+
+  @override
+  String get onboardingDoneMessage => 'شاشتك جاهزة. جارٍ فتح أوقات الصلاة…';
 }

@@ -1,3 +1,5 @@
+import 'package:intl/intl.dart' as intl;
+
 import 'mawaqit_tv_localizations.dart';
 
 // ignore_for_file: type=lint
@@ -1201,4 +1203,56 @@ class MawaqitTvLocalizationsHe extends MawaqitTvLocalizations {
 
   @override
   String get wrongDeviceClockTitle => 'Wrong date and time';
+
+  @override
+  String onboardingStepOf(int current, int total) {
+    return 'Step $current of $total';
+  }
+
+  @override
+  String get onboardingAllSet => 'All set';
+
+  @override
+  String get onboardingLanguage => 'Language';
+
+  @override
+  String get onboardingWelcome => 'Welcome';
+
+  @override
+  String get onboardingCountry => 'Country';
+
+  @override
+  String get onboardingMosque => 'Mosque';
+
+  @override
+  String get onboardingScreenLocation => 'Screen location';
+
+  @override
+  String get onboardingKnowsMosqueId => 'Enter the installation ID or the Mosque ID with the remote';
+
+  @override
+  String get onboardingSearchMosque => 'Search by name, city or postal code';
+
+  @override
+  String wifiNetworksCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count networks',
+      one: '1 network',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get wifiScanning => 'Scanning…';
+
+  @override
+  String get wifiConnected => 'Connected';
+
+  @override
+  String get onboardingDoneTitle => 'Baraka’Allah fikom';
+
+  @override
+  String get onboardingDoneMessage => 'Your screen is ready. Opening the prayer times…';
 }

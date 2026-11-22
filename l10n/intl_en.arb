@@ -698,5 +698,74 @@
   "wrongDeviceClockTitle": "Wrong date and time",
   "@wrongDeviceClockTitle": {
     "description": "Title of the full screen error shown when the device date/time is wrong"
+  },
+  "onboardingStepOf": "Step {current} of {total}",
+  "@onboardingStepOf": {
+    "description": "Onboarding (v2): small line above each step title.",
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "onboardingAllSet": "All set",
+  "@onboardingAllSet": {
+    "description": "Onboarding (v2): small line above the last screen title."
+  },
+  "onboardingLanguage": "Language",
+  "@onboardingLanguage": {
+    "description": "Onboarding (v2): step name in the progress rail."
+  },
+  "onboardingWelcome": "Welcome",
+  "@onboardingWelcome": {
+    "description": "Onboarding (v2): step name in the progress rail."
+  },
+  "onboardingCountry": "Country",
+  "@onboardingCountry": {
+    "description": "Onboarding (v2): step name in the progress rail."
+  },
+  "onboardingMosque": "Mosque",
+  "@onboardingMosque": {
+    "description": "Onboarding (v2): step name in the progress rail."
+  },
+  "onboardingScreenLocation": "Screen location",
+  "@onboardingScreenLocation": {
+    "description": "Onboarding (v2): step name in the progress rail."
+  },
+  "onboardingKnowsMosqueId": "Enter the installation ID or the Mosque ID with the remote",
+  "@onboardingKnowsMosqueId": {
+    "description": "Onboarding (v2): under \"Yes\" when asked if the mosque ID is known."
+  },
+  "onboardingSearchMosque": "Search by name, city or postal code",
+  "@onboardingSearchMosque": {
+    "description": "Onboarding (v2): under \"No\" when asked if the mosque ID is known."
+  },
+  "wifiNetworksCount": "{count, plural, =1{1 network} other{{count} networks}}",
+  "@wifiNetworksCount": {
+    "description": "Onboarding (v2): number of Wi-Fi networks found.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "wifiScanning": "Scanning…",
+  "@wifiScanning": {
+    "description": "Onboarding (v2): while looking for Wi-Fi networks."
+  },
+  "wifiConnected": "Connected",
+  "@wifiConnected": {
+    "description": "Onboarding (v2): next to the Wi-Fi network in use."
+  },
+  "onboardingDoneTitle": "Baraka’Allah fikom",
+  "@onboardingDoneTitle": {
+    "description": "Onboarding (v2): title of the last screen."
+  },
+  "onboardingDoneMessage": "Your screen is ready. Opening the prayer times…",
+  "@onboardingDoneMessage": {
+    "description": "Onboarding (v2): text of the last screen, shown just before the home screen opens."
   }
 }

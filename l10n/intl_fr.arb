@@ -692,5 +692,19 @@
     "description": "Subtitle for the Duha countdown offset stepper setting"
   },
   "wrongDeviceClock": "La date et l'heure de cette TV sont incorrectes, elle ne peut donc pas se synchroniser avec le back office. Activez la date et l'heure automatiques dans les paramètres de la TV.",
-  "wrongDeviceClockTitle": "Date et heure incorrectes"
+  "wrongDeviceClockTitle": "Date et heure incorrectes",
+  "onboardingStepOf": "Étape {current} sur {total}",
+  "onboardingAllSet": "Tout est prêt",
+  "onboardingLanguage": "Langue",
+  "onboardingWelcome": "Bienvenue",
+  "onboardingCountry": "Pays",
+  "onboardingMosque": "Mosquée",
+  "onboardingScreenLocation": "Emplacement de l’écran",
+  "onboardingKnowsMosqueId": "Saisissez l’ID d’installation ou l’ID de la mosquée avec la télécommande",
+  "onboardingSearchMosque": "Recherchez par nom, ville ou code postal",
+  "wifiNetworksCount": "{count, plural, =1{1 réseau} other{{count} réseaux}}",
+  "wifiScanning": "Recherche…",
+  "wifiConnected": "Connecté",
+  "onboardingDoneTitle": "Baraka’Allah fikom",
+  "onboardingDoneMessage": "Votre écran est prêt. Ouverture des horaires de prière…"
 }
