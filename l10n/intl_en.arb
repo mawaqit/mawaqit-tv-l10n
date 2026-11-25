@@ -698,5 +698,21 @@
   "wrongDeviceClockTitle": "Wrong date and time",
   "@wrongDeviceClockTitle": {
     "description": "Title of the full screen error shown when the device date/time is wrong"
+  },
+  "liveBadge": "LIVE",
+  "@liveBadge": {
+    "description": "Badge on a live stream (Jumua khutbah or mosque camera)"
+  },
+  "khutbahInProgress": "Khutbah in progress · please listen in silence",
+  "@khutbahInProgress": {
+    "description": "Shown under the clock during the Jumua khutbah when there is no live stream"
+  },
+  "streamPoorQuality": "Stream quality is poor. Please wait...",
+  "@streamPoorQuality": {
+    "description": "Shown while the live stream is unreliable"
+  },
+  "menu": "Menu",
+  "@menu": {
+    "description": "Hint on the live stream screen: the remote opens the menu"
   }
 }

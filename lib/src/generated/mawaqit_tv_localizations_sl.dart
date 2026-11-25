@@ -1201,4 +1201,16 @@ class MawaqitTvLocalizationsSl extends MawaqitTvLocalizations {
 
   @override
   String get wrongDeviceClockTitle => 'Wrong date and time';
+
+  @override
+  String get liveBadge => 'LIVE';
+
+  @override
+  String get khutbahInProgress => 'Khutbah in progress · please listen in silence';
+
+  @override
+  String get streamPoorQuality => 'Stream quality is poor. Please wait...';
+
+  @override
+  String get menu => 'Menu';
 }

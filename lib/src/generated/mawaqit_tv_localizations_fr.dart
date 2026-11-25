@@ -1201,4 +1201,16 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
 
   @override
   String get wrongDeviceClockTitle => 'Date et heure incorrectes';
+
+  @override
+  String get liveBadge => 'EN DIRECT';
+
+  @override
+  String get khutbahInProgress => 'Khoutba en cours · merci d’écouter en silence';
+
+  @override
+  String get streamPoorQuality => 'Qualité du direct faible. Veuillez patienter...';
+
+  @override
+  String get menu => 'Menu';
 }

@@ -2536,6 +2536,30 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Wrong date and time'**
   String get wrongDeviceClockTitle;
+
+  /// Badge on a live stream (Jumua khutbah or mosque camera)
+  ///
+  /// In en, this message translates to:
+  /// **'LIVE'**
+  String get liveBadge;
+
+  /// Shown under the clock during the Jumua khutbah when there is no live stream
+  ///
+  /// In en, this message translates to:
+  /// **'Khutbah in progress · please listen in silence'**
+  String get khutbahInProgress;
+
+  /// Shown while the live stream is unreliable
+  ///
+  /// In en, this message translates to:
+  /// **'Stream quality is poor. Please wait...'**
+  String get streamPoorQuality;
+
+  /// Hint on the live stream screen: the remote opens the menu
+  ///
+  /// In en, this message translates to:
+  /// **'Menu'**
+  String get menu;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {
