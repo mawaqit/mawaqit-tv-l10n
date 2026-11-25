@@ -698,5 +698,57 @@
   "wrongDeviceClockTitle": "Wrong date and time",
   "@wrongDeviceClockTitle": {
     "description": "Title of the full screen error shown when the device date/time is wrong"
+  },
+  "athkarMorningTitle": "Morning athkar",
+  "@athkarMorningTitle": {
+    "description": "Title of the athkar shown after Fajr"
+  },
+  "athkarEveningTitle": "Evening athkar",
+  "@athkarEveningTitle": {
+    "description": "Title of the athkar shown after Asr"
+  },
+  "athkarIstighfar": "Istighfār",
+  "@athkarIstighfar": {
+    "description": "Name of the dhikr seeking forgiveness (Astaghfirullah), shown under it on the after salah athkar screen"
+  },
+  "athkarTahlil": "Tahlīl",
+  "@athkarTahlil": {
+    "description": "Name of the dhikr «Lā ilāha illallāh…» on the athkar screen"
+  },
+  "athkarTasbih": "Tasbīḥ",
+  "@athkarTasbih": {
+    "description": "Name of the dhikr «Subḥānallāh, Alḥamdulillāh, Allāhu Akbar» on the athkar screen"
+  },
+  "athkarAyatAlKursi": "Āyat al-Kursī",
+  "@athkarAyatAlKursi": {
+    "description": "Name of the Throne Verse (2:255) on the athkar screen"
+  },
+  "athkarSuratAlIkhlas": "Sūrat al-Ikhlāṣ",
+  "@athkarSuratAlIkhlas": {
+    "description": "Name of surah 112 on the athkar screen"
+  },
+  "athkarSuratAlFalaq": "Sūrat al-Falaq",
+  "@athkarSuratAlFalaq": {
+    "description": "Name of surah 113 on the athkar screen"
+  },
+  "athkarSuratAnNas": "Sūrat an-Nās",
+  "@athkarSuratAnNas": {
+    "description": "Name of surah 114 on the athkar screen"
+  },
+  "athkarSayyidAlIstighfar": "Sayyid al-Istighfār",
+  "@athkarSayyidAlIstighfar": {
+    "description": "Name of the master supplication for forgiveness on the athkar screen"
+  },
+  "athkarMorningDhikr": "Morning dhikr",
+  "@athkarMorningDhikr": {
+    "description": "Name of a morning dhikr on the athkar screen"
+  },
+  "athkarEveningDhikr": "Evening dhikr",
+  "@athkarEveningDhikr": {
+    "description": "Name of an evening dhikr on the athkar screen"
+  },
+  "athkarDhikr": "Dhikr",
+  "@athkarDhikr": {
+    "description": "Name of a generic dhikr on the athkar screen"
   }
 }

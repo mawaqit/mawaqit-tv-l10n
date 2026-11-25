@@ -692,5 +692,18 @@
     "description": "Subtitle for the Duha countdown offset stepper setting"
   },
   "wrongDeviceClock": "La date et l'heure de cette TV sont incorrectes, elle ne peut donc pas se synchroniser avec le back office. Activez la date et l'heure automatiques dans les paramètres de la TV.",
-  "wrongDeviceClockTitle": "Date et heure incorrectes"
+  "wrongDeviceClockTitle": "Date et heure incorrectes",
+  "athkarMorningTitle": "Adhkar du matin",
+  "athkarEveningTitle": "Adhkar du soir",
+  "athkarIstighfar": "Istighfār",
+  "athkarTahlil": "Tahlīl",
+  "athkarTasbih": "Tasbīḥ",
+  "athkarAyatAlKursi": "Āyat al-Kursī",
+  "athkarSuratAlIkhlas": "Sourate Al-Ikhlâs",
+  "athkarSuratAlFalaq": "Sourate Al-Falaq",
+  "athkarSuratAnNas": "Sourate An-Nâs",
+  "athkarSayyidAlIstighfar": "Sayyid al-Istighfār",
+  "athkarMorningDhikr": "Dhikr du matin",
+  "athkarEveningDhikr": "Dhikr du soir",
+  "athkarDhikr": "Dhikr"
 }

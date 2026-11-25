@@ -1201,4 +1201,43 @@ class MawaqitTvLocalizationsFr extends MawaqitTvLocalizations {
 
   @override
   String get wrongDeviceClockTitle => 'Date et heure incorrectes';
+
+  @override
+  String get athkarMorningTitle => 'Adhkar du matin';
+
+  @override
+  String get athkarEveningTitle => 'Adhkar du soir';
+
+  @override
+  String get athkarIstighfar => 'Istighfār';
+
+  @override
+  String get athkarTahlil => 'Tahlīl';
+
+  @override
+  String get athkarTasbih => 'Tasbīḥ';
+
+  @override
+  String get athkarAyatAlKursi => 'Āyat al-Kursī';
+
+  @override
+  String get athkarSuratAlIkhlas => 'Sourate Al-Ikhlâs';
+
+  @override
+  String get athkarSuratAlFalaq => 'Sourate Al-Falaq';
+
+  @override
+  String get athkarSuratAnNas => 'Sourate An-Nâs';
+
+  @override
+  String get athkarSayyidAlIstighfar => 'Sayyid al-Istighfār';
+
+  @override
+  String get athkarMorningDhikr => 'Dhikr du matin';
+
+  @override
+  String get athkarEveningDhikr => 'Dhikr du soir';
+
+  @override
+  String get athkarDhikr => 'Dhikr';
 }

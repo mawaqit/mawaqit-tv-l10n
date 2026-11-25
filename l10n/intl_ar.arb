@@ -691,5 +691,18 @@
     "description": "Subtitle for the Duha countdown offset stepper setting"
   },
   "wrongDeviceClock": "تاريخ ووقت هذا التلفاز غير صحيحين، لذلك لا يمكنه المزامنة مع لوحة التحكم. فعّل التاريخ والوقت التلقائيين في إعدادات التلفاز.",
-  "wrongDeviceClockTitle": "التاريخ والوقت غير صحيحين"
+  "wrongDeviceClockTitle": "التاريخ والوقت غير صحيحين",
+  "athkarMorningTitle": "أذكار الصباح",
+  "athkarEveningTitle": "أذكار المساء",
+  "athkarIstighfar": "الاستغفار",
+  "athkarTahlil": "التهليل",
+  "athkarTasbih": "التسبيح",
+  "athkarAyatAlKursi": "آية الكرسي",
+  "athkarSuratAlIkhlas": "سورة الإخلاص",
+  "athkarSuratAlFalaq": "سورة الفلق",
+  "athkarSuratAnNas": "سورة الناس",
+  "athkarSayyidAlIstighfar": "سيد الاستغفار",
+  "athkarMorningDhikr": "ذكر الصباح",
+  "athkarEveningDhikr": "ذكر المساء",
+  "athkarDhikr": "ذكر"
 }

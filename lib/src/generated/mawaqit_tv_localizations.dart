@@ -2536,6 +2536,84 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Wrong date and time'**
   String get wrongDeviceClockTitle;
+
+  /// Title of the athkar shown after Fajr
+  ///
+  /// In en, this message translates to:
+  /// **'Morning athkar'**
+  String get athkarMorningTitle;
+
+  /// Title of the athkar shown after Asr
+  ///
+  /// In en, this message translates to:
+  /// **'Evening athkar'**
+  String get athkarEveningTitle;
+
+  /// Name of the dhikr seeking forgiveness (Astaghfirullah), shown under it on the after salah athkar screen
+  ///
+  /// In en, this message translates to:
+  /// **'Istighfār'**
+  String get athkarIstighfar;
+
+  /// Name of the dhikr «Lā ilāha illallāh…» on the athkar screen
+  ///
+  /// In en, this message translates to:
+  /// **'Tahlīl'**
+  String get athkarTahlil;
+
+  /// Name of the dhikr «Subḥānallāh, Alḥamdulillāh, Allāhu Akbar» on the athkar screen
+  ///
+  /// In en, this message translates to:
+  /// **'Tasbīḥ'**
+  String get athkarTasbih;
+
+  /// Name of the Throne Verse (2:255) on the athkar screen
+  ///
+  /// In en, this message translates to:
+  /// **'Āyat al-Kursī'**
+  String get athkarAyatAlKursi;
+
+  /// Name of surah 112 on the athkar screen
+  ///
+  /// In en, this message translates to:
+  /// **'Sūrat al-Ikhlāṣ'**
+  String get athkarSuratAlIkhlas;
+
+  /// Name of surah 113 on the athkar screen
+  ///
+  /// In en, this message translates to:
+  /// **'Sūrat al-Falaq'**
+  String get athkarSuratAlFalaq;
+
+  /// Name of surah 114 on the athkar screen
+  ///
+  /// In en, this message translates to:
+  /// **'Sūrat an-Nās'**
+  String get athkarSuratAnNas;
+
+  /// Name of the master supplication for forgiveness on the athkar screen
+  ///
+  /// In en, this message translates to:
+  /// **'Sayyid al-Istighfār'**
+  String get athkarSayyidAlIstighfar;
+
+  /// Name of a morning dhikr on the athkar screen
+  ///
+  /// In en, this message translates to:
+  /// **'Morning dhikr'**
+  String get athkarMorningDhikr;
+
+  /// Name of an evening dhikr on the athkar screen
+  ///
+  /// In en, this message translates to:
+  /// **'Evening dhikr'**
+  String get athkarEveningDhikr;
+
+  /// Name of a generic dhikr on the athkar screen
+  ///
+  /// In en, this message translates to:
+  /// **'Dhikr'**
+  String get athkarDhikr;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {
