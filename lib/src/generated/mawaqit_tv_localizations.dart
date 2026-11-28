@@ -2536,6 +2536,18 @@ abstract class MawaqitTvLocalizations {
   /// In en, this message translates to:
   /// **'Wrong date and time'**
   String get wrongDeviceClockTitle;
+
+  /// Call of the adhan shown in Arabic on the adhan screen, whatever the app language. Keep it in Arabic in every language.
+  ///
+  /// In en, this message translates to:
+  /// **'حَيَّ عَلَى الصَّلَاةِ'**
+  String get hayyaAlaSalah;
+
+  /// Call of the iqama shown in Arabic on the iqama screen, whatever the app language. Keep it in Arabic in every language.
+  ///
+  /// In en, this message translates to:
+  /// **'قَدْ قَامَتِ الصَّلَاةُ'**
+  String get qadQamatiSalah;
 }
 
 class _MawaqitTvLocalizationsDelegate extends LocalizationsDelegate<MawaqitTvLocalizations> {

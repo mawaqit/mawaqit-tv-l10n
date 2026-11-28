@@ -698,5 +698,13 @@
   "wrongDeviceClockTitle": "Wrong date and time",
   "@wrongDeviceClockTitle": {
     "description": "Title of the full screen error shown when the device date/time is wrong"
+  },
+  "hayyaAlaSalah": "حَيَّ عَلَى الصَّلَاةِ",
+  "@hayyaAlaSalah": {
+    "description": "Call of the adhan shown in Arabic on the adhan screen, whatever the app language. Keep it in Arabic in every language."
+  },
+  "qadQamatiSalah": "قَدْ قَامَتِ الصَّلَاةُ",
+  "@qadQamatiSalah": {
+    "description": "Call of the iqama shown in Arabic on the iqama screen, whatever the app language. Keep it in Arabic in every language."
   }
 }
